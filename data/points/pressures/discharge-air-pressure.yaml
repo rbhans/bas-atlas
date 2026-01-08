@@ -2,8 +2,16 @@ concept:
   id: discharge-air-pressure
   name: Discharge Air Pressure
   category: pressures
-  description: Discharge Air Pressure point
-  haystack: discharge air pressure
+  description: Static pressure in supply air duct, used to control fan speed
+  haystack: discharge air pressure sensor
+  brick: Discharge_Air_Static_Pressure_Sensor
+  unit: inH2O
+  typical_range:
+    min: 0.5
+    max: 3.0
+  object_type: analog-input
+  engineering_units: inches-of-water
+
 aliases:
   common:
     - da-p
@@ -14,4 +22,26 @@ aliases:
     - da1-p
     - duct static
     - duct static pressure
-  abbreviated: []
+    - supply static
+    - supply static pressure
+    - DSP
+    - DAP
+  abbreviated:
+    - dsp
+    - dap
+    - sp
+  verbose:
+    - discharge air static pressure
+    - supply duct static pressure
+    - duct static pressure sensor
+
+notes:
+  - Typically measured 2/3 down the longest duct run
+  - Used as feedback for supply fan VFD speed control
+  - Setpoint typically 1.0-2.0 in.wc for VAV systems
+  - Higher setpoint needed for longer duct runs
+
+related:
+  - discharge-air-pressure-setpoint
+  - supply-fan-speed
+  - supply-fan-output

@@ -2,8 +2,16 @@ concept:
   id: zone-temperature
   name: Zone Temperature
   category: temperatures
-  description: Zone Temperature point
-  haystack: zone temperature
+  description: Sensed temperature of air in occupied zone or space
+  haystack: zone air temp sensor
+  brick: Zone_Air_Temperature_Sensor
+  unit: degF
+  typical_range:
+    min: 55
+    max: 85
+  object_type: analog-input
+  engineering_units: degrees-fahrenheit
+
 aliases:
   common:
     - zn-t
@@ -18,4 +26,36 @@ aliases:
     - space temperature
     - space-t
     - space temp
-  abbreviated: []
+    - ZoneTemp
+    - Zone_Temp
+    - RoomTemp
+    - SpaceTemp
+    - ZAT
+    - RAT
+  abbreviated:
+    - zt
+    - znt
+    - rt
+    - st
+  verbose:
+    - zone air temperature
+    - room air temperature
+    - space air temperature
+    - zone temperature sensor
+  misspellings:
+    - ZoneTepm
+    - ZonTemp
+    - temperture
+    - tempreture
+
+notes:
+  - Often abbreviated as ZAT (Zone Air Temp) or RAT (Room Air Temp)
+  - In VRF systems, may be called Indoor Unit Temp or FCU Temp
+  - Wireless sensors often use vendor-specific names like EnOcean_Temp_1
+  - When multiple sensors in zone, often suffixed ZoneTemp_1, ZoneTemp_Avg
+
+related:
+  - discharge-air-temperature
+  - return-air-temperature
+  - occupied-cooling-setpoint
+  - occupied-heating-setpoint

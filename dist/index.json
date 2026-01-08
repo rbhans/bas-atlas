@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-08T14:25:38.743Z",
+  "lastUpdated": "2026-01-08T16:03:29.526Z",
   "totalPoints": 292,
   "totalEquipment": 62,
   "points": [
@@ -2528,18 +2528,43 @@
         "id": "supply-fan-status",
         "name": "Supply Fan Status",
         "category": "fans",
-        "description": "Supply Fan Status point",
-        "haystack": "supply fan status"
+        "description": "Binary status indicating if supply fan is running",
+        "haystack": "supply fan run sensor",
+        "brick": "Supply_Fan_Status",
+        "object_type": "binary-input"
       },
       "aliases": {
         "common": [
           "sf-s",
           "sf status",
           "sf sts",
-          "fan status"
+          "fan status",
+          "supply fan run",
+          "SF_Status",
+          "SupplyFan_Sts",
+          "SFS"
         ],
-        "abbreviated": []
-      }
+        "abbreviated": [
+          "sfs",
+          "sf-sts"
+        ],
+        "verbose": [
+          "supply fan running status",
+          "supply fan proof of operation"
+        ]
+      },
+      "notes": [
+        "Typically from current sensing relay or differential pressure switch",
+        "Used for fan failure alarms and interlock logic",
+        "Should match command within reasonable delay",
+        "Critical for safety interlocks"
+      ],
+      "related": [
+        "supply-fan-command",
+        "supply-fan-alarm",
+        "supply-fan-fault",
+        "supply-fan-speed"
+      ]
     },
     {
       "concept": {
@@ -2829,8 +2854,16 @@
         "id": "discharge-air-pressure",
         "name": "Discharge Air Pressure",
         "category": "pressures",
-        "description": "Discharge Air Pressure point",
-        "haystack": "discharge air pressure"
+        "description": "Static pressure in supply air duct, used to control fan speed",
+        "haystack": "discharge air pressure sensor",
+        "brick": "Discharge_Air_Static_Pressure_Sensor",
+        "unit": "inH2O",
+        "typical_range": {
+          "min": 0.5,
+          "max": 3
+        },
+        "object_type": "analog-input",
+        "engineering_units": "inches-of-water"
       },
       "aliases": {
         "common": [
@@ -2841,10 +2874,34 @@
           "disch air press",
           "da1-p",
           "duct static",
-          "duct static pressure"
+          "duct static pressure",
+          "supply static",
+          "supply static pressure",
+          "DSP",
+          "DAP"
         ],
-        "abbreviated": []
-      }
+        "abbreviated": [
+          "dsp",
+          "dap",
+          "sp"
+        ],
+        "verbose": [
+          "discharge air static pressure",
+          "supply duct static pressure",
+          "duct static pressure sensor"
+        ]
+      },
+      "notes": [
+        "Typically measured 2/3 down the longest duct run",
+        "Used as feedback for supply fan VFD speed control",
+        "Setpoint typically 1.0-2.0 in.wc for VAV systems",
+        "Higher setpoint needed for longer duct runs"
+      ],
+      "related": [
+        "discharge-air-pressure-setpoint",
+        "supply-fan-speed",
+        "supply-fan-output"
+      ]
     },
     {
       "concept": {
@@ -4145,18 +4202,47 @@
         "id": "chilled-water-supply-temperature",
         "name": "Chilled Water Supply Temperature",
         "category": "temperatures",
-        "description": "Chilled Water Supply Temperature point",
-        "haystack": "chilled water supply temperature"
+        "description": "Temperature of chilled water leaving the chiller plant",
+        "haystack": "chilled water leaving temp sensor",
+        "brick": "Chilled_Water_Supply_Temperature_Sensor",
+        "unit": "degF",
+        "typical_range": {
+          "min": 40,
+          "max": 55
+        },
+        "object_type": "analog-input",
+        "engineering_units": "degrees-fahrenheit"
       },
       "aliases": {
         "common": [
           "chws-t",
           "chws temp",
           "chws temperature",
-          "chws tmp"
+          "chws tmp",
+          "chw supply temp",
+          "CHWST",
+          "CHW_Supply_Temp"
         ],
-        "abbreviated": []
-      }
+        "abbreviated": [
+          "chwst",
+          "cwst"
+        ],
+        "verbose": [
+          "chilled water supply temperature sensor",
+          "chilled water leaving temperature"
+        ]
+      },
+      "notes": [
+        "Typical setpoint 42-44°F for comfort cooling",
+        "Higher setpoints (50-55°F) for energy optimization",
+        "Must stay above 40°F to prevent coil freezing",
+        "Delta T from return typically 10-14°F"
+      ],
+      "related": [
+        "chilled-water-return-temperature",
+        "chiller-1-leaving-temperature",
+        "cooling-valve-output"
+      ]
     },
     {
       "concept": {
@@ -4680,18 +4766,50 @@
         "id": "discharge-air-temperature",
         "name": "Discharge Air Temperature",
         "category": "temperatures",
-        "description": "Discharge Air Temperature point",
-        "haystack": "discharge air temperature"
+        "description": "Temperature of air leaving the air handling unit or terminal unit",
+        "haystack": "discharge air temp sensor",
+        "brick": "Discharge_Air_Temperature_Sensor",
+        "unit": "degF",
+        "typical_range": {
+          "min": 50,
+          "max": 110
+        },
+        "object_type": "analog-input",
+        "engineering_units": "degrees-fahrenheit"
       },
       "aliases": {
         "common": [
           "da-t",
           "da temp",
           "da temperature",
-          "disch air temp"
+          "disch air temp",
+          "DAT",
+          "DischargeTemp",
+          "Discharge_Temp"
         ],
-        "abbreviated": []
-      }
+        "abbreviated": [
+          "dat",
+          "dt"
+        ],
+        "verbose": [
+          "discharge air temperature sensor",
+          "leaving air temperature",
+          "supply air temperature"
+        ]
+      },
+      "notes": [
+        "Cooling mode typically 50-65°F",
+        "Heating mode typically 70-110°F",
+        "Sometimes called Supply Air Temperature (SAT) downstream of unit",
+        "Critical for discharge air temperature control loops"
+      ],
+      "related": [
+        "supply-air-temperature",
+        "mixed-air-temperature",
+        "discharge-air-temperature-setpoint",
+        "cooling-valve-output",
+        "heating-valve-output"
+      ]
     },
     {
       "concept": {
@@ -4844,18 +4962,55 @@
         "id": "outdoor-air-temperature",
         "name": "Outdoor Air Temperature",
         "category": "temperatures",
-        "description": "Outdoor Air Temperature point",
-        "haystack": "outdoor air temperature"
+        "description": "Temperature of outside ambient air, used for economizer and lockout control",
+        "haystack": "outside air temp sensor",
+        "brick": "Outside_Air_Temperature_Sensor",
+        "unit": "degF",
+        "typical_range": {
+          "min": -20,
+          "max": 120
+        },
+        "object_type": "analog-input",
+        "engineering_units": "degrees-fahrenheit"
       },
       "aliases": {
         "common": [
           "oa-t",
           "oa temp",
           "oa temperature",
-          "outdoor air temp"
+          "outdoor air temp",
+          "outside air temp",
+          "outside temp",
+          "OAT",
+          "OutdoorTemp",
+          "OutsideTemp"
         ],
-        "abbreviated": []
-      }
+        "abbreviated": [
+          "oat",
+          "ot"
+        ],
+        "verbose": [
+          "outside air temperature sensor",
+          "ambient air temperature",
+          "outdoor ambient temperature"
+        ],
+        "misspellings": [
+          "outdor temp",
+          "outsite temp"
+        ]
+      },
+      "notes": [
+        "Critical for economizer enable/disable decisions",
+        "Used for heating/cooling lockout control",
+        "Often shared across multiple AHUs via BACnet",
+        "May be provided by weather service in some systems"
+      ],
+      "related": [
+        "economizer-enable",
+        "cooling-outdoor-air-lockout-setpoint",
+        "heating-outdoor-air-lockout-setpoint",
+        "outdoor-air-humidity"
+      ]
     },
     {
       "concept": {
@@ -5042,8 +5197,16 @@
         "id": "zone-temperature",
         "name": "Zone Temperature",
         "category": "temperatures",
-        "description": "Zone Temperature point",
-        "haystack": "zone temperature"
+        "description": "Sensed temperature of air in occupied zone or space",
+        "haystack": "zone air temp sensor",
+        "brick": "Zone_Air_Temperature_Sensor",
+        "unit": "degF",
+        "typical_range": {
+          "min": 55,
+          "max": 85
+        },
+        "object_type": "analog-input",
+        "engineering_units": "degrees-fahrenheit"
       },
       "aliases": {
         "common": [
@@ -5058,10 +5221,45 @@
           "room temp",
           "space temperature",
           "space-t",
-          "space temp"
+          "space temp",
+          "ZoneTemp",
+          "Zone_Temp",
+          "RoomTemp",
+          "SpaceTemp",
+          "ZAT",
+          "RAT"
         ],
-        "abbreviated": []
-      }
+        "abbreviated": [
+          "zt",
+          "znt",
+          "rt",
+          "st"
+        ],
+        "verbose": [
+          "zone air temperature",
+          "room air temperature",
+          "space air temperature",
+          "zone temperature sensor"
+        ],
+        "misspellings": [
+          "ZoneTepm",
+          "ZonTemp",
+          "temperture",
+          "tempreture"
+        ]
+      },
+      "notes": [
+        "Often abbreviated as ZAT (Zone Air Temp) or RAT (Room Air Temp)",
+        "In VRF systems, may be called Indoor Unit Temp or FCU Temp",
+        "Wireless sensors often use vendor-specific names like EnOcean_Temp_1",
+        "When multiple sensors in zone, often suffixed ZoneTemp_1, ZoneTemp_Avg"
+      ],
+      "related": [
+        "discharge-air-temperature",
+        "return-air-temperature",
+        "occupied-cooling-setpoint",
+        "occupied-heating-setpoint"
+      ]
     },
     {
       "concept": {

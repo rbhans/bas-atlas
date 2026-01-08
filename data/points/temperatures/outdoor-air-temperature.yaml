@@ -2,12 +2,46 @@ concept:
   id: outdoor-air-temperature
   name: Outdoor Air Temperature
   category: temperatures
-  description: Outdoor Air Temperature point
-  haystack: outdoor air temperature
+  description: Temperature of outside ambient air, used for economizer and lockout control
+  haystack: outside air temp sensor
+  brick: Outside_Air_Temperature_Sensor
+  unit: degF
+  typical_range:
+    min: -20
+    max: 120
+  object_type: analog-input
+  engineering_units: degrees-fahrenheit
+
 aliases:
   common:
     - oa-t
     - oa temp
     - oa temperature
     - outdoor air temp
-  abbreviated: []
+    - outside air temp
+    - outside temp
+    - OAT
+    - OutdoorTemp
+    - OutsideTemp
+  abbreviated:
+    - oat
+    - ot
+  verbose:
+    - outside air temperature sensor
+    - ambient air temperature
+    - outdoor ambient temperature
+  misspellings:
+    - outdor temp
+    - outsite temp
+
+notes:
+  - Critical for economizer enable/disable decisions
+  - Used for heating/cooling lockout control
+  - Often shared across multiple AHUs via BACnet
+  - May be provided by weather service in some systems
+
+related:
+  - economizer-enable
+  - cooling-outdoor-air-lockout-setpoint
+  - heating-outdoor-air-lockout-setpoint
+  - outdoor-air-humidity

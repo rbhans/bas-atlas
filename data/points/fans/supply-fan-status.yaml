@@ -2,12 +2,36 @@ concept:
   id: supply-fan-status
   name: Supply Fan Status
   category: fans
-  description: Supply Fan Status point
-  haystack: supply fan status
+  description: Binary status indicating if supply fan is running
+  haystack: supply fan run sensor
+  brick: Supply_Fan_Status
+  object_type: binary-input
+
 aliases:
   common:
     - sf-s
     - sf status
     - sf sts
     - fan status
-  abbreviated: []
+    - supply fan run
+    - SF_Status
+    - SupplyFan_Sts
+    - SFS
+  abbreviated:
+    - sfs
+    - sf-sts
+  verbose:
+    - supply fan running status
+    - supply fan proof of operation
+
+notes:
+  - Typically from current sensing relay or differential pressure switch
+  - Used for fan failure alarms and interlock logic
+  - Should match command within reasonable delay
+  - Critical for safety interlocks
+
+related:
+  - supply-fan-command
+  - supply-fan-alarm
+  - supply-fan-fault
+  - supply-fan-speed

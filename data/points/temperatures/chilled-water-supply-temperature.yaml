@@ -2,12 +2,39 @@ concept:
   id: chilled-water-supply-temperature
   name: Chilled Water Supply Temperature
   category: temperatures
-  description: Chilled Water Supply Temperature point
-  haystack: chilled water supply temperature
+  description: Temperature of chilled water leaving the chiller plant
+  haystack: chilled water leaving temp sensor
+  brick: Chilled_Water_Supply_Temperature_Sensor
+  unit: degF
+  typical_range:
+    min: 40
+    max: 55
+  object_type: analog-input
+  engineering_units: degrees-fahrenheit
+
 aliases:
   common:
     - chws-t
     - chws temp
     - chws temperature
     - chws tmp
-  abbreviated: []
+    - chw supply temp
+    - CHWST
+    - CHW_Supply_Temp
+  abbreviated:
+    - chwst
+    - cwst
+  verbose:
+    - chilled water supply temperature sensor
+    - chilled water leaving temperature
+
+notes:
+  - Typical setpoint 42-44°F for comfort cooling
+  - Higher setpoints (50-55°F) for energy optimization
+  - Must stay above 40°F to prevent coil freezing
+  - Delta T from return typically 10-14°F
+
+related:
+  - chilled-water-return-temperature
+  - chiller-1-leaving-temperature
+  - cooling-valve-output

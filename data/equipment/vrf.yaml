@@ -1,25 +1,63 @@
 equipment:
-  - id: vrf-indoorunit
-    name: vrf-indoorUnit
-    full_name: vrf
+  - id: vrf-outdoor-unit
+    name: VRF Outdoor Unit
+    abbreviation: ODU
     category: vrf
-    description: vrf
+    description: Outdoor condensing unit for VRF system, connects to multiple indoor units via refrigerant piping
+    haystack: vrf-outdoorUnit
+    brick: VRF_Outdoor_Unit
     aliases:
       common:
-        - vrf
-        - variable refrigerant flow
+        - VRF outdoor unit
+        - VRF ODU
+        - outdoor unit
+        - ODU
+        - VRF condenser
+        - VRF condensing unit
+        - outdoor condensing unit
+        - VRF heat recovery unit
+        - VRF heat pump outdoor
+      abbreviated: []
+
+  - id: vrf-indoor-unit
+    name: VRF Indoor Unit
+    abbreviation: IDU
+    category: vrf
+    description: Indoor evaporator unit in VRF system, available in various configurations for zone cooling/heating
+    haystack: vrf-indoorUnit
+    brick: VRF_Indoor_Unit
+    aliases:
+      common:
+        - VRF indoor unit
+        - VRF IDU
+        - indoor unit
+        - IDU
+        - VRF cassette
         - ceiling cassette
+        - concealed duct
         - ceiling concealed duct
         - wall mounted
+        - floor standing
+        - high wall unit
+        - ducted VRF
       abbreviated: []
-  - id: vrf-outdoorunit
-    name: vrf-outdoorUnit
-    full_name: vrf odu
+
+  - id: vrf-branch-selector-box
+    name: VRF Branch Selector Box
+    abbreviation: BSB
     category: vrf
-    description: vrf odu
+    description: Distribution box that directs refrigerant flow to individual indoor units in heat recovery VRF systems
+    haystack: vrf-branchBox
+    brick: VRF_Branch_Selector_Box
     aliases:
       common:
-        - vrf odu
-        - odu
-        - outdoor unit
+        - VRF branch selector box
+        - BSB
+        - branch controller
+        - refnet joint
+        - branch box
+        - VRF distribution box
+        - heat recovery box
+        - HR box
+        - BC controller
       abbreviated: []

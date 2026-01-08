@@ -1,66 +1,90 @@
 equipment:
-  - id: ac-elec-meter
-    name: ac-elec-meter
-    full_name: elec meter
+  - id: electric-meter
+    name: Electric Meter
+    abbreviation: EM
     category: metering
-    description: elec meter
+    description: Device that measures electrical energy consumption in kWh or demand in kW
+    haystack: elec-meter
+    brick: Electrical_Meter
     aliases:
       common:
-        - elec meter
-        - electricity meter
-        - kw meter
+        - electric meter
         - power meter
+        - kWh meter
+        - energy meter
+        - watt meter
+        - electricity meter
+        - electrical meter
+        - demand meter
+        - kilowatt meter
+        - submeter
       abbreviated: []
-  - id: dc-elec-meter
-    name: dc-elec meter
-    full_name: elec meter
+
+  - id: natural-gas-meter
+    name: Natural Gas Meter
+    abbreviation: GM
     category: metering
-    description: elec meter
+    description: Device that measures natural gas consumption, typically in cubic feet or therms
+    haystack: gas-meter
+    brick: Natural_Gas_Meter
     aliases:
       common:
-        - elec meter
-        - electricity meter
-        - kw meter
-        - power meter
+        - gas meter
+        - natural gas meter
+        - fuel meter
+        - gas flow meter
+        - therm meter
+        - CCF meter
       abbreviated: []
-  - id: elec-meter
-    name: elec-meter
-    full_name: elec meter
+
+  - id: water-meter
+    name: Water Meter
+    abbreviation: WM
     category: metering
-    description: elec meter
-    aliases:
-      common:
-        - elec meter
-        - electricity meter
-        - kw meter
-        - power meter
-      abbreviated: []
-  - id: flow-meter
-    name: flow-meter
-    full_name: water meter
-    category: metering
-    description: water meter
+    description: Device that measures water flow or consumption in gallons or cubic feet
+    haystack: flow-meter
+    brick: Water_Meter
     aliases:
       common:
         - water meter
-        - gpm meter
+        - flow meter
+        - GPM meter
+        - water flow meter
+        - domestic water meter
+        - makeup water meter
+        - city water meter
       abbreviated: []
-  - id: gas-meter
-    name: gas-meter
-    full_name: natural gas meter
-    category: metering
-    description: natural gas meter
-    aliases:
-      common:
-        - natural gas meter
-        - gas meter
-      abbreviated: []
+
   - id: steam-meter
-    name: steam-meter
-    full_name: steam meter
+    name: Steam Meter
+    abbreviation: SM
     category: metering
-    description: steam meter
+    description: Device that measures steam flow, typically in pounds per hour
+    haystack: steam-meter
+    brick: Steam_Meter
     aliases:
       common:
         - steam meter
+        - steam flow meter
+        - condensate meter
+        - steam mass flow meter
+      abbreviated: []
+
+  - id: btu-meter
+    name: BTU Meter
+    abbreviation: BTU
+    category: metering
+    description: Device that measures thermal energy by calculating flow rate and temperature differential
+    haystack: btu-meter
+    brick: Thermal_Energy_Meter
+    aliases:
+      common:
+        - BTU meter
+        - energy meter
+        - thermal meter
+        - heat meter
+        - thermal energy meter
+        - Btu meter
+        - British thermal unit meter
+        - delta-T meter
       abbreviated: []

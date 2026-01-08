@@ -1,126 +1,178 @@
 equipment:
-  - id: elecheating
-    name: elecHeating
-    full_name: electric heating
+  - id: variable-air-volume-box
+    name: Variable Air Volume Box
+    abbreviation: VAV
     category: terminal-units
-    description: electric heating
+    description: Terminal unit that varies airflow to control zone temperature, used in VAV HVAC systems
+    haystack: vav
+    brick: Variable_Air_Volume_Box
     aliases:
       common:
-        - electric heating
-        - stage heat
-        - heating
-        - heat
-      abbreviated: []
-  - id: hotwaterheating
-    name: hotWaterHeating
-    full_name: hot water heating
+        - VAV
+        - VAV box
+        - VAV terminal
+        - air terminal unit
+        - VAV terminal unit
+        - variable volume box
+      abbreviated:
+        - VV
+
+  - id: constant-air-volume-box
+    name: Constant Air Volume Box
+    abbreviation: CAV
     category: terminal-units
-    description: hot water heating
+    description: Terminal unit that maintains constant airflow, temperature controlled by varying supply air temp
+    haystack: cav
+    brick: Constant_Air_Volume_Box
     aliases:
       common:
-        - hot water heating
-        - hw heating
-        - heating
-        - heat
-      abbreviated: []
-  - id: steamheating
-    name: steamHeating
-    full_name: steam heating
+        - CAV
+        - CAV box
+        - CAV terminal
+        - constant volume box
+        - CV box
+      abbreviated:
+        - CV
+
+  - id: parallel-fan-powered-box
+    name: Parallel Fan Powered Box
+    abbreviation: PFPB
     category: terminal-units
-    description: steam heating
+    description: VAV box with parallel fan that draws plenum air, fan runs intermittently during heating
+    haystack: parallelFanVav
+    brick: Parallel_Fan_Powered_Box
     aliases:
       common:
-        - steam heating
-        - steam heat
-        - heating
-        - heat
-      abbreviated: []
-  - id: pressuredependent
-    name: pressureDependent
-    full_name: pressure dependent
+        - PFPB
+        - parallel fan box
+        - PFVAV
+        - parallel fan VAV
+        - fan powered box
+        - FPB
+        - parallel fan terminal
+      abbreviated:
+        - PFB
+
+  - id: series-fan-powered-box
+    name: Series Fan Powered Box
+    abbreviation: SFPB
     category: terminal-units
-    description: pressure dependent
+    description: VAV box with series fan that runs continuously, mixing primary and plenum air
+    haystack: seriesFanVav
+    brick: Series_Fan_Powered_Box
     aliases:
       common:
-        - pressure dependent
-      abbreviated: []
-  - id: pressureindependent
-    name: pressureIndependent
-    full_name: pressure independent
+        - SFPB
+        - series fan box
+        - SFVAV
+        - series fan VAV
+        - series fan terminal
+      abbreviated:
+        - SFB
+
+  - id: chilled-beam
+    name: Chilled Beam
+    abbreviation: CB
     category: terminal-units
-    description: pressure independent
+    description: Ceiling-mounted unit using chilled water coils for cooling via convection and radiation
+    haystack: chilledBeam
+    brick: Chilled_Beam
     aliases:
       common:
-        - pressure independent
-      abbreviated: []
-  - id: parallel
-    name: parallel
-    full_name: pfvav
+        - chilled beam
+        - active chilled beam
+        - passive chilled beam
+        - induction beam
+        - ceiling beam
+        - chilled ceiling
+      abbreviated:
+        - ACB
+        - PCB
+
+  - id: radiant-panel
+    name: Radiant Panel
+    abbreviation: RP
     category: terminal-units
-    description: pfvav
+    description: Panel system using radiant heat transfer for heating or cooling, ceiling or floor mounted
+    haystack: radiantPanel
+    brick: Radiant_Panel
     aliases:
       common:
-        - pfvav
-        - parallel fan
-        - parallel fan vav
+        - radiant panel
+        - radiant ceiling panel
+        - radiant floor panel
+        - radiant heating panel
+        - radiant cooling panel
+        - ceiling panel
       abbreviated: []
-  - id: series
-    name: series
-    full_name: sfvav
+
+  - id: baseboard-heater
+    name: Baseboard Heater
+    abbreviation: BB
     category: terminal-units
-    description: sfvav
+    description: Wall-mounted heating element at floor level, using hot water or electric resistance
+    haystack: baseboard
+    brick: Baseboard_Heater
     aliases:
       common:
-        - sfvav
-        - series fan
-        - series fan vav
+        - baseboard heater
+        - fin tube
+        - baseboard radiator
+        - convector
+        - finned tube radiator
+        - baseboard convector
+        - hot water baseboard
+        - electric baseboard
       abbreviated: []
-  - id: singleduct
-    name: singleDuct
-    full_name: single duct
+
+  - id: unit-heater
+    name: Unit Heater
+    abbreviation: UH
     category: terminal-units
-    description: single duct
+    description: Self-contained heating unit with fan, using gas, hot water, or electric heat
+    haystack: unitHeater
+    brick: Unit_Heater
     aliases:
       common:
-        - single duct
+        - UH
+        - unit heater
+        - gas-fired unit heater
+        - hot water unit heater
+        - cabinet heater
+        - cabinet unit heater
+        - CUH
+        - suspended heater
+        - ceiling heater
       abbreviated: []
-  - id: dualduct
-    name: dualDuct
-    full_name: dual duct
+
+  - id: induction-unit
+    name: Induction Unit
+    abbreviation: IU
     category: terminal-units
-    description: dual duct
+    description: Terminal unit that uses high-velocity primary air to induce room air across a coil
+    haystack: inductionUnit
+    brick: Induction_Unit
     aliases:
       common:
-        - dual duct
+        - induction unit
+        - induction terminal
+        - air induction unit
+        - high pressure induction
       abbreviated: []
-  - id: inlet
-    name: inlet
-    full_name: supply air
+
+  - id: blower-coil-unit
+    name: Blower Coil Unit
+    abbreviation: BCU
     category: terminal-units
-    description: supply air
+    description: Horizontal or vertical unit with blower and coil, similar to FCU but typically ductless
+    haystack: blowerCoil
+    brick: Blower_Coil_Unit
     aliases:
       common:
-        - supply air
-        - from ahu
-        - sa
-      abbreviated: []
-  - id: discharge
-    name: discharge
-    full_name: discharge air
-    category: terminal-units
-    description: discharge air
-    aliases:
-      common:
-        - discharge air
-        - da
-      abbreviated: []
-  - id: zone
-    name: zone
-    full_name: space
-    category: terminal-units
-    description: space
-    aliases:
-      common:
-        - space
-        - room
-      abbreviated: []
+        - BCU
+        - blower coil
+        - horizontal blower coil
+        - vertical blower coil
+        - console unit
+      abbreviated:
+        - BC

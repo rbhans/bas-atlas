@@ -1,314 +1,248 @@
 equipment:
-  - id: ahu
-    name: ahu
-    full_name: air handling unit
+  - id: air-handling-unit
+    name: Air Handling Unit
+    abbreviation: AHU
     category: air-handling
-    description: air handling unit
+    description: Central air conditioning unit that conditions and circulates air through ductwork
+    haystack: ahu
+    brick: Air_Handling_Unit
     aliases:
       common:
-        - air handling unit
-      abbreviated: []
-  - id: doas
-    name: doas
-    full_name: dedicated outside air system
+        - AHU
+        - air handler
+        - central air handler
+        - air handling equipment
+      abbreviated:
+        - AH
+
+  - id: rooftop-unit
+    name: Rooftop Unit
+    abbreviation: RTU
     category: air-handling
-    description: dedicated outside air system
+    description: Self-contained HVAC unit installed on building roof, combines heating, cooling, and ventilation
+    haystack: rtu
+    brick: Rooftop_Unit
     aliases:
       common:
-        - dedicated outside air system
-        - dedicated outdoor air unit
-        - doau
-      abbreviated: []
-  - id: mau
-    name: mau
-    full_name: makeup air unit
-    category: air-handling
-    description: makeup air unit
-    aliases:
-      common:
-        - makeup air unit
-        - makeup air
-      abbreviated: []
-  - id: rtu
-    name: rtu
-    full_name: roof top unit
-    category: air-handling
-    description: roof top unit
-    aliases:
-      common:
+        - RTU
+        - rooftop package unit
+        - packaged rooftop unit
         - roof top unit
-      abbreviated: []
-  - id: fcu
-    name: fcu
-    full_name: fan coil unit
+        - rooftop air handler
+      abbreviated:
+        - RT
+
+  - id: makeup-air-unit
+    name: Makeup Air Unit
+    abbreviation: MAU
     category: air-handling
-    description: fan coil unit
+    description: Unit that conditions and supplies fresh outdoor air to replace exhausted air
+    haystack: mau
+    brick: Makeup_Air_Unit
     aliases:
       common:
-        - fan coil unit
+        - MAU
+        - MUA
+        - makeup air handler
+        - fresh air unit
+        - makeup air
+        - make-up air unit
+      abbreviated:
+        - MA
+
+  - id: dedicated-outdoor-air-system
+    name: Dedicated Outdoor Air System
+    abbreviation: DOAS
+    category: air-handling
+    description: System that conditions 100% outdoor air for ventilation, separate from space conditioning
+    haystack: doas
+    brick: Dedicated_Outdoor_Air_System
+    aliases:
+      common:
+        - DOAS
+        - dedicated outside air unit
+        - DOAU
+        - 100% OA unit
+        - dedicated outdoor air unit
+        - dedicated outside air system
+      abbreviated:
+        - DOA
+
+  - id: fan-coil-unit
+    name: Fan Coil Unit
+    abbreviation: FCU
+    category: air-handling
+    description: Small terminal unit with fan and coil for local heating/cooling, typically without ductwork
+    haystack: fcu
+    brick: Fan_Coil_Unit
+    aliases:
+      common:
+        - FCU
         - fan coil
-      abbreviated: []
-  - id: crac
-    name: crac
-    full_name: computer room air conditioner
+        - fancoil
+        - fan-coil
+        - ceiling fan coil
+        - horizontal fan coil
+        - vertical fan coil
+      abbreviated:
+        - FC
+
+  - id: computer-room-air-conditioner
+    name: Computer Room Air Conditioner
+    abbreviation: CRAC
     category: air-handling
-    description: computer room air conditioner
+    description: Precision cooling unit designed for data centers and computer rooms with tight temperature control
+    haystack: crac
+    brick: Computer_Room_Air_Conditioner
     aliases:
       common:
-        - computer room air conditioner
-        - crah
+        - CRAC
+        - precision cooling unit
+        - data center cooling
+        - computer room AC
+        - precision air conditioner
       abbreviated: []
-  - id: unitvent
-    name: unitVent
-    full_name: uv
+
+  - id: computer-room-air-handler
+    name: Computer Room Air Handler
+    abbreviation: CRAH
     category: air-handling
-    description: uv
+    description: Precision air handler for data centers using chilled water instead of DX cooling
+    haystack: crah
+    brick: Computer_Room_Air_Handler
     aliases:
       common:
-        - uv
-        - unit ventilator
+        - CRAH
+        - precision air handler
+        - data center air handler
+        - chilled water CRAC
+      abbreviated: []
+
+  - id: unit-ventilator
+    name: Unit Ventilator
+    abbreviation: UV
+    category: air-handling
+    description: Wall-mounted unit providing ventilation and heating/cooling, common in schools and offices
+    haystack: unitVent
+    brick: Unit_Ventilator
+    aliases:
+      common:
+        - UV
         - unit vent
+        - univent
+        - classroom unit ventilator
+        - wall unit ventilator
       abbreviated: []
-  - id: heatpump
-    name: heatPump
-    full_name: hp
+
+  - id: packaged-terminal-air-conditioner
+    name: Packaged Terminal Air Conditioner
+    abbreviation: PTAC
     category: air-handling
-    description: hp
+    description: Through-wall self-contained unit for heating and cooling individual rooms, common in hotels
+    haystack: ptac
+    brick: Packaged_Terminal_Air_Conditioner
     aliases:
       common:
-        - hp
+        - PTAC
+        - through-wall AC
+        - wall unit
+        - hotel AC unit
+        - through-the-wall unit
+      abbreviated: []
+
+  - id: packaged-terminal-heat-pump
+    name: Packaged Terminal Heat Pump
+    abbreviation: PTHP
+    category: air-handling
+    description: Through-wall heat pump unit providing both heating and cooling for individual rooms
+    haystack: pthp
+    brick: Packaged_Terminal_Heat_Pump
+    aliases:
+      common:
+        - PTHP
+        - through-wall heat pump
+        - wall heat pump
+        - terminal heat pump
+      abbreviated: []
+
+  - id: water-source-heat-pump
+    name: Water Source Heat Pump
+    abbreviation: WSHP
+    category: air-handling
+    description: Heat pump that exchanges heat with a water loop, often in multi-zone buildings
+    haystack: wshp
+    brick: Water_Source_Heat_Pump
+    aliases:
+      common:
+        - WSHP
+        - water loop heat pump
+        - geothermal heat pump
+        - water-to-air heat pump
+        - console heat pump
+      abbreviated: []
+
+  - id: air-source-heat-pump
+    name: Air Source Heat Pump
+    abbreviation: ASHP
+    category: air-handling
+    description: Heat pump that exchanges heat with outdoor air for heating and cooling
+    haystack: heatPump
+    brick: Air_Source_Heat_Pump
+    aliases:
+      common:
+        - ASHP
+        - air-to-air heat pump
         - heat pump
+        - HP
+        - mini split
+        - ductless mini split
+        - VRF heat pump
       abbreviated: []
-  - id: dxheating
-    name: dxHeating
-    full_name: dx heating
+
+  - id: energy-recovery-ventilator
+    name: Energy Recovery Ventilator
+    abbreviation: ERV
     category: air-handling
-    description: dx heating
+    description: Ventilation unit that transfers both heat and moisture between exhaust and supply air
+    haystack: erv
+    brick: Energy_Recovery_Ventilator
     aliases:
       common:
-        - dx heating
-        - heating
-        - heat
+        - ERV
+        - energy recovery unit
+        - enthalpy wheel
+        - enthalpy recovery unit
+        - total energy recovery
+        - energy wheel
       abbreviated: []
-  - id: elecheating
-    name: elecHeating
-    full_name: electric heating
+
+  - id: heat-recovery-ventilator
+    name: Heat Recovery Ventilator
+    abbreviation: HRV
     category: air-handling
-    description: electric heating
+    description: Ventilation unit that transfers sensible heat only between exhaust and supply air
+    haystack: hrv
+    brick: Heat_Recovery_Ventilator
     aliases:
       common:
-        - electric heating
-        - stage heat
-        - heating
-        - heat
+        - HRV
+        - heat recovery unit
+        - air-to-air heat exchanger
+        - heat exchanger ventilator
       abbreviated: []
-  - id: hotwaterheating
-    name: hotWaterHeating
-    full_name: hot water heating
+
+  - id: air-turnover-unit
+    name: Air Turnover Unit
+    abbreviation: ATU
     category: air-handling
-    description: hot water heating
+    description: High-volume unit for warehouses and large spaces that destratifies air and provides heating
+    haystack: atu
+    brick: Air_Turnover_Unit
     aliases:
       common:
-        - hot water heating
-        - hw heating
-        - heating
-        - heat
-      abbreviated: []
-  - id: naturalgasheating
-    name: naturalGasHeating
-    full_name: natural gas heating
-    category: air-handling
-    description: natural gas heating
-    aliases:
-      common:
-        - natural gas heating
-        - gas heating
-        - gas fired heating
-        - heating
-        - heat
-      abbreviated: []
-  - id: steamheating
-    name: steamHeating
-    full_name: steam heating
-    category: air-handling
-    description: steam heating
-    aliases:
-      common:
-        - steam heating
-        - steam heat
-        - heating
-        - heat
-      abbreviated: []
-  - id: chilledwatercooling
-    name: chilledWaterCooling
-    full_name: chilled water cooling
-    category: air-handling
-    description: chilled water cooling
-    aliases:
-      common:
-        - chilled water cooling
-        - chw cooling
-        - cooling
-        - cool
-      abbreviated: []
-  - id: constantairvolume
-    name: constantAirVolume
-    full_name: constant air volume
-    category: air-handling
-    description: constant air volume
-    aliases:
-      common:
-        - constant air volume
-        - cv ahu
-      abbreviated: []
-  - id: variableairvolume
-    name: variableAirVolume
-    full_name: variable air volume
-    category: air-handling
-    description: variable air volume
-    aliases:
-      common:
-        - variable air volume
-        - vav ahu
-      abbreviated: []
-  - id: vavzone
-    name: vavZone
-    full_name: vav zone
-    category: air-handling
-    description: vav zone
-    aliases:
-      common:
-        - vav zone
-      abbreviated: []
-  - id: directzone
-    name: directZone
-    full_name: direct zone
-    category: air-handling
-    description: direct zone
-    aliases:
-      common:
-        - direct zone
-      abbreviated: []
-  - id: chilledbeamzone
-    name: chilledBeamZone
-    full_name: chilled beam zone
-    category: air-handling
-    description: chilled beam zone
-    aliases:
-      common:
-        - chilled beam zone
-      abbreviated: []
-  - id: multizone
-    name: multiZone
-    full_name: multi zone
-    category: air-handling
-    description: multi zone
-    aliases:
-      common:
-        - multi zone
-      abbreviated: []
-  - id: singleduct
-    name: singleDuct
-    full_name: single duct
-    category: air-handling
-    description: single duct
-    aliases:
-      common:
-        - single duct
-      abbreviated: []
-  - id: dualduct
-    name: dualDuct
-    full_name: dual duct
-    category: air-handling
-    description: dual duct
-    aliases:
-      common:
-        - dual duct
-      abbreviated: []
-  - id: tripleduct
-    name: tripleDuct
-    full_name: triple duct
-    category: air-handling
-    description: triple duct
-    aliases:
-      common:
-        - triple duct
-      abbreviated: []
-  - id: discharge
-    name: discharge
-    full_name: discharge air
-    category: air-handling
-    description: discharge air
-    aliases:
-      common:
-        - discharge air
-        - da
-      abbreviated: []
-  - id: return
-    name: return
-    full_name: return air
-    category: air-handling
-    description: return air
-    aliases:
-      common:
-        - return air
-        - ra
-      abbreviated: []
-  - id: outside
-    name: outside
-    full_name: outside air
-    category: air-handling
-    description: outside air
-    aliases:
-      common:
-        - outside air
-        - oa
-      abbreviated: []
-  - id: exhaust
-    name: exhaust
-    full_name: exhaust air
-    category: air-handling
-    description: exhaust air
-    aliases:
-      common:
-        - exhaust air
-        - ea
-      abbreviated: []
-  - id: mixed
-    name: mixed
-    full_name: mixed air
-    category: air-handling
-    description: mixed air
-    aliases:
-      common:
-        - mixed air
-        - ma
-      abbreviated: []
-  - id: cool
-    name: cool
-    full_name: cooling
-    category: air-handling
-    description: cooling
-    aliases:
-      common:
-        - cooling
-      abbreviated: []
-  - id: heat
-    name: heat
-    full_name: heating
-    category: air-handling
-    description: heating
-    aliases:
-      common:
-        - heating
-      abbreviated: []
-  - id: zone
-    name: zone
-    full_name: room
-    category: air-handling
-    description: room
-    aliases:
-      common:
-        - room
-        - space
+        - ATU
+        - air turner
+        - destratification unit
+        - warehouse heater
+        - high bay unit
       abbreviated: []

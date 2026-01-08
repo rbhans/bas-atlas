@@ -1,121 +1,180 @@
 equipment:
-  - id: chilled-water-plant
-    name: chilled-water-plant
-    full_name: chilled water plant
-    category: central-plant
-    description: chilled water plant
-    aliases:
-      common:
-        - chilled water plant
-        - chilled water system
-        - central plant
-      abbreviated: []
-  - id: hot-water-plant
-    name: hot-water-plant
-    full_name: hot water plant
-    category: central-plant
-    description: hot water plant
-    aliases:
-      common:
-        - hot water plant
-        - hot water system
-        - heating water system
-        - heating water
-      abbreviated: []
-  - id: steam-plant
-    name: steam-plant
-    full_name: steam plant
-    category: central-plant
-    description: steam plant
-    aliases:
-      common:
-        - steam plant
-        - steam water system
-        - steam water
-        - low pressure steam
-        - high pressure steam
-      abbreviated: []
   - id: chiller
-    name: chiller
-    full_name: ch
+    name: Chiller
+    abbreviation: CH
     category: central-plant
-    description: ch
+    description: Equipment that removes heat from liquid via refrigeration cycle to produce chilled water
+    haystack: chiller
+    brick: Chiller
     aliases:
       common:
-        - ch
-        - chlr
-      abbreviated: []
-  - id: coolingtower
-    name: coolingTower
-    full_name: cooling tower
+        - chiller
+        - CH
+        - CHLR
+        - water chiller
+        - chilled water machine
+        - air-cooled chiller
+        - water-cooled chiller
+        - centrifugal chiller
+        - screw chiller
+        - scroll chiller
+        - absorption chiller
+      abbreviated:
+        - CHL
+
+  - id: boiler
+    name: Boiler
+    abbreviation: BLR
     category: central-plant
-    description: cooling tower
+    description: Equipment that heats water or produces steam using gas, oil, or electric heat
+    haystack: boiler
+    brick: Boiler
+    aliases:
+      common:
+        - boiler
+        - BLR
+        - B
+        - hot water boiler
+        - steam boiler
+        - heating boiler
+        - condensing boiler
+        - gas boiler
+        - fire tube boiler
+        - water tube boiler
+      abbreviated: []
+
+  - id: cooling-tower
+    name: Cooling Tower
+    abbreviation: CT
+    category: central-plant
+    description: Heat rejection device that cools water by evaporation for condenser water systems
+    haystack: coolingTower
+    brick: Cooling_Tower
     aliases:
       common:
         - cooling tower
-        - ct
+        - CT
         - tower
+        - evaporative cooler
+        - fluid cooler
+        - condenser tower
+        - wet cooling tower
+        - dry cooler
       abbreviated: []
-  - id: heatexchanger
-    name: heatExchanger
-    full_name: heat exchanger
+
+  - id: heat-exchanger
+    name: Heat Exchanger
+    abbreviation: HX
     category: central-plant
-    description: heat exchanger
+    description: Device that transfers heat between two fluids without mixing them
+    haystack: heatExchanger
+    brick: Heat_Exchanger
     aliases:
       common:
         - heat exchanger
-        - hx
+        - HX
+        - plate heat exchanger
+        - shell and tube
+        - plate and frame
+        - brazed plate
+        - PHX
       abbreviated: []
-  - id: pump-motor
-    name: pump-motor
-    full_name: pump
+
+  - id: pump
+    name: Pump
+    abbreviation: P
     category: central-plant
-    description: pump
+    description: Equipment that moves water through hydronic heating or cooling systems
+    haystack: pump
+    brick: Pump
     aliases:
       common:
         - pump
-        - chw pump
-        - chwp
-        - hw pump
-        - hwp
+        - P
+        - circulation pump
+        - CHW pump
+        - CHWP
+        - HW pump
+        - HWP
+        - CW pump
+        - CWP
+        - condenser pump
+        - booster pump
+        - inline pump
+        - base-mounted pump
+        - end-suction pump
       abbreviated:
-        - pchwp
-        - schwp
-        - phwp
-        - shwp
-  - id: valve-actuator
-    name: valve-actuator
-    full_name: valve
+        - PCHWP
+        - SCHWP
+        - PHWP
+        - SHWP
+
+  - id: variable-frequency-drive
+    name: Variable Frequency Drive
+    abbreviation: VFD
     category: central-plant
-    description: valve
+    description: Electronic device that controls motor speed by varying frequency and voltage
+    haystack: vfd
+    brick: Variable_Frequency_Drive
     aliases:
       common:
-        - valve
-        - isolation valve
-        - mixing valve
-        - modulating valve
+        - VFD
+        - variable frequency drive
+        - variable speed drive
+        - VSD
+        - inverter
+        - AC drive
+        - adjustable speed drive
+        - ASD
+        - frequency converter
       abbreviated: []
-  - id: hot-water-boiler
-    name: hot-water-boiler
-    full_name: hot water boiler
+
+  - id: expansion-tank
+    name: Expansion Tank
+    abbreviation: ET
     category: central-plant
-    description: hot water boiler
+    description: Tank that absorbs expansion of heated water and maintains system pressure
+    haystack: expansionTank
+    brick: Expansion_Tank
     aliases:
       common:
-        - hot water boiler
-        - boiler
-        - b
-        - blr
+        - expansion tank
+        - compression tank
+        - bladder tank
+        - diaphragm tank
+        - expansion vessel
       abbreviated: []
-  - id: steam-boiler
-    name: steam-boiler
-    full_name: steam boiler
+
+  - id: air-separator
+    name: Air Separator
+    abbreviation: AS
     category: central-plant
-    description: steam boiler
+    description: Device that removes entrained air from hydronic systems to prevent air locks
+    haystack: airSeparator
+    brick: Air_Separator
     aliases:
       common:
-        - steam boiler
-        - boiler
-        - b
-        - blr
+        - air separator
+        - air eliminator
+        - microbubble separator
+        - air removal device
+        - deaerator
+        - air vent
+      abbreviated: []
+
+  - id: steam-to-hot-water-converter
+    name: Steam-to-Hot-Water Converter
+    abbreviation: SHX
+    category: central-plant
+    description: Heat exchanger that converts steam heat to hot water for building heating systems
+    haystack: steamConverter
+    brick: Steam_to_Hot_Water_Converter
+    aliases:
+      common:
+        - steam-to-hot-water converter
+        - steam HX
+        - steam heat exchanger
+        - steam converter
+        - shell and tube converter
+        - steam to water HX
       abbreviated: []

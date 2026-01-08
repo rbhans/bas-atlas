@@ -45,9 +45,12 @@ export interface EquipmentSubtype {
 export interface EquipmentEntry {
   id: string;
   name: string;
-  full_name: string;
+  full_name?: string;
+  abbreviation?: string;
   category: string;
   description: string;
+  haystack?: string;
+  brick?: string;
   aliases: BabelAliases;
   subtypes?: EquipmentSubtype[];
   typical_points?: string[];

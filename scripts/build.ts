@@ -67,7 +67,12 @@ function extractTokens(entry: PointEntry | EquipmentEntry): string[] {
     const equip = entry as EquipmentEntry;
     tokens.push(equip.name.toLowerCase());
     tokens.push(equip.id.toLowerCase());
-    tokens.push(equip.full_name.toLowerCase());
+    if (equip.full_name) {
+      tokens.push(equip.full_name.toLowerCase());
+    }
+    if ((equip as any).abbreviation) {
+      tokens.push((equip as any).abbreviation.toLowerCase());
+    }
     if (equip.description) {
       tokens.push(...equip.description.toLowerCase().split(/\s+/));
     }

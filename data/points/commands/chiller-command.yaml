@@ -12,7 +12,6 @@ aliases:
     - chlr command
     - chlr cmd
     - chiller run
-  abbreviated:
     - ch-c
     - ch-cmd
     - chlr-c

@@ -82,8 +82,6 @@ function extractTokens(entry: PointEntry | EquipmentEntry): string[] {
   const aliases = "concept" in entry ? (entry as PointEntry).aliases : (entry as EquipmentEntry).aliases;
   if (aliases) {
     tokens.push(...(aliases.common || []).map((a) => a.toLowerCase()));
-    tokens.push(...(aliases.abbreviated || []).map((a) => a.toLowerCase()));
-    tokens.push(...(aliases.verbose || []).map((a) => a.toLowerCase()));
     tokens.push(...(aliases.misspellings || []).map((a) => a.toLowerCase()));
   }
 

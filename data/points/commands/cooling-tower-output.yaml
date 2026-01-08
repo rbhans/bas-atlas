@@ -18,6 +18,5 @@ aliases:
     - ct speed
     - tower output
     - tower speed
-  abbreviated:
     - ct-o
     - ct-out

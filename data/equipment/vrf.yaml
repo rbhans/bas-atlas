@@ -17,8 +17,6 @@ equipment:
         - outdoor condensing unit
         - VRF heat recovery unit
         - VRF heat pump outdoor
-      abbreviated: []
-
   - id: vrf-indoor-unit
     name: VRF Indoor Unit
     abbreviation: IDU
@@ -40,8 +38,6 @@ equipment:
         - floor standing
         - high wall unit
         - ducted VRF
-      abbreviated: []
-
   - id: vrf-branch-selector-box
     name: VRF Branch Selector Box
     abbreviation: BSB
@@ -60,4 +56,3 @@ equipment:
         - heat recovery box
         - HR box
         - BC controller
-      abbreviated: []

@@ -17,6 +17,5 @@ aliases:
     - sump temperature
     - ct sump temp
     - tower sump temp
-  abbreviated:
     - ct-basin
     - ct-sump

@@ -19,9 +19,7 @@ equipment:
         - screw chiller
         - scroll chiller
         - absorption chiller
-      abbreviated:
         - CHL
-
   - id: boiler
     name: Boiler
     abbreviation: BLR
@@ -41,8 +39,6 @@ equipment:
         - gas boiler
         - fire tube boiler
         - water tube boiler
-      abbreviated: []
-
   - id: cooling-tower
     name: Cooling Tower
     abbreviation: CT
@@ -60,8 +56,6 @@ equipment:
         - condenser tower
         - wet cooling tower
         - dry cooler
-      abbreviated: []
-
   - id: heat-exchanger
     name: Heat Exchanger
     abbreviation: HX
@@ -78,8 +72,6 @@ equipment:
         - plate and frame
         - brazed plate
         - PHX
-      abbreviated: []
-
   - id: pump
     name: Pump
     abbreviation: P
@@ -103,12 +95,10 @@ equipment:
         - inline pump
         - base-mounted pump
         - end-suction pump
-      abbreviated:
         - PCHWP
         - SCHWP
         - PHWP
         - SHWP
-
   - id: variable-frequency-drive
     name: Variable Frequency Drive
     abbreviation: VFD
@@ -127,8 +117,6 @@ equipment:
         - adjustable speed drive
         - ASD
         - frequency converter
-      abbreviated: []
-
   - id: expansion-tank
     name: Expansion Tank
     abbreviation: ET
@@ -143,8 +131,6 @@ equipment:
         - bladder tank
         - diaphragm tank
         - expansion vessel
-      abbreviated: []
-
   - id: air-separator
     name: Air Separator
     abbreviation: AS
@@ -160,8 +146,6 @@ equipment:
         - air removal device
         - deaerator
         - air vent
-      abbreviated: []
-
   - id: steam-to-hot-water-converter
     name: Steam-to-Hot-Water Converter
     abbreviation: SHX
@@ -177,4 +161,3 @@ equipment:
         - steam converter
         - shell and tube converter
         - steam to water HX
-      abbreviated: []

@@ -13,6 +13,5 @@ aliases:
     - ct cmd
     - tower command
     - tower cmd
-  abbreviated:
     - ct-c
     - ct-cmd

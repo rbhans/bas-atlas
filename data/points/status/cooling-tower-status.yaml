@@ -13,6 +13,5 @@ aliases:
     - ct sts
     - tower status
     - tower running
-  abbreviated:
     - ct-s
     - ct-sts

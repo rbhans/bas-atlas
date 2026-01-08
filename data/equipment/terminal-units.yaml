@@ -14,9 +14,7 @@ equipment:
         - air terminal unit
         - VAV terminal unit
         - variable volume box
-      abbreviated:
         - VV
-
   - id: constant-air-volume-box
     name: Constant Air Volume Box
     abbreviation: CAV
@@ -31,9 +29,7 @@ equipment:
         - CAV terminal
         - constant volume box
         - CV box
-      abbreviated:
         - CV
-
   - id: parallel-fan-powered-box
     name: Parallel Fan Powered Box
     abbreviation: PFPB
@@ -50,9 +46,7 @@ equipment:
         - fan powered box
         - FPB
         - parallel fan terminal
-      abbreviated:
         - PFB
-
   - id: series-fan-powered-box
     name: Series Fan Powered Box
     abbreviation: SFPB
@@ -67,9 +61,7 @@ equipment:
         - SFVAV
         - series fan VAV
         - series fan terminal
-      abbreviated:
         - SFB
-
   - id: chilled-beam
     name: Chilled Beam
     abbreviation: CB
@@ -85,10 +77,8 @@ equipment:
         - induction beam
         - ceiling beam
         - chilled ceiling
-      abbreviated:
         - ACB
         - PCB
-
   - id: radiant-panel
     name: Radiant Panel
     abbreviation: RP
@@ -104,8 +94,6 @@ equipment:
         - radiant heating panel
         - radiant cooling panel
         - ceiling panel
-      abbreviated: []
-
   - id: baseboard-heater
     name: Baseboard Heater
     abbreviation: BB
@@ -123,8 +111,6 @@ equipment:
         - baseboard convector
         - hot water baseboard
         - electric baseboard
-      abbreviated: []
-
   - id: unit-heater
     name: Unit Heater
     abbreviation: UH
@@ -143,8 +129,6 @@ equipment:
         - CUH
         - suspended heater
         - ceiling heater
-      abbreviated: []
-
   - id: induction-unit
     name: Induction Unit
     abbreviation: IU
@@ -158,8 +142,6 @@ equipment:
         - induction terminal
         - air induction unit
         - high pressure induction
-      abbreviated: []
-
   - id: blower-coil-unit
     name: Blower Coil Unit
     abbreviation: BCU
@@ -174,5 +156,4 @@ equipment:
         - horizontal blower coil
         - vertical blower coil
         - console unit
-      abbreviated:
         - BC

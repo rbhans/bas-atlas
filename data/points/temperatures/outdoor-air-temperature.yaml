@@ -11,7 +11,6 @@ concept:
     max: 120
   object_type: analog-input
   engineering_units: degrees-fahrenheit
-
 aliases:
   common:
     - oa-t
@@ -23,23 +22,16 @@ aliases:
     - OAT
     - OutdoorTemp
     - OutsideTemp
-  abbreviated:
     - oat
     - ot
-  verbose:
-    - outside air temperature sensor
-    - ambient air temperature
-    - outdoor ambient temperature
   misspellings:
     - outdor temp
     - outsite temp
-
 notes:
   - Critical for economizer enable/disable decisions
   - Used for heating/cooling lockout control
   - Often shared across multiple AHUs via BACnet
   - May be provided by weather service in some systems
-
 related:
   - economizer-enable
   - cooling-outdoor-air-lockout-setpoint

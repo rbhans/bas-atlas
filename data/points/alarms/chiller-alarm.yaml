@@ -13,7 +13,6 @@ aliases:
     - chlr alm
     - chlr fault
     - chiller warning
-  abbreviated:
     - ch-a
     - ch-alm
     - chlr-a

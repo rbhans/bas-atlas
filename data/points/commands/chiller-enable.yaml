@@ -12,6 +12,5 @@ aliases:
     - chlr enable
     - chlr en
     - chiller on/off
-  abbreviated:
     - ch-en
     - chlr-en

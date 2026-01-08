@@ -18,8 +18,6 @@ equipment:
         - demand meter
         - kilowatt meter
         - submeter
-      abbreviated: []
-
   - id: natural-gas-meter
     name: Natural Gas Meter
     abbreviation: GM
@@ -35,8 +33,6 @@ equipment:
         - gas flow meter
         - therm meter
         - CCF meter
-      abbreviated: []
-
   - id: water-meter
     name: Water Meter
     abbreviation: WM
@@ -53,8 +49,6 @@ equipment:
         - domestic water meter
         - makeup water meter
         - city water meter
-      abbreviated: []
-
   - id: steam-meter
     name: Steam Meter
     abbreviation: SM
@@ -68,8 +62,6 @@ equipment:
         - steam flow meter
         - condensate meter
         - steam mass flow meter
-      abbreviated: []
-
   - id: btu-meter
     name: BTU Meter
     abbreviation: BTU
@@ -87,4 +79,3 @@ equipment:
         - Btu meter
         - British thermal unit meter
         - delta-T meter
-      abbreviated: []

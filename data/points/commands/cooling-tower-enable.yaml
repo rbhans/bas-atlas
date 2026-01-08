@@ -12,5 +12,4 @@ aliases:
     - ct enable
     - ct en
     - tower enable
-  abbreviated:
     - ct-en

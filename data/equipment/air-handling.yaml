@@ -12,9 +12,7 @@ equipment:
         - air handler
         - central air handler
         - air handling equipment
-      abbreviated:
         - AH
-
   - id: rooftop-unit
     name: Rooftop Unit
     abbreviation: RTU
@@ -29,9 +27,7 @@ equipment:
         - packaged rooftop unit
         - roof top unit
         - rooftop air handler
-      abbreviated:
         - RT
-
   - id: makeup-air-unit
     name: Makeup Air Unit
     abbreviation: MAU
@@ -47,9 +43,7 @@ equipment:
         - fresh air unit
         - makeup air
         - make-up air unit
-      abbreviated:
         - MA
-
   - id: dedicated-outdoor-air-system
     name: Dedicated Outdoor Air System
     abbreviation: DOAS
@@ -65,9 +59,7 @@ equipment:
         - 100% OA unit
         - dedicated outdoor air unit
         - dedicated outside air system
-      abbreviated:
         - DOA
-
   - id: fan-coil-unit
     name: Fan Coil Unit
     abbreviation: FCU
@@ -84,9 +76,7 @@ equipment:
         - ceiling fan coil
         - horizontal fan coil
         - vertical fan coil
-      abbreviated:
         - FC
-
   - id: computer-room-air-conditioner
     name: Computer Room Air Conditioner
     abbreviation: CRAC
@@ -101,8 +91,6 @@ equipment:
         - data center cooling
         - computer room AC
         - precision air conditioner
-      abbreviated: []
-
   - id: computer-room-air-handler
     name: Computer Room Air Handler
     abbreviation: CRAH
@@ -116,8 +104,6 @@ equipment:
         - precision air handler
         - data center air handler
         - chilled water CRAC
-      abbreviated: []
-
   - id: unit-ventilator
     name: Unit Ventilator
     abbreviation: UV
@@ -132,8 +118,6 @@ equipment:
         - univent
         - classroom unit ventilator
         - wall unit ventilator
-      abbreviated: []
-
   - id: packaged-terminal-air-conditioner
     name: Packaged Terminal Air Conditioner
     abbreviation: PTAC
@@ -148,8 +132,6 @@ equipment:
         - wall unit
         - hotel AC unit
         - through-the-wall unit
-      abbreviated: []
-
   - id: packaged-terminal-heat-pump
     name: Packaged Terminal Heat Pump
     abbreviation: PTHP
@@ -163,8 +145,6 @@ equipment:
         - through-wall heat pump
         - wall heat pump
         - terminal heat pump
-      abbreviated: []
-
   - id: water-source-heat-pump
     name: Water Source Heat Pump
     abbreviation: WSHP
@@ -179,8 +159,6 @@ equipment:
         - geothermal heat pump
         - water-to-air heat pump
         - console heat pump
-      abbreviated: []
-
   - id: air-source-heat-pump
     name: Air Source Heat Pump
     abbreviation: ASHP
@@ -197,8 +175,6 @@ equipment:
         - mini split
         - ductless mini split
         - VRF heat pump
-      abbreviated: []
-
   - id: energy-recovery-ventilator
     name: Energy Recovery Ventilator
     abbreviation: ERV
@@ -214,8 +190,6 @@ equipment:
         - enthalpy recovery unit
         - total energy recovery
         - energy wheel
-      abbreviated: []
-
   - id: heat-recovery-ventilator
     name: Heat Recovery Ventilator
     abbreviation: HRV
@@ -229,8 +203,6 @@ equipment:
         - heat recovery unit
         - air-to-air heat exchanger
         - heat exchanger ventilator
-      abbreviated: []
-
   - id: air-turnover-unit
     name: Air Turnover Unit
     abbreviation: ATU
@@ -245,4 +217,3 @@ equipment:
         - destratification unit
         - warehouse heater
         - high bay unit
-      abbreviated: []

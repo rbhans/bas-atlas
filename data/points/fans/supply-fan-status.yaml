@@ -6,7 +6,6 @@ concept:
   haystack: supply fan run sensor
   brick: Supply_Fan_Status
   object_type: binary-input
-
 aliases:
   common:
     - sf-s
@@ -17,19 +16,13 @@ aliases:
     - SF_Status
     - SupplyFan_Sts
     - SFS
-  abbreviated:
     - sfs
     - sf-sts
-  verbose:
-    - supply fan running status
-    - supply fan proof of operation
-
 notes:
   - Typically from current sensing relay or differential pressure switch
   - Used for fan failure alarms and interlock logic
   - Should match command within reasonable delay
   - Critical for safety interlocks
-
 related:
   - supply-fan-command
   - supply-fan-alarm

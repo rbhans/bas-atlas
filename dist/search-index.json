@@ -1512,9 +1512,7 @@
         "sf_status",
         "supplyfan_sts",
         "sfs",
-        "sf-sts",
-        "supply fan running status",
-        "supply fan proof of operation"
+        "sf-sts"
       ]
     },
     {
@@ -1818,10 +1816,7 @@
         "supply static pressure",
         "dsp",
         "dap",
-        "sp",
-        "discharge air static pressure",
-        "supply duct static pressure",
-        "duct static pressure sensor"
+        "sp"
       ]
     },
     {
@@ -2526,9 +2521,7 @@
         "chw supply temp",
         "chwst",
         "chw_supply_temp",
-        "cwst",
-        "chilled water supply temperature sensor",
-        "chilled water leaving temperature"
+        "cwst"
       ]
     },
     {
@@ -2700,10 +2693,7 @@
         "dat",
         "dischargetemp",
         "discharge_temp",
-        "dt",
-        "discharge air temperature sensor",
-        "leaving air temperature",
-        "supply air temperature"
+        "dt"
       ]
     },
     {
@@ -2884,9 +2874,6 @@
         "outdoortemp",
         "outsidetemp",
         "ot",
-        "outside air temperature sensor",
-        "ambient air temperature",
-        "outdoor ambient temperature",
         "outdor temp",
         "outsite temp"
       ]
@@ -3117,10 +3104,6 @@
         "znt",
         "rt",
         "st",
-        "zone air temperature",
-        "room air temperature",
-        "space air temperature",
-        "zone temperature sensor",
         "zonetepm",
         "zontemp",
         "temperture",

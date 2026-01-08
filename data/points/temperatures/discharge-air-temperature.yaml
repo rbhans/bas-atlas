@@ -11,7 +11,6 @@ concept:
     max: 110
   object_type: analog-input
   engineering_units: degrees-fahrenheit
-
 aliases:
   common:
     - da-t
@@ -21,20 +20,13 @@ aliases:
     - DAT
     - DischargeTemp
     - Discharge_Temp
-  abbreviated:
     - dat
     - dt
-  verbose:
-    - discharge air temperature sensor
-    - leaving air temperature
-    - supply air temperature
-
 notes:
   - Cooling mode typically 50-65°F
   - Heating mode typically 70-110°F
   - Sometimes called Supply Air Temperature (SAT) downstream of unit
   - Critical for discharge air temperature control loops
-
 related:
   - supply-air-temperature
   - mixed-air-temperature

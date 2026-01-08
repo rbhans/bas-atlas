@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-08T17:41:55.271Z",
+  "lastUpdated": "2026-01-08T17:52:45.429Z",
   "totalPoints": 174,
   "totalEquipment": 42,
   "points": [
@@ -20,9 +20,7 @@
           "blr alarm",
           "blr alm",
           "blr fault",
-          "boiler warning"
-        ],
-        "abbreviated": [
+          "boiler warning",
           "blr-a",
           "blr-alm"
         ]
@@ -43,8 +41,7 @@
           "bp alarm",
           "blrp alarm",
           "blr pump alm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -60,8 +57,7 @@
           "chwp-a",
           "chwp alm",
           "chwp alarm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -80,9 +76,7 @@
           "chlr alarm",
           "chlr alm",
           "chlr fault",
-          "chiller warning"
-        ],
-        "abbreviated": [
+          "chiller warning",
           "ch-a",
           "ch-alm",
           "chlr-a",
@@ -103,8 +97,7 @@
           "cwp-a",
           "cwp alm",
           "cwp alarm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -124,9 +117,7 @@
           "ct alm",
           "ct fault",
           "tower alarm",
-          "tower alm"
-        ],
-        "abbreviated": [
+          "tower alm",
           "ct-a",
           "ct-alm"
         ]
@@ -145,8 +136,7 @@
           "filt-a",
           "filt alm",
           "filt alarm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -163,8 +153,7 @@
           "ffilt-a",
           "fin filt alm",
           "fin filt alarm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -180,8 +169,7 @@
           "hwp-a",
           "hwp alm",
           "hwp alarm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -200,8 +188,7 @@
           "frz-st",
           "ll-a",
           "low temp alm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -218,8 +205,7 @@
           "pfilt-a",
           "pre filt alm",
           "pre filt alarm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -235,8 +221,7 @@
           "pchwp-a",
           "pchwp alm",
           "pchwp alarm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -252,8 +237,7 @@
           "schwp-a",
           "schwp alm",
           "schwp alarm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -269,8 +253,7 @@
           "smoke detect",
           "smk-alm",
           "smk-det"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -289,9 +272,7 @@
           "blr command",
           "blr cmd",
           "boiler enable",
-          "boiler run"
-        ],
-        "abbreviated": [
+          "boiler run",
           "blr-c",
           "blr-cmd"
         ]
@@ -317,9 +298,7 @@
           "boiler modulation",
           "blr output",
           "blr out",
-          "boiler firing rate"
-        ],
-        "abbreviated": [
+          "boiler firing rate",
           "blr-o",
           "blr-out"
         ]
@@ -340,8 +319,7 @@
           "bp command",
           "blrp command",
           "blr pump cmd"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -359,8 +337,7 @@
           "bp output",
           "blrp output",
           "blr pump out"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -376,8 +353,7 @@
           "chwp-c",
           "chwp cmd",
           "chwp command"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -393,8 +369,7 @@
           "chwp-o",
           "chwp out",
           "chwp output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -412,9 +387,7 @@
           "chiller start/stop",
           "chlr command",
           "chlr cmd",
-          "chiller run"
-        ],
-        "abbreviated": [
+          "chiller run",
           "ch-c",
           "ch-cmd",
           "chlr-c",
@@ -437,9 +410,7 @@
           "chiller enabled",
           "chlr enable",
           "chlr en",
-          "chiller on/off"
-        ],
-        "abbreviated": [
+          "chiller on/off",
           "ch-en",
           "chlr-en"
         ]
@@ -458,8 +429,7 @@
           "cwp-c",
           "cwp cmd",
           "cwp command"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -475,8 +445,7 @@
           "cwp-o",
           "cwp out",
           "cwp output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -493,8 +462,7 @@
           "cooling en",
           "cool enable",
           "clg enable"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -513,9 +481,7 @@
           "ct command",
           "ct cmd",
           "tower command",
-          "tower cmd"
-        ],
-        "abbreviated": [
+          "tower cmd",
           "ct-c",
           "ct-cmd"
         ]
@@ -536,9 +502,7 @@
           "cooling tower enabled",
           "ct enable",
           "ct en",
-          "tower enable"
-        ],
-        "abbreviated": [
+          "tower enable",
           "ct-en"
         ]
       }
@@ -565,9 +529,7 @@
           "ct out",
           "ct speed",
           "tower output",
-          "tower speed"
-        ],
-        "abbreviated": [
+          "tower speed",
           "ct-o",
           "ct-out"
         ]
@@ -586,8 +548,7 @@
           "econ-en",
           "econ enable",
           "econ en"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -603,8 +564,7 @@
           "gashtg-o",
           "gas heating out",
           "gas heat"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -623,8 +583,7 @@
           "erw command",
           "energy recovery wheel command",
           "erw-c"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -643,8 +602,7 @@
           "erw output",
           "energy recovery wheel output",
           "erw-o"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -661,8 +619,7 @@
           "heating en",
           "htg enable",
           "heat enable"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -678,8 +635,7 @@
           "hwp-c",
           "hwp cmd",
           "hwp command"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -695,8 +651,7 @@
           "hwp-o",
           "hwp out",
           "hwp output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -712,8 +667,7 @@
           "occ-cmd",
           "occ command",
           "occupancy cmd"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -729,8 +683,7 @@
           "pchwp-c",
           "pchwp cmd",
           "pchwp command"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -746,8 +699,7 @@
           "pchwp-o",
           "pchwp out",
           "pchwp output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -763,8 +715,7 @@
           "schwp-c",
           "schwp cmd",
           "schwp command"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -780,8 +731,7 @@
           "schwp-o",
           "schwp out",
           "schwp output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -799,8 +749,7 @@
           "steam heat out",
           "steam htg out",
           "steam htg output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -816,8 +765,7 @@
           "sys-en",
           "system en",
           "sys enable"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -833,8 +781,7 @@
           "uniten-mode",
           "unit en mode",
           "unit enable mode"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -850,8 +797,7 @@
           "ead-closed",
           "ea damper closed",
           "ead closed"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -867,8 +813,7 @@
           "ead-open",
           "ea damper open",
           "ead open"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -884,8 +829,7 @@
           "ead-o",
           "ea damper output",
           "ead output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -901,8 +845,7 @@
           "ead-pos",
           "ea damper position",
           "ead position"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -920,8 +863,7 @@
           "fbd out",
           "face byp output",
           "fbdpr out"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -937,8 +879,7 @@
           "mad-closed",
           "ma damper closed",
           "mad closed"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -954,8 +895,7 @@
           "mad-open",
           "ma damper open",
           "mad open"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -971,8 +911,7 @@
           "mad-o",
           "ma damper output",
           "mad output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -988,8 +927,7 @@
           "mad-pos",
           "ma damper position",
           "mad position"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1006,8 +944,7 @@
           "oa damper closed",
           "oad closed",
           "outdoor air damper closed"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1024,8 +961,7 @@
           "oa damper open",
           "oad open",
           "outdoor air damper open"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1042,8 +978,7 @@
           "oa damper output",
           "oad output",
           "outdoor air damper output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1060,8 +995,7 @@
           "oa damper position",
           "oad position",
           "outdoor air damper position"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1077,8 +1011,7 @@
           "rlfd-closed",
           "rlf damper closed",
           "rlfd closed"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1094,8 +1027,7 @@
           "rlfd-open",
           "rlf damper open",
           "rlfd open"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1111,8 +1043,7 @@
           "rlfd-o",
           "rlf damper output",
           "rlfd output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1128,8 +1059,7 @@
           "rlfd-pos",
           "rlf damper position",
           "rlfd position"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1146,8 +1076,7 @@
           "smoke damper out",
           "smoke damper output",
           "smoke dpr output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1163,8 +1092,7 @@
           "ef-a",
           "ef alarm",
           "ef alm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1180,8 +1108,7 @@
           "ef-c",
           "ef command",
           "ef cmd"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1197,8 +1124,7 @@
           "ef-fault",
           "ef fault",
           "ef flt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1214,8 +1140,7 @@
           "ef-o",
           "ef output",
           "ef out"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1231,8 +1156,7 @@
           "ef-spd",
           "ef speed",
           "ef vfd"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1248,8 +1172,7 @@
           "ef-s",
           "ef status",
           "ef sts"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1265,8 +1188,7 @@
           "rlf-a",
           "rlf alarm",
           "rlf alm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1282,8 +1204,7 @@
           "rlf-c",
           "rlf command",
           "rlf cmd"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1299,8 +1220,7 @@
           "rlf-fault",
           "rlf fault",
           "rlf flt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1316,8 +1236,7 @@
           "rlf-o",
           "rlf output",
           "rlf out"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1333,8 +1252,7 @@
           "rlf-spd",
           "rlf speed",
           "rlf vfd"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1350,8 +1268,7 @@
           "rlf-s",
           "rlf status",
           "rlf sts"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1367,8 +1284,7 @@
           "rf-a",
           "rf alarm",
           "rf alm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1384,8 +1300,7 @@
           "rf-c",
           "rf command",
           "rf cmd"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1401,8 +1316,7 @@
           "rf-fault",
           "rf fault",
           "rf flt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1418,8 +1332,7 @@
           "rf-o",
           "rf output",
           "rf out"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1435,8 +1348,7 @@
           "rf-spd",
           "rf speed",
           "rf vfd"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1452,8 +1364,7 @@
           "rf-s",
           "rf status",
           "rf sts"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1470,8 +1381,7 @@
           "sf alarm",
           "sf alm",
           "fan alarm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1488,8 +1398,7 @@
           "sf command",
           "sf cmd",
           "fan command"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1506,8 +1415,7 @@
           "sf fault",
           "sf flt",
           "fan fault"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1524,8 +1432,7 @@
           "sf output",
           "sf out",
           "fan output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1542,8 +1449,7 @@
           "sf speed",
           "sf vfd",
           "fan speed"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1565,15 +1471,9 @@
           "supply fan run",
           "SF_Status",
           "SupplyFan_Sts",
-          "SFS"
-        ],
-        "abbreviated": [
+          "SFS",
           "sfs",
           "sf-sts"
-        ],
-        "verbose": [
-          "supply fan running status",
-          "supply fan proof of operation"
         ]
       },
       "notes": [
@@ -1602,8 +1502,7 @@
           "da-f",
           "da flow",
           "disch air flow"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1619,8 +1518,7 @@
           "ea-f",
           "ea flow",
           "exh air flow"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1635,8 +1533,7 @@
         "common": [
           "oa-f",
           "oa flow"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1652,8 +1549,7 @@
           "ra-f",
           "ra flow",
           "ret air flow"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1669,8 +1565,7 @@
           "sa-f",
           "sa flow",
           "sup air flow"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1687,8 +1582,7 @@
           "da humid",
           "da humidity",
           "disch air hum"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1704,8 +1598,7 @@
           "hum-en",
           "humid en",
           "humid enable"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1723,8 +1616,7 @@
           "hum vlv",
           "humidifier valve out",
           "humid valve"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1741,8 +1633,7 @@
           "oa humid",
           "oa humidity",
           "outdoor air humid"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1759,8 +1650,7 @@
           "ra humid",
           "ra humidity",
           "ret air humid"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1777,8 +1667,7 @@
           "zn humid",
           "zn humidity",
           "zone humid"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1795,8 +1684,7 @@
           "bldg press",
           "bldg pressure",
           "building press"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1812,8 +1700,7 @@
           "chw-dp",
           "chw diff press",
           "chw diff pressure"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1830,8 +1717,7 @@
           "da hi prs alm",
           "da high press alarm",
           "disch air high press alarm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1848,8 +1734,7 @@
           "da low prs almost",
           "da low press alarm",
           "disch air low press alarm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1868,8 +1753,7 @@
           "da prs stpt",
           "da pressure setpt",
           "disch air press setpoint"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1901,17 +1785,10 @@
           "supply static",
           "supply static pressure",
           "DSP",
-          "DAP"
-        ],
-        "abbreviated": [
+          "DAP",
           "dsp",
           "dap",
           "sp"
-        ],
-        "verbose": [
-          "discharge air static pressure",
-          "supply duct static pressure",
-          "duct static pressure sensor"
         ]
       },
       "notes": [
@@ -1939,8 +1816,7 @@
           "hw-dp",
           "hw diff press",
           "hw diff pressure"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1957,8 +1833,7 @@
           "ra hi prs alm",
           "ra high press alarm",
           "ret air high press alarm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1975,8 +1850,7 @@
           "ra low prs almost",
           "ra low press alarm",
           "ret air low press alarm"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -1995,8 +1869,7 @@
           "ra prs stpt",
           "ra pressure setpt",
           "ret air press setpoint"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2014,8 +1887,7 @@
           "ra pressure",
           "ret air pressure",
           "ret air press"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2038,8 +1910,7 @@
           "room press",
           "zn pressure",
           "rm pressure"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2056,8 +1927,7 @@
           "clg oat lockout setpoint",
           "cooling oat lockout stpt",
           "cool oat lock setpt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2075,8 +1945,7 @@
           "effective clg sp",
           "eff clg stpt",
           "eff cooling setpt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2094,8 +1963,7 @@
           "effective htg sp",
           "eff htg stpt",
           "eff heating setpt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2112,8 +1980,7 @@
           "htg oat lockout setpoint",
           "heating oat lockout stpt",
           "heat oat lock setpt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2131,8 +1998,7 @@
           "occupied clg sp",
           "occ clg stpt",
           "occ cooling setpt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2150,8 +2016,7 @@
           "occupied htg sp",
           "occ htg stpt",
           "occ heating setpt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2169,8 +2034,7 @@
           "standby clg sp",
           "standby clg stpt",
           "standby cooling setpt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2188,8 +2052,7 @@
           "standby htg sp",
           "standby htg stpt",
           "standby heating setpt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2207,8 +2070,7 @@
           "unoccupied clg sp",
           "unocc clg stpt",
           "unocc cooling setpt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2226,8 +2088,7 @@
           "unoccupied htg sp",
           "unocc htg stpt",
           "unocc heating setpt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2245,8 +2106,7 @@
           "bp status",
           "blrp status",
           "blr pump sts"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2265,9 +2125,7 @@
           "blr status",
           "blr sts",
           "boiler on/off",
-          "boiler run status"
-        ],
-        "abbreviated": [
+          "boiler run status",
           "blr-s",
           "blr-sts"
         ]
@@ -2286,8 +2144,7 @@
           "chwp-s",
           "chwp sts",
           "chwp status"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2306,9 +2163,7 @@
           "chlr status",
           "chlr sts",
           "chiller on/off",
-          "chiller run status"
-        ],
-        "abbreviated": [
+          "chiller run status",
           "ch-s",
           "ch-sts",
           "chlr-s",
@@ -2329,8 +2184,7 @@
           "cwp-s",
           "cwp sts",
           "cwp status"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2349,9 +2203,7 @@
           "ct status",
           "ct sts",
           "tower status",
-          "tower running"
-        ],
-        "abbreviated": [
+          "tower running",
           "ct-s",
           "ct-sts"
         ]
@@ -2373,9 +2225,7 @@
           "compressor stage",
           "cooling stage",
           "dx compressor",
-          "ac stage"
-        ],
-        "abbreviated": [
+          "ac stage",
           "dx-stg",
           "dx-clg"
         ]
@@ -2394,8 +2244,7 @@
           "eff-occ",
           "effective occ",
           "eff occupancy"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2413,9 +2262,7 @@
           "electric heating stage",
           "heat stage",
           "heating stage",
-          "elec htg stage"
-        ],
-        "abbreviated": [
+          "elec htg stage",
           "elec-htg-stg",
           "e-htg-stg"
         ]
@@ -2434,8 +2281,7 @@
           "filt-s",
           "filt sts",
           "filt status"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2452,8 +2298,7 @@
           "ffilt-s",
           "fin filt sts",
           "fin filt status"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2472,8 +2317,7 @@
           "erw status",
           "energy recovery wheel status",
           "erw-s"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2489,8 +2333,7 @@
           "hwp-s",
           "hwp sts",
           "hwp status"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2507,8 +2350,7 @@
           "occupancy schedule",
           "occ sched",
           "occ schedule"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2521,9 +2363,7 @@
       },
       "aliases": {
         "common": [
-          "occupied"
-        ],
-        "abbreviated": [
+          "occupied",
           "occ"
         ]
       }
@@ -2542,8 +2382,7 @@
           "pfilt-s",
           "pre filt sts",
           "pre filt status"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2559,8 +2398,7 @@
           "pchwp-s",
           "pchwp sts",
           "pchwp status"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2580,8 +2418,7 @@
           "ra quality",
           "ret air co2",
           "ret air quality"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2597,8 +2434,7 @@
           "schwp-s",
           "schwp sts",
           "schwp status"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2612,8 +2448,7 @@
       "aliases": {
         "common": [
           "shutdwn"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2630,8 +2465,7 @@
           "chwr temp",
           "chwr temperature",
           "chwr tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2658,15 +2492,9 @@
           "chws tmp",
           "chw supply temp",
           "CHWST",
-          "CHW_Supply_Temp"
-        ],
-        "abbreviated": [
+          "CHW_Supply_Temp",
           "chwst",
           "cwst"
-        ],
-        "verbose": [
-          "chilled water supply temperature sensor",
-          "chilled water leaving temperature"
         ]
       },
       "notes": [
@@ -2702,9 +2530,7 @@
           "chlr entering temp",
           "chlr ewt",
           "chiller ewt",
-          "chiller entering water temp"
-        ],
-        "abbreviated": [
+          "chiller entering water temp",
           "ch-ewt",
           "chlr-ewt",
           "ch-ent"
@@ -2732,9 +2558,7 @@
           "chlr leaving temp",
           "chlr lwt",
           "chiller lwt",
-          "chiller leaving water temp"
-        ],
-        "abbreviated": [
+          "chiller leaving water temp",
           "ch-lwt",
           "chlr-lwt",
           "ch-lvg"
@@ -2753,8 +2577,7 @@
         "common": [
           "cw-t",
           "city wtr temp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2771,8 +2594,7 @@
           "cwr temp",
           "cwr temperature",
           "cwr tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2789,8 +2611,7 @@
           "cws temp",
           "cws temperature",
           "cws tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2814,9 +2635,7 @@
           "tower basin temp",
           "sump temperature",
           "ct sump temp",
-          "tower sump temp"
-        ],
-        "abbreviated": [
+          "tower sump temp",
           "ct-basin",
           "ct-sump"
         ]
@@ -2835,8 +2654,7 @@
           "dat-sp",
           "dat setpoint",
           "dat stpt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2863,16 +2681,9 @@
           "disch air temp",
           "DAT",
           "DischargeTemp",
-          "Discharge_Temp"
-        ],
-        "abbreviated": [
+          "Discharge_Temp",
           "dat",
           "dt"
-        ],
-        "verbose": [
-          "discharge air temperature sensor",
-          "leaving air temperature",
-          "supply air temperature"
         ]
       },
       "notes": [
@@ -2903,8 +2714,7 @@
           "dhwr temp",
           "dhwr temperature",
           "dhwr tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2921,8 +2731,7 @@
           "dhws temp",
           "dhws temperature",
           "dhws tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2940,8 +2749,7 @@
           "eff dat stpt",
           "effective dat stpt",
           "eff da temp setpt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2958,8 +2766,7 @@
           "ea temp",
           "ea temperature",
           "exh air temp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2976,8 +2783,7 @@
           "hwr temp",
           "hwr temperature",
           "hwr tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -2994,8 +2800,7 @@
           "hws temp",
           "hws temperature",
           "hws tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3013,8 +2818,7 @@
           "ma temp stpt",
           "ma temp setpt",
           "ma temperature setpt"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3031,8 +2835,7 @@
           "ma temp",
           "ma temperature",
           "mixed air temp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3061,16 +2864,9 @@
           "outside temp",
           "OAT",
           "OutdoorTemp",
-          "OutsideTemp"
-        ],
-        "abbreviated": [
+          "OutsideTemp",
           "oat",
           "ot"
-        ],
-        "verbose": [
-          "outside air temperature sensor",
-          "ambient air temperature",
-          "outdoor ambient temperature"
         ],
         "misspellings": [
           "outdor temp",
@@ -3104,8 +2900,7 @@
           "pchwr temp",
           "pchwr temperature",
           "pchwr tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3122,8 +2917,7 @@
           "pchws temp",
           "pchws temperature",
           "pchws tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3140,8 +2934,7 @@
           "phwr temp",
           "phwr temperature",
           "phwr tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3158,8 +2951,7 @@
           "phws temp",
           "phws temperature",
           "phws tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3176,8 +2968,7 @@
           "ra temp",
           "ra temperature",
           "ret air temp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3194,8 +2985,7 @@
           "schwr temp",
           "schwr temperature",
           "schwr tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3212,8 +3002,7 @@
           "schws temp",
           "schws temperature",
           "schws tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3230,8 +3019,7 @@
           "shwr temp",
           "shwr temperature",
           "shwr tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3248,8 +3036,7 @@
           "shws temp",
           "shws temperature",
           "shws tmp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3266,8 +3053,7 @@
           "sa temp",
           "sa temperature",
           "sup air temp"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3305,19 +3091,11 @@
           "RoomTemp",
           "SpaceTemp",
           "ZAT",
-          "RAT"
-        ],
-        "abbreviated": [
+          "RAT",
           "zt",
           "znt",
           "rt",
           "st"
-        ],
-        "verbose": [
-          "zone air temperature",
-          "room air temperature",
-          "space air temperature",
-          "zone temperature sensor"
         ],
         "misspellings": [
           "ZoneTepm",
@@ -3352,8 +3130,7 @@
           "byp-o",
           "byp vlv out",
           "bypass vlv output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3371,9 +3148,7 @@
           "tower isolation valve",
           "ct iso valve",
           "cooling tower iso",
-          "ct isolation"
-        ],
-        "abbreviated": [
+          "ct isolation",
           "ct-iso",
           "ct-isov"
         ]
@@ -3395,8 +3170,7 @@
           "cool output",
           "chw valve",
           "chw vlv out"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3413,8 +3187,7 @@
           "heating output",
           "heating valve",
           "heat output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3430,8 +3203,7 @@
           "iso-o",
           "iso vlv out",
           "iso valve output"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3447,8 +3219,7 @@
           "mixvlv-o",
           "mix vlv out",
           "mix valve output"
-        ],
-        "abbreviated": []
+        ]
       }
     }
   ],
@@ -3466,9 +3237,7 @@
           "AHU",
           "air handler",
           "central air handler",
-          "air handling equipment"
-        ],
-        "abbreviated": [
+          "air handling equipment",
           "AH"
         ]
       }
@@ -3487,9 +3256,7 @@
           "rooftop package unit",
           "packaged rooftop unit",
           "roof top unit",
-          "rooftop air handler"
-        ],
-        "abbreviated": [
+          "rooftop air handler",
           "RT"
         ]
       }
@@ -3509,9 +3276,7 @@
           "makeup air handler",
           "fresh air unit",
           "makeup air",
-          "make-up air unit"
-        ],
-        "abbreviated": [
+          "make-up air unit",
           "MA"
         ]
       }
@@ -3531,9 +3296,7 @@
           "DOAU",
           "100% OA unit",
           "dedicated outdoor air unit",
-          "dedicated outside air system"
-        ],
-        "abbreviated": [
+          "dedicated outside air system",
           "DOA"
         ]
       }
@@ -3554,9 +3317,7 @@
           "fan-coil",
           "ceiling fan coil",
           "horizontal fan coil",
-          "vertical fan coil"
-        ],
-        "abbreviated": [
+          "vertical fan coil",
           "FC"
         ]
       }
@@ -3576,8 +3337,7 @@
           "data center cooling",
           "computer room AC",
           "precision air conditioner"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3594,8 +3354,7 @@
           "precision air handler",
           "data center air handler",
           "chilled water CRAC"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3613,8 +3372,7 @@
           "univent",
           "classroom unit ventilator",
           "wall unit ventilator"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3632,8 +3390,7 @@
           "wall unit",
           "hotel AC unit",
           "through-the-wall unit"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3650,8 +3407,7 @@
           "through-wall heat pump",
           "wall heat pump",
           "terminal heat pump"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3669,8 +3425,7 @@
           "geothermal heat pump",
           "water-to-air heat pump",
           "console heat pump"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3690,8 +3445,7 @@
           "mini split",
           "ductless mini split",
           "VRF heat pump"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3710,8 +3464,7 @@
           "enthalpy recovery unit",
           "total energy recovery",
           "energy wheel"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3728,8 +3481,7 @@
           "heat recovery unit",
           "air-to-air heat exchanger",
           "heat exchanger ventilator"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3747,8 +3499,7 @@
           "destratification unit",
           "warehouse heater",
           "high bay unit"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3771,9 +3522,7 @@
           "centrifugal chiller",
           "screw chiller",
           "scroll chiller",
-          "absorption chiller"
-        ],
-        "abbreviated": [
+          "absorption chiller",
           "CHL"
         ]
       }
@@ -3798,8 +3547,7 @@
           "gas boiler",
           "fire tube boiler",
           "water tube boiler"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3820,8 +3568,7 @@
           "condenser tower",
           "wet cooling tower",
           "dry cooler"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3841,8 +3588,7 @@
           "plate and frame",
           "brazed plate",
           "PHX"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3868,9 +3614,7 @@
           "booster pump",
           "inline pump",
           "base-mounted pump",
-          "end-suction pump"
-        ],
-        "abbreviated": [
+          "end-suction pump",
           "PCHWP",
           "SCHWP",
           "PHWP",
@@ -3897,8 +3641,7 @@
           "adjustable speed drive",
           "ASD",
           "frequency converter"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3916,8 +3659,7 @@
           "bladder tank",
           "diaphragm tank",
           "expansion vessel"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3936,8 +3678,7 @@
           "air removal device",
           "deaerator",
           "air vent"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3956,8 +3697,7 @@
           "steam converter",
           "shell and tube converter",
           "steam to water HX"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -3980,8 +3720,7 @@
           "demand meter",
           "kilowatt meter",
           "submeter"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -4000,8 +3739,7 @@
           "gas flow meter",
           "therm meter",
           "CCF meter"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -4021,8 +3759,7 @@
           "domestic water meter",
           "makeup water meter",
           "city water meter"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -4039,8 +3776,7 @@
           "steam flow meter",
           "condensate meter",
           "steam mass flow meter"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -4061,8 +3797,7 @@
           "Btu meter",
           "British thermal unit meter",
           "delta-T meter"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -4080,9 +3815,7 @@
           "VAV terminal",
           "air terminal unit",
           "VAV terminal unit",
-          "variable volume box"
-        ],
-        "abbreviated": [
+          "variable volume box",
           "VV"
         ]
       }
@@ -4101,9 +3834,7 @@
           "CAV box",
           "CAV terminal",
           "constant volume box",
-          "CV box"
-        ],
-        "abbreviated": [
+          "CV box",
           "CV"
         ]
       }
@@ -4124,9 +3855,7 @@
           "parallel fan VAV",
           "fan powered box",
           "FPB",
-          "parallel fan terminal"
-        ],
-        "abbreviated": [
+          "parallel fan terminal",
           "PFB"
         ]
       }
@@ -4145,9 +3874,7 @@
           "series fan box",
           "SFVAV",
           "series fan VAV",
-          "series fan terminal"
-        ],
-        "abbreviated": [
+          "series fan terminal",
           "SFB"
         ]
       }
@@ -4167,9 +3894,7 @@
           "passive chilled beam",
           "induction beam",
           "ceiling beam",
-          "chilled ceiling"
-        ],
-        "abbreviated": [
+          "chilled ceiling",
           "ACB",
           "PCB"
         ]
@@ -4191,8 +3916,7 @@
           "radiant heating panel",
           "radiant cooling panel",
           "ceiling panel"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -4213,8 +3937,7 @@
           "baseboard convector",
           "hot water baseboard",
           "electric baseboard"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -4236,8 +3959,7 @@
           "CUH",
           "suspended heater",
           "ceiling heater"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -4254,8 +3976,7 @@
           "induction terminal",
           "air induction unit",
           "high pressure induction"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -4272,9 +3993,7 @@
           "blower coil",
           "horizontal blower coil",
           "vertical blower coil",
-          "console unit"
-        ],
-        "abbreviated": [
+          "console unit",
           "BC"
         ]
       }
@@ -4298,8 +4017,7 @@
           "outdoor condensing unit",
           "VRF heat recovery unit",
           "VRF heat pump outdoor"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -4324,8 +4042,7 @@
           "floor standing",
           "high wall unit",
           "ducted VRF"
-        ],
-        "abbreviated": []
+        ]
       }
     },
     {
@@ -4347,8 +4064,7 @@
           "heat recovery box",
           "HR box",
           "BC controller"
-        ],
-        "abbreviated": []
+        ]
       }
     }
   ]

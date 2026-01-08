@@ -7,8 +7,6 @@ export interface TypicalRange {
 
 export interface BabelAliases {
   common: string[];
-  abbreviated?: string[];
-  verbose?: string[];
   misspellings?: string[];
 }
 

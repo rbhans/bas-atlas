@@ -13,6 +13,5 @@ aliases:
     - blr cmd
     - boiler enable
     - boiler run
-  abbreviated:
     - blr-c
     - blr-cmd

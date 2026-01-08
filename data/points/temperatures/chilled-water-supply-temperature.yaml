@@ -11,7 +11,6 @@ concept:
     max: 55
   object_type: analog-input
   engineering_units: degrees-fahrenheit
-
 aliases:
   common:
     - chws-t
@@ -21,19 +20,13 @@ aliases:
     - chw supply temp
     - CHWST
     - CHW_Supply_Temp
-  abbreviated:
     - chwst
     - cwst
-  verbose:
-    - chilled water supply temperature sensor
-    - chilled water leaving temperature
-
 notes:
   - Typical setpoint 42-44°F for comfort cooling
   - Higher setpoints (50-55°F) for energy optimization
   - Must stay above 40°F to prevent coil freezing
   - Delta T from return typically 10-14°F
-
 related:
   - chilled-water-return-temperature
   - chiller-1-leaving-temperature

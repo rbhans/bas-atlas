@@ -13,6 +13,5 @@ aliases:
     - blr sts
     - boiler on/off
     - boiler run status
-  abbreviated:
     - blr-s
     - blr-sts

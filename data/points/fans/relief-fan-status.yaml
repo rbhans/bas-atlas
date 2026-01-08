@@ -1,0 +1,12 @@
+concept:
+  id: relief-fan-status
+  name: Relief Fan Status
+  category: fans
+  description: Relief Fan Status point
+  haystack: relief fan status
+aliases:
+  common:
+    - rlf-s
+    - rlf status
+    - rlf sts
+  abbreviated: []

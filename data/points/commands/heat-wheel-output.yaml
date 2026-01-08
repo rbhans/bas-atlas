@@ -1,0 +1,15 @@
+concept:
+  id: heat-wheel-output
+  name: Heat Wheel Output
+  category: commands
+  description: Heat Wheel Output point
+  haystack: heat wheel output
+aliases:
+  common:
+    - hw-o
+    - hw out
+    - hw output
+    - erw output
+    - energy recovery wheel output
+    - erw-o
+  abbreviated: []

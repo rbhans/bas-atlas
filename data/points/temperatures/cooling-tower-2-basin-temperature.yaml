@@ -1,0 +1,13 @@
+concept:
+  id: cooling-tower-2-basin-temperature
+  name: Cooling Tower 2 Basin Temperature
+  category: temperatures
+  description: Cooling Tower 2 Basin Temperature point
+  haystack: cooling tower 2 basin temperature
+aliases:
+  common:
+    - ct2-basin-t
+    - clg twr 2 basin temp
+    - ct-2 basin temp
+    - ct-2 basin temperature
+  abbreviated: []

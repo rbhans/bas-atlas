@@ -1,0 +1,14 @@
+concept:
+  id: mixed-air-temperature-setpoint
+  name: Mixed Air Temperature Setpoint
+  category: temperatures
+  description: Mixed Air Temperature Setpoint point
+  haystack: mixed air temperature setpoint
+aliases:
+  common:
+    - mat-sp
+    - mat setpoint
+    - ma temp stpt
+    - ma temp setpt
+    - ma temperature setpt
+  abbreviated: []

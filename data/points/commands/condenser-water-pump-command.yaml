@@ -1,0 +1,12 @@
+concept:
+  id: condenser-water-pump-command
+  name: Condenser Water Pump Command
+  category: commands
+  description: Condenser Water Pump Command point
+  haystack: condenser water pump command
+aliases:
+  common:
+    - cwp-c
+    - cwp cmd
+    - cwp command
+  abbreviated: []

@@ -1,0 +1,16 @@
+concept:
+  id: electric-heat-stage-6
+  name: Electric Heat Stage 6
+  category: status
+  description: Electric Heat Stage 6 point
+  haystack: electric heat stage 6
+aliases:
+  common:
+    - elechtg-stg6
+    - htg-stg6
+    - elec-stg6
+    - electric heat stg 6
+    - heating stg 6
+    - heating stage 6
+    - heat 6
+  abbreviated: []

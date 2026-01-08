@@ -1,0 +1,12 @@
+concept:
+  id: system-enable
+  name: System Enable
+  category: commands
+  description: System Enable point
+  haystack: system enable
+aliases:
+  common:
+    - sys-en
+    - system en
+    - sys enable
+  abbreviated: []

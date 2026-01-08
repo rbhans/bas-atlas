@@ -1,0 +1,13 @@
+concept:
+  id: supply-fan-status
+  name: Supply Fan Status
+  category: fans
+  description: Supply Fan Status point
+  haystack: supply fan status
+aliases:
+  common:
+    - sf-s
+    - sf status
+    - sf sts
+    - fan status
+  abbreviated: []

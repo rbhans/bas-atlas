@@ -1,0 +1,12 @@
+concept:
+  id: chilled-water-pump-output
+  name: Chilled Water Pump Output
+  category: commands
+  description: Chilled Water Pump Output point
+  haystack: chilled water pump output
+aliases:
+  common:
+    - chwp-o
+    - chwp out
+    - chwp output
+  abbreviated: []

@@ -1,0 +1,13 @@
+concept:
+  id: discharge-air-humidity
+  name: Discharge Air Humidity
+  category: humidity
+  description: Discharge Air Humidity point
+  haystack: discharge air humidity
+aliases:
+  common:
+    - da-h
+    - da humid
+    - da humidity
+    - disch air hum
+  abbreviated: []

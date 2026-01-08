@@ -1,0 +1,13 @@
+concept:
+  id: secondary-hot-water-supply-temperature
+  name: Secondary Hot Water Supply Temperature
+  category: temperatures
+  description: Secondary Hot Water Supply Temperature point
+  haystack: secondary hot water supply temperature
+aliases:
+  common:
+    - shws-t
+    - shws temp
+    - shws temperature
+    - shws tmp
+  abbreviated: []

@@ -1,0 +1,13 @@
+concept:
+  id: chiller-4-enable
+  name: Chiller 4 Enable
+  category: commands
+  description: Chiller 4 Enable point
+  haystack: chiller 4 enable
+aliases:
+  common:
+    - ch4-en
+    - ch4-enable
+    - ch-4 enable
+    - chlr-4 enable
+  abbreviated: []

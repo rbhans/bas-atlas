@@ -1,0 +1,13 @@
+concept:
+  id: return-air-humidity
+  name: Return Air Humidity
+  category: humidity
+  description: Return Air Humidity point
+  haystack: return air humidity
+aliases:
+  common:
+    - ra-h
+    - ra humid
+    - ra humidity
+    - ret air humid
+  abbreviated: []

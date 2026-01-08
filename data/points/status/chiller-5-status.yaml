@@ -1,0 +1,13 @@
+concept:
+  id: chiller-5-status
+  name: Chiller 5 Status
+  category: status
+  description: Chiller 5 Status point
+  haystack: chiller 5 status
+aliases:
+  common:
+    - ch5-s
+    - ch-5 sts
+    - ch-5 status
+    - chlr-5 status
+  abbreviated: []

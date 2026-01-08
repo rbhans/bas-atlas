@@ -1,0 +1,12 @@
+concept:
+  id: occupied-command
+  name: Occupied Command
+  category: commands
+  description: Occupied Command point
+  haystack: occupied command
+aliases:
+  common:
+    - occ-cmd
+    - occ command
+    - occupancy cmd
+  abbreviated: []

@@ -1,0 +1,121 @@
+equipment:
+  - id: chilled-water-plant
+    name: chilled-water-plant
+    full_name: chilled water plant
+    category: central-plant
+    description: chilled water plant
+    aliases:
+      common:
+        - chilled water plant
+        - chilled water system
+        - central plant
+      abbreviated: []
+  - id: hot-water-plant
+    name: hot-water-plant
+    full_name: hot water plant
+    category: central-plant
+    description: hot water plant
+    aliases:
+      common:
+        - hot water plant
+        - hot water system
+        - heating water system
+        - heating water
+      abbreviated: []
+  - id: steam-plant
+    name: steam-plant
+    full_name: steam plant
+    category: central-plant
+    description: steam plant
+    aliases:
+      common:
+        - steam plant
+        - steam water system
+        - steam water
+        - low pressure steam
+        - high pressure steam
+      abbreviated: []
+  - id: chiller
+    name: chiller
+    full_name: ch
+    category: central-plant
+    description: ch
+    aliases:
+      common:
+        - ch
+        - chlr
+      abbreviated: []
+  - id: coolingtower
+    name: coolingTower
+    full_name: cooling tower
+    category: central-plant
+    description: cooling tower
+    aliases:
+      common:
+        - cooling tower
+        - ct
+        - tower
+      abbreviated: []
+  - id: heatexchanger
+    name: heatExchanger
+    full_name: heat exchanger
+    category: central-plant
+    description: heat exchanger
+    aliases:
+      common:
+        - heat exchanger
+        - hx
+      abbreviated: []
+  - id: pump-motor
+    name: pump-motor
+    full_name: pump
+    category: central-plant
+    description: pump
+    aliases:
+      common:
+        - pump
+        - chw pump
+        - chwp
+        - hw pump
+        - hwp
+      abbreviated:
+        - pchwp
+        - schwp
+        - phwp
+        - shwp
+  - id: valve-actuator
+    name: valve-actuator
+    full_name: valve
+    category: central-plant
+    description: valve
+    aliases:
+      common:
+        - valve
+        - isolation valve
+        - mixing valve
+        - modulating valve
+      abbreviated: []
+  - id: hot-water-boiler
+    name: hot-water-boiler
+    full_name: hot water boiler
+    category: central-plant
+    description: hot water boiler
+    aliases:
+      common:
+        - hot water boiler
+        - boiler
+        - b
+        - blr
+      abbreviated: []
+  - id: steam-boiler
+    name: steam-boiler
+    full_name: steam boiler
+    category: central-plant
+    description: steam boiler
+    aliases:
+      common:
+        - steam boiler
+        - boiler
+        - b
+        - blr
+      abbreviated: []

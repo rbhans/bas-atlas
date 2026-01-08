@@ -1,0 +1,13 @@
+concept:
+  id: primary-chilled-water-return-temperature
+  name: Primary Chilled Water Return Temperature
+  category: temperatures
+  description: Primary Chilled Water Return Temperature point
+  haystack: primary chilled water return temperature
+aliases:
+  common:
+    - pchwr-t
+    - pchwr temp
+    - pchwr temperature
+    - pchwr tmp
+  abbreviated: []

@@ -1,0 +1,12 @@
+concept:
+  id: boiler-1-alarm
+  name: Boiler 1 Alarm
+  category: alarms
+  description: Boiler 1 Alarm point
+  haystack: boiler 1 alarm
+aliases:
+  common:
+    - blr1-a
+    - blr 1 alm
+    - boiler 1 alm
+  abbreviated: []

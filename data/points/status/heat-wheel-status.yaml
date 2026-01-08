@@ -1,0 +1,15 @@
+concept:
+  id: heat-wheel-status
+  name: Heat Wheel Status
+  category: status
+  description: Heat Wheel Status point
+  haystack: heat wheel status
+aliases:
+  common:
+    - hw-s
+    - hw sts
+    - hw status
+    - erw status
+    - energy recovery wheel status
+    - erw-s
+  abbreviated: []

@@ -1,0 +1,12 @@
+concept:
+  id: mixed-air-damper-closed
+  name: Mixed Air Damper Closed
+  category: dampers
+  description: Mixed Air Damper Closed point
+  haystack: mixed air damper closed
+aliases:
+  common:
+    - mad-closed
+    - ma damper closed
+    - mad closed
+  abbreviated: []

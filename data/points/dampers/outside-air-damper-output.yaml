@@ -1,0 +1,13 @@
+concept:
+  id: outside-air-damper-output
+  name: Outside Air Damper Output
+  category: dampers
+  description: Outside Air Damper Output point
+  haystack: outside air damper output
+aliases:
+  common:
+    - oad-o
+    - oa damper output
+    - oad output
+    - outdoor air damper output
+  abbreviated: []

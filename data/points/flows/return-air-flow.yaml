@@ -1,0 +1,12 @@
+concept:
+  id: return-air-flow
+  name: Return Air Flow
+  category: flows
+  description: Return Air Flow point
+  haystack: return air flow
+aliases:
+  common:
+    - ra-f
+    - ra flow
+    - ret air flow
+  abbreviated: []

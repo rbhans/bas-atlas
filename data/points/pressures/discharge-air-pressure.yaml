@@ -1,0 +1,17 @@
+concept:
+  id: discharge-air-pressure
+  name: Discharge Air Pressure
+  category: pressures
+  description: Discharge Air Pressure point
+  haystack: discharge air pressure
+aliases:
+  common:
+    - da-p
+    - da press
+    - da pressure
+    - disch air pressure
+    - disch air press
+    - da1-p
+    - duct static
+    - duct static pressure
+  abbreviated: []

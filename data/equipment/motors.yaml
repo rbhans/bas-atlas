@@ -1,0 +1,14 @@
+equipment:
+  - id: fan-motor
+    name: fan-motor
+    full_name: fan motor
+    category: motors
+    description: fan motor
+    aliases:
+      common:
+        - fan motor
+        - fan
+        - supply fan
+        - return fan
+        - exhaust fan
+      abbreviated: []

@@ -1,0 +1,11 @@
+concept:
+  id: outdoor-air-flow
+  name: Outdoor Air Flow
+  category: flows
+  description: Outdoor Air Flow point
+  haystack: outdoor air flow
+aliases:
+  common:
+    - oa-f
+    - oa flow
+  abbreviated: []

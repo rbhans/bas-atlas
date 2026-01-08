@@ -1,0 +1,13 @@
+concept:
+  id: chiller-5-alarm
+  name: Chiller 5 Alarm
+  category: alarms
+  description: Chiller 5 Alarm point
+  haystack: chiller 5 alarm
+aliases:
+  common:
+    - ch5-a
+    - ch5-alm
+    - ch-5 alarm
+    - ch-5 alm
+  abbreviated: []

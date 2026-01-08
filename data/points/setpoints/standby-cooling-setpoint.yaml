@@ -1,0 +1,14 @@
+concept:
+  id: standby-cooling-setpoint
+  name: Standby Cooling Setpoint
+  category: setpoints
+  description: Standby Cooling Setpoint point
+  haystack: standby cooling setpoint
+aliases:
+  common:
+    - stbyclg-sp
+    - standby clg setpoint
+    - standby clg sp
+    - standby clg stpt
+    - standby cooling setpt
+  abbreviated: []

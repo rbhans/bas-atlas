@@ -1,0 +1,14 @@
+concept:
+  id: steam-heating-output
+  name: Steam Heating Output
+  category: commands
+  description: Steam Heating Output point
+  haystack: steam heating output
+aliases:
+  common:
+    - stm-o
+    - steam out
+    - steam heat out
+    - steam htg out
+    - steam htg output
+  abbreviated: []

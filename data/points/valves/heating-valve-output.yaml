@@ -1,0 +1,13 @@
+concept:
+  id: heating-valve-output
+  name: Heating Valve Output
+  category: valves
+  description: Heating Valve Output point
+  haystack: heating valve output
+aliases:
+  common:
+    - htg-o
+    - heating output
+    - heating valve
+    - heat output
+  abbreviated: []

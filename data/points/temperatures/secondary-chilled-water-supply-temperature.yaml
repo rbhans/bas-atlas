@@ -1,0 +1,13 @@
+concept:
+  id: secondary-chilled-water-supply-temperature
+  name: Secondary Chilled Water Supply Temperature
+  category: temperatures
+  description: Secondary Chilled Water Supply Temperature point
+  haystack: secondary chilled water supply temperature
+aliases:
+  common:
+    - schws-t
+    - schws temp
+    - schws temperature
+    - schws tmp
+  abbreviated: []

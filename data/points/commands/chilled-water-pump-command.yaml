@@ -1,0 +1,12 @@
+concept:
+  id: chilled-water-pump-command
+  name: Chilled Water Pump Command
+  category: commands
+  description: Chilled Water Pump Command point
+  haystack: chilled water pump command
+aliases:
+  common:
+    - chwp-c
+    - chwp cmd
+    - chwp command
+  abbreviated: []

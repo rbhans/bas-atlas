@@ -1,0 +1,13 @@
+concept:
+  id: secondary-hot-water-return-temperature
+  name: Secondary Hot Water Return Temperature
+  category: temperatures
+  description: Secondary Hot Water Return Temperature point
+  haystack: secondary hot water return temperature
+aliases:
+  common:
+    - shwr-t
+    - shwr temp
+    - shwr temperature
+    - shwr tmp
+  abbreviated: []

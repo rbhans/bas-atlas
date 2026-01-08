@@ -1,0 +1,13 @@
+concept:
+  id: cooling-tower-5-alarm
+  name: Cooling Tower 5 Alarm
+  category: alarms
+  description: Cooling Tower 5 Alarm point
+  haystack: cooling tower 5 alarm
+aliases:
+  common:
+    - ct5-a
+    - clg twr 5 alm
+    - ct-5 alarm
+    - ct-5 alm
+  abbreviated: []

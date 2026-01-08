@@ -1,0 +1,13 @@
+concept:
+  id: zone-humidity
+  name: Zone Humidity
+  category: humidity
+  description: Zone Humidity point
+  haystack: zone humidity
+aliases:
+  common:
+    - zn-h
+    - zn humid
+    - zn humidity
+    - zone humid
+  abbreviated: []

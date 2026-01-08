@@ -1,0 +1,12 @@
+concept:
+  id: chilled-water-pump-status
+  name: Chilled Water Pump Status
+  category: status
+  description: Chilled Water Pump Status point
+  haystack: chilled water pump status
+aliases:
+  common:
+    - chwp-s
+    - chwp sts
+    - chwp status
+  abbreviated: []

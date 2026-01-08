@@ -1,0 +1,14 @@
+concept:
+  id: cooling-tower-5-status
+  name: Cooling Tower 5 Status
+  category: status
+  description: Cooling Tower 5 Status point
+  haystack: cooling tower 5 status
+aliases:
+  common:
+    - ct5-s
+    - ct5f-s
+    - ct-5 fan status
+    - ct-5 fan sts
+    - clg twr 5 sts
+  abbreviated: []

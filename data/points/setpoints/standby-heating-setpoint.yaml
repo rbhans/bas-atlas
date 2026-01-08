@@ -1,0 +1,14 @@
+concept:
+  id: standby-heating-setpoint
+  name: Standby Heating Setpoint
+  category: setpoints
+  description: Standby Heating Setpoint point
+  haystack: standby heating setpoint
+aliases:
+  common:
+    - stbyhtg-sp
+    - standby htg setpoint
+    - standby htg sp
+    - standby htg stpt
+    - standby heating setpt
+  abbreviated: []

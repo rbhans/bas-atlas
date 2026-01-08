@@ -1,0 +1,13 @@
+concept:
+  id: heating-outdoor-air-lockout-setpoint
+  name: Heating Outdoor Air Lockout Setpoint
+  category: setpoints
+  description: Heating Outdoor Air Lockout Setpoint point
+  haystack: heating outdoor air lockout setpoint
+aliases:
+  common:
+    - htgoalockout-sp
+    - htg oat lockout setpoint
+    - heating oat lockout stpt
+    - heat oat lock setpt
+  abbreviated: []

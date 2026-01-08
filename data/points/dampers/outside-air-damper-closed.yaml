@@ -1,0 +1,13 @@
+concept:
+  id: outside-air-damper-closed
+  name: Outside Air Damper Closed
+  category: dampers
+  description: Outside Air Damper Closed point
+  haystack: outside air damper closed
+aliases:
+  common:
+    - oad-closed
+    - oa damper closed
+    - oad closed
+    - outdoor air damper closed
+  abbreviated: []

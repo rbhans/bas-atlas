@@ -1,0 +1,14 @@
+concept:
+  id: boiler-pump-output
+  name: Boiler Pump Output
+  category: commands
+  description: Boiler Pump Output point
+  haystack: boiler pump output
+aliases:
+  common:
+    - bp-o
+    - bp out
+    - bp output
+    - blrp output
+    - blr pump out
+  abbreviated: []

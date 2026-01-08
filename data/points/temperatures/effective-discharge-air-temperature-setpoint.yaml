@@ -1,0 +1,14 @@
+concept:
+  id: effective-discharge-air-temperature-setpoint
+  name: Effective Discharge Air Temperature Setpoint
+  category: temperatures
+  description: Effective Discharge Air Temperature Setpoint point
+  haystack: effective discharge air temperature setpoint
+aliases:
+  common:
+    - effdat-sp
+    - eff dat setpoint
+    - eff dat stpt
+    - effective dat stpt
+    - eff da temp setpt
+  abbreviated: []

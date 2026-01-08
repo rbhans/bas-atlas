@@ -1,0 +1,13 @@
+concept:
+  id: exhaust-air-temperaure
+  name: Exhaust Air Temperaure
+  category: temperatures
+  description: Exhaust Air Temperaure point
+  haystack: exhaust air temperaure
+aliases:
+  common:
+    - ea-t
+    - ea temp
+    - ea temperature
+    - exh air temp
+  abbreviated: []

@@ -1,0 +1,12 @@
+concept:
+  id: mixing-valve-output
+  name: Mixing Valve Output
+  category: valves
+  description: Mixing Valve Output point
+  haystack: mixing valve output
+aliases:
+  common:
+    - mixvlv-o
+    - mix vlv out
+    - mix valve output
+  abbreviated: []

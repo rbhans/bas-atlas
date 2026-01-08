@@ -1,0 +1,13 @@
+concept:
+  id: chiller-3-status
+  name: Chiller 3 Status
+  category: status
+  description: Chiller 3 Status point
+  haystack: chiller 3 status
+aliases:
+  common:
+    - ch3-s
+    - ch-3 sts
+    - ch-3 status
+    - chlr-3 status
+  abbreviated: []

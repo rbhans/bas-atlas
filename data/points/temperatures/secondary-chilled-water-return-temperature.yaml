@@ -1,0 +1,13 @@
+concept:
+  id: secondary-chilled-water-return-temperature
+  name: Secondary Chilled Water Return Temperature
+  category: temperatures
+  description: Secondary Chilled Water Return Temperature point
+  haystack: secondary chilled water return temperature
+aliases:
+  common:
+    - schwr-t
+    - schwr temp
+    - schwr temperature
+    - schwr tmp
+  abbreviated: []

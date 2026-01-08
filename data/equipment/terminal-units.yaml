@@ -1,0 +1,126 @@
+equipment:
+  - id: elecheating
+    name: elecHeating
+    full_name: electric heating
+    category: terminal-units
+    description: electric heating
+    aliases:
+      common:
+        - electric heating
+        - stage heat
+        - heating
+        - heat
+      abbreviated: []
+  - id: hotwaterheating
+    name: hotWaterHeating
+    full_name: hot water heating
+    category: terminal-units
+    description: hot water heating
+    aliases:
+      common:
+        - hot water heating
+        - hw heating
+        - heating
+        - heat
+      abbreviated: []
+  - id: steamheating
+    name: steamHeating
+    full_name: steam heating
+    category: terminal-units
+    description: steam heating
+    aliases:
+      common:
+        - steam heating
+        - steam heat
+        - heating
+        - heat
+      abbreviated: []
+  - id: pressuredependent
+    name: pressureDependent
+    full_name: pressure dependent
+    category: terminal-units
+    description: pressure dependent
+    aliases:
+      common:
+        - pressure dependent
+      abbreviated: []
+  - id: pressureindependent
+    name: pressureIndependent
+    full_name: pressure independent
+    category: terminal-units
+    description: pressure independent
+    aliases:
+      common:
+        - pressure independent
+      abbreviated: []
+  - id: parallel
+    name: parallel
+    full_name: pfvav
+    category: terminal-units
+    description: pfvav
+    aliases:
+      common:
+        - pfvav
+        - parallel fan
+        - parallel fan vav
+      abbreviated: []
+  - id: series
+    name: series
+    full_name: sfvav
+    category: terminal-units
+    description: sfvav
+    aliases:
+      common:
+        - sfvav
+        - series fan
+        - series fan vav
+      abbreviated: []
+  - id: singleduct
+    name: singleDuct
+    full_name: single duct
+    category: terminal-units
+    description: single duct
+    aliases:
+      common:
+        - single duct
+      abbreviated: []
+  - id: dualduct
+    name: dualDuct
+    full_name: dual duct
+    category: terminal-units
+    description: dual duct
+    aliases:
+      common:
+        - dual duct
+      abbreviated: []
+  - id: inlet
+    name: inlet
+    full_name: supply air
+    category: terminal-units
+    description: supply air
+    aliases:
+      common:
+        - supply air
+        - from ahu
+        - sa
+      abbreviated: []
+  - id: discharge
+    name: discharge
+    full_name: discharge air
+    category: terminal-units
+    description: discharge air
+    aliases:
+      common:
+        - discharge air
+        - da
+      abbreviated: []
+  - id: zone
+    name: zone
+    full_name: space
+    category: terminal-units
+    description: space
+    aliases:
+      common:
+        - space
+        - room
+      abbreviated: []

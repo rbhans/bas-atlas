@@ -1,0 +1,13 @@
+concept:
+  id: outdoor-air-humidity
+  name: Outdoor Air Humidity
+  category: humidity
+  description: Outdoor Air Humidity point
+  haystack: outdoor air humidity
+aliases:
+  common:
+    - oa-h
+    - oa humid
+    - oa humidity
+    - outdoor air humid
+  abbreviated: []

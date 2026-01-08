@@ -1,0 +1,14 @@
+concept:
+  id: chiller-4-command
+  name: Chiller 4 Command
+  category: commands
+  description: Chiller 4 Command point
+  haystack: chiller 4 command
+aliases:
+  common:
+    - ch4-c
+    - ch4-cmd
+    - ch-4 cmd
+    - ch-4 command
+    - chlr-4 cmd
+  abbreviated: []

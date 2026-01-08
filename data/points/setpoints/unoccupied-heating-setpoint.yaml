@@ -1,0 +1,14 @@
+concept:
+  id: unoccupied-heating-setpoint
+  name: Unoccupied Heating Setpoint
+  category: setpoints
+  description: Unoccupied Heating Setpoint point
+  haystack: unoccupied heating setpoint
+aliases:
+  common:
+    - unocchtg-sp
+    - unocc htg setpoint
+    - unoccupied htg sp
+    - unocc htg stpt
+    - unocc heating setpt
+  abbreviated: []

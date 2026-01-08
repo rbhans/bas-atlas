@@ -1,0 +1,13 @@
+concept:
+  id: chiller-5-enable
+  name: Chiller 5 Enable
+  category: commands
+  description: Chiller 5 Enable point
+  haystack: chiller 5 enable
+aliases:
+  common:
+    - ch5-en
+    - ch5-enable
+    - ch-5 enable
+    - chlr-5 enable
+  abbreviated: []

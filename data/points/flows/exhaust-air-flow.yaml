@@ -1,0 +1,12 @@
+concept:
+  id: exhaust-air-flow
+  name: Exhaust Air Flow
+  category: flows
+  description: Exhaust Air Flow point
+  haystack: exhaust air flow
+aliases:
+  common:
+    - ea-f
+    - ea flow
+    - exh air flow
+  abbreviated: []

@@ -1,0 +1,13 @@
+concept:
+  id: discharge-air-high-pressure-alarm
+  name: Discharge Air High Pressure Alarm
+  category: pressures
+  description: Discharge Air High Pressure Alarm point
+  haystack: discharge air high pressure alarm
+aliases:
+  common:
+    - dahp-a
+    - da hi prs alm
+    - da high press alarm
+    - disch air high press alarm
+  abbreviated: []

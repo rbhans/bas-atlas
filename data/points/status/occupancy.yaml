@@ -1,0 +1,11 @@
+concept:
+  id: occupancy
+  name: Occupancy
+  category: status
+  description: Occupancy point
+  haystack: occupancy
+aliases:
+  common:
+    - occupied
+  abbreviated:
+    - occ

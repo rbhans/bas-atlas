@@ -1,0 +1,13 @@
+concept:
+  id: return-air-high-pressure-alarm
+  name: Return Air High Pressure Alarm
+  category: pressures
+  description: Return Air High Pressure Alarm point
+  haystack: return air high pressure alarm
+aliases:
+  common:
+    - rahp-a
+    - ra hi prs alm
+    - ra high press alarm
+    - ret air high press alarm
+  abbreviated: []

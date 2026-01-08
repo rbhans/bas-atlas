@@ -1,0 +1,14 @@
+concept:
+  id: cooling-tower-6-status
+  name: Cooling Tower 6 Status
+  category: status
+  description: Cooling Tower 6 Status point
+  haystack: cooling tower 6 status
+aliases:
+  common:
+    - ct6-s
+    - ct6f-s
+    - ct-6 fan status
+    - ct-6 fan sts
+    - clg twr 6 sts
+  abbreviated: []

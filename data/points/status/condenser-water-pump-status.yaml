@@ -1,0 +1,12 @@
+concept:
+  id: condenser-water-pump-status
+  name: Condenser Water Pump Status
+  category: status
+  description: Condenser Water Pump Status point
+  haystack: condenser water pump status
+aliases:
+  common:
+    - cwp-s
+    - cwp sts
+    - cwp status
+  abbreviated: []

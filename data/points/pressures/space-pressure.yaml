@@ -1,0 +1,19 @@
+concept:
+  id: space-pressure
+  name: Space Pressure
+  category: pressures
+  description: Space Pressure point
+  haystack: space pressure
+aliases:
+  common:
+    - zone pressure
+    - room pressure
+    - space-p
+    - zn-p
+    - rm-p
+    - space press
+    - zone press
+    - room press
+    - zn pressure
+    - rm pressure
+  abbreviated: []

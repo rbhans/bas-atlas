@@ -1,0 +1,15 @@
+concept:
+  id: low-limit-alarm
+  name: Low Limit Alarm
+  category: alarms
+  description: Low Limit Alarm point
+  haystack: low limit alarm
+aliases:
+  common:
+    - low temp alarm
+    - freezestat
+    - lt-a
+    - frz-st
+    - ll-a
+    - low temp alm
+  abbreviated: []

@@ -1,0 +1,14 @@
+concept:
+  id: cooling-tower-7-enable
+  name: Cooling Tower 7 Enable
+  category: commands
+  description: Cooling Tower 7 Enable point
+  haystack: cooling tower 7 enable
+aliases:
+  common:
+    - ct7-en
+    - clg twr 7 en
+    - ct-7 enable
+    - clg twr 7 enable
+    - ct-7 ena
+  abbreviated: []

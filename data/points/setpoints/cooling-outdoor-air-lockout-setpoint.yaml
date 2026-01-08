@@ -1,0 +1,13 @@
+concept:
+  id: cooling-outdoor-air-lockout-setpoint
+  name: Cooling Outdoor Air Lockout Setpoint
+  category: setpoints
+  description: Cooling Outdoor Air Lockout Setpoint point
+  haystack: cooling outdoor air lockout setpoint
+aliases:
+  common:
+    - clgoalockout-sp
+    - clg oat lockout setpoint
+    - cooling oat lockout stpt
+    - cool oat lock setpt
+  abbreviated: []

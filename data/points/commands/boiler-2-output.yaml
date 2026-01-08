@@ -1,0 +1,13 @@
+concept:
+  id: boiler-2-output
+  name: Boiler 2 Output
+  category: commands
+  description: Boiler 2 Output point
+  haystack: boiler 2 output
+aliases:
+  common:
+    - blr2-o
+    - blr 2 out
+    - boiler 2 out
+    - b-2 output
+  abbreviated: []

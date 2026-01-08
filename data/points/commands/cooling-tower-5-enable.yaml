@@ -1,0 +1,14 @@
+concept:
+  id: cooling-tower-5-enable
+  name: Cooling Tower 5 Enable
+  category: commands
+  description: Cooling Tower 5 Enable point
+  haystack: cooling tower 5 enable
+aliases:
+  common:
+    - ct5-en
+    - clg twr 5 en
+    - ct-5 enable
+    - clg twr 5 enable
+    - ct-5 ena
+  abbreviated: []

@@ -1,0 +1,12 @@
+concept:
+  id: hot-water-differential-pressure
+  name: Hot Water Differential Pressure
+  category: pressures
+  description: Hot Water Differential Pressure point
+  haystack: hot water differential pressure
+aliases:
+  common:
+    - hw-dp
+    - hw diff press
+    - hw diff pressure
+  abbreviated: []

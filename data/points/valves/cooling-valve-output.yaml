@@ -1,0 +1,15 @@
+concept:
+  id: cooling-valve-output
+  name: Cooling Valve Output
+  category: valves
+  description: Cooling Valve Output point
+  haystack: cooling valve output
+aliases:
+  common:
+    - clg-o
+    - cooling output
+    - cooling valve
+    - cool output
+    - chw valve
+    - chw vlv out
+  abbreviated: []

@@ -1,0 +1,13 @@
+concept:
+  id: supply-fan-fault
+  name: Supply Fan Fault
+  category: fans
+  description: Supply Fan Fault point
+  haystack: supply fan fault
+aliases:
+  common:
+    - sf-fault
+    - sf fault
+    - sf flt
+    - fan fault
+  abbreviated: []

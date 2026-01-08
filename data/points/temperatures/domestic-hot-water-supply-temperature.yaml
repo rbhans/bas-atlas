@@ -1,0 +1,13 @@
+concept:
+  id: domestic-hot-water-supply-temperature
+  name: Domestic Hot Water Supply Temperature
+  category: temperatures
+  description: Domestic Hot Water Supply Temperature point
+  haystack: domestic hot water supply temperature
+aliases:
+  common:
+    - dhws-t
+    - dhws temp
+    - dhws temperature
+    - dhws tmp
+  abbreviated: []

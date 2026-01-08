@@ -1,0 +1,12 @@
+concept:
+  id: unit-enable-mode
+  name: Unit Enable Mode
+  category: commands
+  description: Unit Enable Mode point
+  haystack: unit enable mode
+aliases:
+  common:
+    - uniten-mode
+    - unit en mode
+    - unit enable mode
+  abbreviated: []

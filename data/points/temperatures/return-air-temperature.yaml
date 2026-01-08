@@ -1,0 +1,13 @@
+concept:
+  id: return-air-temperature
+  name: Return Air Temperature
+  category: temperatures
+  description: Return Air Temperature point
+  haystack: return air temperature
+aliases:
+  common:
+    - ra-t
+    - ra temp
+    - ra temperature
+    - ret air temp
+  abbreviated: []

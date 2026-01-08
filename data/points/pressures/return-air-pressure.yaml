@@ -1,0 +1,14 @@
+concept:
+  id: return-air-pressure
+  name: Return Air Pressure
+  category: pressures
+  description: Return Air Pressure point
+  haystack: return air pressure
+aliases:
+  common:
+    - ra-p
+    - ra press
+    - ra pressure
+    - ret air pressure
+    - ret air press
+  abbreviated: []

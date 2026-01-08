@@ -1,0 +1,15 @@
+concept:
+  id: return-air-pressure-setpoint
+  name: Return Air Pressure Setpoint
+  category: pressures
+  description: Return Air Pressure Setpoint point
+  haystack: return air pressure setpoint
+aliases:
+  common:
+    - rap-sp
+    - rap setpoint
+    - ra press stpt
+    - ra prs stpt
+    - ra pressure setpt
+    - ret air press setpoint
+  abbreviated: []

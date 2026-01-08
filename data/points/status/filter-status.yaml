@@ -1,0 +1,12 @@
+concept:
+  id: filter-status
+  name: Filter Status
+  category: status
+  description: Filter Status point
+  haystack: filter status
+aliases:
+  common:
+    - filt-s
+    - filt sts
+    - filt status
+  abbreviated: []

@@ -1,0 +1,13 @@
+concept:
+  id: chilled-water-return-temperature
+  name: Chilled Water Return Temperature
+  category: temperatures
+  description: Chilled Water Return Temperature point
+  haystack: chilled water return temperature
+aliases:
+  common:
+    - chwr-t
+    - chwr temp
+    - chwr temperature
+    - chwr tmp
+  abbreviated: []

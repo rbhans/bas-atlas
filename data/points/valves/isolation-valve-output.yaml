@@ -1,0 +1,12 @@
+concept:
+  id: isolation-valve-output
+  name: Isolation Valve Output
+  category: valves
+  description: Isolation Valve Output point
+  haystack: isolation valve output
+aliases:
+  common:
+    - iso-o
+    - iso vlv out
+    - iso valve output
+  abbreviated: []

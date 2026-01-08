@@ -1,0 +1,13 @@
+concept:
+  id: primary-hot-water-supply-temperature
+  name: Primary Hot Water Supply Temperature
+  category: temperatures
+  description: Primary Hot Water Supply Temperature point
+  haystack: primary hot water supply temperature
+aliases:
+  common:
+    - phws-t
+    - phws temp
+    - phws temperature
+    - phws tmp
+  abbreviated: []

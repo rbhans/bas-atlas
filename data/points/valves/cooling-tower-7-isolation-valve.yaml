@@ -1,0 +1,12 @@
+concept:
+  id: cooling-tower-7-isolation-valve
+  name: Cooling Tower 7 Isolation Valve
+  category: valves
+  description: Cooling Tower 7 Isolation Valve point
+  haystack: cooling tower 7 isolation valve
+aliases:
+  common:
+    - ct7-isovlv
+    - clg twr 7 iso vlv
+    - ct-7 iso valve
+  abbreviated: []

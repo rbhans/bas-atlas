@@ -1,0 +1,12 @@
+concept:
+  id: hot-water-pump-status
+  name: Hot Water Pump Status
+  category: status
+  description: Hot Water Pump Status point
+  haystack: hot water pump status
+aliases:
+  common:
+    - hwp-s
+    - hwp sts
+    - hwp status
+  abbreviated: []

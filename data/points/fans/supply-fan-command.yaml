@@ -1,0 +1,13 @@
+concept:
+  id: supply-fan-command
+  name: Supply Fan Command
+  category: fans
+  description: Supply Fan Command point
+  haystack: supply fan command
+aliases:
+  common:
+    - sf-c
+    - sf command
+    - sf cmd
+    - fan command
+  abbreviated: []

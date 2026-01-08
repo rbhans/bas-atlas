@@ -1,0 +1,13 @@
+concept:
+  id: final-filter-status
+  name: Final Filter Status
+  category: status
+  description: Final Filter Status point
+  haystack: final filter status
+aliases:
+  common:
+    - fin filter status
+    - ffilt-s
+    - fin filt sts
+    - fin filt status
+  abbreviated: []

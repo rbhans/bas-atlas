@@ -1,0 +1,12 @@
+concept:
+  id: relief-fan-fault
+  name: Relief Fan Fault
+  category: fans
+  description: Relief Fan Fault point
+  haystack: relief fan fault
+aliases:
+  common:
+    - rlf-fault
+    - rlf fault
+    - rlf flt
+  abbreviated: []

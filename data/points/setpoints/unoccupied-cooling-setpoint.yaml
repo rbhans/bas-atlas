@@ -1,0 +1,14 @@
+concept:
+  id: unoccupied-cooling-setpoint
+  name: Unoccupied Cooling Setpoint
+  category: setpoints
+  description: Unoccupied Cooling Setpoint point
+  haystack: unoccupied cooling setpoint
+aliases:
+  common:
+    - unoccclg-sp
+    - unocc clg setpoint
+    - unoccupied clg sp
+    - unocc clg stpt
+    - unocc cooling setpt
+  abbreviated: []

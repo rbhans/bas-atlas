@@ -1,0 +1,14 @@
+concept:
+  id: boiler-pump-alarm
+  name: Boiler Pump Alarm
+  category: alarms
+  description: Boiler Pump Alarm point
+  haystack: boiler pump alarm
+aliases:
+  common:
+    - bp-a
+    - bp alm
+    - bp alarm
+    - blrp alarm
+    - blr pump alm
+  abbreviated: []

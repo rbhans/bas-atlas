@@ -1,0 +1,13 @@
+concept:
+  id: supply-air-temperature
+  name: Supply Air Temperature
+  category: temperatures
+  description: Supply Air Temperature point
+  haystack: supply air temperature
+aliases:
+  common:
+    - sa-t
+    - sa temp
+    - sa temperature
+    - sup air temp
+  abbreviated: []

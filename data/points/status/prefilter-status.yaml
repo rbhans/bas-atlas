@@ -1,0 +1,13 @@
+concept:
+  id: prefilter-status
+  name: Prefilter Status
+  category: status
+  description: Prefilter Status point
+  haystack: prefilter status
+aliases:
+  common:
+    - pre filter status
+    - pfilt-s
+    - pre filt sts
+    - pre filt status
+  abbreviated: []

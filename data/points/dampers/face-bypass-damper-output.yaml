@@ -1,0 +1,14 @@
+concept:
+  id: face-bypass-damper-output
+  name: Face Bypass Damper Output
+  category: dampers
+  description: Face Bypass Damper Output point
+  haystack: face bypass damper output
+aliases:
+  common:
+    - fbd-o
+    - fbd output
+    - fbd out
+    - face byp output
+    - fbdpr out
+  abbreviated: []

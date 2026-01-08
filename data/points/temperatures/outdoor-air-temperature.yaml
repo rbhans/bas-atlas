@@ -1,0 +1,13 @@
+concept:
+  id: outdoor-air-temperature
+  name: Outdoor Air Temperature
+  category: temperatures
+  description: Outdoor Air Temperature point
+  haystack: outdoor air temperature
+aliases:
+  common:
+    - oa-t
+    - oa temp
+    - oa temperature
+    - outdoor air temp
+  abbreviated: []

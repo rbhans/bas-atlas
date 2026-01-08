@@ -1,0 +1,14 @@
+concept:
+  id: chiller-7-entering-temperature
+  name: Chiller 7 Entering Temperature
+  category: temperatures
+  description: Chiller 7 Entering Temperature point
+  haystack: chiller 7 entering temperature
+aliases:
+  common:
+    - ch7-ewt
+    - ch7-ent-temp
+    - ch-7 ent temp
+    - ch-7 entering temp
+    - ch-7 enter temp
+  abbreviated: []

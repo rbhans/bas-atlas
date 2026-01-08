@@ -1,0 +1,14 @@
+concept:
+  id: chiller-5-command
+  name: Chiller 5 Command
+  category: commands
+  description: Chiller 5 Command point
+  haystack: chiller 5 command
+aliases:
+  common:
+    - ch5-c
+    - ch5-cmd
+    - ch-5 cmd
+    - ch-5 command
+    - chlr-5 cmd
+  abbreviated: []

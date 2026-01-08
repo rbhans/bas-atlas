@@ -1,0 +1,13 @@
+concept:
+  id: outside-air-damper-open
+  name: Outside Air Damper Open
+  category: dampers
+  description: Outside Air Damper Open point
+  haystack: outside air damper open
+aliases:
+  common:
+    - oad-open
+    - oa damper open
+    - oad open
+    - outdoor air damper open
+  abbreviated: []

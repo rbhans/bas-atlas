@@ -1,0 +1,13 @@
+concept:
+  id: domestic-hot-water-return-temperature
+  name: Domestic Hot Water Return Temperature
+  category: temperatures
+  description: Domestic Hot Water Return Temperature point
+  haystack: domestic hot water return temperature
+aliases:
+  common:
+    - dhwr-t
+    - dhwr temp
+    - dhwr temperature
+    - dhwr tmp
+  abbreviated: []

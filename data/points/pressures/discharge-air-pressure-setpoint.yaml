@@ -1,0 +1,15 @@
+concept:
+  id: discharge-air-pressure-setpoint
+  name: Discharge Air Pressure Setpoint
+  category: pressures
+  description: Discharge Air Pressure Setpoint point
+  haystack: discharge air pressure setpoint
+aliases:
+  common:
+    - dap-sp
+    - dap setpoint
+    - da press stpt
+    - da prs stpt
+    - da pressure setpt
+    - disch air press setpoint
+  abbreviated: []

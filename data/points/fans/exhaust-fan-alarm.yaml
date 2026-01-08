@@ -1,0 +1,12 @@
+concept:
+  id: exhaust-fan-alarm
+  name: Exhaust Fan Alarm
+  category: fans
+  description: Exhaust Fan Alarm point
+  haystack: exhaust fan alarm
+aliases:
+  common:
+    - ef-a
+    - ef alarm
+    - ef alm
+  abbreviated: []

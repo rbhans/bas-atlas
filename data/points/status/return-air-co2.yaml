@@ -1,0 +1,16 @@
+concept:
+  id: return-air-co2
+  name: Return Air CO2
+  category: status
+  description: Return Air CO2 point
+  haystack: return air co2
+aliases:
+  common:
+    - return air quality
+    - ra-co2
+    - ra-q
+    - ra co2
+    - ra quality
+    - ret air co2
+    - ret air quality
+  abbreviated: []

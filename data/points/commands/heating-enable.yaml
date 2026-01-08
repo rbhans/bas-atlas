@@ -1,0 +1,13 @@
+concept:
+  id: heating-enable
+  name: Heating Enable
+  category: commands
+  description: Heating Enable point
+  haystack: heating enable
+aliases:
+  common:
+    - htg-en
+    - heating en
+    - htg enable
+    - heat enable
+  abbreviated: []

@@ -1,0 +1,12 @@
+concept:
+  id: cooling-tower-4-isolation-valve
+  name: Cooling Tower 4 Isolation Valve
+  category: valves
+  description: Cooling Tower 4 Isolation Valve point
+  haystack: cooling tower 4 isolation valve
+aliases:
+  common:
+    - ct4-isovlv
+    - clg twr 4 iso vlv
+    - ct-4 iso valve
+  abbreviated: []

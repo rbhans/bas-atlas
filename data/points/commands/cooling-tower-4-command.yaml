@@ -1,0 +1,12 @@
+concept:
+  id: cooling-tower-4-command
+  name: Cooling Tower 4 Command
+  category: commands
+  description: Cooling Tower 4 Command point
+  haystack: cooling tower 4 command
+aliases:
+  common:
+    - ct4-cmd
+    - clg twr 4 cmd
+    - ct-4 command
+  abbreviated: []

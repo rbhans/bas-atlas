@@ -1,0 +1,12 @@
+concept:
+  id: relief-fan-command
+  name: Relief Fan Command
+  category: fans
+  description: Relief Fan Command point
+  haystack: relief fan command
+aliases:
+  common:
+    - rlf-c
+    - rlf command
+    - rlf cmd
+  abbreviated: []

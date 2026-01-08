@@ -1,0 +1,12 @@
+concept:
+  id: relief-air-damper-output
+  name: Relief Air Damper Output
+  category: dampers
+  description: Relief Air Damper Output point
+  haystack: relief air damper output
+aliases:
+  common:
+    - rlfd-o
+    - rlf damper output
+    - rlfd output
+  abbreviated: []

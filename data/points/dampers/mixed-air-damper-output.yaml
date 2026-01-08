@@ -1,0 +1,12 @@
+concept:
+  id: mixed-air-damper-output
+  name: Mixed Air Damper Output
+  category: dampers
+  description: Mixed Air Damper Output point
+  haystack: mixed air damper output
+aliases:
+  common:
+    - mad-o
+    - ma damper output
+    - mad output
+  abbreviated: []

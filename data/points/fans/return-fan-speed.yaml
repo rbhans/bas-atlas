@@ -1,0 +1,12 @@
+concept:
+  id: return-fan-speed
+  name: Return Fan Speed
+  category: fans
+  description: Return Fan Speed point
+  haystack: return fan speed
+aliases:
+  common:
+    - rf-spd
+    - rf speed
+    - rf vfd
+  abbreviated: []

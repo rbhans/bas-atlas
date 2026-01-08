@@ -1,0 +1,13 @@
+concept:
+  id: chilled-water-supply-temperature
+  name: Chilled Water Supply Temperature
+  category: temperatures
+  description: Chilled Water Supply Temperature point
+  haystack: chilled water supply temperature
+aliases:
+  common:
+    - chws-t
+    - chws temp
+    - chws temperature
+    - chws tmp
+  abbreviated: []

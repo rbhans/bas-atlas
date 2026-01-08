@@ -1,0 +1,12 @@
+concept:
+  id: exhaust-fan-command
+  name: Exhaust Fan Command
+  category: fans
+  description: Exhaust Fan Command point
+  haystack: exhaust fan command
+aliases:
+  common:
+    - ef-c
+    - ef command
+    - ef cmd
+  abbreviated: []

@@ -1,0 +1,12 @@
+concept:
+  id: discharge-air-temperature-setpoint
+  name: Discharge Air Temperature Setpoint
+  category: temperatures
+  description: Discharge Air Temperature Setpoint point
+  haystack: discharge air temperature setpoint
+aliases:
+  common:
+    - dat-sp
+    - dat setpoint
+    - dat stpt
+  abbreviated: []

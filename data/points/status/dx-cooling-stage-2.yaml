@@ -1,0 +1,14 @@
+concept:
+  id: dx-cooling-stage-2
+  name: DX Cooling Stage 2
+  category: status
+  description: DX Cooling Stage 2 point
+  haystack: dx cooling stage 2
+aliases:
+  common:
+    - dx-stg2
+    - compr 2
+    - clg stg 2
+    - cooling stg 2
+    - compressor stage 2
+  abbreviated: []

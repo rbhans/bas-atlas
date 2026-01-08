@@ -1,0 +1,12 @@
+concept:
+  id: primary-chilled-water-pump-command
+  name: Primary Chilled Water Pump Command
+  category: commands
+  description: Primary Chilled Water Pump Command point
+  haystack: primary chilled water pump command
+aliases:
+  common:
+    - pchwp-c
+    - pchwp cmd
+    - pchwp command
+  abbreviated: []

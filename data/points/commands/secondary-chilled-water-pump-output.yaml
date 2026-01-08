@@ -1,0 +1,12 @@
+concept:
+  id: secondary-chilled-water-pump-output
+  name: Secondary Chilled Water Pump Output
+  category: commands
+  description: Secondary Chilled Water Pump Output point
+  haystack: secondary chilled water pump output
+aliases:
+  common:
+    - schwp-o
+    - schwp out
+    - schwp output
+  abbreviated: []

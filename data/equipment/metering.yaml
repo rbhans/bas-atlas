@@ -1,0 +1,66 @@
+equipment:
+  - id: ac-elec-meter
+    name: ac-elec-meter
+    full_name: elec meter
+    category: metering
+    description: elec meter
+    aliases:
+      common:
+        - elec meter
+        - electricity meter
+        - kw meter
+        - power meter
+      abbreviated: []
+  - id: dc-elec-meter
+    name: dc-elec meter
+    full_name: elec meter
+    category: metering
+    description: elec meter
+    aliases:
+      common:
+        - elec meter
+        - electricity meter
+        - kw meter
+        - power meter
+      abbreviated: []
+  - id: elec-meter
+    name: elec-meter
+    full_name: elec meter
+    category: metering
+    description: elec meter
+    aliases:
+      common:
+        - elec meter
+        - electricity meter
+        - kw meter
+        - power meter
+      abbreviated: []
+  - id: flow-meter
+    name: flow-meter
+    full_name: water meter
+    category: metering
+    description: water meter
+    aliases:
+      common:
+        - water meter
+        - gpm meter
+      abbreviated: []
+  - id: gas-meter
+    name: gas-meter
+    full_name: natural gas meter
+    category: metering
+    description: natural gas meter
+    aliases:
+      common:
+        - natural gas meter
+        - gas meter
+      abbreviated: []
+  - id: steam-meter
+    name: steam-meter
+    full_name: steam meter
+    category: metering
+    description: steam meter
+    aliases:
+      common:
+        - steam meter
+      abbreviated: []

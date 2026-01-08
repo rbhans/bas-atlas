@@ -1,0 +1,12 @@
+concept:
+  id: exhaust-fan-output
+  name: Exhaust Fan Output
+  category: fans
+  description: Exhaust Fan Output point
+  haystack: exhaust fan output
+aliases:
+  common:
+    - ef-o
+    - ef output
+    - ef out
+  abbreviated: []

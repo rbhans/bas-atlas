@@ -1,0 +1,13 @@
+concept:
+  id: smoke-damper-open
+  name: Smoke Damper Open
+  category: dampers
+  description: Smoke Damper Open point
+  haystack: smoke damper open
+aliases:
+  common:
+    - smk-dpr
+    - smoke damper out
+    - smoke damper output
+    - smoke dpr output
+  abbreviated: []

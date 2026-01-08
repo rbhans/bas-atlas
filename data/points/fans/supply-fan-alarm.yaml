@@ -1,0 +1,13 @@
+concept:
+  id: supply-fan-alarm
+  name: Supply Fan Alarm
+  category: fans
+  description: Supply Fan Alarm point
+  haystack: supply fan alarm
+aliases:
+  common:
+    - sf-a
+    - sf alarm
+    - sf alm
+    - fan alarm
+  abbreviated: []

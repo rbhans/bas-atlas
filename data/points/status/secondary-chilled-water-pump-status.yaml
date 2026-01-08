@@ -1,0 +1,12 @@
+concept:
+  id: secondary-chilled-water-pump-status
+  name: Secondary Chilled Water Pump Status
+  category: status
+  description: Secondary Chilled Water Pump Status point
+  haystack: secondary chilled water pump status
+aliases:
+  common:
+    - schwp-s
+    - schwp sts
+    - schwp status
+  abbreviated: []

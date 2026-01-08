@@ -1,0 +1,13 @@
+concept:
+  id: occupancy-schedule
+  name: Occupancy Schedule
+  category: status
+  description: Occupancy Schedule point
+  haystack: occupancy schedule
+aliases:
+  common:
+    - occ-sched
+    - occupancy schedule
+    - occ sched
+    - occ schedule
+  abbreviated: []

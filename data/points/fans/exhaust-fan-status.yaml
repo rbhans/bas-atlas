@@ -1,0 +1,12 @@
+concept:
+  id: exhaust-fan-status
+  name: Exhaust Fan Status
+  category: fans
+  description: Exhaust Fan Status point
+  haystack: exhaust fan status
+aliases:
+  common:
+    - ef-s
+    - ef status
+    - ef sts
+  abbreviated: []

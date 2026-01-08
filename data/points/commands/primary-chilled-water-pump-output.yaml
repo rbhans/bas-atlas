@@ -1,0 +1,12 @@
+concept:
+  id: primary-chilled-water-pump-output
+  name: Primary Chilled Water Pump Output
+  category: commands
+  description: Primary Chilled Water Pump Output point
+  haystack: primary chilled water pump output
+aliases:
+  common:
+    - pchwp-o
+    - pchwp out
+    - pchwp output
+  abbreviated: []

@@ -1,0 +1,13 @@
+concept:
+  id: chiller-1-alarm
+  name: Chiller 1 Alarm
+  category: alarms
+  description: Chiller 1 Alarm point
+  haystack: chiller 1 alarm
+aliases:
+  common:
+    - ch1-a
+    - ch1-alm
+    - ch-1 alarm
+    - ch-1 alm
+  abbreviated: []

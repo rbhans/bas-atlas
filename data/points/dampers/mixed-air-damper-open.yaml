@@ -1,0 +1,12 @@
+concept:
+  id: mixed-air-damper-open
+  name: Mixed Air Damper Open
+  category: dampers
+  description: Mixed Air Damper Open point
+  haystack: mixed air damper open
+aliases:
+  common:
+    - mad-open
+    - ma damper open
+    - mad open
+  abbreviated: []

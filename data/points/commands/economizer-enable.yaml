@@ -1,0 +1,12 @@
+concept:
+  id: economizer-enable
+  name: Economizer Enable
+  category: commands
+  description: Economizer Enable point
+  haystack: economizer enable
+aliases:
+  common:
+    - econ-en
+    - econ enable
+    - econ en
+  abbreviated: []

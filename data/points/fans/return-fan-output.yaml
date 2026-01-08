@@ -1,0 +1,12 @@
+concept:
+  id: return-fan-output
+  name: Return Fan Output
+  category: fans
+  description: Return Fan Output point
+  haystack: return fan output
+aliases:
+  common:
+    - rf-o
+    - rf output
+    - rf out
+  abbreviated: []

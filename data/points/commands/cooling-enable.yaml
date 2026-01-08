@@ -1,0 +1,13 @@
+concept:
+  id: cooling-enable
+  name: Cooling Enable
+  category: commands
+  description: Cooling Enable point
+  haystack: cooling enable
+aliases:
+  common:
+    - clg-en
+    - cooling en
+    - cool enable
+    - clg enable
+  abbreviated: []

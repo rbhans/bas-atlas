@@ -1,0 +1,14 @@
+concept:
+  id: effective-heating-setpoint
+  name: Effective Heating Setpoint
+  category: setpoints
+  description: Effective Heating Setpoint point
+  haystack: effective heating setpoint
+aliases:
+  common:
+    - effhtg-sp
+    - eff htg setpoint
+    - effective htg sp
+    - eff htg stpt
+    - eff heating setpt
+  abbreviated: []

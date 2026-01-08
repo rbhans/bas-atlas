@@ -1,0 +1,16 @@
+concept:
+  id: electric-heat-stage-4
+  name: Electric Heat Stage 4
+  category: status
+  description: Electric Heat Stage 4 point
+  haystack: electric heat stage 4
+aliases:
+  common:
+    - elechtg-stg4
+    - htg-stg4
+    - elec-stg4
+    - electric heat stg 4
+    - heating stg 4
+    - heating stage 4
+    - heat 4
+  abbreviated: []

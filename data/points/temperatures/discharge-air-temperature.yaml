@@ -1,0 +1,13 @@
+concept:
+  id: discharge-air-temperature
+  name: Discharge Air Temperature
+  category: temperatures
+  description: Discharge Air Temperature point
+  haystack: discharge air temperature
+aliases:
+  common:
+    - da-t
+    - da temp
+    - da temperature
+    - disch air temp
+  abbreviated: []

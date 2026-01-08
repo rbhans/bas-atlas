@@ -1,0 +1,13 @@
+concept:
+  id: cooling-tower-6-alarm
+  name: Cooling Tower 6 Alarm
+  category: alarms
+  description: Cooling Tower 6 Alarm point
+  haystack: cooling tower 6 alarm
+aliases:
+  common:
+    - ct6-a
+    - clg twr 6 alm
+    - ct-6 alarm
+    - ct-6 alm
+  abbreviated: []

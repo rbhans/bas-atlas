@@ -1,0 +1,13 @@
+concept:
+  id: hot-water-return-temperature
+  name: Hot Water Return Temperature
+  category: temperatures
+  description: Hot Water Return Temperature point
+  haystack: hot water return temperature
+aliases:
+  common:
+    - hwr-t
+    - hwr temp
+    - hwr temperature
+    - hwr tmp
+  abbreviated: []

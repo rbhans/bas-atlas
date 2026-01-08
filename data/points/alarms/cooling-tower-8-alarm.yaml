@@ -1,0 +1,13 @@
+concept:
+  id: cooling-tower-8-alarm
+  name: Cooling Tower 8 Alarm
+  category: alarms
+  description: Cooling Tower 8 Alarm point
+  haystack: cooling tower 8 alarm
+aliases:
+  common:
+    - ct8-a
+    - clg twr 8 alm
+    - ct-8 alarm
+    - ct-8 alm
+  abbreviated: []

@@ -1,0 +1,12 @@
+concept:
+  id: hot-water-pump-command
+  name: Hot Water Pump Command
+  category: commands
+  description: Hot Water Pump Command point
+  haystack: hot water pump command
+aliases:
+  common:
+    - hwp-c
+    - hwp cmd
+    - hwp command
+  abbreviated: []

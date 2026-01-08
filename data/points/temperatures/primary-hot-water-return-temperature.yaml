@@ -1,0 +1,13 @@
+concept:
+  id: primary-hot-water-return-temperature
+  name: Primary Hot Water Return Temperature
+  category: temperatures
+  description: Primary Hot Water Return Temperature point
+  haystack: primary hot water return temperature
+aliases:
+  common:
+    - phwr-t
+    - phwr temp
+    - phwr temperature
+    - phwr tmp
+  abbreviated: []

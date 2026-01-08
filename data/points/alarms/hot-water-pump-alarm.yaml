@@ -1,0 +1,12 @@
+concept:
+  id: hot-water-pump-alarm
+  name: Hot Water Pump Alarm
+  category: alarms
+  description: Hot Water Pump Alarm point
+  haystack: hot water pump alarm
+aliases:
+  common:
+    - hwp-a
+    - hwp alm
+    - hwp alarm
+  abbreviated: []

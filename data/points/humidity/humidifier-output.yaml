@@ -1,0 +1,14 @@
+concept:
+  id: humidifier-output
+  name: Humidifier Output
+  category: humidity
+  description: Humidifier Output point
+  haystack: humidifier output
+aliases:
+  common:
+    - hum-o
+    - humidifier out
+    - hum vlv
+    - humidifier valve out
+    - humid valve
+  abbreviated: []

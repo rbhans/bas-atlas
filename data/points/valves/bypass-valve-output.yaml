@@ -1,0 +1,12 @@
+concept:
+  id: bypass-valve-output
+  name: Bypass Valve Output
+  category: valves
+  description: Bypass Valve Output point
+  haystack: bypass valve output
+aliases:
+  common:
+    - byp-o
+    - byp vlv out
+    - bypass vlv output
+  abbreviated: []

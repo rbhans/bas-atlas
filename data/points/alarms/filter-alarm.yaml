@@ -1,0 +1,12 @@
+concept:
+  id: filter-alarm
+  name: Filter Alarm
+  category: alarms
+  description: Filter Alarm point
+  haystack: filter alarm
+aliases:
+  common:
+    - filt-a
+    - filt alm
+    - filt alarm
+  abbreviated: []

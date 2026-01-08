@@ -1,0 +1,13 @@
+concept:
+  id: chiller-6-status
+  name: Chiller 6 Status
+  category: status
+  description: Chiller 6 Status point
+  haystack: chiller 6 status
+aliases:
+  common:
+    - ch6-s
+    - ch-6 sts
+    - ch-6 status
+    - chlr-6 status
+  abbreviated: []

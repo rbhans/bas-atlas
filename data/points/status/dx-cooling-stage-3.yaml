@@ -1,0 +1,14 @@
+concept:
+  id: dx-cooling-stage-3
+  name: DX Cooling Stage 3
+  category: status
+  description: DX Cooling Stage 3 point
+  haystack: dx cooling stage 3
+aliases:
+  common:
+    - dx-stg3
+    - compr 3
+    - clg stg 3
+    - cooling stg 3
+    - compressor stage 3
+  abbreviated: []

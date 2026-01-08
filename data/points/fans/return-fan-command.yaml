@@ -1,0 +1,12 @@
+concept:
+  id: return-fan-command
+  name: Return Fan Command
+  category: fans
+  description: Return Fan Command point
+  haystack: return fan command
+aliases:
+  common:
+    - rf-c
+    - rf command
+    - rf cmd
+  abbreviated: []

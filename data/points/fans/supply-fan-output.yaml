@@ -1,0 +1,13 @@
+concept:
+  id: supply-fan-output
+  name: Supply Fan Output
+  category: fans
+  description: Supply Fan Output point
+  haystack: supply fan output
+aliases:
+  common:
+    - sf-o
+    - sf output
+    - sf out
+    - fan output
+  abbreviated: []

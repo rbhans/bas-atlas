@@ -1,0 +1,14 @@
+concept:
+  id: chiller-2-command
+  name: Chiller 2 Command
+  category: commands
+  description: Chiller 2 Command point
+  haystack: chiller 2 command
+aliases:
+  common:
+    - ch2-c
+    - ch2-cmd
+    - ch-2 cmd
+    - ch-2 command
+    - chlr-2 cmd
+  abbreviated: []

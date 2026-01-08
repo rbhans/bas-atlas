@@ -1,0 +1,13 @@
+concept:
+  id: cooling-tower-4-output
+  name: Cooling Tower 4 Output
+  category: commands
+  description: Cooling Tower 4 Output point
+  haystack: cooling tower 4 output
+aliases:
+  common:
+    - ct4-o
+    - clg twr 4 out
+    - ct-4 out
+    - ct-4 output
+  abbreviated: []

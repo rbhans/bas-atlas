@@ -1,0 +1,12 @@
+concept:
+  id: relief-air-damper-closed
+  name: Relief Air Damper Closed
+  category: dampers
+  description: Relief Air Damper Closed point
+  haystack: relief air damper closed
+aliases:
+  common:
+    - rlfd-closed
+    - rlf damper closed
+    - rlfd closed
+  abbreviated: []

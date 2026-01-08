@@ -1,0 +1,12 @@
+concept:
+  id: mixed-air-damper-position
+  name: Mixed Air Damper Position
+  category: dampers
+  description: Mixed Air Damper Position point
+  haystack: mixed air damper position
+aliases:
+  common:
+    - mad-pos
+    - ma damper position
+    - mad position
+  abbreviated: []

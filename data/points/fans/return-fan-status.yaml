@@ -1,0 +1,12 @@
+concept:
+  id: return-fan-status
+  name: Return Fan Status
+  category: fans
+  description: Return Fan Status point
+  haystack: return fan status
+aliases:
+  common:
+    - rf-s
+    - rf status
+    - rf sts
+  abbreviated: []

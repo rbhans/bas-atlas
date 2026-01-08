@@ -1,0 +1,12 @@
+concept:
+  id: exhaust-fan-speed
+  name: Exhaust Fan Speed
+  category: fans
+  description: Exhaust Fan Speed point
+  haystack: exhaust fan speed
+aliases:
+  common:
+    - ef-spd
+    - ef speed
+    - ef vfd
+  abbreviated: []

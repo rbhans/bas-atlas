@@ -1,0 +1,13 @@
+concept:
+  id: condenser-water-return-temperature
+  name: Condenser Water Return Temperature
+  category: temperatures
+  description: Condenser Water Return Temperature point
+  haystack: condenser water return temperature
+aliases:
+  common:
+    - cwr-t
+    - cwr temp
+    - cwr temperature
+    - cwr tmp
+  abbreviated: []

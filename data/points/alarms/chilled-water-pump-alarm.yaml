@@ -1,0 +1,12 @@
+concept:
+  id: chilled-water-pump-alarm
+  name: Chilled Water Pump Alarm
+  category: alarms
+  description: Chilled Water Pump Alarm point
+  haystack: chilled water pump alarm
+aliases:
+  common:
+    - chwp-a
+    - chwp alm
+    - chwp alarm
+  abbreviated: []

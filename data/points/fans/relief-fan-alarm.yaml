@@ -1,0 +1,12 @@
+concept:
+  id: relief-fan-alarm
+  name: Relief Fan Alarm
+  category: fans
+  description: Relief Fan Alarm point
+  haystack: relief fan alarm
+aliases:
+  common:
+    - rlf-a
+    - rlf alarm
+    - rlf alm
+  abbreviated: []

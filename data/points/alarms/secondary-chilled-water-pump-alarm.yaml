@@ -1,0 +1,12 @@
+concept:
+  id: secondary-chilled-water-pump-alarm
+  name: Secondary Chilled Water Pump Alarm
+  category: alarms
+  description: Secondary Chilled Water Pump Alarm point
+  haystack: secondary chilled water pump alarm
+aliases:
+  common:
+    - schwp-a
+    - schwp alm
+    - schwp alarm
+  abbreviated: []

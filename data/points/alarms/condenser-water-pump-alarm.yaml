@@ -1,0 +1,12 @@
+concept:
+  id: condenser-water-pump-alarm
+  name: Condenser Water Pump Alarm
+  category: alarms
+  description: Condenser Water Pump Alarm point
+  haystack: condenser water pump alarm
+aliases:
+  common:
+    - cwp-a
+    - cwp alm
+    - cwp alarm
+  abbreviated: []

@@ -1,0 +1,12 @@
+concept:
+  id: effective-occupancy
+  name: Effective Occupancy
+  category: status
+  description: Effective Occupancy point
+  haystack: effective occupancy
+aliases:
+  common:
+    - eff-occ
+    - effective occ
+    - eff occupancy
+  abbreviated: []

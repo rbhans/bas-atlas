@@ -1,0 +1,14 @@
+concept:
+  id: chiller-7-leaving-temperature
+  name: Chiller 7 Leaving Temperature
+  category: temperatures
+  description: Chiller 7 Leaving Temperature point
+  haystack: chiller 7 leaving temperature
+aliases:
+  common:
+    - ch7-lwt
+    - ch7-lvg-temp
+    - ch-7 lvg temp
+    - ch-7 leaving temp
+    - ch-7 leave temp
+  abbreviated: []

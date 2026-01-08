@@ -1,0 +1,33 @@
+{
+  "name": "bas-babel",
+  "version": "1.0.0",
+  "description": "BAS Point Naming Standards - A comprehensive resource for Building Automation System point naming conventions and aliases",
+  "main": "dist/index.json",
+  "type": "module",
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "validate": "tsx scripts/build.ts --validate",
+    "migrate": "tsx scripts/migrate-csv.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basidekick/bas-babel.git"
+  },
+  "keywords": [
+    "bas",
+    "building-automation",
+    "hvac",
+    "haystack",
+    "brick",
+    "point-naming",
+    "bacnet"
+  ],
+  "author": "BASidekick",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "yaml": "^2.6.0"
+  }
+}

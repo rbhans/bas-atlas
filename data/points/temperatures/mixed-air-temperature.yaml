@@ -1,0 +1,13 @@
+concept:
+  id: mixed-air-temperature
+  name: Mixed Air Temperature
+  category: temperatures
+  description: Mixed Air Temperature point
+  haystack: mixed air temperature
+aliases:
+  common:
+    - ma-t
+    - ma temp
+    - ma temperature
+    - mixed air temp
+  abbreviated: []

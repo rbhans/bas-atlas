@@ -1,0 +1,12 @@
+concept:
+  id: cooling-tower-1-command
+  name: Cooling Tower 1 Command
+  category: commands
+  description: Cooling Tower 1 Command point
+  haystack: cooling tower 1 command
+aliases:
+  common:
+    - ct1-cmd
+    - clg twr 1 cmd
+    - ct-1 command
+  abbreviated: []

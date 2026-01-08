@@ -1,0 +1,12 @@
+concept:
+  id: exhaust-air-damper-closed
+  name: Exhaust Air Damper Closed
+  category: dampers
+  description: Exhaust Air Damper Closed point
+  haystack: exhaust air damper closed
+aliases:
+  common:
+    - ead-closed
+    - ea damper closed
+    - ead closed
+  abbreviated: []

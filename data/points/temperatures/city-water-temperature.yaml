@@ -1,0 +1,11 @@
+concept:
+  id: city-water-temperature
+  name: City Water Temperature
+  category: temperatures
+  description: City Water Temperature point
+  haystack: city water temperature
+aliases:
+  common:
+    - cw-t
+    - city wtr temp
+  abbreviated: []

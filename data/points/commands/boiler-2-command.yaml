@@ -1,0 +1,13 @@
+concept:
+  id: boiler-2-command
+  name: Boiler 2 Command
+  category: commands
+  description: Boiler 2 Command point
+  haystack: boiler 2 command
+aliases:
+  common:
+    - blr2-c
+    - blr 2 cmd
+    - boiler 2 cmd
+    - b-2 command
+  abbreviated: []

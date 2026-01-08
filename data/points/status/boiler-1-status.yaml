@@ -1,0 +1,13 @@
+concept:
+  id: boiler-1-status
+  name: Boiler 1 Status
+  category: status
+  description: Boiler 1 Status point
+  haystack: boiler 1 status
+aliases:
+  common:
+    - blr1-s
+    - blr 1 sts
+    - boiler 1 sts
+    - b-1 status
+  abbreviated: []

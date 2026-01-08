@@ -1,0 +1,13 @@
+concept:
+  id: supply-fan-speed
+  name: Supply Fan Speed
+  category: fans
+  description: Supply Fan Speed point
+  haystack: supply fan speed
+aliases:
+  common:
+    - sf-spd
+    - sf speed
+    - sf vfd
+    - fan speed
+  abbreviated: []

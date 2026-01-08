@@ -1,0 +1,14 @@
+concept:
+  id: chiller-8-leaving-temperature
+  name: Chiller 8 Leaving Temperature
+  category: temperatures
+  description: Chiller 8 Leaving Temperature point
+  haystack: chiller 8 leaving temperature
+aliases:
+  common:
+    - ch8-lwt
+    - ch8-lvg-temp
+    - ch-8 lvg temp
+    - ch-8 leaving temp
+    - ch-8 leave temp
+  abbreviated: []

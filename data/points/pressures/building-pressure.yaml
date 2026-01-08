@@ -1,0 +1,13 @@
+concept:
+  id: building-pressure
+  name: Building Pressure
+  category: pressures
+  description: Building Pressure point
+  haystack: building pressure
+aliases:
+  common:
+    - bldg-p
+    - bldg press
+    - bldg pressure
+    - building press
+  abbreviated: []

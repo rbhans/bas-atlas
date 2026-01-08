@@ -1,0 +1,21 @@
+concept:
+  id: zone-temperature
+  name: Zone Temperature
+  category: temperatures
+  description: Zone Temperature point
+  haystack: zone temperature
+aliases:
+  common:
+    - zn-t
+    - zn temp
+    - zn temperature
+    - zone temp
+    - room temperature
+    - rm-t
+    - rm temp
+    - rm temperature
+    - room temp
+    - space temperature
+    - space-t
+    - space temp
+  abbreviated: []

@@ -1,0 +1,12 @@
+concept:
+  id: chilled-water-differential-pressure
+  name: Chilled Water Differential Pressure
+  category: pressures
+  description: Chilled Water Differential Pressure point
+  haystack: chilled water differential pressure
+aliases:
+  common:
+    - chw-dp
+    - chw diff press
+    - chw diff pressure
+  abbreviated: []

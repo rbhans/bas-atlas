@@ -1,0 +1,12 @@
+concept:
+  id: exhaust-air-damper-output
+  name: Exhaust Air Damper Output
+  category: dampers
+  description: Exhaust Air Damper Output point
+  haystack: exhaust air damper output
+aliases:
+  common:
+    - ead-o
+    - ea damper output
+    - ead output
+  abbreviated: []

@@ -1,0 +1,14 @@
+concept:
+  id: effective-cooling-setpoint
+  name: Effective Cooling Setpoint
+  category: setpoints
+  description: Effective Cooling Setpoint point
+  haystack: effective cooling setpoint
+aliases:
+  common:
+    - effclg-sp
+    - eff clg setpoint
+    - effective clg sp
+    - eff clg stpt
+    - eff cooling setpt
+  abbreviated: []

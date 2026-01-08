@@ -1,0 +1,12 @@
+concept:
+  id: exhaust-fan-fault
+  name: Exhaust Fan Fault
+  category: fans
+  description: Exhaust Fan Fault point
+  haystack: exhaust fan fault
+aliases:
+  common:
+    - ef-fault
+    - ef fault
+    - ef flt
+  abbreviated: []

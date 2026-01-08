@@ -1,0 +1,13 @@
+concept:
+  id: hot-water-supply-temperature
+  name: Hot Water Supply Temperature
+  category: temperatures
+  description: Hot Water Supply Temperature point
+  haystack: hot water supply temperature
+aliases:
+  common:
+    - hws-t
+    - hws temp
+    - hws temperature
+    - hws tmp
+  abbreviated: []

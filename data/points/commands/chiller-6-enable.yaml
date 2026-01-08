@@ -1,0 +1,13 @@
+concept:
+  id: chiller-6-enable
+  name: Chiller 6 Enable
+  category: commands
+  description: Chiller 6 Enable point
+  haystack: chiller 6 enable
+aliases:
+  common:
+    - ch6-en
+    - ch6-enable
+    - ch-6 enable
+    - chlr-6 enable
+  abbreviated: []

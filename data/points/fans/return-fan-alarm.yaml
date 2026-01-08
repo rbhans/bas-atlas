@@ -1,0 +1,12 @@
+concept:
+  id: return-fan-alarm
+  name: Return Fan Alarm
+  category: fans
+  description: Return Fan Alarm point
+  haystack: return fan alarm
+aliases:
+  common:
+    - rf-a
+    - rf alarm
+    - rf alm
+  abbreviated: []

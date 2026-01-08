@@ -1,0 +1,12 @@
+concept:
+  id: condenser-water-pump-output
+  name: Condenser Water Pump Output
+  category: commands
+  description: Condenser Water Pump Output point
+  haystack: condenser water pump output
+aliases:
+  common:
+    - cwp-o
+    - cwp out
+    - cwp output
+  abbreviated: []

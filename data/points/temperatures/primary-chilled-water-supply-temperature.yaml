@@ -1,0 +1,13 @@
+concept:
+  id: primary-chilled-water-supply-temperature
+  name: Primary Chilled Water Supply Temperature
+  category: temperatures
+  description: Primary Chilled Water Supply Temperature point
+  haystack: primary chilled water supply temperature
+aliases:
+  common:
+    - pchws-t
+    - pchws temp
+    - pchws temperature
+    - pchws tmp
+  abbreviated: []

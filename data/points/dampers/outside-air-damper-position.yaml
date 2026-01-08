@@ -1,0 +1,13 @@
+concept:
+  id: outside-air-damper-position
+  name: Outside Air Damper Position
+  category: dampers
+  description: Outside Air Damper Position point
+  haystack: outside air damper position
+aliases:
+  common:
+    - oad-pos
+    - oa damper position
+    - oad position
+    - outdoor air damper position
+  abbreviated: []

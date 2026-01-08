@@ -1,0 +1,14 @@
+concept:
+  id: occupied-heating-setpoint
+  name: Occupied Heating Setpoint
+  category: setpoints
+  description: Occupied Heating Setpoint point
+  haystack: occupied heating setpoint
+aliases:
+  common:
+    - occhtg-sp
+    - occ htg setpoint
+    - occupied htg sp
+    - occ htg stpt
+    - occ heating setpt
+  abbreviated: []

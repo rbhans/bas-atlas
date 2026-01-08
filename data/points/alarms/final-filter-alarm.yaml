@@ -1,0 +1,13 @@
+concept:
+  id: final-filter-alarm
+  name: Final Filter Alarm
+  category: alarms
+  description: Final Filter Alarm point
+  haystack: final filter alarm
+aliases:
+  common:
+    - fin filter alarm
+    - ffilt-a
+    - fin filt alm
+    - fin filt alarm
+  abbreviated: []

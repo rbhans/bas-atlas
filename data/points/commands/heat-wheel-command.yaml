@@ -1,0 +1,15 @@
+concept:
+  id: heat-wheel-command
+  name: Heat Wheel Command
+  category: commands
+  description: Heat Wheel Command point
+  haystack: heat wheel command
+aliases:
+  common:
+    - hw-c
+    - hw cmd
+    - hw command
+    - erw command
+    - energy recovery wheel command
+    - erw-c
+  abbreviated: []

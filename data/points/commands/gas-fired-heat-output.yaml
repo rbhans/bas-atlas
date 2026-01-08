@@ -1,0 +1,12 @@
+concept:
+  id: gas-fired-heat-output
+  name: Gas Fired Heat Output
+  category: commands
+  description: Gas Fired Heat Output point
+  haystack: gas fired heat output
+aliases:
+  common:
+    - gashtg-o
+    - gas heating out
+    - gas heat
+  abbreviated: []

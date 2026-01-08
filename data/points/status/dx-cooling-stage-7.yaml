@@ -1,0 +1,14 @@
+concept:
+  id: dx-cooling-stage-7
+  name: DX Cooling Stage 7
+  category: status
+  description: DX Cooling Stage 7 point
+  haystack: dx cooling stage 7
+aliases:
+  common:
+    - dx-stg7
+    - compr 7
+    - clg stg 7
+    - cooling stg 7
+    - compressor stage 7
+  abbreviated: []

@@ -1,0 +1,12 @@
+concept:
+  id: relief-fan-output
+  name: Relief Fan Output
+  category: fans
+  description: Relief Fan Output point
+  haystack: relief fan output
+aliases:
+  common:
+    - rlf-o
+    - rlf output
+    - rlf out
+  abbreviated: []

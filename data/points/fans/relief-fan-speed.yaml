@@ -1,0 +1,12 @@
+concept:
+  id: relief-fan-speed
+  name: Relief Fan Speed
+  category: fans
+  description: Relief Fan Speed point
+  haystack: relief fan speed
+aliases:
+  common:
+    - rlf-spd
+    - rlf speed
+    - rlf vfd
+  abbreviated: []

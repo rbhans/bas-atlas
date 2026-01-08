@@ -1,0 +1,12 @@
+concept:
+  id: relief-air-damper-open
+  name: Relief Air Damper Open
+  category: dampers
+  description: Relief Air Damper Open point
+  haystack: relief air damper open
+aliases:
+  common:
+    - rlfd-open
+    - rlf damper open
+    - rlfd open
+  abbreviated: []

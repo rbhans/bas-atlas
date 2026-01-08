@@ -1,0 +1,12 @@
+concept:
+  id: humidifier-enable
+  name: Humidifier Enable
+  category: humidity
+  description: Humidifier Enable point
+  haystack: humidifier enable
+aliases:
+  common:
+    - hum-en
+    - humid en
+    - humid enable
+  abbreviated: []

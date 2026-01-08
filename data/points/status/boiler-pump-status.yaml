@@ -1,0 +1,14 @@
+concept:
+  id: boiler-pump-status
+  name: Boiler Pump Status
+  category: status
+  description: Boiler Pump Status point
+  haystack: boiler pump status
+aliases:
+  common:
+    - bp-s
+    - bp sts
+    - bp status
+    - blrp status
+    - blr pump sts
+  abbreviated: []

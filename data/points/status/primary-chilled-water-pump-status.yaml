@@ -1,0 +1,12 @@
+concept:
+  id: primary-chilled-water-pump-status
+  name: Primary Chilled Water Pump Status
+  category: status
+  description: Primary Chilled Water Pump Status point
+  haystack: primary chilled water pump status
+aliases:
+  common:
+    - pchwp-s
+    - pchwp sts
+    - pchwp status
+  abbreviated: []

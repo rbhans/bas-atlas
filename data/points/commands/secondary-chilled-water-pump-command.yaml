@@ -1,0 +1,12 @@
+concept:
+  id: secondary-chilled-water-pump-command
+  name: Secondary Chilled Water Pump Command
+  category: commands
+  description: Secondary Chilled Water Pump Command point
+  haystack: secondary chilled water pump command
+aliases:
+  common:
+    - schwp-c
+    - schwp cmd
+    - schwp command
+  abbreviated: []

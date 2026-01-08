@@ -1,0 +1,13 @@
+concept:
+  id: condenser-water-supply-temperature
+  name: Condenser Water Supply Temperature
+  category: temperatures
+  description: Condenser Water Supply Temperature point
+  haystack: condenser water supply temperature
+aliases:
+  common:
+    - cws-t
+    - cws temp
+    - cws temperature
+    - cws tmp
+  abbreviated: []

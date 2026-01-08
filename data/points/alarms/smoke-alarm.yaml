@@ -1,0 +1,12 @@
+concept:
+  id: smoke-alarm
+  name: Smoke Alarm
+  category: alarms
+  description: Smoke Alarm point
+  haystack: smoke alarm
+aliases:
+  common:
+    - smoke detect
+    - smk-alm
+    - smk-det
+  abbreviated: []

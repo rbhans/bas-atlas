@@ -1,0 +1,13 @@
+concept:
+  id: prefilter-alarm
+  name: Prefilter Alarm
+  category: alarms
+  description: Prefilter Alarm point
+  haystack: prefilter alarm
+aliases:
+  common:
+    - pre filter alarm
+    - pfilt-a
+    - pre filt alm
+    - pre filt alarm
+  abbreviated: []

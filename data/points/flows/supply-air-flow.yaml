@@ -1,0 +1,12 @@
+concept:
+  id: supply-air-flow
+  name: Supply Air Flow
+  category: flows
+  description: Supply Air Flow point
+  haystack: supply air flow
+aliases:
+  common:
+    - sa-f
+    - sa flow
+    - sup air flow
+  abbreviated: []

@@ -1,0 +1,12 @@
+concept:
+  id: discharge-air-flow
+  name: Discharge Air Flow
+  category: flows
+  description: Discharge Air Flow point
+  haystack: discharge air flow
+aliases:
+  common:
+    - da-f
+    - da flow
+    - disch air flow
+  abbreviated: []

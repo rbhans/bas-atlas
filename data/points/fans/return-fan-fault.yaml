@@ -1,0 +1,12 @@
+concept:
+  id: return-fan-fault
+  name: Return Fan Fault
+  category: fans
+  description: Return Fan Fault point
+  haystack: return fan fault
+aliases:
+  common:
+    - rf-fault
+    - rf fault
+    - rf flt
+  abbreviated: []

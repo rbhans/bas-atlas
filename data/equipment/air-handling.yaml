@@ -1,0 +1,314 @@
+equipment:
+  - id: ahu
+    name: ahu
+    full_name: air handling unit
+    category: air-handling
+    description: air handling unit
+    aliases:
+      common:
+        - air handling unit
+      abbreviated: []
+  - id: doas
+    name: doas
+    full_name: dedicated outside air system
+    category: air-handling
+    description: dedicated outside air system
+    aliases:
+      common:
+        - dedicated outside air system
+        - dedicated outdoor air unit
+        - doau
+      abbreviated: []
+  - id: mau
+    name: mau
+    full_name: makeup air unit
+    category: air-handling
+    description: makeup air unit
+    aliases:
+      common:
+        - makeup air unit
+        - makeup air
+      abbreviated: []
+  - id: rtu
+    name: rtu
+    full_name: roof top unit
+    category: air-handling
+    description: roof top unit
+    aliases:
+      common:
+        - roof top unit
+      abbreviated: []
+  - id: fcu
+    name: fcu
+    full_name: fan coil unit
+    category: air-handling
+    description: fan coil unit
+    aliases:
+      common:
+        - fan coil unit
+        - fan coil
+      abbreviated: []
+  - id: crac
+    name: crac
+    full_name: computer room air conditioner
+    category: air-handling
+    description: computer room air conditioner
+    aliases:
+      common:
+        - computer room air conditioner
+        - crah
+      abbreviated: []
+  - id: unitvent
+    name: unitVent
+    full_name: uv
+    category: air-handling
+    description: uv
+    aliases:
+      common:
+        - uv
+        - unit ventilator
+        - unit vent
+      abbreviated: []
+  - id: heatpump
+    name: heatPump
+    full_name: hp
+    category: air-handling
+    description: hp
+    aliases:
+      common:
+        - hp
+        - heat pump
+      abbreviated: []
+  - id: dxheating
+    name: dxHeating
+    full_name: dx heating
+    category: air-handling
+    description: dx heating
+    aliases:
+      common:
+        - dx heating
+        - heating
+        - heat
+      abbreviated: []
+  - id: elecheating
+    name: elecHeating
+    full_name: electric heating
+    category: air-handling
+    description: electric heating
+    aliases:
+      common:
+        - electric heating
+        - stage heat
+        - heating
+        - heat
+      abbreviated: []
+  - id: hotwaterheating
+    name: hotWaterHeating
+    full_name: hot water heating
+    category: air-handling
+    description: hot water heating
+    aliases:
+      common:
+        - hot water heating
+        - hw heating
+        - heating
+        - heat
+      abbreviated: []
+  - id: naturalgasheating
+    name: naturalGasHeating
+    full_name: natural gas heating
+    category: air-handling
+    description: natural gas heating
+    aliases:
+      common:
+        - natural gas heating
+        - gas heating
+        - gas fired heating
+        - heating
+        - heat
+      abbreviated: []
+  - id: steamheating
+    name: steamHeating
+    full_name: steam heating
+    category: air-handling
+    description: steam heating
+    aliases:
+      common:
+        - steam heating
+        - steam heat
+        - heating
+        - heat
+      abbreviated: []
+  - id: chilledwatercooling
+    name: chilledWaterCooling
+    full_name: chilled water cooling
+    category: air-handling
+    description: chilled water cooling
+    aliases:
+      common:
+        - chilled water cooling
+        - chw cooling
+        - cooling
+        - cool
+      abbreviated: []
+  - id: constantairvolume
+    name: constantAirVolume
+    full_name: constant air volume
+    category: air-handling
+    description: constant air volume
+    aliases:
+      common:
+        - constant air volume
+        - cv ahu
+      abbreviated: []
+  - id: variableairvolume
+    name: variableAirVolume
+    full_name: variable air volume
+    category: air-handling
+    description: variable air volume
+    aliases:
+      common:
+        - variable air volume
+        - vav ahu
+      abbreviated: []
+  - id: vavzone
+    name: vavZone
+    full_name: vav zone
+    category: air-handling
+    description: vav zone
+    aliases:
+      common:
+        - vav zone
+      abbreviated: []
+  - id: directzone
+    name: directZone
+    full_name: direct zone
+    category: air-handling
+    description: direct zone
+    aliases:
+      common:
+        - direct zone
+      abbreviated: []
+  - id: chilledbeamzone
+    name: chilledBeamZone
+    full_name: chilled beam zone
+    category: air-handling
+    description: chilled beam zone
+    aliases:
+      common:
+        - chilled beam zone
+      abbreviated: []
+  - id: multizone
+    name: multiZone
+    full_name: multi zone
+    category: air-handling
+    description: multi zone
+    aliases:
+      common:
+        - multi zone
+      abbreviated: []
+  - id: singleduct
+    name: singleDuct
+    full_name: single duct
+    category: air-handling
+    description: single duct
+    aliases:
+      common:
+        - single duct
+      abbreviated: []
+  - id: dualduct
+    name: dualDuct
+    full_name: dual duct
+    category: air-handling
+    description: dual duct
+    aliases:
+      common:
+        - dual duct
+      abbreviated: []
+  - id: tripleduct
+    name: tripleDuct
+    full_name: triple duct
+    category: air-handling
+    description: triple duct
+    aliases:
+      common:
+        - triple duct
+      abbreviated: []
+  - id: discharge
+    name: discharge
+    full_name: discharge air
+    category: air-handling
+    description: discharge air
+    aliases:
+      common:
+        - discharge air
+        - da
+      abbreviated: []
+  - id: return
+    name: return
+    full_name: return air
+    category: air-handling
+    description: return air
+    aliases:
+      common:
+        - return air
+        - ra
+      abbreviated: []
+  - id: outside
+    name: outside
+    full_name: outside air
+    category: air-handling
+    description: outside air
+    aliases:
+      common:
+        - outside air
+        - oa
+      abbreviated: []
+  - id: exhaust
+    name: exhaust
+    full_name: exhaust air
+    category: air-handling
+    description: exhaust air
+    aliases:
+      common:
+        - exhaust air
+        - ea
+      abbreviated: []
+  - id: mixed
+    name: mixed
+    full_name: mixed air
+    category: air-handling
+    description: mixed air
+    aliases:
+      common:
+        - mixed air
+        - ma
+      abbreviated: []
+  - id: cool
+    name: cool
+    full_name: cooling
+    category: air-handling
+    description: cooling
+    aliases:
+      common:
+        - cooling
+      abbreviated: []
+  - id: heat
+    name: heat
+    full_name: heating
+    category: air-handling
+    description: heating
+    aliases:
+      common:
+        - heating
+      abbreviated: []
+  - id: zone
+    name: zone
+    full_name: room
+    category: air-handling
+    description: room
+    aliases:
+      common:
+        - room
+        - space
+      abbreviated: []

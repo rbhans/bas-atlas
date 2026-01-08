@@ -1,0 +1,25 @@
+equipment:
+  - id: vrf-indoorunit
+    name: vrf-indoorUnit
+    full_name: vrf
+    category: vrf
+    description: vrf
+    aliases:
+      common:
+        - vrf
+        - variable refrigerant flow
+        - ceiling cassette
+        - ceiling concealed duct
+        - wall mounted
+      abbreviated: []
+  - id: vrf-outdoorunit
+    name: vrf-outdoorUnit
+    full_name: vrf odu
+    category: vrf
+    description: vrf odu
+    aliases:
+      common:
+        - vrf odu
+        - odu
+        - outdoor unit
+      abbreviated: []

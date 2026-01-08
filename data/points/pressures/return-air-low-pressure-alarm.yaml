@@ -1,0 +1,13 @@
+concept:
+  id: return-air-low-pressure-alarm
+  name: Return Air Low Pressure Alarm
+  category: pressures
+  description: Return Air Low Pressure Alarm point
+  haystack: return air low pressure alarm
+aliases:
+  common:
+    - ralp-a
+    - ra low prs almost
+    - ra low press alarm
+    - ret air low press alarm
+  abbreviated: []

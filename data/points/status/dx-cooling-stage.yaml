@@ -1,0 +1,18 @@
+concept:
+  id: dx-cooling-stage
+  name: DX Cooling Stage
+  category: status
+  description: Direct expansion cooling stage status point
+  haystack: dx cooling stage
+  object_type: binaryInput
+aliases:
+  common:
+    - dx stage
+    - dx cooling
+    - compressor stage
+    - cooling stage
+    - dx compressor
+    - ac stage
+  abbreviated:
+    - dx-stg
+    - dx-clg

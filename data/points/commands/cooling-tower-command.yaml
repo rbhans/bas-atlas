@@ -1,0 +1,18 @@
+concept:
+  id: cooling-tower-command
+  name: Cooling Tower Command
+  category: commands
+  description: Cooling tower on/off command point
+  haystack: coolingTower cmd
+  object_type: binaryOutput
+aliases:
+  common:
+    - cooling tower cmd
+    - cooling tower start/stop
+    - ct command
+    - ct cmd
+    - tower command
+    - tower cmd
+  abbreviated:
+    - ct-c
+    - ct-cmd

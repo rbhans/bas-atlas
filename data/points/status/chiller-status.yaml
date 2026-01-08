@@ -1,0 +1,20 @@
+concept:
+  id: chiller-status
+  name: Chiller Status
+  category: status
+  description: Chiller running status feedback point
+  haystack: chiller run
+  object_type: binaryInput
+aliases:
+  common:
+    - chiller sts
+    - chiller running
+    - chlr status
+    - chlr sts
+    - chiller on/off
+    - chiller run status
+  abbreviated:
+    - ch-s
+    - ch-sts
+    - chlr-s
+    - chlr-sts

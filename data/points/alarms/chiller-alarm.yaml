@@ -1,0 +1,20 @@
+concept:
+  id: chiller-alarm
+  name: Chiller Alarm
+  category: alarms
+  description: Chiller alarm point indicating fault or warning condition
+  haystack: chiller alarm
+  object_type: binaryInput
+aliases:
+  common:
+    - chiller alm
+    - chiller fault
+    - chlr alarm
+    - chlr alm
+    - chlr fault
+    - chiller warning
+  abbreviated:
+    - ch-a
+    - ch-alm
+    - chlr-a
+    - chlr-alm

@@ -1,0 +1,23 @@
+concept:
+  id: chiller-leaving-temperature
+  name: Chiller Leaving Temperature
+  category: temperatures
+  description: Chiller leaving water temperature (supply water temperature leaving chiller)
+  haystack: chiller leaving water temp
+  object_type: analogInput
+  unit: degF
+  typical_range:
+    min: 40
+    max: 55
+aliases:
+  common:
+    - chiller leaving temp
+    - chiller supply temp
+    - chlr leaving temp
+    - chlr lwt
+    - chiller lwt
+    - chiller leaving water temp
+  abbreviated:
+    - ch-lwt
+    - chlr-lwt
+    - ch-lvg

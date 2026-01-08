@@ -1,0 +1,21 @@
+concept:
+  id: boiler-output
+  name: Boiler Output
+  category: commands
+  description: Boiler modulating output signal (0-100%)
+  haystack: boiler output
+  object_type: analogOutput
+  unit: percent
+  typical_range:
+    min: 0
+    max: 100
+aliases:
+  common:
+    - boiler out
+    - boiler modulation
+    - blr output
+    - blr out
+    - boiler firing rate
+  abbreviated:
+    - blr-o
+    - blr-out

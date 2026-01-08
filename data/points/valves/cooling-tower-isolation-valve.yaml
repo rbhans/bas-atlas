@@ -1,0 +1,17 @@
+concept:
+  id: cooling-tower-isolation-valve
+  name: Cooling Tower Isolation Valve
+  category: valves
+  description: Cooling tower isolation valve position or command
+  haystack: coolingTower isolation valve
+  object_type: binaryOutput
+aliases:
+  common:
+    - ct isolation valve
+    - tower isolation valve
+    - ct iso valve
+    - cooling tower iso
+    - ct isolation
+  abbreviated:
+    - ct-iso
+    - ct-isov

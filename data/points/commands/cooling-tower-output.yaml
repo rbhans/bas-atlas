@@ -1,0 +1,23 @@
+concept:
+  id: cooling-tower-output
+  name: Cooling Tower Output
+  category: commands
+  description: Cooling tower fan speed output signal (0-100%)
+  haystack: coolingTower output
+  object_type: analogOutput
+  unit: percent
+  typical_range:
+    min: 0
+    max: 100
+aliases:
+  common:
+    - cooling tower out
+    - cooling tower speed
+    - ct output
+    - ct out
+    - ct speed
+    - tower output
+    - tower speed
+  abbreviated:
+    - ct-o
+    - ct-out

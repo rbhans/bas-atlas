@@ -1,0 +1,18 @@
+concept:
+  id: boiler-status
+  name: Boiler Status
+  category: status
+  description: Boiler running status feedback point
+  haystack: boiler run
+  object_type: binaryInput
+aliases:
+  common:
+    - boiler sts
+    - boiler running
+    - blr status
+    - blr sts
+    - boiler on/off
+    - boiler run status
+  abbreviated:
+    - blr-s
+    - blr-sts

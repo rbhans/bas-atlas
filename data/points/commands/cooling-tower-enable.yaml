@@ -1,0 +1,16 @@
+concept:
+  id: cooling-tower-enable
+  name: Cooling Tower Enable
+  category: commands
+  description: Cooling tower enable/disable command point
+  haystack: coolingTower enable
+  object_type: binaryOutput
+aliases:
+  common:
+    - cooling tower en
+    - cooling tower enabled
+    - ct enable
+    - ct en
+    - tower enable
+  abbreviated:
+    - ct-en

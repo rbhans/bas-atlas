@@ -1,0 +1,18 @@
+concept:
+  id: boiler-alarm
+  name: Boiler Alarm
+  category: alarms
+  description: Boiler alarm point indicating fault or warning condition
+  haystack: boiler alarm
+  object_type: binaryInput
+aliases:
+  common:
+    - boiler alm
+    - boiler fault
+    - blr alarm
+    - blr alm
+    - blr fault
+    - boiler warning
+  abbreviated:
+    - blr-a
+    - blr-alm

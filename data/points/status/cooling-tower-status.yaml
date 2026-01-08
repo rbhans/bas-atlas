@@ -1,0 +1,18 @@
+concept:
+  id: cooling-tower-status
+  name: Cooling Tower Status
+  category: status
+  description: Cooling tower running status feedback point
+  haystack: coolingTower run
+  object_type: binaryInput
+aliases:
+  common:
+    - cooling tower sts
+    - cooling tower running
+    - ct status
+    - ct sts
+    - tower status
+    - tower running
+  abbreviated:
+    - ct-s
+    - ct-sts

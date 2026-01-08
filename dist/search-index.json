@@ -2,67 +2,28 @@
   "version": "1.0.0",
   "entries": [
     {
-      "id": "boiler-1-alarm",
+      "id": "boiler-alarm",
       "type": "point",
-      "name": "Boiler 1 Alarm",
+      "name": "Boiler Alarm",
       "tokens": [
-        "boiler 1 alarm",
-        "boiler-1-alarm",
+        "boiler alarm",
+        "boiler-alarm",
         "boiler",
-        "1",
         "alarm",
         "point",
-        "blr1-a",
-        "blr 1 alm",
-        "boiler 1 alm"
-      ]
-    },
-    {
-      "id": "boiler-2-alarm",
-      "type": "point",
-      "name": "Boiler 2 Alarm",
-      "tokens": [
-        "boiler 2 alarm",
-        "boiler-2-alarm",
-        "boiler",
-        "2",
-        "alarm",
-        "point",
-        "blr2-a",
-        "blr 2 alm",
-        "boiler 2 alm"
-      ]
-    },
-    {
-      "id": "boiler-3-alarm",
-      "type": "point",
-      "name": "Boiler 3 Alarm",
-      "tokens": [
-        "boiler 3 alarm",
-        "boiler-3-alarm",
-        "boiler",
-        "3",
-        "alarm",
-        "point",
-        "blr3-a",
-        "blr 3 alm",
-        "boiler 3 alm"
-      ]
-    },
-    {
-      "id": "boiler-4-alarm",
-      "type": "point",
-      "name": "Boiler 4 Alarm",
-      "tokens": [
-        "boiler 4 alarm",
-        "boiler-4-alarm",
-        "boiler",
-        "4",
-        "alarm",
-        "point",
-        "blr4-a",
-        "blr 4 alm",
-        "boiler 4 alm"
+        "indicating",
+        "fault",
+        "or",
+        "warning",
+        "condition",
+        "boiler alm",
+        "boiler fault",
+        "blr alarm",
+        "blr alm",
+        "blr fault",
+        "boiler warning",
+        "blr-a",
+        "blr-alm"
       ]
     },
     {
@@ -101,139 +62,30 @@
       ]
     },
     {
-      "id": "chiller-1-alarm",
+      "id": "chiller-alarm",
       "type": "point",
-      "name": "Chiller 1 Alarm",
+      "name": "Chiller Alarm",
       "tokens": [
-        "chiller 1 alarm",
-        "chiller-1-alarm",
+        "chiller alarm",
+        "chiller-alarm",
         "chiller",
-        "1",
         "alarm",
         "point",
-        "ch1-a",
-        "ch1-alm",
-        "ch-1 alarm",
-        "ch-1 alm"
-      ]
-    },
-    {
-      "id": "chiller-2-alarm",
-      "type": "point",
-      "name": "Chiller 2 Alarm",
-      "tokens": [
-        "chiller 2 alarm",
-        "chiller-2-alarm",
-        "chiller",
-        "2",
-        "alarm",
-        "point",
-        "ch2-a",
-        "ch2-alm",
-        "ch-2 alarm",
-        "ch-2 alm"
-      ]
-    },
-    {
-      "id": "chiller-3-alarm",
-      "type": "point",
-      "name": "Chiller 3 Alarm",
-      "tokens": [
-        "chiller 3 alarm",
-        "chiller-3-alarm",
-        "chiller",
-        "3",
-        "alarm",
-        "point",
-        "ch3-a",
-        "ch3-alm",
-        "ch-3 alarm",
-        "ch-3 alm"
-      ]
-    },
-    {
-      "id": "chiller-4-alarm",
-      "type": "point",
-      "name": "Chiller 4 Alarm",
-      "tokens": [
-        "chiller 4 alarm",
-        "chiller-4-alarm",
-        "chiller",
-        "4",
-        "alarm",
-        "point",
-        "ch4-a",
-        "ch4-alm",
-        "ch-4 alarm",
-        "ch-4 alm"
-      ]
-    },
-    {
-      "id": "chiller-5-alarm",
-      "type": "point",
-      "name": "Chiller 5 Alarm",
-      "tokens": [
-        "chiller 5 alarm",
-        "chiller-5-alarm",
-        "chiller",
-        "5",
-        "alarm",
-        "point",
-        "ch5-a",
-        "ch5-alm",
-        "ch-5 alarm",
-        "ch-5 alm"
-      ]
-    },
-    {
-      "id": "chiller-6-alarm",
-      "type": "point",
-      "name": "Chiller 6 Alarm",
-      "tokens": [
-        "chiller 6 alarm",
-        "chiller-6-alarm",
-        "chiller",
-        "6",
-        "alarm",
-        "point",
-        "ch6-a",
-        "ch6-alm",
-        "ch-6 alarm",
-        "ch-6 alm"
-      ]
-    },
-    {
-      "id": "chiller-7-alarm",
-      "type": "point",
-      "name": "Chiller 7 Alarm",
-      "tokens": [
-        "chiller 7 alarm",
-        "chiller-7-alarm",
-        "chiller",
-        "7",
-        "alarm",
-        "point",
-        "ch7-a",
-        "ch7-alm",
-        "ch-7 alarm",
-        "ch-7 alm"
-      ]
-    },
-    {
-      "id": "chiller-8-alarm",
-      "type": "point",
-      "name": "Chiller 8 Alarm",
-      "tokens": [
-        "chiller 8 alarm",
-        "chiller-8-alarm",
-        "chiller",
-        "8",
-        "alarm",
-        "point",
-        "ch8-a",
-        "ch8-alm",
-        "ch-8 alarm",
-        "ch-8 alm"
+        "indicating",
+        "fault",
+        "or",
+        "warning",
+        "condition",
+        "chiller alm",
+        "chiller fault",
+        "chlr alarm",
+        "chlr alm",
+        "chlr fault",
+        "chiller warning",
+        "ch-a",
+        "ch-alm",
+        "chlr-a",
+        "chlr-alm"
       ]
     },
     {
@@ -254,147 +106,31 @@
       ]
     },
     {
-      "id": "cooling-tower-1-alarm",
+      "id": "cooling-tower-alarm",
       "type": "point",
-      "name": "Cooling Tower 1 Alarm",
+      "name": "Cooling Tower Alarm",
       "tokens": [
-        "cooling tower 1 alarm",
-        "cooling-tower-1-alarm",
+        "cooling tower alarm",
+        "cooling-tower-alarm",
         "cooling",
         "tower",
-        "1",
         "alarm",
         "point",
-        "ct1-a",
-        "clg twr 1 alm",
-        "ct-1 alarm",
-        "ct-1 alm"
-      ]
-    },
-    {
-      "id": "cooling-tower-2-alarm",
-      "type": "point",
-      "name": "Cooling Tower 2 Alarm",
-      "tokens": [
-        "cooling tower 2 alarm",
-        "cooling-tower-2-alarm",
-        "cooling",
-        "tower",
-        "2",
-        "alarm",
-        "point",
-        "ct2-a",
-        "clg twr 2 alm",
-        "ct-2 alarm",
-        "ct-2 alm"
-      ]
-    },
-    {
-      "id": "cooling-tower-3-alarm",
-      "type": "point",
-      "name": "Cooling Tower 3 Alarm",
-      "tokens": [
-        "cooling tower 3 alarm",
-        "cooling-tower-3-alarm",
-        "cooling",
-        "tower",
-        "3",
-        "alarm",
-        "point",
-        "ct3-a",
-        "clg twr 3 alm",
-        "ct-3 alarm",
-        "ct-3 alm"
-      ]
-    },
-    {
-      "id": "cooling-tower-4-alarm",
-      "type": "point",
-      "name": "Cooling Tower 4 Alarm",
-      "tokens": [
-        "cooling tower 4 alarm",
-        "cooling-tower-4-alarm",
-        "cooling",
-        "tower",
-        "4",
-        "alarm",
-        "point",
-        "ct4-a",
-        "clg twr 4 alm",
-        "ct-4 alarm",
-        "ct-4 alm"
-      ]
-    },
-    {
-      "id": "cooling-tower-5-alarm",
-      "type": "point",
-      "name": "Cooling Tower 5 Alarm",
-      "tokens": [
-        "cooling tower 5 alarm",
-        "cooling-tower-5-alarm",
-        "cooling",
-        "tower",
-        "5",
-        "alarm",
-        "point",
-        "ct5-a",
-        "clg twr 5 alm",
-        "ct-5 alarm",
-        "ct-5 alm"
-      ]
-    },
-    {
-      "id": "cooling-tower-6-alarm",
-      "type": "point",
-      "name": "Cooling Tower 6 Alarm",
-      "tokens": [
-        "cooling tower 6 alarm",
-        "cooling-tower-6-alarm",
-        "cooling",
-        "tower",
-        "6",
-        "alarm",
-        "point",
-        "ct6-a",
-        "clg twr 6 alm",
-        "ct-6 alarm",
-        "ct-6 alm"
-      ]
-    },
-    {
-      "id": "cooling-tower-7-alarm",
-      "type": "point",
-      "name": "Cooling Tower 7 Alarm",
-      "tokens": [
-        "cooling tower 7 alarm",
-        "cooling-tower-7-alarm",
-        "cooling",
-        "tower",
-        "7",
-        "alarm",
-        "point",
-        "ct7-a",
-        "clg twr 7 alm",
-        "ct-7 alarm",
-        "ct-7 alm"
-      ]
-    },
-    {
-      "id": "cooling-tower-8-alarm",
-      "type": "point",
-      "name": "Cooling Tower 8 Alarm",
-      "tokens": [
-        "cooling tower 8 alarm",
-        "cooling-tower-8-alarm",
-        "cooling",
-        "tower",
-        "8",
-        "alarm",
-        "point",
-        "ct8-a",
-        "clg twr 8 alm",
-        "ct-8 alarm",
-        "ct-8 alm"
+        "indicating",
+        "fault",
+        "or",
+        "warning",
+        "condition",
+        "coolingtower",
+        "cooling tower alm",
+        "cooling tower fault",
+        "ct alarm",
+        "ct alm",
+        "ct fault",
+        "tower alarm",
+        "tower alm",
+        "ct-a",
+        "ct-alm"
       ]
     },
     {
@@ -533,139 +269,46 @@
       ]
     },
     {
-      "id": "boiler-1-command",
+      "id": "boiler-command",
       "type": "point",
-      "name": "Boiler 1 Command",
+      "name": "Boiler Command",
       "tokens": [
-        "boiler 1 command",
-        "boiler-1-command",
+        "boiler command",
+        "boiler-command",
         "boiler",
-        "1",
+        "on/off",
         "command",
         "point",
-        "blr1-c",
-        "blr 1 cmd",
-        "boiler 1 cmd",
-        "b-1 command"
+        "cmd",
+        "boiler cmd",
+        "boiler start/stop",
+        "blr command",
+        "blr cmd",
+        "boiler enable",
+        "boiler run",
+        "blr-c",
+        "blr-cmd"
       ]
     },
     {
-      "id": "boiler-1-output",
+      "id": "boiler-output",
       "type": "point",
-      "name": "Boiler 1 Output",
+      "name": "Boiler Output",
       "tokens": [
-        "boiler 1 output",
-        "boiler-1-output",
+        "boiler output",
+        "boiler-output",
         "boiler",
-        "1",
+        "modulating",
         "output",
-        "point",
-        "blr1-o",
-        "blr 1 out",
-        "boiler 1 out",
-        "b-1 output"
-      ]
-    },
-    {
-      "id": "boiler-2-command",
-      "type": "point",
-      "name": "Boiler 2 Command",
-      "tokens": [
-        "boiler 2 command",
-        "boiler-2-command",
-        "boiler",
-        "2",
-        "command",
-        "point",
-        "blr2-c",
-        "blr 2 cmd",
-        "boiler 2 cmd",
-        "b-2 command"
-      ]
-    },
-    {
-      "id": "boiler-2-output",
-      "type": "point",
-      "name": "Boiler 2 Output",
-      "tokens": [
-        "boiler 2 output",
-        "boiler-2-output",
-        "boiler",
-        "2",
-        "output",
-        "point",
-        "blr2-o",
-        "blr 2 out",
-        "boiler 2 out",
-        "b-2 output"
-      ]
-    },
-    {
-      "id": "boiler-3-command",
-      "type": "point",
-      "name": "Boiler 3 Command",
-      "tokens": [
-        "boiler 3 command",
-        "boiler-3-command",
-        "boiler",
-        "3",
-        "command",
-        "point",
-        "blr3-c",
-        "blr 3 cmd",
-        "boiler 3 cmd",
-        "b-3 command"
-      ]
-    },
-    {
-      "id": "boiler-3-output",
-      "type": "point",
-      "name": "Boiler 3 Output",
-      "tokens": [
-        "boiler 3 output",
-        "boiler-3-output",
-        "boiler",
-        "3",
-        "output",
-        "point",
-        "blr3-o",
-        "blr 3 out",
-        "boiler 3 out",
-        "b-3 output"
-      ]
-    },
-    {
-      "id": "boiler-4-command",
-      "type": "point",
-      "name": "Boiler 4 Command",
-      "tokens": [
-        "boiler 4 command",
-        "boiler-4-command",
-        "boiler",
-        "4",
-        "command",
-        "point",
-        "blr4-c",
-        "blr 4 cmd",
-        "boiler 4 cmd",
-        "b-4 command"
-      ]
-    },
-    {
-      "id": "boiler-4-output",
-      "type": "point",
-      "name": "Boiler 4 Output",
-      "tokens": [
-        "boiler 4 output",
-        "boiler-4-output",
-        "boiler",
-        "4",
-        "output",
-        "point",
-        "blr4-o",
-        "blr 4 out",
-        "boiler 4 out",
-        "b-4 output"
+        "signal",
+        "(0-100%)",
+        "boiler out",
+        "boiler modulation",
+        "blr output",
+        "blr out",
+        "boiler firing rate",
+        "blr-o",
+        "blr-out"
       ]
     },
     {
@@ -739,283 +382,47 @@
       ]
     },
     {
-      "id": "chiller-1-command",
+      "id": "chiller-command",
       "type": "point",
-      "name": "Chiller 1 Command",
+      "name": "Chiller Command",
       "tokens": [
-        "chiller 1 command",
-        "chiller-1-command",
+        "chiller command",
+        "chiller-command",
         "chiller",
-        "1",
+        "on/off",
         "command",
         "point",
-        "ch1-c",
-        "ch1-cmd",
-        "ch-1 cmd",
-        "ch-1 command",
-        "chlr-1 cmd"
+        "cmd",
+        "chiller cmd",
+        "chiller start/stop",
+        "chlr command",
+        "chlr cmd",
+        "chiller run",
+        "ch-c",
+        "ch-cmd",
+        "chlr-c",
+        "chlr-cmd"
       ]
     },
     {
-      "id": "chiller-1-enable",
+      "id": "chiller-enable",
       "type": "point",
-      "name": "Chiller 1 Enable",
+      "name": "Chiller Enable",
       "tokens": [
-        "chiller 1 enable",
-        "chiller-1-enable",
+        "chiller enable",
+        "chiller-enable",
         "chiller",
-        "1",
-        "enable",
-        "point",
-        "ch1-en",
-        "ch1-enable",
-        "ch-1 enable",
-        "chlr-1 enable"
-      ]
-    },
-    {
-      "id": "chiller-2-command",
-      "type": "point",
-      "name": "Chiller 2 Command",
-      "tokens": [
-        "chiller 2 command",
-        "chiller-2-command",
-        "chiller",
-        "2",
+        "enable/disable",
         "command",
         "point",
-        "ch2-c",
-        "ch2-cmd",
-        "ch-2 cmd",
-        "ch-2 command",
-        "chlr-2 cmd"
-      ]
-    },
-    {
-      "id": "chiller-2-enable",
-      "type": "point",
-      "name": "Chiller 2 Enable",
-      "tokens": [
-        "chiller 2 enable",
-        "chiller-2-enable",
-        "chiller",
-        "2",
         "enable",
-        "point",
-        "ch2-en",
-        "ch2-enable",
-        "ch-2 enable",
-        "chlr-2 enable"
-      ]
-    },
-    {
-      "id": "chiller-3-command",
-      "type": "point",
-      "name": "Chiller 3 Command",
-      "tokens": [
-        "chiller 3 command",
-        "chiller-3-command",
-        "chiller",
-        "3",
-        "command",
-        "point",
-        "ch3-c",
-        "ch3-cmd",
-        "ch-3 cmd",
-        "ch-3 command",
-        "chlr-3 cmd"
-      ]
-    },
-    {
-      "id": "chiller-3-enable",
-      "type": "point",
-      "name": "Chiller 3 Enable",
-      "tokens": [
-        "chiller 3 enable",
-        "chiller-3-enable",
-        "chiller",
-        "3",
-        "enable",
-        "point",
-        "ch3-en",
-        "ch3-enable",
-        "ch-3 enable",
-        "chlr-3 enable"
-      ]
-    },
-    {
-      "id": "chiller-4-command",
-      "type": "point",
-      "name": "Chiller 4 Command",
-      "tokens": [
-        "chiller 4 command",
-        "chiller-4-command",
-        "chiller",
-        "4",
-        "command",
-        "point",
-        "ch4-c",
-        "ch4-cmd",
-        "ch-4 cmd",
-        "ch-4 command",
-        "chlr-4 cmd"
-      ]
-    },
-    {
-      "id": "chiller-4-enable",
-      "type": "point",
-      "name": "Chiller 4 Enable",
-      "tokens": [
-        "chiller 4 enable",
-        "chiller-4-enable",
-        "chiller",
-        "4",
-        "enable",
-        "point",
-        "ch4-en",
-        "ch4-enable",
-        "ch-4 enable",
-        "chlr-4 enable"
-      ]
-    },
-    {
-      "id": "chiller-5-command",
-      "type": "point",
-      "name": "Chiller 5 Command",
-      "tokens": [
-        "chiller 5 command",
-        "chiller-5-command",
-        "chiller",
-        "5",
-        "command",
-        "point",
-        "ch5-c",
-        "ch5-cmd",
-        "ch-5 cmd",
-        "ch-5 command",
-        "chlr-5 cmd"
-      ]
-    },
-    {
-      "id": "chiller-5-enable",
-      "type": "point",
-      "name": "Chiller 5 Enable",
-      "tokens": [
-        "chiller 5 enable",
-        "chiller-5-enable",
-        "chiller",
-        "5",
-        "enable",
-        "point",
-        "ch5-en",
-        "ch5-enable",
-        "ch-5 enable",
-        "chlr-5 enable"
-      ]
-    },
-    {
-      "id": "chiller-6-command",
-      "type": "point",
-      "name": "Chiller 6 Command",
-      "tokens": [
-        "chiller 6 command",
-        "chiller-6-command",
-        "chiller",
-        "6",
-        "command",
-        "point",
-        "ch6-c",
-        "ch6-cmd",
-        "ch-6 cmd",
-        "ch-6 command",
-        "chlr-6 cmd"
-      ]
-    },
-    {
-      "id": "chiller-6-enable",
-      "type": "point",
-      "name": "Chiller 6 Enable",
-      "tokens": [
-        "chiller 6 enable",
-        "chiller-6-enable",
-        "chiller",
-        "6",
-        "enable",
-        "point",
-        "ch6-en",
-        "ch6-enable",
-        "ch-6 enable",
-        "chlr-6 enable"
-      ]
-    },
-    {
-      "id": "chiller-7-command",
-      "type": "point",
-      "name": "Chiller 7 Command",
-      "tokens": [
-        "chiller 7 command",
-        "chiller-7-command",
-        "chiller",
-        "7",
-        "command",
-        "point",
-        "ch7-c",
-        "ch7-cmd",
-        "ch-7 cmd",
-        "ch-7 command",
-        "chlr-7 cmd"
-      ]
-    },
-    {
-      "id": "chiller-7-enable",
-      "type": "point",
-      "name": "Chiller 7 Enable",
-      "tokens": [
-        "chiller 7 enable",
-        "chiller-7-enable",
-        "chiller",
-        "7",
-        "enable",
-        "point",
-        "ch7-en",
-        "ch7-enable",
-        "ch-7 enable",
-        "chlr-7 enable"
-      ]
-    },
-    {
-      "id": "chiller-8-command",
-      "type": "point",
-      "name": "Chiller 8 Command",
-      "tokens": [
-        "chiller 8 command",
-        "chiller-8-command",
-        "chiller",
-        "8",
-        "command",
-        "point",
-        "ch8-c",
-        "ch8-cmd",
-        "ch-8 cmd",
-        "ch-8 command",
-        "chlr-8 cmd"
-      ]
-    },
-    {
-      "id": "chiller-8-enable",
-      "type": "point",
-      "name": "Chiller 8 Enable",
-      "tokens": [
-        "chiller 8 enable",
-        "chiller-8-enable",
-        "chiller",
-        "8",
-        "enable",
-        "point",
-        "ch8-en",
-        "ch8-enable",
-        "ch-8 enable",
-        "chlr-8 enable"
+        "chiller en",
+        "chiller enabled",
+        "chlr enable",
+        "chlr en",
+        "chiller on/off",
+        "ch-en",
+        "chlr-en"
       ]
     },
     {
@@ -1069,435 +476,75 @@
       ]
     },
     {
-      "id": "cooling-tower-1-command",
+      "id": "cooling-tower-command",
       "type": "point",
-      "name": "Cooling Tower 1 Command",
+      "name": "Cooling Tower Command",
       "tokens": [
-        "cooling tower 1 command",
-        "cooling-tower-1-command",
+        "cooling tower command",
+        "cooling-tower-command",
         "cooling",
         "tower",
-        "1",
+        "on/off",
         "command",
         "point",
-        "ct1-cmd",
-        "clg twr 1 cmd",
-        "ct-1 command"
+        "coolingtower",
+        "cmd",
+        "cooling tower cmd",
+        "cooling tower start/stop",
+        "ct command",
+        "ct cmd",
+        "tower command",
+        "tower cmd",
+        "ct-c",
+        "ct-cmd"
       ]
     },
     {
-      "id": "cooling-tower-1-enable",
+      "id": "cooling-tower-enable",
       "type": "point",
-      "name": "Cooling Tower 1 Enable",
+      "name": "Cooling Tower Enable",
       "tokens": [
-        "cooling tower 1 enable",
-        "cooling-tower-1-enable",
+        "cooling tower enable",
+        "cooling-tower-enable",
         "cooling",
         "tower",
-        "1",
-        "enable",
-        "point",
-        "ct1-en",
-        "clg twr 1 en",
-        "ct-1 enable",
-        "clg twr 1 enable",
-        "ct-1 ena"
-      ]
-    },
-    {
-      "id": "cooling-tower-1-output",
-      "type": "point",
-      "name": "Cooling Tower 1 Output",
-      "tokens": [
-        "cooling tower 1 output",
-        "cooling-tower-1-output",
-        "cooling",
-        "tower",
-        "1",
-        "output",
-        "point",
-        "ct1-o",
-        "clg twr 1 out",
-        "ct-1 out",
-        "ct-1 output"
-      ]
-    },
-    {
-      "id": "cooling-tower-2-command",
-      "type": "point",
-      "name": "Cooling Tower 2 Command",
-      "tokens": [
-        "cooling tower 2 command",
-        "cooling-tower-2-command",
-        "cooling",
-        "tower",
-        "2",
+        "enable/disable",
         "command",
         "point",
-        "ct2-cmd",
-        "clg twr 2 cmd",
-        "ct-2 command"
-      ]
-    },
-    {
-      "id": "cooling-tower-2-enable",
-      "type": "point",
-      "name": "Cooling Tower 2 Enable",
-      "tokens": [
-        "cooling tower 2 enable",
-        "cooling-tower-2-enable",
-        "cooling",
-        "tower",
-        "2",
+        "coolingtower",
         "enable",
-        "point",
-        "ct2-en",
-        "clg twr 2 en",
-        "ct-2 enable",
-        "clg twr 2 enable",
-        "ct-2 ena"
+        "cooling tower en",
+        "cooling tower enabled",
+        "ct enable",
+        "ct en",
+        "tower enable",
+        "ct-en"
       ]
     },
     {
-      "id": "cooling-tower-2-output",
+      "id": "cooling-tower-output",
       "type": "point",
-      "name": "Cooling Tower 2 Output",
+      "name": "Cooling Tower Output",
       "tokens": [
-        "cooling tower 2 output",
-        "cooling-tower-2-output",
+        "cooling tower output",
+        "cooling-tower-output",
         "cooling",
         "tower",
-        "2",
+        "fan",
+        "speed",
         "output",
-        "point",
-        "ct2-o",
-        "clg twr 2 out",
-        "ct-2 out",
-        "ct-2 output"
-      ]
-    },
-    {
-      "id": "cooling-tower-3-command",
-      "type": "point",
-      "name": "Cooling Tower 3 Command",
-      "tokens": [
-        "cooling tower 3 command",
-        "cooling-tower-3-command",
-        "cooling",
-        "tower",
-        "3",
-        "command",
-        "point",
-        "ct3-cmd",
-        "clg twr 3 cmd",
-        "ct-3 command"
-      ]
-    },
-    {
-      "id": "cooling-tower-3-enable",
-      "type": "point",
-      "name": "Cooling Tower 3 Enable",
-      "tokens": [
-        "cooling tower 3 enable",
-        "cooling-tower-3-enable",
-        "cooling",
-        "tower",
-        "3",
-        "enable",
-        "point",
-        "ct3-en",
-        "clg twr 3 en",
-        "ct-3 enable",
-        "clg twr 3 enable",
-        "ct-3 ena"
-      ]
-    },
-    {
-      "id": "cooling-tower-3-output",
-      "type": "point",
-      "name": "Cooling Tower 3 Output",
-      "tokens": [
-        "cooling tower 3 output",
-        "cooling-tower-3-output",
-        "cooling",
-        "tower",
-        "3",
-        "output",
-        "point",
-        "ct3-o",
-        "clg twr 3 out",
-        "ct-3 out",
-        "ct-3 output"
-      ]
-    },
-    {
-      "id": "cooling-tower-4-command",
-      "type": "point",
-      "name": "Cooling Tower 4 Command",
-      "tokens": [
-        "cooling tower 4 command",
-        "cooling-tower-4-command",
-        "cooling",
-        "tower",
-        "4",
-        "command",
-        "point",
-        "ct4-cmd",
-        "clg twr 4 cmd",
-        "ct-4 command"
-      ]
-    },
-    {
-      "id": "cooling-tower-4-enable",
-      "type": "point",
-      "name": "Cooling Tower 4 Enable",
-      "tokens": [
-        "cooling tower 4 enable",
-        "cooling-tower-4-enable",
-        "cooling",
-        "tower",
-        "4",
-        "enable",
-        "point",
-        "ct4-en",
-        "clg twr 4 en",
-        "ct-4 enable",
-        "clg twr 4 enable",
-        "ct-4 ena"
-      ]
-    },
-    {
-      "id": "cooling-tower-4-output",
-      "type": "point",
-      "name": "Cooling Tower 4 Output",
-      "tokens": [
-        "cooling tower 4 output",
-        "cooling-tower-4-output",
-        "cooling",
-        "tower",
-        "4",
-        "output",
-        "point",
-        "ct4-o",
-        "clg twr 4 out",
-        "ct-4 out",
-        "ct-4 output"
-      ]
-    },
-    {
-      "id": "cooling-tower-5-command",
-      "type": "point",
-      "name": "Cooling Tower 5 Command",
-      "tokens": [
-        "cooling tower 5 command",
-        "cooling-tower-5-command",
-        "cooling",
-        "tower",
-        "5",
-        "command",
-        "point",
-        "ct5-cmd",
-        "clg twr 5 cmd",
-        "ct-5 command"
-      ]
-    },
-    {
-      "id": "cooling-tower-5-enable",
-      "type": "point",
-      "name": "Cooling Tower 5 Enable",
-      "tokens": [
-        "cooling tower 5 enable",
-        "cooling-tower-5-enable",
-        "cooling",
-        "tower",
-        "5",
-        "enable",
-        "point",
-        "ct5-en",
-        "clg twr 5 en",
-        "ct-5 enable",
-        "clg twr 5 enable",
-        "ct-5 ena"
-      ]
-    },
-    {
-      "id": "cooling-tower-5-output",
-      "type": "point",
-      "name": "Cooling Tower 5 Output",
-      "tokens": [
-        "cooling tower 5 output",
-        "cooling-tower-5-output",
-        "cooling",
-        "tower",
-        "5",
-        "output",
-        "point",
-        "ct5-o",
-        "clg twr 5 out",
-        "ct-5 out",
-        "ct-5 output"
-      ]
-    },
-    {
-      "id": "cooling-tower-6-command",
-      "type": "point",
-      "name": "Cooling Tower 6 Command",
-      "tokens": [
-        "cooling tower 6 command",
-        "cooling-tower-6-command",
-        "cooling",
-        "tower",
-        "6",
-        "command",
-        "point",
-        "ct6-cmd",
-        "clg twr 6 cmd",
-        "ct-6 command"
-      ]
-    },
-    {
-      "id": "cooling-tower-6-enable",
-      "type": "point",
-      "name": "Cooling Tower 6 Enable",
-      "tokens": [
-        "cooling tower 6 enable",
-        "cooling-tower-6-enable",
-        "cooling",
-        "tower",
-        "6",
-        "enable",
-        "point",
-        "ct6-en",
-        "clg twr 6 en",
-        "ct-6 enable",
-        "clg twr 6 enable",
-        "ct-6 ena"
-      ]
-    },
-    {
-      "id": "cooling-tower-6-output",
-      "type": "point",
-      "name": "Cooling Tower 6 Output",
-      "tokens": [
-        "cooling tower 6 output",
-        "cooling-tower-6-output",
-        "cooling",
-        "tower",
-        "6",
-        "output",
-        "point",
-        "ct6-o",
-        "clg twr 6 out",
-        "ct-6 out",
-        "ct-6 output"
-      ]
-    },
-    {
-      "id": "cooling-tower-7-command",
-      "type": "point",
-      "name": "Cooling Tower 7 Command",
-      "tokens": [
-        "cooling tower 7 command",
-        "cooling-tower-7-command",
-        "cooling",
-        "tower",
-        "7",
-        "command",
-        "point",
-        "ct7-cmd",
-        "clg twr 7 cmd",
-        "ct-7 command"
-      ]
-    },
-    {
-      "id": "cooling-tower-7-enable",
-      "type": "point",
-      "name": "Cooling Tower 7 Enable",
-      "tokens": [
-        "cooling tower 7 enable",
-        "cooling-tower-7-enable",
-        "cooling",
-        "tower",
-        "7",
-        "enable",
-        "point",
-        "ct7-en",
-        "clg twr 7 en",
-        "ct-7 enable",
-        "clg twr 7 enable",
-        "ct-7 ena"
-      ]
-    },
-    {
-      "id": "cooling-tower-7-output",
-      "type": "point",
-      "name": "Cooling Tower 7 Output",
-      "tokens": [
-        "cooling tower 7 output",
-        "cooling-tower-7-output",
-        "cooling",
-        "tower",
-        "7",
-        "output",
-        "point",
-        "ct7-o",
-        "clg twr 7 out",
-        "ct-7 out",
-        "ct-7 output"
-      ]
-    },
-    {
-      "id": "cooling-tower-8-command",
-      "type": "point",
-      "name": "Cooling Tower 8 Command",
-      "tokens": [
-        "cooling tower 8 command",
-        "cooling-tower-8-command",
-        "cooling",
-        "tower",
-        "8",
-        "command",
-        "point",
-        "ct8-cmd",
-        "clg twr 8 cmd",
-        "ct-8 command"
-      ]
-    },
-    {
-      "id": "cooling-tower-8-enable",
-      "type": "point",
-      "name": "Cooling Tower 8 Enable",
-      "tokens": [
-        "cooling tower 8 enable",
-        "cooling-tower-8-enable",
-        "cooling",
-        "tower",
-        "8",
-        "enable",
-        "point",
-        "ct8-en",
-        "clg twr 8 en",
-        "ct-8 enable",
-        "clg twr 8 enable",
-        "ct-8 ena"
-      ]
-    },
-    {
-      "id": "cooling-tower-8-output",
-      "type": "point",
-      "name": "Cooling Tower 8 Output",
-      "tokens": [
-        "cooling tower 8 output",
-        "cooling-tower-8-output",
-        "cooling",
-        "tower",
-        "8",
-        "output",
-        "point",
-        "ct8-o",
-        "clg twr 8 out",
-        "ct-8 out",
-        "ct-8 output"
+        "signal",
+        "(0-100%)",
+        "coolingtower",
+        "cooling tower out",
+        "cooling tower speed",
+        "ct output",
+        "ct out",
+        "ct speed",
+        "tower output",
+        "tower speed",
+        "ct-o",
+        "ct-out"
       ]
     },
     {
@@ -3075,74 +2122,6 @@
       ]
     },
     {
-      "id": "boiler-1-status",
-      "type": "point",
-      "name": "Boiler 1 Status",
-      "tokens": [
-        "boiler 1 status",
-        "boiler-1-status",
-        "boiler",
-        "1",
-        "status",
-        "point",
-        "blr1-s",
-        "blr 1 sts",
-        "boiler 1 sts",
-        "b-1 status"
-      ]
-    },
-    {
-      "id": "boiler-2-status",
-      "type": "point",
-      "name": "Boiler 2 Status",
-      "tokens": [
-        "boiler 2 status",
-        "boiler-2-status",
-        "boiler",
-        "2",
-        "status",
-        "point",
-        "blr2-s",
-        "blr 2 sts",
-        "boiler 2 sts",
-        "b-2 status"
-      ]
-    },
-    {
-      "id": "boiler-3-status",
-      "type": "point",
-      "name": "Boiler 3 Status",
-      "tokens": [
-        "boiler 3 status",
-        "boiler-3-status",
-        "boiler",
-        "3",
-        "status",
-        "point",
-        "blr3-s",
-        "blr 3 sts",
-        "boiler 3 sts",
-        "b-3 status"
-      ]
-    },
-    {
-      "id": "boiler-4-status",
-      "type": "point",
-      "name": "Boiler 4 Status",
-      "tokens": [
-        "boiler 4 status",
-        "boiler-4-status",
-        "boiler",
-        "4",
-        "status",
-        "point",
-        "blr4-s",
-        "blr 4 sts",
-        "boiler 4 sts",
-        "b-4 status"
-      ]
-    },
-    {
       "id": "boiler-pump-status",
       "type": "point",
       "name": "Boiler Pump Status",
@@ -3158,6 +2137,29 @@
         "bp status",
         "blrp status",
         "blr pump sts"
+      ]
+    },
+    {
+      "id": "boiler-status",
+      "type": "point",
+      "name": "Boiler Status",
+      "tokens": [
+        "boiler status",
+        "boiler-status",
+        "boiler",
+        "running",
+        "status",
+        "feedback",
+        "point",
+        "run",
+        "boiler sts",
+        "boiler running",
+        "blr status",
+        "blr sts",
+        "boiler on/off",
+        "boiler run status",
+        "blr-s",
+        "blr-sts"
       ]
     },
     {
@@ -3178,139 +2180,28 @@
       ]
     },
     {
-      "id": "chiller-1-status",
+      "id": "chiller-status",
       "type": "point",
-      "name": "Chiller 1 Status",
+      "name": "Chiller Status",
       "tokens": [
-        "chiller 1 status",
-        "chiller-1-status",
+        "chiller status",
+        "chiller-status",
         "chiller",
-        "1",
+        "running",
         "status",
+        "feedback",
         "point",
-        "ch1-s",
-        "ch-1 sts",
-        "ch-1 status",
-        "chlr-1 status"
-      ]
-    },
-    {
-      "id": "chiller-2-status",
-      "type": "point",
-      "name": "Chiller 2 Status",
-      "tokens": [
-        "chiller 2 status",
-        "chiller-2-status",
-        "chiller",
-        "2",
-        "status",
-        "point",
-        "ch2-s",
-        "ch-2 sts",
-        "ch-2 status",
-        "chlr-2 status"
-      ]
-    },
-    {
-      "id": "chiller-3-status",
-      "type": "point",
-      "name": "Chiller 3 Status",
-      "tokens": [
-        "chiller 3 status",
-        "chiller-3-status",
-        "chiller",
-        "3",
-        "status",
-        "point",
-        "ch3-s",
-        "ch-3 sts",
-        "ch-3 status",
-        "chlr-3 status"
-      ]
-    },
-    {
-      "id": "chiller-4-status",
-      "type": "point",
-      "name": "Chiller 4 Status",
-      "tokens": [
-        "chiller 4 status",
-        "chiller-4-status",
-        "chiller",
-        "4",
-        "status",
-        "point",
-        "ch4-s",
-        "ch-4 sts",
-        "ch-4 status",
-        "chlr-4 status"
-      ]
-    },
-    {
-      "id": "chiller-5-status",
-      "type": "point",
-      "name": "Chiller 5 Status",
-      "tokens": [
-        "chiller 5 status",
-        "chiller-5-status",
-        "chiller",
-        "5",
-        "status",
-        "point",
-        "ch5-s",
-        "ch-5 sts",
-        "ch-5 status",
-        "chlr-5 status"
-      ]
-    },
-    {
-      "id": "chiller-6-status",
-      "type": "point",
-      "name": "Chiller 6 Status",
-      "tokens": [
-        "chiller 6 status",
-        "chiller-6-status",
-        "chiller",
-        "6",
-        "status",
-        "point",
-        "ch6-s",
-        "ch-6 sts",
-        "ch-6 status",
-        "chlr-6 status"
-      ]
-    },
-    {
-      "id": "chiller-7-status",
-      "type": "point",
-      "name": "Chiller 7 Status",
-      "tokens": [
-        "chiller 7 status",
-        "chiller-7-status",
-        "chiller",
-        "7",
-        "status",
-        "point",
-        "ch7-s",
-        "ch-7 sts",
-        "ch-7 status",
-        "chlr-7 status"
-      ]
-    },
-    {
-      "id": "chiller-8-status",
-      "type": "point",
-      "name": "Chiller 8 Status",
-      "tokens": [
-        "chiller 8 status",
-        "chiller-8-status",
-        "chiller",
-        "8",
-        "status",
-        "point",
-        "ch8-s",
-        "ch-8 sts",
-        "ch-8 status",
-        "chlr-8 status"
+        "run",
+        "chiller sts",
+        "chiller running",
+        "chlr status",
+        "chlr sts",
+        "chiller on/off",
+        "chiller run status",
+        "ch-s",
+        "ch-sts",
+        "chlr-s",
+        "chlr-sts"
       ]
     },
     {
@@ -3331,326 +2222,52 @@
       ]
     },
     {
-      "id": "cooling-tower-1-status",
+      "id": "cooling-tower-status",
       "type": "point",
-      "name": "Cooling Tower 1 Status",
+      "name": "Cooling Tower Status",
       "tokens": [
-        "cooling tower 1 status",
-        "cooling-tower-1-status",
+        "cooling tower status",
+        "cooling-tower-status",
         "cooling",
         "tower",
-        "1",
+        "running",
+        "status",
+        "feedback",
+        "point",
+        "coolingtower",
+        "run",
+        "cooling tower sts",
+        "cooling tower running",
+        "ct status",
+        "ct sts",
+        "tower status",
+        "tower running",
+        "ct-s",
+        "ct-sts"
+      ]
+    },
+    {
+      "id": "dx-cooling-stage",
+      "type": "point",
+      "name": "DX Cooling Stage",
+      "tokens": [
+        "dx cooling stage",
+        "dx-cooling-stage",
+        "direct",
+        "expansion",
+        "cooling",
+        "stage",
         "status",
         "point",
-        "ct1-s",
-        "ct1f-s",
-        "ct-1 fan status",
-        "ct-1 fan sts",
-        "clg twr 1 sts"
-      ]
-    },
-    {
-      "id": "cooling-tower-2-status",
-      "type": "point",
-      "name": "Cooling Tower 2 Status",
-      "tokens": [
-        "cooling tower 2 status",
-        "cooling-tower-2-status",
-        "cooling",
-        "tower",
-        "2",
-        "status",
-        "point",
-        "ct2-s",
-        "ct2f-s",
-        "ct-2 fan status",
-        "ct-2 fan sts",
-        "clg twr 2 sts"
-      ]
-    },
-    {
-      "id": "cooling-tower-3-status",
-      "type": "point",
-      "name": "Cooling Tower 3 Status",
-      "tokens": [
-        "cooling tower 3 status",
-        "cooling-tower-3-status",
-        "cooling",
-        "tower",
-        "3",
-        "status",
-        "point",
-        "ct3-s",
-        "ct3f-s",
-        "ct-3 fan status",
-        "ct-3 fan sts",
-        "clg twr 3 sts"
-      ]
-    },
-    {
-      "id": "cooling-tower-4-status",
-      "type": "point",
-      "name": "Cooling Tower 4 Status",
-      "tokens": [
-        "cooling tower 4 status",
-        "cooling-tower-4-status",
-        "cooling",
-        "tower",
-        "4",
-        "status",
-        "point",
-        "ct4-s",
-        "ct4f-s",
-        "ct-4 fan status",
-        "ct-4 fan sts",
-        "clg twr 4 sts"
-      ]
-    },
-    {
-      "id": "cooling-tower-5-status",
-      "type": "point",
-      "name": "Cooling Tower 5 Status",
-      "tokens": [
-        "cooling tower 5 status",
-        "cooling-tower-5-status",
-        "cooling",
-        "tower",
-        "5",
-        "status",
-        "point",
-        "ct5-s",
-        "ct5f-s",
-        "ct-5 fan status",
-        "ct-5 fan sts",
-        "clg twr 5 sts"
-      ]
-    },
-    {
-      "id": "cooling-tower-6-status",
-      "type": "point",
-      "name": "Cooling Tower 6 Status",
-      "tokens": [
-        "cooling tower 6 status",
-        "cooling-tower-6-status",
-        "cooling",
-        "tower",
-        "6",
-        "status",
-        "point",
-        "ct6-s",
-        "ct6f-s",
-        "ct-6 fan status",
-        "ct-6 fan sts",
-        "clg twr 6 sts"
-      ]
-    },
-    {
-      "id": "cooling-tower-7-status",
-      "type": "point",
-      "name": "Cooling Tower 7 Status",
-      "tokens": [
-        "cooling tower 7 status",
-        "cooling-tower-7-status",
-        "cooling",
-        "tower",
-        "7",
-        "status",
-        "point",
-        "ct7-s",
-        "ct7f-s",
-        "ct-7 fan status",
-        "ct-7 fan sts",
-        "clg twr 7 sts"
-      ]
-    },
-    {
-      "id": "cooling-tower-8-status",
-      "type": "point",
-      "name": "Cooling Tower 8 Status",
-      "tokens": [
-        "cooling tower 8 status",
-        "cooling-tower-8-status",
-        "cooling",
-        "tower",
-        "8",
-        "status",
-        "point",
-        "ct8-s",
-        "ct8f-s",
-        "ct-8 fan status",
-        "ct-8 fan sts",
-        "clg twr 8 sts"
-      ]
-    },
-    {
-      "id": "dx-cooling-stage-1",
-      "type": "point",
-      "name": "DX Cooling Stage 1",
-      "tokens": [
-        "dx cooling stage 1",
-        "dx-cooling-stage-1",
         "dx",
-        "cooling",
-        "stage",
-        "1",
-        "point",
-        "dx-stg1",
-        "compr 1",
-        "clg stg 1",
-        "cooling stg 1",
-        "compressor stage 1"
-      ]
-    },
-    {
-      "id": "dx-cooling-stage-2",
-      "type": "point",
-      "name": "DX Cooling Stage 2",
-      "tokens": [
-        "dx cooling stage 2",
-        "dx-cooling-stage-2",
-        "dx",
-        "cooling",
-        "stage",
-        "2",
-        "point",
-        "dx-stg2",
-        "compr 2",
-        "clg stg 2",
-        "cooling stg 2",
-        "compressor stage 2"
-      ]
-    },
-    {
-      "id": "dx-cooling-stage-3",
-      "type": "point",
-      "name": "DX Cooling Stage 3",
-      "tokens": [
-        "dx cooling stage 3",
-        "dx-cooling-stage-3",
-        "dx",
-        "cooling",
-        "stage",
-        "3",
-        "point",
-        "dx-stg3",
-        "compr 3",
-        "clg stg 3",
-        "cooling stg 3",
-        "compressor stage 3"
-      ]
-    },
-    {
-      "id": "dx-cooling-stage-4",
-      "type": "point",
-      "name": "DX Cooling Stage 4",
-      "tokens": [
-        "dx cooling stage 4",
-        "dx-cooling-stage-4",
-        "dx",
-        "cooling",
-        "stage",
-        "4",
-        "point",
-        "dx-stg4",
-        "compr 4",
-        "clg stg 4",
-        "cooling stg 4",
-        "compressor stage 4"
-      ]
-    },
-    {
-      "id": "dx-cooling-stage-5",
-      "type": "point",
-      "name": "DX Cooling Stage 5",
-      "tokens": [
-        "dx cooling stage 5",
-        "dx-cooling-stage-5",
-        "dx",
-        "cooling",
-        "stage",
-        "5",
-        "point",
-        "dx-stg5",
-        "compr 5",
-        "clg stg 5",
-        "cooling stg 5",
-        "compressor stage 5"
-      ]
-    },
-    {
-      "id": "dx-cooling-stage-6",
-      "type": "point",
-      "name": "DX Cooling Stage 6",
-      "tokens": [
-        "dx cooling stage 6",
-        "dx-cooling-stage-6",
-        "dx",
-        "cooling",
-        "stage",
-        "6",
-        "point",
-        "dx-stg6",
-        "compr 6",
-        "clg stg 6",
-        "cooling stg 6",
-        "compressor stage 6"
-      ]
-    },
-    {
-      "id": "dx-cooling-stage-7",
-      "type": "point",
-      "name": "DX Cooling Stage 7",
-      "tokens": [
-        "dx cooling stage 7",
-        "dx-cooling-stage-7",
-        "dx",
-        "cooling",
-        "stage",
-        "7",
-        "point",
-        "dx-stg7",
-        "compr 7",
-        "clg stg 7",
-        "cooling stg 7",
-        "compressor stage 7"
-      ]
-    },
-    {
-      "id": "dx-cooling-stage-8",
-      "type": "point",
-      "name": "DX Cooling Stage 8",
-      "tokens": [
-        "dx cooling stage 8",
-        "dx-cooling-stage-8",
-        "dx",
-        "cooling",
-        "stage",
-        "8",
-        "point",
-        "dx-stg8",
-        "compr 8",
-        "clg stg 8",
-        "cooling stg 8",
-        "compressor stage 8"
-      ]
-    },
-    {
-      "id": "dx-cooling-stage-9",
-      "type": "point",
-      "name": "DX Cooling Stage 9",
-      "tokens": [
-        "dx cooling stage 9",
-        "dx-cooling-stage-9",
-        "dx",
-        "cooling",
-        "stage",
-        "9",
-        "point",
-        "dx-stg9",
-        "compr 9",
-        "clg stg 9",
-        "cooling stg 9",
-        "compressor stage 9"
+        "dx stage",
+        "dx cooling",
+        "compressor stage",
+        "cooling stage",
+        "dx compressor",
+        "ac stage",
+        "dx-stg",
+        "dx-clg"
       ]
     },
     {
@@ -3669,171 +2286,26 @@
       ]
     },
     {
-      "id": "electric-heat-stage-1",
+      "id": "electric-heat-stage",
       "type": "point",
-      "name": "Electric Heat Stage 1",
+      "name": "Electric Heat Stage",
       "tokens": [
-        "electric heat stage 1",
-        "electric-heat-stage-1",
+        "electric heat stage",
+        "electric-heat-stage",
         "electric",
-        "heat",
+        "heating",
         "stage",
-        "1",
+        "status",
         "point",
-        "elechtg-stg1",
-        "htg-stg1",
-        "elec-stg1",
-        "electric heat stg 1",
-        "heating stg 1",
-        "heating stage 1",
-        "heat 1"
-      ]
-    },
-    {
-      "id": "electric-heat-stage-2",
-      "type": "point",
-      "name": "Electric Heat Stage 2",
-      "tokens": [
-        "electric heat stage 2",
-        "electric-heat-stage-2",
-        "electric",
+        "elec",
         "heat",
-        "stage",
-        "2",
-        "point",
-        "elechtg-stg2",
-        "htg-stg2",
-        "elec-stg2",
-        "electric heat stg 2",
-        "heating stg 2",
-        "heating stage 2",
-        "heat 2"
-      ]
-    },
-    {
-      "id": "electric-heat-stage-3",
-      "type": "point",
-      "name": "Electric Heat Stage 3",
-      "tokens": [
-        "electric heat stage 3",
-        "electric-heat-stage-3",
-        "electric",
-        "heat",
-        "stage",
-        "3",
-        "point",
-        "elechtg-stg3",
-        "htg-stg3",
-        "elec-stg3",
-        "electric heat stg 3",
-        "heating stg 3",
-        "heating stage 3",
-        "heat 3"
-      ]
-    },
-    {
-      "id": "electric-heat-stage-4",
-      "type": "point",
-      "name": "Electric Heat Stage 4",
-      "tokens": [
-        "electric heat stage 4",
-        "electric-heat-stage-4",
-        "electric",
-        "heat",
-        "stage",
-        "4",
-        "point",
-        "elechtg-stg4",
-        "htg-stg4",
-        "elec-stg4",
-        "electric heat stg 4",
-        "heating stg 4",
-        "heating stage 4",
-        "heat 4"
-      ]
-    },
-    {
-      "id": "electric-heat-stage-5",
-      "type": "point",
-      "name": "Electric Heat Stage 5",
-      "tokens": [
-        "electric heat stage 5",
-        "electric-heat-stage-5",
-        "electric",
-        "heat",
-        "stage",
-        "5",
-        "point",
-        "elechtg-stg5",
-        "htg-stg5",
-        "elec-stg5",
-        "electric heat stg 5",
-        "heating stg 5",
-        "heating stage 5",
-        "heat 5"
-      ]
-    },
-    {
-      "id": "electric-heat-stage-6",
-      "type": "point",
-      "name": "Electric Heat Stage 6",
-      "tokens": [
-        "electric heat stage 6",
-        "electric-heat-stage-6",
-        "electric",
-        "heat",
-        "stage",
-        "6",
-        "point",
-        "elechtg-stg6",
-        "htg-stg6",
-        "elec-stg6",
-        "electric heat stg 6",
-        "heating stg 6",
-        "heating stage 6",
-        "heat 6"
-      ]
-    },
-    {
-      "id": "electric-heat-stage-7",
-      "type": "point",
-      "name": "Electric Heat Stage 7",
-      "tokens": [
-        "electric heat stage 7",
-        "electric-heat-stage-7",
-        "electric",
-        "heat",
-        "stage",
-        "7",
-        "point",
-        "elechtg-stg7",
-        "htg-stg7",
-        "elec-stg7",
-        "electric heat stg 7",
-        "heating stg 7",
-        "heating stage 7",
-        "heat 7"
-      ]
-    },
-    {
-      "id": "electric-heat-stage-8",
-      "type": "point",
-      "name": "Electric Heat Stage 8",
-      "tokens": [
-        "electric heat stage 8",
-        "electric-heat-stage-8",
-        "electric",
-        "heat",
-        "stage",
-        "8",
-        "point",
-        "elechtg-stg8",
-        "htg-stg8",
-        "elec-stg8",
-        "electric heat stg 8",
-        "heating stg 8",
-        "heating stage 8",
-        "heat 8"
+        "elec heat stage",
+        "electric heating stage",
+        "heat stage",
+        "heating stage",
+        "elec htg stage",
+        "elec-htg-stg",
+        "e-htg-stg"
       ]
     },
     {
@@ -4060,307 +2532,53 @@
       ]
     },
     {
-      "id": "chiller-1-entering-temperature",
+      "id": "chiller-entering-temperature",
       "type": "point",
-      "name": "Chiller 1 Entering Temperature",
+      "name": "Chiller Entering Temperature",
       "tokens": [
-        "chiller 1 entering temperature",
-        "chiller-1-entering-temperature",
+        "chiller entering temperature",
+        "chiller-entering-temperature",
         "chiller",
-        "1",
         "entering",
+        "water",
         "temperature",
-        "point",
-        "ch1-ewt",
-        "ch1-ent-temp",
-        "ch-1 ent temp",
-        "ch-1 entering temp",
-        "ch-1 enter temp"
+        "(return",
+        "chiller)",
+        "temp",
+        "chiller entering temp",
+        "chiller return temp",
+        "chlr entering temp",
+        "chlr ewt",
+        "chiller ewt",
+        "chiller entering water temp",
+        "ch-ewt",
+        "chlr-ewt",
+        "ch-ent"
       ]
     },
     {
-      "id": "chiller-1-leaving-temperature",
+      "id": "chiller-leaving-temperature",
       "type": "point",
-      "name": "Chiller 1 Leaving Temperature",
+      "name": "Chiller Leaving Temperature",
       "tokens": [
-        "chiller 1 leaving temperature",
-        "chiller-1-leaving-temperature",
+        "chiller leaving temperature",
+        "chiller-leaving-temperature",
         "chiller",
-        "1",
         "leaving",
+        "water",
         "temperature",
-        "point",
-        "ch1-lwt",
-        "ch1-lvg-temp",
-        "ch-1 lvg temp",
-        "ch-1 leaving temp",
-        "ch-1 leave temp"
-      ]
-    },
-    {
-      "id": "chiller-2-entering-temperature",
-      "type": "point",
-      "name": "Chiller 2 Entering Temperature",
-      "tokens": [
-        "chiller 2 entering temperature",
-        "chiller-2-entering-temperature",
-        "chiller",
-        "2",
-        "entering",
-        "temperature",
-        "point",
-        "ch2-ewt",
-        "ch2-ent-temp",
-        "ch-2 ent temp",
-        "ch-2 entering temp",
-        "ch-2 enter temp"
-      ]
-    },
-    {
-      "id": "chiller-2-leaving-temperature",
-      "type": "point",
-      "name": "Chiller 2 Leaving Temperature",
-      "tokens": [
-        "chiller 2 leaving temperature",
-        "chiller-2-leaving-temperature",
-        "chiller",
-        "2",
-        "leaving",
-        "temperature",
-        "point",
-        "ch2-lwt",
-        "ch2-lvg-temp",
-        "ch-2 lvg temp",
-        "ch-2 leaving temp",
-        "ch-2 leave temp"
-      ]
-    },
-    {
-      "id": "chiller-3-entering-temperature",
-      "type": "point",
-      "name": "Chiller 3 Entering Temperature",
-      "tokens": [
-        "chiller 3 entering temperature",
-        "chiller-3-entering-temperature",
-        "chiller",
-        "3",
-        "entering",
-        "temperature",
-        "point",
-        "ch3-ewt",
-        "ch3-ent-temp",
-        "ch-3 ent temp",
-        "ch-3 entering temp",
-        "ch-3 enter temp"
-      ]
-    },
-    {
-      "id": "chiller-3-leaving-temperature",
-      "type": "point",
-      "name": "Chiller 3 Leaving Temperature",
-      "tokens": [
-        "chiller 3 leaving temperature",
-        "chiller-3-leaving-temperature",
-        "chiller",
-        "3",
-        "leaving",
-        "temperature",
-        "point",
-        "ch3-lwt",
-        "ch3-lvg-temp",
-        "ch-3 lvg temp",
-        "ch-3 leaving temp",
-        "ch-3 leave temp"
-      ]
-    },
-    {
-      "id": "chiller-4-entering-temperature",
-      "type": "point",
-      "name": "Chiller 4 Entering Temperature",
-      "tokens": [
-        "chiller 4 entering temperature",
-        "chiller-4-entering-temperature",
-        "chiller",
-        "4",
-        "entering",
-        "temperature",
-        "point",
-        "ch4-ewt",
-        "ch4-ent-temp",
-        "ch-4 ent temp",
-        "ch-4 entering temp",
-        "ch-4 enter temp"
-      ]
-    },
-    {
-      "id": "chiller-4-leaving-temperature",
-      "type": "point",
-      "name": "Chiller 4 Leaving Temperature",
-      "tokens": [
-        "chiller 4 leaving temperature",
-        "chiller-4-leaving-temperature",
-        "chiller",
-        "4",
-        "leaving",
-        "temperature",
-        "point",
-        "ch4-lwt",
-        "ch4-lvg-temp",
-        "ch-4 lvg temp",
-        "ch-4 leaving temp",
-        "ch-4 leave temp"
-      ]
-    },
-    {
-      "id": "chiller-5-entering-temperature",
-      "type": "point",
-      "name": "Chiller 5 Entering Temperature",
-      "tokens": [
-        "chiller 5 entering temperature",
-        "chiller-5-entering-temperature",
-        "chiller",
-        "5",
-        "entering",
-        "temperature",
-        "point",
-        "ch5-ewt",
-        "ch5-ent-temp",
-        "ch-5 ent temp",
-        "ch-5 entering temp",
-        "ch-5 enter temp"
-      ]
-    },
-    {
-      "id": "chiller-5-leaving-temperature",
-      "type": "point",
-      "name": "Chiller 5 Leaving Temperature",
-      "tokens": [
-        "chiller 5 leaving temperature",
-        "chiller-5-leaving-temperature",
-        "chiller",
-        "5",
-        "leaving",
-        "temperature",
-        "point",
-        "ch5-lwt",
-        "ch5-lvg-temp",
-        "ch-5 lvg temp",
-        "ch-5 leaving temp",
-        "ch-5 leave temp"
-      ]
-    },
-    {
-      "id": "chiller-6-entering-temperature",
-      "type": "point",
-      "name": "Chiller 6 Entering Temperature",
-      "tokens": [
-        "chiller 6 entering temperature",
-        "chiller-6-entering-temperature",
-        "chiller",
-        "6",
-        "entering",
-        "temperature",
-        "point",
-        "ch6-ewt",
-        "ch6-ent-temp",
-        "ch-6 ent temp",
-        "ch-6 entering temp",
-        "ch-6 enter temp"
-      ]
-    },
-    {
-      "id": "chiller-6-leaving-temperature",
-      "type": "point",
-      "name": "Chiller 6 Leaving Temperature",
-      "tokens": [
-        "chiller 6 leaving temperature",
-        "chiller-6-leaving-temperature",
-        "chiller",
-        "6",
-        "leaving",
-        "temperature",
-        "point",
-        "ch6-lwt",
-        "ch6-lvg-temp",
-        "ch-6 lvg temp",
-        "ch-6 leaving temp",
-        "ch-6 leave temp"
-      ]
-    },
-    {
-      "id": "chiller-7-entering-temperature",
-      "type": "point",
-      "name": "Chiller 7 Entering Temperature",
-      "tokens": [
-        "chiller 7 entering temperature",
-        "chiller-7-entering-temperature",
-        "chiller",
-        "7",
-        "entering",
-        "temperature",
-        "point",
-        "ch7-ewt",
-        "ch7-ent-temp",
-        "ch-7 ent temp",
-        "ch-7 entering temp",
-        "ch-7 enter temp"
-      ]
-    },
-    {
-      "id": "chiller-7-leaving-temperature",
-      "type": "point",
-      "name": "Chiller 7 Leaving Temperature",
-      "tokens": [
-        "chiller 7 leaving temperature",
-        "chiller-7-leaving-temperature",
-        "chiller",
-        "7",
-        "leaving",
-        "temperature",
-        "point",
-        "ch7-lwt",
-        "ch7-lvg-temp",
-        "ch-7 lvg temp",
-        "ch-7 leaving temp",
-        "ch-7 leave temp"
-      ]
-    },
-    {
-      "id": "chiller-8-entering-temperature",
-      "type": "point",
-      "name": "Chiller 8 Entering Temperature",
-      "tokens": [
-        "chiller 8 entering temperature",
-        "chiller-8-entering-temperature",
-        "chiller",
-        "8",
-        "entering",
-        "temperature",
-        "point",
-        "ch8-ewt",
-        "ch8-ent-temp",
-        "ch-8 ent temp",
-        "ch-8 entering temp",
-        "ch-8 enter temp"
-      ]
-    },
-    {
-      "id": "chiller-8-leaving-temperature",
-      "type": "point",
-      "name": "Chiller 8 Leaving Temperature",
-      "tokens": [
-        "chiller 8 leaving temperature",
-        "chiller-8-leaving-temperature",
-        "chiller",
-        "8",
-        "leaving",
-        "temperature",
-        "point",
-        "ch8-lwt",
-        "ch8-lvg-temp",
-        "ch-8 lvg temp",
-        "ch-8 leaving temp",
-        "ch-8 leave temp"
+        "(supply",
+        "chiller)",
+        "temp",
+        "chiller leaving temp",
+        "chiller supply temp",
+        "chlr leaving temp",
+        "chlr lwt",
+        "chiller lwt",
+        "chiller leaving water temp",
+        "ch-lwt",
+        "chlr-lwt",
+        "ch-lvg"
       ]
     },
     {
@@ -4415,155 +2633,28 @@
       ]
     },
     {
-      "id": "cooling-tower-1-basin-temperature",
+      "id": "cooling-tower-basin-temperature",
       "type": "point",
-      "name": "Cooling Tower 1 Basin Temperature",
+      "name": "Cooling Tower Basin Temperature",
       "tokens": [
-        "cooling tower 1 basin temperature",
-        "cooling-tower-1-basin-temperature",
+        "cooling tower basin temperature",
+        "cooling-tower-basin-temperature",
         "cooling",
         "tower",
-        "1",
         "basin",
+        "(sump)",
+        "water",
         "temperature",
-        "point",
-        "ct1-basin-t",
-        "clg twr 1 basin temp",
-        "ct-1 basin temp",
-        "ct-1 basin temperature"
-      ]
-    },
-    {
-      "id": "cooling-tower-2-basin-temperature",
-      "type": "point",
-      "name": "Cooling Tower 2 Basin Temperature",
-      "tokens": [
-        "cooling tower 2 basin temperature",
-        "cooling-tower-2-basin-temperature",
-        "cooling",
-        "tower",
-        "2",
-        "basin",
-        "temperature",
-        "point",
-        "ct2-basin-t",
-        "clg twr 2 basin temp",
-        "ct-2 basin temp",
-        "ct-2 basin temperature"
-      ]
-    },
-    {
-      "id": "cooling-tower-3-basin-temperature",
-      "type": "point",
-      "name": "Cooling Tower 3 Basin Temperature",
-      "tokens": [
-        "cooling tower 3 basin temperature",
-        "cooling-tower-3-basin-temperature",
-        "cooling",
-        "tower",
-        "3",
-        "basin",
-        "temperature",
-        "point",
-        "ct3-basin-t",
-        "clg twr 3 basin temp",
-        "ct-3 basin temp",
-        "ct-3 basin temperature"
-      ]
-    },
-    {
-      "id": "cooling-tower-4-basin-temperature",
-      "type": "point",
-      "name": "Cooling Tower 4 Basin Temperature",
-      "tokens": [
-        "cooling tower 4 basin temperature",
-        "cooling-tower-4-basin-temperature",
-        "cooling",
-        "tower",
-        "4",
-        "basin",
-        "temperature",
-        "point",
-        "ct4-basin-t",
-        "clg twr 4 basin temp",
-        "ct-4 basin temp",
-        "ct-4 basin temperature"
-      ]
-    },
-    {
-      "id": "cooling-tower-5-basin-temperature",
-      "type": "point",
-      "name": "Cooling Tower 5 Basin Temperature",
-      "tokens": [
-        "cooling tower 5 basin temperature",
-        "cooling-tower-5-basin-temperature",
-        "cooling",
-        "tower",
-        "5",
-        "basin",
-        "temperature",
-        "point",
-        "ct5-basin-t",
-        "clg twr 5 basin temp",
-        "ct-5 basin temp",
-        "ct-5 basin temperature"
-      ]
-    },
-    {
-      "id": "cooling-tower-6-basin-temperature",
-      "type": "point",
-      "name": "Cooling Tower 6 Basin Temperature",
-      "tokens": [
-        "cooling tower 6 basin temperature",
-        "cooling-tower-6-basin-temperature",
-        "cooling",
-        "tower",
-        "6",
-        "basin",
-        "temperature",
-        "point",
-        "ct6-basin-t",
-        "clg twr 6 basin temp",
-        "ct-6 basin temp",
-        "ct-6 basin temperature"
-      ]
-    },
-    {
-      "id": "cooling-tower-7-basin-temperature",
-      "type": "point",
-      "name": "Cooling Tower 7 Basin Temperature",
-      "tokens": [
-        "cooling tower 7 basin temperature",
-        "cooling-tower-7-basin-temperature",
-        "cooling",
-        "tower",
-        "7",
-        "basin",
-        "temperature",
-        "point",
-        "ct7-basin-t",
-        "clg twr 7 basin temp",
-        "ct-7 basin temp",
-        "ct-7 basin temperature"
-      ]
-    },
-    {
-      "id": "cooling-tower-8-basin-temperature",
-      "type": "point",
-      "name": "Cooling Tower 8 Basin Temperature",
-      "tokens": [
-        "cooling tower 8 basin temperature",
-        "cooling-tower-8-basin-temperature",
-        "cooling",
-        "tower",
-        "8",
-        "basin",
-        "temperature",
-        "point",
-        "ct8-basin-t",
-        "clg twr 8 basin temp",
-        "ct-8 basin temp",
-        "ct-8 basin temperature"
+        "coolingtower",
+        "temp",
+        "cooling tower basin temp",
+        "ct basin temp",
+        "tower basin temp",
+        "sump temperature",
+        "ct sump temp",
+        "tower sump temp",
+        "ct-basin",
+        "ct-sump"
       ]
     },
     {
@@ -5053,147 +3144,27 @@
       ]
     },
     {
-      "id": "cooling-tower-1-isolation-valve",
+      "id": "cooling-tower-isolation-valve",
       "type": "point",
-      "name": "Cooling Tower 1 Isolation Valve",
+      "name": "Cooling Tower Isolation Valve",
       "tokens": [
-        "cooling tower 1 isolation valve",
-        "cooling-tower-1-isolation-valve",
+        "cooling tower isolation valve",
+        "cooling-tower-isolation-valve",
         "cooling",
         "tower",
-        "1",
         "isolation",
         "valve",
-        "point",
-        "ct1-isovlv",
-        "clg twr 1 iso vlv",
-        "ct-1 iso valve"
-      ]
-    },
-    {
-      "id": "cooling-tower-2-isolation-valve",
-      "type": "point",
-      "name": "Cooling Tower 2 Isolation Valve",
-      "tokens": [
-        "cooling tower 2 isolation valve",
-        "cooling-tower-2-isolation-valve",
-        "cooling",
-        "tower",
-        "2",
-        "isolation",
-        "valve",
-        "point",
-        "ct2-isovlv",
-        "clg twr 2 iso vlv",
-        "ct-2 iso valve"
-      ]
-    },
-    {
-      "id": "cooling-tower-3-isolation-valve",
-      "type": "point",
-      "name": "Cooling Tower 3 Isolation Valve",
-      "tokens": [
-        "cooling tower 3 isolation valve",
-        "cooling-tower-3-isolation-valve",
-        "cooling",
-        "tower",
-        "3",
-        "isolation",
-        "valve",
-        "point",
-        "ct3-isovlv",
-        "clg twr 3 iso vlv",
-        "ct-3 iso valve"
-      ]
-    },
-    {
-      "id": "cooling-tower-4-isolation-valve",
-      "type": "point",
-      "name": "Cooling Tower 4 Isolation Valve",
-      "tokens": [
-        "cooling tower 4 isolation valve",
-        "cooling-tower-4-isolation-valve",
-        "cooling",
-        "tower",
-        "4",
-        "isolation",
-        "valve",
-        "point",
-        "ct4-isovlv",
-        "clg twr 4 iso vlv",
-        "ct-4 iso valve"
-      ]
-    },
-    {
-      "id": "cooling-tower-5-isolation-valve",
-      "type": "point",
-      "name": "Cooling Tower 5 Isolation Valve",
-      "tokens": [
-        "cooling tower 5 isolation valve",
-        "cooling-tower-5-isolation-valve",
-        "cooling",
-        "tower",
-        "5",
-        "isolation",
-        "valve",
-        "point",
-        "ct5-isovlv",
-        "clg twr 5 iso vlv",
-        "ct-5 iso valve"
-      ]
-    },
-    {
-      "id": "cooling-tower-6-isolation-valve",
-      "type": "point",
-      "name": "Cooling Tower 6 Isolation Valve",
-      "tokens": [
-        "cooling tower 6 isolation valve",
-        "cooling-tower-6-isolation-valve",
-        "cooling",
-        "tower",
-        "6",
-        "isolation",
-        "valve",
-        "point",
-        "ct6-isovlv",
-        "clg twr 6 iso vlv",
-        "ct-6 iso valve"
-      ]
-    },
-    {
-      "id": "cooling-tower-7-isolation-valve",
-      "type": "point",
-      "name": "Cooling Tower 7 Isolation Valve",
-      "tokens": [
-        "cooling tower 7 isolation valve",
-        "cooling-tower-7-isolation-valve",
-        "cooling",
-        "tower",
-        "7",
-        "isolation",
-        "valve",
-        "point",
-        "ct7-isovlv",
-        "clg twr 7 iso vlv",
-        "ct-7 iso valve"
-      ]
-    },
-    {
-      "id": "cooling-tower-8-isolation-valve",
-      "type": "point",
-      "name": "Cooling Tower 8 Isolation Valve",
-      "tokens": [
-        "cooling tower 8 isolation valve",
-        "cooling-tower-8-isolation-valve",
-        "cooling",
-        "tower",
-        "8",
-        "isolation",
-        "valve",
-        "point",
-        "ct8-isovlv",
-        "clg twr 8 iso vlv",
-        "ct-8 iso valve"
+        "position",
+        "or",
+        "command",
+        "coolingtower",
+        "ct isolation valve",
+        "tower isolation valve",
+        "ct iso valve",
+        "cooling tower iso",
+        "ct isolation",
+        "ct-iso",
+        "ct-isov"
       ]
     },
     {

@@ -1,0 +1,18 @@
+concept:
+  id: boiler-command
+  name: Boiler Command
+  category: commands
+  description: Boiler on/off command point
+  haystack: boiler cmd
+  object_type: binaryOutput
+aliases:
+  common:
+    - boiler cmd
+    - boiler start/stop
+    - blr command
+    - blr cmd
+    - boiler enable
+    - boiler run
+  abbreviated:
+    - blr-c
+    - blr-cmd

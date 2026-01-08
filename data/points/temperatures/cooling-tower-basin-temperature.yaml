@@ -1,0 +1,22 @@
+concept:
+  id: cooling-tower-basin-temperature
+  name: Cooling Tower Basin Temperature
+  category: temperatures
+  description: Cooling tower basin (sump) water temperature
+  haystack: coolingTower basin temp
+  object_type: analogInput
+  unit: degF
+  typical_range:
+    min: 60
+    max: 95
+aliases:
+  common:
+    - cooling tower basin temp
+    - ct basin temp
+    - tower basin temp
+    - sump temperature
+    - ct sump temp
+    - tower sump temp
+  abbreviated:
+    - ct-basin
+    - ct-sump

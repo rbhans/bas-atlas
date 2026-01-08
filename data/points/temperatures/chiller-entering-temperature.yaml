@@ -1,0 +1,23 @@
+concept:
+  id: chiller-entering-temperature
+  name: Chiller Entering Temperature
+  category: temperatures
+  description: Chiller entering water temperature (return water temperature entering chiller)
+  haystack: chiller entering water temp
+  object_type: analogInput
+  unit: degF
+  typical_range:
+    min: 45
+    max: 65
+aliases:
+  common:
+    - chiller entering temp
+    - chiller return temp
+    - chlr entering temp
+    - chlr ewt
+    - chiller ewt
+    - chiller entering water temp
+  abbreviated:
+    - ch-ewt
+    - chlr-ewt
+    - ch-ent

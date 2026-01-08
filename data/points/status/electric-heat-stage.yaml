@@ -1,0 +1,17 @@
+concept:
+  id: electric-heat-stage
+  name: Electric Heat Stage
+  category: status
+  description: Electric heating stage status point
+  haystack: elec heat stage
+  object_type: binaryInput
+aliases:
+  common:
+    - elec heat stage
+    - electric heating stage
+    - heat stage
+    - heating stage
+    - elec htg stage
+  abbreviated:
+    - elec-htg-stg
+    - e-htg-stg

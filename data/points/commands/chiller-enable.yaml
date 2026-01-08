@@ -1,0 +1,17 @@
+concept:
+  id: chiller-enable
+  name: Chiller Enable
+  category: commands
+  description: Chiller enable/disable command point
+  haystack: chiller enable
+  object_type: binaryOutput
+aliases:
+  common:
+    - chiller en
+    - chiller enabled
+    - chlr enable
+    - chlr en
+    - chiller on/off
+  abbreviated:
+    - ch-en
+    - chlr-en

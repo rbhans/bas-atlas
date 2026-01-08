@@ -1,0 +1,19 @@
+concept:
+  id: cooling-tower-alarm
+  name: Cooling Tower Alarm
+  category: alarms
+  description: Cooling tower alarm point indicating fault or warning condition
+  haystack: coolingTower alarm
+  object_type: binaryInput
+aliases:
+  common:
+    - cooling tower alm
+    - cooling tower fault
+    - ct alarm
+    - ct alm
+    - ct fault
+    - tower alarm
+    - tower alm
+  abbreviated:
+    - ct-a
+    - ct-alm

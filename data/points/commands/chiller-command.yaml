@@ -1,0 +1,19 @@
+concept:
+  id: chiller-command
+  name: Chiller Command
+  category: commands
+  description: Chiller on/off command point
+  haystack: chiller cmd
+  object_type: binaryOutput
+aliases:
+  common:
+    - chiller cmd
+    - chiller start/stop
+    - chlr command
+    - chlr cmd
+    - chiller run
+  abbreviated:
+    - ch-c
+    - ch-cmd
+    - chlr-c
+    - chlr-cmd

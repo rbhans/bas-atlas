@@ -3,8 +3,9 @@ concept:
   name: Chiller Command
   category: commands
   description: Chiller on/off command point
-  haystack: chiller cmd
+  haystack: chiller run cmd
   object_type: binaryOutput
+  brick: Chiller_Command
 aliases:
   common:
     - chiller cmd

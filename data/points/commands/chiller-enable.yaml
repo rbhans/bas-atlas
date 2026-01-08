@@ -3,8 +3,9 @@ concept:
   name: Chiller Enable
   category: commands
   description: Chiller enable/disable command point
-  haystack: chiller enable
+  haystack: chiller enable cmd
   object_type: binaryOutput
+  brick: Chiller_Enable_Command
 aliases:
   common:
     - chiller en

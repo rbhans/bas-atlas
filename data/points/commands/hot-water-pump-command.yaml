@@ -3,7 +3,8 @@ concept:
   name: Hot Water Pump Command
   category: commands
   description: Hot Water Pump Command point
-  haystack: hot water pump command
+  haystack: hot water pump run cmd
+  brick: Hot_Water_Pump_Command
 aliases:
   common:
     - hwp-c

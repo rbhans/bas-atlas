@@ -3,7 +3,8 @@ concept:
   name: Relief Fan Speed
   category: fans
   description: Relief Fan Speed point
-  haystack: relief fan speed
+  haystack: relief fan speed sensor
+  brick: Relief_Fan_Speed_Sensor
 aliases:
   common:
     - rlf-spd

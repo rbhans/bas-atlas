@@ -3,7 +3,8 @@ concept:
   name: Secondary Chilled Water Pump Status
   category: status
   description: Secondary Chilled Water Pump Status point
-  haystack: secondary chilled water pump status
+  haystack: secondaryLoop chilled water pump run sensor
+  brick: Secondary_Chilled_Water_Pump_Status
 aliases:
   common:
     - schwp-s

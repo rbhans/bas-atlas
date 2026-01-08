@@ -3,8 +3,9 @@ concept:
   name: Cooling Tower Command
   category: commands
   description: Cooling tower on/off command point
-  haystack: coolingTower cmd
+  haystack: coolingTower run cmd
   object_type: binaryOutput
+  brick: Cooling_Tower_Command
 aliases:
   common:
     - cooling tower cmd

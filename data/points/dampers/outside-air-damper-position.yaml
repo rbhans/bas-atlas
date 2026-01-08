@@ -3,7 +3,8 @@ concept:
   name: Outside Air Damper Position
   category: dampers
   description: Outside Air Damper Position point
-  haystack: outside air damper position
+  haystack: outside air damper sensor
+  brick: Outside_Air_Damper_Position_Sensor
 aliases:
   common:
     - oad-pos

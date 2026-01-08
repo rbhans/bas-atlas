@@ -3,7 +3,8 @@ concept:
   name: Mixed Air Damper Open
   category: dampers
   description: Mixed Air Damper Open point
-  haystack: mixed air damper open
+  haystack: mixed air damper open sensor
+  brick: Mixed_Air_Damper_Open_Status
 aliases:
   common:
     - mad-open

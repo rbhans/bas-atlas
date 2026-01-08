@@ -3,7 +3,8 @@ concept:
   name: Smoke Damper Open
   category: dampers
   description: Smoke Damper Open point
-  haystack: smoke damper open
+  haystack: smoke damper open sensor
+  brick: Smoke_Damper_Open_Status
 aliases:
   common:
     - smk-dpr

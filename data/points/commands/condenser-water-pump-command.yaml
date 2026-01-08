@@ -3,7 +3,8 @@ concept:
   name: Condenser Water Pump Command
   category: commands
   description: Condenser Water Pump Command point
-  haystack: condenser water pump command
+  haystack: condenser water pump run cmd
+  brick: Condenser_Water_Pump_Command
 aliases:
   common:
     - cwp-c

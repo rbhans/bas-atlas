@@ -3,7 +3,8 @@ concept:
   name: Return Air Low Pressure Alarm
   category: pressures
   description: Return Air Low Pressure Alarm point
-  haystack: return air low pressure alarm
+  haystack: return air pressure low alarm
+  brick: Low_Return_Air_Static_Pressure_Alarm
 aliases:
   common:
     - ralp-a

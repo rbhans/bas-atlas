@@ -3,7 +3,8 @@ concept:
   name: Bypass Valve Output
   category: valves
   description: Bypass Valve Output point
-  haystack: bypass valve output
+  haystack: bypass valve cmd
+  brick: Bypass_Valve_Command
 aliases:
   common:
     - byp-o

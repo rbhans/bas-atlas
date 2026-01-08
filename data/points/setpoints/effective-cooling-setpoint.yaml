@@ -3,7 +3,8 @@ concept:
   name: Effective Cooling Setpoint
   category: setpoints
   description: Effective Cooling Setpoint point
-  haystack: effective cooling setpoint
+  haystack: zone air temp effective cooling sp
+  brick: Effective_Cooling_Temperature_Setpoint
 aliases:
   common:
     - effclg-sp

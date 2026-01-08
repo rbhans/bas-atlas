@@ -3,7 +3,8 @@ concept:
   name: Zone Humidity
   category: humidity
   description: Zone Humidity point
-  haystack: zone humidity
+  haystack: zone air humidity sensor
+  brick: Zone_Air_Humidity_Sensor
 aliases:
   common:
     - zn-h

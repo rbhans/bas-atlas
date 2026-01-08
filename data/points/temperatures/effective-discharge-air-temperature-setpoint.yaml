@@ -3,7 +3,8 @@ concept:
   name: Effective Discharge Air Temperature Setpoint
   category: temperatures
   description: Effective Discharge Air Temperature Setpoint point
-  haystack: effective discharge air temperature setpoint
+  haystack: discharge air temp effective sp
+  brick: Effective_Discharge_Air_Temperature_Setpoint
 aliases:
   common:
     - effdat-sp

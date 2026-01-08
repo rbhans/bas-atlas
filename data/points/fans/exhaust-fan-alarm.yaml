@@ -3,7 +3,8 @@ concept:
   name: Exhaust Fan Alarm
   category: fans
   description: Exhaust Fan Alarm point
-  haystack: exhaust fan alarm
+  haystack: exhaust fan alarm sensor
+  brick: Exhaust_Fan_Alarm
 aliases:
   common:
     - ef-a

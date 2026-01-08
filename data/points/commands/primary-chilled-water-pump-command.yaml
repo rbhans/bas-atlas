@@ -3,7 +3,8 @@ concept:
   name: Primary Chilled Water Pump Command
   category: commands
   description: Primary Chilled Water Pump Command point
-  haystack: primary chilled water pump command
+  haystack: primaryLoop chilled water pump run cmd
+  brick: Primary_Chilled_Water_Pump_Command
 aliases:
   common:
     - pchwp-c

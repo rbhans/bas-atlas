@@ -3,7 +3,8 @@ concept:
   name: Boiler Pump Output
   category: commands
   description: Boiler Pump Output point
-  haystack: boiler pump output
+  haystack: boiler pump speed cmd
+  brick: Boiler_Pump_Speed_Command
 aliases:
   common:
     - bp-o

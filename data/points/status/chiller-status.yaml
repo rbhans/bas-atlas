@@ -3,8 +3,9 @@ concept:
   name: Chiller Status
   category: status
   description: Chiller running status feedback point
-  haystack: chiller run
+  haystack: chiller run sensor
   object_type: binaryInput
+  brick: Chiller_Status
 aliases:
   common:
     - chiller sts

@@ -3,7 +3,8 @@ concept:
   name: Outdoor Air Flow
   category: flows
   description: Outdoor Air Flow point
-  haystack: outdoor air flow
+  haystack: outside air flow sensor
+  brick: Outside_Air_Flow_Sensor
 aliases:
   common:
     - oa-f

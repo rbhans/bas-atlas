@@ -3,7 +3,8 @@ concept:
   name: Relief Fan Fault
   category: fans
   description: Relief Fan Fault point
-  haystack: relief fan fault
+  haystack: relief fan fault sensor
+  brick: Relief_Fan_Fault_Status
 aliases:
   common:
     - rlf-fault

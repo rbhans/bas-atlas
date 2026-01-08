@@ -3,8 +3,9 @@ concept:
   name: Cooling Tower Isolation Valve
   category: valves
   description: Cooling tower isolation valve position or command
-  haystack: coolingTower isolation valve
+  haystack: coolingTower isolation valve cmd
   object_type: binaryOutput
+  brick: Isolation_Valve_Command
 aliases:
   common:
     - ct isolation valve

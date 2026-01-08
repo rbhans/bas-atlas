@@ -3,7 +3,8 @@ concept:
   name: Chilled Water Differential Pressure
   category: pressures
   description: Chilled Water Differential Pressure point
-  haystack: chilled water differential pressure
+  haystack: chilled water differential pressure sensor
+  brick: Chilled_Water_Differential_Pressure_Sensor
 aliases:
   common:
     - chw-dp

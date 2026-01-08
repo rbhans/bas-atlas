@@ -3,7 +3,8 @@ concept:
   name: Discharge Air Pressure Setpoint
   category: pressures
   description: Discharge Air Pressure Setpoint point
-  haystack: discharge air pressure setpoint
+  haystack: discharge air pressure sp
+  brick: Discharge_Air_Static_Pressure_Setpoint
 aliases:
   common:
     - dap-sp

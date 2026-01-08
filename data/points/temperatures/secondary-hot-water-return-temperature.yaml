@@ -3,7 +3,8 @@ concept:
   name: Secondary Hot Water Return Temperature
   category: temperatures
   description: Secondary Hot Water Return Temperature point
-  haystack: secondary hot water return temperature
+  haystack: secondaryLoop hot water entering temp sensor
+  brick: Hot_Water_Return_Temperature_Sensor
 aliases:
   common:
     - shwr-t

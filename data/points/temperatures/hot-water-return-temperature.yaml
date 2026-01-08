@@ -3,7 +3,8 @@ concept:
   name: Hot Water Return Temperature
   category: temperatures
   description: Hot Water Return Temperature point
-  haystack: hot water return temperature
+  haystack: hot water entering temp sensor
+  brick: Hot_Water_Return_Temperature_Sensor
 aliases:
   common:
     - hwr-t

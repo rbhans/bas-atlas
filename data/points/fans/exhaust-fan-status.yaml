@@ -3,7 +3,8 @@ concept:
   name: Exhaust Fan Status
   category: fans
   description: Exhaust Fan Status point
-  haystack: exhaust fan status
+  haystack: exhaust fan run sensor
+  brick: Exhaust_Fan_Status
 aliases:
   common:
     - ef-s

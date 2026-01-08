@@ -3,7 +3,8 @@ concept:
   name: Smoke Alarm
   category: alarms
   description: Smoke Alarm point
-  haystack: smoke alarm
+  haystack: smoke alarm sensor
+  brick: Smoke_Alarm
 aliases:
   common:
     - smoke detect

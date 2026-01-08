@@ -3,7 +3,8 @@ concept:
   name: Return Air CO2
   category: status
   description: Return Air CO2 point
-  haystack: return air co2
+  haystack: return air co2 sensor
+  brick: Return_Air_CO2_Sensor
 aliases:
   common:
     - return air quality

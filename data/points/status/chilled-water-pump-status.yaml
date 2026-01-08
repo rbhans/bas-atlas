@@ -3,7 +3,8 @@ concept:
   name: Chilled Water Pump Status
   category: status
   description: Chilled Water Pump Status point
-  haystack: chilled water pump status
+  haystack: chilled water pump run sensor
+  brick: Chilled_Water_Pump_Status
 aliases:
   common:
     - chwp-s

@@ -3,7 +3,8 @@ concept:
   name: Exhaust Air Flow
   category: flows
   description: Exhaust Air Flow point
-  haystack: exhaust air flow
+  haystack: exhaust air flow sensor
+  brick: Exhaust_Air_Flow_Sensor
 aliases:
   common:
     - ea-f

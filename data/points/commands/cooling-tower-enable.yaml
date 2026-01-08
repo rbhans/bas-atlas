@@ -3,8 +3,9 @@ concept:
   name: Cooling Tower Enable
   category: commands
   description: Cooling tower enable/disable command point
-  haystack: coolingTower enable
+  haystack: coolingTower enable cmd
   object_type: binaryOutput
+  brick: Cooling_Tower_Enable_Command
 aliases:
   common:
     - cooling tower en

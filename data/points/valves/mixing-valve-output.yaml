@@ -3,7 +3,8 @@ concept:
   name: Mixing Valve Output
   category: valves
   description: Mixing Valve Output point
-  haystack: mixing valve output
+  haystack: mixing valve cmd
+  brick: Mixing_Valve_Command
 aliases:
   common:
     - mixvlv-o

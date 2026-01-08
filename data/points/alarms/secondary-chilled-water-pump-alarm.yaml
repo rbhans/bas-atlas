@@ -3,7 +3,8 @@ concept:
   name: Secondary Chilled Water Pump Alarm
   category: alarms
   description: Secondary Chilled Water Pump Alarm point
-  haystack: secondary chilled water pump alarm
+  haystack: secondaryLoop chilled water pump alarm sensor
+  brick: Secondary_Chilled_Water_Pump_Alarm
 aliases:
   common:
     - schwp-a

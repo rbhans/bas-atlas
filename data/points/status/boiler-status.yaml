@@ -3,8 +3,9 @@ concept:
   name: Boiler Status
   category: status
   description: Boiler running status feedback point
-  haystack: boiler run
+  haystack: boiler run sensor
   object_type: binaryInput
+  brick: Boiler_Status
 aliases:
   common:
     - boiler sts

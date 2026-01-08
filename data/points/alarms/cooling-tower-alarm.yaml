@@ -3,8 +3,9 @@ concept:
   name: Cooling Tower Alarm
   category: alarms
   description: Cooling tower alarm point indicating fault or warning condition
-  haystack: coolingTower alarm
+  haystack: coolingTower alarm sensor
   object_type: binaryInput
+  brick: Cooling_Tower_Alarm
 aliases:
   common:
     - cooling tower alm

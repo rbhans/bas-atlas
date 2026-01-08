@@ -3,7 +3,8 @@ concept:
   name: Primary Chilled Water Supply Temperature
   category: temperatures
   description: Primary Chilled Water Supply Temperature point
-  haystack: primary chilled water supply temperature
+  haystack: primaryLoop chilled water leaving temp sensor
+  brick: Chilled_Water_Supply_Temperature_Sensor
 aliases:
   common:
     - pchws-t

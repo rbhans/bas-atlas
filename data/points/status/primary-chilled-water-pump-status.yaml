@@ -3,7 +3,8 @@ concept:
   name: Primary Chilled Water Pump Status
   category: status
   description: Primary Chilled Water Pump Status point
-  haystack: primary chilled water pump status
+  haystack: primaryLoop chilled water pump run sensor
+  brick: Primary_Chilled_Water_Pump_Status
 aliases:
   common:
     - pchwp-s

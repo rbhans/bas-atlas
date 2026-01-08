@@ -3,7 +3,8 @@ concept:
   name: Cooling Valve Output
   category: valves
   description: Cooling Valve Output point
-  haystack: cooling valve output
+  haystack: cool valve cmd
+  brick: Cooling_Valve_Command
 aliases:
   common:
     - clg-o

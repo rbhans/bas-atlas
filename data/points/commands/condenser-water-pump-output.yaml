@@ -3,7 +3,8 @@ concept:
   name: Condenser Water Pump Output
   category: commands
   description: Condenser Water Pump Output point
-  haystack: condenser water pump output
+  haystack: condenser water pump speed cmd
+  brick: Condenser_Water_Pump_Speed_Command
 aliases:
   common:
     - cwp-o

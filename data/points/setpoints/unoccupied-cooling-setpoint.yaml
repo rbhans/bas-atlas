@@ -3,7 +3,8 @@ concept:
   name: Unoccupied Cooling Setpoint
   category: setpoints
   description: Unoccupied Cooling Setpoint point
-  haystack: unoccupied cooling setpoint
+  haystack: zone air temp unocc cooling sp
+  brick: Unoccupied_Cooling_Temperature_Setpoint
 aliases:
   common:
     - unoccclg-sp

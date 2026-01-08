@@ -3,12 +3,13 @@ concept:
   name: Chiller Entering Temperature
   category: temperatures
   description: Chiller entering water temperature (return water temperature entering chiller)
-  haystack: chiller entering water temp
+  haystack: chiller entering water temp sensor
   object_type: analogInput
   unit: degF
   typical_range:
     min: 45
     max: 65
+  brick: Entering_Water_Temperature_Sensor
 aliases:
   common:
     - chiller entering temp

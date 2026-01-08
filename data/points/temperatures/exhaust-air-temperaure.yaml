@@ -3,7 +3,8 @@ concept:
   name: Exhaust Air Temperaure
   category: temperatures
   description: Exhaust Air Temperaure point
-  haystack: exhaust air temperaure
+  haystack: exhaust air temp sensor
+  brick: Exhaust_Air_Temperature_Sensor
 aliases:
   common:
     - ea-t

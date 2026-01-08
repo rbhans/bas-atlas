@@ -3,7 +3,8 @@ concept:
   name: Mixed Air Damper Output
   category: dampers
   description: Mixed Air Damper Output point
-  haystack: mixed air damper output
+  haystack: mixed air damper cmd
+  brick: Mixed_Air_Damper_Command
 aliases:
   common:
     - mad-o

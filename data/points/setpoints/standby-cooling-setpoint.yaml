@@ -3,7 +3,8 @@ concept:
   name: Standby Cooling Setpoint
   category: setpoints
   description: Standby Cooling Setpoint point
-  haystack: standby cooling setpoint
+  haystack: zone air temp standby cooling sp
+  brick: Standby_Cooling_Temperature_Setpoint
 aliases:
   common:
     - stbyclg-sp

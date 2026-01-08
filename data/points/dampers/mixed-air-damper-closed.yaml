@@ -3,7 +3,8 @@ concept:
   name: Mixed Air Damper Closed
   category: dampers
   description: Mixed Air Damper Closed point
-  haystack: mixed air damper closed
+  haystack: mixed air damper closed sensor
+  brick: Mixed_Air_Damper_Closed_Status
 aliases:
   common:
     - mad-closed

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-08T17:52:45.429Z",
+  "lastUpdated": "2026-01-08T21:15:59.442Z",
   "totalPoints": 174,
   "totalEquipment": 42,
   "points": [
@@ -10,8 +10,9 @@
         "name": "Boiler Alarm",
         "category": "alarms",
         "description": "Boiler alarm point indicating fault or warning condition",
-        "haystack": "boiler alarm",
-        "object_type": "binaryInput"
+        "haystack": "boiler alarm sensor",
+        "object_type": "binaryInput",
+        "brick": "Boiler_Alarm"
       },
       "aliases": {
         "common": [
@@ -32,7 +33,8 @@
         "name": "Boiler Pump Alarm",
         "category": "alarms",
         "description": "Boiler Pump Alarm point",
-        "haystack": "boiler pump alarm"
+        "haystack": "boiler pump alarm sensor",
+        "brick": "Boiler_Pump_Alarm"
       },
       "aliases": {
         "common": [
@@ -50,7 +52,8 @@
         "name": "Chilled Water Pump Alarm",
         "category": "alarms",
         "description": "Chilled Water Pump Alarm point",
-        "haystack": "chilled water pump alarm"
+        "haystack": "chilled water pump alarm sensor",
+        "brick": "Chilled_Water_Pump_Alarm"
       },
       "aliases": {
         "common": [
@@ -66,8 +69,9 @@
         "name": "Chiller Alarm",
         "category": "alarms",
         "description": "Chiller alarm point indicating fault or warning condition",
-        "haystack": "chiller alarm",
-        "object_type": "binaryInput"
+        "haystack": "chiller alarm sensor",
+        "object_type": "binaryInput",
+        "brick": "Chiller_Alarm"
       },
       "aliases": {
         "common": [
@@ -90,7 +94,8 @@
         "name": "Condenser Water Pump Alarm",
         "category": "alarms",
         "description": "Condenser Water Pump Alarm point",
-        "haystack": "condenser water pump alarm"
+        "haystack": "condenser water pump alarm sensor",
+        "brick": "Condenser_Water_Pump_Alarm"
       },
       "aliases": {
         "common": [
@@ -106,8 +111,9 @@
         "name": "Cooling Tower Alarm",
         "category": "alarms",
         "description": "Cooling tower alarm point indicating fault or warning condition",
-        "haystack": "coolingTower alarm",
-        "object_type": "binaryInput"
+        "haystack": "coolingTower alarm sensor",
+        "object_type": "binaryInput",
+        "brick": "Cooling_Tower_Alarm"
       },
       "aliases": {
         "common": [
@@ -129,7 +135,8 @@
         "name": "Filter Alarm",
         "category": "alarms",
         "description": "Filter Alarm point",
-        "haystack": "filter alarm"
+        "haystack": "filter alarm sensor",
+        "brick": "Filter_Alarm"
       },
       "aliases": {
         "common": [
@@ -145,7 +152,8 @@
         "name": "Final Filter Alarm",
         "category": "alarms",
         "description": "Final Filter Alarm point",
-        "haystack": "final filter alarm"
+        "haystack": "finalFilter alarm sensor",
+        "brick": "Final_Filter_Alarm"
       },
       "aliases": {
         "common": [
@@ -162,7 +170,8 @@
         "name": "Hot Water Pump Alarm",
         "category": "alarms",
         "description": "Hot Water Pump Alarm point",
-        "haystack": "hot water pump alarm"
+        "haystack": "hot water pump alarm sensor",
+        "brick": "Hot_Water_Pump_Alarm"
       },
       "aliases": {
         "common": [
@@ -178,7 +187,8 @@
         "name": "Low Limit Alarm",
         "category": "alarms",
         "description": "Low Limit Alarm point",
-        "haystack": "low limit alarm"
+        "haystack": "freezeStat alarm sensor",
+        "brick": "Low_Limit_Alarm"
       },
       "aliases": {
         "common": [
@@ -197,7 +207,8 @@
         "name": "Prefilter Alarm",
         "category": "alarms",
         "description": "Prefilter Alarm point",
-        "haystack": "prefilter alarm"
+        "haystack": "preFilter alarm sensor",
+        "brick": "Pre_Filter_Alarm"
       },
       "aliases": {
         "common": [
@@ -214,7 +225,8 @@
         "name": "Primary Chilled Water Pump Alarm",
         "category": "alarms",
         "description": "Primary Chilled Water Pump Alarm point",
-        "haystack": "primary chilled water pump alarm"
+        "haystack": "primaryLoop chilled water pump alarm sensor",
+        "brick": "Primary_Chilled_Water_Pump_Alarm"
       },
       "aliases": {
         "common": [
@@ -230,7 +242,8 @@
         "name": "Secondary Chilled Water Pump Alarm",
         "category": "alarms",
         "description": "Secondary Chilled Water Pump Alarm point",
-        "haystack": "secondary chilled water pump alarm"
+        "haystack": "secondaryLoop chilled water pump alarm sensor",
+        "brick": "Secondary_Chilled_Water_Pump_Alarm"
       },
       "aliases": {
         "common": [
@@ -246,7 +259,8 @@
         "name": "Smoke Alarm",
         "category": "alarms",
         "description": "Smoke Alarm point",
-        "haystack": "smoke alarm"
+        "haystack": "smoke alarm sensor",
+        "brick": "Smoke_Alarm"
       },
       "aliases": {
         "common": [
@@ -262,8 +276,9 @@
         "name": "Boiler Command",
         "category": "commands",
         "description": "Boiler on/off command point",
-        "haystack": "boiler cmd",
-        "object_type": "binaryOutput"
+        "haystack": "boiler run cmd",
+        "object_type": "binaryOutput",
+        "brick": "Boiler_Command"
       },
       "aliases": {
         "common": [
@@ -284,13 +299,14 @@
         "name": "Boiler Output",
         "category": "commands",
         "description": "Boiler modulating output signal (0-100%)",
-        "haystack": "boiler output",
+        "haystack": "boiler cmd",
         "object_type": "analogOutput",
         "unit": "percent",
         "typical_range": {
           "min": 0,
           "max": 100
-        }
+        },
+        "brick": "Boiler_Output_Command"
       },
       "aliases": {
         "common": [
@@ -310,7 +326,8 @@
         "name": "Boiler Pump Command",
         "category": "commands",
         "description": "Boiler Pump Command point",
-        "haystack": "boiler pump command"
+        "haystack": "boiler pump run cmd",
+        "brick": "Boiler_Pump_Command"
       },
       "aliases": {
         "common": [
@@ -328,7 +345,8 @@
         "name": "Boiler Pump Output",
         "category": "commands",
         "description": "Boiler Pump Output point",
-        "haystack": "boiler pump output"
+        "haystack": "boiler pump speed cmd",
+        "brick": "Boiler_Pump_Speed_Command"
       },
       "aliases": {
         "common": [
@@ -346,7 +364,8 @@
         "name": "Chilled Water Pump Command",
         "category": "commands",
         "description": "Chilled Water Pump Command point",
-        "haystack": "chilled water pump command"
+        "haystack": "chilled water pump run cmd",
+        "brick": "Chilled_Water_Pump_Command"
       },
       "aliases": {
         "common": [
@@ -362,7 +381,8 @@
         "name": "Chilled Water Pump Output",
         "category": "commands",
         "description": "Chilled Water Pump Output point",
-        "haystack": "chilled water pump output"
+        "haystack": "chilled water pump speed cmd",
+        "brick": "Chilled_Water_Pump_Speed_Command"
       },
       "aliases": {
         "common": [
@@ -378,8 +398,9 @@
         "name": "Chiller Command",
         "category": "commands",
         "description": "Chiller on/off command point",
-        "haystack": "chiller cmd",
-        "object_type": "binaryOutput"
+        "haystack": "chiller run cmd",
+        "object_type": "binaryOutput",
+        "brick": "Chiller_Command"
       },
       "aliases": {
         "common": [
@@ -401,8 +422,9 @@
         "name": "Chiller Enable",
         "category": "commands",
         "description": "Chiller enable/disable command point",
-        "haystack": "chiller enable",
-        "object_type": "binaryOutput"
+        "haystack": "chiller enable cmd",
+        "object_type": "binaryOutput",
+        "brick": "Chiller_Enable_Command"
       },
       "aliases": {
         "common": [
@@ -422,7 +444,8 @@
         "name": "Condenser Water Pump Command",
         "category": "commands",
         "description": "Condenser Water Pump Command point",
-        "haystack": "condenser water pump command"
+        "haystack": "condenser water pump run cmd",
+        "brick": "Condenser_Water_Pump_Command"
       },
       "aliases": {
         "common": [
@@ -438,7 +461,8 @@
         "name": "Condenser Water Pump Output",
         "category": "commands",
         "description": "Condenser Water Pump Output point",
-        "haystack": "condenser water pump output"
+        "haystack": "condenser water pump speed cmd",
+        "brick": "Condenser_Water_Pump_Speed_Command"
       },
       "aliases": {
         "common": [
@@ -454,7 +478,8 @@
         "name": "Cooling Enable",
         "category": "commands",
         "description": "Cooling Enable point",
-        "haystack": "cooling enable"
+        "haystack": "cool enable cmd",
+        "brick": "Cooling_Enable_Command"
       },
       "aliases": {
         "common": [
@@ -471,8 +496,9 @@
         "name": "Cooling Tower Command",
         "category": "commands",
         "description": "Cooling tower on/off command point",
-        "haystack": "coolingTower cmd",
-        "object_type": "binaryOutput"
+        "haystack": "coolingTower run cmd",
+        "object_type": "binaryOutput",
+        "brick": "Cooling_Tower_Command"
       },
       "aliases": {
         "common": [
@@ -493,8 +519,9 @@
         "name": "Cooling Tower Enable",
         "category": "commands",
         "description": "Cooling tower enable/disable command point",
-        "haystack": "coolingTower enable",
-        "object_type": "binaryOutput"
+        "haystack": "coolingTower enable cmd",
+        "object_type": "binaryOutput",
+        "brick": "Cooling_Tower_Enable_Command"
       },
       "aliases": {
         "common": [
@@ -513,13 +540,14 @@
         "name": "Cooling Tower Output",
         "category": "commands",
         "description": "Cooling tower fan speed output signal (0-100%)",
-        "haystack": "coolingTower output",
+        "haystack": "coolingTower speed cmd",
         "object_type": "analogOutput",
         "unit": "percent",
         "typical_range": {
           "min": 0,
           "max": 100
-        }
+        },
+        "brick": "Cooling_Tower_Speed_Command"
       },
       "aliases": {
         "common": [
@@ -541,7 +569,8 @@
         "name": "Economizer Enable",
         "category": "commands",
         "description": "Economizer Enable point",
-        "haystack": "economizer enable"
+        "haystack": "economizer enable cmd",
+        "brick": "Economizer_Enable_Command"
       },
       "aliases": {
         "common": [
@@ -557,7 +586,8 @@
         "name": "Gas Fired Heat Output",
         "category": "commands",
         "description": "Gas Fired Heat Output point",
-        "haystack": "gas fired heat output"
+        "haystack": "gas heat cmd",
+        "brick": "Gas_Heating_Command"
       },
       "aliases": {
         "common": [
@@ -573,7 +603,8 @@
         "name": "Heat Wheel Command",
         "category": "commands",
         "description": "Heat Wheel Command point",
-        "haystack": "heat wheel command"
+        "haystack": "heatWheel run cmd",
+        "brick": "Heat_Wheel_Command"
       },
       "aliases": {
         "common": [
@@ -592,7 +623,8 @@
         "name": "Heat Wheel Output",
         "category": "commands",
         "description": "Heat Wheel Output point",
-        "haystack": "heat wheel output"
+        "haystack": "heatWheel speed cmd",
+        "brick": "Heat_Wheel_Speed_Command"
       },
       "aliases": {
         "common": [
@@ -611,7 +643,8 @@
         "name": "Heating Enable",
         "category": "commands",
         "description": "Heating Enable point",
-        "haystack": "heating enable"
+        "haystack": "heat enable cmd",
+        "brick": "Heating_Enable_Command"
       },
       "aliases": {
         "common": [
@@ -628,7 +661,8 @@
         "name": "Hot Water Pump Command",
         "category": "commands",
         "description": "Hot Water Pump Command point",
-        "haystack": "hot water pump command"
+        "haystack": "hot water pump run cmd",
+        "brick": "Hot_Water_Pump_Command"
       },
       "aliases": {
         "common": [
@@ -644,7 +678,8 @@
         "name": "Hot Water Pump Output",
         "category": "commands",
         "description": "Hot Water Pump Output point",
-        "haystack": "hot water pump output"
+        "haystack": "hot water pump speed cmd",
+        "brick": "Hot_Water_Pump_Speed_Command"
       },
       "aliases": {
         "common": [
@@ -660,7 +695,8 @@
         "name": "Occupied Command",
         "category": "commands",
         "description": "Occupied Command point",
-        "haystack": "occupied command"
+        "haystack": "occupied cmd",
+        "brick": "Occupancy_Command"
       },
       "aliases": {
         "common": [
@@ -676,7 +712,8 @@
         "name": "Primary Chilled Water Pump Command",
         "category": "commands",
         "description": "Primary Chilled Water Pump Command point",
-        "haystack": "primary chilled water pump command"
+        "haystack": "primaryLoop chilled water pump run cmd",
+        "brick": "Primary_Chilled_Water_Pump_Command"
       },
       "aliases": {
         "common": [
@@ -692,7 +729,8 @@
         "name": "Primary Chilled Water Pump Output",
         "category": "commands",
         "description": "Primary Chilled Water Pump Output point",
-        "haystack": "primary chilled water pump output"
+        "haystack": "primaryLoop chilled water pump speed cmd",
+        "brick": "Primary_Chilled_Water_Pump_Speed_Command"
       },
       "aliases": {
         "common": [
@@ -708,7 +746,8 @@
         "name": "Secondary Chilled Water Pump Command",
         "category": "commands",
         "description": "Secondary Chilled Water Pump Command point",
-        "haystack": "secondary chilled water pump command"
+        "haystack": "secondaryLoop chilled water pump run cmd",
+        "brick": "Secondary_Chilled_Water_Pump_Command"
       },
       "aliases": {
         "common": [
@@ -724,7 +763,8 @@
         "name": "Secondary Chilled Water Pump Output",
         "category": "commands",
         "description": "Secondary Chilled Water Pump Output point",
-        "haystack": "secondary chilled water pump output"
+        "haystack": "secondaryLoop chilled water pump speed cmd",
+        "brick": "Secondary_Chilled_Water_Pump_Speed_Command"
       },
       "aliases": {
         "common": [
@@ -740,7 +780,8 @@
         "name": "Steam Heating Output",
         "category": "commands",
         "description": "Steam Heating Output point",
-        "haystack": "steam heating output"
+        "haystack": "steam heat cmd",
+        "brick": "Steam_Heating_Command"
       },
       "aliases": {
         "common": [
@@ -758,7 +799,8 @@
         "name": "System Enable",
         "category": "commands",
         "description": "System Enable point",
-        "haystack": "system enable"
+        "haystack": "enable cmd",
+        "brick": "Enable_Command"
       },
       "aliases": {
         "common": [
@@ -774,7 +816,8 @@
         "name": "Unit Enable Mode",
         "category": "commands",
         "description": "Unit Enable Mode point",
-        "haystack": "unit enable mode"
+        "haystack": "enable cmd",
+        "brick": "Enable_Command"
       },
       "aliases": {
         "common": [
@@ -790,7 +833,8 @@
         "name": "Exhaust Air Damper Closed",
         "category": "dampers",
         "description": "Exhaust Air Damper Closed point",
-        "haystack": "exhaust air damper closed"
+        "haystack": "exhaust air damper closed sensor",
+        "brick": "Exhaust_Air_Damper_Closed_Status"
       },
       "aliases": {
         "common": [
@@ -806,7 +850,8 @@
         "name": "Exhaust Air Damper Open",
         "category": "dampers",
         "description": "Exhaust Air Damper Open point",
-        "haystack": "exhaust air damper open"
+        "haystack": "exhaust air damper open sensor",
+        "brick": "Exhaust_Air_Damper_Open_Status"
       },
       "aliases": {
         "common": [
@@ -822,7 +867,8 @@
         "name": "Exhaust Air Damper Output",
         "category": "dampers",
         "description": "Exhaust Air Damper Output point",
-        "haystack": "exhaust air damper output"
+        "haystack": "exhaust air damper cmd",
+        "brick": "Exhaust_Air_Damper_Command"
       },
       "aliases": {
         "common": [
@@ -838,7 +884,8 @@
         "name": "Exhaust Air Damper Position",
         "category": "dampers",
         "description": "Exhaust Air Damper Position point",
-        "haystack": "exhaust air damper position"
+        "haystack": "exhaust air damper sensor",
+        "brick": "Exhaust_Air_Damper_Position_Sensor"
       },
       "aliases": {
         "common": [
@@ -854,7 +901,8 @@
         "name": "Face Bypass Damper Output",
         "category": "dampers",
         "description": "Face Bypass Damper Output point",
-        "haystack": "face bypass damper output"
+        "haystack": "bypass damper cmd",
+        "brick": "Bypass_Damper_Command"
       },
       "aliases": {
         "common": [
@@ -872,7 +920,8 @@
         "name": "Mixed Air Damper Closed",
         "category": "dampers",
         "description": "Mixed Air Damper Closed point",
-        "haystack": "mixed air damper closed"
+        "haystack": "mixed air damper closed sensor",
+        "brick": "Mixed_Air_Damper_Closed_Status"
       },
       "aliases": {
         "common": [
@@ -888,7 +937,8 @@
         "name": "Mixed Air Damper Open",
         "category": "dampers",
         "description": "Mixed Air Damper Open point",
-        "haystack": "mixed air damper open"
+        "haystack": "mixed air damper open sensor",
+        "brick": "Mixed_Air_Damper_Open_Status"
       },
       "aliases": {
         "common": [
@@ -904,7 +954,8 @@
         "name": "Mixed Air Damper Output",
         "category": "dampers",
         "description": "Mixed Air Damper Output point",
-        "haystack": "mixed air damper output"
+        "haystack": "mixed air damper cmd",
+        "brick": "Mixed_Air_Damper_Command"
       },
       "aliases": {
         "common": [
@@ -920,7 +971,8 @@
         "name": "Mixed Air Damper Position",
         "category": "dampers",
         "description": "Mixed Air Damper Position point",
-        "haystack": "mixed air damper position"
+        "haystack": "mixed air damper sensor",
+        "brick": "Mixed_Air_Damper_Position_Sensor"
       },
       "aliases": {
         "common": [
@@ -936,7 +988,8 @@
         "name": "Outside Air Damper Closed",
         "category": "dampers",
         "description": "Outside Air Damper Closed point",
-        "haystack": "outside air damper closed"
+        "haystack": "outside air damper closed sensor",
+        "brick": "Outside_Air_Damper_Closed_Status"
       },
       "aliases": {
         "common": [
@@ -953,7 +1006,8 @@
         "name": "Outside Air Damper Open",
         "category": "dampers",
         "description": "Outside Air Damper Open point",
-        "haystack": "outside air damper open"
+        "haystack": "outside air damper open sensor",
+        "brick": "Outside_Air_Damper_Open_Status"
       },
       "aliases": {
         "common": [
@@ -970,7 +1024,8 @@
         "name": "Outside Air Damper Output",
         "category": "dampers",
         "description": "Outside Air Damper Output point",
-        "haystack": "outside air damper output"
+        "haystack": "outside air damper cmd",
+        "brick": "Outside_Air_Damper_Command"
       },
       "aliases": {
         "common": [
@@ -987,7 +1042,8 @@
         "name": "Outside Air Damper Position",
         "category": "dampers",
         "description": "Outside Air Damper Position point",
-        "haystack": "outside air damper position"
+        "haystack": "outside air damper sensor",
+        "brick": "Outside_Air_Damper_Position_Sensor"
       },
       "aliases": {
         "common": [
@@ -1004,7 +1060,8 @@
         "name": "Relief Air Damper Closed",
         "category": "dampers",
         "description": "Relief Air Damper Closed point",
-        "haystack": "relief air damper closed"
+        "haystack": "relief air damper closed sensor",
+        "brick": "Relief_Air_Damper_Closed_Status"
       },
       "aliases": {
         "common": [
@@ -1020,7 +1077,8 @@
         "name": "Relief Air Damper Open",
         "category": "dampers",
         "description": "Relief Air Damper Open point",
-        "haystack": "relief air damper open"
+        "haystack": "relief air damper open sensor",
+        "brick": "Relief_Air_Damper_Open_Status"
       },
       "aliases": {
         "common": [
@@ -1036,7 +1094,8 @@
         "name": "Relief Air Damper Output",
         "category": "dampers",
         "description": "Relief Air Damper Output point",
-        "haystack": "relief air damper output"
+        "haystack": "relief air damper cmd",
+        "brick": "Relief_Air_Damper_Command"
       },
       "aliases": {
         "common": [
@@ -1052,7 +1111,8 @@
         "name": "Relief Air Damper Position",
         "category": "dampers",
         "description": "Relief Air Damper Position point",
-        "haystack": "relief air damper position"
+        "haystack": "relief air damper sensor",
+        "brick": "Relief_Air_Damper_Position_Sensor"
       },
       "aliases": {
         "common": [
@@ -1068,7 +1128,8 @@
         "name": "Smoke Damper Open",
         "category": "dampers",
         "description": "Smoke Damper Open point",
-        "haystack": "smoke damper open"
+        "haystack": "smoke damper open sensor",
+        "brick": "Smoke_Damper_Open_Status"
       },
       "aliases": {
         "common": [
@@ -1085,7 +1146,8 @@
         "name": "Exhaust Fan Alarm",
         "category": "fans",
         "description": "Exhaust Fan Alarm point",
-        "haystack": "exhaust fan alarm"
+        "haystack": "exhaust fan alarm sensor",
+        "brick": "Exhaust_Fan_Alarm"
       },
       "aliases": {
         "common": [
@@ -1101,7 +1163,8 @@
         "name": "Exhaust Fan Command",
         "category": "fans",
         "description": "Exhaust Fan Command point",
-        "haystack": "exhaust fan command"
+        "haystack": "exhaust fan run cmd",
+        "brick": "Exhaust_Fan_Command"
       },
       "aliases": {
         "common": [
@@ -1117,7 +1180,8 @@
         "name": "Exhaust Fan Fault",
         "category": "fans",
         "description": "Exhaust Fan Fault point",
-        "haystack": "exhaust fan fault"
+        "haystack": "exhaust fan fault sensor",
+        "brick": "Exhaust_Fan_Fault_Status"
       },
       "aliases": {
         "common": [
@@ -1133,7 +1197,8 @@
         "name": "Exhaust Fan Output",
         "category": "fans",
         "description": "Exhaust Fan Output point",
-        "haystack": "exhaust fan output"
+        "haystack": "exhaust fan speed cmd",
+        "brick": "Exhaust_Fan_Speed_Command"
       },
       "aliases": {
         "common": [
@@ -1149,7 +1214,8 @@
         "name": "Exhaust Fan Speed",
         "category": "fans",
         "description": "Exhaust Fan Speed point",
-        "haystack": "exhaust fan speed"
+        "haystack": "exhaust fan speed sensor",
+        "brick": "Exhaust_Fan_Speed_Sensor"
       },
       "aliases": {
         "common": [
@@ -1165,7 +1231,8 @@
         "name": "Exhaust Fan Status",
         "category": "fans",
         "description": "Exhaust Fan Status point",
-        "haystack": "exhaust fan status"
+        "haystack": "exhaust fan run sensor",
+        "brick": "Exhaust_Fan_Status"
       },
       "aliases": {
         "common": [
@@ -1181,7 +1248,8 @@
         "name": "Relief Fan Alarm",
         "category": "fans",
         "description": "Relief Fan Alarm point",
-        "haystack": "relief fan alarm"
+        "haystack": "relief fan alarm sensor",
+        "brick": "Relief_Fan_Alarm"
       },
       "aliases": {
         "common": [
@@ -1197,7 +1265,8 @@
         "name": "Relief Fan Command",
         "category": "fans",
         "description": "Relief Fan Command point",
-        "haystack": "relief fan command"
+        "haystack": "relief fan run cmd",
+        "brick": "Relief_Fan_Command"
       },
       "aliases": {
         "common": [
@@ -1213,7 +1282,8 @@
         "name": "Relief Fan Fault",
         "category": "fans",
         "description": "Relief Fan Fault point",
-        "haystack": "relief fan fault"
+        "haystack": "relief fan fault sensor",
+        "brick": "Relief_Fan_Fault_Status"
       },
       "aliases": {
         "common": [
@@ -1229,7 +1299,8 @@
         "name": "Relief Fan Output",
         "category": "fans",
         "description": "Relief Fan Output point",
-        "haystack": "relief fan output"
+        "haystack": "relief fan speed cmd",
+        "brick": "Relief_Fan_Speed_Command"
       },
       "aliases": {
         "common": [
@@ -1245,7 +1316,8 @@
         "name": "Relief Fan Speed",
         "category": "fans",
         "description": "Relief Fan Speed point",
-        "haystack": "relief fan speed"
+        "haystack": "relief fan speed sensor",
+        "brick": "Relief_Fan_Speed_Sensor"
       },
       "aliases": {
         "common": [
@@ -1261,7 +1333,8 @@
         "name": "Relief Fan Status",
         "category": "fans",
         "description": "Relief Fan Status point",
-        "haystack": "relief fan status"
+        "haystack": "relief fan run sensor",
+        "brick": "Relief_Fan_Status"
       },
       "aliases": {
         "common": [
@@ -1277,7 +1350,8 @@
         "name": "Return Fan Alarm",
         "category": "fans",
         "description": "Return Fan Alarm point",
-        "haystack": "return fan alarm"
+        "haystack": "return fan alarm sensor",
+        "brick": "Return_Fan_Alarm"
       },
       "aliases": {
         "common": [
@@ -1293,7 +1367,8 @@
         "name": "Return Fan Command",
         "category": "fans",
         "description": "Return Fan Command point",
-        "haystack": "return fan command"
+        "haystack": "return fan run cmd",
+        "brick": "Return_Fan_Command"
       },
       "aliases": {
         "common": [
@@ -1309,7 +1384,8 @@
         "name": "Return Fan Fault",
         "category": "fans",
         "description": "Return Fan Fault point",
-        "haystack": "return fan fault"
+        "haystack": "return fan fault sensor",
+        "brick": "Return_Fan_Fault_Status"
       },
       "aliases": {
         "common": [
@@ -1325,7 +1401,8 @@
         "name": "Return Fan Output",
         "category": "fans",
         "description": "Return Fan Output point",
-        "haystack": "return fan output"
+        "haystack": "return fan speed cmd",
+        "brick": "Return_Fan_Speed_Command"
       },
       "aliases": {
         "common": [
@@ -1341,7 +1418,8 @@
         "name": "Return Fan Speed",
         "category": "fans",
         "description": "Return Fan Speed point",
-        "haystack": "return fan speed"
+        "haystack": "return fan speed sensor",
+        "brick": "Return_Fan_Speed_Sensor"
       },
       "aliases": {
         "common": [
@@ -1357,7 +1435,8 @@
         "name": "Return Fan Status",
         "category": "fans",
         "description": "Return Fan Status point",
-        "haystack": "return fan status"
+        "haystack": "return fan run sensor",
+        "brick": "Return_Fan_Status"
       },
       "aliases": {
         "common": [
@@ -1373,7 +1452,8 @@
         "name": "Supply Fan Alarm",
         "category": "fans",
         "description": "Supply Fan Alarm point",
-        "haystack": "supply fan alarm"
+        "haystack": "supply fan alarm sensor",
+        "brick": "Supply_Fan_Alarm"
       },
       "aliases": {
         "common": [
@@ -1390,7 +1470,8 @@
         "name": "Supply Fan Command",
         "category": "fans",
         "description": "Supply Fan Command point",
-        "haystack": "supply fan command"
+        "haystack": "supply fan run cmd",
+        "brick": "Supply_Fan_Command"
       },
       "aliases": {
         "common": [
@@ -1407,7 +1488,8 @@
         "name": "Supply Fan Fault",
         "category": "fans",
         "description": "Supply Fan Fault point",
-        "haystack": "supply fan fault"
+        "haystack": "supply fan fault sensor",
+        "brick": "Supply_Fan_Fault_Status"
       },
       "aliases": {
         "common": [
@@ -1424,7 +1506,8 @@
         "name": "Supply Fan Output",
         "category": "fans",
         "description": "Supply Fan Output point",
-        "haystack": "supply fan output"
+        "haystack": "supply fan speed cmd",
+        "brick": "Supply_Fan_Speed_Command"
       },
       "aliases": {
         "common": [
@@ -1441,7 +1524,8 @@
         "name": "Supply Fan Speed",
         "category": "fans",
         "description": "Supply Fan Speed point",
-        "haystack": "supply fan speed"
+        "haystack": "supply fan speed sensor",
+        "brick": "Supply_Fan_Speed_Sensor"
       },
       "aliases": {
         "common": [
@@ -1495,7 +1579,8 @@
         "name": "Discharge Air Flow",
         "category": "flows",
         "description": "Discharge Air Flow point",
-        "haystack": "discharge air flow"
+        "haystack": "discharge air flow sensor",
+        "brick": "Discharge_Air_Flow_Sensor"
       },
       "aliases": {
         "common": [
@@ -1511,7 +1596,8 @@
         "name": "Exhaust Air Flow",
         "category": "flows",
         "description": "Exhaust Air Flow point",
-        "haystack": "exhaust air flow"
+        "haystack": "exhaust air flow sensor",
+        "brick": "Exhaust_Air_Flow_Sensor"
       },
       "aliases": {
         "common": [
@@ -1527,7 +1613,8 @@
         "name": "Outdoor Air Flow",
         "category": "flows",
         "description": "Outdoor Air Flow point",
-        "haystack": "outdoor air flow"
+        "haystack": "outside air flow sensor",
+        "brick": "Outside_Air_Flow_Sensor"
       },
       "aliases": {
         "common": [
@@ -1542,7 +1629,8 @@
         "name": "Return Air Flow",
         "category": "flows",
         "description": "Return Air Flow point",
-        "haystack": "return air flow"
+        "haystack": "return air flow sensor",
+        "brick": "Return_Air_Flow_Sensor"
       },
       "aliases": {
         "common": [
@@ -1558,7 +1646,8 @@
         "name": "Supply Air Flow",
         "category": "flows",
         "description": "Supply Air Flow point",
-        "haystack": "supply air flow"
+        "haystack": "supply air flow sensor",
+        "brick": "Supply_Air_Flow_Sensor"
       },
       "aliases": {
         "common": [
@@ -1574,7 +1663,8 @@
         "name": "Discharge Air Humidity",
         "category": "humidity",
         "description": "Discharge Air Humidity point",
-        "haystack": "discharge air humidity"
+        "haystack": "discharge air humidity sensor",
+        "brick": "Discharge_Air_Humidity_Sensor"
       },
       "aliases": {
         "common": [
@@ -1591,7 +1681,8 @@
         "name": "Humidifier Enable",
         "category": "humidity",
         "description": "Humidifier Enable point",
-        "haystack": "humidifier enable"
+        "haystack": "humidifier enable cmd",
+        "brick": "Humidifier_Command"
       },
       "aliases": {
         "common": [
@@ -1607,7 +1698,8 @@
         "name": "Humidifier Output",
         "category": "humidity",
         "description": "Humidifier Output point",
-        "haystack": "humidifier output"
+        "haystack": "humidifier cmd",
+        "brick": "Humidifier_Command"
       },
       "aliases": {
         "common": [
@@ -1625,7 +1717,8 @@
         "name": "Outdoor Air Humidity",
         "category": "humidity",
         "description": "Outdoor Air Humidity point",
-        "haystack": "outdoor air humidity"
+        "haystack": "outside air humidity sensor",
+        "brick": "Outside_Air_Humidity_Sensor"
       },
       "aliases": {
         "common": [
@@ -1642,7 +1735,8 @@
         "name": "Return Air Humidity",
         "category": "humidity",
         "description": "Return Air Humidity point",
-        "haystack": "return air humidity"
+        "haystack": "return air humidity sensor",
+        "brick": "Return_Air_Humidity_Sensor"
       },
       "aliases": {
         "common": [
@@ -1659,7 +1753,8 @@
         "name": "Zone Humidity",
         "category": "humidity",
         "description": "Zone Humidity point",
-        "haystack": "zone humidity"
+        "haystack": "zone air humidity sensor",
+        "brick": "Zone_Air_Humidity_Sensor"
       },
       "aliases": {
         "common": [
@@ -1676,7 +1771,8 @@
         "name": "Building Pressure",
         "category": "pressures",
         "description": "Building Pressure point",
-        "haystack": "building pressure"
+        "haystack": "building pressure sensor",
+        "brick": "Building_Air_Static_Pressure_Sensor"
       },
       "aliases": {
         "common": [
@@ -1693,7 +1789,8 @@
         "name": "Chilled Water Differential Pressure",
         "category": "pressures",
         "description": "Chilled Water Differential Pressure point",
-        "haystack": "chilled water differential pressure"
+        "haystack": "chilled water differential pressure sensor",
+        "brick": "Chilled_Water_Differential_Pressure_Sensor"
       },
       "aliases": {
         "common": [
@@ -1709,7 +1806,8 @@
         "name": "Discharge Air High Pressure Alarm",
         "category": "pressures",
         "description": "Discharge Air High Pressure Alarm point",
-        "haystack": "discharge air high pressure alarm"
+        "haystack": "discharge air pressure high alarm",
+        "brick": "High_Discharge_Air_Static_Pressure_Alarm"
       },
       "aliases": {
         "common": [
@@ -1726,7 +1824,8 @@
         "name": "Discharge Air Low Pressure Alarm",
         "category": "pressures",
         "description": "Discharge Air Low Pressure Alarm point",
-        "haystack": "discharge air low pressure alarm"
+        "haystack": "discharge air pressure low alarm",
+        "brick": "Low_Discharge_Air_Static_Pressure_Alarm"
       },
       "aliases": {
         "common": [
@@ -1743,7 +1842,8 @@
         "name": "Discharge Air Pressure Setpoint",
         "category": "pressures",
         "description": "Discharge Air Pressure Setpoint point",
-        "haystack": "discharge air pressure setpoint"
+        "haystack": "discharge air pressure sp",
+        "brick": "Discharge_Air_Static_Pressure_Setpoint"
       },
       "aliases": {
         "common": [
@@ -1809,7 +1909,8 @@
         "name": "Hot Water Differential Pressure",
         "category": "pressures",
         "description": "Hot Water Differential Pressure point",
-        "haystack": "hot water differential pressure"
+        "haystack": "hot water differential pressure sensor",
+        "brick": "Hot_Water_Differential_Pressure_Sensor"
       },
       "aliases": {
         "common": [
@@ -1825,7 +1926,8 @@
         "name": "Return Air High Pressure Alarm",
         "category": "pressures",
         "description": "Return Air High Pressure Alarm point",
-        "haystack": "return air high pressure alarm"
+        "haystack": "return air pressure high alarm",
+        "brick": "High_Return_Air_Static_Pressure_Alarm"
       },
       "aliases": {
         "common": [
@@ -1842,7 +1944,8 @@
         "name": "Return Air Low Pressure Alarm",
         "category": "pressures",
         "description": "Return Air Low Pressure Alarm point",
-        "haystack": "return air low pressure alarm"
+        "haystack": "return air pressure low alarm",
+        "brick": "Low_Return_Air_Static_Pressure_Alarm"
       },
       "aliases": {
         "common": [
@@ -1859,7 +1962,8 @@
         "name": "Return Air Pressure Setpoint",
         "category": "pressures",
         "description": "Return Air Pressure Setpoint point",
-        "haystack": "return air pressure setpoint"
+        "haystack": "return air pressure sp",
+        "brick": "Return_Air_Static_Pressure_Setpoint"
       },
       "aliases": {
         "common": [
@@ -1878,7 +1982,8 @@
         "name": "Return Air Pressure",
         "category": "pressures",
         "description": "Return Air Pressure point",
-        "haystack": "return air pressure"
+        "haystack": "return air pressure sensor",
+        "brick": "Return_Air_Static_Pressure_Sensor"
       },
       "aliases": {
         "common": [
@@ -1896,7 +2001,8 @@
         "name": "Space Pressure",
         "category": "pressures",
         "description": "Space Pressure point",
-        "haystack": "space pressure"
+        "haystack": "zone pressure sensor",
+        "brick": "Zone_Air_Static_Pressure_Sensor"
       },
       "aliases": {
         "common": [
@@ -1919,7 +2025,8 @@
         "name": "Cooling Outdoor Air Lockout Setpoint",
         "category": "setpoints",
         "description": "Cooling Outdoor Air Lockout Setpoint point",
-        "haystack": "cooling outdoor air lockout setpoint"
+        "haystack": "outside air temp cooling lockout sp",
+        "brick": "Outside_Air_Lockout_Temperature_Setpoint"
       },
       "aliases": {
         "common": [
@@ -1936,7 +2043,8 @@
         "name": "Effective Cooling Setpoint",
         "category": "setpoints",
         "description": "Effective Cooling Setpoint point",
-        "haystack": "effective cooling setpoint"
+        "haystack": "zone air temp effective cooling sp",
+        "brick": "Effective_Cooling_Temperature_Setpoint"
       },
       "aliases": {
         "common": [
@@ -1954,7 +2062,8 @@
         "name": "Effective Heating Setpoint",
         "category": "setpoints",
         "description": "Effective Heating Setpoint point",
-        "haystack": "effective heating setpoint"
+        "haystack": "zone air temp effective heating sp",
+        "brick": "Effective_Heating_Temperature_Setpoint"
       },
       "aliases": {
         "common": [
@@ -1972,7 +2081,8 @@
         "name": "Heating Outdoor Air Lockout Setpoint",
         "category": "setpoints",
         "description": "Heating Outdoor Air Lockout Setpoint point",
-        "haystack": "heating outdoor air lockout setpoint"
+        "haystack": "outside air temp heating lockout sp",
+        "brick": "Outside_Air_Lockout_Temperature_Setpoint"
       },
       "aliases": {
         "common": [
@@ -1989,7 +2099,8 @@
         "name": "Occupied Cooling Setpoint",
         "category": "setpoints",
         "description": "Occupied Cooling Setpoint point",
-        "haystack": "occupied cooling setpoint"
+        "haystack": "zone air temp occ cooling sp",
+        "brick": "Occupied_Cooling_Temperature_Setpoint"
       },
       "aliases": {
         "common": [
@@ -2007,7 +2118,8 @@
         "name": "Occupied Heating Setpoint",
         "category": "setpoints",
         "description": "Occupied Heating Setpoint point",
-        "haystack": "occupied heating setpoint"
+        "haystack": "zone air temp occ heating sp",
+        "brick": "Occupied_Heating_Temperature_Setpoint"
       },
       "aliases": {
         "common": [
@@ -2025,7 +2137,8 @@
         "name": "Standby Cooling Setpoint",
         "category": "setpoints",
         "description": "Standby Cooling Setpoint point",
-        "haystack": "standby cooling setpoint"
+        "haystack": "zone air temp standby cooling sp",
+        "brick": "Standby_Cooling_Temperature_Setpoint"
       },
       "aliases": {
         "common": [
@@ -2043,7 +2156,8 @@
         "name": "Standby Heating Setpoint",
         "category": "setpoints",
         "description": "Standby Heating Setpoint point",
-        "haystack": "standby heating setpoint"
+        "haystack": "zone air temp standby heating sp",
+        "brick": "Standby_Heating_Temperature_Setpoint"
       },
       "aliases": {
         "common": [
@@ -2061,7 +2175,8 @@
         "name": "Unoccupied Cooling Setpoint",
         "category": "setpoints",
         "description": "Unoccupied Cooling Setpoint point",
-        "haystack": "unoccupied cooling setpoint"
+        "haystack": "zone air temp unocc cooling sp",
+        "brick": "Unoccupied_Cooling_Temperature_Setpoint"
       },
       "aliases": {
         "common": [
@@ -2079,7 +2194,8 @@
         "name": "Unoccupied Heating Setpoint",
         "category": "setpoints",
         "description": "Unoccupied Heating Setpoint point",
-        "haystack": "unoccupied heating setpoint"
+        "haystack": "zone air temp unocc heating sp",
+        "brick": "Unoccupied_Heating_Temperature_Setpoint"
       },
       "aliases": {
         "common": [
@@ -2097,7 +2213,8 @@
         "name": "Boiler Pump Status",
         "category": "status",
         "description": "Boiler Pump Status point",
-        "haystack": "boiler pump status"
+        "haystack": "boiler pump run sensor",
+        "brick": "Boiler_Pump_Status"
       },
       "aliases": {
         "common": [
@@ -2115,8 +2232,9 @@
         "name": "Boiler Status",
         "category": "status",
         "description": "Boiler running status feedback point",
-        "haystack": "boiler run",
-        "object_type": "binaryInput"
+        "haystack": "boiler run sensor",
+        "object_type": "binaryInput",
+        "brick": "Boiler_Status"
       },
       "aliases": {
         "common": [
@@ -2137,7 +2255,8 @@
         "name": "Chilled Water Pump Status",
         "category": "status",
         "description": "Chilled Water Pump Status point",
-        "haystack": "chilled water pump status"
+        "haystack": "chilled water pump run sensor",
+        "brick": "Chilled_Water_Pump_Status"
       },
       "aliases": {
         "common": [
@@ -2153,8 +2272,9 @@
         "name": "Chiller Status",
         "category": "status",
         "description": "Chiller running status feedback point",
-        "haystack": "chiller run",
-        "object_type": "binaryInput"
+        "haystack": "chiller run sensor",
+        "object_type": "binaryInput",
+        "brick": "Chiller_Status"
       },
       "aliases": {
         "common": [
@@ -2177,7 +2297,8 @@
         "name": "Condenser Water Pump Status",
         "category": "status",
         "description": "Condenser Water Pump Status point",
-        "haystack": "condenser water pump status"
+        "haystack": "condenser water pump run sensor",
+        "brick": "Condenser_Water_Pump_Status"
       },
       "aliases": {
         "common": [
@@ -2193,8 +2314,9 @@
         "name": "Cooling Tower Status",
         "category": "status",
         "description": "Cooling tower running status feedback point",
-        "haystack": "coolingTower run",
-        "object_type": "binaryInput"
+        "haystack": "coolingTower run sensor",
+        "object_type": "binaryInput",
+        "brick": "Cooling_Tower_Status"
       },
       "aliases": {
         "common": [
@@ -2215,8 +2337,9 @@
         "name": "DX Cooling Stage",
         "category": "status",
         "description": "Direct expansion cooling stage status point",
-        "haystack": "dx cooling stage",
-        "object_type": "binaryInput"
+        "haystack": "cool stage sensor",
+        "object_type": "binaryInput",
+        "brick": "Cooling_Stage_Status"
       },
       "aliases": {
         "common": [
@@ -2237,7 +2360,8 @@
         "name": "Effective Occupancy",
         "category": "status",
         "description": "Effective Occupancy point",
-        "haystack": "effective occupancy"
+        "haystack": "occupied effective sp",
+        "brick": "Effective_Occupancy_Status"
       },
       "aliases": {
         "common": [
@@ -2253,8 +2377,9 @@
         "name": "Electric Heat Stage",
         "category": "status",
         "description": "Electric heating stage status point",
-        "haystack": "elec heat stage",
-        "object_type": "binaryInput"
+        "haystack": "heat stage sensor",
+        "object_type": "binaryInput",
+        "brick": "Heating_Stage_Status"
       },
       "aliases": {
         "common": [
@@ -2274,7 +2399,8 @@
         "name": "Filter Status",
         "category": "status",
         "description": "Filter Status point",
-        "haystack": "filter status"
+        "haystack": "filter sensor",
+        "brick": "Filter_Status"
       },
       "aliases": {
         "common": [
@@ -2290,7 +2416,8 @@
         "name": "Final Filter Status",
         "category": "status",
         "description": "Final Filter Status point",
-        "haystack": "final filter status"
+        "haystack": "finalFilter sensor",
+        "brick": "Final_Filter_Status"
       },
       "aliases": {
         "common": [
@@ -2307,7 +2434,8 @@
         "name": "Heat Wheel Status",
         "category": "status",
         "description": "Heat Wheel Status point",
-        "haystack": "heat wheel status"
+        "haystack": "heatWheel run sensor",
+        "brick": "Heat_Wheel_Status"
       },
       "aliases": {
         "common": [
@@ -2326,7 +2454,8 @@
         "name": "Hot Water Pump Status",
         "category": "status",
         "description": "Hot Water Pump Status point",
-        "haystack": "hot water pump status"
+        "haystack": "hot water pump run sensor",
+        "brick": "Hot_Water_Pump_Status"
       },
       "aliases": {
         "common": [
@@ -2342,7 +2471,8 @@
         "name": "Occupancy Schedule",
         "category": "status",
         "description": "Occupancy Schedule point",
-        "haystack": "occupancy schedule"
+        "haystack": "occupied schedule",
+        "brick": "Occupancy_Schedule"
       },
       "aliases": {
         "common": [
@@ -2359,7 +2489,8 @@
         "name": "Occupancy",
         "category": "status",
         "description": "Occupancy point",
-        "haystack": "occupancy"
+        "haystack": "occupied sensor",
+        "brick": "Occupancy_Sensor"
       },
       "aliases": {
         "common": [
@@ -2374,7 +2505,8 @@
         "name": "Prefilter Status",
         "category": "status",
         "description": "Prefilter Status point",
-        "haystack": "prefilter status"
+        "haystack": "preFilter sensor",
+        "brick": "Pre_Filter_Status"
       },
       "aliases": {
         "common": [
@@ -2391,7 +2523,8 @@
         "name": "Primary Chilled Water Pump Status",
         "category": "status",
         "description": "Primary Chilled Water Pump Status point",
-        "haystack": "primary chilled water pump status"
+        "haystack": "primaryLoop chilled water pump run sensor",
+        "brick": "Primary_Chilled_Water_Pump_Status"
       },
       "aliases": {
         "common": [
@@ -2407,7 +2540,8 @@
         "name": "Return Air CO2",
         "category": "status",
         "description": "Return Air CO2 point",
-        "haystack": "return air co2"
+        "haystack": "return air co2 sensor",
+        "brick": "Return_Air_CO2_Sensor"
       },
       "aliases": {
         "common": [
@@ -2427,7 +2561,8 @@
         "name": "Secondary Chilled Water Pump Status",
         "category": "status",
         "description": "Secondary Chilled Water Pump Status point",
-        "haystack": "secondary chilled water pump status"
+        "haystack": "secondaryLoop chilled water pump run sensor",
+        "brick": "Secondary_Chilled_Water_Pump_Status"
       },
       "aliases": {
         "common": [
@@ -2443,7 +2578,8 @@
         "name": "Shutdown",
         "category": "status",
         "description": "Shutdown point",
-        "haystack": "shutdown"
+        "haystack": "shutdown cmd",
+        "brick": "Shutdown_Command"
       },
       "aliases": {
         "common": [
@@ -2457,7 +2593,8 @@
         "name": "Chilled Water Return Temperature",
         "category": "temperatures",
         "description": "Chilled Water Return Temperature point",
-        "haystack": "chilled water return temperature"
+        "haystack": "chilled water entering temp sensor",
+        "brick": "Chilled_Water_Return_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2515,13 +2652,14 @@
         "name": "Chiller Entering Temperature",
         "category": "temperatures",
         "description": "Chiller entering water temperature (return water temperature entering chiller)",
-        "haystack": "chiller entering water temp",
+        "haystack": "chiller entering water temp sensor",
         "object_type": "analogInput",
         "unit": "degF",
         "typical_range": {
           "min": 45,
           "max": 65
-        }
+        },
+        "brick": "Entering_Water_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2543,13 +2681,14 @@
         "name": "Chiller Leaving Temperature",
         "category": "temperatures",
         "description": "Chiller leaving water temperature (supply water temperature leaving chiller)",
-        "haystack": "chiller leaving water temp",
+        "haystack": "chiller leaving water temp sensor",
         "object_type": "analogInput",
         "unit": "degF",
         "typical_range": {
           "min": 40,
           "max": 55
-        }
+        },
+        "brick": "Leaving_Water_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2571,7 +2710,8 @@
         "name": "City Water Temperature",
         "category": "temperatures",
         "description": "City Water Temperature point",
-        "haystack": "city water temperature"
+        "haystack": "domestic water temp sensor",
+        "brick": "Water_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2586,7 +2726,8 @@
         "name": "Condenser Water Return Temperature",
         "category": "temperatures",
         "description": "Condenser Water Return Temperature point",
-        "haystack": "condenser water return temperature"
+        "haystack": "condenser water entering temp sensor",
+        "brick": "Condenser_Water_Return_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2603,7 +2744,8 @@
         "name": "Condenser Water Supply Temperature",
         "category": "temperatures",
         "description": "Condenser Water Supply Temperature point",
-        "haystack": "condenser water supply temperature"
+        "haystack": "condenser water leaving temp sensor",
+        "brick": "Condenser_Water_Supply_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2620,13 +2762,14 @@
         "name": "Cooling Tower Basin Temperature",
         "category": "temperatures",
         "description": "Cooling tower basin (sump) water temperature",
-        "haystack": "coolingTower basin temp",
+        "haystack": "coolingTower basin temp sensor",
         "object_type": "analogInput",
         "unit": "degF",
         "typical_range": {
           "min": 60,
           "max": 95
-        }
+        },
+        "brick": "Cooling_Tower_Basin_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2647,7 +2790,8 @@
         "name": "Discharge Air Temperature Setpoint",
         "category": "temperatures",
         "description": "Discharge Air Temperature Setpoint point",
-        "haystack": "discharge air temperature setpoint"
+        "haystack": "discharge air temp sp",
+        "brick": "Discharge_Air_Temperature_Setpoint"
       },
       "aliases": {
         "common": [
@@ -2706,7 +2850,8 @@
         "name": "Domestic Hot Water Return Temperature",
         "category": "temperatures",
         "description": "Domestic Hot Water Return Temperature point",
-        "haystack": "domestic hot water return temperature"
+        "haystack": "domestic hot water entering temp sensor",
+        "brick": "Domestic_Hot_Water_Return_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2723,7 +2868,8 @@
         "name": "Domestic Hot Water Supply Temperature",
         "category": "temperatures",
         "description": "Domestic Hot Water Supply Temperature point",
-        "haystack": "domestic hot water supply temperature"
+        "haystack": "domestic hot water leaving temp sensor",
+        "brick": "Domestic_Hot_Water_Supply_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2740,7 +2886,8 @@
         "name": "Effective Discharge Air Temperature Setpoint",
         "category": "temperatures",
         "description": "Effective Discharge Air Temperature Setpoint point",
-        "haystack": "effective discharge air temperature setpoint"
+        "haystack": "discharge air temp effective sp",
+        "brick": "Effective_Discharge_Air_Temperature_Setpoint"
       },
       "aliases": {
         "common": [
@@ -2758,7 +2905,8 @@
         "name": "Exhaust Air Temperaure",
         "category": "temperatures",
         "description": "Exhaust Air Temperaure point",
-        "haystack": "exhaust air temperaure"
+        "haystack": "exhaust air temp sensor",
+        "brick": "Exhaust_Air_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2775,7 +2923,8 @@
         "name": "Hot Water Return Temperature",
         "category": "temperatures",
         "description": "Hot Water Return Temperature point",
-        "haystack": "hot water return temperature"
+        "haystack": "hot water entering temp sensor",
+        "brick": "Hot_Water_Return_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2792,7 +2941,8 @@
         "name": "Hot Water Supply Temperature",
         "category": "temperatures",
         "description": "Hot Water Supply Temperature point",
-        "haystack": "hot water supply temperature"
+        "haystack": "hot water leaving temp sensor",
+        "brick": "Hot_Water_Supply_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2809,7 +2959,8 @@
         "name": "Mixed Air Temperature Setpoint",
         "category": "temperatures",
         "description": "Mixed Air Temperature Setpoint point",
-        "haystack": "mixed air temperature setpoint"
+        "haystack": "mixed air temp sp",
+        "brick": "Mixed_Air_Temperature_Setpoint"
       },
       "aliases": {
         "common": [
@@ -2827,7 +2978,8 @@
         "name": "Mixed Air Temperature",
         "category": "temperatures",
         "description": "Mixed Air Temperature point",
-        "haystack": "mixed air temperature"
+        "haystack": "mixed air temp sensor",
+        "brick": "Mixed_Air_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2892,7 +3044,8 @@
         "name": "Primary Chilled Water Return Temperature",
         "category": "temperatures",
         "description": "Primary Chilled Water Return Temperature point",
-        "haystack": "primary chilled water return temperature"
+        "haystack": "primaryLoop chilled water entering temp sensor",
+        "brick": "Chilled_Water_Return_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2909,7 +3062,8 @@
         "name": "Primary Chilled Water Supply Temperature",
         "category": "temperatures",
         "description": "Primary Chilled Water Supply Temperature point",
-        "haystack": "primary chilled water supply temperature"
+        "haystack": "primaryLoop chilled water leaving temp sensor",
+        "brick": "Chilled_Water_Supply_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2926,7 +3080,8 @@
         "name": "Primary Hot Water Return Temperature",
         "category": "temperatures",
         "description": "Primary Hot Water Return Temperature point",
-        "haystack": "primary hot water return temperature"
+        "haystack": "primaryLoop hot water entering temp sensor",
+        "brick": "Hot_Water_Return_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2943,7 +3098,8 @@
         "name": "Primary Hot Water Supply Temperature",
         "category": "temperatures",
         "description": "Primary Hot Water Supply Temperature point",
-        "haystack": "primary hot water supply temperature"
+        "haystack": "primaryLoop hot water leaving temp sensor",
+        "brick": "Hot_Water_Supply_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2960,7 +3116,8 @@
         "name": "Return Air Temperature",
         "category": "temperatures",
         "description": "Return Air Temperature point",
-        "haystack": "return air temperature"
+        "haystack": "return air temp sensor",
+        "brick": "Return_Air_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2977,7 +3134,8 @@
         "name": "Secondary Chilled Water Return Temperature",
         "category": "temperatures",
         "description": "Secondary Chilled Water Return Temperature point",
-        "haystack": "secondary chilled water return temperature"
+        "haystack": "secondaryLoop chilled water entering temp sensor",
+        "brick": "Chilled_Water_Return_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -2994,7 +3152,8 @@
         "name": "Secondary Chilled Water Supply Temperature",
         "category": "temperatures",
         "description": "Secondary Chilled Water Supply Temperature point",
-        "haystack": "secondary chilled water supply temperature"
+        "haystack": "secondaryLoop chilled water leaving temp sensor",
+        "brick": "Chilled_Water_Supply_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -3011,7 +3170,8 @@
         "name": "Secondary Hot Water Return Temperature",
         "category": "temperatures",
         "description": "Secondary Hot Water Return Temperature point",
-        "haystack": "secondary hot water return temperature"
+        "haystack": "secondaryLoop hot water entering temp sensor",
+        "brick": "Hot_Water_Return_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -3028,7 +3188,8 @@
         "name": "Secondary Hot Water Supply Temperature",
         "category": "temperatures",
         "description": "Secondary Hot Water Supply Temperature point",
-        "haystack": "secondary hot water supply temperature"
+        "haystack": "secondaryLoop hot water leaving temp sensor",
+        "brick": "Hot_Water_Supply_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -3045,7 +3206,8 @@
         "name": "Supply Air Temperature",
         "category": "temperatures",
         "description": "Supply Air Temperature point",
-        "haystack": "supply air temperature"
+        "haystack": "supply air temp sensor",
+        "brick": "Supply_Air_Temperature_Sensor"
       },
       "aliases": {
         "common": [
@@ -3123,7 +3285,8 @@
         "name": "Bypass Valve Output",
         "category": "valves",
         "description": "Bypass Valve Output point",
-        "haystack": "bypass valve output"
+        "haystack": "bypass valve cmd",
+        "brick": "Bypass_Valve_Command"
       },
       "aliases": {
         "common": [
@@ -3139,8 +3302,9 @@
         "name": "Cooling Tower Isolation Valve",
         "category": "valves",
         "description": "Cooling tower isolation valve position or command",
-        "haystack": "coolingTower isolation valve",
-        "object_type": "binaryOutput"
+        "haystack": "coolingTower isolation valve cmd",
+        "object_type": "binaryOutput",
+        "brick": "Isolation_Valve_Command"
       },
       "aliases": {
         "common": [
@@ -3160,7 +3324,8 @@
         "name": "Cooling Valve Output",
         "category": "valves",
         "description": "Cooling Valve Output point",
-        "haystack": "cooling valve output"
+        "haystack": "cool valve cmd",
+        "brick": "Cooling_Valve_Command"
       },
       "aliases": {
         "common": [
@@ -3179,7 +3344,8 @@
         "name": "Heating Valve Output",
         "category": "valves",
         "description": "Heating Valve Output point",
-        "haystack": "heating valve output"
+        "haystack": "heat valve cmd",
+        "brick": "Heating_Valve_Command"
       },
       "aliases": {
         "common": [
@@ -3196,7 +3362,8 @@
         "name": "Isolation Valve Output",
         "category": "valves",
         "description": "Isolation Valve Output point",
-        "haystack": "isolation valve output"
+        "haystack": "isolation valve cmd",
+        "brick": "Isolation_Valve_Command"
       },
       "aliases": {
         "common": [
@@ -3212,7 +3379,8 @@
         "name": "Mixing Valve Output",
         "category": "valves",
         "description": "Mixing Valve Output point",
-        "haystack": "mixing valve output"
+        "haystack": "mixing valve cmd",
+        "brick": "Mixing_Valve_Command"
       },
       "aliases": {
         "common": [

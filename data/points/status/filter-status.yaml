@@ -3,7 +3,8 @@ concept:
   name: Filter Status
   category: status
   description: Filter Status point
-  haystack: filter status
+  haystack: filter sensor
+  brick: Filter_Status
 aliases:
   common:
     - filt-s

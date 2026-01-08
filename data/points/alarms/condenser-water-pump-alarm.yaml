@@ -3,7 +3,8 @@ concept:
   name: Condenser Water Pump Alarm
   category: alarms
   description: Condenser Water Pump Alarm point
-  haystack: condenser water pump alarm
+  haystack: condenser water pump alarm sensor
+  brick: Condenser_Water_Pump_Alarm
 aliases:
   common:
     - cwp-a

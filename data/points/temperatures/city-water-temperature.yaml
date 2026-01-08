@@ -3,7 +3,8 @@ concept:
   name: City Water Temperature
   category: temperatures
   description: City Water Temperature point
-  haystack: city water temperature
+  haystack: domestic water temp sensor
+  brick: Water_Temperature_Sensor
 aliases:
   common:
     - cw-t

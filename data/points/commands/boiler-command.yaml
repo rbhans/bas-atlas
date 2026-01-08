@@ -3,8 +3,9 @@ concept:
   name: Boiler Command
   category: commands
   description: Boiler on/off command point
-  haystack: boiler cmd
+  haystack: boiler run cmd
   object_type: binaryOutput
+  brick: Boiler_Command
 aliases:
   common:
     - boiler cmd

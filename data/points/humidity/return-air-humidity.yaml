@@ -3,7 +3,8 @@ concept:
   name: Return Air Humidity
   category: humidity
   description: Return Air Humidity point
-  haystack: return air humidity
+  haystack: return air humidity sensor
+  brick: Return_Air_Humidity_Sensor
 aliases:
   common:
     - ra-h

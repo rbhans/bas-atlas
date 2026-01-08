@@ -3,7 +3,8 @@ concept:
   name: Return Air Pressure
   category: pressures
   description: Return Air Pressure point
-  haystack: return air pressure
+  haystack: return air pressure sensor
+  brick: Return_Air_Static_Pressure_Sensor
 aliases:
   common:
     - ra-p

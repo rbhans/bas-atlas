@@ -3,12 +3,13 @@ concept:
   name: Boiler Output
   category: commands
   description: Boiler modulating output signal (0-100%)
-  haystack: boiler output
+  haystack: boiler cmd
   object_type: analogOutput
   unit: percent
   typical_range:
     min: 0
     max: 100
+  brick: Boiler_Output_Command
 aliases:
   common:
     - boiler out

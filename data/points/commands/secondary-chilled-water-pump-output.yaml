@@ -3,7 +3,8 @@ concept:
   name: Secondary Chilled Water Pump Output
   category: commands
   description: Secondary Chilled Water Pump Output point
-  haystack: secondary chilled water pump output
+  haystack: secondaryLoop chilled water pump speed cmd
+  brick: Secondary_Chilled_Water_Pump_Speed_Command
 aliases:
   common:
     - schwp-o

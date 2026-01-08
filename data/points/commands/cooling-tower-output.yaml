@@ -3,12 +3,13 @@ concept:
   name: Cooling Tower Output
   category: commands
   description: Cooling tower fan speed output signal (0-100%)
-  haystack: coolingTower output
+  haystack: coolingTower speed cmd
   object_type: analogOutput
   unit: percent
   typical_range:
     min: 0
     max: 100
+  brick: Cooling_Tower_Speed_Command
 aliases:
   common:
     - cooling tower out

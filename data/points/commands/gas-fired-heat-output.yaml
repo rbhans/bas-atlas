@@ -3,7 +3,8 @@ concept:
   name: Gas Fired Heat Output
   category: commands
   description: Gas Fired Heat Output point
-  haystack: gas fired heat output
+  haystack: gas heat cmd
+  brick: Gas_Heating_Command
 aliases:
   common:
     - gashtg-o

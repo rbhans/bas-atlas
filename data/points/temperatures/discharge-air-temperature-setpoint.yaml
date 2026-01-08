@@ -3,7 +3,8 @@ concept:
   name: Discharge Air Temperature Setpoint
   category: temperatures
   description: Discharge Air Temperature Setpoint point
-  haystack: discharge air temperature setpoint
+  haystack: discharge air temp sp
+  brick: Discharge_Air_Temperature_Setpoint
 aliases:
   common:
     - dat-sp

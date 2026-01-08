@@ -3,12 +3,13 @@ concept:
   name: Cooling Tower Basin Temperature
   category: temperatures
   description: Cooling tower basin (sump) water temperature
-  haystack: coolingTower basin temp
+  haystack: coolingTower basin temp sensor
   object_type: analogInput
   unit: degF
   typical_range:
     min: 60
     max: 95
+  brick: Cooling_Tower_Basin_Temperature_Sensor
 aliases:
   common:
     - cooling tower basin temp

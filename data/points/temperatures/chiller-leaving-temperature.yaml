@@ -3,12 +3,13 @@ concept:
   name: Chiller Leaving Temperature
   category: temperatures
   description: Chiller leaving water temperature (supply water temperature leaving chiller)
-  haystack: chiller leaving water temp
+  haystack: chiller leaving water temp sensor
   object_type: analogInput
   unit: degF
   typical_range:
     min: 40
     max: 55
+  brick: Leaving_Water_Temperature_Sensor
 aliases:
   common:
     - chiller leaving temp

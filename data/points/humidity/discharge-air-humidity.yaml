@@ -3,7 +3,8 @@ concept:
   name: Discharge Air Humidity
   category: humidity
   description: Discharge Air Humidity point
-  haystack: discharge air humidity
+  haystack: discharge air humidity sensor
+  brick: Discharge_Air_Humidity_Sensor
 aliases:
   common:
     - da-h

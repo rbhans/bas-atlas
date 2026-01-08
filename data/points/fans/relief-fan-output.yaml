@@ -3,7 +3,8 @@ concept:
   name: Relief Fan Output
   category: fans
   description: Relief Fan Output point
-  haystack: relief fan output
+  haystack: relief fan speed cmd
+  brick: Relief_Fan_Speed_Command
 aliases:
   common:
     - rlf-o

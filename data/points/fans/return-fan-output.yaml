@@ -3,7 +3,8 @@ concept:
   name: Return Fan Output
   category: fans
   description: Return Fan Output point
-  haystack: return fan output
+  haystack: return fan speed cmd
+  brick: Return_Fan_Speed_Command
 aliases:
   common:
     - rf-o

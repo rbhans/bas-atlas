@@ -3,7 +3,8 @@ concept:
   name: Primary Chilled Water Pump Output
   category: commands
   description: Primary Chilled Water Pump Output point
-  haystack: primary chilled water pump output
+  haystack: primaryLoop chilled water pump speed cmd
+  brick: Primary_Chilled_Water_Pump_Speed_Command
 aliases:
   common:
     - pchwp-o

@@ -3,7 +3,8 @@ concept:
   name: Mixed Air Damper Position
   category: dampers
   description: Mixed Air Damper Position point
-  haystack: mixed air damper position
+  haystack: mixed air damper sensor
+  brick: Mixed_Air_Damper_Position_Sensor
 aliases:
   common:
     - mad-pos

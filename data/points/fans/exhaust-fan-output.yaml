@@ -3,7 +3,8 @@ concept:
   name: Exhaust Fan Output
   category: fans
   description: Exhaust Fan Output point
-  haystack: exhaust fan output
+  haystack: exhaust fan speed cmd
+  brick: Exhaust_Fan_Speed_Command
 aliases:
   common:
     - ef-o

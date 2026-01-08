@@ -3,7 +3,8 @@ concept:
   name: Occupied Command
   category: commands
   description: Occupied Command point
-  haystack: occupied command
+  haystack: occupied cmd
+  brick: Occupancy_Command
 aliases:
   common:
     - occ-cmd

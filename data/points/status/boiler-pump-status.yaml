@@ -3,7 +3,8 @@ concept:
   name: Boiler Pump Status
   category: status
   description: Boiler Pump Status point
-  haystack: boiler pump status
+  haystack: boiler pump run sensor
+  brick: Boiler_Pump_Status
 aliases:
   common:
     - bp-s

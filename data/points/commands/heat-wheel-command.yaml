@@ -3,7 +3,8 @@ concept:
   name: Heat Wheel Command
   category: commands
   description: Heat Wheel Command point
-  haystack: heat wheel command
+  haystack: heatWheel run cmd
+  brick: Heat_Wheel_Command
 aliases:
   common:
     - hw-c

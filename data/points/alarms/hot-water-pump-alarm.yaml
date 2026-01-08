@@ -3,7 +3,8 @@ concept:
   name: Hot Water Pump Alarm
   category: alarms
   description: Hot Water Pump Alarm point
-  haystack: hot water pump alarm
+  haystack: hot water pump alarm sensor
+  brick: Hot_Water_Pump_Alarm
 aliases:
   common:
     - hwp-a

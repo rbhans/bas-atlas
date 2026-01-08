@@ -3,7 +3,8 @@ concept:
   name: Outdoor Air Humidity
   category: humidity
   description: Outdoor Air Humidity point
-  haystack: outdoor air humidity
+  haystack: outside air humidity sensor
+  brick: Outside_Air_Humidity_Sensor
 aliases:
   common:
     - oa-h

@@ -3,7 +3,8 @@ concept:
   name: Occupancy Schedule
   category: status
   description: Occupancy Schedule point
-  haystack: occupancy schedule
+  haystack: occupied schedule
+  brick: Occupancy_Schedule
 aliases:
   common:
     - occ-sched

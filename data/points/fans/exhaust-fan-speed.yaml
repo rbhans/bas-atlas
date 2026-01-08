@@ -3,7 +3,8 @@ concept:
   name: Exhaust Fan Speed
   category: fans
   description: Exhaust Fan Speed point
-  haystack: exhaust fan speed
+  haystack: exhaust fan speed sensor
+  brick: Exhaust_Fan_Speed_Sensor
 aliases:
   common:
     - ef-spd

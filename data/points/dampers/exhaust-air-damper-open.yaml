@@ -3,7 +3,8 @@ concept:
   name: Exhaust Air Damper Open
   category: dampers
   description: Exhaust Air Damper Open point
-  haystack: exhaust air damper open
+  haystack: exhaust air damper open sensor
+  brick: Exhaust_Air_Damper_Open_Status
 aliases:
   common:
     - ead-open

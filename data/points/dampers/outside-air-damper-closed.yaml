@@ -3,7 +3,8 @@ concept:
   name: Outside Air Damper Closed
   category: dampers
   description: Outside Air Damper Closed point
-  haystack: outside air damper closed
+  haystack: outside air damper closed sensor
+  brick: Outside_Air_Damper_Closed_Status
 aliases:
   common:
     - oad-closed

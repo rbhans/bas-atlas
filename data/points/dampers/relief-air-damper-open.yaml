@@ -3,7 +3,8 @@ concept:
   name: Relief Air Damper Open
   category: dampers
   description: Relief Air Damper Open point
-  haystack: relief air damper open
+  haystack: relief air damper open sensor
+  brick: Relief_Air_Damper_Open_Status
 aliases:
   common:
     - rlfd-open

@@ -3,7 +3,8 @@ concept:
   name: Heating Enable
   category: commands
   description: Heating Enable point
-  haystack: heating enable
+  haystack: heat enable cmd
+  brick: Heating_Enable_Command
 aliases:
   common:
     - htg-en

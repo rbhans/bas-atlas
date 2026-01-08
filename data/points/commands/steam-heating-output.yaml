@@ -3,7 +3,8 @@ concept:
   name: Steam Heating Output
   category: commands
   description: Steam Heating Output point
-  haystack: steam heating output
+  haystack: steam heat cmd
+  brick: Steam_Heating_Command
 aliases:
   common:
     - stm-o

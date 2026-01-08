@@ -3,7 +3,8 @@ concept:
   name: Return Fan Speed
   category: fans
   description: Return Fan Speed point
-  haystack: return fan speed
+  haystack: return fan speed sensor
+  brick: Return_Fan_Speed_Sensor
 aliases:
   common:
     - rf-spd

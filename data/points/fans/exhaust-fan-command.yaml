@@ -3,7 +3,8 @@ concept:
   name: Exhaust Fan Command
   category: fans
   description: Exhaust Fan Command point
-  haystack: exhaust fan command
+  haystack: exhaust fan run cmd
+  brick: Exhaust_Fan_Command
 aliases:
   common:
     - ef-c

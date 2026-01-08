@@ -3,7 +3,8 @@ concept:
   name: Return Air Temperature
   category: temperatures
   description: Return Air Temperature point
-  haystack: return air temperature
+  haystack: return air temp sensor
+  brick: Return_Air_Temperature_Sensor
 aliases:
   common:
     - ra-t

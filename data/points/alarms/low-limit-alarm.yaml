@@ -3,7 +3,8 @@ concept:
   name: Low Limit Alarm
   category: alarms
   description: Low Limit Alarm point
-  haystack: low limit alarm
+  haystack: freezeStat alarm sensor
+  brick: Low_Limit_Alarm
 aliases:
   common:
     - low temp alarm

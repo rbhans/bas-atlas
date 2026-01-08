@@ -3,7 +3,8 @@ concept:
   name: Building Pressure
   category: pressures
   description: Building Pressure point
-  haystack: building pressure
+  haystack: building pressure sensor
+  brick: Building_Air_Static_Pressure_Sensor
 aliases:
   common:
     - bldg-p

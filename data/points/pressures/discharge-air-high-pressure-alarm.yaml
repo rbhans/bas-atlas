@@ -3,7 +3,8 @@ concept:
   name: Discharge Air High Pressure Alarm
   category: pressures
   description: Discharge Air High Pressure Alarm point
-  haystack: discharge air high pressure alarm
+  haystack: discharge air pressure high alarm
+  brick: High_Discharge_Air_Static_Pressure_Alarm
 aliases:
   common:
     - dahp-a

@@ -3,7 +3,8 @@ concept:
   name: Shutdown
   category: status
   description: Shutdown point
-  haystack: shutdown
+  haystack: shutdown cmd
+  brick: Shutdown_Command
 aliases:
   common:
     - shutdwn

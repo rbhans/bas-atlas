@@ -3,7 +3,8 @@ concept:
   name: Humidifier Output
   category: humidity
   description: Humidifier Output point
-  haystack: humidifier output
+  haystack: humidifier cmd
+  brick: Humidifier_Command
 aliases:
   common:
     - hum-o

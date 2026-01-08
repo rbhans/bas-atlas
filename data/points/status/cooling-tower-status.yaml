@@ -3,8 +3,9 @@ concept:
   name: Cooling Tower Status
   category: status
   description: Cooling tower running status feedback point
-  haystack: coolingTower run
+  haystack: coolingTower run sensor
   object_type: binaryInput
+  brick: Cooling_Tower_Status
 aliases:
   common:
     - cooling tower sts

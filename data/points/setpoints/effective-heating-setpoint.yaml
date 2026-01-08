@@ -3,7 +3,8 @@ concept:
   name: Effective Heating Setpoint
   category: setpoints
   description: Effective Heating Setpoint point
-  haystack: effective heating setpoint
+  haystack: zone air temp effective heating sp
+  brick: Effective_Heating_Temperature_Setpoint
 aliases:
   common:
     - effhtg-sp

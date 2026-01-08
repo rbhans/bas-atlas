@@ -3,7 +3,8 @@ concept:
   name: Heat Wheel Output
   category: commands
   description: Heat Wheel Output point
-  haystack: heat wheel output
+  haystack: heatWheel speed cmd
+  brick: Heat_Wheel_Speed_Command
 aliases:
   common:
     - hw-o

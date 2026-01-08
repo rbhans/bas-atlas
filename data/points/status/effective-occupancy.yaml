@@ -3,7 +3,8 @@ concept:
   name: Effective Occupancy
   category: status
   description: Effective Occupancy point
-  haystack: effective occupancy
+  haystack: occupied effective sp
+  brick: Effective_Occupancy_Status
 aliases:
   common:
     - eff-occ

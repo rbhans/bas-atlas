@@ -3,7 +3,8 @@ concept:
   name: Condenser Water Return Temperature
   category: temperatures
   description: Condenser Water Return Temperature point
-  haystack: condenser water return temperature
+  haystack: condenser water entering temp sensor
+  brick: Condenser_Water_Return_Temperature_Sensor
 aliases:
   common:
     - cwr-t

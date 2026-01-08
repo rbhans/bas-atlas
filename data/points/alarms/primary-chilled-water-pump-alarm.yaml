@@ -3,7 +3,8 @@ concept:
   name: Primary Chilled Water Pump Alarm
   category: alarms
   description: Primary Chilled Water Pump Alarm point
-  haystack: primary chilled water pump alarm
+  haystack: primaryLoop chilled water pump alarm sensor
+  brick: Primary_Chilled_Water_Pump_Alarm
 aliases:
   common:
     - pchwp-a

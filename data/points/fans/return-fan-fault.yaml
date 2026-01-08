@@ -3,7 +3,8 @@ concept:
   name: Return Fan Fault
   category: fans
   description: Return Fan Fault point
-  haystack: return fan fault
+  haystack: return fan fault sensor
+  brick: Return_Fan_Fault_Status
 aliases:
   common:
     - rf-fault

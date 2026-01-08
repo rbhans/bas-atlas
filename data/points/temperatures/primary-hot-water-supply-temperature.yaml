@@ -3,7 +3,8 @@ concept:
   name: Primary Hot Water Supply Temperature
   category: temperatures
   description: Primary Hot Water Supply Temperature point
-  haystack: primary hot water supply temperature
+  haystack: primaryLoop hot water leaving temp sensor
+  brick: Hot_Water_Supply_Temperature_Sensor
 aliases:
   common:
     - phws-t

@@ -3,7 +3,8 @@ concept:
   name: Cooling Outdoor Air Lockout Setpoint
   category: setpoints
   description: Cooling Outdoor Air Lockout Setpoint point
-  haystack: cooling outdoor air lockout setpoint
+  haystack: outside air temp cooling lockout sp
+  brick: Outside_Air_Lockout_Temperature_Setpoint
 aliases:
   common:
     - clgoalockout-sp

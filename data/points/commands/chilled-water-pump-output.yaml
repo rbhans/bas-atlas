@@ -3,7 +3,8 @@ concept:
   name: Chilled Water Pump Output
   category: commands
   description: Chilled Water Pump Output point
-  haystack: chilled water pump output
+  haystack: chilled water pump speed cmd
+  brick: Chilled_Water_Pump_Speed_Command
 aliases:
   common:
     - chwp-o

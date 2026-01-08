@@ -3,7 +3,8 @@ concept:
   name: Outside Air Damper Output
   category: dampers
   description: Outside Air Damper Output point
-  haystack: outside air damper output
+  haystack: outside air damper cmd
+  brick: Outside_Air_Damper_Command
 aliases:
   common:
     - oad-o

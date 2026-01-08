@@ -3,7 +3,8 @@ concept:
   name: Occupancy
   category: status
   description: Occupancy point
-  haystack: occupancy
+  haystack: occupied sensor
+  brick: Occupancy_Sensor
 aliases:
   common:
     - occupied

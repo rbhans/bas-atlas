@@ -3,7 +3,8 @@ concept:
   name: Heating Valve Output
   category: valves
   description: Heating Valve Output point
-  haystack: heating valve output
+  haystack: heat valve cmd
+  brick: Heating_Valve_Command
 aliases:
   common:
     - htg-o

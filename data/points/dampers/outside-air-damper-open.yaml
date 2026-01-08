@@ -3,7 +3,8 @@ concept:
   name: Outside Air Damper Open
   category: dampers
   description: Outside Air Damper Open point
-  haystack: outside air damper open
+  haystack: outside air damper open sensor
+  brick: Outside_Air_Damper_Open_Status
 aliases:
   common:
     - oad-open

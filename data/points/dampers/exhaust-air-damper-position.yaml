@@ -3,7 +3,8 @@ concept:
   name: Exhaust Air Damper Position
   category: dampers
   description: Exhaust Air Damper Position point
-  haystack: exhaust air damper position
+  haystack: exhaust air damper sensor
+  brick: Exhaust_Air_Damper_Position_Sensor
 aliases:
   common:
     - ead-pos

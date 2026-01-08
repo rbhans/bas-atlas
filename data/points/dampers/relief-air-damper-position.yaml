@@ -3,7 +3,8 @@ concept:
   name: Relief Air Damper Position
   category: dampers
   description: Relief Air Damper Position point
-  haystack: relief air damper position
+  haystack: relief air damper sensor
+  brick: Relief_Air_Damper_Position_Sensor
 aliases:
   common:
     - rlfd-pos

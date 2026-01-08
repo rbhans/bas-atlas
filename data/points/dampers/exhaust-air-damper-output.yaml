@@ -3,7 +3,8 @@ concept:
   name: Exhaust Air Damper Output
   category: dampers
   description: Exhaust Air Damper Output point
-  haystack: exhaust air damper output
+  haystack: exhaust air damper cmd
+  brick: Exhaust_Air_Damper_Command
 aliases:
   common:
     - ead-o

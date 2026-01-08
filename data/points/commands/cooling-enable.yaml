@@ -3,7 +3,8 @@ concept:
   name: Cooling Enable
   category: commands
   description: Cooling Enable point
-  haystack: cooling enable
+  haystack: cool enable cmd
+  brick: Cooling_Enable_Command
 aliases:
   common:
     - clg-en

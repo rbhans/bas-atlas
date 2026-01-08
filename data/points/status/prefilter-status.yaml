@@ -3,7 +3,8 @@ concept:
   name: Prefilter Status
   category: status
   description: Prefilter Status point
-  haystack: prefilter status
+  haystack: preFilter sensor
+  brick: Pre_Filter_Status
 aliases:
   common:
     - pre filter status

@@ -3,7 +3,8 @@ concept:
   name: Hot Water Pump Output
   category: commands
   description: Hot Water Pump Output point
-  haystack: hot water pump output
+  haystack: hot water pump speed cmd
+  brick: Hot_Water_Pump_Speed_Command
 aliases:
   common:
     - hwp-o

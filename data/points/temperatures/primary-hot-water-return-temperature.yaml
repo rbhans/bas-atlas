@@ -3,7 +3,8 @@ concept:
   name: Primary Hot Water Return Temperature
   category: temperatures
   description: Primary Hot Water Return Temperature point
-  haystack: primary hot water return temperature
+  haystack: primaryLoop hot water entering temp sensor
+  brick: Hot_Water_Return_Temperature_Sensor
 aliases:
   common:
     - phwr-t

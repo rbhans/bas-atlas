@@ -3,7 +3,8 @@ concept:
   name: Supply Fan Command
   category: fans
   description: Supply Fan Command point
-  haystack: supply fan command
+  haystack: supply fan run cmd
+  brick: Supply_Fan_Command
 aliases:
   common:
     - sf-c

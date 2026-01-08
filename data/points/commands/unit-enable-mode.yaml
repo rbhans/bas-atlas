@@ -3,7 +3,8 @@ concept:
   name: Unit Enable Mode
   category: commands
   description: Unit Enable Mode point
-  haystack: unit enable mode
+  haystack: enable cmd
+  brick: Enable_Command
 aliases:
   common:
     - uniten-mode

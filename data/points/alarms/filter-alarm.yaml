@@ -3,7 +3,8 @@ concept:
   name: Filter Alarm
   category: alarms
   description: Filter Alarm point
-  haystack: filter alarm
+  haystack: filter alarm sensor
+  brick: Filter_Alarm
 aliases:
   common:
     - filt-a

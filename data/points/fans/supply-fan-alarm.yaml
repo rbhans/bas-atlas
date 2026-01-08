@@ -3,7 +3,8 @@ concept:
   name: Supply Fan Alarm
   category: fans
   description: Supply Fan Alarm point
-  haystack: supply fan alarm
+  haystack: supply fan alarm sensor
+  brick: Supply_Fan_Alarm
 aliases:
   common:
     - sf-a

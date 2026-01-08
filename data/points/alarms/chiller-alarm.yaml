@@ -3,8 +3,9 @@ concept:
   name: Chiller Alarm
   category: alarms
   description: Chiller alarm point indicating fault or warning condition
-  haystack: chiller alarm
+  haystack: chiller alarm sensor
   object_type: binaryInput
+  brick: Chiller_Alarm
 aliases:
   common:
     - chiller alm

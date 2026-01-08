@@ -3,7 +3,8 @@ concept:
   name: System Enable
   category: commands
   description: System Enable point
-  haystack: system enable
+  haystack: enable cmd
+  brick: Enable_Command
 aliases:
   common:
     - sys-en

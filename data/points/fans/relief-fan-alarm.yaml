@@ -3,7 +3,8 @@ concept:
   name: Relief Fan Alarm
   category: fans
   description: Relief Fan Alarm point
-  haystack: relief fan alarm
+  haystack: relief fan alarm sensor
+  brick: Relief_Fan_Alarm
 aliases:
   common:
     - rlf-a

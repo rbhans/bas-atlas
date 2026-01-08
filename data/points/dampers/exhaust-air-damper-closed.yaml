@@ -3,7 +3,8 @@ concept:
   name: Exhaust Air Damper Closed
   category: dampers
   description: Exhaust Air Damper Closed point
-  haystack: exhaust air damper closed
+  haystack: exhaust air damper closed sensor
+  brick: Exhaust_Air_Damper_Closed_Status
 aliases:
   common:
     - ead-closed

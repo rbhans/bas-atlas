@@ -3,7 +3,8 @@ concept:
   name: Secondary Chilled Water Pump Command
   category: commands
   description: Secondary Chilled Water Pump Command point
-  haystack: secondary chilled water pump command
+  haystack: secondaryLoop chilled water pump run cmd
+  brick: Secondary_Chilled_Water_Pump_Command
 aliases:
   common:
     - schwp-c

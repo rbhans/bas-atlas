@@ -3,7 +3,8 @@ concept:
   name: Isolation Valve Output
   category: valves
   description: Isolation Valve Output point
-  haystack: isolation valve output
+  haystack: isolation valve cmd
+  brick: Isolation_Valve_Command
 aliases:
   common:
     - iso-o

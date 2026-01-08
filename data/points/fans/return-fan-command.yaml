@@ -3,7 +3,8 @@ concept:
   name: Return Fan Command
   category: fans
   description: Return Fan Command point
-  haystack: return fan command
+  haystack: return fan run cmd
+  brick: Return_Fan_Command
 aliases:
   common:
     - rf-c

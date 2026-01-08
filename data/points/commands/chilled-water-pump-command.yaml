@@ -3,7 +3,8 @@ concept:
   name: Chilled Water Pump Command
   category: commands
   description: Chilled Water Pump Command point
-  haystack: chilled water pump command
+  haystack: chilled water pump run cmd
+  brick: Chilled_Water_Pump_Command
 aliases:
   common:
     - chwp-c

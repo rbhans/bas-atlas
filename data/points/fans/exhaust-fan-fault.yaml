@@ -3,7 +3,8 @@ concept:
   name: Exhaust Fan Fault
   category: fans
   description: Exhaust Fan Fault point
-  haystack: exhaust fan fault
+  haystack: exhaust fan fault sensor
+  brick: Exhaust_Fan_Fault_Status
 aliases:
   common:
     - ef-fault

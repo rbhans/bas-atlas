@@ -3,7 +3,8 @@ concept:
   name: Mixed Air Temperature Setpoint
   category: temperatures
   description: Mixed Air Temperature Setpoint point
-  haystack: mixed air temperature setpoint
+  haystack: mixed air temp sp
+  brick: Mixed_Air_Temperature_Setpoint
 aliases:
   common:
     - mat-sp

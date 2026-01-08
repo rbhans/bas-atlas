@@ -3,7 +3,8 @@ concept:
   name: Boiler Pump Alarm
   category: alarms
   description: Boiler Pump Alarm point
-  haystack: boiler pump alarm
+  haystack: boiler pump alarm sensor
+  brick: Boiler_Pump_Alarm
 aliases:
   common:
     - bp-a

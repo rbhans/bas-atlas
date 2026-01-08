@@ -3,7 +3,8 @@ concept:
   name: Return Air High Pressure Alarm
   category: pressures
   description: Return Air High Pressure Alarm point
-  haystack: return air high pressure alarm
+  haystack: return air pressure high alarm
+  brick: High_Return_Air_Static_Pressure_Alarm
 aliases:
   common:
     - rahp-a

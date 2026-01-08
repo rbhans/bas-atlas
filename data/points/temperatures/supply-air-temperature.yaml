@@ -3,7 +3,8 @@ concept:
   name: Supply Air Temperature
   category: temperatures
   description: Supply Air Temperature point
-  haystack: supply air temperature
+  haystack: supply air temp sensor
+  brick: Supply_Air_Temperature_Sensor
 aliases:
   common:
     - sa-t

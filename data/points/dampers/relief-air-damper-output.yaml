@@ -3,7 +3,8 @@ concept:
   name: Relief Air Damper Output
   category: dampers
   description: Relief Air Damper Output point
-  haystack: relief air damper output
+  haystack: relief air damper cmd
+  brick: Relief_Air_Damper_Command
 aliases:
   common:
     - rlfd-o

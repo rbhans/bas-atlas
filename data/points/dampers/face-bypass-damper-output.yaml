@@ -3,7 +3,8 @@ concept:
   name: Face Bypass Damper Output
   category: dampers
   description: Face Bypass Damper Output point
-  haystack: face bypass damper output
+  haystack: bypass damper cmd
+  brick: Bypass_Damper_Command
 aliases:
   common:
     - fbd-o

@@ -3,7 +3,8 @@ concept:
   name: Condenser Water Pump Status
   category: status
   description: Condenser Water Pump Status point
-  haystack: condenser water pump status
+  haystack: condenser water pump run sensor
+  brick: Condenser_Water_Pump_Status
 aliases:
   common:
     - cwp-s

@@ -3,7 +3,8 @@ concept:
   name: Relief Fan Status
   category: fans
   description: Relief Fan Status point
-  haystack: relief fan status
+  haystack: relief fan run sensor
+  brick: Relief_Fan_Status
 aliases:
   common:
     - rlf-s

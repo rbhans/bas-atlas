@@ -3,7 +3,8 @@ concept:
   name: Mixed Air Temperature
   category: temperatures
   description: Mixed Air Temperature point
-  haystack: mixed air temperature
+  haystack: mixed air temp sensor
+  brick: Mixed_Air_Temperature_Sensor
 aliases:
   common:
     - ma-t

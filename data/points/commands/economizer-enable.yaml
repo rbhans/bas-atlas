@@ -3,7 +3,8 @@ concept:
   name: Economizer Enable
   category: commands
   description: Economizer Enable point
-  haystack: economizer enable
+  haystack: economizer enable cmd
+  brick: Economizer_Enable_Command
 aliases:
   common:
     - econ-en

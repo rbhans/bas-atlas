@@ -3,7 +3,8 @@ concept:
   name: Humidifier Enable
   category: humidity
   description: Humidifier Enable point
-  haystack: humidifier enable
+  haystack: humidifier enable cmd
+  brick: Humidifier_Command
 aliases:
   common:
     - hum-en

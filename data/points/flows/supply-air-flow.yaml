@@ -3,7 +3,8 @@ concept:
   name: Supply Air Flow
   category: flows
   description: Supply Air Flow point
-  haystack: supply air flow
+  haystack: supply air flow sensor
+  brick: Supply_Air_Flow_Sensor
 aliases:
   common:
     - sa-f

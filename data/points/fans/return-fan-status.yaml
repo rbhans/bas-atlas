@@ -3,7 +3,8 @@ concept:
   name: Return Fan Status
   category: fans
   description: Return Fan Status point
-  haystack: return fan status
+  haystack: return fan run sensor
+  brick: Return_Fan_Status
 aliases:
   common:
     - rf-s

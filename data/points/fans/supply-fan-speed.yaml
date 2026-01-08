@@ -3,7 +3,8 @@ concept:
   name: Supply Fan Speed
   category: fans
   description: Supply Fan Speed point
-  haystack: supply fan speed
+  haystack: supply fan speed sensor
+  brick: Supply_Fan_Speed_Sensor
 aliases:
   common:
     - sf-spd

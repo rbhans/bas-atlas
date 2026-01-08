@@ -3,7 +3,8 @@ concept:
   name: Discharge Air Flow
   category: flows
   description: Discharge Air Flow point
-  haystack: discharge air flow
+  haystack: discharge air flow sensor
+  brick: Discharge_Air_Flow_Sensor
 aliases:
   common:
     - da-f

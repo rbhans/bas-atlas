@@ -3,8 +3,9 @@ concept:
   name: DX Cooling Stage
   category: status
   description: Direct expansion cooling stage status point
-  haystack: dx cooling stage
+  haystack: cool stage sensor
   object_type: binaryInput
+  brick: Cooling_Stage_Status
 aliases:
   common:
     - dx stage

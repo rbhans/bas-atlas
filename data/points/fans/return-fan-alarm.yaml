@@ -3,7 +3,8 @@ concept:
   name: Return Fan Alarm
   category: fans
   description: Return Fan Alarm point
-  haystack: return fan alarm
+  haystack: return fan alarm sensor
+  brick: Return_Fan_Alarm
 aliases:
   common:
     - rf-a

@@ -3,7 +3,8 @@ concept:
   name: Occupied Cooling Setpoint
   category: setpoints
   description: Occupied Cooling Setpoint point
-  haystack: occupied cooling setpoint
+  haystack: zone air temp occ cooling sp
+  brick: Occupied_Cooling_Temperature_Setpoint
 aliases:
   common:
     - occclg-sp

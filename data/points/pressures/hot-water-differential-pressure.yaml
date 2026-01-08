@@ -3,7 +3,8 @@ concept:
   name: Hot Water Differential Pressure
   category: pressures
   description: Hot Water Differential Pressure point
-  haystack: hot water differential pressure
+  haystack: hot water differential pressure sensor
+  brick: Hot_Water_Differential_Pressure_Sensor
 aliases:
   common:
     - hw-dp

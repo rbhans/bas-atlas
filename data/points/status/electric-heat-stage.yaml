@@ -3,8 +3,9 @@ concept:
   name: Electric Heat Stage
   category: status
   description: Electric heating stage status point
-  haystack: elec heat stage
+  haystack: heat stage sensor
   object_type: binaryInput
+  brick: Heating_Stage_Status
 aliases:
   common:
     - elec heat stage

@@ -3,8 +3,9 @@ concept:
   name: Boiler Alarm
   category: alarms
   description: Boiler alarm point indicating fault or warning condition
-  haystack: boiler alarm
+  haystack: boiler alarm sensor
   object_type: binaryInput
+  brick: Boiler_Alarm
 aliases:
   common:
     - boiler alm

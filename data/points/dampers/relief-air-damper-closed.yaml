@@ -3,7 +3,8 @@ concept:
   name: Relief Air Damper Closed
   category: dampers
   description: Relief Air Damper Closed point
-  haystack: relief air damper closed
+  haystack: relief air damper closed sensor
+  brick: Relief_Air_Damper_Closed_Status
 aliases:
   common:
     - rlfd-closed

@@ -3,7 +3,8 @@ concept:
   name: Relief Fan Command
   category: fans
   description: Relief Fan Command point
-  haystack: relief fan command
+  haystack: relief fan run cmd
+  brick: Relief_Fan_Command
 aliases:
   common:
     - rlf-c

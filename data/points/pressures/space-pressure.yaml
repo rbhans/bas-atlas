@@ -3,7 +3,8 @@ concept:
   name: Space Pressure
   category: pressures
   description: Space Pressure point
-  haystack: space pressure
+  haystack: zone pressure sensor
+  brick: Zone_Air_Static_Pressure_Sensor
 aliases:
   common:
     - zone pressure

@@ -3,7 +3,8 @@ concept:
   name: Supply Fan Output
   category: fans
   description: Supply Fan Output point
-  haystack: supply fan output
+  haystack: supply fan speed cmd
+  brick: Supply_Fan_Speed_Command
 aliases:
   common:
     - sf-o

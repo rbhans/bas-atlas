@@ -3,7 +3,8 @@ concept:
   name: Discharge Air Low Pressure Alarm
   category: pressures
   description: Discharge Air Low Pressure Alarm point
-  haystack: discharge air low pressure alarm
+  haystack: discharge air pressure low alarm
+  brick: Low_Discharge_Air_Static_Pressure_Alarm
 aliases:
   common:
     - dalp-a

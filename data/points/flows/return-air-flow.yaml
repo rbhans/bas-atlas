@@ -3,7 +3,8 @@ concept:
   name: Return Air Flow
   category: flows
   description: Return Air Flow point
-  haystack: return air flow
+  haystack: return air flow sensor
+  brick: Return_Air_Flow_Sensor
 aliases:
   common:
     - ra-f

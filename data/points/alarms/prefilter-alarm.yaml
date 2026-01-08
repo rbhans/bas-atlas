@@ -3,7 +3,8 @@ concept:
   name: Prefilter Alarm
   category: alarms
   description: Prefilter Alarm point
-  haystack: prefilter alarm
+  haystack: preFilter alarm sensor
+  brick: Pre_Filter_Alarm
 aliases:
   common:
     - pre filter alarm

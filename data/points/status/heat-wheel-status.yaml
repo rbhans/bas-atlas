@@ -3,7 +3,8 @@ concept:
   name: Heat Wheel Status
   category: status
   description: Heat Wheel Status point
-  haystack: heat wheel status
+  haystack: heatWheel run sensor
+  brick: Heat_Wheel_Status
 aliases:
   common:
     - hw-s

@@ -3,7 +3,8 @@ concept:
   name: Final Filter Status
   category: status
   description: Final Filter Status point
-  haystack: final filter status
+  haystack: finalFilter sensor
+  brick: Final_Filter_Status
 aliases:
   common:
     - fin filter status

@@ -3,7 +3,8 @@ concept:
   name: Standby Heating Setpoint
   category: setpoints
   description: Standby Heating Setpoint point
-  haystack: standby heating setpoint
+  haystack: zone air temp standby heating sp
+  brick: Standby_Heating_Temperature_Setpoint
 aliases:
   common:
     - stbyhtg-sp

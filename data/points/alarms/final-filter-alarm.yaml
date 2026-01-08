@@ -3,7 +3,8 @@ concept:
   name: Final Filter Alarm
   category: alarms
   description: Final Filter Alarm point
-  haystack: final filter alarm
+  haystack: finalFilter alarm sensor
+  brick: Final_Filter_Alarm
 aliases:
   common:
     - fin filter alarm

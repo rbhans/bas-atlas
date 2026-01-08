@@ -3,7 +3,8 @@ concept:
   name: Supply Fan Fault
   category: fans
   description: Supply Fan Fault point
-  haystack: supply fan fault
+  haystack: supply fan fault sensor
+  brick: Supply_Fan_Fault_Status
 aliases:
   common:
     - sf-fault

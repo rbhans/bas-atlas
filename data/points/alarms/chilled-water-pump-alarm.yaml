@@ -3,7 +3,8 @@ concept:
   name: Chilled Water Pump Alarm
   category: alarms
   description: Chilled Water Pump Alarm point
-  haystack: chilled water pump alarm
+  haystack: chilled water pump alarm sensor
+  brick: Chilled_Water_Pump_Alarm
 aliases:
   common:
     - chwp-a

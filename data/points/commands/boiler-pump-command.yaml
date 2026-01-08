@@ -3,7 +3,8 @@ concept:
   name: Boiler Pump Command
   category: commands
   description: Boiler Pump Command point
-  haystack: boiler pump command
+  haystack: boiler pump run cmd
+  brick: Boiler_Pump_Command
 aliases:
   common:
     - bp-c

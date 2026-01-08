@@ -3,7 +3,8 @@ concept:
   name: Return Air Pressure Setpoint
   category: pressures
   description: Return Air Pressure Setpoint point
-  haystack: return air pressure setpoint
+  haystack: return air pressure sp
+  brick: Return_Air_Static_Pressure_Setpoint
 aliases:
   common:
     - rap-sp

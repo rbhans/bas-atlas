@@ -3,7 +3,8 @@ concept:
   name: Heating Outdoor Air Lockout Setpoint
   category: setpoints
   description: Heating Outdoor Air Lockout Setpoint point
-  haystack: heating outdoor air lockout setpoint
+  haystack: outside air temp heating lockout sp
+  brick: Outside_Air_Lockout_Temperature_Setpoint
 aliases:
   common:
     - htgoalockout-sp

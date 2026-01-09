@@ -151,7 +151,7 @@ npm run build
 
 ## Stats
 
-- **174** point definitions
+- **200** point definitions
 - **42** equipment definitions
 - **16** categories
 

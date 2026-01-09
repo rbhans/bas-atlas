@@ -1,0 +1,19 @@
+concept:
+  id: relief-air-damper-feedback
+  name: Relief Air Damper Feedback
+  category: dampers
+  description: Actual position/state feedback from relief air damper
+  haystack: relief air damper sensor
+  brick: Relief_Air_Damper_Position_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - rlfd-fb
+    - rlf damper feedback
+    - rlfd feedback
+related:
+  - relief-air-damper-output

@@ -1,0 +1,14 @@
+concept:
+  id: secondary-chilled-water-pump-feedback
+  name: Secondary Chilled Water Pump Feedback
+  category: commands
+  description: Actual position/state feedback from secondary chilled water pump
+  haystack: secondaryLoop chilled water pump speed sensor
+  brick: Secondary_Chilled_Water_Pump_Speed_Position_Sensor
+aliases:
+  common:
+    - schwp-fb
+    - schwp feedback
+    - schwp feedback
+related:
+  - secondary-chilled-water-pump-output

@@ -11,3 +11,5 @@ aliases:
     - heating output
     - heating valve
     - heat output
+related:
+  - heating-valve-feedback

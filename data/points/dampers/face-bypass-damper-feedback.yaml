@@ -1,0 +1,21 @@
+concept:
+  id: face-bypass-damper-feedback
+  name: Face Bypass Damper Feedback
+  category: dampers
+  description: Actual position/state feedback from face bypass damper
+  haystack: bypass damper sensor
+  brick: Bypass_Damper_Position_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - fbd-fb
+    - fbd feedback
+    - fbd feedback
+    - face byp feedback
+    - fbdpr feedback
+related:
+  - face-bypass-damper-output

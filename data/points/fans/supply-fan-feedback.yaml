@@ -1,0 +1,20 @@
+concept:
+  id: supply-fan-feedback
+  name: Supply Fan Feedback
+  category: fans
+  description: Actual position/state feedback from supply fan
+  haystack: supply fan speed sensor
+  brick: Supply_Fan_Speed_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - sf-fb
+    - sf feedback
+    - sf feedback
+    - fan feedback
+related:
+  - supply-fan-output

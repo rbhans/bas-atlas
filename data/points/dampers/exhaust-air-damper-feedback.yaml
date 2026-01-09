@@ -1,0 +1,19 @@
+concept:
+  id: exhaust-air-damper-feedback
+  name: Exhaust Air Damper Feedback
+  category: dampers
+  description: Actual position/state feedback from exhaust air damper
+  haystack: exhaust air damper sensor
+  brick: Exhaust_Air_Damper_Position_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - ead-fb
+    - ea damper feedback
+    - ead feedback
+related:
+  - exhaust-air-damper-output

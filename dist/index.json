@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-08T21:15:59.442Z",
-  "totalPoints": 174,
+  "lastUpdated": "2026-01-09T04:35:33.400Z",
+  "totalPoints": 200,
   "totalEquipment": 42,
   "points": [
     {
@@ -295,6 +295,30 @@
     },
     {
       "concept": {
+        "id": "boiler-feedback",
+        "name": "Boiler Feedback",
+        "category": "commands",
+        "description": "Actual position/state feedback from boiler",
+        "haystack": "boiler run sensor",
+        "brick": "Boiler_Output_Position_Sensor"
+      },
+      "aliases": {
+        "common": [
+          "boiler feedback",
+          "boiler modulation fb",
+          "blr feedback",
+          "blr feedback",
+          "boiler firing rate fb",
+          "blr-fb",
+          "blr-feedback"
+        ]
+      },
+      "related": [
+        "boiler-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "boiler-output",
         "name": "Boiler Output",
         "category": "commands",
@@ -318,7 +342,10 @@
           "blr-o",
           "blr-out"
         ]
-      }
+      },
+      "related": [
+        "boiler-feedback"
+      ]
     },
     {
       "concept": {
@@ -341,6 +368,28 @@
     },
     {
       "concept": {
+        "id": "boiler-pump-feedback",
+        "name": "Boiler Pump Feedback",
+        "category": "commands",
+        "description": "Actual position/state feedback from boiler pump",
+        "haystack": "boiler pump speed sensor",
+        "brick": "Boiler_Pump_Speed_Position_Sensor"
+      },
+      "aliases": {
+        "common": [
+          "bp-fb",
+          "bp feedback",
+          "bp feedback",
+          "blrp feedback",
+          "blr pump feedback"
+        ]
+      },
+      "related": [
+        "boiler-pump-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "boiler-pump-output",
         "name": "Boiler Pump Output",
         "category": "commands",
@@ -356,7 +405,10 @@
           "blrp output",
           "blr pump out"
         ]
-      }
+      },
+      "related": [
+        "boiler-pump-feedback"
+      ]
     },
     {
       "concept": {
@@ -377,6 +429,26 @@
     },
     {
       "concept": {
+        "id": "chilled-water-pump-feedback",
+        "name": "Chilled Water Pump Feedback",
+        "category": "commands",
+        "description": "Actual position/state feedback from chilled water pump",
+        "haystack": "chilled water pump speed sensor",
+        "brick": "Chilled_Water_Pump_Speed_Position_Sensor"
+      },
+      "aliases": {
+        "common": [
+          "chwp-fb",
+          "chwp feedback",
+          "chwp feedback"
+        ]
+      },
+      "related": [
+        "chilled-water-pump-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "chilled-water-pump-output",
         "name": "Chilled Water Pump Output",
         "category": "commands",
@@ -390,7 +462,10 @@
           "chwp out",
           "chwp output"
         ]
-      }
+      },
+      "related": [
+        "chilled-water-pump-feedback"
+      ]
     },
     {
       "concept": {
@@ -457,6 +532,26 @@
     },
     {
       "concept": {
+        "id": "condenser-water-pump-feedback",
+        "name": "Condenser Water Pump Feedback",
+        "category": "commands",
+        "description": "Actual position/state feedback from condenser water pump",
+        "haystack": "condenser water pump speed sensor",
+        "brick": "Condenser_Water_Pump_Speed_Position_Sensor"
+      },
+      "aliases": {
+        "common": [
+          "cwp-fb",
+          "cwp feedback",
+          "cwp feedback"
+        ]
+      },
+      "related": [
+        "condenser-water-pump-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "condenser-water-pump-output",
         "name": "Condenser Water Pump Output",
         "category": "commands",
@@ -470,7 +565,10 @@
           "cwp out",
           "cwp output"
         ]
-      }
+      },
+      "related": [
+        "condenser-water-pump-feedback"
+      ]
     },
     {
       "concept": {
@@ -536,6 +634,32 @@
     },
     {
       "concept": {
+        "id": "cooling-tower-feedback",
+        "name": "Cooling Tower Feedback",
+        "category": "commands",
+        "description": "Actual position/state feedback from cooling tower",
+        "haystack": "coolingTower speed sensor",
+        "brick": "Cooling_Tower_Speed_Position_Sensor"
+      },
+      "aliases": {
+        "common": [
+          "cooling tower feedback",
+          "cooling tower speed fb",
+          "ct feedback",
+          "ct feedback",
+          "ct speed fb",
+          "tower feedback",
+          "tower speed fb",
+          "ct-fb",
+          "ct-feedback"
+        ]
+      },
+      "related": [
+        "cooling-tower-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "cooling-tower-output",
         "name": "Cooling Tower Output",
         "category": "commands",
@@ -561,7 +685,10 @@
           "ct-o",
           "ct-out"
         ]
-      }
+      },
+      "related": [
+        "cooling-tower-feedback"
+      ]
     },
     {
       "concept": {
@@ -582,6 +709,26 @@
     },
     {
       "concept": {
+        "id": "gas-fired-heat-feedback",
+        "name": "Gas Fired Heat Feedback",
+        "category": "commands",
+        "description": "Actual position/state feedback from gas fired heat",
+        "haystack": "gas heat sensor",
+        "brick": "Gas_Heating_Position_Sensor"
+      },
+      "aliases": {
+        "common": [
+          "gashtg-fb",
+          "gas heating feedback",
+          "gas heat fb"
+        ]
+      },
+      "related": [
+        "gas-fired-heat-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "gas-fired-heat-output",
         "name": "Gas Fired Heat Output",
         "category": "commands",
@@ -595,7 +742,10 @@
           "gas heating out",
           "gas heat"
         ]
-      }
+      },
+      "related": [
+        "gas-fired-heat-feedback"
+      ]
     },
     {
       "concept": {
@@ -619,6 +769,29 @@
     },
     {
       "concept": {
+        "id": "heat-wheel-feedback",
+        "name": "Heat Wheel Feedback",
+        "category": "commands",
+        "description": "Actual position/state feedback from heat wheel",
+        "haystack": "heatWheel speed sensor",
+        "brick": "Heat_Wheel_Speed_Position_Sensor"
+      },
+      "aliases": {
+        "common": [
+          "hw-fb",
+          "hw feedback",
+          "hw feedback",
+          "erw feedback",
+          "energy recovery wheel feedback",
+          "erw-fb"
+        ]
+      },
+      "related": [
+        "heat-wheel-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "heat-wheel-output",
         "name": "Heat Wheel Output",
         "category": "commands",
@@ -635,7 +808,10 @@
           "energy recovery wheel output",
           "erw-o"
         ]
-      }
+      },
+      "related": [
+        "heat-wheel-feedback"
+      ]
     },
     {
       "concept": {
@@ -674,6 +850,26 @@
     },
     {
       "concept": {
+        "id": "hot-water-pump-feedback",
+        "name": "Hot Water Pump Feedback",
+        "category": "commands",
+        "description": "Actual position/state feedback from hot water pump",
+        "haystack": "hot water pump speed sensor",
+        "brick": "Hot_Water_Pump_Speed_Position_Sensor"
+      },
+      "aliases": {
+        "common": [
+          "hwp-fb",
+          "hwp feedback",
+          "hwp feedback"
+        ]
+      },
+      "related": [
+        "hot-water-pump-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "hot-water-pump-output",
         "name": "Hot Water Pump Output",
         "category": "commands",
@@ -687,7 +883,10 @@
           "hwp out",
           "hwp output"
         ]
-      }
+      },
+      "related": [
+        "hot-water-pump-feedback"
+      ]
     },
     {
       "concept": {
@@ -725,6 +924,26 @@
     },
     {
       "concept": {
+        "id": "primary-chilled-water-pump-feedback",
+        "name": "Primary Chilled Water Pump Feedback",
+        "category": "commands",
+        "description": "Actual position/state feedback from primary chilled water pump",
+        "haystack": "primaryLoop chilled water pump speed sensor",
+        "brick": "Primary_Chilled_Water_Pump_Speed_Position_Sensor"
+      },
+      "aliases": {
+        "common": [
+          "pchwp-fb",
+          "pchwp feedback",
+          "pchwp feedback"
+        ]
+      },
+      "related": [
+        "primary-chilled-water-pump-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "primary-chilled-water-pump-output",
         "name": "Primary Chilled Water Pump Output",
         "category": "commands",
@@ -738,7 +957,10 @@
           "pchwp out",
           "pchwp output"
         ]
-      }
+      },
+      "related": [
+        "primary-chilled-water-pump-feedback"
+      ]
     },
     {
       "concept": {
@@ -759,6 +981,26 @@
     },
     {
       "concept": {
+        "id": "secondary-chilled-water-pump-feedback",
+        "name": "Secondary Chilled Water Pump Feedback",
+        "category": "commands",
+        "description": "Actual position/state feedback from secondary chilled water pump",
+        "haystack": "secondaryLoop chilled water pump speed sensor",
+        "brick": "Secondary_Chilled_Water_Pump_Speed_Position_Sensor"
+      },
+      "aliases": {
+        "common": [
+          "schwp-fb",
+          "schwp feedback",
+          "schwp feedback"
+        ]
+      },
+      "related": [
+        "secondary-chilled-water-pump-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "secondary-chilled-water-pump-output",
         "name": "Secondary Chilled Water Pump Output",
         "category": "commands",
@@ -772,7 +1014,32 @@
           "schwp out",
           "schwp output"
         ]
-      }
+      },
+      "related": [
+        "secondary-chilled-water-pump-feedback"
+      ]
+    },
+    {
+      "concept": {
+        "id": "steam-heating-feedback",
+        "name": "Steam Heating Feedback",
+        "category": "commands",
+        "description": "Actual position/state feedback from steam heating",
+        "haystack": "steam heat sensor",
+        "brick": "Steam_Heating_Position_Sensor"
+      },
+      "aliases": {
+        "common": [
+          "stm-fb",
+          "steam feedback",
+          "steam heat feedback",
+          "steam htg feedback",
+          "steam htg feedback"
+        ]
+      },
+      "related": [
+        "steam-heating-output"
+      ]
     },
     {
       "concept": {
@@ -791,7 +1058,10 @@
           "steam htg out",
           "steam htg output"
         ]
-      }
+      },
+      "related": [
+        "steam-heating-feedback"
+      ]
     },
     {
       "concept": {
@@ -846,6 +1116,32 @@
     },
     {
       "concept": {
+        "id": "exhaust-air-damper-feedback",
+        "name": "Exhaust Air Damper Feedback",
+        "category": "dampers",
+        "description": "Actual position/state feedback from exhaust air damper",
+        "haystack": "exhaust air damper sensor",
+        "brick": "Exhaust_Air_Damper_Position_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "ead-fb",
+          "ea damper feedback",
+          "ead feedback"
+        ]
+      },
+      "related": [
+        "exhaust-air-damper-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "exhaust-air-damper-open",
         "name": "Exhaust Air Damper Open",
         "category": "dampers",
@@ -876,7 +1172,10 @@
           "ea damper output",
           "ead output"
         ]
-      }
+      },
+      "related": [
+        "exhaust-air-damper-feedback"
+      ]
     },
     {
       "concept": {
@@ -897,6 +1196,34 @@
     },
     {
       "concept": {
+        "id": "face-bypass-damper-feedback",
+        "name": "Face Bypass Damper Feedback",
+        "category": "dampers",
+        "description": "Actual position/state feedback from face bypass damper",
+        "haystack": "bypass damper sensor",
+        "brick": "Bypass_Damper_Position_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "fbd-fb",
+          "fbd feedback",
+          "fbd feedback",
+          "face byp feedback",
+          "fbdpr feedback"
+        ]
+      },
+      "related": [
+        "face-bypass-damper-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "face-bypass-damper-output",
         "name": "Face Bypass Damper Output",
         "category": "dampers",
@@ -912,7 +1239,10 @@
           "face byp output",
           "fbdpr out"
         ]
-      }
+      },
+      "related": [
+        "face-bypass-damper-feedback"
+      ]
     },
     {
       "concept": {
@@ -930,6 +1260,32 @@
           "mad closed"
         ]
       }
+    },
+    {
+      "concept": {
+        "id": "mixed-air-damper-feedback",
+        "name": "Mixed Air Damper Feedback",
+        "category": "dampers",
+        "description": "Actual position/state feedback from mixed air damper",
+        "haystack": "mixed air damper sensor",
+        "brick": "Mixed_Air_Damper_Position_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "mad-fb",
+          "ma damper feedback",
+          "mad feedback"
+        ]
+      },
+      "related": [
+        "mixed-air-damper-output"
+      ]
     },
     {
       "concept": {
@@ -963,7 +1319,10 @@
           "ma damper output",
           "mad output"
         ]
-      }
+      },
+      "related": [
+        "mixed-air-damper-feedback"
+      ]
     },
     {
       "concept": {
@@ -1002,6 +1361,33 @@
     },
     {
       "concept": {
+        "id": "outside-air-damper-feedback",
+        "name": "Outside Air Damper Feedback",
+        "category": "dampers",
+        "description": "Actual position/state feedback from outside air damper",
+        "haystack": "outside air damper sensor",
+        "brick": "Outside_Air_Damper_Position_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "oad-fb",
+          "oa damper feedback",
+          "oad feedback",
+          "outdoor air damper feedback"
+        ]
+      },
+      "related": [
+        "outside-air-damper-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "outside-air-damper-open",
         "name": "Outside Air Damper Open",
         "category": "dampers",
@@ -1034,7 +1420,10 @@
           "oad output",
           "outdoor air damper output"
         ]
-      }
+      },
+      "related": [
+        "outside-air-damper-feedback"
+      ]
     },
     {
       "concept": {
@@ -1073,6 +1462,32 @@
     },
     {
       "concept": {
+        "id": "relief-air-damper-feedback",
+        "name": "Relief Air Damper Feedback",
+        "category": "dampers",
+        "description": "Actual position/state feedback from relief air damper",
+        "haystack": "relief air damper sensor",
+        "brick": "Relief_Air_Damper_Position_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "rlfd-fb",
+          "rlf damper feedback",
+          "rlfd feedback"
+        ]
+      },
+      "related": [
+        "relief-air-damper-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "relief-air-damper-open",
         "name": "Relief Air Damper Open",
         "category": "dampers",
@@ -1103,7 +1518,10 @@
           "rlf damper output",
           "rlfd output"
         ]
-      }
+      },
+      "related": [
+        "relief-air-damper-feedback"
+      ]
     },
     {
       "concept": {
@@ -1193,6 +1611,32 @@
     },
     {
       "concept": {
+        "id": "exhaust-fan-feedback",
+        "name": "Exhaust Fan Feedback",
+        "category": "fans",
+        "description": "Actual position/state feedback from exhaust fan",
+        "haystack": "exhaust fan speed sensor",
+        "brick": "Exhaust_Fan_Speed_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "ef-fb",
+          "ef feedback",
+          "ef feedback"
+        ]
+      },
+      "related": [
+        "exhaust-fan-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "exhaust-fan-output",
         "name": "Exhaust Fan Output",
         "category": "fans",
@@ -1206,7 +1650,10 @@
           "ef output",
           "ef out"
         ]
-      }
+      },
+      "related": [
+        "exhaust-fan-feedback"
+      ]
     },
     {
       "concept": {
@@ -1295,6 +1742,32 @@
     },
     {
       "concept": {
+        "id": "relief-fan-feedback",
+        "name": "Relief Fan Feedback",
+        "category": "fans",
+        "description": "Actual position/state feedback from relief fan",
+        "haystack": "relief fan speed sensor",
+        "brick": "Relief_Fan_Speed_Position_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "rlf-fb",
+          "rlf feedback",
+          "rlf feedback"
+        ]
+      },
+      "related": [
+        "relief-fan-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "relief-fan-output",
         "name": "Relief Fan Output",
         "category": "fans",
@@ -1308,7 +1781,10 @@
           "rlf output",
           "rlf out"
         ]
-      }
+      },
+      "related": [
+        "relief-fan-feedback"
+      ]
     },
     {
       "concept": {
@@ -1397,6 +1873,32 @@
     },
     {
       "concept": {
+        "id": "return-fan-feedback",
+        "name": "Return Fan Feedback",
+        "category": "fans",
+        "description": "Actual position/state feedback from return fan",
+        "haystack": "return fan speed sensor",
+        "brick": "Return_Fan_Speed_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "rf-fb",
+          "rf feedback",
+          "rf feedback"
+        ]
+      },
+      "related": [
+        "return-fan-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "return-fan-output",
         "name": "Return Fan Output",
         "category": "fans",
@@ -1410,7 +1912,10 @@
           "rf output",
           "rf out"
         ]
-      }
+      },
+      "related": [
+        "return-fan-feedback"
+      ]
     },
     {
       "concept": {
@@ -1502,6 +2007,33 @@
     },
     {
       "concept": {
+        "id": "supply-fan-feedback",
+        "name": "Supply Fan Feedback",
+        "category": "fans",
+        "description": "Actual position/state feedback from supply fan",
+        "haystack": "supply fan speed sensor",
+        "brick": "Supply_Fan_Speed_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "sf-fb",
+          "sf feedback",
+          "sf feedback",
+          "fan feedback"
+        ]
+      },
+      "related": [
+        "supply-fan-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "supply-fan-output",
         "name": "Supply Fan Output",
         "category": "fans",
@@ -1516,7 +2048,10 @@
           "sf out",
           "fan output"
         ]
-      }
+      },
+      "related": [
+        "supply-fan-feedback"
+      ]
     },
     {
       "concept": {
@@ -1694,6 +2229,28 @@
     },
     {
       "concept": {
+        "id": "humidifier-feedback",
+        "name": "Humidifier Feedback",
+        "category": "humidity",
+        "description": "Actual position/state feedback from humidifier",
+        "haystack": "humidifier run sensor",
+        "brick": "Humidifier_Status"
+      },
+      "aliases": {
+        "common": [
+          "hum-fb",
+          "humidifier feedback",
+          "hum vlv fb",
+          "humidifier valve feedback",
+          "humid valve fb"
+        ]
+      },
+      "related": [
+        "humidifier-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "humidifier-output",
         "name": "Humidifier Output",
         "category": "humidity",
@@ -1709,7 +2266,10 @@
           "humidifier valve out",
           "humid valve"
         ]
-      }
+      },
+      "related": [
+        "humidifier-feedback"
+      ]
     },
     {
       "concept": {
@@ -3281,6 +3841,32 @@
     },
     {
       "concept": {
+        "id": "bypass-valve-feedback",
+        "name": "Bypass Valve Feedback",
+        "category": "valves",
+        "description": "Actual position/state feedback from bypass valve",
+        "haystack": "bypass valve sensor",
+        "brick": "Bypass_Valve_Position_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "byp-fb",
+          "byp vlv feedback",
+          "bypass vlv feedback"
+        ]
+      },
+      "related": [
+        "bypass-valve-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "bypass-valve-output",
         "name": "Bypass Valve Output",
         "category": "valves",
@@ -3294,7 +3880,10 @@
           "byp vlv out",
           "bypass vlv output"
         ]
-      }
+      },
+      "related": [
+        "bypass-valve-feedback"
+      ]
     },
     {
       "concept": {
@@ -3320,6 +3909,35 @@
     },
     {
       "concept": {
+        "id": "cooling-valve-feedback",
+        "name": "Cooling Valve Feedback",
+        "category": "valves",
+        "description": "Actual position/state feedback from cooling valve",
+        "haystack": "cool valve sensor",
+        "brick": "Cooling_Valve_Position_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "clg-fb",
+          "cooling feedback",
+          "cooling valve fb",
+          "cool feedback",
+          "chw valve fb",
+          "chw vlv feedback"
+        ]
+      },
+      "related": [
+        "cooling-valve-output"
+      ]
+    },
+    {
+      "concept": {
         "id": "cooling-valve-output",
         "name": "Cooling Valve Output",
         "category": "valves",
@@ -3336,7 +3954,37 @@
           "chw valve",
           "chw vlv out"
         ]
-      }
+      },
+      "related": [
+        "cooling-valve-feedback"
+      ]
+    },
+    {
+      "concept": {
+        "id": "heating-valve-feedback",
+        "name": "Heating Valve Feedback",
+        "category": "valves",
+        "description": "Actual position/state feedback from heating valve",
+        "haystack": "heat valve sensor",
+        "brick": "Heating_Valve_Position_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "htg-fb",
+          "heating feedback",
+          "heating valve fb",
+          "heat feedback"
+        ]
+      },
+      "related": [
+        "heating-valve-output"
+      ]
     },
     {
       "concept": {
@@ -3354,7 +4002,36 @@
           "heating valve",
           "heat output"
         ]
-      }
+      },
+      "related": [
+        "heating-valve-feedback"
+      ]
+    },
+    {
+      "concept": {
+        "id": "isolation-valve-feedback",
+        "name": "Isolation Valve Feedback",
+        "category": "valves",
+        "description": "Actual position/state feedback from isolation valve",
+        "haystack": "isolation valve sensor",
+        "brick": "Isolation_Valve_Position_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "iso-fb",
+          "iso vlv feedback",
+          "iso valve feedback"
+        ]
+      },
+      "related": [
+        "isolation-valve-output"
+      ]
     },
     {
       "concept": {
@@ -3371,7 +4048,36 @@
           "iso vlv out",
           "iso valve output"
         ]
-      }
+      },
+      "related": [
+        "isolation-valve-feedback"
+      ]
+    },
+    {
+      "concept": {
+        "id": "mixing-valve-feedback",
+        "name": "Mixing Valve Feedback",
+        "category": "valves",
+        "description": "Actual position/state feedback from mixing valve",
+        "haystack": "mixing valve sensor",
+        "brick": "Mixing_Valve_Position_Sensor",
+        "unit": "%",
+        "typical_range": {
+          "min": 0,
+          "max": 100
+        },
+        "object_type": "analogInput"
+      },
+      "aliases": {
+        "common": [
+          "mixvlv-fb",
+          "mix vlv feedback",
+          "mix valve feedback"
+        ]
+      },
+      "related": [
+        "mixing-valve-output"
+      ]
     },
     {
       "concept": {
@@ -3388,7 +4094,10 @@
           "mix vlv out",
           "mix valve output"
         ]
-      }
+      },
+      "related": [
+        "mixing-valve-feedback"
+      ]
     }
   ],
   "equipment": [

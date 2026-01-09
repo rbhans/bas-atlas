@@ -1,0 +1,19 @@
+concept:
+  id: mixed-air-damper-feedback
+  name: Mixed Air Damper Feedback
+  category: dampers
+  description: Actual position/state feedback from mixed air damper
+  haystack: mixed air damper sensor
+  brick: Mixed_Air_Damper_Position_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - mad-fb
+    - ma damper feedback
+    - mad feedback
+related:
+  - mixed-air-damper-output

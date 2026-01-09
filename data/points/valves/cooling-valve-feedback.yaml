@@ -1,0 +1,22 @@
+concept:
+  id: cooling-valve-feedback
+  name: Cooling Valve Feedback
+  category: valves
+  description: Actual position/state feedback from cooling valve
+  haystack: cool valve sensor
+  brick: Cooling_Valve_Position_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - clg-fb
+    - cooling feedback
+    - cooling valve fb
+    - cool feedback
+    - chw valve fb
+    - chw vlv feedback
+related:
+  - cooling-valve-output

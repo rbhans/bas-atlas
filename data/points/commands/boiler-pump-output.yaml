@@ -12,3 +12,5 @@ aliases:
     - bp output
     - blrp output
     - blr pump out
+related:
+  - boiler-pump-feedback

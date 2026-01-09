@@ -1,0 +1,19 @@
+concept:
+  id: relief-fan-feedback
+  name: Relief Fan Feedback
+  category: fans
+  description: Actual position/state feedback from relief fan
+  haystack: relief fan speed sensor
+  brick: Relief_Fan_Speed_Position_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - rlf-fb
+    - rlf feedback
+    - rlf feedback
+related:
+  - relief-fan-output

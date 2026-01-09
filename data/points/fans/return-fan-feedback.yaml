@@ -1,0 +1,19 @@
+concept:
+  id: return-fan-feedback
+  name: Return Fan Feedback
+  category: fans
+  description: Actual position/state feedback from return fan
+  haystack: return fan speed sensor
+  brick: Return_Fan_Speed_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - rf-fb
+    - rf feedback
+    - rf feedback
+related:
+  - return-fan-output

@@ -19,3 +19,5 @@ aliases:
     - boiler firing rate
     - blr-o
     - blr-out
+related:
+  - boiler-feedback

@@ -1,0 +1,20 @@
+concept:
+  id: outside-air-damper-feedback
+  name: Outside Air Damper Feedback
+  category: dampers
+  description: Actual position/state feedback from outside air damper
+  haystack: outside air damper sensor
+  brick: Outside_Air_Damper_Position_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - oad-fb
+    - oa damper feedback
+    - oad feedback
+    - outdoor air damper feedback
+related:
+  - outside-air-damper-output

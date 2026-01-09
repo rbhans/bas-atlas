@@ -1,0 +1,20 @@
+concept:
+  id: heating-valve-feedback
+  name: Heating Valve Feedback
+  category: valves
+  description: Actual position/state feedback from heating valve
+  haystack: heat valve sensor
+  brick: Heating_Valve_Position_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - htg-fb
+    - heating feedback
+    - heating valve fb
+    - heat feedback
+related:
+  - heating-valve-output

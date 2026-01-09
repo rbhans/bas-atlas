@@ -13,3 +13,5 @@ aliases:
     - erw output
     - energy recovery wheel output
     - erw-o
+related:
+  - heat-wheel-feedback

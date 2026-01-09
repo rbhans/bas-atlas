@@ -1,0 +1,19 @@
+concept:
+  id: isolation-valve-feedback
+  name: Isolation Valve Feedback
+  category: valves
+  description: Actual position/state feedback from isolation valve
+  haystack: isolation valve sensor
+  brick: Isolation_Valve_Position_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - iso-fb
+    - iso vlv feedback
+    - iso valve feedback
+related:
+  - isolation-valve-output

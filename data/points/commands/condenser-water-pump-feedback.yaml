@@ -1,0 +1,14 @@
+concept:
+  id: condenser-water-pump-feedback
+  name: Condenser Water Pump Feedback
+  category: commands
+  description: Actual position/state feedback from condenser water pump
+  haystack: condenser water pump speed sensor
+  brick: Condenser_Water_Pump_Speed_Position_Sensor
+aliases:
+  common:
+    - cwp-fb
+    - cwp feedback
+    - cwp feedback
+related:
+  - condenser-water-pump-output

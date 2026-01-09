@@ -1,0 +1,19 @@
+concept:
+  id: mixing-valve-feedback
+  name: Mixing Valve Feedback
+  category: valves
+  description: Actual position/state feedback from mixing valve
+  haystack: mixing valve sensor
+  brick: Mixing_Valve_Position_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - mixvlv-fb
+    - mix vlv feedback
+    - mix valve feedback
+related:
+  - mixing-valve-output

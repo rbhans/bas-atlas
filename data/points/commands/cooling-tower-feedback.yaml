@@ -1,0 +1,20 @@
+concept:
+  id: cooling-tower-feedback
+  name: Cooling Tower Feedback
+  category: commands
+  description: Actual position/state feedback from cooling tower
+  haystack: coolingTower speed sensor
+  brick: Cooling_Tower_Speed_Position_Sensor
+aliases:
+  common:
+    - cooling tower feedback
+    - cooling tower speed fb
+    - ct feedback
+    - ct feedback
+    - ct speed fb
+    - tower feedback
+    - tower speed fb
+    - ct-fb
+    - ct-feedback
+related:
+  - cooling-tower-output

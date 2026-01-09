@@ -10,3 +10,5 @@ aliases:
     - mad-o
     - ma damper output
     - mad output
+related:
+  - mixed-air-damper-feedback

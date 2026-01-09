@@ -1,0 +1,14 @@
+concept:
+  id: gas-fired-heat-feedback
+  name: Gas Fired Heat Feedback
+  category: commands
+  description: Actual position/state feedback from gas fired heat
+  haystack: gas heat sensor
+  brick: Gas_Heating_Position_Sensor
+aliases:
+  common:
+    - gashtg-fb
+    - gas heating feedback
+    - gas heat fb
+related:
+  - gas-fired-heat-output

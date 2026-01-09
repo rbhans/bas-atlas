@@ -1,0 +1,14 @@
+concept:
+  id: primary-chilled-water-pump-feedback
+  name: Primary Chilled Water Pump Feedback
+  category: commands
+  description: Actual position/state feedback from primary chilled water pump
+  haystack: primaryLoop chilled water pump speed sensor
+  brick: Primary_Chilled_Water_Pump_Speed_Position_Sensor
+aliases:
+  common:
+    - pchwp-fb
+    - pchwp feedback
+    - pchwp feedback
+related:
+  - primary-chilled-water-pump-output

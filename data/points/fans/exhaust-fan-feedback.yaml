@@ -1,0 +1,19 @@
+concept:
+  id: exhaust-fan-feedback
+  name: Exhaust Fan Feedback
+  category: fans
+  description: Actual position/state feedback from exhaust fan
+  haystack: exhaust fan speed sensor
+  brick: Exhaust_Fan_Speed_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - ef-fb
+    - ef feedback
+    - ef feedback
+related:
+  - exhaust-fan-output

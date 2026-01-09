@@ -1,0 +1,18 @@
+concept:
+  id: boiler-feedback
+  name: Boiler Feedback
+  category: commands
+  description: Actual position/state feedback from boiler
+  haystack: boiler run sensor
+  brick: Boiler_Output_Position_Sensor
+aliases:
+  common:
+    - boiler feedback
+    - boiler modulation fb
+    - blr feedback
+    - blr feedback
+    - boiler firing rate fb
+    - blr-fb
+    - blr-feedback
+related:
+  - boiler-output

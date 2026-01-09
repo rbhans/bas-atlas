@@ -41,19 +41,19 @@
       "id": "commands",
       "name": "Commands",
       "type": "points",
-      "count": 29
+      "count": 40
     },
     {
       "id": "dampers",
       "name": "Dampers",
       "type": "points",
-      "count": 18
+      "count": 23
     },
     {
       "id": "fans",
       "name": "Fans",
       "type": "points",
-      "count": 24
+      "count": 28
     },
     {
       "id": "flows",
@@ -65,7 +65,7 @@
       "id": "humidity",
       "name": "Humidity",
       "type": "points",
-      "count": 6
+      "count": 7
     },
     {
       "id": "pressures",
@@ -95,7 +95,7 @@
       "id": "valves",
       "name": "Valves",
       "type": "points",
-      "count": 6
+      "count": 11
     }
   ]
 }

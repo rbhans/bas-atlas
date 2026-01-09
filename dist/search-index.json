@@ -309,6 +309,27 @@
       ]
     },
     {
+      "id": "boiler-feedback",
+      "type": "point",
+      "name": "Boiler Feedback",
+      "tokens": [
+        "boiler feedback",
+        "boiler-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "boiler",
+        "run",
+        "sensor",
+        "boiler modulation fb",
+        "blr feedback",
+        "boiler firing rate fb",
+        "blr-fb",
+        "blr-feedback"
+      ]
+    },
+    {
       "id": "boiler-output",
       "type": "point",
       "name": "Boiler Output",
@@ -351,6 +372,27 @@
       ]
     },
     {
+      "id": "boiler-pump-feedback",
+      "type": "point",
+      "name": "Boiler Pump Feedback",
+      "tokens": [
+        "boiler pump feedback",
+        "boiler-pump-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "boiler",
+        "pump",
+        "speed",
+        "sensor",
+        "bp-fb",
+        "bp feedback",
+        "blrp feedback",
+        "blr pump feedback"
+      ]
+    },
+    {
       "id": "boiler-pump-output",
       "type": "point",
       "name": "Boiler Pump Output",
@@ -387,6 +429,26 @@
         "chwp-c",
         "chwp cmd",
         "chwp command"
+      ]
+    },
+    {
+      "id": "chilled-water-pump-feedback",
+      "type": "point",
+      "name": "Chilled Water Pump Feedback",
+      "tokens": [
+        "chilled water pump feedback",
+        "chilled-water-pump-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "chilled",
+        "water",
+        "pump",
+        "speed",
+        "sensor",
+        "chwp-fb",
+        "chwp feedback"
       ]
     },
     {
@@ -471,6 +533,26 @@
         "cwp-c",
         "cwp cmd",
         "cwp command"
+      ]
+    },
+    {
+      "id": "condenser-water-pump-feedback",
+      "type": "point",
+      "name": "Condenser Water Pump Feedback",
+      "tokens": [
+        "condenser water pump feedback",
+        "condenser-water-pump-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "condenser",
+        "water",
+        "pump",
+        "speed",
+        "sensor",
+        "cwp-fb",
+        "cwp feedback"
       ]
     },
     {
@@ -559,6 +641,31 @@
       ]
     },
     {
+      "id": "cooling-tower-feedback",
+      "type": "point",
+      "name": "Cooling Tower Feedback",
+      "tokens": [
+        "cooling tower feedback",
+        "cooling-tower-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "cooling",
+        "tower",
+        "coolingtower",
+        "speed",
+        "sensor",
+        "cooling tower speed fb",
+        "ct feedback",
+        "ct speed fb",
+        "tower feedback",
+        "tower speed fb",
+        "ct-fb",
+        "ct-feedback"
+      ]
+    },
+    {
       "id": "cooling-tower-output",
       "type": "point",
       "name": "Cooling Tower Output",
@@ -602,6 +709,26 @@
       ]
     },
     {
+      "id": "gas-fired-heat-feedback",
+      "type": "point",
+      "name": "Gas Fired Heat Feedback",
+      "tokens": [
+        "gas fired heat feedback",
+        "gas-fired-heat-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "gas",
+        "fired",
+        "heat",
+        "sensor",
+        "gashtg-fb",
+        "gas heating feedback",
+        "gas heat fb"
+      ]
+    },
+    {
       "id": "gas-fired-heat-output",
       "type": "point",
       "name": "Gas Fired Heat Output",
@@ -639,6 +766,29 @@
         "erw command",
         "energy recovery wheel command",
         "erw-c"
+      ]
+    },
+    {
+      "id": "heat-wheel-feedback",
+      "type": "point",
+      "name": "Heat Wheel Feedback",
+      "tokens": [
+        "heat wheel feedback",
+        "heat-wheel-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "heat",
+        "wheel",
+        "heatwheel",
+        "speed",
+        "sensor",
+        "hw-fb",
+        "hw feedback",
+        "erw feedback",
+        "energy recovery wheel feedback",
+        "erw-fb"
       ]
     },
     {
@@ -701,6 +851,26 @@
       ]
     },
     {
+      "id": "hot-water-pump-feedback",
+      "type": "point",
+      "name": "Hot Water Pump Feedback",
+      "tokens": [
+        "hot water pump feedback",
+        "hot-water-pump-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "hot",
+        "water",
+        "pump",
+        "speed",
+        "sensor",
+        "hwp-fb",
+        "hwp feedback"
+      ]
+    },
+    {
       "id": "hot-water-pump-output",
       "type": "point",
       "name": "Hot Water Pump Output",
@@ -757,6 +927,28 @@
       ]
     },
     {
+      "id": "primary-chilled-water-pump-feedback",
+      "type": "point",
+      "name": "Primary Chilled Water Pump Feedback",
+      "tokens": [
+        "primary chilled water pump feedback",
+        "primary-chilled-water-pump-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "primary",
+        "chilled",
+        "water",
+        "pump",
+        "primaryloop",
+        "speed",
+        "sensor",
+        "pchwp-fb",
+        "pchwp feedback"
+      ]
+    },
+    {
       "id": "primary-chilled-water-pump-output",
       "type": "point",
       "name": "Primary Chilled Water Pump Output",
@@ -799,6 +991,28 @@
       ]
     },
     {
+      "id": "secondary-chilled-water-pump-feedback",
+      "type": "point",
+      "name": "Secondary Chilled Water Pump Feedback",
+      "tokens": [
+        "secondary chilled water pump feedback",
+        "secondary-chilled-water-pump-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "secondary",
+        "chilled",
+        "water",
+        "pump",
+        "secondaryloop",
+        "speed",
+        "sensor",
+        "schwp-fb",
+        "schwp feedback"
+      ]
+    },
+    {
       "id": "secondary-chilled-water-pump-output",
       "type": "point",
       "name": "Secondary Chilled Water Pump Output",
@@ -817,6 +1031,27 @@
         "schwp-o",
         "schwp out",
         "schwp output"
+      ]
+    },
+    {
+      "id": "steam-heating-feedback",
+      "type": "point",
+      "name": "Steam Heating Feedback",
+      "tokens": [
+        "steam heating feedback",
+        "steam-heating-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "steam",
+        "heating",
+        "heat",
+        "sensor",
+        "stm-fb",
+        "steam feedback",
+        "steam heat feedback",
+        "steam htg feedback"
       ]
     },
     {
@@ -890,6 +1125,26 @@
       ]
     },
     {
+      "id": "exhaust-air-damper-feedback",
+      "type": "point",
+      "name": "Exhaust Air Damper Feedback",
+      "tokens": [
+        "exhaust air damper feedback",
+        "exhaust-air-damper-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "exhaust",
+        "air",
+        "damper",
+        "sensor",
+        "ead-fb",
+        "ea damper feedback",
+        "ead feedback"
+      ]
+    },
+    {
       "id": "exhaust-air-damper-open",
       "type": "point",
       "name": "Exhaust Air Damper Open",
@@ -944,6 +1199,27 @@
       ]
     },
     {
+      "id": "face-bypass-damper-feedback",
+      "type": "point",
+      "name": "Face Bypass Damper Feedback",
+      "tokens": [
+        "face bypass damper feedback",
+        "face-bypass-damper-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "face",
+        "bypass",
+        "damper",
+        "sensor",
+        "fbd-fb",
+        "fbd feedback",
+        "face byp feedback",
+        "fbdpr feedback"
+      ]
+    },
+    {
       "id": "face-bypass-damper-output",
       "type": "point",
       "name": "Face Bypass Damper Output",
@@ -979,6 +1255,26 @@
         "mad-closed",
         "ma damper closed",
         "mad closed"
+      ]
+    },
+    {
+      "id": "mixed-air-damper-feedback",
+      "type": "point",
+      "name": "Mixed Air Damper Feedback",
+      "tokens": [
+        "mixed air damper feedback",
+        "mixed-air-damper-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "mixed",
+        "air",
+        "damper",
+        "sensor",
+        "mad-fb",
+        "ma damper feedback",
+        "mad feedback"
       ]
     },
     {
@@ -1055,6 +1351,27 @@
       ]
     },
     {
+      "id": "outside-air-damper-feedback",
+      "type": "point",
+      "name": "Outside Air Damper Feedback",
+      "tokens": [
+        "outside air damper feedback",
+        "outside-air-damper-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "outside",
+        "air",
+        "damper",
+        "sensor",
+        "oad-fb",
+        "oa damper feedback",
+        "oad feedback",
+        "outdoor air damper feedback"
+      ]
+    },
+    {
       "id": "outside-air-damper-open",
       "type": "point",
       "name": "Outside Air Damper Open",
@@ -1127,6 +1444,26 @@
         "rlfd-closed",
         "rlf damper closed",
         "rlfd closed"
+      ]
+    },
+    {
+      "id": "relief-air-damper-feedback",
+      "type": "point",
+      "name": "Relief Air Damper Feedback",
+      "tokens": [
+        "relief air damper feedback",
+        "relief-air-damper-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "relief",
+        "air",
+        "damper",
+        "sensor",
+        "rlfd-fb",
+        "rlf damper feedback",
+        "rlfd feedback"
       ]
     },
     {
@@ -1254,6 +1591,25 @@
       ]
     },
     {
+      "id": "exhaust-fan-feedback",
+      "type": "point",
+      "name": "Exhaust Fan Feedback",
+      "tokens": [
+        "exhaust fan feedback",
+        "exhaust-fan-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "exhaust",
+        "fan",
+        "speed",
+        "sensor",
+        "ef-fb",
+        "ef feedback"
+      ]
+    },
+    {
       "id": "exhaust-fan-output",
       "type": "point",
       "name": "Exhaust Fan Output",
@@ -1356,6 +1712,25 @@
         "rlf-fault",
         "rlf fault",
         "rlf flt"
+      ]
+    },
+    {
+      "id": "relief-fan-feedback",
+      "type": "point",
+      "name": "Relief Fan Feedback",
+      "tokens": [
+        "relief fan feedback",
+        "relief-fan-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "relief",
+        "fan",
+        "speed",
+        "sensor",
+        "rlf-fb",
+        "rlf feedback"
       ]
     },
     {
@@ -1464,6 +1839,25 @@
       ]
     },
     {
+      "id": "return-fan-feedback",
+      "type": "point",
+      "name": "Return Fan Feedback",
+      "tokens": [
+        "return fan feedback",
+        "return-fan-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "return",
+        "fan",
+        "speed",
+        "sensor",
+        "rf-fb",
+        "rf feedback"
+      ]
+    },
+    {
       "id": "return-fan-output",
       "type": "point",
       "name": "Return Fan Output",
@@ -1569,6 +1963,26 @@
         "sf fault",
         "sf flt",
         "fan fault"
+      ]
+    },
+    {
+      "id": "supply-fan-feedback",
+      "type": "point",
+      "name": "Supply Fan Feedback",
+      "tokens": [
+        "supply fan feedback",
+        "supply-fan-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "supply",
+        "fan",
+        "speed",
+        "sensor",
+        "sf-fb",
+        "sf feedback",
+        "fan feedback"
       ]
     },
     {
@@ -1753,6 +2167,26 @@
         "hum-en",
         "humid en",
         "humid enable"
+      ]
+    },
+    {
+      "id": "humidifier-feedback",
+      "type": "point",
+      "name": "Humidifier Feedback",
+      "tokens": [
+        "humidifier feedback",
+        "humidifier-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "humidifier",
+        "run",
+        "sensor",
+        "hum-fb",
+        "hum vlv fb",
+        "humidifier valve feedback",
+        "humid valve fb"
       ]
     },
     {
@@ -3400,6 +3834,25 @@
       ]
     },
     {
+      "id": "bypass-valve-feedback",
+      "type": "point",
+      "name": "Bypass Valve Feedback",
+      "tokens": [
+        "bypass valve feedback",
+        "bypass-valve-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "bypass",
+        "valve",
+        "sensor",
+        "byp-fb",
+        "byp vlv feedback",
+        "bypass vlv feedback"
+      ]
+    },
+    {
       "id": "bypass-valve-output",
       "type": "point",
       "name": "Bypass Valve Output",
@@ -3442,6 +3895,29 @@
       ]
     },
     {
+      "id": "cooling-valve-feedback",
+      "type": "point",
+      "name": "Cooling Valve Feedback",
+      "tokens": [
+        "cooling valve feedback",
+        "cooling-valve-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "cooling",
+        "valve",
+        "cool",
+        "sensor",
+        "clg-fb",
+        "cooling feedback",
+        "cooling valve fb",
+        "cool feedback",
+        "chw valve fb",
+        "chw vlv feedback"
+      ]
+    },
+    {
       "id": "cooling-valve-output",
       "type": "point",
       "name": "Cooling Valve Output",
@@ -3460,6 +3936,27 @@
         "cool output",
         "chw valve",
         "chw vlv out"
+      ]
+    },
+    {
+      "id": "heating-valve-feedback",
+      "type": "point",
+      "name": "Heating Valve Feedback",
+      "tokens": [
+        "heating valve feedback",
+        "heating-valve-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "heating",
+        "valve",
+        "heat",
+        "sensor",
+        "htg-fb",
+        "heating feedback",
+        "heating valve fb",
+        "heat feedback"
       ]
     },
     {
@@ -3482,6 +3979,25 @@
       ]
     },
     {
+      "id": "isolation-valve-feedback",
+      "type": "point",
+      "name": "Isolation Valve Feedback",
+      "tokens": [
+        "isolation valve feedback",
+        "isolation-valve-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "isolation",
+        "valve",
+        "sensor",
+        "iso-fb",
+        "iso vlv feedback",
+        "iso valve feedback"
+      ]
+    },
+    {
       "id": "isolation-valve-output",
       "type": "point",
       "name": "Isolation Valve Output",
@@ -3496,6 +4012,25 @@
         "iso-o",
         "iso vlv out",
         "iso valve output"
+      ]
+    },
+    {
+      "id": "mixing-valve-feedback",
+      "type": "point",
+      "name": "Mixing Valve Feedback",
+      "tokens": [
+        "mixing valve feedback",
+        "mixing-valve-feedback",
+        "actual",
+        "position/state",
+        "feedback",
+        "from",
+        "mixing",
+        "valve",
+        "sensor",
+        "mixvlv-fb",
+        "mix vlv feedback",
+        "mix valve feedback"
       ]
     },
     {

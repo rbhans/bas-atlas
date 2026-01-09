@@ -1,0 +1,16 @@
+concept:
+  id: humidifier-feedback
+  name: Humidifier Feedback
+  category: humidity
+  description: Actual position/state feedback from humidifier
+  haystack: humidifier run sensor
+  brick: Humidifier_Status
+aliases:
+  common:
+    - hum-fb
+    - humidifier feedback
+    - hum vlv fb
+    - humidifier valve feedback
+    - humid valve fb
+related:
+  - humidifier-output

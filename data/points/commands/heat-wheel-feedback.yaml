@@ -1,0 +1,17 @@
+concept:
+  id: heat-wheel-feedback
+  name: Heat Wheel Feedback
+  category: commands
+  description: Actual position/state feedback from heat wheel
+  haystack: heatWheel speed sensor
+  brick: Heat_Wheel_Speed_Position_Sensor
+aliases:
+  common:
+    - hw-fb
+    - hw feedback
+    - hw feedback
+    - erw feedback
+    - energy recovery wheel feedback
+    - erw-fb
+related:
+  - heat-wheel-output

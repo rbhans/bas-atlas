@@ -10,3 +10,5 @@ aliases:
     - rlfd-o
     - rlf damper output
     - rlfd output
+related:
+  - relief-air-damper-feedback

@@ -1,0 +1,16 @@
+concept:
+  id: boiler-pump-feedback
+  name: Boiler Pump Feedback
+  category: commands
+  description: Actual position/state feedback from boiler pump
+  haystack: boiler pump speed sensor
+  brick: Boiler_Pump_Speed_Position_Sensor
+aliases:
+  common:
+    - bp-fb
+    - bp feedback
+    - bp feedback
+    - blrp feedback
+    - blr pump feedback
+related:
+  - boiler-pump-output

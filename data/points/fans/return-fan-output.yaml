@@ -10,3 +10,5 @@ aliases:
     - rf-o
     - rf output
     - rf out
+related:
+  - return-fan-feedback

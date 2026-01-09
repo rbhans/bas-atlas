@@ -1,0 +1,19 @@
+concept:
+  id: bypass-valve-feedback
+  name: Bypass Valve Feedback
+  category: valves
+  description: Actual position/state feedback from bypass valve
+  haystack: bypass valve sensor
+  brick: Bypass_Valve_Position_Sensor
+  unit: "%"
+  typical_range:
+    min: 0
+    max: 100
+  object_type: analogInput
+aliases:
+  common:
+    - byp-fb
+    - byp vlv feedback
+    - bypass vlv feedback
+related:
+  - bypass-valve-output

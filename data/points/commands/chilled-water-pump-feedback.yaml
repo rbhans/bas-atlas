@@ -1,0 +1,14 @@
+concept:
+  id: chilled-water-pump-feedback
+  name: Chilled Water Pump Feedback
+  category: commands
+  description: Actual position/state feedback from chilled water pump
+  haystack: chilled water pump speed sensor
+  brick: Chilled_Water_Pump_Speed_Position_Sensor
+aliases:
+  common:
+    - chwp-fb
+    - chwp feedback
+    - chwp feedback
+related:
+  - chilled-water-pump-output

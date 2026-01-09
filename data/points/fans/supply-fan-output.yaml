@@ -11,3 +11,5 @@ aliases:
     - sf output
     - sf out
     - fan output
+related:
+  - supply-fan-feedback

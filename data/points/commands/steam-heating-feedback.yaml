@@ -1,0 +1,16 @@
+concept:
+  id: steam-heating-feedback
+  name: Steam Heating Feedback
+  category: commands
+  description: Actual position/state feedback from steam heating
+  haystack: steam heat sensor
+  brick: Steam_Heating_Position_Sensor
+aliases:
+  common:
+    - stm-fb
+    - steam feedback
+    - steam heat feedback
+    - steam htg feedback
+    - steam htg feedback
+related:
+  - steam-heating-output

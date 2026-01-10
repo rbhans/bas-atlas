@@ -4,15 +4,13 @@ concept:
   category: temperatures
   description: Chiller 1 Entering Temperature point
   haystack: chiller 1 entering temperature
-  units:
-    symbol: °F
-    bacnet_unit: 64
-    description: degrees Fahrenheit
-  object_type: analogInput
-  point_function: sensor
-  typical_range:
-    min: 32
-    max: 120
+  point_function: enable
+  unit:
+    - °F
+    - °C
+  states:
+    "0": Disabled
+    "1": Enabled
 aliases:
   common:
     - c-e

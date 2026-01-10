@@ -5,18 +5,10 @@ concept:
   description: Effective Heating Setpoint point
   haystack: zone air temp effective heating sp
   brick: Effective_Heating_Temperature_Setpoint
-  units:
-    symbol: °F
-    bacnet_unit: 64
-    description: degrees Fahrenheit
-  object_type: analogValue
   point_function: calculated
-  typical_range:
-    min: 55
-    max: 72
-  typical_equipment:
-    - variable-air-volume-box
-    - fan-coil-unit
+  unit:
+    - °F
+    - °C
 aliases:
   common:
     - e-s

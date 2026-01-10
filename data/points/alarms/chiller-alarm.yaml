@@ -4,18 +4,11 @@ concept:
   category: alarms
   description: Chiller alarm point indicating fault or warning condition
   haystack: chiller alarm sensor
-  object_type: binaryInput
   brick: Chiller_Alarm
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
   point_function: alarm
   states:
     "0": Normal
     "1": Alarm
-  typical_equipment:
-    - chiller
 aliases:
   common:
     - cw

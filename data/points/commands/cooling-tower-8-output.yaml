@@ -4,15 +4,9 @@ concept:
   category: commands
   description: Cooling Tower 8 Output point
   haystack: cooling tower 8 output
-  units:
-    symbol: "%"
-    bacnet_unit: 98
-    description: percent
-  object_type: analogOutput
   point_function: command
-  typical_range:
-    min: 0
-    max: 100
+  unit:
+    - "%"
 aliases:
   common:
     - c-o

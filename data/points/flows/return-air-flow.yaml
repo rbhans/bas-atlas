@@ -5,17 +5,10 @@ concept:
   description: Return Air Flow point
   haystack: return air flow sensor
   brick: Return_Air_Flow_Sensor
-  units:
-    symbol: CFM
-    bacnet_unit: 84
-    description: cubic feet per minute
-  object_type: analogInput
   point_function: sensor
-  typical_range:
-    min: 0
-    max: 50000
-  typical_equipment:
-    - air-handling-unit
+  unit:
+    - CFM
+    - L/s
 aliases:
   common:
     - r-f

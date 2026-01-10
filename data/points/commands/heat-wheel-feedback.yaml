@@ -5,18 +5,9 @@ concept:
   description: Actual position/state feedback from heat wheel
   haystack: heatWheel speed sensor
   brick: Heat_Wheel_Speed_Position_Sensor
-  units:
-    symbol: "%"
-    bacnet_unit: 98
-    description: percent
-  object_type: analogInput
   point_function: sensor
-  typical_range:
-    min: 0
-    max: 100
-  typical_equipment:
-    - energy-recovery-ventilator
-    - heat-recovery-ventilator
+  unit:
+    - "%"
 aliases:
   common:
     - e-f

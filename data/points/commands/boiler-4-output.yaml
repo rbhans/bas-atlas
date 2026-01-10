@@ -4,15 +4,9 @@ concept:
   category: commands
   description: Boiler 4 Output point
   haystack: boiler 4 output
-  units:
-    symbol: "%"
-    bacnet_unit: 98
-    description: percent
-  object_type: analogOutput
   point_function: command
-  typical_range:
-    min: 0
-    max: 100
+  unit:
+    - "%"
 aliases:
   common:
     - b-o

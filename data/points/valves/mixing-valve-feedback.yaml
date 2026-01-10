@@ -5,19 +5,9 @@ concept:
   description: Actual position/state feedback from mixing valve
   haystack: mixing valve sensor
   brick: Mixing_Valve_Position_Sensor
-  unit: "%"
-  typical_range:
-    min: 0
-    max: 100
-  object_type: analogInput
-  units:
-    symbol: "%"
-    bacnet_unit: 98
-    description: percent
+  unit:
+    - "%"
   point_function: sensor
-  typical_equipment:
-    - boiler
-    - heat-exchanger
 aliases:
   common:
     - m-f

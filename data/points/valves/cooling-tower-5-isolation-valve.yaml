@@ -4,6 +4,7 @@ concept:
   category: valves
   description: Cooling Tower 5 Isolation Valve point
   haystack: cooling tower 5 isolation valve
+  point_function: sensor
 aliases:
   common:
     - c-i

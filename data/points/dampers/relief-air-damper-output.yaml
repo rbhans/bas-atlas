@@ -5,17 +5,9 @@ concept:
   description: Relief Air Damper Output point
   haystack: relief air damper cmd
   brick: Relief_Air_Damper_Command
-  units:
-    symbol: "%"
-    bacnet_unit: 98
-    description: percent
-  object_type: analogOutput
   point_function: command
-  typical_range:
-    min: 0
-    max: 100
-  typical_equipment:
-    - air-handling-unit
+  unit:
+    - "%"
 aliases:
   common:
     - r-o

@@ -5,19 +5,10 @@ concept:
   description: Binary status indicating if supply fan is running
   haystack: supply fan run sensor
   brick: Supply_Fan_Status
-  object_type: binaryInput
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
   point_function: status
   states:
     "0": Off
     "1": Running
-  typical_equipment:
-    - air-handling-unit
-    - rooftop-unit
-    - makeup-air-unit
 aliases:
   common:
     - f-s

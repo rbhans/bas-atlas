@@ -4,11 +4,6 @@ concept:
   category: status
   description: Chiller 3 Status point
   haystack: chiller 3 status
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryInput
   point_function: status
   states:
     "0": Off

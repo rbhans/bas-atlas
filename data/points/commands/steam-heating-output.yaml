@@ -5,17 +5,9 @@ concept:
   description: Steam Heating Output point
   haystack: steam heat cmd
   brick: Steam_Heating_Command
-  units:
-    symbol: "%"
-    bacnet_unit: 98
-    description: percent
-  object_type: analogOutput
   point_function: command
-  typical_range:
-    min: 0
-    max: 100
-  typical_equipment:
-    - air-handling-unit
+  unit:
+    - "%"
 aliases:
   common:
     - s-o

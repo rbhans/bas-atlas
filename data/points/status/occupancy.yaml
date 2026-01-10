@@ -5,6 +5,10 @@ concept:
   description: Occupancy point
   haystack: occupied sensor
   brick: Occupancy_Sensor
+  point_function: sensor
+  states:
+    "0": Unoccupied
+    "1": Occupied
 aliases:
   common:
     - occupied

@@ -5,18 +5,10 @@ concept:
   description: Exhaust Air Temperaure point
   haystack: exhaust air temp sensor
   brick: Exhaust_Air_Temperature_Sensor
-  units:
-    symbol: °F
-    bacnet_unit: 64
-    description: degrees Fahrenheit
-  object_type: analogInput
   point_function: sensor
-  typical_range:
-    min: 55
-    max: 95
-  typical_equipment:
-    - energy-recovery-ventilator
-    - heat-recovery-ventilator
+  unit:
+    - °F
+    - °C
 aliases:
   common:
     - e-t

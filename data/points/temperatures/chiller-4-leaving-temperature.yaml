@@ -4,15 +4,10 @@ concept:
   category: temperatures
   description: Chiller 4 Leaving Temperature point
   haystack: chiller 4 leaving temperature
-  units:
-    symbol: °F
-    bacnet_unit: 64
-    description: degrees Fahrenheit
-  object_type: analogInput
   point_function: sensor
-  typical_range:
-    min: 32
-    max: 120
+  unit:
+    - °F
+    - °C
 aliases:
   common:
     - c-l

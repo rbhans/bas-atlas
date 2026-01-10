@@ -5,18 +5,9 @@ concept:
   description: Mixed Air Damper Output point
   haystack: mixed air damper cmd
   brick: Mixed_Air_Damper_Command
-  units:
-    symbol: "%"
-    bacnet_unit: 98
-    description: percent
-  object_type: analogOutput
   point_function: command
-  typical_range:
-    min: 0
-    max: 100
-  typical_equipment:
-    - air-handling-unit
-    - rooftop-unit
+  unit:
+    - "%"
 aliases:
   common:
     - m-o

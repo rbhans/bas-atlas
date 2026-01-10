@@ -5,17 +5,10 @@ concept:
   description: Return Fan Status point
   haystack: return fan run sensor
   brick: Return_Fan_Status
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryInput
   point_function: status
   states:
     "0": Off
     "1": Running
-  typical_equipment:
-    - air-handling-unit
 aliases:
   common:
     - r-s

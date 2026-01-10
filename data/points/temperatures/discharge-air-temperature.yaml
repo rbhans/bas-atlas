@@ -5,21 +5,10 @@ concept:
   description: Temperature of air leaving the air handling unit or terminal unit
   haystack: discharge air temp sensor
   brick: Discharge_Air_Temperature_Sensor
-  unit: degF
-  typical_range:
-    min: 45
-    max: 120
-  object_type: analogInput
-  engineering_units: degrees-fahrenheit
-  units:
-    symbol: °F
-    bacnet_unit: 64
-    description: degrees Fahrenheit
+  unit:
+    - °F
+    - °C
   point_function: sensor
-  typical_equipment:
-    - air-handling-unit
-    - rooftop-unit
-    - variable-air-volume-box
 aliases:
   common:
     - dt

@@ -5,18 +5,9 @@ concept:
   description: Mixed Air Damper Position point
   haystack: mixed air damper sensor
   brick: Mixed_Air_Damper_Position_Sensor
-  units:
-    symbol: "%"
-    bacnet_unit: 98
-    description: percent
-  object_type: analogInput
   point_function: sensor
-  typical_range:
-    min: 0
-    max: 100
-  typical_equipment:
-    - air-handling-unit
-    - rooftop-unit
+  unit:
+    - "%"
 aliases:
   common:
     - m-p

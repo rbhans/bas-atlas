@@ -4,11 +4,6 @@ concept:
   category: commands
   description: Chiller 4 Enable point
   haystack: chiller 4 enable
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryValue
   point_function: enable
   states:
     "0": Disabled

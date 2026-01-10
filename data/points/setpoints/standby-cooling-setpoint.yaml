@@ -5,18 +5,10 @@ concept:
   description: Standby Cooling Setpoint point
   haystack: zone air temp standby cooling sp
   brick: Standby_Cooling_Temperature_Setpoint
-  units:
-    symbol: °F
-    bacnet_unit: 64
-    description: degrees Fahrenheit
-  object_type: analogValue
   point_function: setpoint
-  typical_range:
-    min: 75
-    max: 85
-  typical_equipment:
-    - variable-air-volume-box
-    - fan-coil-unit
+  unit:
+    - °F
+    - °C
 aliases:
   common:
     - s-s

@@ -4,18 +4,10 @@ concept:
   category: status
   description: DX Cooling Stage 7 point
   haystack: dx cooling stage 7
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryOutput
-  point_function: command
+  point_function: sensor
   states:
     "0": Off
     "1": On
-  typical_equipment:
-    - rooftop-unit
-    - packaged-terminal-air-conditioner
 aliases:
   common:
     - c-7

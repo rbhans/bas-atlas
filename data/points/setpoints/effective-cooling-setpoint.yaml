@@ -5,18 +5,10 @@ concept:
   description: Effective Cooling Setpoint point
   haystack: zone air temp effective cooling sp
   brick: Effective_Cooling_Temperature_Setpoint
-  units:
-    symbol: °F
-    bacnet_unit: 64
-    description: degrees Fahrenheit
-  object_type: analogValue
   point_function: calculated
-  typical_range:
-    min: 70
-    max: 85
-  typical_equipment:
-    - variable-air-volume-box
-    - fan-coil-unit
+  unit:
+    - °F
+    - °C
 aliases:
   common:
     - e-s

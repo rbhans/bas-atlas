@@ -5,17 +5,9 @@ concept:
   description: Relief Fan Output point
   haystack: relief fan speed cmd
   brick: Relief_Fan_Speed_Command
-  units:
-    symbol: "%"
-    bacnet_unit: 98
-    description: percent
-  object_type: analogOutput
   point_function: command
-  typical_range:
-    min: 0
-    max: 100
-  typical_equipment:
-    - air-handling-unit
+  unit:
+    - "%"
 aliases:
   common:
     - r-o

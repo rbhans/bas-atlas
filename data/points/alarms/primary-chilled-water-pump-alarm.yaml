@@ -5,17 +5,10 @@ concept:
   description: Primary Chilled Water Pump Alarm point
   haystack: primaryLoop chilled water pump alarm sensor
   brick: Primary_Chilled_Water_Pump_Alarm
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryInput
   point_function: alarm
   states:
     "0": Normal
     "1": Alarm
-  typical_equipment:
-    - pump
 aliases:
   common:
     - p-a

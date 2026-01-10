@@ -51,53 +51,6 @@ equipment:
         - central-ar-handler
         - central air handler
         - air handling equipment
-    typical_points:
-      - supply-air-temperature
-      - return-air-temperature
-      - mixed-air-temperature
-      - outdoor-air-temperature
-      - discharge-air-temperature
-      - discharge-air-temperature-setpoint
-      - supply-fan-command
-      - supply-fan-status
-      - supply-fan-speed
-      - supply-fan-output
-      - return-fan-command
-      - return-fan-status
-      - return-fan-speed
-      - return-fan-output
-      - outside-air-damper-output
-      - outside-air-damper-position
-      - mixed-air-damper-output
-      - return-air-damper-output
-      - relief-air-damper-output
-      - exhaust-air-damper-output
-      - cooling-valve-output
-      - cooling-valve-feedback
-      - heating-valve-output
-      - heating-valve-feedback
-      - discharge-air-pressure
-      - discharge-air-pressure-setpoint
-      - filter-status
-      - prefilter-status
-      - final-filter-status
-      - smoke-alarm
-      - low-limit-alarm
-      - system-enable
-      - cooling-enable
-      - heating-enable
-      - economizer-enable
-      - supply-fan-alarm
-      - return-fan-alarm
-      - chilled-water-supply-temperature
-      - hot-water-supply-temperature
-    related_equipment:
-      - variable-air-volume-box
-      - chiller
-      - boiler
-      - pump
-      - cooling-tower
-      - variable-frequency-drive
   - id: rooftop-unit
     name: Rooftop Unit
     abbreviation: RTU
@@ -156,34 +109,6 @@ equipment:
         - rooftop air handler
         - rooftop package unit
         - packaged rooftop unit
-    typical_points:
-      - supply-air-temperature
-      - return-air-temperature
-      - mixed-air-temperature
-      - outdoor-air-temperature
-      - discharge-air-temperature
-      - discharge-air-temperature-setpoint
-      - supply-fan-command
-      - supply-fan-status
-      - supply-fan-speed
-      - outside-air-damper-output
-      - outside-air-damper-position
-      - dx-cooling-stage
-      - gas-fired-heat-output
-      - electric-heat-stage
-      - filter-status
-      - smoke-alarm
-      - low-limit-alarm
-      - system-enable
-      - cooling-enable
-      - heating-enable
-      - economizer-enable
-      - zone-temperature
-      - occupied-cooling-setpoint
-      - occupied-heating-setpoint
-    related_equipment:
-      - variable-air-volume-box
-      - variable-frequency-drive
   - id: makeup-air-unit
     name: Makeup Air Unit
     abbreviation: MAU
@@ -242,20 +167,6 @@ equipment:
         - makeup ar handler
         - makeup-ar-handler
         - makeup air handler
-    typical_points:
-      - supply-air-temperature
-      - outdoor-air-temperature
-      - mixed-air-temperature
-      - discharge-air-temperature
-      - supply-fan-command
-      - supply-fan-status
-      - supply-fan-speed
-      - heating-valve-output
-      - gas-fired-heat-output
-      - filter-status
-      - smoke-alarm
-    related_equipment:
-      - boiler
   - id: dedicated-outdoor-air-system
     name: Dedicated Outdoor Air System
     abbreviation: DOAS
@@ -299,22 +210,6 @@ equipment:
         - dedicated outside air unit
         - dedicated outside air system
         - dedicated-outdoor-air-system
-    typical_points:
-      - supply-air-temperature
-      - outdoor-air-temperature
-      - discharge-air-temperature
-      - supply-fan-command
-      - supply-fan-status
-      - supply-fan-speed
-      - cooling-valve-output
-      - heating-valve-output
-      - outdoor-air-flow
-      - return-air-co2
-      - system-enable
-    related_equipment:
-      - chiller
-      - boiler
-      - energy-recovery-ventilator
   - id: fan-coil-unit
     name: Fan Coil Unit
     abbreviation: FCU
@@ -378,20 +273,6 @@ equipment:
         - ceiling fan coil
         - vertical fan coil
         - horizontal fan coil
-    typical_points:
-      - zone-temperature
-      - discharge-air-temperature
-      - occupied-cooling-setpoint
-      - occupied-heating-setpoint
-      - cooling-valve-output
-      - heating-valve-output
-      - supply-fan-command
-      - supply-fan-status
-      - unit-enable-mode
-    related_equipment:
-      - chiller
-      - boiler
-      - pump
   - id: computer-room-air-conditioner
     name: Computer Room Air Conditioner
     abbreviation: CRAC
@@ -818,23 +699,6 @@ equipment:
         - nrg recovery ventilator
         - nrg-recovery-ventilator
         - energy-recovery-ventilator
-    typical_points:
-      - supply-air-temperature
-      - outdoor-air-temperature
-      - exhaust-air-temperaure
-      - supply-fan-command
-      - supply-fan-status
-      - exhaust-fan-command
-      - exhaust-fan-status
-      - heat-wheel-command
-      - heat-wheel-output
-      - heat-wheel-feedback
-      - heat-wheel-status
-      - outside-air-damper-output
-      - exhaust-air-damper-output
-    related_equipment:
-      - air-handling-unit
-      - dedicated-outdoor-air-system
   - id: heat-recovery-ventilator
     name: Heat Recovery Ventilator
     abbreviation: HRV
@@ -881,20 +745,6 @@ equipment:
         - heat-recovery-ventilator
         - air-to-air heat exchanger
         - heat exchanger ventilator
-    typical_points:
-      - supply-air-temperature
-      - outdoor-air-temperature
-      - exhaust-air-temperaure
-      - supply-fan-command
-      - supply-fan-status
-      - exhaust-fan-command
-      - exhaust-fan-status
-      - heat-wheel-command
-      - heat-wheel-output
-      - heat-wheel-feedback
-      - heat-wheel-status
-    related_equipment:
-      - air-handling-unit
   - id: air-turnover-unit
     name: Air Turnover Unit
     abbreviation: ATU

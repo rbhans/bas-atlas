@@ -5,17 +5,10 @@ concept:
   description: Relief Air Damper Closed point
   haystack: relief air damper closed sensor
   brick: Relief_Air_Damper_Closed_Status
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryInput
-  point_function: status
+  point_function: sensor
   states:
     "0": Not Closed
     "1": Closed
-  typical_equipment:
-    - air-handling-unit
 aliases:
   common:
     - r-c

@@ -5,18 +5,9 @@ concept:
   description: Actual position/state feedback from condenser water pump
   haystack: condenser water pump speed sensor
   brick: Condenser_Water_Pump_Speed_Position_Sensor
-  units:
-    symbol: "%"
-    bacnet_unit: 98
-    description: percent
-  object_type: analogInput
   point_function: sensor
-  typical_range:
-    min: 0
-    max: 100
-  typical_equipment:
-    - pump
-    - variable-frequency-drive
+  unit:
+    - "%"
 aliases:
   common:
     - c-f

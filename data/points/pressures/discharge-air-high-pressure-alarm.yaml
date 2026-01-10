@@ -5,17 +5,13 @@ concept:
   description: Discharge Air High Pressure Alarm point
   haystack: discharge air pressure high alarm
   brick: High_Discharge_Air_Static_Pressure_Alarm
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryInput
   point_function: alarm
   states:
     "0": Normal
     "1": High Pressure
-  typical_equipment:
-    - air-handling-unit
+  unit:
+    - in. W.C.
+    - Pa
 aliases:
   common:
     - da

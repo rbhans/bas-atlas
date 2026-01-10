@@ -4,20 +4,11 @@ concept:
   category: status
   description: Electric heating stage status point
   haystack: heat stage sensor
-  object_type: binaryOutput
   brick: Heating_Stage_Status
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  point_function: command
+  point_function: sensor
   states:
     "0": Off
     "1": On
-  typical_equipment:
-    - rooftop-unit
-    - air-handling-unit
-    - unit-heater
 aliases:
   common:
     - ehs

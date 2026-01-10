@@ -5,20 +5,10 @@ concept:
   description: Static pressure in supply air duct, used to control fan speed
   haystack: discharge air pressure sensor
   brick: Discharge_Air_Static_Pressure_Sensor
-  unit: inH2O
-  typical_range:
-    min: 0
-    max: 5
-  object_type: analogInput
-  engineering_units: inches-of-water
-  units:
-    symbol: in. W.C.
-    bacnet_unit: 58
-    description: inches of water column
+  unit:
+    - in. W.C.
+    - Pa
   point_function: sensor
-  typical_equipment:
-    - air-handling-unit
-    - rooftop-unit
 aliases:
   common:
     - dp

@@ -5,17 +5,10 @@ concept:
   description: Condenser Water Pump Alarm point
   haystack: condenser water pump alarm sensor
   brick: Condenser_Water_Pump_Alarm
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryInput
   point_function: alarm
   states:
     "0": Normal
     "1": Alarm
-  typical_equipment:
-    - pump
 aliases:
   common:
     - c-a

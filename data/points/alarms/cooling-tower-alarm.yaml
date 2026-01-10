@@ -4,18 +4,11 @@ concept:
   category: alarms
   description: Cooling tower alarm point indicating fault or warning condition
   haystack: coolingTower alarm sensor
-  object_type: binaryInput
   brick: Cooling_Tower_Alarm
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
   point_function: alarm
   states:
     "0": Normal
     "1": Alarm
-  typical_equipment:
-    - cooling-tower
 aliases:
   common:
     - c-a

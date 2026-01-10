@@ -5,18 +5,10 @@ concept:
   description: Boiler Pump Command point
   haystack: boiler pump run cmd
   brick: Boiler_Pump_Command
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryOutput
   point_function: command
   states:
     "0": Off
     "1": On
-  typical_equipment:
-    - pump
-    - boiler
 aliases:
   common:
     - b-c

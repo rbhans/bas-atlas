@@ -5,6 +5,7 @@ concept:
   description: Shutdown point
   haystack: shutdown cmd
   brick: Shutdown_Command
+  point_function: sensor
 aliases:
   common:
     - shutdwn

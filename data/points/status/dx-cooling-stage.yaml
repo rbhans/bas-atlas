@@ -4,19 +4,11 @@ concept:
   category: status
   description: Direct expansion cooling stage status point
   haystack: cool stage sensor
-  object_type: binaryOutput
   brick: Cooling_Stage_Status
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  point_function: command
+  point_function: sensor
   states:
     "0": Off
     "1": On
-  typical_equipment:
-    - rooftop-unit
-    - packaged-terminal-air-conditioner
 aliases:
   common:
     - a-s

@@ -5,17 +5,10 @@ concept:
   description: Chilled Water Pump Command point
   haystack: chilled water pump run cmd
   brick: Chilled_Water_Pump_Command
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryOutput
   point_function: command
   states:
     "0": Off
     "1": On
-  typical_equipment:
-    - pump
 aliases:
   common:
     - c-c

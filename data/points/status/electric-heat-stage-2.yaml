@@ -4,19 +4,10 @@ concept:
   category: status
   description: Electric Heat Stage 2 point
   haystack: electric heat stage 2
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryOutput
-  point_function: command
+  point_function: sensor
   states:
     "0": Off
     "1": On
-  typical_equipment:
-    - rooftop-unit
-    - air-handling-unit
-    - unit-heater
 aliases:
   common:
     - e-s

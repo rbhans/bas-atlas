@@ -5,17 +5,10 @@ concept:
   description: Hot Water Pump Status point
   haystack: hot water pump run sensor
   brick: Hot_Water_Pump_Status
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryInput
   point_function: status
   states:
     "0": Off
     "1": Running
-  typical_equipment:
-    - pump
 aliases:
   common:
     - h-s

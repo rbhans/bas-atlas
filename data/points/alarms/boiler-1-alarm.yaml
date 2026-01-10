@@ -4,11 +4,6 @@ concept:
   category: alarms
   description: Boiler 1 Alarm point
   haystack: boiler 1 alarm
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryInput
   point_function: alarm
   states:
     "0": Normal

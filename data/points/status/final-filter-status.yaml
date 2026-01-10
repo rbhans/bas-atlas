@@ -5,17 +5,10 @@ concept:
   description: Final Filter Status point
   haystack: finalFilter sensor
   brick: Final_Filter_Status
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryInput
   point_function: status
   states:
-    "0": Clean
-    "1": Dirty
-  typical_equipment:
-    - air-handling-unit
+    "0": Off
+    "1": Running
 aliases:
   common:
     - f-s

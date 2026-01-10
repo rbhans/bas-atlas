@@ -4,19 +4,11 @@ concept:
   category: temperatures
   description: Cooling tower basin (sump) water temperature
   haystack: coolingTower basin temp sensor
-  object_type: analogInput
-  unit: degF
-  typical_range:
-    min: 40
-    max: 100
+  unit:
+    - °F
+    - °C
   brick: Cooling_Tower_Basin_Temperature_Sensor
-  units:
-    symbol: °F
-    bacnet_unit: 64
-    description: degrees Fahrenheit
   point_function: sensor
-  typical_equipment:
-    - cooling-tower
 aliases:
   common:
     - c-b

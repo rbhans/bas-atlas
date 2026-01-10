@@ -4,18 +4,11 @@ concept:
   category: commands
   description: Boiler on/off command point
   haystack: boiler run cmd
-  object_type: binaryOutput
   brick: Boiler_Command
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
   point_function: command
   states:
     "0": Off
     "1": On
-  typical_equipment:
-    - boiler
 aliases:
   common:
     - b c

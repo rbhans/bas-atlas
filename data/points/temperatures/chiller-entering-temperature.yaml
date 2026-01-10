@@ -4,19 +4,14 @@ concept:
   category: temperatures
   description: Chiller entering water temperature (return water temperature entering chiller)
   haystack: chiller entering water temp sensor
-  object_type: analogInput
-  unit: degF
-  typical_range:
-    min: 48
-    max: 65
+  unit:
+    - °F
+    - °C
   brick: Entering_Water_Temperature_Sensor
-  units:
-    symbol: °F
-    bacnet_unit: 64
-    description: degrees Fahrenheit
-  point_function: sensor
-  typical_equipment:
-    - chiller
+  point_function: enable
+  states:
+    "0": Disabled
+    "1": Enabled
 aliases:
   common:
     - c-e

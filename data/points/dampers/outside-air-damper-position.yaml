@@ -5,18 +5,9 @@ concept:
   description: Outside Air Damper Position point
   haystack: outside air damper sensor
   brick: Outside_Air_Damper_Position_Sensor
-  units:
-    symbol: "%"
-    bacnet_unit: 98
-    description: percent
-  object_type: analogInput
   point_function: sensor
-  typical_range:
-    min: 0
-    max: 100
-  typical_equipment:
-    - air-handling-unit
-    - rooftop-unit
+  unit:
+    - "%"
 aliases:
   common:
     - o-p

@@ -59,23 +59,6 @@ equipment:
         - var-air-volume-box
         - variable volume box
         - variable-air-volume-box
-    typical_points:
-      - zone-temperature
-      - discharge-air-temperature
-      - discharge-air-flow
-      - occupied-cooling-setpoint
-      - occupied-heating-setpoint
-      - unoccupied-cooling-setpoint
-      - unoccupied-heating-setpoint
-      - effective-cooling-setpoint
-      - effective-heating-setpoint
-      - heating-valve-output
-      - cooling-valve-output
-      - occupied-command
-      - effective-occupancy
-    related_equipment:
-      - air-handling-unit
-      - rooftop-unit
   - id: constant-air-volume-box
     name: Constant Air Volume Box
     abbreviation: CAV
@@ -438,16 +421,6 @@ equipment:
         - cabinet unit heater
         - gas-fired unit heater
         - hot water unit heater
-    typical_points:
-      - zone-temperature
-      - occupied-heating-setpoint
-      - supply-fan-command
-      - supply-fan-status
-      - heating-valve-output
-      - gas-fired-heat-output
-      - electric-heat-stage
-    related_equipment:
-      - boiler
   - id: induction-unit
     name: Induction Unit
     abbreviation: IU

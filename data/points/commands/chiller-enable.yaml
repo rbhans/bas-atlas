@@ -4,18 +4,11 @@ concept:
   category: commands
   description: Chiller enable/disable command point
   haystack: chiller enable cmd
-  object_type: binaryValue
   brick: Chiller_Enable_Command
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
   point_function: enable
   states:
     "0": Disabled
     "1": Enabled
-  typical_equipment:
-    - chiller
 aliases:
   common:
     - c-e

@@ -4,18 +4,11 @@ concept:
   category: status
   description: Chiller running status feedback point
   haystack: chiller run sensor
-  object_type: binaryInput
   brick: Chiller_Status
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
   point_function: status
   states:
     "0": Off
     "1": Running
-  typical_equipment:
-    - chiller
 aliases:
   common:
     - c-o

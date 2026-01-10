@@ -4,18 +4,11 @@ concept:
   category: commands
   description: Cooling tower enable/disable command point
   haystack: coolingTower enable cmd
-  object_type: binaryValue
   brick: Cooling_Tower_Enable_Command
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
   point_function: enable
   states:
     "0": Disabled
     "1": Enabled
-  typical_equipment:
-    - cooling-tower
 aliases:
   common:
     - c-e

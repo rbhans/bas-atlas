@@ -5,18 +5,10 @@ concept:
   description: Heat Wheel Command point
   haystack: heatWheel run cmd
   brick: Heat_Wheel_Command
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryOutput
   point_function: command
   states:
     "0": Off
     "1": On
-  typical_equipment:
-    - energy-recovery-ventilator
-    - heat-recovery-ventilator
 aliases:
   common:
     - e-c

@@ -5,19 +5,13 @@ concept:
   description: Occupied Cooling Setpoint point
   haystack: zone air temp occ cooling sp
   brick: Occupied_Cooling_Temperature_Setpoint
-  units:
-    symbol: °F
-    bacnet_unit: 64
-    description: degrees Fahrenheit
-  object_type: analogValue
   point_function: setpoint
-  typical_range:
-    min: 70
-    max: 78
-  typical_equipment:
-    - variable-air-volume-box
-    - fan-coil-unit
-    - rooftop-unit
+  unit:
+    - °F
+    - °C
+  states:
+    "0": Unoccupied
+    "1": Occupied
 aliases:
   common:
     - o-s

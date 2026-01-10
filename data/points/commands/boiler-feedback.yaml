@@ -5,17 +5,9 @@ concept:
   description: Actual position/state feedback from boiler
   haystack: boiler run sensor
   brick: Boiler_Output_Position_Sensor
-  units:
-    symbol: "%"
-    bacnet_unit: 98
-    description: percent
-  object_type: analogInput
   point_function: sensor
-  typical_range:
-    min: 0
-    max: 100
-  typical_equipment:
-    - boiler
+  unit:
+    - "%"
 aliases:
   common:
     - b-f

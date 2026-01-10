@@ -5,17 +5,10 @@ concept:
   description: City Water Temperature point
   haystack: domestic water temp sensor
   brick: Water_Temperature_Sensor
-  units:
-    symbol: °F
-    bacnet_unit: 64
-    description: degrees Fahrenheit
-  object_type: analogInput
   point_function: sensor
-  typical_range:
-    min: 40
-    max: 80
-  typical_equipment:
-    - cooling-tower
+  unit:
+    - °F
+    - °C
 aliases:
   common:
     - c-t

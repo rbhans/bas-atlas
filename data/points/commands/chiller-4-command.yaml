@@ -4,11 +4,6 @@ concept:
   category: commands
   description: Chiller 4 Command point
   haystack: chiller 4 command
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryOutput
   point_function: command
   states:
     "0": Off

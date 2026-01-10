@@ -4,11 +4,6 @@ concept:
   category: commands
   description: Cooling Tower 6 Enable point
   haystack: cooling tower 6 enable
-  units:
-    symbol: ""
-    bacnet_unit: 95
-    description: boolean (on/off)
-  object_type: binaryValue
   point_function: enable
   states:
     "0": Disabled

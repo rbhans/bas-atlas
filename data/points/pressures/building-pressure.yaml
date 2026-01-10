@@ -5,17 +5,10 @@ concept:
   description: Building Pressure point
   haystack: building pressure sensor
   brick: Building_Air_Static_Pressure_Sensor
-  units:
-    symbol: in. W.C.
-    bacnet_unit: 58
-    description: inches of water column
-  object_type: analogInput
   point_function: sensor
-  typical_range:
-    min: -0.1
-    max: 0.15
-  typical_equipment:
-    - air-handling-unit
+  unit:
+    - in. W.C.
+    - Pa
 aliases:
   common:
     - b-p

@@ -20,12 +20,6 @@
       "count": 5
     },
     {
-      "id": "motors",
-      "name": "Motors",
-      "type": "equipment",
-      "count": 1
-    },
-    {
       "id": "terminal-units",
       "name": "Terminal Units",
       "type": "equipment",

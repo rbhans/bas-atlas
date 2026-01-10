@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-10T16:06:42.058Z",
+  "lastUpdated": "2026-01-10T16:08:37.464Z",
   "totalPoints": 200,
-  "totalEquipment": 43,
+  "totalEquipment": 42,
   "points": [
     {
       "concept": {
@@ -11704,55 +11704,6 @@
           "british thermal unit meter",
           "British thermal unit meter"
         ]
-      }
-    },
-    {
-      "id": "fan-motor",
-      "name": "fan-motor",
-      "full_name": "fan motor",
-      "category": "motors",
-      "description": "fan motor",
-      "aliases": {
-        "common": [
-          "e-f",
-          "f-m",
-          "fan",
-          "fnm",
-          "r-f",
-          "s-f",
-          "eafn",
-          "exhf",
-          "fmtr",
-          "fn m",
-          "fn-m",
-          "rafn",
-          "retf",
-          "safn",
-          "supf",
-          "ea fn",
-          "ea-fn",
-          "exh f",
-          "exh-f",
-          "f mtr",
-          "f-mtr",
-          "ra fn",
-          "ra-fn",
-          "ret f",
-          "ret-f",
-          "sa fn",
-          "sa-fn",
-          "sup f",
-          "sup-f",
-          "f motor",
-          "f-motor",
-          "fan mtr",
-          "fan-mtr",
-          "fan motor",
-          "return fan",
-          "supply fan",
-          "exhaust fan"
-        ],
-        "abbreviated": []
       }
     },
     {

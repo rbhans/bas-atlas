@@ -8,11 +8,43 @@ concept:
   brick: Boiler_Command
 aliases:
   common:
-    - boiler cmd
-    - boiler start/stop
-    - blr command
-    - blr cmd
-    - boiler enable
-    - boiler run
+    - b c
+    - b-c
+    - b-e
+    - b-r
+    - b-s
+    - brn
+    - b rn
+    - b-rn
+    - bcmd
+    - blrc
+    - blrr
+    - b cmd
+    - b-cmd
+    - benbl
+    - blr c
+    - blr r
     - blr-c
+    - blr-r
+    - blren
+    - b enbl
+    - b-enbl
+    - blr en
+    - blr-en
+    - blrcmd
+    - blr cmd
     - blr-cmd
+    - boiler cmd
+    - boiler run
+    - boiler-cmd
+    - blr command
+    - blr-command
+    - bstart/stop
+    - b start/stop
+    - b-start/stop
+    - blrstart/stop
+    - boiler enable
+    - blr start/stop
+    - blr-start/stop
+    - boiler-command
+    - boiler start/stop

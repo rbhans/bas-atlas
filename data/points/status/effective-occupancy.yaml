@@ -7,6 +7,15 @@ concept:
   brick: Effective_Occupancy_Status
 aliases:
   common:
+    - e-o
+    - effocc
+    - eff occ
     - eff-occ
-    - effective occ
+    - effectiveocc
+    - effoccupancy
     - eff occupancy
+    - eff-occupancy
+    - effective occ
+    - effective-occ
+    - effectiveoccupancy
+    - effective-occupancy

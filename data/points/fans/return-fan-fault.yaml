@@ -7,6 +7,21 @@ concept:
   brick: Return_Fan_Fault_Status
 aliases:
   common:
-    - rf-fault
-    - rf fault
+    - r-f
+    - rff
+    - r-f-f
+    - rfflt
     - rf flt
+    - rf-flt
+    - rffault
+    - rf fault
+    - rf-fault
+    - rafnfault
+    - retffault
+    - ra fn fault
+    - ra-fn-fault
+    - ret f fault
+    - ret-f-fault
+    - ret fan fault
+    - ret-fan-fault
+    - return-fan-fault

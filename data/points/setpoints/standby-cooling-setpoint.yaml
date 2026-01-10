@@ -7,8 +7,38 @@ concept:
   brick: Standby_Cooling_Temperature_Setpoint
 aliases:
   common:
+    - s-s
+    - scs
+    - s-c-s
+    - sbyclgsp
+    - stbyclgsp
+    - sby clg sp
+    - sby-clg-sp
+    - sbyclgstpt
+    - stbyclg sp
     - stbyclg-sp
-    - standby clg setpoint
+    - sbycoolstpt
+    - stby clg sp
+    - stby-clg-sp
+    - stbyclgstpt
+    - sby clg stpt
+    - sby-clg-stpt
+    - sbycoolsetpt
+    - stbyclgsetpt
+    - sby cool stpt
+    - sby-cool-stpt
+    - stby clg stpt
+    - stby-clg-stpt
+    - sby cool setpt
+    - sby-cool-setpt
     - standby clg sp
+    - stby clg setpt
+    - stby-clg-setpt
     - standby clg stpt
+    - standby cooling sp
+    - standby-cooling-sp
+    - standby clg setpoint
     - standby cooling setpt
+    - stby cooling setpoint
+    - stby-cooling-setpoint
+    - standby-cooling-setpoint

@@ -7,9 +7,36 @@ concept:
   brick: Outside_Air_Damper_Command
 aliases:
   common:
+    - o-o
+    - odo
+    - oado
+    - o-d-o
+    - oad o
     - oad-o
-    - oa damper output
+    - oadout
+    - o-a-d-o
+    - oad out
+    - oad-out
+    - oadmpro
+    - oadmpout
+    - oa dmpr o
+    - oa-dmpr-o
+    - oaadmpout
+    - oa dmp out
+    - oa-dmp-out
     - oad output
+    - outardmpro
+    - oa a dmp out
+    - oa-a-dmp-out
+    - out ar dmpr o
+    - out-ar-dmpr-o
+    - oa damper output
+    - oa-damper-output
+    - oa air damper output
+    - oa-air-damper-output
+    - outside air damper out
+    - outside-air-damper-out
     - outdoor air damper output
+    - outside-air-damper-output
 related:
   - outside-air-damper-feedback

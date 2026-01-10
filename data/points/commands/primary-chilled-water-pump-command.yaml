@@ -7,6 +7,24 @@ concept:
   brick: Primary_Chilled_Water_Pump_Command
 aliases:
   common:
+    - p-c
+    - pcwpc
+    - pchwpc
+    - pchwp c
     - pchwp-c
+    - pchwpcmd
+    - p-c-w-p-c
     - pchwp cmd
+    - pchwp-cmd
+    - prichlwpcmd
     - pchwp command
+    - primchwtrpmpc
+    - pri chl w p cmd
+    - pri-chl-w-p-cmd
+    - prim ch wtr pmp c
+    - prim-ch-wtr-pmp-c
+    - pri chilled water pump command
+    - pri-chilled-water-pump-command
+    - primary chilled water pump cmd
+    - primary-chilled-water-pump-cmd
+    - primary-chilled-water-pump-command

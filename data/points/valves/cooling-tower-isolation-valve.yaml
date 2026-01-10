@@ -8,10 +8,58 @@ concept:
   brick: Isolation_Valve_Command
 aliases:
   common:
-    - ct isolation valve
-    - tower isolation valve
-    - ct iso valve
-    - cooling tower iso
-    - ct isolation
+    - c-i
+    - civ
+    - cti
+    - tiv
+    - ctiv
+    - c-i-v
+    - c-t-i
+    - ctiso
+    - t-i-v
+    - ct iso
     - ct-iso
+    - ctisol
+    - ctisov
+    - c-t-i-v
+    - ct isol
+    - ct isov
+    - ct-isol
     - ct-isov
+    - ctisolv
+    - twisolv
+    - ct iso v
+    - ct-iso-v
+    - ctisovlv
+    - clgtwriso
+    - cooltwiso
+    - ct isol v
+    - ct-isol-v
+    - tw isol v
+    - tw-isol-v
+    - twrisovlv
+    - ct iso vlv
+    - ct-iso-vlv
+    - clg twr iso
+    - clg-twr-iso
+    - cool tw iso
+    - cool-tw-iso
+    - cooltwisolv
+    - twr iso vlv
+    - twr-iso-vlv
+    - clgtwrisovlv
+    - ct iso valve
+    - ct isolation
+    - cool tw isol v
+    - cool-tw-isol-v
+    - clg twr iso vlv
+    - clg-twr-iso-vlv
+    - cooling tower iso
+    - ct isolation valve
+    - ct-isolation-valve
+    - tower isolation valve
+    - clg tower isolation valve
+    - clg-tower-isolation-valve
+    - cooling tower isolation vlv
+    - cooling-tower-isolation-vlv
+    - cooling-tower-isolation-valve

@@ -7,6 +7,27 @@ concept:
   brick: Secondary_Chilled_Water_Pump_Status
 aliases:
   common:
+    - s-s
+    - scwps
+    - schwps
+    - schwp s
     - schwp-s
+    - schwpsts
+    - s-c-w-p-s
     - schwp sts
+    - schwp-sts
+    - schwpstat
+    - schwp stat
+    - schwp-stat
+    - secchlwpsts
     - schwp status
+    - sec chl w p sts
+    - sec-chl-w-p-sts
+    - scndchwtrpmpstat
+    - scnd ch wtr pmp stat
+    - scnd-ch-wtr-pmp-stat
+    - sec chilled water pump status
+    - sec-chilled-water-pump-status
+    - secondary chilled water pump sts
+    - secondary-chilled-water-pump-sts
+    - secondary-chilled-water-pump-status

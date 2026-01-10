@@ -7,8 +7,26 @@ concept:
   brick: Primary_Chilled_Water_Pump_Speed_Command
 aliases:
   common:
+    - p-o
+    - pcwpo
+    - pchwpo
+    - pchwp o
     - pchwp-o
+    - pchwpout
+    - p-c-w-p-o
     - pchwp out
+    - pchwp-out
+    - prichlwpout
     - pchwp output
+    - primchwtrpmpo
+    - pri chl w p out
+    - pri-chl-w-p-out
+    - prim ch wtr pmp o
+    - prim-ch-wtr-pmp-o
+    - pri chilled water pump output
+    - pri-chilled-water-pump-output
+    - primary chilled water pump out
+    - primary-chilled-water-pump-out
+    - primary-chilled-water-pump-output
 related:
   - primary-chilled-water-pump-feedback

@@ -8,11 +8,49 @@ equipment:
     brick: Air_Handling_Unit
     aliases:
       common:
+        - AH
+        - a-h
+        - ahe
+        - ahu
         - AHU
+        - cah
+        - a-h-e
+        - a-h-u
+        - c-a-h
+        - ahndlu
+        - ah unit
+        - ah-unit
+        - a hndl u
+        - a-hndl-u
+        - ahandler
+        - arhndunt
+        - a handler
+        - a-handler
+        - arhandler
+        - ar handler
+        - ar hnd unt
+        - ar-handler
+        - ar-hnd-unt
         - air handler
+        - ahndlequipment
+        - air handling u
+        - air-handling-u
+        - arhndequipment
+        - a handling unit
+        - a-handling-unit
+        - centralahandler
+        - a hndl equipment
+        - a-hndl-equipment
+        - ar hnd equipment
+        - ar-hnd-equipment
+        - centralarhandler
+        - air-handling-unit
+        - central a handler
+        - central-a-handler
+        - central ar handler
+        - central-ar-handler
         - central air handler
         - air handling equipment
-        - AH
   - id: rooftop-unit
     name: Rooftop Unit
     abbreviation: RTU
@@ -22,12 +60,55 @@ equipment:
     brick: Rooftop_Unit
     aliases:
       common:
+        - RT
+        - pru
+        - r-u
+        - rah
+        - rpu
+        - rtu
         - RTU
+        - rt u
+        - rt-u
+        - p-r-u
+        - r-a-h
+        - r-p-u
+        - r-t-u
+        - rtuunt
+        - rt unit
+        - rt-unit
+        - rtu unt
+        - rtu-unt
+        - rooftopu
+        - rooftop u
+        - rooftop-u
+        - roof top u
+        - roof-top-u
+        - rooftopunt
+        - rtahandler
+        - rtpackageu
+        - packagedrtu
+        - roof top unt
+        - roof-top-unt
+        - rooftop-unit
+        - rt a handler
+        - rt package u
+        - rt-a-handler
+        - rt-package-u
+        - rtuarhandler
+        - packaged rt u
+        - packaged-rt-u
+        - roof top unit
+        - rtupackageunt
+        - packagedrtuunt
+        - rtu ar handler
+        - rtu-ar-handler
+        - rtu package unt
+        - rtu-package-unt
+        - packaged rtu unt
+        - packaged-rtu-unt
+        - rooftop air handler
         - rooftop package unit
         - packaged rooftop unit
-        - roof top unit
-        - rooftop air handler
-        - RT
   - id: makeup-air-unit
     name: Makeup Air Unit
     abbreviation: MAU
@@ -37,13 +118,55 @@ equipment:
     brick: Makeup_Air_Unit
     aliases:
       common:
-        - MAU
-        - MUA
-        - makeup air handler
-        - fresh air unit
-        - makeup air
-        - make-up air unit
+        - ma
         - MA
+        - fau
+        - m-a
+        - mah
+        - mau
+        - MAU
+        - mua
+        - MUA
+        - muau
+        - f-a-u
+        - m-a-h
+        - m-a-u
+        - freshau
+        - m-u-a-u
+        - makeupa
+        - makeup a
+        - makeup-a
+        - makeupar
+        - makeupau
+        - fresh a u
+        - fresh-a-u
+        - makeup ar
+        - makeup-ar
+        - fresharunt
+        - makeup a u
+        - makeup air
+        - makeup-a-u
+        - make up a u
+        - make-up-a-u
+        - makeuparunt
+        - fresh ar unt
+        - fresh-ar-unt
+        - makeup air u
+        - makeup-air-u
+        - makeup ar unt
+        - makeup-ar-unt
+        - fresh air unit
+        - make up ar unt
+        - make-up-ar-unt
+        - makeupahandler
+        - makeup-air-unit
+        - makeuparhandler
+        - make-up air unit
+        - makeup a handler
+        - makeup-a-handler
+        - makeup ar handler
+        - makeup-ar-handler
+        - makeup air handler
   - id: dedicated-outdoor-air-system
     name: Dedicated Outdoor Air System
     abbreviation: DOAS
@@ -53,13 +176,40 @@ equipment:
     brick: Dedicated_Outdoor_Air_System
     aliases:
       common:
-        - DOAS
-        - dedicated outside air unit
-        - DOAU
-        - 100% OA unit
-        - dedicated outdoor air unit
-        - dedicated outside air system
+        - 1ou
+        - doa
         - DOA
+        - doas
+        - DOAS
+        - doau
+        - DOAU
+        - 1-o-u
+        - 100%oau
+        - d-o-a-s
+        - d-o-a-u
+        - 100% oa u
+        - 100%-oa-u
+        - 100%oaunt
+        - 100% oa unt
+        - 100%-oa-unt
+        - 100% oa unit
+        - 100% OA unit
+        - dedicatedoaau
+        - dedicated oa a u
+        - dedicated-oa-a-u
+        - dedicatedoutarunt
+        - dedicatedoaasystem
+        - dedicated out ar unt
+        - dedicated-out-ar-unt
+        - dedicatedoutarsystem
+        - dedicated oa a system
+        - dedicated-oa-a-system
+        - dedicated out ar system
+        - dedicated-out-ar-system
+        - dedicated outdoor air unit
+        - dedicated outside air unit
+        - dedicated outside air system
+        - dedicated-outdoor-air-system
   - id: fan-coil-unit
     name: Fan Coil Unit
     abbreviation: FCU
@@ -69,14 +219,60 @@ equipment:
     brick: Fan_Coil_Unit
     aliases:
       common:
-        - FCU
-        - fan coil
-        - fancoil
-        - fan-coil
-        - ceiling fan coil
-        - horizontal fan coil
-        - vertical fan coil
         - FC
+        - cfc
+        - f-c
+        - fcl
+        - fcu
+        - FCU
+        - fnc
+        - hfc
+        - vfc
+        - f cl
+        - f-cl
+        - fclu
+        - fn c
+        - fn-c
+        - c-f-c
+        - f-c-u
+        - h-f-c
+        - v-f-c
+        - f cl u
+        - f-cl-u
+        - fncunt
+        - fancoil
+        - fc unit
+        - fc-unit
+        - fan coil
+        - fan-coil
+        - fn c unt
+        - fn-c-unt
+        - ceilingfcl
+        - ceilingfnc
+        - fan coil u
+        - fan-coil-u
+        - f coil unit
+        - f-coil-unit
+        - verticalfcl
+        - verticalfnc
+        - ceiling f cl
+        - ceiling fn c
+        - ceiling-f-cl
+        - ceiling-fn-c
+        - fan-coil-unit
+        - horizontalfcl
+        - horizontalfnc
+        - vertical f cl
+        - vertical fn c
+        - vertical-f-cl
+        - vertical-fn-c
+        - horizontal f cl
+        - horizontal fn c
+        - horizontal-f-cl
+        - horizontal-fn-c
+        - ceiling fan coil
+        - vertical fan coil
+        - horizontal fan coil
   - id: computer-room-air-conditioner
     name: Computer Room Air Conditioner
     abbreviation: CRAC
@@ -86,11 +282,53 @@ equipment:
     brick: Computer_Room_Air_Conditioner
     aliases:
       common:
+        - cra
+        - dcc
+        - pac
+        - pcu
+        - crac
         - CRAC
-        - precision cooling unit
-        - data center cooling
+        - c-r-a
+        - d-c-c
+        - p-a-c
+        - p-c-u
+        - c-r-a-c
+        - computerrac
+        - computerrmac
+        - computer r ac
+        - computer-r-ac
+        - datacenterclg
+        - precisionclgu
+        - computer rm ac
+        - computer-rm-ac
+        - datacentercool
+        - data center clg
+        - data-center-clg
+        - precision clg u
+        - precision-clg-u
+        - computer room ac
         - computer room AC
+        - data center cool
+        - data-center-cool
+        - precisioncoolunt
+        - precision cool unt
+        - precision-cool-unt
+        - data center cooling
+        - precisionaconditioner
+        - computerrarconditioner
+        - computerrmaconditioner
+        - precision cooling unit
+        - precisionarconditioner
+        - precision a conditioner
+        - precision-a-conditioner
+        - precision ar conditioner
+        - precision-ar-conditioner
+        - computer r ar conditioner
+        - computer rm a conditioner
+        - computer-r-ar-conditioner
+        - computer-rm-a-conditioner
         - precision air conditioner
+        - computer-room-air-conditioner
   - id: computer-room-air-handler
     name: Computer Room Air Handler
     abbreviation: CRAH
@@ -100,10 +338,44 @@ equipment:
     brick: Computer_Room_Air_Handler
     aliases:
       common:
+        - cwc
+        - pah
+        - crah
         - CRAH
-        - precision air handler
-        - data center air handler
+        - dcah
+        - c-w-c
+        - p-a-h
+        - c-r-a-h
+        - d-c-a-h
+        - chlwcrac
+        - chwtrcrac
+        - chl w crac
+        - chl-w-crac
+        - ch wtr crac
+        - ch-wtr-crac
+        - precisionahandler
+        - chilled water crac
         - chilled water CRAC
+        - computerrarhandler
+        - computerrmahandler
+        - datacenterahandler
+        - precisionarhandler
+        - datacenterarhandler
+        - precision a handler
+        - precision-a-handler
+        - precision ar handler
+        - precision-ar-handler
+        - computer r ar handler
+        - computer rm a handler
+        - computer-r-ar-handler
+        - computer-rm-a-handler
+        - data center a handler
+        - data-center-a-handler
+        - precision air handler
+        - data center ar handler
+        - data-center-ar-handler
+        - data center air handler
+        - computer-room-air-handler
   - id: unit-ventilator
     name: Unit Ventilator
     abbreviation: UV
@@ -114,10 +386,40 @@ equipment:
     aliases:
       common:
         - UV
-        - unit vent
+        - cuv
+        - u-v
+        - wuv
+        - c-u-v
+        - uvent
+        - w-u-v
+        - u vent
+        - u-vent
         - univent
-        - classroom unit ventilator
+        - untvent
+        - unt vent
+        - unt-vent
+        - unit vent
+        - uventilator
+        - u ventilator
+        - u-ventilator
+        - untventilator
+        - unt ventilator
+        - unt-ventilator
+        - unit-ventilator
+        - walluventilator
+        - wall u ventilator
+        - wall-u-ventilator
+        - walluntventilator
+        - wall unt ventilator
+        - wall-unt-ventilator
+        - classroomuventilator
         - wall unit ventilator
+        - classroom u ventilator
+        - classroom-u-ventilator
+        - classroomuntventilator
+        - classroom unt ventilator
+        - classroom-unt-ventilator
+        - classroom unit ventilator
   - id: packaged-terminal-air-conditioner
     name: Packaged Terminal Air Conditioner
     abbreviation: PTAC
@@ -127,11 +429,50 @@ equipment:
     brick: Packaged_Terminal_Air_Conditioner
     aliases:
       common:
+        - hau
+        - twa
+        - w-u
+        - ptac
         - PTAC
-        - through-wall AC
+        - ttwu
+        - h-a-u
+        - t-w-a
+        - wallu
+        - wall u
+        - wall-u
+        - p-t-a-c
+        - t-t-w-u
+        - wallunt
+        - hotelacu
+        - wall unt
+        - wall-unt
         - wall unit
+        - hotel ac u
+        - hotel-ac-u
+        - hotelacunt
+        - hotel ac unt
+        - hotel-ac-unt
+        - hotel ac unit
         - hotel AC unit
+        - throughwallac
+        - through wall ac
+        - through-wall ac
+        - through-wall AC
+        - through-wall-ac
+        - throughthewallu
+        - throughthewallunt
+        - through the wall u
+        - through-the-wall-u
+        - through the wall unt
+        - through-the-wall-unt
         - through-the-wall unit
+        - packagedterminalaconditioner
+        - packagedterminalarconditioner
+        - packaged terminal a conditioner
+        - packaged-terminal-a-conditioner
+        - packaged terminal ar conditioner
+        - packaged-terminal-ar-conditioner
+        - packaged-terminal-air-conditioner
   - id: packaged-terminal-heat-pump
     name: Packaged Terminal Heat Pump
     abbreviation: PTHP
@@ -141,10 +482,45 @@ equipment:
     brick: Packaged_Terminal_Heat_Pump
     aliases:
       common:
+        - thp
+        - whp
+        - pthp
         - PTHP
-        - through-wall heat pump
+        - twhp
+        - t-h-p
+        - w-h-p
+        - p-t-h-p
+        - t-w-h-p
+        - wallhtp
+        - wallhpmp
+        - wall ht p
+        - wall-ht-p
+        - wall h pmp
+        - wall-h-pmp
+        - terminalhtp
+        - terminalhpmp
+        - terminal ht p
+        - terminal-ht-p
+        - terminal h pmp
+        - terminal-h-pmp
+        - throughwallhtp
         - wall heat pump
+        - throughwallhpmp
+        - through wall ht p
+        - through-wall-ht-p
         - terminal heat pump
+        - through wall h pmp
+        - through-wall-h-pmp
+        - packagedterminalhtp
+        - packagedterminalhpmp
+        - packaged terminal ht p
+        - packaged-terminal-ht-p
+        - through-wall heat pump
+        - packaged terminal h pmp
+        - packaged-terminal-h-pmp
+        - packaged terminal heat p
+        - packaged-terminal-heat-p
+        - packaged-terminal-heat-pump
   - id: water-source-heat-pump
     name: Water Source Heat Pump
     abbreviation: WSHP
@@ -154,11 +530,56 @@ equipment:
     brick: Water_Source_Heat_Pump
     aliases:
       common:
+        - chp
+        - ghp
+        - wlhp
+        - wshp
         - WSHP
-        - water loop heat pump
-        - geothermal heat pump
-        - water-to-air heat pump
+        - c-h-p
+        - g-h-p
+        - wtahp
+        - w-l-h-p
+        - w-s-h-p
+        - wtoahtp
+        - wloophtp
+        - w-t-a-h-p
+        - consolehtp
+        - wsourcehtp
+        - consolehpmp
+        - w loop ht p
+        - w to a ht p
+        - w-loop-ht-p
+        - w-to-a-ht-p
+        - wtrloophpmp
+        - wtrtoarhpmp
+        - console ht p
+        - console-ht-p
+        - console h pmp
+        - console-h-pmp
+        - geothermalhtp
+        - w source ht p
+        - w-source-ht-p
+        - wtrsourcehpmp
+        - geothermalhpmp
+        - wtr loop h pmp
+        - wtr-loop-h-pmp
+        - geothermal ht p
+        - geothermal-ht-p
+        - wtr to ar h pmp
+        - wtr-to-ar-h-pmp
+        - geothermal h pmp
+        - geothermal-h-pmp
+        - wtr source h pmp
+        - wtr-source-h-pmp
         - console heat pump
+        - w source heat pump
+        - w-source-heat-pump
+        - water source heat p
+        - water-source-heat-p
+        - geothermal heat pump
+        - water loop heat pump
+        - water-source-heat-pump
+        - water-to-air heat pump
   - id: air-source-heat-pump
     name: Air Source Heat Pump
     abbreviation: ASHP
@@ -168,13 +589,57 @@ equipment:
     brick: Air_Source_Heat_Pump
     aliases:
       common:
-        - ASHP
-        - air-to-air heat pump
-        - heat pump
         - HP
+        - dms
+        - h-p
+        - htp
+        - m-s
+        - vhp
+        - ashp
+        - ASHP
+        - hpmp
+        - ht p
+        - ht-p
+        - atahp
+        - d-m-s
+        - h pmp
+        - h-pmp
+        - v-h-p
+        - vrfhtp
+        - a-s-h-p
+        - atoahtp
+        - vrfhpmp
+        - vrf ht p
+        - vrf-ht-p
+        - a-t-a-h-p
+        - heat pump
+        - minisplit
+        - vrf h pmp
+        - vrf-h-pmp
+        - artoarhpmp
+        - asourcehtp
         - mini split
-        - ductless mini split
+        - mini-split
+        - a to a ht p
+        - a-to-a-ht-p
+        - arsourcehpmp
+        - a source ht p
+        - a-source-ht-p
+        - vrf heat pump
         - VRF heat pump
+        - ar to ar h pmp
+        - ar-to-ar-h-pmp
+        - ar source h pmp
+        - ar-source-h-pmp
+        - air source heat p
+        - air-source-heat-p
+        - ductlessminisplit
+        - a source heat pump
+        - a-source-heat-pump
+        - ductless mini split
+        - ductless-mini-split
+        - air-source-heat-pump
+        - air-to-air heat pump
   - id: energy-recovery-ventilator
     name: Energy Recovery Ventilator
     abbreviation: ERV
@@ -184,12 +649,56 @@ equipment:
     brick: Energy_Recovery_Ventilator
     aliases:
       common:
+        - e-w
+        - eru
+        - erv
         - ERV
-        - energy recovery unit
-        - enthalpy wheel
-        - enthalpy recovery unit
-        - total energy recovery
+        - ewh
+        - ter
+        - e wh
+        - e-wh
+        - e-r-u
+        - e-r-v
+        - entwh
+        - t-e-r
+        - ent wh
+        - ent-wh
+        - nrgwhl
+        - enthwhl
+        - nrg whl
+        - nrg-whl
+        - enth whl
+        - enth-whl
         - energy wheel
+        - erecoveryunt
+        - nrgrecoveryu
+        - enthrecoveryu
+        - e recovery unt
+        - e-recovery-unt
+        - enthalpy wheel
+        - entrecoveryunt
+        - nrg recovery u
+        - nrg-recovery-u
+        - totalerecovery
+        - enth recovery u
+        - enth-recovery-u
+        - ent recovery unt
+        - ent-recovery-unt
+        - total e recovery
+        - total-e-recovery
+        - totalnrgrecovery
+        - total nrg recovery
+        - total-nrg-recovery
+        - erecoveryventilator
+        - energy recovery unit
+        - e recovery ventilator
+        - e-recovery-ventilator
+        - nrgrecoveryventilator
+        - total energy recovery
+        - enthalpy recovery unit
+        - nrg recovery ventilator
+        - nrg-recovery-ventilator
+        - energy-recovery-ventilator
   - id: heat-recovery-ventilator
     name: Heat Recovery Ventilator
     abbreviation: HRV
@@ -199,8 +708,41 @@ equipment:
     brick: Heat_Recovery_Ventilator
     aliases:
       common:
+        - hev
+        - hru
+        - hrv
         - HRV
+        - atahe
+        - h-e-v
+        - h-r-u
+        - h-r-v
+        - a-t-a-h-e
+        - htrecoveryu
+        - hrecoveryunt
+        - ht recovery u
+        - ht-recovery-u
+        - h recovery unt
+        - h-recovery-unt
+        - atoahtexchanger
+        - artoarhexchanger
         - heat recovery unit
+        - a to a ht exchanger
+        - a-to-a-ht-exchanger
+        - hrecoveryventilator
+        - ar to ar h exchanger
+        - ar-to-ar-h-exchanger
+        - hexchangerventilator
+        - htrecoveryventilator
+        - h recovery ventilator
+        - h-recovery-ventilator
+        - htexchangerventilator
+        - h exchanger ventilator
+        - h-exchanger-ventilator
+        - ht recovery ventilator
+        - ht-recovery-ventilator
+        - ht exchanger ventilator
+        - ht-exchanger-ventilator
+        - heat-recovery-ventilator
         - air-to-air heat exchanger
         - heat exchanger ventilator
   - id: air-turnover-unit
@@ -212,8 +754,46 @@ equipment:
     brick: Air_Turnover_Unit
     aliases:
       common:
+        - a-t
+        - atu
         - ATU
+        - d-u
+        - hbu
+        - w-h
+        - a-t-u
+        - h-b-u
+        - aturner
+        - a turner
+        - a-turner
+        - arturner
+        - highbayu
+        - ar turner
+        - ar-turner
         - air turner
-        - destratification unit
-        - warehouse heater
+        - aturnoveru
+        - high bay u
+        - high-bay-u
+        - highbayunt
+        - a turnover u
+        - a-turnover-u
+        - high bay unt
+        - high-bay-unt
+        - arturnoverunt
         - high bay unit
+        - air turnover u
+        - air-turnover-u
+        - a turnover unit
+        - a-turnover-unit
+        - ar turnover unt
+        - ar-turnover-unt
+        - warehouseheater
+        - warehouse heater
+        - warehouse-heater
+        - air-turnover-unit
+        - destratificationu
+        - destratification u
+        - destratification-u
+        - destratificationunt
+        - destratification unt
+        - destratification-unt
+        - destratification unit

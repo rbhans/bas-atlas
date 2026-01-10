@@ -1,0 +1,42 @@
+concept:
+  id: dx-cooling-stage-4
+  name: DX Cooling Stage 4
+  category: status
+  description: DX Cooling Stage 4 point
+  haystack: dx cooling stage 4
+aliases:
+  common:
+    - c-4
+    - cs4
+    - d-s
+    - dcs4
+    - c-s-4
+    - compr4
+    - dxstg4
+    - clgstg4
+    - compr 4
+    - compr-4
+    - d-c-s-4
+    - dx stg4
+    - dx-stg4
+    - coolstg4
+    - clg stg 4
+    - clg-stg-4
+    - dxclgstg4
+    - cool stg 4
+    - cool-stg-4
+    - dxcoolstge4
+    - dx clg stg 4
+    - dx-clg-stg-4
+    - cooling stg 4
+    - compressorstg4
+    - dx cool stge 4
+    - dx-cool-stge-4
+    - compressorstge4
+    - compressor stg 4
+    - compressor-stg-4
+    - compressor stge 4
+    - compressor-stge-4
+    - compressor stage 4
+    - dx-cooling-stage-4
+  abbreviated: []

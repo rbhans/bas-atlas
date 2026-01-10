@@ -8,16 +8,51 @@ concept:
   object_type: binary-input
 aliases:
   common:
-    - sf-s
-    - sf status
-    - sf sts
-    - fan status
-    - supply fan run
-    - SF_Status
-    - SupplyFan_Sts
-    - SFS
+    - f-s
+    - s-s
+    - sfr
     - sfs
+    - SFS
+    - fsts
+    - sf s
+    - sf-s
+    - f sts
+    - f-sts
+    - s-f-r
+    - s-f-s
+    - sfsts
+    - supfr
+    - fnstat
+    - safnrn
+    - sf sts
     - sf-sts
+    - sfstat
+    - fn stat
+    - fn-stat
+    - sf stat
+    - sf-stat
+    - sup f r
+    - sup-f-r
+    - supfsts
+    - sa fn rn
+    - sa-fn-rn
+    - safnstat
+    - sf status
+    - sf_status
+    - SF_Status
+    - sup f sts
+    - sup-f-sts
+    - fan status
+    - sa fn stat
+    - sa-fn-stat
+    - supplyfan_sts
+    - SupplyFan_Sts
+    - sup fan status
+    - sup-fan-status
+    - supply fan run
+    - supply fan sts
+    - supply-fan-sts
+    - supply-fan-status
 notes:
   - Typically from current sensing relay or differential pressure switch
   - Used for fan failure alarms and interlock logic

@@ -1,0 +1,39 @@
+concept:
+  id: chiller-8-enable
+  name: Chiller 8 Enable
+  category: commands
+  description: Chiller 8 Enable point
+  haystack: chiller 8 enable
+aliases:
+  common:
+    - c-e
+    - c8e
+    - c-8-e
+    - ch8en
+    - ch8 en
+    - ch8-en
+    - chl8en
+    - ch 8 en
+    - ch-8-en
+    - ch8enbl
+    - chlr8en
+    - ch8 enbl
+    - ch8-enbl
+    - chl 8 en
+    - chl-8-en
+    - ch 8 enbl
+    - ch-8-enbl
+    - chlr 8 en
+    - chlr-8-en
+    - chlr8enbl
+    - ch8-enable
+    - ch-8 enable
+    - chlr 8 enbl
+    - chlr-8-enbl
+    - chiller 8 en
+    - chiller-8-en
+    - chl 8 enable
+    - chl-8-enable
+    - chlr-8 enable
+    - chiller-8-enable
+  abbreviated: []

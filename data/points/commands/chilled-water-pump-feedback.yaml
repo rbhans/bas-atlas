@@ -7,8 +7,28 @@ concept:
   brick: Chilled_Water_Pump_Speed_Position_Sensor
 aliases:
   common:
+    - c-f
+    - cwpf
+    - chwpfb
+    - c-w-p-f
+    - chlwpfb
+    - chwp fb
     - chwp-fb
+    - chwpfdbk
+    - chwp fdbk
+    - chwp-fdbk
+    - chl w p fb
+    - chl-w-p-fb
+    - chwtrpmpfdbk
     - chwp feedback
-    - chwp feedback
+    - ch wtr pmp fdbk
+    - ch-wtr-pmp-fdbk
+    - chw pump feedback
+    - chw-pump-feedback
+    - chilled water pump fb
+    - chilled-water-pump-fb
+    - chl water pump feedback
+    - chl-water-pump-feedback
+    - chilled-water-pump-feedback
 related:
   - chilled-water-pump-output

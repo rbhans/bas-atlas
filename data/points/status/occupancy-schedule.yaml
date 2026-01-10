@@ -7,7 +7,13 @@ concept:
   brick: Occupancy_Schedule
 aliases:
   common:
-    - occ-sched
-    - occupancy schedule
+    - o-s
+    - occsched
     - occ sched
+    - occ-sched
+    - occschedule
     - occ schedule
+    - occ-schedule
+    - occupancyschedule
+    - occupancy schedule
+    - occupancy-schedule

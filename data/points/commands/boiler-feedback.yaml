@@ -7,12 +7,39 @@ concept:
   brick: Boiler_Output_Position_Sensor
 aliases:
   common:
-    - boiler feedback
-    - boiler modulation fb
-    - blr feedback
-    - blr feedback
-    - boiler firing rate fb
+    - b-f
+    - bmf
+    - bfrf
+    - b-m-f
+    - bfdbk
+    - blrfb
+    - b fdbk
+    - b-fdbk
+    - blr fb
     - blr-fb
+    - b-f-r-f
+    - blrfdbk
+    - blr fdbk
+    - blr-fdbk
+    - boiler fb
+    - boiler-fb
+    - blr feedback
     - blr-feedback
+    - bfiringratefb
+    - bmodulationfb
+    - b modulation fb
+    - b-modulation-fb
+    - blrfiringratefb
+    - blrmodulationfb
+    - boiler feedback
+    - boiler-feedback
+    - b firing rate fb
+    - b-firing-rate-fb
+    - blr modulation fb
+    - blr-modulation-fb
+    - blr firing rate fb
+    - blr-firing-rate-fb
+    - boiler modulation fb
+    - boiler firing rate fb
 related:
   - boiler-output

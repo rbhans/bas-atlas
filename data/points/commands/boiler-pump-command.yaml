@@ -7,8 +7,33 @@ concept:
   brick: Boiler_Pump_Command
 aliases:
   common:
+    - b-c
+    - bpc
+    - bp c
     - bp-c
+    - b-p-c
+    - blrpc
+    - bpcmd
+    - bpmpc
+    - blrp c
+    - blrp-c
     - bp cmd
+    - bp-cmd
+    - b pmp c
+    - b-pmp-c
+    - blrpcmd
+    - blrp cmd
+    - blrp-cmd
+    - blr p cmd
+    - blr-p-cmd
+    - blrpmpcmd
     - bp command
-    - blrp command
+    - blr pmp cmd
+    - blr-pmp-cmd
     - blr pump cmd
+    - blrp command
+    - boiler pump cmd
+    - boiler-pump-cmd
+    - blr pump command
+    - blr-pump-command
+    - boiler-pump-command

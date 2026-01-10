@@ -1,0 +1,33 @@
+concept:
+  id: chiller-6-alarm
+  name: Chiller 6 Alarm
+  category: alarms
+  description: Chiller 6 Alarm point
+  haystack: chiller 6 alarm
+aliases:
+  common:
+    - c-a
+    - c6a
+    - ch6a
+    - c-6-a
+    - ch6 a
+    - ch6-a
+    - ch6al
+    - ch6alm
+    - ch 6 al
+    - ch-6-al
+    - ch6 alm
+    - ch6-alm
+    - chl6alm
+    - ch 6 alm
+    - ch-6 alm
+    - ch-6-alm
+    - chl 6 alm
+    - chl-6-alm
+    - ch-6 alarm
+    - chl 6 alarm
+    - chl-6-alarm
+    - chiller 6 alm
+    - chiller-6-alm
+    - chiller-6-alarm
+  abbreviated: []

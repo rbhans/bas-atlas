@@ -1,0 +1,48 @@
+concept:
+  id: chiller-2-leaving-temperature
+  name: Chiller 2 Leaving Temperature
+  category: temperatures
+  description: Chiller 2 Leaving Temperature point
+  haystack: chiller 2 leaving temperature
+aliases:
+  common:
+    - c-l
+    - clt
+    - c2lt
+    - c-l-t
+    - ch2lwt
+    - c-2-l-t
+    - ch2 lwt
+    - ch2-lwt
+    - ch2lvgt
+    - ch2leavt
+    - ch2 lvg t
+    - ch2-lvg-t
+    - ch2leavet
+    - ch 2 lvg t
+    - ch-2-lvg-t
+    - ch 2 leav t
+    - ch-2-leav-t
+    - chl2lvgtemp
+    - ch 2 leave t
+    - ch-2-leave-t
+    - ch2-lvg-temp
+    - ch-2 lvg temp
+    - chl 2 lvg temp
+    - chl-2-lvg-temp
+    - ch-2 leave temp
+    - ch-2 leaving temp
+    - ch2lvgtemperature
+    - ch2 lvg temperature
+    - ch2-lvg-temperature
+    - ch2leavetemperature
+    - ch 2 lvg temperature
+    - ch-2-lvg-temperature
+    - ch 2 leave temperature
+    - ch-2-leave-temperature
+    - chiller 2 leaving temp
+    - chiller-2-leaving-temp
+    - chl 2 leaving temperature
+    - chl-2-leaving-temperature
+    - chiller-2-leaving-temperature
+  abbreviated: []

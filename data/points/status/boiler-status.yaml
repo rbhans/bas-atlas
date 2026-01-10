@@ -8,11 +8,49 @@ concept:
   brick: Boiler_Status
 aliases:
   common:
-    - boiler sts
-    - boiler running
-    - blr status
-    - blr sts
-    - boiler on/off
-    - boiler run status
+    - b-o
+    - b-r
+    - b-s
+    - brs
+    - blrs
+    - bsts
+    - b sts
+    - b-r-s
+    - b-sts
+    - blr s
     - blr-s
+    - bstat
+    - b stat
+    - b-stat
+    - blrsts
+    - blr sts
     - blr-sts
+    - blrrsts
+    - blrstat
+    - bon/off
+    - brnstat
+    - b on/off
+    - b-on/off
+    - blr stat
+    - blr-stat
+    - brunning
+    - b rn stat
+    - b running
+    - b-rn-stat
+    - b-running
+    - blr r sts
+    - blr-r-sts
+    - blron/off
+    - blr on/off
+    - blr status
+    - blr-on/off
+    - blr-status
+    - blrrunning
+    - boiler sts
+    - boiler-sts
+    - blr running
+    - blr-running
+    - boiler on/off
+    - boiler-status
+    - boiler running
+    - boiler run status

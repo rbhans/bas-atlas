@@ -1,0 +1,42 @@
+concept:
+  id: dx-cooling-stage-6
+  name: DX Cooling Stage 6
+  category: status
+  description: DX Cooling Stage 6 point
+  haystack: dx cooling stage 6
+aliases:
+  common:
+    - c-6
+    - cs6
+    - d-s
+    - dcs6
+    - c-s-6
+    - compr6
+    - dxstg6
+    - clgstg6
+    - compr 6
+    - compr-6
+    - d-c-s-6
+    - dx stg6
+    - dx-stg6
+    - coolstg6
+    - clg stg 6
+    - clg-stg-6
+    - dxclgstg6
+    - cool stg 6
+    - cool-stg-6
+    - dxcoolstge6
+    - dx clg stg 6
+    - dx-clg-stg-6
+    - cooling stg 6
+    - compressorstg6
+    - dx cool stge 6
+    - dx-cool-stge-6
+    - compressorstge6
+    - compressor stg 6
+    - compressor-stg-6
+    - compressor stge 6
+    - compressor-stge-6
+    - compressor stage 6
+    - dx-cooling-stage-6
+  abbreviated: []

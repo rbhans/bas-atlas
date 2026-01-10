@@ -7,6 +7,21 @@ concept:
   brick: Exhaust_Fan_Fault_Status
 aliases:
   common:
-    - ef-fault
-    - ef fault
+    - e-f
+    - eff
+    - e-f-f
+    - efflt
     - ef flt
+    - ef-flt
+    - effault
+    - ef fault
+    - ef-fault
+    - eafnfault
+    - exhffault
+    - ea fn fault
+    - ea-fn-fault
+    - exh f fault
+    - exh-f-fault
+    - exh fan fault
+    - exh-fan-fault
+    - exhaust-fan-fault

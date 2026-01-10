@@ -7,9 +7,42 @@ concept:
   brick: Heating_Valve_Command
 aliases:
   common:
+    - h o
+    - h-o
+    - h-v
+    - hvo
+    - htgo
+    - h-v-o
+    - heato
+    - heatv
+    - htg o
     - htg-o
-    - heating output
-    - heating valve
+    - htout
+    - heat o
+    - heat v
+    - heat-o
+    - heat-v
+    - heatvo
+    - ht out
+    - ht-out
+    - htgout
+    - htgvlv
+    - htg out
+    - htg vlv
+    - htg-out
+    - htg-vlv
+    - heat v o
+    - heat-v-o
+    - htgvlvout
     - heat output
+    - htg vlv out
+    - htg-vlv-out
+    - heating valve
+    - heating output
+    - htg valve output
+    - htg-valve-output
+    - heating valve out
+    - heating-valve-out
+    - heating-valve-output
 related:
   - heating-valve-feedback

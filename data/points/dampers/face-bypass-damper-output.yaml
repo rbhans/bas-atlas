@@ -7,10 +7,37 @@ concept:
   brick: Bypass_Damper_Command
 aliases:
   common:
+    - f-o
+    - fbo
+    - fbdo
+    - f-b-o
+    - fbd o
     - fbd-o
-    - fbd output
+    - fbypo
+    - fbdout
+    - f byp o
+    - f-b-d-o
+    - f-byp-o
     - fbd out
-    - face byp output
+    - fbd-out
+    - fbdprout
+    - fbpdmpro
+    - fcbypout
     - fbdpr out
+    - fbdpr-out
+    - fbd output
+    - fc byp out
+    - fc-byp-out
+    - f bp dmpr o
+    - f-bp-dmpr-o
+    - fcbypdmpout
+    - fc byp dmp out
+    - fc-byp-dmp-out
+    - face byp output
+    - face bypass damper out
+    - face-bypass-damper-out
+    - fc bypass damper output
+    - fc-bypass-damper-output
+    - face-bypass-damper-output
 related:
   - face-bypass-damper-feedback

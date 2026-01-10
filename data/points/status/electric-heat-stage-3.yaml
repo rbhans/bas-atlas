@@ -1,0 +1,53 @@
+concept:
+  id: electric-heat-stage-3
+  name: Electric Heat Stage 3
+  category: status
+  description: Electric Heat Stage 3 point
+  haystack: electric heat stage 3
+aliases:
+  common:
+    - e-s
+    - h 3
+    - h-3
+    - h-s
+    - hs3
+    - ht3
+    - ehs3
+    - ht 3
+    - ht-3
+    - h-s-3
+    - heat 3
+    - e-h-s-3
+    - elhstg3
+    - htgstg3
+    - elecstg3
+    - elhstge3
+    - heatstg3
+    - htg stg3
+    - htg-stg3
+    - elec stg3
+    - elec-stg3
+    - heatstge3
+    - htg stg 3
+    - htg-stg-3
+    - el h stg 3
+    - el-h-stg-3
+    - elechtstg3
+    - heat stg 3
+    - heat-stg-3
+    - el h stge 3
+    - el-h-stge-3
+    - elechtgstg3
+    - heat stge 3
+    - heat-stge-3
+    - elechtg stg3
+    - elechtg-stg3
+    - elec ht stg 3
+    - elec-ht-stg-3
+    - heating stg 3
+    - heating stage 3
+    - elec heat stage 3
+    - elec-heat-stage-3
+    - electric heat stg 3
+    - electric-heat-stage-3
+  abbreviated: []

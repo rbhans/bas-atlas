@@ -12,8 +12,35 @@ concept:
   object_type: analogInput
 aliases:
   common:
+    - r-f
+    - rdf
+    - radf
+    - r-d-f
+    - rlfdfb
+    - r-a-d-f
+    - rlfd fb
     - rlfd-fb
-    - rlf damper feedback
+    - rlfdfdbk
+    - rlfdmpfb
+    - reladmpfb
+    - rlfd fdbk
+    - rlfd-fdbk
+    - rlf dmp fb
+    - rlf-dmp-fb
+    - rlfdmprfdbk
+    - raardmprfdbk
+    - rel a dmp fb
+    - rel-a-dmp-fb
+    - rlf dmpr fdbk
+    - rlf-dmpr-fdbk
     - rlfd feedback
+    - ra ar dmpr fdbk
+    - ra-ar-dmpr-fdbk
+    - rlf damper feedback
+    - relief air damper fb
+    - relief-air-damper-fb
+    - rel air damper feedback
+    - rel-air-damper-feedback
+    - relief-air-damper-feedback
 related:
   - relief-air-damper-output

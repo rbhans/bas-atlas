@@ -1,0 +1,53 @@
+concept:
+  id: electric-heat-stage-2
+  name: Electric Heat Stage 2
+  category: status
+  description: Electric Heat Stage 2 point
+  haystack: electric heat stage 2
+aliases:
+  common:
+    - e-s
+    - h 2
+    - h-2
+    - h-s
+    - hs2
+    - ht2
+    - ehs2
+    - ht 2
+    - ht-2
+    - h-s-2
+    - heat 2
+    - e-h-s-2
+    - elhstg2
+    - htgstg2
+    - elecstg2
+    - elhstge2
+    - heatstg2
+    - htg stg2
+    - htg-stg2
+    - elec stg2
+    - elec-stg2
+    - heatstge2
+    - htg stg 2
+    - htg-stg-2
+    - el h stg 2
+    - el-h-stg-2
+    - elechtstg2
+    - heat stg 2
+    - heat-stg-2
+    - el h stge 2
+    - el-h-stge-2
+    - elechtgstg2
+    - heat stge 2
+    - heat-stge-2
+    - elechtg stg2
+    - elechtg-stg2
+    - elec ht stg 2
+    - elec-ht-stg-2
+    - heating stg 2
+    - heating stage 2
+    - elec heat stage 2
+    - elec-heat-stage-2
+    - electric heat stg 2
+    - electric-heat-stage-2
+  abbreviated: []

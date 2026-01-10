@@ -1,0 +1,39 @@
+concept:
+  id: chiller-4-enable
+  name: Chiller 4 Enable
+  category: commands
+  description: Chiller 4 Enable point
+  haystack: chiller 4 enable
+aliases:
+  common:
+    - c-e
+    - c4e
+    - c-4-e
+    - ch4en
+    - ch4 en
+    - ch4-en
+    - chl4en
+    - ch 4 en
+    - ch-4-en
+    - ch4enbl
+    - chlr4en
+    - ch4 enbl
+    - ch4-enbl
+    - chl 4 en
+    - chl-4-en
+    - ch 4 enbl
+    - ch-4-enbl
+    - chlr 4 en
+    - chlr-4-en
+    - chlr4enbl
+    - ch4-enable
+    - ch-4 enable
+    - chlr 4 enbl
+    - chlr-4-enbl
+    - chiller 4 en
+    - chiller-4-en
+    - chl 4 enable
+    - chl-4-enable
+    - chlr-4 enable
+    - chiller-4-enable
+  abbreviated: []

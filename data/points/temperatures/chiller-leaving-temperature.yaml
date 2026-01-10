@@ -12,12 +12,58 @@ concept:
   brick: Leaving_Water_Temperature_Sensor
 aliases:
   common:
-    - chiller leaving temp
-    - chiller supply temp
-    - chlr leaving temp
-    - chlr lwt
-    - chiller lwt
-    - chiller leaving water temp
-    - ch-lwt
-    - chlr-lwt
+    - c-l
+    - clt
+    - cst
+    - clwt
+    - c-l-t
+    - c-s-t
+    - chlvg
+    - chlwt
+    - chsat
+    - ch lvg
+    - ch lwt
     - ch-lvg
+    - ch-lwt
+    - chllwt
+    - c-l-w-t
+    - ch sa t
+    - ch-sa-t
+    - chl lwt
+    - chl-lwt
+    - chleavt
+    - chlrlwt
+    - chlr lwt
+    - chlr-lwt
+    - ch leav t
+    - ch-leav-t
+    - chlrleavt
+    - chleavwtrt
+    - chllvgtemp
+    - chiller lwt
+    - chlr leav t
+    - chlr-leav-t
+    - chl lvg temp
+    - chl-lvg-temp
+    - ch leav wtr t
+    - ch-leav-wtr-t
+    - chllvgtemperature
+    - chlr leaving temp
+    - chlsuptemperature
+    - chllvgwtemperature
+    - chlrlvgtemperature
+    - chiller supply temp
+    - chl lvg temperature
+    - chl sup temperature
+    - chl-lvg-temperature
+    - chl-sup-temperature
+    - chiller leaving temp
+    - chiller-leaving-temp
+    - chlr lvg temperature
+    - chlr-lvg-temperature
+    - chl lvg w temperature
+    - chl-lvg-w-temperature
+    - chl leaving temperature
+    - chl-leaving-temperature
+    - chiller leaving water temp
+    - chiller-leaving-temperature

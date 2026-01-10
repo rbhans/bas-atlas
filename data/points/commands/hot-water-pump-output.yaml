@@ -7,8 +7,27 @@ concept:
   brick: Hot_Water_Pump_Speed_Command
 aliases:
   common:
+    - h-o
+    - hwpo
+    - hwp o
     - hwp-o
+    - hwpout
+    - h-w-p-o
+    - htwpout
     - hwp out
+    - hwp-out
+    - hwwtrpmpo
+    - ht w p out
+    - ht-w-p-out
     - hwp output
+    - hw wtr pmp o
+    - hw-wtr-pmp-o
+    - hw pump output
+    - hw-pump-output
+    - hot water pump out
+    - hot-water-pump-out
+    - ht water pump output
+    - ht-water-pump-output
+    - hot-water-pump-output
 related:
   - hot-water-pump-feedback

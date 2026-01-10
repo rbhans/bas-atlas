@@ -8,13 +8,57 @@ equipment:
     brick: Variable_Air_Volume_Box
     aliases:
       common:
-        - VAV
-        - VAV box
-        - VAV terminal
-        - air terminal unit
-        - VAV terminal unit
-        - variable volume box
         - VV
+        - atu
+        - v-b
+        - v-t
+        - vav
+        - VAV
+        - vtu
+        - vvb
+        - vavb
+        - a-t-u
+        - v-t-u
+        - v-v-b
+        - vavbox
+        - v-a-v-b
+        - vav box
+        - VAV box
+        - vav-box
+        - aterminalu
+        - vvolumebox
+        - vavterminal
+        - a terminal u
+        - a-terminal-u
+        - v volume box
+        - v-volume-box
+        - varvolumebox
+        - vav terminal
+        - VAV terminal
+        - vav-terminal
+        - vavterminalu
+        - arterminalunt
+        - varavolumebox
+        - var volume box
+        - var-volume-box
+        - vav terminal u
+        - vav-terminal-u
+        - vavterminalunt
+        - ar terminal unt
+        - ar-terminal-unt
+        - v ar volume box
+        - v-ar-volume-box
+        - var a volume box
+        - var-a-volume-box
+        - vav terminal unt
+        - vav-terminal-unt
+        - air terminal unit
+        - vav terminal unit
+        - VAV terminal unit
+        - var air volume box
+        - var-air-volume-box
+        - variable volume box
+        - variable-air-volume-box
   - id: constant-air-volume-box
     name: Constant Air Volume Box
     abbreviation: CAV
@@ -24,12 +68,43 @@ equipment:
     brick: Constant_Air_Volume_Box
     aliases:
       common:
-        - CAV
-        - CAV box
-        - CAV terminal
-        - constant volume box
-        - CV box
         - CV
+        - c-b
+        - c-t
+        - cav
+        - CAV
+        - cvb
+        - cavb
+        - c-v-b
+        - cvbox
+        - cavbox
+        - cv box
+        - CV box
+        - cv-box
+        - c-a-v-b
+        - cav box
+        - CAV box
+        - cav-box
+        - cavterminal
+        - cav terminal
+        - CAV terminal
+        - cav-terminal
+        - convolumebox
+        - con volume box
+        - con-volume-box
+        - conarvolumebox
+        - constvolumebox
+        - constavolumebox
+        - const volume box
+        - const-volume-box
+        - con ar volume box
+        - con-ar-volume-box
+        - const a volume box
+        - const-a-volume-box
+        - constant volume box
+        - const air volume box
+        - const-air-volume-box
+        - constant-air-volume-box
   - id: parallel-fan-powered-box
     name: Parallel Fan Powered Box
     abbreviation: PFPB
@@ -39,14 +114,57 @@ equipment:
     brick: Parallel_Fan_Powered_Box
     aliases:
       common:
-        - PFPB
-        - parallel fan box
-        - PFVAV
-        - parallel fan VAV
-        - fan powered box
+        - fpb
         - FPB
-        - parallel fan terminal
+        - pfb
         - PFB
+        - pft
+        - pfv
+        - pfpb
+        - PFPB
+        - f-p-b
+        - p-f-b
+        - p-f-t
+        - p-f-v
+        - pfvav
+        - PFVAV
+        - p-f-p-b
+        - fpoweredbox
+        - fnpoweredbox
+        - parallelfbox
+        - parallelfvav
+        - f powered box
+        - f-powered-box
+        - parallelfnbox
+        - parallelfnvav
+        - fn powered box
+        - fn-powered-box
+        - parallel f box
+        - parallel f vav
+        - parallel-f-box
+        - parallel-f-vav
+        - fan powered box
+        - parallel fn box
+        - parallel fn vav
+        - parallel-fn-box
+        - parallel-fn-vav
+        - parallel fan box
+        - parallel fan vav
+        - parallel fan VAV
+        - parallelfterminal
+        - parallelfnterminal
+        - parallel f terminal
+        - parallel-f-terminal
+        - parallelfpoweredbox
+        - parallel fn terminal
+        - parallel-fn-terminal
+        - parallelfnpoweredbox
+        - parallel fan terminal
+        - parallel f powered box
+        - parallel-f-powered-box
+        - parallel fn powered box
+        - parallel-fn-powered-box
+        - parallel-fan-powered-box
   - id: series-fan-powered-box
     name: Series Fan Powered Box
     abbreviation: SFPB
@@ -56,12 +174,47 @@ equipment:
     brick: Series_Fan_Powered_Box
     aliases:
       common:
-        - SFPB
-        - series fan box
-        - SFVAV
-        - series fan VAV
-        - series fan terminal
+        - sfb
         - SFB
+        - sft
+        - sfv
+        - sfpb
+        - SFPB
+        - s-f-b
+        - s-f-t
+        - s-f-v
+        - sfvav
+        - SFVAV
+        - s-f-p-b
+        - seriesfbox
+        - seriesfvav
+        - seriesfnbox
+        - seriesfnvav
+        - series f box
+        - series f vav
+        - series-f-box
+        - series-f-vav
+        - series fn box
+        - series fn vav
+        - series-fn-box
+        - series-fn-vav
+        - series fan box
+        - series fan vav
+        - series fan VAV
+        - seriesfterminal
+        - seriesfnterminal
+        - series f terminal
+        - series-f-terminal
+        - seriesfpoweredbox
+        - series fn terminal
+        - series-fn-terminal
+        - seriesfnpoweredbox
+        - series fan terminal
+        - series f powered box
+        - series-f-powered-box
+        - series fn powered box
+        - series-fn-powered-box
+        - series-fan-powered-box
   - id: chilled-beam
     name: Chilled Beam
     abbreviation: CB
@@ -71,14 +224,50 @@ equipment:
     brick: Chilled_Beam
     aliases:
       common:
+        - acb
+        - ACB
+        - c-b
+        - c-c
+        - i-b
+        - pcb
+        - PCB
+        - a-c-b
+        - p-c-b
+        - chbeam
+        - ch beam
+        - ch-beam
+        - chlbeam
+        - chl beam
+        - chl-beam
+        - chceiling
+        - ch ceiling
+        - ch-ceiling
+        - chlceiling
+        - ceilingbeam
+        - chl ceiling
+        - chl-ceiling
+        - activechbeam
+        - ceiling beam
+        - ceiling-beam
         - chilled beam
+        - chilled-beam
+        - activechlbeam
+        - inductionbeam
+        - passivechbeam
+        - active ch beam
+        - active-ch-beam
+        - induction beam
+        - induction-beam
+        - passivechlbeam
+        - active chl beam
+        - active-chl-beam
+        - chilled ceiling
+        - passive ch beam
+        - passive-ch-beam
+        - passive chl beam
+        - passive-chl-beam
         - active chilled beam
         - passive chilled beam
-        - induction beam
-        - ceiling beam
-        - chilled ceiling
-        - ACB
-        - PCB
   - id: radiant-panel
     name: Radiant Panel
     abbreviation: RP
@@ -88,12 +277,44 @@ equipment:
     brick: Radiant_Panel
     aliases:
       common:
-        - radiant panel
-        - radiant ceiling panel
-        - radiant floor panel
-        - radiant heating panel
-        - radiant cooling panel
+        - c-p
+        - r-p
+        - rcp
+        - rfp
+        - rhp
+        - r-c-p
+        - r-f-p
+        - r-h-p
+        - ceilingpanel
+        - radiantpanel
         - ceiling panel
+        - ceiling-panel
+        - radiant panel
+        - radiant-panel
+        - radiantflpanel
+        - radiantclgpanel
+        - radiantflrpanel
+        - radianthtgpanel
+        - radiant fl panel
+        - radiant-fl-panel
+        - radiantcoolpanel
+        - radiantheatpanel
+        - radiant clg panel
+        - radiant flr panel
+        - radiant htg panel
+        - radiant-clg-panel
+        - radiant-flr-panel
+        - radiant-htg-panel
+        - radiant cool panel
+        - radiant heat panel
+        - radiant-cool-panel
+        - radiant-heat-panel
+        - radiant floor panel
+        - radiantceilingpanel
+        - radiant ceiling panel
+        - radiant cooling panel
+        - radiant heating panel
+        - radiant-ceiling-panel
   - id: baseboard-heater
     name: Baseboard Heater
     abbreviation: BB
@@ -103,14 +324,45 @@ equipment:
     brick: Baseboard_Heater
     aliases:
       common:
-        - baseboard heater
+        - b-c
+        - b-h
+        - b-r
+        - e-b
+        - f-t
+        - ftr
+        - hwb
+        - f-t-r
+        - h-w-b
+        - fintube
         - fin tube
-        - baseboard radiator
+        - fin-tube
         - convector
-        - finned tube radiator
-        - baseboard convector
-        - hot water baseboard
+        - elbaseboard
+        - el baseboard
+        - el-baseboard
+        - htwbaseboard
+        - elecbaseboard
+        - elec baseboard
+        - elec-baseboard
+        - ht w baseboard
+        - ht-w-baseboard
+        - hwwtrbaseboard
+        - baseboardheater
+        - baseboard heater
+        - baseboard-heater
+        - hw wtr baseboard
+        - hw-wtr-baseboard
+        - baseboardradiator
+        - baseboard radiator
+        - baseboard-radiator
+        - baseboardconvector
         - electric baseboard
+        - finnedtuberadiator
+        - baseboard convector
+        - baseboard-convector
+        - hot water baseboard
+        - finned tube radiator
+        - finned-tube-radiator
   - id: unit-heater
     name: Unit Heater
     abbreviation: UH
@@ -121,14 +373,54 @@ equipment:
     aliases:
       common:
         - UH
+        - c-h
+        - cuh
+        - CUH
+        - s-h
+        - u-h
+        - gfuh
+        - hwuh
+        - c-u-h
+        - g-f-u-h
+        - h-w-u-h
+        - uheater
+        - u heater
+        - u-heater
+        - untheater
+        - htwuheater
+        - unt heater
+        - unt-heater
+        - gfrduheater
         - unit heater
+        - unit-heater
+        - cabinetheater
+        - ceilingheater
+        - gsfruntheater
+        - ht w u heater
+        - ht-w-u-heater
+        - cabinet heater
+        - cabinet-heater
+        - cabinetuheater
+        - ceiling heater
+        - ceiling-heater
+        - g frd u heater
+        - g-frd-u-heater
+        - hwwtruntheater
+        - suspendedheater
+        - cabinet u heater
+        - cabinet-u-heater
+        - cabinetuntheater
+        - gs fr unt heater
+        - gs-fr-unt-heater
+        - suspended heater
+        - suspended-heater
+        - hw wtr unt heater
+        - hw-wtr-unt-heater
+        - cabinet unt heater
+        - cabinet-unt-heater
+        - cabinet unit heater
         - gas-fired unit heater
         - hot water unit heater
-        - cabinet heater
-        - cabinet unit heater
-        - CUH
-        - suspended heater
-        - ceiling heater
   - id: induction-unit
     name: Induction Unit
     abbreviation: IU
@@ -138,9 +430,36 @@ equipment:
     brick: Induction_Unit
     aliases:
       common:
+        - aiu
+        - hpi
+        - i-t
+        - i-u
+        - a-i-u
+        - h-p-i
+        - inductionu
+        - ainductionu
+        - induction u
+        - induction-u
+        - inductionunt
+        - a induction u
+        - a-induction-u
+        - induction unt
+        - induction-unt
+        - arinductionunt
         - induction unit
-        - induction terminal
+        - induction-unit
+        - ar induction unt
+        - ar-induction-unt
+        - highprsinduction
+        - inductionterminal
         - air induction unit
+        - high prs induction
+        - high-prs-induction
+        - highpressinduction
+        - induction terminal
+        - induction-terminal
+        - high press induction
+        - high-press-induction
         - high pressure induction
   - id: blower-coil-unit
     name: Blower Coil Unit
@@ -151,9 +470,50 @@ equipment:
     brick: Blower_Coil_Unit
     aliases:
       common:
-        - BCU
-        - blower coil
-        - horizontal blower coil
-        - vertical blower coil
-        - console unit
         - BC
+        - b-c
+        - bcu
+        - BCU
+        - c-u
+        - hbc
+        - vbc
+        - b-c-u
+        - h-b-c
+        - v-b-c
+        - blowerc
+        - blower c
+        - blower-c
+        - blowercl
+        - consoleu
+        - blower cl
+        - blower-cl
+        - blowerclu
+        - console u
+        - console-u
+        - blowercunt
+        - consoleunt
+        - blower cl u
+        - blower coil
+        - blower-cl-u
+        - console unt
+        - console-unt
+        - blower c unt
+        - blower-c-unt
+        - console unit
+        - blower coil u
+        - blower-coil-u
+        - verticalblowerc
+        - blower-coil-unit
+        - verticalblowercl
+        - horizontalblowerc
+        - vertical blower c
+        - vertical-blower-c
+        - horizontalblowercl
+        - vertical blower cl
+        - vertical-blower-cl
+        - horizontal blower c
+        - horizontal-blower-c
+        - horizontal blower cl
+        - horizontal-blower-cl
+        - vertical blower coil
+        - horizontal blower coil

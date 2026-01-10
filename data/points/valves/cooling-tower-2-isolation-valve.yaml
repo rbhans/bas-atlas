@@ -1,0 +1,36 @@
+concept:
+  id: cooling-tower-2-isolation-valve
+  name: Cooling Tower 2 Isolation Valve
+  category: valves
+  description: Cooling Tower 2 Isolation Valve point
+  haystack: cooling tower 2 isolation valve
+aliases:
+  common:
+    - c-i
+    - c2iv
+    - ct2iv
+    - c-2-i-v
+    - ct2isov
+    - c-t-2-i-v
+    - ct2isovlv
+    - ct 2 iso v
+    - ct-2-iso-v
+    - ct2 isovlv
+    - ct2-isovlv
+    - cooltw2isolv
+    - ct 2 iso vlv
+    - ct-2-iso-vlv
+    - clgtwr2isovlv
+    - ct-2 iso valve
+    - cool tw 2 isol v
+    - cool-tw-2-isol-v
+    - clg twr 2 iso vlv
+    - clg-twr-2-iso-vlv
+    - ct 2 isolation valve
+    - ct-2-isolation-valve
+    - clg tower 2 isolation valve
+    - clg-tower-2-isolation-valve
+    - cooling tower 2 isolation vlv
+    - cooling-tower-2-isolation-vlv
+    - cooling-tower-2-isolation-valve
+  abbreviated: []

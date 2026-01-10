@@ -1,0 +1,48 @@
+concept:
+  id: chiller-6-leaving-temperature
+  name: Chiller 6 Leaving Temperature
+  category: temperatures
+  description: Chiller 6 Leaving Temperature point
+  haystack: chiller 6 leaving temperature
+aliases:
+  common:
+    - c-l
+    - clt
+    - c6lt
+    - c-l-t
+    - ch6lwt
+    - c-6-l-t
+    - ch6 lwt
+    - ch6-lwt
+    - ch6lvgt
+    - ch6leavt
+    - ch6 lvg t
+    - ch6-lvg-t
+    - ch6leavet
+    - ch 6 lvg t
+    - ch-6-lvg-t
+    - ch 6 leav t
+    - ch-6-leav-t
+    - chl6lvgtemp
+    - ch 6 leave t
+    - ch-6-leave-t
+    - ch6-lvg-temp
+    - ch-6 lvg temp
+    - chl 6 lvg temp
+    - chl-6-lvg-temp
+    - ch-6 leave temp
+    - ch-6 leaving temp
+    - ch6lvgtemperature
+    - ch6 lvg temperature
+    - ch6-lvg-temperature
+    - ch6leavetemperature
+    - ch 6 lvg temperature
+    - ch-6-lvg-temperature
+    - ch 6 leave temperature
+    - ch-6-leave-temperature
+    - chiller 6 leaving temp
+    - chiller-6-leaving-temp
+    - chl 6 leaving temperature
+    - chl-6-leaving-temperature
+    - chiller-6-leaving-temperature
+  abbreviated: []

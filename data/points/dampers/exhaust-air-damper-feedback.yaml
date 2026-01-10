@@ -12,8 +12,36 @@ concept:
   object_type: analogInput
 aliases:
   common:
+    - e-f
+    - edf
+    - eadf
+    - e-d-f
+    - eadfb
+    - ead fb
     - ead-fb
-    - ea damper feedback
+    - e-a-d-f
+    - eadfdbk
+    - eadmpfb
+    - ead fdbk
+    - ead-fdbk
+    - ea dmp fb
+    - ea-dmp-fb
+    - exhadmpfb
+    - eadmprfdbk
+    - ea dmpr fdbk
+    - ea-dmpr-fdbk
+    - eaardmprfdbk
     - ead feedback
+    - exh a dmp fb
+    - exh-a-dmp-fb
+    - ea ar dmpr fdbk
+    - ea-ar-dmpr-fdbk
+    - ea damper feedback
+    - ea-damper-feedback
+    - exhaust air damper fb
+    - exhaust-air-damper-fb
+    - exh air damper feedback
+    - exh-air-damper-feedback
+    - exhaust-air-damper-feedback
 related:
   - exhaust-air-damper-output

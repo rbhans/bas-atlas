@@ -12,8 +12,26 @@ concept:
   object_type: analogInput
 aliases:
   common:
+    - e-f
+    - eff
+    - effb
+    - e-f-f
+    - ef fb
     - ef-fb
+    - effdbk
+    - exhffb
+    - ef fdbk
+    - ef-fdbk
+    - eafnfdbk
+    - exh f fb
+    - exh-f-fb
+    - ea fn fdbk
+    - ea-fn-fdbk
     - ef feedback
-    - ef feedback
+    - exhaust fan fb
+    - exhaust-fan-fb
+    - exh fan feedback
+    - exh-fan-feedback
+    - exhaust-fan-feedback
 related:
   - exhaust-fan-output

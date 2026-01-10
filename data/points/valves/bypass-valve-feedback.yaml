@@ -12,8 +12,30 @@ concept:
   object_type: analogInput
 aliases:
   common:
+    - b-f
+    - bvf
+    - b-v-f
+    - bypfb
+    - byp fb
     - byp-fb
+    - bpvfdbk
+    - bypvlvfb
+    - bp v fdbk
+    - bp-v-fdbk
+    - bpvlvfdbk
+    - byp vlv fb
+    - byp-vlv-fb
+    - bypvlvfdbk
+    - bp vlv fdbk
+    - bp-vlv-fdbk
+    - byp vlv fdbk
+    - byp-vlv-fdbk
+    - bypass valve fb
+    - bypass-valve-fb
     - byp vlv feedback
+    - byp valve feedback
+    - byp-valve-feedback
     - bypass vlv feedback
+    - bypass-valve-feedback
 related:
   - bypass-valve-output

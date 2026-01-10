@@ -7,7 +7,31 @@ concept:
   brick: Supply_Fan_Command
 aliases:
   common:
+    - f-c
+    - fnc
+    - s-c
+    - sfc
+    - fcmd
+    - fn c
+    - fn-c
+    - sf c
     - sf-c
-    - sf command
+    - f cmd
+    - f-cmd
+    - s-f-c
+    - safnc
+    - sfcmd
     - sf cmd
+    - sf-cmd
+    - sa fn c
+    - sa-fn-c
+    - supfcmd
+    - sup f cmd
+    - sup-f-cmd
+    - sf command
     - fan command
+    - supply fan cmd
+    - supply-fan-cmd
+    - sup fan command
+    - sup-fan-command
+    - supply-fan-command

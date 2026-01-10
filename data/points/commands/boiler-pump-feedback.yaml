@@ -7,10 +7,35 @@ concept:
   brick: Boiler_Pump_Speed_Position_Sensor
 aliases:
   common:
+    - b-f
+    - bpf
+    - bpfb
+    - b-p-f
+    - bp fb
     - bp-fb
+    - blrpfb
+    - bpfdbk
+    - blrp fb
+    - blrp-fb
+    - bp fdbk
+    - bp-fdbk
+    - blr p fb
+    - blr-p-fb
+    - blrpfdbk
+    - bpmpfdbk
+    - blrp fdbk
+    - blrp-fdbk
+    - b pmp fdbk
+    - b-pmp-fdbk
+    - blrpmpfdbk
     - bp feedback
-    - bp feedback
+    - blr pmp fdbk
+    - blr-pmp-fdbk
     - blrp feedback
+    - boiler pump fb
+    - boiler-pump-fb
     - blr pump feedback
+    - blr-pump-feedback
+    - boiler-pump-feedback
 related:
   - boiler-pump-output

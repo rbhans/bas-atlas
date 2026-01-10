@@ -7,10 +7,35 @@ concept:
   brick: Boiler_Pump_Speed_Command
 aliases:
   common:
+    - b-o
+    - bpo
+    - bp o
     - bp-o
+    - b-p-o
+    - blrpo
+    - bpmpo
+    - bpout
+    - blrp o
+    - blrp-o
     - bp out
+    - bp-out
+    - b pmp o
+    - b-pmp-o
+    - blrpout
+    - blrp out
+    - blrp-out
+    - blr p out
+    - blr-p-out
+    - blrpmpout
     - bp output
+    - blr pmp out
+    - blr-pmp-out
     - blrp output
     - blr pump out
+    - blr pump output
+    - blr-pump-output
+    - boiler pump out
+    - boiler-pump-out
+    - boiler-pump-output
 related:
   - boiler-pump-feedback

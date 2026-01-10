@@ -7,10 +7,43 @@ concept:
   brick: Humidifier_Command
 aliases:
   common:
+    - h-o
+    - h-v
+    - hvo
+    - humo
+    - h-v-o
+    - hum o
     - hum-o
-    - humidifier out
+    - humido
+    - humidv
+    - humout
+    - humvlv
+    - hum out
     - hum vlv
-    - humidifier valve out
+    - hum-out
+    - hum-vlv
+    - humid o
+    - humid v
+    - humid-o
+    - humid-v
+    - humidout
+    - humidvlv
+    - humid out
+    - humid vlv
+    - humid-out
+    - humid-vlv
+    - humidvout
+    - humvlvout
+    - hum output
+    - hum-output
+    - hum vlv out
+    - hum-vlv-out
+    - humid v out
     - humid valve
+    - humid-v-out
+    - humidifier out
+    - humidifier-out
+    - humidifier-output
+    - humidifier valve out
 related:
   - humidifier-feedback

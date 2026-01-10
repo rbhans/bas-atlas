@@ -7,6 +7,26 @@ concept:
   brick: Discharge_Air_Temperature_Setpoint
 aliases:
   common:
+    - d-s
+    - dats
+    - datsp
+    - dat sp
     - dat-sp
-    - dat setpoint
+    - d-a-t-s
+    - datstpt
     - dat stpt
+    - dat-stpt
+    - daatempsp
+    - disartstpt
+    - da a temp sp
+    - da-a-temp-sp
+    - dat setpoint
+    - dis ar t stpt
+    - dis-ar-t-stpt
+    - da temperature setpoint
+    - da-temperature-setpoint
+    - da air temperature setpoint
+    - da-air-temperature-setpoint
+    - discharge air temperature sp
+    - discharge-air-temperature-sp
+    - discharge-air-temperature-setpoint

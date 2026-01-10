@@ -7,6 +7,26 @@ concept:
   brick: Exhaust_Fan_Status
 aliases:
   common:
+    - e-s
+    - efs
+    - ef s
     - ef-s
-    - ef status
+    - e-f-s
+    - efsts
     - ef sts
+    - ef-sts
+    - efstat
+    - ef stat
+    - ef-stat
+    - exhfsts
+    - eafnstat
+    - ef status
+    - exh f sts
+    - exh-f-sts
+    - ea fn stat
+    - ea-fn-stat
+    - exh fan status
+    - exh-fan-status
+    - exhaust fan sts
+    - exhaust-fan-sts
+    - exhaust-fan-status

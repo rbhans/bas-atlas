@@ -7,6 +7,24 @@ concept:
   brick: Secondary_Chilled_Water_Pump_Command
 aliases:
   common:
+    - s-c
+    - scwpc
+    - schwpc
+    - schwp c
     - schwp-c
+    - schwpcmd
+    - s-c-w-p-c
     - schwp cmd
+    - schwp-cmd
+    - secchlwpcmd
     - schwp command
+    - scndchwtrpmpc
+    - sec chl w p cmd
+    - sec-chl-w-p-cmd
+    - scnd ch wtr pmp c
+    - scnd-ch-wtr-pmp-c
+    - sec chilled water pump command
+    - sec-chilled-water-pump-command
+    - secondary chilled water pump cmd
+    - secondary-chilled-water-pump-cmd
+    - secondary-chilled-water-pump-command

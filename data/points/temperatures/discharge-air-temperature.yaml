@@ -13,15 +13,41 @@ concept:
   engineering_units: degrees-fahrenheit
 aliases:
   common:
-    - da-t
-    - da temp
-    - da temperature
-    - disch air temp
-    - DAT
-    - DischargeTemp
-    - Discharge_Temp
-    - dat
     - dt
+    - d-t
+    - dat
+    - DAT
+    - da t
+    - da-t
+    - d-a-t
+    - datemp
+    - disart
+    - da temp
+    - da-temp
+    - daatemp
+    - dis ar t
+    - dis-ar-t
+    - dischart
+    - da a temp
+    - da-a-temp
+    - disch ar t
+    - disch-ar-t
+    - datemperature
+    - dischargetemp
+    - DischargeTemp
+    - da temperature
+    - da-temperature
+    - disch air temp
+    - discharge_temp
+    - Discharge_Temp
+    - dischatemperature
+    - da air temperature
+    - da-air-temperature
+    - discharge air temp
+    - discharge-air-temp
+    - disch a temperature
+    - disch-a-temperature
+    - discharge-air-temperature
 notes:
   - Cooling mode typically 50-65°F
   - Heating mode typically 70-110°F

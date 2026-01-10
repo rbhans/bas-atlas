@@ -7,6 +7,21 @@ concept:
   brick: Relief_Fan_Fault_Status
 aliases:
   common:
-    - rlf-fault
-    - rlf fault
+    - r-f
+    - rff
+    - r-f-f
+    - rlfflt
     - rlf flt
+    - rlf-flt
+    - rlffault
+    - rafnfault
+    - relffault
+    - rlf fault
+    - rlf-fault
+    - ra fn fault
+    - ra-fn-fault
+    - rel f fault
+    - rel-f-fault
+    - rel fan fault
+    - rel-fan-fault
+    - relief-fan-fault

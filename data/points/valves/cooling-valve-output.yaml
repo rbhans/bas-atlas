@@ -7,11 +7,51 @@ concept:
   brick: Cooling_Valve_Command
 aliases:
   common:
+    - c-o
+    - c-v
+    - cvo
+    - chwv
+    - clgo
+    - c-v-o
+    - chw v
+    - chw-v
+    - clg o
     - clg-o
-    - cooling output
-    - cooling valve
-    - cool output
+    - coolo
+    - coolv
+    - chwvlv
+    - clgout
+    - clgvlv
+    - cool o
+    - cool v
+    - cool-o
+    - cool-v
+    - coolvo
+    - chw vlv
+    - chw-vlv
+    - clg out
+    - clg vlv
+    - clg-out
+    - clg-vlv
+    - coolout
+    - cool out
+    - cool v o
+    - cool-out
+    - cool-v-o
     - chw valve
+    - chwvlvout
+    - clgvlvout
     - chw vlv out
+    - chw-vlv-out
+    - clg vlv out
+    - clg-vlv-out
+    - cool output
+    - cooling valve
+    - cooling output
+    - clg valve output
+    - clg-valve-output
+    - cooling valve out
+    - cooling-valve-out
+    - cooling-valve-output
 related:
   - cooling-valve-feedback

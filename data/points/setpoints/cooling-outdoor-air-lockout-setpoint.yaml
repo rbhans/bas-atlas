@@ -7,7 +7,36 @@ concept:
   brick: Outside_Air_Lockout_Temperature_Setpoint
 aliases:
   common:
+    - c-s
+    - cols
+    - coals
+    - c-o-l-s
+    - c-o-a-l-s
+    - clgoalockoutsp
+    - clgoaalockoutsp
+    - clgoalockout sp
     - clgoalockout-sp
-    - clg oat lockout setpoint
-    - cooling oat lockout stpt
+    - clgoatlockoutsp
+    - cooloatlocksetpt
+    - clgoatlockoutstpt
+    - clg oat lockout sp
+    - clg-oat-lockout-sp
+    - cooloatlockoutstpt
+    - clg oa a lockout sp
+    - clg-oa-a-lockout-sp
     - cool oat lock setpt
+    - cool-oat-lock-setpt
+    - clg oat lockout stpt
+    - clg-oat-lockout-stpt
+    - cooloutarlockoutstpt
+    - cool oat lockout stpt
+    - cool-oat-lockout-stpt
+    - clg oat lockout setpoint
+    - cool out ar lockout stpt
+    - cool-out-ar-lockout-stpt
+    - cooling oat lockout stpt
+    - cooling outdoor air lockout sp
+    - cooling-outdoor-air-lockout-sp
+    - clg outdoor air lockout setpoint
+    - clg-outdoor-air-lockout-setpoint
+    - cooling-outdoor-air-lockout-setpoint

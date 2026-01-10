@@ -7,7 +7,30 @@ concept:
   brick: Condenser_Water_Supply_Temperature_Sensor
 aliases:
   common:
+    - c-t
+    - cwst
+    - cws t
     - cws-t
-    - cws temp
-    - cws temperature
+    - cwstmp
+    - c-w-s-t
     - cws tmp
+    - cws-tmp
+    - cwstemp
+    - cws temp
+    - cws-temp
+    - cwwtrsat
+    - cndwsuptemp
+    - cw wtr sa t
+    - cw-wtr-sa-t
+    - cnd w sup temp
+    - cnd-w-sup-temp
+    - cwstemperature
+    - cws temperature
+    - cws-temperature
+    - cw supply temperature
+    - cw-supply-temperature
+    - condenser water supply temp
+    - condenser-water-supply-temp
+    - cnd water supply temperature
+    - cnd-water-supply-temperature
+    - condenser-water-supply-temperature

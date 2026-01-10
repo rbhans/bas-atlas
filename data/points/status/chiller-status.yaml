@@ -8,13 +8,55 @@ concept:
   brick: Chiller_Status
 aliases:
   common:
-    - chiller sts
-    - chiller running
-    - chlr status
-    - chlr sts
-    - chiller on/off
-    - chiller run status
+    - c-o
+    - c-r
+    - c-s
+    - chs
+    - crs
+    - ch s
     - ch-s
+    - c-r-s
+    - chlrs
+    - chsts
+    - ch sts
     - ch-sts
+    - chlr s
     - chlr-s
+    - chlsts
+    - chstat
+    - ch stat
+    - ch-stat
+    - chl sts
+    - chl-sts
+    - chlrsts
+    - chlr sts
     - chlr-sts
+    - chlrstat
+    - chon/off
+    - chrnstat
+    - ch on/off
+    - ch-on/off
+    - chl r sts
+    - chl-r-sts
+    - chlon/off
+    - chlr stat
+    - chlr-stat
+    - chrunning
+    - ch rn stat
+    - ch running
+    - ch-rn-stat
+    - ch-running
+    - chl on/off
+    - chl status
+    - chl-on/off
+    - chl-status
+    - chlrunning
+    - chiller sts
+    - chiller-sts
+    - chl running
+    - chl-running
+    - chlr status
+    - chiller on/off
+    - chiller-status
+    - chiller running
+    - chiller run status

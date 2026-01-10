@@ -7,6 +7,28 @@ concept:
   brick: Condenser_Water_Pump_Status
 aliases:
   common:
+    - c-s
+    - cwps
+    - cwp s
     - cwp-s
+    - cwpsts
+    - c-w-p-s
     - cwp sts
+    - cwp-sts
+    - cwpstat
+    - cndwpsts
+    - cwp stat
+    - cwp-stat
     - cwp status
+    - cnd w p sts
+    - cnd-w-p-sts
+    - cwwtrpmpstat
+    - cw pump status
+    - cw-pump-status
+    - cw wtr pmp stat
+    - cw-wtr-pmp-stat
+    - cnd water pump status
+    - cnd-water-pump-status
+    - condenser water pump sts
+    - condenser-water-pump-sts
+    - condenser-water-pump-status

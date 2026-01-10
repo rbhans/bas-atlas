@@ -7,8 +7,35 @@ concept:
   brick: Relief_Air_Damper_Command
 aliases:
   common:
+    - r-o
+    - rdo
+    - rado
+    - r-d-o
+    - rlfdo
+    - rlfd o
     - rlfd-o
-    - rlf damper output
+    - r-a-d-o
+    - rlfdout
+    - rlfd out
+    - rlfd-out
+    - rlfdmpro
+    - raardmpro
+    - rlfdmpout
+    - reladmpout
+    - rlf dmpr o
+    - rlf-dmpr-o
+    - rlf dmp out
+    - rlf-dmp-out
     - rlfd output
+    - ra ar dmpr o
+    - ra-ar-dmpr-o
+    - rel a dmp out
+    - rel-a-dmp-out
+    - rlf damper output
+    - rel air damper output
+    - rel-air-damper-output
+    - relief air damper out
+    - relief-air-damper-out
+    - relief-air-damper-output
 related:
   - relief-air-damper-feedback

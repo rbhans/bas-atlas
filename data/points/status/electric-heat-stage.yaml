@@ -8,10 +8,48 @@ concept:
   brick: Heating_Stage_Status
 aliases:
   common:
-    - elec heat stage
-    - electric heating stage
+    - ehs
+    - h-s
+    - e-h-s
+    - hstge
+    - htstg
+    - h stge
+    - h-stge
+    - ht stg
+    - ht-stg
+    - htgstg
+    - ehtgstg
+    - elhstge
+    - htg stg
+    - htg-stg
+    - heatstge
+    - e htg stg
+    - e-htg-stg
+    - el h stge
+    - el-h-stge
+    - elechstge
+    - elechtstg
+    - heat stge
+    - heat-stge
+    - elechtgstg
+    - elheatstge
     - heat stage
+    - elec h stge
+    - elec ht stg
+    - elec-h-stge
+    - elec-ht-stg
+    - elechtgstge
+    - el heat stge
+    - el-heat-stge
+    - elec htg stg
+    - elec-htg-stg
+    - elec htg stge
+    - elec-htg-stge
     - heating stage
     - elec htg stage
-    - elec-htg-stg
-    - e-htg-stg
+    - elec heat stage
+    - elec-heat-stage
+    - electric heat stg
+    - electric-heat-stg
+    - electric-heat-stage
+    - electric heating stage

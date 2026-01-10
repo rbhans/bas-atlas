@@ -7,6 +7,27 @@ concept:
   brick: Exhaust_Fan_Speed_Sensor
 aliases:
   common:
-    - ef-spd
-    - ef speed
+    - e-s
+    - e-v
+    - efs
+    - ef s
+    - ef-s
+    - e-f-s
+    - eafns
+    - efspd
+    - efvfd
+    - ef spd
     - ef vfd
+    - ef-spd
+    - ef-vfd
+    - ea fn s
+    - ea-fn-s
+    - exhfspd
+    - ef speed
+    - exh f spd
+    - exh-f-spd
+    - exh fan speed
+    - exh-fan-speed
+    - exhaust fan spd
+    - exhaust-fan-spd
+    - exhaust-fan-speed

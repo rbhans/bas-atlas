@@ -1,0 +1,35 @@
+concept:
+  id: cooling-tower-6-command
+  name: Cooling Tower 6 Command
+  category: commands
+  description: Cooling Tower 6 Command point
+  haystack: cooling tower 6 command
+aliases:
+  common:
+    - c-c
+    - c6c
+    - ct6c
+    - c-6-c
+    - ct 6 c
+    - ct-6-c
+    - ct6cmd
+    - c-t-6-c
+    - ct6 cmd
+    - ct6-cmd
+    - cooltw6c
+    - ct 6 cmd
+    - ct-6-cmd
+    - clgtwr6cmd
+    - cool tw 6 c
+    - cool-tw-6-c
+    - ct 6 command
+    - ct-6 command
+    - ct-6-command
+    - clg twr 6 cmd
+    - clg-twr-6-cmd
+    - clg tower 6 command
+    - clg-tower-6-command
+    - cooling tower 6 cmd
+    - cooling-tower-6-cmd
+    - cooling-tower-6-command
+  abbreviated: []

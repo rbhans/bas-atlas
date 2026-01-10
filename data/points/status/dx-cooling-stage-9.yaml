@@ -1,0 +1,42 @@
+concept:
+  id: dx-cooling-stage-9
+  name: DX Cooling Stage 9
+  category: status
+  description: DX Cooling Stage 9 point
+  haystack: dx cooling stage 9
+aliases:
+  common:
+    - c-9
+    - cs9
+    - d-s
+    - dcs9
+    - c-s-9
+    - compr9
+    - dxstg9
+    - clgstg9
+    - compr 9
+    - compr-9
+    - d-c-s-9
+    - dx stg9
+    - dx-stg9
+    - coolstg9
+    - clg stg 9
+    - clg-stg-9
+    - dxclgstg9
+    - cool stg 9
+    - cool-stg-9
+    - dxcoolstge9
+    - dx clg stg 9
+    - dx-clg-stg-9
+    - cooling stg 9
+    - compressorstg9
+    - dx cool stge 9
+    - dx-cool-stge-9
+    - compressorstge9
+    - compressor stg 9
+    - compressor-stg-9
+    - compressor stge 9
+    - compressor-stge-9
+    - compressor stage 9
+    - dx-cooling-stage-9
+  abbreviated: []

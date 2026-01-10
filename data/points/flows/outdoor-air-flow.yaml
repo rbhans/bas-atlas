@@ -7,5 +7,27 @@ concept:
   brick: Outside_Air_Flow_Sensor
 aliases:
   common:
+    - o-f
+    - oaf
+    - oa f
     - oa-f
+    - oafl
+    - o-a-f
+    - oa fl
+    - oa-fl
+    - oaflw
+    - oa flw
+    - oa-flw
+    - oaaflw
     - oa flow
+    - oa-flow
+    - outarfl
+    - oa a flw
+    - oa-a-flw
+    - out ar fl
+    - out-ar-fl
+    - oa air flow
+    - oa-air-flow
+    - outdoor air flw
+    - outdoor-air-flw
+    - outdoor-air-flow

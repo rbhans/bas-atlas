@@ -1,0 +1,53 @@
+concept:
+  id: electric-heat-stage-5
+  name: Electric Heat Stage 5
+  category: status
+  description: Electric Heat Stage 5 point
+  haystack: electric heat stage 5
+aliases:
+  common:
+    - e-s
+    - h 5
+    - h-5
+    - h-s
+    - hs5
+    - ht5
+    - ehs5
+    - ht 5
+    - ht-5
+    - h-s-5
+    - heat 5
+    - e-h-s-5
+    - elhstg5
+    - htgstg5
+    - elecstg5
+    - elhstge5
+    - heatstg5
+    - htg stg5
+    - htg-stg5
+    - elec stg5
+    - elec-stg5
+    - heatstge5
+    - htg stg 5
+    - htg-stg-5
+    - el h stg 5
+    - el-h-stg-5
+    - elechtstg5
+    - heat stg 5
+    - heat-stg-5
+    - el h stge 5
+    - el-h-stge-5
+    - elechtgstg5
+    - heat stge 5
+    - heat-stge-5
+    - elechtg stg5
+    - elechtg-stg5
+    - elec ht stg 5
+    - elec-ht-stg-5
+    - heating stg 5
+    - heating stage 5
+    - elec heat stage 5
+    - elec-heat-stage-5
+    - electric heat stg 5
+    - electric-heat-stage-5
+  abbreviated: []

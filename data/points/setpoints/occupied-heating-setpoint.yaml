@@ -7,8 +7,34 @@ concept:
   brick: Occupied_Heating_Temperature_Setpoint
 aliases:
   common:
+    - o-s
+    - ohs
+    - o-h-s
+    - ochtgsp
+    - occhtgsp
+    - oc htg sp
+    - oc-htg-sp
+    - occhtg sp
     - occhtg-sp
-    - occ htg setpoint
-    - occupied htg sp
+    - occ htg sp
+    - occ-htg-sp
+    - occhtgstpt
+    - ocheatstpt
+    - occhtgsetpt
+    - oc heat stpt
+    - oc-heat-stpt
     - occ htg stpt
+    - occ-htg-stpt
+    - occheatsetpt
+    - occ htg setpt
+    - occ-htg-setpt
+    - occ heat setpt
+    - occ-heat-setpt
+    - occupied htg sp
+    - occ htg setpoint
     - occ heating setpt
+    - occupied heating sp
+    - occupied-heating-sp
+    - occ heating setpoint
+    - occ-heating-setpoint
+    - occupied-heating-setpoint

@@ -1,0 +1,36 @@
+concept:
+  id: cooling-tower-5-isolation-valve
+  name: Cooling Tower 5 Isolation Valve
+  category: valves
+  description: Cooling Tower 5 Isolation Valve point
+  haystack: cooling tower 5 isolation valve
+aliases:
+  common:
+    - c-i
+    - c5iv
+    - ct5iv
+    - c-5-i-v
+    - ct5isov
+    - c-t-5-i-v
+    - ct5isovlv
+    - ct 5 iso v
+    - ct-5-iso-v
+    - ct5 isovlv
+    - ct5-isovlv
+    - cooltw5isolv
+    - ct 5 iso vlv
+    - ct-5-iso-vlv
+    - clgtwr5isovlv
+    - ct-5 iso valve
+    - cool tw 5 isol v
+    - cool-tw-5-isol-v
+    - clg twr 5 iso vlv
+    - clg-twr-5-iso-vlv
+    - ct 5 isolation valve
+    - ct-5-isolation-valve
+    - clg tower 5 isolation valve
+    - clg-tower-5-isolation-valve
+    - cooling tower 5 isolation vlv
+    - cooling-tower-5-isolation-vlv
+    - cooling-tower-5-isolation-valve
+  abbreviated: []

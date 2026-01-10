@@ -7,6 +7,28 @@ concept:
   brick: Exhaust_Air_Damper_Closed_Status
 aliases:
   common:
-    - ead-closed
-    - ea damper closed
+    - e-c
+    - edc
+    - eadc
+    - e-d-c
+    - e-a-d-c
+    - eadclosed
     - ead closed
+    - ead-closed
+    - eadmpclosed
+    - eadmprclosed
+    - ea dmp closed
+    - ea-dmp-closed
+    - exhadmpclosed
+    - ea dmpr closed
+    - ea-dmpr-closed
+    - eaardmprclosed
+    - ea damper closed
+    - ea-damper-closed
+    - exh a dmp closed
+    - exh-a-dmp-closed
+    - ea ar dmpr closed
+    - ea-ar-dmpr-closed
+    - exh air damper closed
+    - exh-air-damper-closed
+    - exhaust-air-damper-closed

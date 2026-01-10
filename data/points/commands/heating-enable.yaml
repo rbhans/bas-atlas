@@ -7,7 +7,28 @@ concept:
   brick: Heating_Enable_Command
 aliases:
   common:
+    - h-e
+    - hten
+    - henbl
+    - ht en
+    - ht-en
+    - htgen
+    - h enbl
+    - h-enbl
+    - heaten
+    - htg en
     - htg-en
+    - heat en
+    - heat-en
+    - htgenbl
+    - heatenbl
+    - htg enbl
+    - htg-enbl
+    - heat enbl
+    - heat-enbl
     - heating en
+    - heating-en
     - htg enable
+    - htg-enable
     - heat enable
+    - heating-enable

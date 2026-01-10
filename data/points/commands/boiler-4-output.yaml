@@ -1,0 +1,28 @@
+concept:
+  id: boiler-4-output
+  name: Boiler 4 Output
+  category: commands
+  description: Boiler 4 Output point
+  haystack: boiler 4 output
+aliases:
+  common:
+    - b-o
+    - b4o
+    - b 4 o
+    - b-4-o
+    - b4out
+    - blr4o
+    - blr4 o
+    - blr4-o
+    - b 4 out
+    - b-4-out
+    - blr4out
+    - blr 4 out
+    - blr-4-out
+    - b-4 output
+    - blr 4 output
+    - blr-4-output
+    - boiler 4 out
+    - boiler-4-out
+    - boiler-4-output
+  abbreviated: []

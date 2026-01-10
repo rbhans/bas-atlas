@@ -7,6 +7,30 @@ concept:
   brick: Supply_Air_Flow_Sensor
 aliases:
   common:
+    - s-f
+    - saf
+    - sa f
     - sa-f
+    - safl
+    - s-a-f
+    - sa fl
+    - sa-fl
+    - saflw
+    - sa flw
+    - sa-flw
+    - saarfl
     - sa flow
+    - sa-flow
+    - supaflw
+    - suparfl
+    - sa ar fl
+    - sa-ar-fl
+    - sup a flw
+    - sup ar fl
+    - sup-a-flw
+    - sup-ar-fl
     - sup air flow
+    - sup-air-flow
+    - supply air flw
+    - supply-air-flw
+    - supply-air-flow

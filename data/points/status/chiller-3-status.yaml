@@ -1,0 +1,38 @@
+concept:
+  id: chiller-3-status
+  name: Chiller 3 Status
+  category: status
+  description: Chiller 3 Status point
+  haystack: chiller 3 status
+aliases:
+  common:
+    - c-s
+    - c3s
+    - ch3s
+    - c-3-s
+    - ch3 s
+    - ch3-s
+    - ch3sts
+    - ch3stat
+    - chl3sts
+    - ch 3 sts
+    - ch-3 sts
+    - ch-3-sts
+    - chlr3sts
+    - ch 3 stat
+    - ch-3-stat
+    - chl 3 sts
+    - chl-3-sts
+    - chlr3stat
+    - chlr 3 sts
+    - chlr-3-sts
+    - ch-3 status
+    - chlr 3 stat
+    - chlr-3-stat
+    - chl 3 status
+    - chl-3-status
+    - chiller 3 sts
+    - chiller-3-sts
+    - chlr-3 status
+    - chiller-3-status
+  abbreviated: []

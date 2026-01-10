@@ -7,7 +7,30 @@ concept:
   brick: Hot_Water_Supply_Temperature_Sensor
 aliases:
   common:
+    - h-t
+    - hwst
+    - hws t
     - hws-t
-    - hws temp
-    - hws temperature
+    - hwstmp
+    - h-w-s-t
     - hws tmp
+    - hws-tmp
+    - hwstemp
+    - hws temp
+    - hws-temp
+    - hwwtrsat
+    - htwsuptemp
+    - hw wtr sa t
+    - hw-wtr-sa-t
+    - ht w sup temp
+    - ht-w-sup-temp
+    - hwstemperature
+    - hws temperature
+    - hws-temperature
+    - hot water supply temp
+    - hot-water-supply-temp
+    - hw supply temperature
+    - hw-supply-temperature
+    - ht water supply temperature
+    - ht-water-supply-temperature
+    - hot-water-supply-temperature

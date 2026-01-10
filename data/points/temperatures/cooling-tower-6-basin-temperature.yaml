@@ -1,0 +1,52 @@
+concept:
+  id: cooling-tower-6-basin-temperature
+  name: Cooling Tower 6 Basin Temperature
+  category: temperatures
+  description: Cooling Tower 6 Basin Temperature point
+  haystack: cooling tower 6 basin temperature
+aliases:
+  common:
+    - cbt
+    - c6bt
+    - c-b-t
+    - ct6bt
+    - c-6-b-t
+    - ct6bast
+    - ct6bsnt
+    - c-t-6-b-t
+    - ct6 bas t
+    - ct6 bsn t
+    - ct6-bas-t
+    - ct6-bsn-t
+    - ct 6 bas t
+    - ct-6-bas-t
+    - ct6bsntemp
+    - clgtwr6bast
+    - cooltw6bast
+    - ct6-basin-t
+    - ct 6 bsn temp
+    - ct-6-bsn-temp
+    - clgtwr6bsntemp
+    - clg twr 6 bas t
+    - clg-twr-6-bas-t
+    - cool tw 6 bas t
+    - cool-tw-6-bas-t
+    - ct-6 basin temp
+    - ct6bsntemperature
+    - clg twr 6 bsn temp
+    - clg-twr-6-bsn-temp
+    - clg twr 6 basin temp
+    - ct 6 bsn temperature
+    - ct-6-bsn-temperature
+    - clgtwr6bsntemperature
+    - ct 6 basin temperature
+    - ct-6 basin temperature
+    - ct-6-basin-temperature
+    - clg twr 6 bsn temperature
+    - clg-twr-6-bsn-temperature
+    - cooling tower 6 basin temp
+    - cooling-tower-6-basin-temp
+    - clg tower 6 basin temperature
+    - clg-tower-6-basin-temperature
+    - cooling-tower-6-basin-temperature
+  abbreviated: []

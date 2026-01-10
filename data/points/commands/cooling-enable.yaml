@@ -7,7 +7,22 @@ concept:
   brick: Cooling_Enable_Command
 aliases:
   common:
+    - c-e
+    - clgen
+    - clg en
     - clg-en
-    - cooling en
-    - cool enable
+    - coolen
+    - clgenbl
+    - cool en
+    - cool-en
+    - clg enbl
+    - clg-enbl
+    - coolenbl
+    - cool enbl
+    - cool-enbl
     - clg enable
+    - clg-enable
+    - cooling en
+    - cooling-en
+    - cool enable
+    - cooling-enable

@@ -7,9 +7,45 @@ concept:
   brick: Return_Air_Static_Pressure_Setpoint
 aliases:
   common:
+    - r-s
+    - rps
+    - raps
+    - r-p-s
+    - rapsp
+    - rap sp
     - rap-sp
-    - rap setpoint
-    - ra press stpt
+    - r-a-p-s
+    - rapstpt
+    - rap stpt
+    - rap-stpt
+    - raprsstpt
+    - raprssetpt
     - ra prs stpt
+    - ra-prs-stpt
+    - raarprsstpt
+    - rapressstpt
+    - retapresssp
+    - ra prs setpt
+    - ra-prs-setpt
+    - rap setpoint
+    - rapresssetpt
+    - ra press stpt
+    - ra-press-stpt
+    - ra ar prs stpt
+    - ra press setpt
+    - ra-ar-prs-stpt
+    - ra-press-setpt
+    - ret a press sp
+    - ret-a-press-sp
+    - retarpressstpt
     - ra pressure setpt
+    - ret ar press stpt
+    - ret-ar-press-stpt
+    - ra pressure setpoint
+    - ra-pressure-setpoint
     - ret air press setpoint
+    - return air pressure sp
+    - return-air-pressure-sp
+    - ret air pressure setpoint
+    - ret-air-pressure-setpoint
+    - return-air-pressure-setpoint

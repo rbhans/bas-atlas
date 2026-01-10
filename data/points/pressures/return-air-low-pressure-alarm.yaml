@@ -7,7 +7,38 @@ concept:
   brick: Low_Return_Air_Static_Pressure_Alarm
 aliases:
   common:
+    - ra
+    - r-a
+    - rlpa
+    - ralpa
+    - ralp a
     - ralp-a
+    - r-l-p-a
+    - r-a-l-p-a
+    - raarlowprsal
+    - ralowpressal
+    - ralowpressalm
+    - ralowprsalmost
+    - ra low press al
+    - ra-low-press-al
+    - retalowpressalm
+    - retarlowpressal
+    - ra ar low prs al
+    - ra low press alm
+    - ra-ar-low-prs-al
+    - ra-low-press-alm
     - ra low prs almost
+    - ra-low-prs-almost
     - ra low press alarm
+    - ret a low press alm
+    - ret ar low press al
+    - ret-a-low-press-alm
+    - ret-ar-low-press-al
+    - ra low pressure alarm
+    - ra-low-pressure-alarm
     - ret air low press alarm
+    - ret air low pressure alarm
+    - ret-air-low-pressure-alarm
+    - return air low pressure alm
+    - return-air-low-pressure-alm
+    - return-air-low-pressure-alarm

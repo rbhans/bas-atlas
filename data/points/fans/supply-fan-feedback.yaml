@@ -12,9 +12,34 @@ concept:
   object_type: analogInput
 aliases:
   common:
+    - f-f
+    - ffb
+    - s-f
+    - sff
+    - f fb
+    - f-fb
+    - sffb
+    - s-f-f
+    - sf fb
     - sf-fb
-    - sf feedback
+    - fnfdbk
+    - sffdbk
+    - supffb
+    - fn fdbk
+    - fn-fdbk
+    - sf fdbk
+    - sf-fdbk
+    - safnfdbk
+    - sup f fb
+    - sup-f-fb
+    - sa fn fdbk
+    - sa-fn-fdbk
     - sf feedback
     - fan feedback
+    - supply fan fb
+    - supply-fan-fb
+    - sup fan feedback
+    - sup-fan-feedback
+    - supply-fan-feedback
 related:
   - supply-fan-output

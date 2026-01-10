@@ -7,6 +7,27 @@ concept:
   brick: Relief_Fan_Status
 aliases:
   common:
+    - r-s
+    - rfs
+    - rlfs
+    - r-f-s
+    - rlf s
     - rlf-s
-    - rlf status
+    - rlfsts
+    - relfsts
     - rlf sts
+    - rlf-sts
+    - rlfstat
+    - rafnstat
+    - rlf stat
+    - rlf-stat
+    - rel f sts
+    - rel-f-sts
+    - ra fn stat
+    - ra-fn-stat
+    - rlf status
+    - rel fan status
+    - rel-fan-status
+    - relief fan sts
+    - relief-fan-sts
+    - relief-fan-status

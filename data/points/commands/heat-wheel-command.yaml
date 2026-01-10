@@ -7,9 +7,40 @@ concept:
   brick: Heat_Wheel_Command
 aliases:
   common:
+    - e-c
+    - h-c
+    - hwc
+    - erwc
+    - hw c
     - hw-c
-    - hw cmd
-    - hw command
-    - erw command
-    - energy recovery wheel command
+    - hwhc
+    - erw c
     - erw-c
+    - h-w-c
+    - hwcmd
+    - erwcmd
+    - h wh c
+    - h-wh-c
+    - hw cmd
+    - hw-cmd
+    - e-r-w-c
+    - erw cmd
+    - erw-cmd
+    - htwhlcmd
+    - ht whl cmd
+    - ht-whl-cmd
+    - hw command
+    - hw-command
+    - erw command
+    - erecoverywhc
+    - heat wheel cmd
+    - heat-wheel-cmd
+    - e recovery wh c
+    - e-recovery-wh-c
+    - ht wheel command
+    - ht-wheel-command
+    - nrgrecoverywhlcmd
+    - heat-wheel-command
+    - nrg recovery whl cmd
+    - nrg-recovery-whl-cmd
+    - energy recovery wheel command

@@ -1,0 +1,39 @@
+concept:
+  id: chiller-1-enable
+  name: Chiller 1 Enable
+  category: commands
+  description: Chiller 1 Enable point
+  haystack: chiller 1 enable
+aliases:
+  common:
+    - c-e
+    - c1e
+    - c-1-e
+    - ch1en
+    - ch1 en
+    - ch1-en
+    - chl1en
+    - ch 1 en
+    - ch-1-en
+    - ch1enbl
+    - chlr1en
+    - ch1 enbl
+    - ch1-enbl
+    - chl 1 en
+    - chl-1-en
+    - ch 1 enbl
+    - ch-1-enbl
+    - chlr 1 en
+    - chlr-1-en
+    - chlr1enbl
+    - ch1-enable
+    - ch-1 enable
+    - chlr 1 enbl
+    - chlr-1-enbl
+    - chiller 1 en
+    - chiller-1-en
+    - chl 1 enable
+    - chl-1-enable
+    - chlr-1 enable
+    - chiller-1-enable
+  abbreviated: []

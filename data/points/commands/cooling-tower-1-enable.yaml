@@ -1,0 +1,44 @@
+concept:
+  id: cooling-tower-1-enable
+  name: Cooling Tower 1 Enable
+  category: commands
+  description: Cooling Tower 1 Enable point
+  haystack: cooling tower 1 enable
+aliases:
+  common:
+    - c-e
+    - c1e
+    - ct1e
+    - c-1-e
+    - ct1en
+    - ct1 en
+    - ct1-en
+    - ct1ena
+    - c-t-1-e
+    - ct 1 en
+    - ct-1-en
+    - ct1enbl
+    - ct 1 ena
+    - ct-1 ena
+    - ct-1-ena
+    - clgtwr1en
+    - ct 1 enbl
+    - ct-1-enbl
+    - clgtwr1enbl
+    - cooltw1enbl
+    - ct 1 enable
+    - ct-1 enable
+    - ct-1-enable
+    - clg twr 1 en
+    - clg-twr-1-en
+    - clg twr 1 enbl
+    - clg-twr-1-enbl
+    - cool tw 1 enbl
+    - cool-tw-1-enbl
+    - clg twr 1 enable
+    - clg tower 1 enable
+    - clg-tower-1-enable
+    - cooling tower 1 en
+    - cooling-tower-1-en
+    - cooling-tower-1-enable
+  abbreviated: []

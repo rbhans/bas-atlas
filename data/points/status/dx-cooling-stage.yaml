@@ -8,11 +8,56 @@ concept:
   brick: Cooling_Stage_Status
 aliases:
   common:
+    - a-s
+    - c-s
+    - d-c
+    - d-s
+    - dcs
+    - acstg
+    - d-c-s
+    - dxclg
+    - dxstg
+    - ac stg
+    - ac-stg
+    - acstge
+    - clgstg
+    - dx clg
+    - dx stg
+    - dx-clg
+    - dx-stg
+    - dxcool
+    - dxstge
+    - ac stge
+    - ac-stge
+    - clg stg
+    - clg-stg
+    - dx cool
+    - dx stge
+    - dx-cool
+    - dx-stge
+    - ac stage
+    - coolstge
     - dx stage
+    - dxclgstg
+    - cool stge
+    - cool-stge
+    - dx clg stg
     - dx cooling
-    - compressor stage
+    - dx-clg-stg
+    - dxcoolstge
+    - dx cool stge
+    - dx-cool-stge
+    - dxcompressor
+    - compressorstg
     - cooling stage
     - dx compressor
-    - ac stage
-    - dx-stg
-    - dx-clg
+    - dx-compressor
+    - compressor stg
+    - compressor-stg
+    - compressorstge
+    - dx cooling stg
+    - dx-cooling-stg
+    - compressor stge
+    - compressor-stge
+    - compressor stage
+    - dx-cooling-stage

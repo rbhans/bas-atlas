@@ -8,13 +8,51 @@ concept:
   brick: Chiller_Alarm
 aliases:
   common:
-    - chiller alm
-    - chiller fault
-    - chlr alarm
-    - chlr alm
-    - chlr fault
-    - chiller warning
+    - cw
+    - c-a
+    - c-f
+    - c-w
+    - cha
+    - ch a
     - ch-a
+    - chal
+    - ch al
+    - ch-al
+    - chalm
+    - chlra
+    - ch alm
     - ch-alm
+    - chlalm
+    - chlr a
     - chlr-a
+    - chlral
+    - chfault
+    - chl alm
+    - chl-alm
+    - chlr al
+    - chlr-al
+    - chlralm
+    - ch fault
+    - ch-fault
+    - chlfault
+    - chlr alm
     - chlr-alm
+    - chl alarm
+    - chl fault
+    - chl-alarm
+    - chl-fault
+    - chlrfault
+    - chwarning
+    - ch warning
+    - ch-warning
+    - chlr alarm
+    - chlr fault
+    - chlr-fault
+    - chlwarning
+    - chiller alm
+    - chiller-alm
+    - chl warning
+    - chl-warning
+    - chiller fault
+    - chiller-alarm
+    - chiller warning

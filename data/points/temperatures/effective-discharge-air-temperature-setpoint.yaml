@@ -7,8 +7,38 @@ concept:
   brick: Effective_Discharge_Air_Temperature_Setpoint
 aliases:
   common:
+    - e-s
+    - eds
+    - edts
+    - e-d-s
+    - edats
+    - e-d-t-s
+    - effdatsp
+    - e-d-a-t-s
+    - effdat sp
     - effdat-sp
-    - eff dat setpoint
+    - eff dat sp
+    - eff-dat-sp
+    - effdatstpt
+    - effdatsetpt
     - eff dat stpt
-    - effective dat stpt
+    - eff-dat-stpt
+    - eff da t setpt
+    - eff-da-t-setpt
+    - eff dat setpoint
+    - effectivedatstpt
     - eff da temp setpt
+    - effective dat stpt
+    - effective-dat-stpt
+    - effectivedaatempsp
+    - effectivedisartstpt
+    - effdatemperaturesetpt
+    - effective da a temp sp
+    - effective-da-a-temp-sp
+    - effective dis ar t stpt
+    - effective-dis-ar-t-stpt
+    - eff da temperature setpt
+    - eff-da-temperature-setpt
+    - effective discharge air temperature sp
+    - effective-discharge-air-temperature-sp
+    - effective-discharge-air-temperature-setpoint

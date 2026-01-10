@@ -1,0 +1,28 @@
+concept:
+  id: boiler-3-output
+  name: Boiler 3 Output
+  category: commands
+  description: Boiler 3 Output point
+  haystack: boiler 3 output
+aliases:
+  common:
+    - b-o
+    - b3o
+    - b 3 o
+    - b-3-o
+    - b3out
+    - blr3o
+    - blr3 o
+    - blr3-o
+    - b 3 out
+    - b-3-out
+    - blr3out
+    - blr 3 out
+    - blr-3-out
+    - b-3 output
+    - blr 3 output
+    - blr-3-output
+    - boiler 3 out
+    - boiler-3-out
+    - boiler-3-output
+  abbreviated: []

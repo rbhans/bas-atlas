@@ -1,0 +1,44 @@
+concept:
+  id: cooling-tower-6-enable
+  name: Cooling Tower 6 Enable
+  category: commands
+  description: Cooling Tower 6 Enable point
+  haystack: cooling tower 6 enable
+aliases:
+  common:
+    - c-e
+    - c6e
+    - ct6e
+    - c-6-e
+    - ct6en
+    - ct6 en
+    - ct6-en
+    - ct6ena
+    - c-t-6-e
+    - ct 6 en
+    - ct-6-en
+    - ct6enbl
+    - ct 6 ena
+    - ct-6 ena
+    - ct-6-ena
+    - clgtwr6en
+    - ct 6 enbl
+    - ct-6-enbl
+    - clgtwr6enbl
+    - cooltw6enbl
+    - ct 6 enable
+    - ct-6 enable
+    - ct-6-enable
+    - clg twr 6 en
+    - clg-twr-6-en
+    - clg twr 6 enbl
+    - clg-twr-6-enbl
+    - cool tw 6 enbl
+    - cool-tw-6-enbl
+    - clg twr 6 enable
+    - clg tower 6 enable
+    - clg-tower-6-enable
+    - cooling tower 6 en
+    - cooling-tower-6-en
+    - cooling-tower-6-enable
+  abbreviated: []

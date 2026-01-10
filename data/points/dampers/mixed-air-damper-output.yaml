@@ -7,8 +7,35 @@ concept:
   brick: Mixed_Air_Damper_Command
 aliases:
   common:
+    - m-o
+    - mdo
+    - mado
+    - m-d-o
+    - mad o
     - mad-o
-    - ma damper output
+    - madout
+    - m-a-d-o
+    - mad out
+    - mad-out
+    - madmpro
+    - madmpout
+    - ma dmpr o
+    - ma-dmpr-o
+    - maadmpout
+    - ma dmp out
+    - ma-dmp-out
     - mad output
+    - mixardmpro
+    - ma a dmp out
+    - ma-a-dmp-out
+    - mix ar dmpr o
+    - mix-ar-dmpr-o
+    - ma damper output
+    - ma-damper-output
+    - ma air damper output
+    - ma-air-damper-output
+    - mixed air damper out
+    - mixed-air-damper-out
+    - mixed-air-damper-output
 related:
   - mixed-air-damper-feedback

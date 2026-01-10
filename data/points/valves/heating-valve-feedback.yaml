@@ -12,9 +12,36 @@ concept:
   object_type: analogInput
 aliases:
   common:
+    - h-f
+    - hvf
+    - htfb
+    - h-v-f
+    - hfdbk
+    - ht fb
+    - ht-fb
+    - htgfb
+    - h fdbk
+    - h-fdbk
+    - htg fb
     - htg-fb
+    - heatvfb
+    - heatfdbk
+    - htgvlvfb
+    - heat fdbk
+    - heat v fb
+    - heat-fdbk
+    - heat-v-fb
+    - heatvfdbk
+    - htg vlv fb
+    - htg-vlv-fb
+    - heat v fdbk
+    - heat-v-fdbk
+    - heat feedback
     - heating feedback
     - heating valve fb
-    - heat feedback
+    - heating-valve-fb
+    - htg valve feedback
+    - htg-valve-feedback
+    - heating-valve-feedback
 related:
   - heating-valve-output

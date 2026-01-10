@@ -1,0 +1,44 @@
+concept:
+  id: cooling-tower-5-enable
+  name: Cooling Tower 5 Enable
+  category: commands
+  description: Cooling Tower 5 Enable point
+  haystack: cooling tower 5 enable
+aliases:
+  common:
+    - c-e
+    - c5e
+    - ct5e
+    - c-5-e
+    - ct5en
+    - ct5 en
+    - ct5-en
+    - ct5ena
+    - c-t-5-e
+    - ct 5 en
+    - ct-5-en
+    - ct5enbl
+    - ct 5 ena
+    - ct-5 ena
+    - ct-5-ena
+    - clgtwr5en
+    - ct 5 enbl
+    - ct-5-enbl
+    - clgtwr5enbl
+    - cooltw5enbl
+    - ct 5 enable
+    - ct-5 enable
+    - ct-5-enable
+    - clg twr 5 en
+    - clg-twr-5-en
+    - clg twr 5 enbl
+    - clg-twr-5-enbl
+    - cool tw 5 enbl
+    - cool-tw-5-enbl
+    - clg twr 5 enable
+    - clg tower 5 enable
+    - clg-tower-5-enable
+    - cooling tower 5 en
+    - cooling-tower-5-en
+    - cooling-tower-5-enable
+  abbreviated: []

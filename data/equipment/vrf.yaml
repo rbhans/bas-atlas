@@ -8,15 +8,82 @@ equipment:
     brick: VRF_Outdoor_Unit
     aliases:
       common:
-        - VRF outdoor unit
-        - VRF ODU
-        - outdoor unit
+        - o-u
+        - oau
+        - ocu
+        - odu
         - ODU
+        - v-c
+        - v-o
+        - vcu
+        - vou
+        - oa u
+        - oa-u
+        - vhpo
+        - vhru
+        - o-c-u
+        - v-c-u
+        - v-o-u
+        - vrfcw
+        - outunt
+        - vrf cw
+        - vrf-cw
+        - vrfcnd
+        - vrfoau
+        - vrfodu
+        - out unt
+        - out-unt
+        - v-h-p-o
+        - v-h-r-u
+        - vrf cnd
+        - vrf odu
+        - VRF ODU
+        - vrf-cnd
+        - vrf-odu
+        - vrf oa u
+        - vrf-oa-u
+        - vrfhtpoa
+        - vrfoutunt
+        - vrfhpmpout
+        - vrf ht p oa
+        - vrf out unt
+        - vrf-ht-p-oa
+        - vrf-out-unt
+        - outdoor unit
+        - oacondensingu
+        - vrf condenser
         - VRF condenser
+        - vrf h pmp out
+        - vrf outdoor u
+        - vrf-h-pmp-out
+        - vrf-outdoor-u
+        - vrfcondensingu
+        - vrfhtrecoveryu
+        - oa condensing u
+        - oa-condensing-u
+        - vrfhrecoveryunt
+        - outcondensingunt
+        - vrf condensing u
+        - VRF outdoor unit
+        - vrf-condensing-u
+        - vrf-outdoor-unit
+        - vrfcondensingunt
+        - vrf ht recovery u
+        - vrf-ht-recovery-u
+        - out condensing unt
+        - out-condensing-unt
+        - vrf condensing unt
+        - vrf h recovery unt
+        - vrf-condensing-unt
+        - vrf-h-recovery-unt
+        - vrf condensing unit
         - VRF condensing unit
-        - outdoor condensing unit
-        - VRF heat recovery unit
+        - vrf heat pump outdoor
         - VRF heat pump outdoor
+        - vrf heat recovery unit
+        - VRF heat recovery unit
+        - outdoor condensing unit
+        - variable refrigerant flow outdoor unit
   - id: vrf-indoor-unit
     name: VRF Indoor Unit
     abbreviation: IDU
@@ -26,18 +93,76 @@ equipment:
     brick: VRF_Indoor_Unit
     aliases:
       common:
-        - VRF indoor unit
-        - VRF IDU
-        - indoor unit
+        - c-c
+        - c-d
+        - ccd
+        - d-v
+        - f-s
+        - hwu
+        - i-u
+        - idu
         - IDU
+        - v-c
+        - v-i
+        - viu
+        - w-m
+        - c-c-d
+        - h-w-u
+        - v-i-u
+        - vrfidu
+        - indooru
+        - vrf idu
+        - VRF IDU
+        - vrf-idu
+        - indoor u
+        - indoor-u
+        - ductedvrf
+        - highwallu
+        - indoorunt
+        - ducted vrf
+        - ducted VRF
+        - ducted-vrf
+        - flstanding
+        - indoor unt
+        - indoor-unt
+        - vrfindooru
+        - fl standing
+        - fl-standing
+        - flrstanding
+        - high wall u
+        - high-wall-u
+        - highwallunt
+        - indoor unit
+        - vrfcassette
+        - wallmounted
+        - flr standing
+        - flr-standing
+        - vrf cassette
         - VRF cassette
-        - ceiling cassette
-        - concealed duct
-        - ceiling concealed duct
+        - vrf indoor u
+        - vrf-cassette
+        - vrf-indoor-u
+        - vrfindoorunt
         - wall mounted
+        - wall-mounted
+        - concealedduct
+        - high wall unt
+        - high-wall-unt
+        - concealed duct
+        - concealed-duct
         - floor standing
         - high wall unit
-        - ducted VRF
+        - vrf indoor unt
+        - vrf-indoor-unt
+        - ceilingcassette
+        - VRF indoor unit
+        - vrf-indoor-unit
+        - ceiling cassette
+        - ceiling-cassette
+        - ceilingconcealedduct
+        - ceiling concealed duct
+        - ceiling-concealed-duct
+        - variable refrigerant flow indoor unit
   - id: vrf-branch-selector-box
     name: VRF Branch Selector Box
     abbreviation: BSB
@@ -47,12 +172,47 @@ equipment:
     brick: VRF_Branch_Selector_Box
     aliases:
       common:
-        - VRF branch selector box
+        - b-b
+        - b-c
+        - bsb
         - BSB
-        - branch controller
-        - refnet joint
-        - branch box
-        - VRF distribution box
-        - heat recovery box
+        - h-b
+        - hrb
+        - r-j
+        - vdb
+        - vbsb
+        - h-r-b
+        - hrbox
+        - v-d-b
+        - hr box
         - HR box
+        - hr-box
+        - v-b-s-b
+        - branchbox
+        - branch box
+        - branch-box
+        - refnetjoint
+        - bccontroller
+        - hrecoverybox
+        - refnet joint
+        - refnet-joint
+        - bc controller
         - BC controller
+        - bc-controller
+        - htrecoverybox
+        - h recovery box
+        - h-recovery-box
+        - ht recovery box
+        - ht-recovery-box
+        - branchcontroller
+        - branch controller
+        - branch-controller
+        - heat recovery box
+        - vrfdistributionbox
+        - vrf distribution box
+        - VRF distribution box
+        - vrf-distribution-box
+        - vrfbranchselectorbox
+        - VRF branch selector box
+        - vrf-branch-selector-box
+        - variable refrigerant flow branch selector box

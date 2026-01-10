@@ -7,6 +7,27 @@ concept:
   brick: Primary_Chilled_Water_Pump_Status
 aliases:
   common:
+    - p-s
+    - pcwps
+    - pchwps
+    - pchwp s
     - pchwp-s
+    - pchwpsts
+    - p-c-w-p-s
     - pchwp sts
+    - pchwp-sts
+    - pchwpstat
+    - pchwp stat
+    - pchwp-stat
+    - prichlwpsts
     - pchwp status
+    - pri chl w p sts
+    - pri-chl-w-p-sts
+    - primchwtrpmpstat
+    - prim ch wtr pmp stat
+    - prim-ch-wtr-pmp-stat
+    - pri chilled water pump status
+    - pri-chilled-water-pump-status
+    - primary chilled water pump sts
+    - primary-chilled-water-pump-sts
+    - primary-chilled-water-pump-status

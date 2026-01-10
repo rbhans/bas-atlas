@@ -7,8 +7,36 @@ concept:
   brick: Boiler_Pump_Alarm
 aliases:
   common:
+    - b-a
+    - bpa
+    - bp a
     - bp-a
+    - bpal
+    - b-p-a
+    - bp al
+    - bp-al
+    - bpalm
+    - blrpal
     - bp alm
+    - bp-alm
+    - bpmpal
+    - blrp al
+    - blrp-al
+    - blrpalm
+    - b pmp al
+    - b-pmp-al
+    - blrp alm
+    - blrp-alm
     - bp alarm
+    - blr p alm
+    - blr-p-alm
+    - blrpmpalm
     - blrp alarm
+    - blr pmp alm
+    - blr-pmp-alm
     - blr pump alm
+    - blr pump alarm
+    - blr-pump-alarm
+    - boiler pump alm
+    - boiler-pump-alm
+    - boiler-pump-alarm

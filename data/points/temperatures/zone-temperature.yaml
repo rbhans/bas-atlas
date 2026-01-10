@@ -13,28 +13,64 @@ concept:
   engineering_units: degrees-fahrenheit
 aliases:
   common:
-    - zn-t
-    - zn temp
-    - zn temperature
-    - zone temp
-    - room temperature
-    - rm-t
-    - rm temp
-    - rm temperature
-    - room temp
-    - space temperature
-    - space-t
-    - space temp
-    - ZoneTemp
-    - Zone_Temp
-    - RoomTemp
-    - SpaceTemp
-    - ZAT
-    - RAT
-    - zt
-    - znt
     - rt
     - st
+    - zt
+    - r t
+    - r-t
+    - rat
+    - RAT
+    - rmt
+    - s-t
+    - spt
+    - z t
+    - z-t
+    - zat
+    - ZAT
+    - znt
+    - rm t
+    - rm-t
+    - sp t
+    - sp-t
+    - spct
+    - zn t
+    - zn-t
+    - spc t
+    - spc-t
+    - rmtemp
+    - zntemp
+    - rm temp
+    - rm-temp
+    - space-t
+    - spctemp
+    - zn temp
+    - zn-temp
+    - roomtemp
+    - RoomTemp
+    - spc temp
+    - spc-temp
+    - zonetemp
+    - ZoneTemp
+    - room temp
+    - spacetemp
+    - SpaceTemp
+    - zone temp
+    - zone_temp
+    - Zone_Temp
+    - zone-temp
+    - space temp
+    - rmtemperature
+    - zntemperature
+    - rm temperature
+    - rm-temperature
+    - spctemperature
+    - zn temperature
+    - zn-temperature
+    - spc temperature
+    - spc-temperature
+    - room temperature
+    - zone-temperature
+    - space temperature
   misspellings:
     - ZoneTepm
     - ZonTemp

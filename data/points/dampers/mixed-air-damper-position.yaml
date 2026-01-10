@@ -7,6 +7,33 @@ concept:
   brick: Mixed_Air_Damper_Position_Sensor
 aliases:
   common:
+    - m-p
+    - mdp
+    - madp
+    - m-d-p
+    - mad p
+    - mad-p
+    - madpos
+    - m-a-d-p
+    - mad pos
     - mad-pos
-    - ma damper position
+    - madmprp
+    - madmppos
+    - ma dmpr p
+    - ma-dmpr-p
+    - maadmppos
+    - ma dmp pos
+    - ma-dmp-pos
+    - mixardmprp
+    - ma a dmp pos
+    - ma-a-dmp-pos
     - mad position
+    - mix ar dmpr p
+    - mix-ar-dmpr-p
+    - ma damper position
+    - ma-damper-position
+    - mixed air damper pos
+    - mixed-air-damper-pos
+    - ma air damper position
+    - ma-air-damper-position
+    - mixed-air-damper-position

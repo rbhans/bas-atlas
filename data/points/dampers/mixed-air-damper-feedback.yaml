@@ -12,8 +12,36 @@ concept:
   object_type: analogInput
 aliases:
   common:
+    - m-f
+    - mdf
+    - madf
+    - m-d-f
+    - madfb
+    - mad fb
     - mad-fb
-    - ma damper feedback
+    - m-a-d-f
+    - madfdbk
+    - madmpfb
+    - maadmpfb
+    - mad fdbk
+    - mad-fdbk
+    - ma dmp fb
+    - ma-dmp-fb
+    - madmprfdbk
+    - ma a dmp fb
+    - ma-a-dmp-fb
+    - ma dmpr fdbk
+    - ma-dmpr-fdbk
     - mad feedback
+    - mixardmprfdbk
+    - mix ar dmpr fdbk
+    - mix-ar-dmpr-fdbk
+    - ma damper feedback
+    - ma-damper-feedback
+    - mixed air damper fb
+    - mixed-air-damper-fb
+    - ma air damper feedback
+    - ma-air-damper-feedback
+    - mixed-air-damper-feedback
 related:
   - mixed-air-damper-output

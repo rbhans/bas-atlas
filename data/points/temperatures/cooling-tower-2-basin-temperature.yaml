@@ -1,0 +1,52 @@
+concept:
+  id: cooling-tower-2-basin-temperature
+  name: Cooling Tower 2 Basin Temperature
+  category: temperatures
+  description: Cooling Tower 2 Basin Temperature point
+  haystack: cooling tower 2 basin temperature
+aliases:
+  common:
+    - cbt
+    - c2bt
+    - c-b-t
+    - ct2bt
+    - c-2-b-t
+    - ct2bast
+    - ct2bsnt
+    - c-t-2-b-t
+    - ct2 bas t
+    - ct2 bsn t
+    - ct2-bas-t
+    - ct2-bsn-t
+    - ct 2 bas t
+    - ct-2-bas-t
+    - ct2bsntemp
+    - clgtwr2bast
+    - cooltw2bast
+    - ct2-basin-t
+    - ct 2 bsn temp
+    - ct-2-bsn-temp
+    - clgtwr2bsntemp
+    - clg twr 2 bas t
+    - clg-twr-2-bas-t
+    - cool tw 2 bas t
+    - cool-tw-2-bas-t
+    - ct-2 basin temp
+    - ct2bsntemperature
+    - clg twr 2 bsn temp
+    - clg-twr-2-bsn-temp
+    - clg twr 2 basin temp
+    - ct 2 bsn temperature
+    - ct-2-bsn-temperature
+    - clgtwr2bsntemperature
+    - ct 2 basin temperature
+    - ct-2 basin temperature
+    - ct-2-basin-temperature
+    - clg twr 2 bsn temperature
+    - clg-twr-2-bsn-temperature
+    - cooling tower 2 basin temp
+    - cooling-tower-2-basin-temp
+    - clg tower 2 basin temperature
+    - clg-tower-2-basin-temperature
+    - cooling-tower-2-basin-temperature
+  abbreviated: []

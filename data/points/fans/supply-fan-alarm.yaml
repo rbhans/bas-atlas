@@ -7,7 +7,35 @@ concept:
   brick: Supply_Fan_Alarm
 aliases:
   common:
+    - sa
+    - f-a
+    - s-a
+    - sfa
+    - falm
+    - fnal
+    - sf a
     - sf-a
-    - sf alarm
+    - sfal
+    - f alm
+    - f-alm
+    - fn al
+    - fn-al
+    - s-f-a
+    - sf al
+    - sf-al
+    - sfalm
+    - safnal
     - sf alm
+    - sf-alm
+    - supfalm
+    - sa fn al
+    - sa-fn-al
+    - sf alarm
     - fan alarm
+    - sup f alm
+    - sup-f-alm
+    - sup fan alarm
+    - sup-fan-alarm
+    - supply fan alm
+    - supply-fan-alm
+    - supply-fan-alarm

@@ -7,7 +7,34 @@ concept:
   brick: Outside_Air_Damper_Position_Sensor
 aliases:
   common:
+    - o-p
+    - odp
+    - oadp
+    - o-d-p
+    - oad p
+    - oad-p
+    - oadpos
+    - o-a-d-p
+    - oad pos
     - oad-pos
-    - oa damper position
+    - oadmprp
+    - oadmppos
+    - oa dmpr p
+    - oa-dmpr-p
+    - oaadmppos
+    - oa dmp pos
+    - oa-dmp-pos
+    - outardmprp
+    - oa a dmp pos
+    - oa-a-dmp-pos
     - oad position
+    - out ar dmpr p
+    - out-ar-dmpr-p
+    - oa damper position
+    - oa-damper-position
+    - oa air damper position
+    - oa-air-damper-position
+    - outside air damper pos
+    - outside-air-damper-pos
     - outdoor air damper position
+    - outside-air-damper-position

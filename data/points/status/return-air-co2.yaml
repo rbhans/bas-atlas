@@ -7,10 +7,40 @@ concept:
   brick: Return_Air_CO2_Sensor
 aliases:
   common:
-    - return air quality
-    - ra-co2
+    - r-c
+    - r-q
+    - rac
+    - raq
+    - ra q
     - ra-q
+    - r-a-c
+    - r-a-q
+    - raco2
     - ra co2
+    - ra-co2
+    - raarco2
+    - retaco2
+    - retarco2
+    - ra ar co2
+    - ra-ar-co2
+    - raquality
+    - ret a co2
+    - ret-a-co2
     - ra quality
+    - ra-quality
+    - ret ar co2
+    - ret-ar-co2
+    - raarquality
     - ret air co2
+    - ret-air-co2
+    - retaquality
+    - retarquality
+    - ra ar quality
+    - ra-ar-quality
+    - ret a quality
+    - ret-a-quality
+    - ret ar quality
+    - ret-ar-quality
+    - return-air-co2
     - ret air quality
+    - return air quality

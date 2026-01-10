@@ -12,11 +12,77 @@ concept:
   brick: Cooling_Tower_Basin_Temperature_Sensor
 aliases:
   common:
-    - cooling tower basin temp
-    - ct basin temp
-    - tower basin temp
-    - sump temperature
-    - ct sump temp
-    - tower sump temp
-    - ct-basin
+    - c-b
+    - c-s
+    - cbt
+    - cst
+    - s-t
+    - tbt
+    - tst
+    - ctbt
+    - c-b-t
+    - c-s-t
+    - ctbas
+    - ctbsn
+    - sumpt
+    - t-b-t
+    - t-s-t
+    - ct bas
+    - ct bsn
+    - ct-bas
+    - ct-bsn
+    - ctbast
+    - ctsump
+    - sump t
+    - sump-t
+    - twbast
+    - c-t-b-t
+    - ct sump
     - ct-sump
+    - ctsumpt
+    - twsumpt
+    - ct bas t
+    - ct-bas-t
+    - ct-basin
+    - sumptemp
+    - tw bas t
+    - tw-bas-t
+    - ct sump t
+    - ct-sump-t
+    - sump temp
+    - sump-temp
+    - tw sump t
+    - tw-sump-t
+    - cooltwbast
+    - ct sump temp
+    - clgtwrbsntemp
+    - cool tw bas t
+    - cool-tw-bas-t
+    - ct basin temp
+    - tower sump temp
+    - clg twr bsn temp
+    - clg-twr-bsn-temp
+    - ctbsntemperature
+    - sump temperature
+    - tower basin temp
+    - ctsumptemperature
+    - twrbsntemperature
+    - ct bsn temperature
+    - ct-bsn-temperature
+    - twrsumptemperature
+    - ct sump temperature
+    - ct-sump-temperature
+    - twr bsn temperature
+    - twr-bsn-temperature
+    - clgtwrbsntemperature
+    - ct basin temperature
+    - ct-basin-temperature
+    - twr sump temperature
+    - twr-sump-temperature
+    - clg twr bsn temperature
+    - clg-twr-bsn-temperature
+    - cooling tower basin temp
+    - cooling-tower-basin-temp
+    - clg tower basin temperature
+    - clg-tower-basin-temperature
+    - cooling-tower-basin-temperature

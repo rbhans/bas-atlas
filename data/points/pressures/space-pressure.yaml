@@ -7,13 +7,64 @@ concept:
   brick: Zone_Air_Static_Pressure_Sensor
 aliases:
   common:
-    - zone pressure
-    - room pressure
-    - space-p
-    - zn-p
+    - sp
+    - r-p
+    - rmp
+    - s-p
+    - spp
+    - z-p
+    - znp
+    - rm p
     - rm-p
-    - space press
-    - zone press
+    - rprs
+    - sp p
+    - sp-p
+    - spcp
+    - zn p
+    - zn-p
+    - zprs
+    - r prs
+    - r-prs
+    - rmprs
+    - spc p
+    - spc-p
+    - spprs
+    - z prs
+    - z-prs
+    - znprs
+    - rm prs
+    - rm-prs
+    - rpress
+    - sp prs
+    - sp-prs
+    - zn prs
+    - zn-prs
+    - zpress
+    - r press
+    - r-press
+    - rmpress
+    - space-p
+    - sppress
+    - z press
+    - z-press
+    - znpress
+    - rm press
+    - rm-press
+    - sp press
+    - sp-press
+    - spcpress
+    - zn press
+    - zn-press
+    - spc press
+    - spc-press
     - room press
-    - zn pressure
+    - zone press
     - rm pressure
+    - space press
+    - space-press
+    - zn pressure
+    - spc pressure
+    - spc-pressure
+    - room pressure
+    - zone pressure
+    - space-pressure

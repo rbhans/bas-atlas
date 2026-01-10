@@ -7,6 +7,28 @@ concept:
   brick: Hot_Water_Pump_Status
 aliases:
   common:
+    - h-s
+    - hwps
+    - hwp s
     - hwp-s
+    - hwpsts
+    - h-w-p-s
+    - htwpsts
     - hwp sts
+    - hwp-sts
+    - hwpstat
+    - hwp stat
+    - hwp-stat
+    - ht w p sts
+    - ht-w-p-sts
     - hwp status
+    - hwwtrpmpstat
+    - hw pump status
+    - hw-pump-status
+    - hw wtr pmp stat
+    - hw-wtr-pmp-stat
+    - hot water pump sts
+    - hot-water-pump-sts
+    - ht water pump status
+    - ht-water-pump-status
+    - hot-water-pump-status

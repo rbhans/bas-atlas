@@ -7,8 +7,25 @@ concept:
   brick: Isolation_Valve_Command
 aliases:
   common:
+    - i-o
+    - ivo
+    - isoo
+    - i-v-o
+    - iso o
     - iso-o
+    - isovo
+    - isolvo
+    - iso v o
+    - iso-v-o
+    - isol v o
+    - isol-v-o
+    - isovlvout
     - iso vlv out
+    - iso-vlv-out
     - iso valve output
+    - iso-valve-output
+    - isolation valve out
+    - isolation-valve-out
+    - isolation-valve-output
 related:
   - isolation-valve-feedback

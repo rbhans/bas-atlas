@@ -7,6 +7,30 @@ concept:
   brick: Hot_Water_Differential_Pressure_Sensor
 aliases:
   common:
+    - h-d
+    - hdp
+    - hwdp
+    - h-d-p
+    - hw dp
     - hw-dp
+    - h-w-d-p
+    - hwdiffprs
+    - hw diff prs
+    - hw-diff-prs
+    - hwdiffpress
+    - hwwtrdifprs
+    - htwdiffpress
     - hw diff press
+    - hw-diff-press
+    - hw wtr dif prs
+    - hw-wtr-dif-prs
+    - ht w diff press
+    - ht-w-diff-press
     - hw diff pressure
+    - hw differential pressure
+    - hw-differential-pressure
+    - hot water differential press
+    - hot-water-differential-press
+    - ht water differential pressure
+    - ht-water-differential-pressure
+    - hot-water-differential-pressure

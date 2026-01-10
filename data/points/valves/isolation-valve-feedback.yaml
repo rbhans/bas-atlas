@@ -12,8 +12,29 @@ concept:
   object_type: analogInput
 aliases:
   common:
+    - i-f
+    - ivf
+    - i-v-f
+    - isofb
+    - iso fb
     - iso-fb
+    - isovfdbk
+    - isovlvfb
+    - isolvfdbk
+    - iso v fdbk
+    - iso vlv fb
+    - iso-v-fdbk
+    - iso-vlv-fb
+    - isovlvfdbk
+    - isol v fdbk
+    - isol-v-fdbk
+    - iso vlv fdbk
+    - iso-vlv-fdbk
     - iso vlv feedback
     - iso valve feedback
+    - iso-valve-feedback
+    - isolation valve fb
+    - isolation-valve-fb
+    - isolation-valve-feedback
 related:
   - isolation-valve-output

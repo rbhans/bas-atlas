@@ -7,8 +7,34 @@ concept:
   brick: Occupied_Cooling_Temperature_Setpoint
 aliases:
   common:
+    - o-s
+    - ocs
+    - o-c-s
+    - occlgsp
+    - occclgsp
+    - oc clg sp
+    - oc-clg-sp
+    - occclg sp
     - occclg-sp
-    - occ clg setpoint
-    - occupied clg sp
+    - occ clg sp
+    - occ-clg-sp
+    - occclgstpt
+    - occoolstpt
+    - occclgsetpt
+    - oc cool stpt
+    - oc-cool-stpt
     - occ clg stpt
+    - occ-clg-stpt
+    - occcoolsetpt
+    - occ clg setpt
+    - occ-clg-setpt
+    - occ cool setpt
+    - occ-cool-setpt
+    - occupied clg sp
+    - occ clg setpoint
     - occ cooling setpt
+    - occupied cooling sp
+    - occupied-cooling-sp
+    - occ cooling setpoint
+    - occ-cooling-setpoint
+    - occupied-cooling-setpoint

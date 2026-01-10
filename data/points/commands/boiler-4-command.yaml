@@ -1,0 +1,28 @@
+concept:
+  id: boiler-4-command
+  name: Boiler 4 Command
+  category: commands
+  description: Boiler 4 Command point
+  haystack: boiler 4 command
+aliases:
+  common:
+    - b-c
+    - b4c
+    - b 4 c
+    - b-4-c
+    - b4cmd
+    - blr4c
+    - blr4 c
+    - blr4-c
+    - b 4 cmd
+    - b-4-cmd
+    - blr4cmd
+    - blr 4 cmd
+    - blr-4-cmd
+    - b-4 command
+    - boiler 4 cmd
+    - boiler-4-cmd
+    - blr 4 command
+    - blr-4-command
+    - boiler-4-command
+  abbreviated: []

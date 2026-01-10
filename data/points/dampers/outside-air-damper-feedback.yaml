@@ -12,9 +12,37 @@ concept:
   object_type: analogInput
 aliases:
   common:
+    - o-f
+    - odf
+    - oadf
+    - o-d-f
+    - oadfb
+    - oad fb
     - oad-fb
-    - oa damper feedback
+    - o-a-d-f
+    - oadfdbk
+    - oadmpfb
+    - oaadmpfb
+    - oad fdbk
+    - oad-fdbk
+    - oa dmp fb
+    - oa-dmp-fb
+    - oadmprfdbk
+    - oa a dmp fb
+    - oa-a-dmp-fb
+    - oa dmpr fdbk
+    - oa-dmpr-fdbk
     - oad feedback
+    - outardmprfdbk
+    - out ar dmpr fdbk
+    - out-ar-dmpr-fdbk
+    - oa damper feedback
+    - oa-damper-feedback
+    - outside air damper fb
+    - outside-air-damper-fb
+    - oa air damper feedback
+    - oa-air-damper-feedback
     - outdoor air damper feedback
+    - outside-air-damper-feedback
 related:
   - outside-air-damper-output

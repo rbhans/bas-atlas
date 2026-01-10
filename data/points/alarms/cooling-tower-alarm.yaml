@@ -8,12 +8,55 @@ concept:
   brick: Cooling_Tower_Alarm
 aliases:
   common:
-    - cooling tower alm
-    - cooling tower fault
-    - ct alarm
-    - ct alm
-    - ct fault
-    - tower alarm
-    - tower alm
+    - c-a
+    - c-f
+    - cta
+    - ctf
+    - t-a
+    - ct a
     - ct-a
+    - ctal
+    - twal
+    - c-t-a
+    - c-t-f
+    - ct al
+    - ct-al
+    - ctalm
+    - tw al
+    - tw-al
+    - twalm
+    - ct alm
     - ct-alm
+    - tw alm
+    - tw-alm
+    - twralm
+    - ctfault
+    - twr alm
+    - twr-alm
+    - cooltwal
+    - ct alarm
+    - ct fault
+    - ct-alarm
+    - ct-fault
+    - clgtwralm
+    - cooltwalm
+    - tower alm
+    - cool tw al
+    - cool-tw-al
+    - clg twr alm
+    - clg-twr-alm
+    - clgtwrfault
+    - cool tw alm
+    - cool-tw-alm
+    - cooltwfault
+    - tower alarm
+    - clg twr fault
+    - clg-twr-fault
+    - cool tw fault
+    - cool-tw-fault
+    - clg tower alarm
+    - clg-tower-alarm
+    - cooling tower alm
+    - cooling-tower-alm
+    - cooling tower fault
+    - cooling-tower-alarm

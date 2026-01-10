@@ -1,0 +1,37 @@
+concept:
+  id: cooling-tower-4-alarm
+  name: Cooling Tower 4 Alarm
+  category: alarms
+  description: Cooling Tower 4 Alarm point
+  haystack: cooling tower 4 alarm
+aliases:
+  common:
+    - c-a
+    - c4a
+    - ct4a
+    - c-4-a
+    - ct4 a
+    - ct4-a
+    - ct4al
+    - ct4alm
+    - c-t-4-a
+    - ct 4 al
+    - ct-4-al
+    - ct 4 alm
+    - ct-4 alm
+    - ct-4-alm
+    - cooltw4al
+    - clgtwr4alm
+    - ct 4 alarm
+    - ct-4 alarm
+    - ct-4-alarm
+    - cool tw 4 al
+    - cool-tw-4-al
+    - clg twr 4 alm
+    - clg-twr-4-alm
+    - clg tower 4 alarm
+    - clg-tower-4-alarm
+    - cooling tower 4 alm
+    - cooling-tower-4-alm
+    - cooling-tower-4-alarm
+  abbreviated: []

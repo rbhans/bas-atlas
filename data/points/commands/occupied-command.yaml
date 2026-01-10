@@ -7,6 +7,21 @@ concept:
   brick: Occupancy_Command
 aliases:
   common:
+    - o-c
+    - occ
+    - oc c
+    - oc-c
+    - occc
+    - occ c
+    - occ-c
+    - occcmd
+    - occ cmd
     - occ-cmd
     - occ command
+    - occ-command
+    - occupancycmd
+    - occupied cmd
+    - occupied-cmd
     - occupancy cmd
+    - occupancy-cmd
+    - occupied-command

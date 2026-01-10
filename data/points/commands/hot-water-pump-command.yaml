@@ -7,6 +7,25 @@ concept:
   brick: Hot_Water_Pump_Command
 aliases:
   common:
+    - h-c
+    - hwpc
+    - hwp c
     - hwp-c
+    - hwpcmd
+    - h-w-p-c
+    - htwpcmd
     - hwp cmd
+    - hwp-cmd
+    - hwwtrpmpc
+    - ht w p cmd
+    - ht-w-p-cmd
     - hwp command
+    - hw wtr pmp c
+    - hw-wtr-pmp-c
+    - hw pump command
+    - hw-pump-command
+    - hot water pump cmd
+    - hot-water-pump-cmd
+    - ht water pump command
+    - ht-water-pump-command
+    - hot-water-pump-command

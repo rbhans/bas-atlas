@@ -1,0 +1,39 @@
+concept:
+  id: chiller-5-enable
+  name: Chiller 5 Enable
+  category: commands
+  description: Chiller 5 Enable point
+  haystack: chiller 5 enable
+aliases:
+  common:
+    - c-e
+    - c5e
+    - c-5-e
+    - ch5en
+    - ch5 en
+    - ch5-en
+    - chl5en
+    - ch 5 en
+    - ch-5-en
+    - ch5enbl
+    - chlr5en
+    - ch5 enbl
+    - ch5-enbl
+    - chl 5 en
+    - chl-5-en
+    - ch 5 enbl
+    - ch-5-enbl
+    - chlr 5 en
+    - chlr-5-en
+    - chlr5enbl
+    - ch5-enable
+    - ch-5 enable
+    - chlr 5 enbl
+    - chlr-5-enbl
+    - chiller 5 en
+    - chiller-5-en
+    - chl 5 enable
+    - chl-5-enable
+    - chlr-5 enable
+    - chiller-5-enable
+  abbreviated: []

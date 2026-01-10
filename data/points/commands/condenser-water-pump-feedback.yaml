@@ -7,8 +7,28 @@ concept:
   brick: Condenser_Water_Pump_Speed_Position_Sensor
 aliases:
   common:
+    - c-f
+    - cwpf
+    - cwpfb
+    - cwp fb
     - cwp-fb
+    - c-w-p-f
+    - cndwpfb
+    - cwpfdbk
+    - cwp fdbk
+    - cwp-fdbk
+    - cnd w p fb
+    - cnd-w-p-fb
     - cwp feedback
-    - cwp feedback
+    - cwwtrpmpfdbk
+    - cw wtr pmp fdbk
+    - cw-wtr-pmp-fdbk
+    - cw pump feedback
+    - cw-pump-feedback
+    - cnd water pump feedback
+    - cnd-water-pump-feedback
+    - condenser water pump fb
+    - condenser-water-pump-fb
+    - condenser-water-pump-feedback
 related:
   - condenser-water-pump-output

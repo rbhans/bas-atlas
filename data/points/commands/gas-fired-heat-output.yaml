@@ -7,8 +7,39 @@ concept:
   brick: Gas_Heating_Command
 aliases:
   common:
-    - gashtg-o
-    - gas heating out
+    - g-h
+    - g-o
+    - gho
+    - ght
+    - gsh
+    - g ht
+    - g-ht
+    - gfho
+    - gs h
+    - gs-h
+    - g-h-o
+    - gsfrho
+    - g-f-h-o
+    - gashtgo
+    - ghtgout
     - gas heat
+    - gashtg o
+    - gashtg-o
+    - g htg out
+    - g-htg-out
+    - gfrdhtout
+    - gs fr h o
+    - gs-fr-h-o
+    - gsheatout
+    - gs heat out
+    - gs-heat-out
+    - g frd ht out
+    - g-frd-ht-out
+    - gas heating out
+    - gas fired heat out
+    - gas-fired-heat-out
+    - g fired heat output
+    - g-fired-heat-output
+    - gas-fired-heat-output
 related:
   - gas-fired-heat-feedback

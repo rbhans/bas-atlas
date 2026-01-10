@@ -7,6 +7,27 @@ concept:
   brick: Relief_Air_Damper_Closed_Status
 aliases:
   common:
-    - rlfd-closed
-    - rlf damper closed
+    - r-c
+    - rdc
+    - radc
+    - r-d-c
+    - r-a-d-c
+    - rlfdclosed
     - rlfd closed
+    - rlfd-closed
+    - rlfdmpclosed
+    - reladmpclosed
+    - rlfdmprclosed
+    - raardmprclosed
+    - rlf dmp closed
+    - rlf-dmp-closed
+    - rlf dmpr closed
+    - rlf-dmpr-closed
+    - rel a dmp closed
+    - rel-a-dmp-closed
+    - ra ar dmpr closed
+    - ra-ar-dmpr-closed
+    - rlf damper closed
+    - rel air damper closed
+    - rel-air-damper-closed
+    - relief-air-damper-closed

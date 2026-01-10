@@ -7,8 +7,34 @@ concept:
   brick: Unoccupied_Cooling_Temperature_Setpoint
 aliases:
   common:
+    - u-s
+    - ucs
+    - u-c-s
+    - unocclgsp
+    - unoccclgsp
+    - unoc clg sp
+    - unoc-clg-sp
+    - unoccclg sp
     - unoccclg-sp
-    - unocc clg setpoint
-    - unoccupied clg sp
+    - unocc clg sp
+    - unocc-clg-sp
+    - unoccclgstpt
+    - unoccoolstpt
+    - unoccclgsetpt
+    - unoc cool stpt
+    - unoc-cool-stpt
     - unocc clg stpt
+    - unocc-clg-stpt
+    - unocccoolsetpt
+    - unocc clg setpt
+    - unocc-clg-setpt
+    - unocc cool setpt
+    - unocc-cool-setpt
+    - unoccupied clg sp
+    - unocc clg setpoint
     - unocc cooling setpt
+    - unoccupied cooling sp
+    - unoccupied-cooling-sp
+    - unocc cooling setpoint
+    - unocc-cooling-setpoint
+    - unoccupied-cooling-setpoint

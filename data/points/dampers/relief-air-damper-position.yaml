@@ -7,6 +7,33 @@ concept:
   brick: Relief_Air_Damper_Position_Sensor
 aliases:
   common:
+    - r-p
+    - rdp
+    - radp
+    - r-d-p
+    - rlfdp
+    - rlfd p
+    - rlfd-p
+    - r-a-d-p
+    - rlfdpos
+    - rlfd pos
     - rlfd-pos
-    - rlf damper position
+    - rlfdmprp
+    - raardmprp
+    - rlfdmppos
+    - reladmppos
+    - rlf dmpr p
+    - rlf-dmpr-p
+    - rlf dmp pos
+    - rlf-dmp-pos
+    - ra ar dmpr p
+    - ra-ar-dmpr-p
+    - rel a dmp pos
+    - rel-a-dmp-pos
     - rlfd position
+    - rlf damper position
+    - relief air damper pos
+    - relief-air-damper-pos
+    - rel air damper position
+    - rel-air-damper-position
+    - relief-air-damper-position

@@ -1,0 +1,43 @@
+concept:
+  id: cooling-tower-5-status
+  name: Cooling Tower 5 Status
+  category: status
+  description: Cooling Tower 5 Status point
+  haystack: cooling tower 5 status
+aliases:
+  common:
+    - c-s
+    - c5fs
+    - ct5s
+    - ct5 s
+    - ct5-s
+    - ct5fs
+    - ct5f s
+    - ct5f-s
+    - c-5-f-s
+    - c-t-5-s
+    - ct5fsts
+    - ct5fnsts
+    - ct5fnstat
+    - clgtwr5sts
+    - ct 5 f sts
+    - ct-5-f-sts
+    - cooltw5stat
+    - ct 5 fn sts
+    - ct 5 status
+    - ct-5-fn-sts
+    - ct-5-status
+    - ct 5 fn stat
+    - ct-5 fan sts
+    - ct-5-fn-stat
+    - clg twr 5 sts
+    - clg-twr-5-sts
+    - cool tw 5 stat
+    - cool-tw-5-stat
+    - ct-5 fan status
+    - clg tower 5 status
+    - clg-tower-5-status
+    - cooling tower 5 sts
+    - cooling-tower-5-sts
+    - cooling-tower-5-status
+  abbreviated: []

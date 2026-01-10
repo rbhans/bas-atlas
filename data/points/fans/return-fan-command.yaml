@@ -7,6 +7,23 @@ concept:
   brick: Return_Fan_Command
 aliases:
   common:
+    - r-c
+    - rfc
+    - rf c
     - rf-c
-    - rf command
+    - r-f-c
+    - rafnc
+    - rfcmd
     - rf cmd
+    - rf-cmd
+    - ra fn c
+    - ra-fn-c
+    - retfcmd
+    - ret f cmd
+    - ret-f-cmd
+    - rf command
+    - return fan cmd
+    - return-fan-cmd
+    - ret fan command
+    - ret-fan-command
+    - return-fan-command

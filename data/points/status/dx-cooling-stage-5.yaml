@@ -1,0 +1,42 @@
+concept:
+  id: dx-cooling-stage-5
+  name: DX Cooling Stage 5
+  category: status
+  description: DX Cooling Stage 5 point
+  haystack: dx cooling stage 5
+aliases:
+  common:
+    - c-5
+    - cs5
+    - d-s
+    - dcs5
+    - c-s-5
+    - compr5
+    - dxstg5
+    - clgstg5
+    - compr 5
+    - compr-5
+    - d-c-s-5
+    - dx stg5
+    - dx-stg5
+    - coolstg5
+    - clg stg 5
+    - clg-stg-5
+    - dxclgstg5
+    - cool stg 5
+    - cool-stg-5
+    - dxcoolstge5
+    - dx clg stg 5
+    - dx-clg-stg-5
+    - cooling stg 5
+    - compressorstg5
+    - dx cool stge 5
+    - dx-cool-stge-5
+    - compressorstge5
+    - compressor stg 5
+    - compressor-stg-5
+    - compressor stge 5
+    - compressor-stge-5
+    - compressor stage 5
+    - dx-cooling-stage-5
+  abbreviated: []

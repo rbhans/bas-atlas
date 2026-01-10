@@ -7,7 +7,29 @@ concept:
   brick: Outside_Air_Damper_Open_Status
 aliases:
   common:
-    - oad-open
-    - oa damper open
+    - o-o
+    - odo
+    - oado
+    - o-d-o
+    - o-a-d-o
+    - oadopen
     - oad open
+    - oad-open
+    - oadmpopen
+    - oaadmpopen
+    - oadmpropen
+    - oa dmp open
+    - oa-dmp-open
+    - oa dmpr open
+    - oa-dmpr-open
+    - oa a dmp open
+    - oa-a-dmp-open
+    - outardmpropen
+    - oa damper open
+    - oa-damper-open
+    - out ar dmpr open
+    - out-ar-dmpr-open
+    - oa air damper open
+    - oa-air-damper-open
     - outdoor air damper open
+    - outside-air-damper-open

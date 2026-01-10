@@ -7,7 +7,34 @@ concept:
   brick: Smoke_Damper_Open_Status
 aliases:
   common:
+    - s-d
+    - sdo
+    - s-d-o
+    - smkdpr
+    - smk dpr
     - smk-dpr
+    - smokedpro
+    - smokedmpro
+    - smoke dpr o
+    - smoke-dpr-o
+    - smokedmpout
+    - smokedprout
+    - smoke dmpr o
+    - smoke-dmpr-o
+    - smokedmpopen
+    - smokedmprout
+    - smoke dmp out
+    - smoke dpr out
+    - smoke-dmp-out
+    - smoke-dpr-out
+    - smokedmpropen
+    - smoke dmp open
+    - smoke dmpr out
+    - smoke-dmp-open
+    - smoke-dmpr-out
+    - smoke dmpr open
+    - smoke-dmpr-open
     - smoke damper out
-    - smoke damper output
     - smoke dpr output
+    - smoke-damper-open
+    - smoke damper output

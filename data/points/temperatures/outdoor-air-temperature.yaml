@@ -13,17 +13,42 @@ concept:
   engineering_units: degrees-fahrenheit
 aliases:
   common:
-    - oa-t
-    - oa temp
-    - oa temperature
-    - outdoor air temp
-    - outside air temp
-    - outside temp
-    - OAT
-    - OutdoorTemp
-    - OutsideTemp
-    - oat
     - ot
+    - o-t
+    - oat
+    - OAT
+    - oa t
+    - oa-t
+    - outt
+    - o-a-t
+    - out t
+    - out-t
+    - oatemp
+    - outart
+    - oa temp
+    - oa-temp
+    - oaatemp
+    - out ar t
+    - out-ar-t
+    - oa a temp
+    - oa-a-temp
+    - outdoortemp
+    - OutdoorTemp
+    - outsidetemp
+    - OutsideTemp
+    - outside temp
+    - oatemperature
+    - oa temperature
+    - oa-temperature
+    - oaatemperature
+    - oa a temperature
+    - oa-a-temperature
+    - outdoor air temp
+    - outdoor-air-temp
+    - outside air temp
+    - oa air temperature
+    - oa-air-temperature
+    - outdoor-air-temperature
   misspellings:
     - outdor temp
     - outsite temp

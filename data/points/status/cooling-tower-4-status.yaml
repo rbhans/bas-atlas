@@ -1,0 +1,43 @@
+concept:
+  id: cooling-tower-4-status
+  name: Cooling Tower 4 Status
+  category: status
+  description: Cooling Tower 4 Status point
+  haystack: cooling tower 4 status
+aliases:
+  common:
+    - c-s
+    - c4fs
+    - ct4s
+    - ct4 s
+    - ct4-s
+    - ct4fs
+    - ct4f s
+    - ct4f-s
+    - c-4-f-s
+    - c-t-4-s
+    - ct4fsts
+    - ct4fnsts
+    - ct4fnstat
+    - clgtwr4sts
+    - ct 4 f sts
+    - ct-4-f-sts
+    - cooltw4stat
+    - ct 4 fn sts
+    - ct 4 status
+    - ct-4-fn-sts
+    - ct-4-status
+    - ct 4 fn stat
+    - ct-4 fan sts
+    - ct-4-fn-stat
+    - clg twr 4 sts
+    - clg-twr-4-sts
+    - cool tw 4 stat
+    - cool-tw-4-stat
+    - ct-4 fan status
+    - clg tower 4 status
+    - clg-tower-4-status
+    - cooling tower 4 sts
+    - cooling-tower-4-sts
+    - cooling-tower-4-status
+  abbreviated: []

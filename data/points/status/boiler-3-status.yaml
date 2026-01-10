@@ -1,0 +1,30 @@
+concept:
+  id: boiler-3-status
+  name: Boiler 3 Status
+  category: status
+  description: Boiler 3 Status point
+  haystack: boiler 3 status
+aliases:
+  common:
+    - b-s
+    - b3s
+    - b-3-s
+    - b3sts
+    - blr3s
+    - b3stat
+    - blr3 s
+    - blr3-s
+    - b 3 sts
+    - b-3-sts
+    - blr3sts
+    - b 3 stat
+    - b-3-stat
+    - blr 3 sts
+    - blr-3-sts
+    - b-3 status
+    - blr 3 status
+    - blr-3-status
+    - boiler 3 sts
+    - boiler-3-sts
+    - boiler-3-status
+  abbreviated: []

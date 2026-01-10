@@ -1,0 +1,53 @@
+concept:
+  id: electric-heat-stage-1
+  name: Electric Heat Stage 1
+  category: status
+  description: Electric Heat Stage 1 point
+  haystack: electric heat stage 1
+aliases:
+  common:
+    - e-s
+    - h 1
+    - h-1
+    - h-s
+    - hs1
+    - ht1
+    - ehs1
+    - ht 1
+    - ht-1
+    - h-s-1
+    - heat 1
+    - e-h-s-1
+    - elhstg1
+    - htgstg1
+    - elecstg1
+    - elhstge1
+    - heatstg1
+    - htg stg1
+    - htg-stg1
+    - elec stg1
+    - elec-stg1
+    - heatstge1
+    - htg stg 1
+    - htg-stg-1
+    - el h stg 1
+    - el-h-stg-1
+    - elechtstg1
+    - heat stg 1
+    - heat-stg-1
+    - el h stge 1
+    - el-h-stge-1
+    - elechtgstg1
+    - heat stge 1
+    - heat-stge-1
+    - elechtg stg1
+    - elechtg-stg1
+    - elec ht stg 1
+    - elec-ht-stg-1
+    - heating stg 1
+    - heating stage 1
+    - elec heat stage 1
+    - elec-heat-stage-1
+    - electric heat stg 1
+    - electric-heat-stage-1
+  abbreviated: []

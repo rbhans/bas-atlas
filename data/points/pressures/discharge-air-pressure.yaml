@@ -13,21 +13,82 @@ concept:
   engineering_units: inches-of-water
 aliases:
   common:
-    - da-p
-    - da press
-    - da pressure
-    - disch air pressure
-    - disch air press
-    - da1-p
-    - duct static
-    - duct static pressure
-    - supply static
-    - supply static pressure
-    - DSP
+    - dp
+    - sp
+    - d-p
+    - d-s
+    - dap
     - DAP
     - dsp
-    - dap
-    - sp
+    - DSP
+    - s-s
+    - ssp
+    - da p
+    - da-p
+    - da1p
+    - d-a-p
+    - d-s-p
+    - da1 p
+    - da1-p
+    - daprs
+    - s-s-p
+    - sastc
+    - da prs
+    - da-prs
+    - sa stc
+    - sa-stc
+    - dapress
+    - ductstc
+    - supstat
+    - da press
+    - da-press
+    - daapress
+    - disarprs
+    - duct stc
+    - duct-stc
+    - ductstat
+    - sastcprs
+    - sup stat
+    - sup-stat
+    - duct stat
+    - duct-stat
+    - da a press
+    - da-a-press
+    - dis ar prs
+    - dis-ar-prs
+    - discharprs
+    - ductstcprs
+    - sa stc prs
+    - sa-stc-prs
+    - da pressure
+    - da-pressure
+    - dischapress
+    - duct static
+    - disch ar prs
+    - disch-ar-prs
+    - discharpress
+    - duct stc prs
+    - duct-stc-prs
+    - supstatpress
+    - disch a press
+    - disch-a-press
+    - ductstatpress
+    - supply static
+    - disch ar press
+    - disch-ar-press
+    - sup stat press
+    - sup-stat-press
+    - da air pressure
+    - da-air-pressure
+    - disch air press
+    - duct stat press
+    - duct-stat-press
+    - disch air pressure
+    - discharge air press
+    - discharge-air-press
+    - duct static pressure
+    - discharge-air-pressure
+    - supply static pressure
 notes:
   - Typically measured 2/3 down the longest duct run
   - Used as feedback for supply fan VFD speed control

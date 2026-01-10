@@ -7,7 +7,35 @@ concept:
   brick: Supply_Fan_Speed_Sensor
 aliases:
   common:
-    - sf-spd
-    - sf speed
+    - f-s
+    - fns
+    - s-s
+    - s-v
+    - sfs
+    - fn s
+    - fn-s
+    - fspd
+    - sf s
+    - sf-s
+    - f spd
+    - f-spd
+    - s-f-s
+    - safns
+    - sfspd
+    - sfvfd
+    - sf spd
     - sf vfd
+    - sf-spd
+    - sf-vfd
+    - sa fn s
+    - sa-fn-s
+    - supfspd
+    - sf speed
     - fan speed
+    - sup f spd
+    - sup-f-spd
+    - sup fan speed
+    - sup-fan-speed
+    - supply fan spd
+    - supply-fan-spd
+    - supply-fan-speed

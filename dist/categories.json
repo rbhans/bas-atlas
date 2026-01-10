@@ -20,6 +20,12 @@
       "count": 5
     },
     {
+      "id": "motors",
+      "name": "Motors",
+      "type": "equipment",
+      "count": 1
+    },
+    {
       "id": "terminal-units",
       "name": "Terminal Units",
       "type": "equipment",
@@ -35,13 +41,13 @@
       "id": "alarms",
       "name": "Alarms",
       "type": "points",
-      "count": 14
+      "count": 34
     },
     {
       "id": "commands",
       "name": "Commands",
       "type": "points",
-      "count": 40
+      "count": 88
     },
     {
       "id": "dampers",
@@ -83,19 +89,19 @@
       "id": "status",
       "name": "Status",
       "type": "points",
-      "count": 20
+      "count": 57
     },
     {
       "id": "temperatures",
       "name": "Temperatures",
       "type": "points",
-      "count": 30
+      "count": 54
     },
     {
       "id": "valves",
       "name": "Valves",
       "type": "points",
-      "count": 11
+      "count": 19
     }
   ]
 }

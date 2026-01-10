@@ -7,6 +7,27 @@ concept:
   brick: Relief_Air_Damper_Open_Status
 aliases:
   common:
-    - rlfd-open
-    - rlf damper open
+    - r-o
+    - rdo
+    - rado
+    - r-d-o
+    - r-a-d-o
+    - rlfdopen
     - rlfd open
+    - rlfd-open
+    - rlfdmpopen
+    - reladmpopen
+    - rlfdmpropen
+    - raardmpropen
+    - rlf dmp open
+    - rlf-dmp-open
+    - rlf dmpr open
+    - rlf-dmpr-open
+    - rel a dmp open
+    - rel-a-dmp-open
+    - ra ar dmpr open
+    - ra-ar-dmpr-open
+    - rlf damper open
+    - rel air damper open
+    - rel-air-damper-open
+    - relief-air-damper-open

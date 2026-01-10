@@ -7,7 +7,29 @@ concept:
   brick: Chilled_Water_Supply_Temperature_Sensor
 aliases:
   common:
+    - s-t
+    - scwst
+    - schwst
+    - schws t
     - schws-t
-    - schws temp
-    - schws temperature
+    - schwstmp
+    - s-c-w-s-t
     - schws tmp
+    - schws-tmp
+    - schwstemp
+    - schws temp
+    - schws-temp
+    - scndchwtrsat
+    - secchlwsuptemp
+    - schwstemperature
+    - scnd ch wtr sa t
+    - scnd-ch-wtr-sa-t
+    - schws temperature
+    - schws-temperature
+    - sec chl w sup temp
+    - sec-chl-w-sup-temp
+    - secondary chilled water supply temp
+    - secondary-chilled-water-supply-temp
+    - sec chilled water supply temperature
+    - sec-chilled-water-supply-temperature
+    - secondary-chilled-water-supply-temperature

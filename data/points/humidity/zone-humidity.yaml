@@ -7,7 +7,28 @@ concept:
   brick: Zone_Air_Humidity_Sensor
 aliases:
   common:
+    - z-h
+    - znh
+    - zrh
+    - z rh
+    - z-rh
+    - zn h
     - zn-h
+    - znrh
+    - zn rh
+    - zn-rh
+    - znhum
+    - zhumid
+    - zn hum
+    - zn-hum
+    - z humid
+    - z-humid
+    - znhumid
     - zn humid
-    - zn humidity
+    - zn-humid
+    - zone hum
+    - zone-hum
     - zone humid
+    - zn humidity
+    - zn-humidity
+    - zone-humidity

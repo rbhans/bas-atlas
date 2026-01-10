@@ -7,6 +7,33 @@ concept:
   brick: Exhaust_Air_Damper_Position_Sensor
 aliases:
   common:
+    - e-p
+    - edp
+    - eadp
+    - e-d-p
+    - ead p
+    - ead-p
+    - eadpos
+    - e-a-d-p
+    - ead pos
     - ead-pos
-    - ea damper position
+    - eadmprp
+    - eadmppos
+    - ea dmpr p
+    - ea-dmpr-p
+    - eaardmprp
+    - ea dmp pos
+    - ea-dmp-pos
+    - exhadmppos
+    - ea ar dmpr p
+    - ea-ar-dmpr-p
     - ead position
+    - exh a dmp pos
+    - exh-a-dmp-pos
+    - ea damper position
+    - ea-damper-position
+    - exhaust air damper pos
+    - exhaust-air-damper-pos
+    - exh air damper position
+    - exh-air-damper-position
+    - exhaust-air-damper-position

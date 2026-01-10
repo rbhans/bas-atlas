@@ -12,12 +12,58 @@ concept:
   brick: Entering_Water_Temperature_Sensor
 aliases:
   common:
-    - chiller entering temp
-    - chiller return temp
-    - chlr entering temp
-    - chlr ewt
-    - chiller ewt
-    - chiller entering water temp
-    - ch-ewt
-    - chlr-ewt
+    - c-e
+    - cet
+    - crt
+    - cewt
+    - c-e-t
+    - c-r-t
+    - chent
+    - chewt
+    - chrat
+    - ch ent
+    - ch ewt
     - ch-ent
+    - ch-ewt
+    - chlewt
+    - c-e-w-t
+    - ch ra t
+    - ch-ra-t
+    - chentrt
+    - chl ewt
+    - chl-ewt
+    - chlrewt
+    - chlr ewt
+    - chlr-ewt
+    - ch entr t
+    - ch-entr-t
+    - chlrentrt
+    - chentrwtrt
+    - chlenttemp
+    - chiller ewt
+    - chlr entr t
+    - chlr-entr-t
+    - chl ent temp
+    - chl-ent-temp
+    - ch entr wtr t
+    - ch-entr-wtr-t
+    - chlenttemperature
+    - chlrettemperature
+    - chlentwtemperature
+    - chlr entering temp
+    - chlrenttemperature
+    - chiller return temp
+    - chl ent temperature
+    - chl ret temperature
+    - chl-ent-temperature
+    - chl-ret-temperature
+    - chlr ent temperature
+    - chlr-ent-temperature
+    - chiller entering temp
+    - chiller-entering-temp
+    - chl ent w temperature
+    - chl-ent-w-temperature
+    - chl entering temperature
+    - chl-entering-temperature
+    - chiller entering water temp
+    - chiller-entering-temperature

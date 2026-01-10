@@ -1,0 +1,36 @@
+concept:
+  id: cooling-tower-8-output
+  name: Cooling Tower 8 Output
+  category: commands
+  description: Cooling Tower 8 Output point
+  haystack: cooling tower 8 output
+aliases:
+  common:
+    - c-o
+    - c8o
+    - ct8o
+    - c-8-o
+    - ct8 o
+    - ct8-o
+    - ct 8 o
+    - ct-8-o
+    - ct8out
+    - c-t-8-o
+    - cooltw8o
+    - ct 8 out
+    - ct-8 out
+    - ct-8-out
+    - clgtwr8out
+    - cool tw 8 o
+    - cool-tw-8-o
+    - ct 8 output
+    - ct-8 output
+    - ct-8-output
+    - clg twr 8 out
+    - clg-twr-8-out
+    - clg tower 8 output
+    - clg-tower-8-output
+    - cooling tower 8 out
+    - cooling-tower-8-out
+    - cooling-tower-8-output
+  abbreviated: []

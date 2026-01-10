@@ -1,0 +1,36 @@
+concept:
+  id: cooling-tower-1-output
+  name: Cooling Tower 1 Output
+  category: commands
+  description: Cooling Tower 1 Output point
+  haystack: cooling tower 1 output
+aliases:
+  common:
+    - c-o
+    - c1o
+    - ct1o
+    - c-1-o
+    - ct1 o
+    - ct1-o
+    - ct 1 o
+    - ct-1-o
+    - ct1out
+    - c-t-1-o
+    - cooltw1o
+    - ct 1 out
+    - ct-1 out
+    - ct-1-out
+    - clgtwr1out
+    - cool tw 1 o
+    - cool-tw-1-o
+    - ct 1 output
+    - ct-1 output
+    - ct-1-output
+    - clg twr 1 out
+    - clg-twr-1-out
+    - clg tower 1 output
+    - clg-tower-1-output
+    - cooling tower 1 out
+    - cooling-tower-1-out
+    - cooling-tower-1-output
+  abbreviated: []

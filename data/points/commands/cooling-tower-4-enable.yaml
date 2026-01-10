@@ -1,0 +1,44 @@
+concept:
+  id: cooling-tower-4-enable
+  name: Cooling Tower 4 Enable
+  category: commands
+  description: Cooling Tower 4 Enable point
+  haystack: cooling tower 4 enable
+aliases:
+  common:
+    - c-e
+    - c4e
+    - ct4e
+    - c-4-e
+    - ct4en
+    - ct4 en
+    - ct4-en
+    - ct4ena
+    - c-t-4-e
+    - ct 4 en
+    - ct-4-en
+    - ct4enbl
+    - ct 4 ena
+    - ct-4 ena
+    - ct-4-ena
+    - clgtwr4en
+    - ct 4 enbl
+    - ct-4-enbl
+    - clgtwr4enbl
+    - cooltw4enbl
+    - ct 4 enable
+    - ct-4 enable
+    - ct-4-enable
+    - clg twr 4 en
+    - clg-twr-4-en
+    - clg twr 4 enbl
+    - clg-twr-4-enbl
+    - cool tw 4 enbl
+    - cool-tw-4-enbl
+    - clg twr 4 enable
+    - clg tower 4 enable
+    - clg-tower-4-enable
+    - cooling tower 4 en
+    - cooling-tower-4-en
+    - cooling-tower-4-enable
+  abbreviated: []

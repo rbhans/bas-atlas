@@ -1,0 +1,30 @@
+concept:
+  id: boiler-4-status
+  name: Boiler 4 Status
+  category: status
+  description: Boiler 4 Status point
+  haystack: boiler 4 status
+aliases:
+  common:
+    - b-s
+    - b4s
+    - b-4-s
+    - b4sts
+    - blr4s
+    - b4stat
+    - blr4 s
+    - blr4-s
+    - b 4 sts
+    - b-4-sts
+    - blr4sts
+    - b 4 stat
+    - b-4-stat
+    - blr 4 sts
+    - blr-4-sts
+    - b-4 status
+    - blr 4 status
+    - blr-4-status
+    - boiler 4 sts
+    - boiler-4-sts
+    - boiler-4-status
+  abbreviated: []

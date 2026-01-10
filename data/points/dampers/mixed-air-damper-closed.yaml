@@ -7,6 +7,28 @@ concept:
   brick: Mixed_Air_Damper_Closed_Status
 aliases:
   common:
-    - mad-closed
-    - ma damper closed
+    - m-c
+    - mdc
+    - madc
+    - m-d-c
+    - m-a-d-c
+    - madclosed
     - mad closed
+    - mad-closed
+    - madmpclosed
+    - maadmpclosed
+    - madmprclosed
+    - ma dmp closed
+    - ma-dmp-closed
+    - ma dmpr closed
+    - ma-dmpr-closed
+    - ma a dmp closed
+    - ma-a-dmp-closed
+    - mixardmprclosed
+    - ma damper closed
+    - ma-damper-closed
+    - mix ar dmpr closed
+    - mix-ar-dmpr-closed
+    - ma air damper closed
+    - ma-air-damper-closed
+    - mixed-air-damper-closed

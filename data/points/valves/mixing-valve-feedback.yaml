@@ -12,8 +12,28 @@ concept:
   object_type: analogInput
 aliases:
   common:
+    - m-f
+    - mvf
+    - m-v-f
+    - mxvfdbk
+    - mixvfdbk
+    - mixvlvfb
+    - mixvlv fb
     - mixvlv-fb
+    - mx v fdbk
+    - mx-v-fdbk
+    - mix v fdbk
+    - mix vlv fb
+    - mix-v-fdbk
+    - mix-vlv-fb
+    - mixvlvfdbk
+    - mix vlv fdbk
+    - mix-vlv-fdbk
+    - mixing valve fb
+    - mixing-valve-fb
     - mix vlv feedback
     - mix valve feedback
+    - mix-valve-feedback
+    - mixing-valve-feedback
 related:
   - mixing-valve-output

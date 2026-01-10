@@ -7,9 +7,48 @@ concept:
   brick: Discharge_Air_Static_Pressure_Setpoint
 aliases:
   common:
+    - d-s
+    - dps
+    - daps
+    - d-p-s
+    - dapsp
+    - dap sp
     - dap-sp
-    - dap setpoint
-    - da press stpt
+    - d-a-p-s
+    - dapstpt
+    - dap stpt
+    - dap-stpt
+    - daprsstpt
+    - daapresssp
+    - daprssetpt
     - da prs stpt
+    - da-prs-stpt
+    - dapressstpt
+    - da prs setpt
+    - da-prs-setpt
+    - dap setpoint
+    - dapresssetpt
+    - disarprsstpt
+    - da a press sp
+    - da press stpt
+    - da-a-press-sp
+    - da-press-stpt
+    - dischapresssp
+    - da press setpt
+    - da-press-setpt
+    - dis ar prs stpt
+    - dis-ar-prs-stpt
+    - disch a press sp
+    - disch-a-press-sp
+    - discharpressstpt
     - da pressure setpt
+    - disch ar press stpt
+    - disch-ar-press-stpt
+    - da pressure setpoint
+    - da-pressure-setpoint
+    - da air pressure setpoint
+    - da-air-pressure-setpoint
     - disch air press setpoint
+    - discharge air pressure sp
+    - discharge-air-pressure-sp
+    - discharge-air-pressure-setpoint

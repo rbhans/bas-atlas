@@ -7,8 +7,25 @@ concept:
   brick: Exhaust_Fan_Speed_Command
 aliases:
   common:
+    - e-o
+    - efo
+    - ef o
     - ef-o
-    - ef output
+    - e-f-o
+    - eafno
+    - efout
     - ef out
+    - ef-out
+    - ea fn o
+    - ea-fn-o
+    - exhfout
+    - ef output
+    - exh f out
+    - exh-f-out
+    - exh fan output
+    - exh-fan-output
+    - exhaust fan out
+    - exhaust-fan-out
+    - exhaust-fan-output
 related:
   - exhaust-fan-feedback

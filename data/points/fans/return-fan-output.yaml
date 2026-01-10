@@ -7,8 +7,25 @@ concept:
   brick: Return_Fan_Speed_Command
 aliases:
   common:
+    - r-o
+    - rfo
+    - rf o
     - rf-o
-    - rf output
+    - r-f-o
+    - rafno
+    - rfout
     - rf out
+    - rf-out
+    - ra fn o
+    - ra-fn-o
+    - retfout
+    - ret f out
+    - ret-f-out
+    - rf output
+    - ret fan output
+    - ret-fan-output
+    - return fan out
+    - return-fan-out
+    - return-fan-output
 related:
   - return-fan-feedback

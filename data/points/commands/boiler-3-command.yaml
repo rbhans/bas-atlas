@@ -1,0 +1,28 @@
+concept:
+  id: boiler-3-command
+  name: Boiler 3 Command
+  category: commands
+  description: Boiler 3 Command point
+  haystack: boiler 3 command
+aliases:
+  common:
+    - b-c
+    - b3c
+    - b 3 c
+    - b-3-c
+    - b3cmd
+    - blr3c
+    - blr3 c
+    - blr3-c
+    - b 3 cmd
+    - b-3-cmd
+    - blr3cmd
+    - blr 3 cmd
+    - blr-3-cmd
+    - b-3 command
+    - boiler 3 cmd
+    - boiler-3-cmd
+    - blr 3 command
+    - blr-3-command
+    - boiler-3-command
+  abbreviated: []

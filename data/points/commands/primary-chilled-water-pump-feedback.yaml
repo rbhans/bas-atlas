@@ -7,8 +7,26 @@ concept:
   brick: Primary_Chilled_Water_Pump_Speed_Position_Sensor
 aliases:
   common:
+    - p-f
+    - pcwpf
+    - pchwpfb
+    - pchwp fb
     - pchwp-fb
+    - p-c-w-p-f
+    - pchwpfdbk
+    - pchwp fdbk
+    - pchwp-fdbk
+    - prichlwpfb
     - pchwp feedback
-    - pchwp feedback
+    - pri chl w p fb
+    - pri-chl-w-p-fb
+    - primchwtrpmpfdbk
+    - prim ch wtr pmp fdbk
+    - prim-ch-wtr-pmp-fdbk
+    - primary chilled water pump fb
+    - primary-chilled-water-pump-fb
+    - pri chilled water pump feedback
+    - pri-chilled-water-pump-feedback
+    - primary-chilled-water-pump-feedback
 related:
   - primary-chilled-water-pump-output

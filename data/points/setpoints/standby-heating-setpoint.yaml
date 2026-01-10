@@ -7,8 +7,38 @@ concept:
   brick: Standby_Heating_Temperature_Setpoint
 aliases:
   common:
+    - s-s
+    - shs
+    - s-h-s
+    - sbyhtgsp
+    - stbyhtgsp
+    - sby htg sp
+    - sby-htg-sp
+    - sbyhtgstpt
+    - stbyhtg sp
     - stbyhtg-sp
-    - standby htg setpoint
+    - sbyheatstpt
+    - stby htg sp
+    - stby-htg-sp
+    - stbyhtgstpt
+    - sby htg stpt
+    - sby-htg-stpt
+    - sbyheatsetpt
+    - stbyhtgsetpt
+    - sby heat stpt
+    - sby-heat-stpt
+    - stby htg stpt
+    - stby-htg-stpt
+    - sby heat setpt
+    - sby-heat-setpt
     - standby htg sp
+    - stby htg setpt
+    - stby-htg-setpt
     - standby htg stpt
+    - standby heating sp
+    - standby-heating-sp
+    - standby htg setpoint
     - standby heating setpt
+    - stby heating setpoint
+    - stby-heating-setpoint
+    - standby-heating-setpoint

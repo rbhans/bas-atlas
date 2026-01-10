@@ -1,0 +1,37 @@
+concept:
+  id: cooling-tower-7-alarm
+  name: Cooling Tower 7 Alarm
+  category: alarms
+  description: Cooling Tower 7 Alarm point
+  haystack: cooling tower 7 alarm
+aliases:
+  common:
+    - c-a
+    - c7a
+    - ct7a
+    - c-7-a
+    - ct7 a
+    - ct7-a
+    - ct7al
+    - ct7alm
+    - c-t-7-a
+    - ct 7 al
+    - ct-7-al
+    - ct 7 alm
+    - ct-7 alm
+    - ct-7-alm
+    - cooltw7al
+    - clgtwr7alm
+    - ct 7 alarm
+    - ct-7 alarm
+    - ct-7-alarm
+    - cool tw 7 al
+    - cool-tw-7-al
+    - clg twr 7 alm
+    - clg-twr-7-alm
+    - clg tower 7 alarm
+    - clg-tower-7-alarm
+    - cooling tower 7 alm
+    - cooling-tower-7-alm
+    - cooling-tower-7-alarm
+  abbreviated: []

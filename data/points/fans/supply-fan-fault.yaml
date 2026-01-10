@@ -7,7 +7,29 @@ concept:
   brick: Supply_Fan_Fault_Status
 aliases:
   common:
-    - sf-fault
-    - sf fault
+    - f-f
+    - s-f
+    - sff
+    - s-f-f
+    - sfflt
+    - ffault
     - sf flt
+    - sf-flt
+    - f fault
+    - f-fault
+    - fnfault
+    - sffault
+    - fn fault
+    - fn-fault
+    - sf fault
+    - sf-fault
     - fan fault
+    - safnfault
+    - supffault
+    - sa fn fault
+    - sa-fn-fault
+    - sup f fault
+    - sup-f-fault
+    - sup fan fault
+    - sup-fan-fault
+    - supply-fan-fault

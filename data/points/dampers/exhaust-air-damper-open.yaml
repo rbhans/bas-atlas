@@ -7,6 +7,28 @@ concept:
   brick: Exhaust_Air_Damper_Open_Status
 aliases:
   common:
-    - ead-open
-    - ea damper open
+    - e-o
+    - edo
+    - eado
+    - e-d-o
+    - e-a-d-o
+    - eadopen
     - ead open
+    - ead-open
+    - eadmpopen
+    - eadmpropen
+    - ea dmp open
+    - ea-dmp-open
+    - exhadmpopen
+    - ea dmpr open
+    - ea-dmpr-open
+    - eaardmpropen
+    - ea damper open
+    - ea-damper-open
+    - exh a dmp open
+    - exh-a-dmp-open
+    - ea ar dmpr open
+    - ea-ar-dmpr-open
+    - exh air damper open
+    - exh-air-damper-open
+    - exhaust-air-damper-open

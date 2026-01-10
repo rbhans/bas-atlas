@@ -7,8 +7,34 @@ concept:
   brick: Unoccupied_Heating_Temperature_Setpoint
 aliases:
   common:
+    - u-s
+    - uhs
+    - u-h-s
+    - unochtgsp
+    - unocchtgsp
+    - unoc htg sp
+    - unoc-htg-sp
+    - unocchtg sp
     - unocchtg-sp
-    - unocc htg setpoint
-    - unoccupied htg sp
+    - unocc htg sp
+    - unocc-htg-sp
+    - unocchtgstpt
+    - unocheatstpt
+    - unocchtgsetpt
+    - unoc heat stpt
+    - unoc-heat-stpt
     - unocc htg stpt
+    - unocc-htg-stpt
+    - unoccheatsetpt
+    - unocc htg setpt
+    - unocc-htg-setpt
+    - unocc heat setpt
+    - unocc-heat-setpt
+    - unoccupied htg sp
+    - unocc htg setpoint
     - unocc heating setpt
+    - unoccupied heating sp
+    - unoccupied-heating-sp
+    - unocc heating setpoint
+    - unocc-heating-setpoint
+    - unoccupied-heating-setpoint

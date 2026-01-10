@@ -7,8 +7,38 @@ concept:
   brick: Gas_Heating_Position_Sensor
 aliases:
   common:
+    - g-f
+    - ghf
+    - gfhf
+    - g-h-f
+    - ghtfb
+    - gshfb
+    - ghtgfb
+    - g ht fb
+    - g-f-h-f
+    - g-ht-fb
+    - gs h fb
+    - gs-h-fb
+    - g htg fb
+    - g-htg-fb
+    - gashtgfb
+    - gfrdhtfb
+    - gashtg fb
     - gashtg-fb
-    - gas heating feedback
+    - gsfrhfdbk
+    - gsheatfdbk
+    - g frd ht fb
+    - g-frd-ht-fb
     - gas heat fb
+    - gs fr h fdbk
+    - gs heat fdbk
+    - gs-fr-h-fdbk
+    - gs-heat-fdbk
+    - gas fired heat fb
+    - gas-fired-heat-fb
+    - gas heating feedback
+    - g fired heat feedback
+    - g-fired-heat-feedback
+    - gas-fired-heat-feedback
 related:
   - gas-fired-heat-output

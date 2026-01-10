@@ -7,6 +7,18 @@ concept:
   brick: Economizer_Enable_Command
 aliases:
   common:
-    - econ-en
-    - econ enable
+    - e-e
+    - econen
+    - ecoenbl
     - econ en
+    - econ-en
+    - eco enbl
+    - eco-enbl
+    - econenbl
+    - econ enbl
+    - econ-enbl
+    - econ enable
+    - econ-enable
+    - economizer en
+    - economizer-en
+    - economizer-enable

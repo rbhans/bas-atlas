@@ -7,11 +7,44 @@ concept:
   brick: Heat_Wheel_Speed_Position_Sensor
 aliases:
   common:
+    - e-f
+    - h-f
+    - hwf
+    - erwf
+    - hwfb
+    - erwfb
+    - h-w-f
+    - hw fb
     - hw-fb
-    - hw feedback
-    - hw feedback
-    - erw feedback
-    - energy recovery wheel feedback
+    - erw fb
     - erw-fb
+    - hwfdbk
+    - e-r-w-f
+    - erwfdbk
+    - htwhlfb
+    - hw fdbk
+    - hw-fdbk
+    - hwhfdbk
+    - erw fdbk
+    - erw-fdbk
+    - h wh fdbk
+    - h-wh-fdbk
+    - ht whl fb
+    - ht-whl-fb
+    - hw feedback
+    - hw-feedback
+    - erw feedback
+    - heat wheel fb
+    - heat-wheel-fb
+    - erecoverywhfdbk
+    - nrgrecoverywhlfb
+    - ht wheel feedback
+    - ht-wheel-feedback
+    - e recovery wh fdbk
+    - e-recovery-wh-fdbk
+    - heat-wheel-feedback
+    - nrg recovery whl fb
+    - nrg-recovery-whl-fb
+    - energy recovery wheel feedback
 related:
   - heat-wheel-output

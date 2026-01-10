@@ -1,0 +1,53 @@
+concept:
+  id: electric-heat-stage-7
+  name: Electric Heat Stage 7
+  category: status
+  description: Electric Heat Stage 7 point
+  haystack: electric heat stage 7
+aliases:
+  common:
+    - e-s
+    - h 7
+    - h-7
+    - h-s
+    - hs7
+    - ht7
+    - ehs7
+    - ht 7
+    - ht-7
+    - h-s-7
+    - heat 7
+    - e-h-s-7
+    - elhstg7
+    - htgstg7
+    - elecstg7
+    - elhstge7
+    - heatstg7
+    - htg stg7
+    - htg-stg7
+    - elec stg7
+    - elec-stg7
+    - heatstge7
+    - htg stg 7
+    - htg-stg-7
+    - el h stg 7
+    - el-h-stg-7
+    - elechtstg7
+    - heat stg 7
+    - heat-stg-7
+    - el h stge 7
+    - el-h-stge-7
+    - elechtgstg7
+    - heat stge 7
+    - heat-stge-7
+    - elechtg stg7
+    - elechtg-stg7
+    - elec ht stg 7
+    - elec-ht-stg-7
+    - heating stg 7
+    - heating stage 7
+    - elec heat stage 7
+    - elec-heat-stage-7
+    - electric heat stg 7
+    - electric-heat-stage-7
+  abbreviated: []

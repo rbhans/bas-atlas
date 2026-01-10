@@ -1,0 +1,48 @@
+concept:
+  id: chiller-4-leaving-temperature
+  name: Chiller 4 Leaving Temperature
+  category: temperatures
+  description: Chiller 4 Leaving Temperature point
+  haystack: chiller 4 leaving temperature
+aliases:
+  common:
+    - c-l
+    - clt
+    - c4lt
+    - c-l-t
+    - ch4lwt
+    - c-4-l-t
+    - ch4 lwt
+    - ch4-lwt
+    - ch4lvgt
+    - ch4leavt
+    - ch4 lvg t
+    - ch4-lvg-t
+    - ch4leavet
+    - ch 4 lvg t
+    - ch-4-lvg-t
+    - ch 4 leav t
+    - ch-4-leav-t
+    - chl4lvgtemp
+    - ch 4 leave t
+    - ch-4-leave-t
+    - ch4-lvg-temp
+    - ch-4 lvg temp
+    - chl 4 lvg temp
+    - chl-4-lvg-temp
+    - ch-4 leave temp
+    - ch-4 leaving temp
+    - ch4lvgtemperature
+    - ch4 lvg temperature
+    - ch4-lvg-temperature
+    - ch4leavetemperature
+    - ch 4 lvg temperature
+    - ch-4-lvg-temperature
+    - ch 4 leave temperature
+    - ch-4-leave-temperature
+    - chiller 4 leaving temp
+    - chiller-4-leaving-temp
+    - chl 4 leaving temperature
+    - chl-4-leaving-temperature
+    - chiller-4-leaving-temperature
+  abbreviated: []

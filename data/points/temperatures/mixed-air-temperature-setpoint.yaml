@@ -7,8 +7,43 @@ concept:
   brick: Mixed_Air_Temperature_Setpoint
 aliases:
   common:
+    - m-s
+    - mts
+    - mats
+    - m-t-s
+    - matsp
+    - mat sp
     - mat-sp
-    - mat setpoint
+    - m-a-t-s
+    - matstpt
+    - mat stpt
+    - mat-stpt
+    - matsetpt
+    - ma t stpt
+    - ma-t-stpt
+    - maatempsp
+    - ma t setpt
+    - ma-t-setpt
+    - mixartstpt
+    - matempsetpt
+    - ma a temp sp
     - ma temp stpt
+    - ma-a-temp-sp
+    - mat setpoint
     - ma temp setpt
+    - ma-temp-setpt
+    - mix ar t stpt
+    - mix-ar-t-stpt
+    - matemperaturestpt
+    - matemperaturesetpt
+    - ma temperature stpt
+    - ma-temperature-stpt
     - ma temperature setpt
+    - ma-temperature-setpt
+    - ma temperature setpoint
+    - ma-temperature-setpoint
+    - mixed air temperature sp
+    - mixed-air-temperature-sp
+    - ma air temperature setpoint
+    - ma-air-temperature-setpoint
+    - mixed-air-temperature-setpoint

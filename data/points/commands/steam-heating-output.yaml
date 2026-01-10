@@ -7,10 +7,44 @@ concept:
   brick: Steam_Heating_Command
 aliases:
   common:
+    - s-o
+    - sho
+    - stmo
+    - s-h-o
+    - stm o
     - stm-o
+    - stout
+    - st out
+    - st-out
+    - sthout
+    - sthtgo
+    - stmout
+    - stheato
+    - stm out
+    - stm-out
+    - st h out
+    - st htg o
+    - st-h-out
+    - st-htg-o
+    - sthtgout
+    - stmhtout
+    - st heat o
+    - st-heat-o
     - steam out
-    - steam heat out
+    - stmhtgout
+    - st htg out
+    - st-htg-out
+    - stm ht out
+    - stm-ht-out
+    - stm htg out
+    - stm-htg-out
     - steam htg out
+    - steam heat out
     - steam htg output
+    - steam heating out
+    - steam-heating-out
+    - stm heating output
+    - stm-heating-output
+    - steam-heating-output
 related:
   - steam-heating-feedback

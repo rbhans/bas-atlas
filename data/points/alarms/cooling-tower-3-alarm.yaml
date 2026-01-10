@@ -1,0 +1,37 @@
+concept:
+  id: cooling-tower-3-alarm
+  name: Cooling Tower 3 Alarm
+  category: alarms
+  description: Cooling Tower 3 Alarm point
+  haystack: cooling tower 3 alarm
+aliases:
+  common:
+    - c-a
+    - c3a
+    - ct3a
+    - c-3-a
+    - ct3 a
+    - ct3-a
+    - ct3al
+    - ct3alm
+    - c-t-3-a
+    - ct 3 al
+    - ct-3-al
+    - ct 3 alm
+    - ct-3 alm
+    - ct-3-alm
+    - cooltw3al
+    - clgtwr3alm
+    - ct 3 alarm
+    - ct-3 alarm
+    - ct-3-alarm
+    - cool tw 3 al
+    - cool-tw-3-al
+    - clg twr 3 alm
+    - clg-twr-3-alm
+    - clg tower 3 alarm
+    - clg-tower-3-alarm
+    - cooling tower 3 alm
+    - cooling-tower-3-alm
+    - cooling-tower-3-alarm
+  abbreviated: []

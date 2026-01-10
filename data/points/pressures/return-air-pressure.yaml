@@ -7,8 +7,34 @@ concept:
   brick: Return_Air_Static_Pressure_Sensor
 aliases:
   common:
+    - r-p
+    - rap
+    - ra p
     - ra-p
+    - r-a-p
+    - raprs
+    - ra prs
+    - ra-prs
+    - raarprs
+    - rapress
     - ra press
+    - ra-press
+    - retarprs
+    - ra ar prs
+    - ra-ar-prs
+    - retapress
+    - ret ar prs
+    - ret-ar-prs
+    - retarpress
     - ra pressure
-    - ret air pressure
+    - ra-pressure
+    - ret a press
+    - ret-a-press
+    - ret ar press
+    - ret-ar-press
     - ret air press
+    - ret air pressure
+    - ret-air-pressure
+    - return air press
+    - return-air-press
+    - return-air-pressure

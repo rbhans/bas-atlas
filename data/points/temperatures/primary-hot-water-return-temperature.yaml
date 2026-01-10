@@ -7,7 +7,28 @@ concept:
   brick: Hot_Water_Return_Temperature_Sensor
 aliases:
   common:
+    - p-t
+    - phwrt
+    - phwr t
     - phwr-t
-    - phwr temp
-    - phwr temperature
+    - phwrtmp
     - phwr tmp
+    - phwr-tmp
+    - phwrtemp
+    - p-h-w-r-t
+    - phwr temp
+    - phwr-temp
+    - primhwwtrrat
+    - prihtwrettemp
+    - phwrtemperature
+    - phwr temperature
+    - phwr-temperature
+    - prim hw wtr ra t
+    - prim-hw-wtr-ra-t
+    - pri ht w ret temp
+    - pri-ht-w-ret-temp
+    - primary hot water return temp
+    - primary-hot-water-return-temp
+    - pri hot water return temperature
+    - pri-hot-water-return-temperature
+    - primary-hot-water-return-temperature

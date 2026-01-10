@@ -7,6 +7,26 @@ concept:
   brick: Return_Fan_Status
 aliases:
   common:
+    - r-s
+    - rfs
+    - rf s
     - rf-s
-    - rf status
+    - r-f-s
+    - rfsts
     - rf sts
+    - rf-sts
+    - rfstat
+    - retfsts
+    - rf stat
+    - rf-stat
+    - rafnstat
+    - ret f sts
+    - ret-f-sts
+    - rf status
+    - ra fn stat
+    - ra-fn-stat
+    - ret fan status
+    - ret-fan-status
+    - return fan sts
+    - return-fan-sts
+    - return-fan-status

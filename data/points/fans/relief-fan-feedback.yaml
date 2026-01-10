@@ -12,8 +12,26 @@ concept:
   object_type: analogInput
 aliases:
   common:
+    - r-f
+    - rff
+    - r-f-f
+    - rlffb
+    - relffb
+    - rlf fb
     - rlf-fb
+    - rlffdbk
+    - rafnfdbk
+    - rel f fb
+    - rel-f-fb
+    - rlf fdbk
+    - rlf-fdbk
+    - ra fn fdbk
+    - ra-fn-fdbk
     - rlf feedback
-    - rlf feedback
+    - relief fan fb
+    - relief-fan-fb
+    - rel fan feedback
+    - rel-fan-feedback
+    - relief-fan-feedback
 related:
   - relief-fan-output

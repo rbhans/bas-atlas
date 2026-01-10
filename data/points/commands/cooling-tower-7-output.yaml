@@ -1,0 +1,36 @@
+concept:
+  id: cooling-tower-7-output
+  name: Cooling Tower 7 Output
+  category: commands
+  description: Cooling Tower 7 Output point
+  haystack: cooling tower 7 output
+aliases:
+  common:
+    - c-o
+    - c7o
+    - ct7o
+    - c-7-o
+    - ct7 o
+    - ct7-o
+    - ct 7 o
+    - ct-7-o
+    - ct7out
+    - c-t-7-o
+    - cooltw7o
+    - ct 7 out
+    - ct-7 out
+    - ct-7-out
+    - clgtwr7out
+    - cool tw 7 o
+    - cool-tw-7-o
+    - ct 7 output
+    - ct-7 output
+    - ct-7-output
+    - clg twr 7 out
+    - clg-twr-7-out
+    - clg tower 7 output
+    - clg-tower-7-output
+    - cooling tower 7 out
+    - cooling-tower-7-out
+    - cooling-tower-7-output
+  abbreviated: []

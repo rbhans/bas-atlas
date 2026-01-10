@@ -7,7 +7,41 @@ concept:
   brick: Low_Discharge_Air_Static_Pressure_Alarm
 aliases:
   common:
+    - da
+    - d-a
+    - dlpa
+    - dalpa
+    - dalp a
     - dalp-a
+    - d-l-p-a
+    - d-a-l-p-a
+    - dalowpressal
+    - dalowpressalm
+    - disarlowprsal
+    - daalowpressalm
+    - dalowprsalmost
+    - da low press al
+    - da-low-press-al
+    - da low press alm
+    - da-low-press-alm
     - da low prs almost
+    - da-low-prs-almost
+    - dis ar low prs al
+    - dis-ar-low-prs-al
+    - dischalowpressalm
+    - discharlowpressal
+    - da a low press alm
     - da low press alarm
+    - da-a-low-press-alm
+    - da low pressure alarm
+    - da-low-pressure-alarm
+    - disch a low press alm
+    - disch ar low press al
+    - disch-a-low-press-alm
+    - disch-ar-low-press-al
+    - da air low pressure alarm
+    - da-air-low-pressure-alarm
     - disch air low press alarm
+    - discharge air low pressure alm
+    - discharge-air-low-pressure-alm
+    - discharge-air-low-pressure-alarm

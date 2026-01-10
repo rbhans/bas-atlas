@@ -7,8 +7,26 @@ concept:
   brick: Secondary_Chilled_Water_Pump_Speed_Position_Sensor
 aliases:
   common:
+    - s-f
+    - scwpf
+    - schwpfb
+    - schwp fb
     - schwp-fb
+    - s-c-w-p-f
+    - schwpfdbk
+    - schwp fdbk
+    - schwp-fdbk
+    - secchlwpfb
     - schwp feedback
-    - schwp feedback
+    - sec chl w p fb
+    - sec-chl-w-p-fb
+    - scndchwtrpmpfdbk
+    - scnd ch wtr pmp fdbk
+    - scnd-ch-wtr-pmp-fdbk
+    - sec chilled water pump feedback
+    - sec-chilled-water-pump-feedback
+    - secondary chilled water pump fb
+    - secondary-chilled-water-pump-fb
+    - secondary-chilled-water-pump-feedback
 related:
   - secondary-chilled-water-pump-output

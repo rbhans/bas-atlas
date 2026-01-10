@@ -7,8 +7,26 @@ concept:
   brick: Bypass_Valve_Command
 aliases:
   common:
+    - b-o
+    - bvo
+    - bpvo
+    - bypo
+    - b-v-o
+    - byp o
     - byp-o
+    - bp v o
+    - bp-v-o
+    - bpvlvo
+    - bp vlv o
+    - bp-vlv-o
+    - bypvlvout
     - byp vlv out
+    - byp-vlv-out
+    - byp valve output
+    - byp-valve-output
+    - bypass valve out
+    - bypass-valve-out
     - bypass vlv output
+    - bypass-valve-output
 related:
   - bypass-valve-feedback

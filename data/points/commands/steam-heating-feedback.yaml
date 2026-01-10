@@ -7,10 +7,37 @@ concept:
   brick: Steam_Heating_Position_Sensor
 aliases:
   common:
+    - s-f
+    - shf
+    - s-h-f
+    - stmfb
+    - stfdbk
+    - stm fb
     - stm-fb
+    - st fdbk
+    - st-fdbk
+    - sthfdbk
+    - stmhtfb
+    - stmhtgfb
+    - st h fdbk
+    - st-h-fdbk
+    - sthtgfdbk
+    - stm ht fb
+    - stm-ht-fb
+    - stheatfdbk
+    - stm htg fb
+    - stm-htg-fb
+    - st htg fdbk
+    - st-htg-fdbk
+    - st heat fdbk
+    - st-heat-fdbk
     - steam feedback
+    - steam heating fb
+    - steam-heating-fb
+    - steam htg feedback
     - steam heat feedback
-    - steam htg feedback
-    - steam htg feedback
+    - stm heating feedback
+    - stm-heating-feedback
+    - steam-heating-feedback
 related:
   - steam-heating-output

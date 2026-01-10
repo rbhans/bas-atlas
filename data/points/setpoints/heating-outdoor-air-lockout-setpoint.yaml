@@ -7,7 +7,40 @@ concept:
   brick: Outside_Air_Lockout_Temperature_Setpoint
 aliases:
   common:
+    - h-s
+    - hols
+    - hoals
+    - h-o-l-s
+    - h-o-a-l-s
+    - hoatlocksetpt
+    - htgoalockoutsp
+    - htoatlocksetpt
+    - htgoaalockoutsp
+    - htgoalockout sp
     - htgoalockout-sp
-    - htg oat lockout setpoint
-    - heating oat lockout stpt
+    - htgoatlockoutsp
+    - h oat lock setpt
+    - h-oat-lock-setpt
+    - ht oat lock setpt
+    - ht-oat-lock-setpt
+    - htgoatlockoutstpt
+    - heatoatlockoutstpt
+    - htg oat lockout sp
+    - htg-oat-lockout-sp
     - heat oat lock setpt
+    - htg oa a lockout sp
+    - htg-oa-a-lockout-sp
+    - heatoutarlockoutstpt
+    - htg oat lockout stpt
+    - htg-oat-lockout-stpt
+    - heat oat lockout stpt
+    - heat-oat-lockout-stpt
+    - heat out ar lockout stpt
+    - heat-out-ar-lockout-stpt
+    - heating oat lockout stpt
+    - htg oat lockout setpoint
+    - heating outdoor air lockout sp
+    - heating-outdoor-air-lockout-sp
+    - htg outdoor air lockout setpoint
+    - htg-outdoor-air-lockout-setpoint
+    - heating-outdoor-air-lockout-setpoint

@@ -1,0 +1,37 @@
+concept:
+  id: cooling-tower-2-alarm
+  name: Cooling Tower 2 Alarm
+  category: alarms
+  description: Cooling Tower 2 Alarm point
+  haystack: cooling tower 2 alarm
+aliases:
+  common:
+    - c-a
+    - c2a
+    - ct2a
+    - c-2-a
+    - ct2 a
+    - ct2-a
+    - ct2al
+    - ct2alm
+    - c-t-2-a
+    - ct 2 al
+    - ct-2-al
+    - ct 2 alm
+    - ct-2 alm
+    - ct-2-alm
+    - cooltw2al
+    - clgtwr2alm
+    - ct 2 alarm
+    - ct-2 alarm
+    - ct-2-alarm
+    - cool tw 2 al
+    - cool-tw-2-al
+    - clg twr 2 alm
+    - clg-twr-2-alm
+    - clg tower 2 alarm
+    - clg-tower-2-alarm
+    - cooling tower 2 alm
+    - cooling-tower-2-alm
+    - cooling-tower-2-alarm
+  abbreviated: []

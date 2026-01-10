@@ -1,0 +1,36 @@
+concept:
+  id: cooling-tower-3-output
+  name: Cooling Tower 3 Output
+  category: commands
+  description: Cooling Tower 3 Output point
+  haystack: cooling tower 3 output
+aliases:
+  common:
+    - c-o
+    - c3o
+    - ct3o
+    - c-3-o
+    - ct3 o
+    - ct3-o
+    - ct 3 o
+    - ct-3-o
+    - ct3out
+    - c-t-3-o
+    - cooltw3o
+    - ct 3 out
+    - ct-3 out
+    - ct-3-out
+    - clgtwr3out
+    - cool tw 3 o
+    - cool-tw-3-o
+    - ct 3 output
+    - ct-3 output
+    - ct-3-output
+    - clg twr 3 out
+    - clg-twr-3-out
+    - clg tower 3 output
+    - clg-tower-3-output
+    - cooling tower 3 out
+    - cooling-tower-3-out
+    - cooling-tower-3-output
+  abbreviated: []

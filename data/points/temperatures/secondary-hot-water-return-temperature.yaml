@@ -7,7 +7,28 @@ concept:
   brick: Hot_Water_Return_Temperature_Sensor
 aliases:
   common:
+    - s-t
+    - shwrt
+    - shwr t
     - shwr-t
-    - shwr temp
-    - shwr temperature
+    - shwrtmp
     - shwr tmp
+    - shwr-tmp
+    - shwrtemp
+    - s-h-w-r-t
+    - shwr temp
+    - shwr-temp
+    - scndhwwtrrat
+    - sechtwrettemp
+    - shwrtemperature
+    - scnd hw wtr ra t
+    - scnd-hw-wtr-ra-t
+    - shwr temperature
+    - shwr-temperature
+    - sec ht w ret temp
+    - sec-ht-w-ret-temp
+    - secondary hot water return temp
+    - secondary-hot-water-return-temp
+    - sec hot water return temperature
+    - sec-hot-water-return-temperature
+    - secondary-hot-water-return-temperature

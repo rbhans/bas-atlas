@@ -7,5 +7,21 @@ concept:
   brick: Water_Temperature_Sensor
 aliases:
   common:
+    - c-t
+    - cwt
+    - cw t
     - cw-t
+    - c-w-t
+    - citywtrt
+    - citywtemp
+    - city wtr t
+    - city-wtr-t
+    - city w temp
+    - city-w-temp
     - city wtr temp
+    - city water temp
+    - city-water-temp
+    - citywtrtemperature
+    - city wtr temperature
+    - city-wtr-temperature
+    - city-water-temperature

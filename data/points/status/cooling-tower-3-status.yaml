@@ -1,0 +1,43 @@
+concept:
+  id: cooling-tower-3-status
+  name: Cooling Tower 3 Status
+  category: status
+  description: Cooling Tower 3 Status point
+  haystack: cooling tower 3 status
+aliases:
+  common:
+    - c-s
+    - c3fs
+    - ct3s
+    - ct3 s
+    - ct3-s
+    - ct3fs
+    - ct3f s
+    - ct3f-s
+    - c-3-f-s
+    - c-t-3-s
+    - ct3fsts
+    - ct3fnsts
+    - ct3fnstat
+    - clgtwr3sts
+    - ct 3 f sts
+    - ct-3-f-sts
+    - cooltw3stat
+    - ct 3 fn sts
+    - ct 3 status
+    - ct-3-fn-sts
+    - ct-3-status
+    - ct 3 fn stat
+    - ct-3 fan sts
+    - ct-3-fn-stat
+    - clg twr 3 sts
+    - clg-twr-3-sts
+    - cool tw 3 stat
+    - cool-tw-3-stat
+    - ct-3 fan status
+    - clg tower 3 status
+    - clg-tower-3-status
+    - cooling tower 3 sts
+    - cooling-tower-3-sts
+    - cooling-tower-3-status
+  abbreviated: []

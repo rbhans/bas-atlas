@@ -7,11 +7,42 @@ concept:
   brick: Heat_Wheel_Speed_Command
 aliases:
   common:
+    - e-o
+    - h-o
+    - hwo
+    - erwo
+    - hw o
     - hw-o
-    - hw out
-    - hw output
-    - erw output
-    - energy recovery wheel output
+    - hwho
+    - erw o
     - erw-o
+    - h-w-o
+    - hwout
+    - erwout
+    - h wh o
+    - h-wh-o
+    - hw out
+    - hw-out
+    - e-r-w-o
+    - erw out
+    - erw-out
+    - htwhlout
+    - hw output
+    - hw-output
+    - erw output
+    - ht whl out
+    - ht-whl-out
+    - erecoverywho
+    - heat wheel out
+    - heat-wheel-out
+    - e recovery wh o
+    - e-recovery-wh-o
+    - ht wheel output
+    - ht-wheel-output
+    - heat-wheel-output
+    - nrgrecoverywhlout
+    - nrg recovery whl out
+    - nrg-recovery-whl-out
+    - energy recovery wheel output
 related:
   - heat-wheel-feedback

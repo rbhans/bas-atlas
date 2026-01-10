@@ -7,6 +7,28 @@ concept:
   brick: Secondary_Chilled_Water_Pump_Alarm
 aliases:
   common:
+    - sa
+    - s-a
+    - scwpa
+    - schwpa
+    - schwp a
     - schwp-a
+    - schwpal
+    - schwp al
+    - schwp-al
+    - schwpalm
+    - s-c-w-p-a
     - schwp alm
+    - schwp-alm
     - schwp alarm
+    - secchlwpalm
+    - scndchwtrpmpal
+    - sec chl w p alm
+    - sec-chl-w-p-alm
+    - scnd ch wtr pmp al
+    - scnd-ch-wtr-pmp-al
+    - sec chilled water pump alarm
+    - sec-chilled-water-pump-alarm
+    - secondary chilled water pump alm
+    - secondary-chilled-water-pump-alm
+    - secondary-chilled-water-pump-alarm

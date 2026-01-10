@@ -12,12 +12,38 @@ concept:
   brick: Boiler_Output_Command
 aliases:
   common:
-    - boiler out
-    - boiler modulation
-    - blr output
-    - blr out
-    - boiler firing rate
+    - b o
+    - b-m
+    - b-o
+    - bfr
+    - blro
+    - bout
+    - b out
+    - b-f-r
+    - b-out
+    - blr o
     - blr-o
+    - blrout
+    - blr out
     - blr-out
+    - blr output
+    - blr-output
+    - boiler out
+    - boiler-out
+    - bfiringrate
+    - bmodulation
+    - b modulation
+    - b-modulation
+    - b firing rate
+    - b-firing-rate
+    - blrfiringrate
+    - blrmodulation
+    - boiler-output
+    - blr modulation
+    - blr-modulation
+    - blr firing rate
+    - blr-firing-rate
+    - boiler modulation
+    - boiler firing rate
 related:
   - boiler-feedback

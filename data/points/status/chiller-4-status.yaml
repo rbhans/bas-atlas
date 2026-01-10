@@ -1,0 +1,38 @@
+concept:
+  id: chiller-4-status
+  name: Chiller 4 Status
+  category: status
+  description: Chiller 4 Status point
+  haystack: chiller 4 status
+aliases:
+  common:
+    - c-s
+    - c4s
+    - ch4s
+    - c-4-s
+    - ch4 s
+    - ch4-s
+    - ch4sts
+    - ch4stat
+    - chl4sts
+    - ch 4 sts
+    - ch-4 sts
+    - ch-4-sts
+    - chlr4sts
+    - ch 4 stat
+    - ch-4-stat
+    - chl 4 sts
+    - chl-4-sts
+    - chlr4stat
+    - chlr 4 sts
+    - chlr-4-sts
+    - ch-4 status
+    - chlr 4 stat
+    - chlr-4-stat
+    - chl 4 status
+    - chl-4-status
+    - chiller 4 sts
+    - chiller-4-sts
+    - chlr-4 status
+    - chiller-4-status
+  abbreviated: []

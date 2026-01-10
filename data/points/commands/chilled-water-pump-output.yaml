@@ -7,8 +7,28 @@ concept:
   brick: Chilled_Water_Pump_Speed_Command
 aliases:
   common:
+    - c-o
+    - cwpo
+    - chwpo
+    - chwp o
     - chwp-o
+    - c-w-p-o
+    - chwpout
+    - chlwpout
     - chwp out
+    - chwp-out
+    - chwtrpmpo
+    - chl w p out
+    - chl-w-p-out
     - chwp output
+    - ch wtr pmp o
+    - ch-wtr-pmp-o
+    - chw pump output
+    - chw-pump-output
+    - chl water pump output
+    - chl-water-pump-output
+    - chilled water pump out
+    - chilled-water-pump-out
+    - chilled-water-pump-output
 related:
   - chilled-water-pump-feedback

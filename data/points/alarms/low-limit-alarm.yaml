@@ -7,9 +7,35 @@ concept:
   brick: Low_Limit_Alarm
 aliases:
   common:
-    - low temp alarm
-    - freezestat
-    - lt-a
-    - frz-st
+    - f-s
+    - l-a
+    - lla
+    - lta
+    - ll a
     - ll-a
+    - lt a
+    - lt-a
+    - frzst
+    - l-l-a
+    - l-t-a
+    - frz st
+    - frz-st
+    - lowtal
+    - lowtalm
+    - low t al
+    - low-t-al
+    - low t alm
+    - low-t-alm
+    - freezestat
+    - lowlimital
+    - lowlimitalm
+    - low limit al
     - low temp alm
+    - low-limit-al
+    - low limit alm
+    - low-limit-alm
+    - low temp alarm
+    - low-limit-alarm
+    - lowtemperaturealm
+    - low temperature alm
+    - low-temperature-alm

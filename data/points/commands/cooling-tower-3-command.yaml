@@ -1,0 +1,35 @@
+concept:
+  id: cooling-tower-3-command
+  name: Cooling Tower 3 Command
+  category: commands
+  description: Cooling Tower 3 Command point
+  haystack: cooling tower 3 command
+aliases:
+  common:
+    - c-c
+    - c3c
+    - ct3c
+    - c-3-c
+    - ct 3 c
+    - ct-3-c
+    - ct3cmd
+    - c-t-3-c
+    - ct3 cmd
+    - ct3-cmd
+    - cooltw3c
+    - ct 3 cmd
+    - ct-3-cmd
+    - clgtwr3cmd
+    - cool tw 3 c
+    - cool-tw-3-c
+    - ct 3 command
+    - ct-3 command
+    - ct-3-command
+    - clg twr 3 cmd
+    - clg-twr-3-cmd
+    - clg tower 3 command
+    - clg-tower-3-command
+    - cooling tower 3 cmd
+    - cooling-tower-3-cmd
+    - cooling-tower-3-command
+  abbreviated: []

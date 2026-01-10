@@ -7,6 +7,31 @@ concept:
   brick: Chilled_Water_Differential_Pressure_Sensor
 aliases:
   common:
+    - c-d
+    - cdp
+    - cwdp
+    - c-d-p
+    - chwdp
+    - chw dp
     - chw-dp
+    - c-w-d-p
+    - chwdiffprs
+    - chwtrdifprs
+    - chw diff prs
+    - chw-diff-prs
+    - chwdiffpress
+    - chlwdiffpress
+    - ch wtr dif prs
+    - ch-wtr-dif-prs
     - chw diff press
+    - chw-diff-press
+    - chl w diff press
+    - chl-w-diff-press
     - chw diff pressure
+    - chw differential pressure
+    - chw-differential-pressure
+    - chl water differential pressure
+    - chl-water-differential-pressure
+    - chilled water differential press
+    - chilled-water-differential-press
+    - chilled-water-differential-pressure

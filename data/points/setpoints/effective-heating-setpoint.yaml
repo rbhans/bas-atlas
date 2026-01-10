@@ -7,8 +7,31 @@ concept:
   brick: Effective_Heating_Temperature_Setpoint
 aliases:
   common:
+    - e-s
+    - ehs
+    - e-h-s
+    - effhtgsp
+    - effhtg sp
     - effhtg-sp
+    - eff htg sp
+    - eff-htg-sp
+    - effhtgstpt
+    - effhtgsetpt
+    - eff htg stpt
+    - eff-htg-stpt
+    - effheatsetpt
+    - eff htg setpt
+    - eff-htg-setpt
+    - eff heat setpt
+    - eff-heat-setpt
+    - effectivehtgsp
     - eff htg setpoint
     - effective htg sp
-    - eff htg stpt
+    - effective-htg-sp
     - eff heating setpt
+    - effectiveheatstpt
+    - effective heat stpt
+    - effective-heat-stpt
+    - effective heating sp
+    - effective-heating-sp
+    - effective-heating-setpoint

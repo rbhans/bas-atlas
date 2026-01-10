@@ -1,0 +1,36 @@
+concept:
+  id: cooling-tower-6-output
+  name: Cooling Tower 6 Output
+  category: commands
+  description: Cooling Tower 6 Output point
+  haystack: cooling tower 6 output
+aliases:
+  common:
+    - c-o
+    - c6o
+    - ct6o
+    - c-6-o
+    - ct6 o
+    - ct6-o
+    - ct 6 o
+    - ct-6-o
+    - ct6out
+    - c-t-6-o
+    - cooltw6o
+    - ct 6 out
+    - ct-6 out
+    - ct-6-out
+    - clgtwr6out
+    - cool tw 6 o
+    - cool-tw-6-o
+    - ct 6 output
+    - ct-6 output
+    - ct-6-output
+    - clg twr 6 out
+    - clg-twr-6-out
+    - clg tower 6 output
+    - clg-tower-6-output
+    - cooling tower 6 out
+    - cooling-tower-6-out
+    - cooling-tower-6-output
+  abbreviated: []

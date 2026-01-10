@@ -1,0 +1,39 @@
+concept:
+  id: chiller-7-enable
+  name: Chiller 7 Enable
+  category: commands
+  description: Chiller 7 Enable point
+  haystack: chiller 7 enable
+aliases:
+  common:
+    - c-e
+    - c7e
+    - c-7-e
+    - ch7en
+    - ch7 en
+    - ch7-en
+    - chl7en
+    - ch 7 en
+    - ch-7-en
+    - ch7enbl
+    - chlr7en
+    - ch7 enbl
+    - ch7-enbl
+    - chl 7 en
+    - chl-7-en
+    - ch 7 enbl
+    - ch-7-enbl
+    - chlr 7 en
+    - chlr-7-en
+    - chlr7enbl
+    - ch7-enable
+    - ch-7 enable
+    - chlr 7 enbl
+    - chlr-7-enbl
+    - chiller 7 en
+    - chiller-7-en
+    - chl 7 enable
+    - chl-7-enable
+    - chlr-7 enable
+    - chiller-7-enable
+  abbreviated: []

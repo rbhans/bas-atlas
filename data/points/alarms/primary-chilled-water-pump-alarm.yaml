@@ -7,6 +7,27 @@ concept:
   brick: Primary_Chilled_Water_Pump_Alarm
 aliases:
   common:
+    - p-a
+    - pcwpa
+    - pchwpa
+    - pchwp a
     - pchwp-a
+    - pchwpal
+    - pchwp al
+    - pchwp-al
+    - pchwpalm
+    - p-c-w-p-a
     - pchwp alm
+    - pchwp-alm
     - pchwp alarm
+    - prichlwpalm
+    - primchwtrpmpal
+    - pri chl w p alm
+    - pri-chl-w-p-alm
+    - prim ch wtr pmp al
+    - prim-ch-wtr-pmp-al
+    - pri chilled water pump alarm
+    - pri-chilled-water-pump-alarm
+    - primary chilled water pump alm
+    - primary-chilled-water-pump-alm
+    - primary-chilled-water-pump-alarm

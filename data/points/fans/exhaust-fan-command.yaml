@@ -7,6 +7,23 @@ concept:
   brick: Exhaust_Fan_Command
 aliases:
   common:
+    - e-c
+    - efc
+    - ef c
     - ef-c
-    - ef command
+    - e-f-c
+    - eafnc
+    - efcmd
     - ef cmd
+    - ef-cmd
+    - ea fn c
+    - ea-fn-c
+    - exhfcmd
+    - exh f cmd
+    - exh-f-cmd
+    - ef command
+    - exh fan command
+    - exh-fan-command
+    - exhaust fan cmd
+    - exhaust-fan-cmd
+    - exhaust-fan-command

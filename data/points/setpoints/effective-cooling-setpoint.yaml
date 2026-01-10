@@ -7,8 +7,31 @@ concept:
   brick: Effective_Cooling_Temperature_Setpoint
 aliases:
   common:
+    - e-s
+    - ecs
+    - e-c-s
+    - effclgsp
+    - effclg sp
     - effclg-sp
+    - eff clg sp
+    - eff-clg-sp
+    - effclgstpt
+    - effclgsetpt
+    - eff clg stpt
+    - eff-clg-stpt
+    - effcoolsetpt
+    - eff clg setpt
+    - eff-clg-setpt
+    - eff cool setpt
+    - eff-cool-setpt
+    - effectiveclgsp
     - eff clg setpoint
     - effective clg sp
-    - eff clg stpt
+    - effective-clg-sp
     - eff cooling setpt
+    - effectivecoolstpt
+    - effective cool stpt
+    - effective-cool-stpt
+    - effective cooling sp
+    - effective-cooling-sp
+    - effective-cooling-setpoint

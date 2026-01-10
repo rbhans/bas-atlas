@@ -1,0 +1,48 @@
+concept:
+  id: chiller-5-leaving-temperature
+  name: Chiller 5 Leaving Temperature
+  category: temperatures
+  description: Chiller 5 Leaving Temperature point
+  haystack: chiller 5 leaving temperature
+aliases:
+  common:
+    - c-l
+    - clt
+    - c5lt
+    - c-l-t
+    - ch5lwt
+    - c-5-l-t
+    - ch5 lwt
+    - ch5-lwt
+    - ch5lvgt
+    - ch5leavt
+    - ch5 lvg t
+    - ch5-lvg-t
+    - ch5leavet
+    - ch 5 lvg t
+    - ch-5-lvg-t
+    - ch 5 leav t
+    - ch-5-leav-t
+    - chl5lvgtemp
+    - ch 5 leave t
+    - ch-5-leave-t
+    - ch5-lvg-temp
+    - ch-5 lvg temp
+    - chl 5 lvg temp
+    - chl-5-lvg-temp
+    - ch-5 leave temp
+    - ch-5 leaving temp
+    - ch5lvgtemperature
+    - ch5 lvg temperature
+    - ch5-lvg-temperature
+    - ch5leavetemperature
+    - ch 5 lvg temperature
+    - ch-5-lvg-temperature
+    - ch 5 leave temperature
+    - ch-5-leave-temperature
+    - chiller 5 leaving temp
+    - chiller-5-leaving-temp
+    - chl 5 leaving temperature
+    - chl-5-leaving-temperature
+    - chiller-5-leaving-temperature
+  abbreviated: []

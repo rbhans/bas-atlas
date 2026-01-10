@@ -7,7 +7,29 @@ concept:
   brick: Outside_Air_Damper_Closed_Status
 aliases:
   common:
-    - oad-closed
-    - oa damper closed
+    - o-c
+    - odc
+    - oadc
+    - o-d-c
+    - o-a-d-c
+    - oadclosed
     - oad closed
+    - oad-closed
+    - oadmpclosed
+    - oaadmpclosed
+    - oadmprclosed
+    - oa dmp closed
+    - oa-dmp-closed
+    - oa dmpr closed
+    - oa-dmpr-closed
+    - oa a dmp closed
+    - oa-a-dmp-closed
+    - outardmprclosed
+    - oa damper closed
+    - oa-damper-closed
+    - out ar dmpr closed
+    - out-ar-dmpr-closed
+    - oa air damper closed
+    - oa-air-damper-closed
     - outdoor air damper closed
+    - outside-air-damper-closed

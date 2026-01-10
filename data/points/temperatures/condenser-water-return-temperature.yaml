@@ -7,7 +7,30 @@ concept:
   brick: Condenser_Water_Return_Temperature_Sensor
 aliases:
   common:
+    - c-t
+    - cwrt
+    - cwr t
     - cwr-t
-    - cwr temp
-    - cwr temperature
+    - cwrtmp
+    - c-w-r-t
     - cwr tmp
+    - cwr-tmp
+    - cwrtemp
+    - cwr temp
+    - cwr-temp
+    - cwwtrrat
+    - cndwrettemp
+    - cw wtr ra t
+    - cw-wtr-ra-t
+    - cnd w ret temp
+    - cnd-w-ret-temp
+    - cwrtemperature
+    - cwr temperature
+    - cwr-temperature
+    - cw return temperature
+    - cw-return-temperature
+    - condenser water return temp
+    - condenser-water-return-temp
+    - cnd water return temperature
+    - cnd-water-return-temperature
+    - condenser-water-return-temperature

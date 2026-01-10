@@ -1,0 +1,36 @@
+concept:
+  id: cooling-tower-2-output
+  name: Cooling Tower 2 Output
+  category: commands
+  description: Cooling Tower 2 Output point
+  haystack: cooling tower 2 output
+aliases:
+  common:
+    - c-o
+    - c2o
+    - ct2o
+    - c-2-o
+    - ct2 o
+    - ct2-o
+    - ct 2 o
+    - ct-2-o
+    - ct2out
+    - c-t-2-o
+    - cooltw2o
+    - ct 2 out
+    - ct-2 out
+    - ct-2-out
+    - clgtwr2out
+    - cool tw 2 o
+    - cool-tw-2-o
+    - ct 2 output
+    - ct-2 output
+    - ct-2-output
+    - clg twr 2 out
+    - clg-twr-2-out
+    - clg tower 2 output
+    - clg-tower-2-output
+    - cooling tower 2 out
+    - cooling-tower-2-out
+    - cooling-tower-2-output
+  abbreviated: []

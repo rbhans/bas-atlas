@@ -1,0 +1,36 @@
+concept:
+  id: chiller-7-command
+  name: Chiller 7 Command
+  category: commands
+  description: Chiller 7 Command point
+  haystack: chiller 7 command
+aliases:
+  common:
+    - c-c
+    - c7c
+    - ch7c
+    - c-7-c
+    - ch7 c
+    - ch7-c
+    - ch 7 c
+    - ch-7-c
+    - ch7cmd
+    - ch7 cmd
+    - ch7-cmd
+    - chl7cmd
+    - ch 7 cmd
+    - ch-7 cmd
+    - ch-7-cmd
+    - chlr7cmd
+    - chl 7 cmd
+    - chl-7-cmd
+    - chlr 7 cmd
+    - chlr-7 cmd
+    - chlr-7-cmd
+    - ch-7 command
+    - chiller 7 cmd
+    - chiller-7-cmd
+    - chl 7 command
+    - chl-7-command
+    - chiller-7-command
+  abbreviated: []

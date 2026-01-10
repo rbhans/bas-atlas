@@ -7,8 +7,35 @@ concept:
   brick: Exhaust_Air_Damper_Command
 aliases:
   common:
+    - e-o
+    - edo
+    - eado
+    - e-d-o
+    - ead o
     - ead-o
-    - ea damper output
+    - eadout
+    - e-a-d-o
+    - ead out
+    - ead-out
+    - eadmpro
+    - eadmpout
+    - ea dmpr o
+    - ea-dmpr-o
+    - eaardmpro
+    - ea dmp out
+    - ea-dmp-out
     - ead output
+    - exhadmpout
+    - ea ar dmpr o
+    - ea-ar-dmpr-o
+    - exh a dmp out
+    - exh-a-dmp-out
+    - ea damper output
+    - ea-damper-output
+    - exh air damper output
+    - exh-air-damper-output
+    - exhaust air damper out
+    - exhaust-air-damper-out
+    - exhaust-air-damper-output
 related:
   - exhaust-air-damper-feedback

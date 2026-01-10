@@ -7,7 +7,26 @@ concept:
   brick: Domestic_Hot_Water_Return_Temperature_Sensor
 aliases:
   common:
+    - d-t
+    - dhwrt
+    - dhwr t
     - dhwr-t
-    - dhwr temp
-    - dhwr temperature
+    - dhwrtmp
     - dhwr tmp
+    - dhwr-tmp
+    - dhwrtemp
+    - d-h-w-r-t
+    - dhwr temp
+    - dhwr-temp
+    - dhwrtemperature
+    - dhwr temperature
+    - dhwr-temperature
+    - domestichwwtrrat
+    - domestichtwrettemp
+    - domestic hw wtr ra t
+    - domestic-hw-wtr-ra-t
+    - domestic ht w ret temp
+    - domestic-ht-w-ret-temp
+    - domestic hot water return temp
+    - domestic-hot-water-return-temp
+    - domestic-hot-water-return-temperature

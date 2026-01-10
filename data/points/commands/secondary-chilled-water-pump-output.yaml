@@ -7,8 +7,26 @@ concept:
   brick: Secondary_Chilled_Water_Pump_Speed_Command
 aliases:
   common:
+    - s-o
+    - scwpo
+    - schwpo
+    - schwp o
     - schwp-o
+    - schwpout
+    - s-c-w-p-o
     - schwp out
+    - schwp-out
+    - secchlwpout
     - schwp output
+    - scndchwtrpmpo
+    - sec chl w p out
+    - sec-chl-w-p-out
+    - scnd ch wtr pmp o
+    - scnd-ch-wtr-pmp-o
+    - sec chilled water pump output
+    - sec-chilled-water-pump-output
+    - secondary chilled water pump out
+    - secondary-chilled-water-pump-out
+    - secondary-chilled-water-pump-output
 related:
   - secondary-chilled-water-pump-feedback

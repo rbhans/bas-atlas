@@ -8,11 +8,40 @@ concept:
   brick: Boiler_Alarm
 aliases:
   common:
-    - boiler alm
-    - boiler fault
-    - blr alarm
-    - blr alm
-    - blr fault
-    - boiler warning
+    - b-a
+    - b-f
+    - b-w
+    - bal
+    - b al
+    - b-al
+    - balm
+    - blra
+    - b alm
+    - b-alm
+    - blr a
     - blr-a
+    - blral
+    - bfault
+    - blr al
+    - blr-al
+    - blralm
+    - b fault
+    - b-fault
+    - blr alm
     - blr-alm
+    - blrfault
+    - bwarning
+    - b warning
+    - b-warning
+    - blr alarm
+    - blr fault
+    - blr-alarm
+    - blr-fault
+    - blrwarning
+    - boiler alm
+    - boiler-alm
+    - blr warning
+    - blr-warning
+    - boiler fault
+    - boiler-alarm
+    - boiler warning

@@ -12,10 +12,42 @@ concept:
   object_type: analogInput
 aliases:
   common:
+    - f-f
+    - fbf
+    - fbdf
+    - f-b-f
+    - fbdfb
+    - fbd fb
     - fbd-fb
+    - f-b-d-f
+    - fbdfdbk
+    - fbdprfb
+    - fcbypfb
+    - fbd fdbk
+    - fbd-fdbk
+    - fbdpr fb
+    - fbdpr-fb
+    - fbypfdbk
+    - fbdprfdbk
+    - fc byp fb
+    - fc-byp-fb
+    - f byp fdbk
+    - f-byp-fdbk
+    - fbdpr fdbk
+    - fbdpr-fdbk
+    - fcbypdmpfb
+    - fbpdmprfdbk
     - fbd feedback
-    - fbd feedback
-    - face byp feedback
+    - fc byp dmp fb
+    - fc-byp-dmp-fb
+    - f bp dmpr fdbk
+    - f-bp-dmpr-fdbk
     - fbdpr feedback
+    - face byp feedback
+    - face bypass damper fb
+    - face-bypass-damper-fb
+    - fc bypass damper feedback
+    - fc-bypass-damper-feedback
+    - face-bypass-damper-feedback
 related:
   - face-bypass-damper-output

@@ -7,6 +7,29 @@ concept:
   brick: Chilled_Water_Pump_Status
 aliases:
   common:
+    - c-s
+    - cwps
+    - chwps
+    - chwp s
     - chwp-s
+    - c-w-p-s
+    - chwpsts
+    - chlwpsts
     - chwp sts
+    - chwp-sts
+    - chwpstat
+    - chwp stat
+    - chwp-stat
+    - chl w p sts
+    - chl-w-p-sts
     - chwp status
+    - chwtrpmpstat
+    - ch wtr pmp stat
+    - ch-wtr-pmp-stat
+    - chw pump status
+    - chw-pump-status
+    - chl water pump status
+    - chl-water-pump-status
+    - chilled water pump sts
+    - chilled-water-pump-sts
+    - chilled-water-pump-status

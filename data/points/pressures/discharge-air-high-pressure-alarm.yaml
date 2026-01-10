@@ -7,8 +7,14 @@ concept:
   brick: High_Discharge_Air_Static_Pressure_Alarm
   point_function: alarm
   states:
-    "0": Normal
-    "1": High Pressure
+    "0":
+      - Normal
+      - OK
+      - Normal Pressure
+    "1":
+      - High Pressure
+      - Over Pressure
+      - Pressure Alarm
   unit:
     - in. W.C.
     - Pa

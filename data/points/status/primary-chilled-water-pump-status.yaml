@@ -7,8 +7,18 @@ concept:
   brick: Primary_Chilled_Water_Pump_Status
   point_function: status
   states:
-    "0": Off
-    "1": Running
+    "0":
+      - Off
+      - Stopped
+      - Not Running
+      - Inactive
+      - Idle
+    "1":
+      - Running
+      - On
+      - Active
+      - Started
+      - Energized
 aliases:
   common:
     - p-s

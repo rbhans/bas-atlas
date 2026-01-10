@@ -7,8 +7,18 @@ concept:
   brick: Occupancy_Command
   point_function: command
   states:
-    "0": Off
-    "1": On
+    "0":
+      - Off
+      - Unoccupied
+      - Vacant
+      - Empty
+      - Standby
+    "1":
+      - On
+      - Occupied
+      - Present
+      - In Use
+      - Active
 aliases:
   common:
     - o-c

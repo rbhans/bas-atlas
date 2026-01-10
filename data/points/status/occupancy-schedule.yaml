@@ -7,8 +7,16 @@ concept:
   brick: Occupancy_Schedule
   point_function: schedule
   states:
-    "0": Unoccupied
-    "1": Occupied
+    "0":
+      - Unoccupied
+      - Vacant
+      - Empty
+      - Standby
+    "1":
+      - Occupied
+      - Present
+      - In Use
+      - Active
 aliases:
   common:
     - o-s

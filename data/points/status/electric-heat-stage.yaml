@@ -7,8 +7,15 @@ concept:
   brick: Heating_Stage_Status
   point_function: sensor
   states:
-    "0": Off
-    "1": On
+    "0":
+      - Off
+      - Inactive
+      - Disabled
+    "1":
+      - On
+      - Active
+      - Staged
+      - Energized
 aliases:
   common:
     - ehs

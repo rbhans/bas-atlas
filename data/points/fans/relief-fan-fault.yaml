@@ -7,8 +7,16 @@ concept:
   brick: Relief_Fan_Fault_Status
   point_function: alarm
   states:
-    "0": Normal
-    "1": Fault
+    "0":
+      - Normal
+      - OK
+      - No Fault
+      - Healthy
+    "1":
+      - Fault
+      - Faulted
+      - Error
+      - Failed
 aliases:
   common:
     - r-f

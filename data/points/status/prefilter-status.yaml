@@ -7,8 +7,18 @@ concept:
   brick: Pre_Filter_Status
   point_function: status
   states:
-    "0": Off
-    "1": Running
+    "0":
+      - Off
+      - Clean
+      - OK
+      - Good
+      - Normal
+    "1":
+      - Running
+      - Dirty
+      - Clogged
+      - Replace
+      - Alarm
 aliases:
   common:
     - p-s

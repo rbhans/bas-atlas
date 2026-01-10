@@ -7,8 +7,16 @@ concept:
   brick: Low_Limit_Alarm
   point_function: alarm
   states:
-    "0": Normal
-    "1": Alarm
+    "0":
+      - Normal
+      - OK
+      - Above Limit
+    "1":
+      - Alarm
+      - Low Limit
+      - Low Limit Alarm
+      - Below Threshold
+      - Tripped
 aliases:
   common:
     - f-s

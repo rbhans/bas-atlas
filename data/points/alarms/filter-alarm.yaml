@@ -7,8 +7,16 @@ concept:
   brick: Filter_Alarm
   point_function: alarm
   states:
-    "0": Clean
-    "1": Dirty
+    "0":
+      - Clean
+      - OK
+      - Good
+      - Normal
+    "1":
+      - Dirty
+      - Clogged
+      - Replace
+      - Alarm
 aliases:
   common:
     - f-a

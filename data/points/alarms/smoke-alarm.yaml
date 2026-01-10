@@ -7,8 +7,16 @@ concept:
   brick: Smoke_Alarm
   point_function: alarm
   states:
-    "0": Normal
-    "1": Alarm
+    "0":
+      - Normal
+      - Clear
+      - No Smoke
+      - OK
+    "1":
+      - Alarm
+      - Smoke Detected
+      - Smoke
+      - Tripped
 aliases:
   common:
     - sa

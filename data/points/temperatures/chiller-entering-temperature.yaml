@@ -10,8 +10,16 @@ concept:
   brick: Entering_Water_Temperature_Sensor
   point_function: enable
   states:
-    "0": Disabled
-    "1": Enabled
+    "0":
+      - Disabled
+      - Off
+      - Locked Out
+      - Inhibited
+    "1":
+      - Enabled
+      - On
+      - Unlocked
+      - Active
 aliases:
   common:
     - c-e

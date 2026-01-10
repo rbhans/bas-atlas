@@ -7,8 +7,18 @@ concept:
   brick: Smoke_Damper_Open_Status
   point_function: sensor
   states:
-    "0": Closed
-    "1": Open
+    "0":
+      - Closed
+      - Normal
+      - Clear
+      - No Smoke
+      - OK
+    "1":
+      - Open
+      - Smoke Detected
+      - Alarm
+      - Smoke
+      - Tripped
 aliases:
   common:
     - s-d

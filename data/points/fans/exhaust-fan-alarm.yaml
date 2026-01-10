@@ -7,8 +7,18 @@ concept:
   brick: Exhaust_Fan_Alarm
   point_function: alarm
   states:
-    "0": Normal
-    "1": Alarm
+    "0":
+      - Normal
+      - OK
+      - Clear
+      - No Alarm
+      - Healthy
+    "1":
+      - Alarm
+      - Fault
+      - Alert
+      - Tripped
+      - Active
 aliases:
   common:
     - ea

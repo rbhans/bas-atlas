@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-10T17:11:35.853Z",
+  "lastUpdated": "2026-01-10T18:50:24.032Z",
   "totalPoints": 218,
   "totalEquipment": 42,
   "points": [
@@ -14,8 +14,20 @@
         "brick": "Boiler_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Clear",
+            "No Alarm",
+            "Healthy"
+          ],
+          "1": [
+            "Alarm",
+            "Fault",
+            "Alert",
+            "Tripped",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -70,8 +82,20 @@
         "brick": "Boiler_Pump_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Clear",
+            "No Alarm",
+            "Healthy"
+          ],
+          "1": [
+            "Alarm",
+            "Fault",
+            "Alert",
+            "Tripped",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -122,8 +146,20 @@
         "brick": "Chilled_Water_Pump_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Clear",
+            "No Alarm",
+            "Healthy"
+          ],
+          "1": [
+            "Alarm",
+            "Fault",
+            "Alert",
+            "Tripped",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -167,8 +203,20 @@
         "brick": "Chiller_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Clear",
+            "No Alarm",
+            "Healthy"
+          ],
+          "1": [
+            "Alarm",
+            "Fault",
+            "Alert",
+            "Tripped",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -234,8 +282,20 @@
         "brick": "Condenser_Water_Pump_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Clear",
+            "No Alarm",
+            "Healthy"
+          ],
+          "1": [
+            "Alarm",
+            "Fault",
+            "Alert",
+            "Tripped",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -278,8 +338,20 @@
         "brick": "Cooling_Tower_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Clear",
+            "No Alarm",
+            "Healthy"
+          ],
+          "1": [
+            "Alarm",
+            "Fault",
+            "Alert",
+            "Tripped",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -349,8 +421,18 @@
         "brick": "Filter_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Clean",
-          "1": "Dirty"
+          "0": [
+            "Clean",
+            "OK",
+            "Good",
+            "Normal"
+          ],
+          "1": [
+            "Dirty",
+            "Clogged",
+            "Replace",
+            "Alarm"
+          ]
         }
       },
       "aliases": {
@@ -390,8 +472,18 @@
         "brick": "Final_Filter_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Clean",
-          "1": "Dirty"
+          "0": [
+            "Clean",
+            "OK",
+            "Good",
+            "Normal"
+          ],
+          "1": [
+            "Dirty",
+            "Clogged",
+            "Replace",
+            "Alarm"
+          ]
         }
       },
       "aliases": {
@@ -438,8 +530,20 @@
         "brick": "Hot_Water_Pump_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Clear",
+            "No Alarm",
+            "Healthy"
+          ],
+          "1": [
+            "Alarm",
+            "Fault",
+            "Alert",
+            "Tripped",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -482,8 +586,18 @@
         "brick": "Low_Limit_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Above Limit"
+          ],
+          "1": [
+            "Alarm",
+            "Low Limit",
+            "Low Limit Alarm",
+            "Below Threshold",
+            "Tripped"
+          ]
         }
       },
       "aliases": {
@@ -533,8 +647,18 @@
         "brick": "Pre_Filter_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Clean",
-          "1": "Dirty"
+          "0": [
+            "Clean",
+            "OK",
+            "Good",
+            "Normal"
+          ],
+          "1": [
+            "Dirty",
+            "Clogged",
+            "Replace",
+            "Alarm"
+          ]
         }
       },
       "aliases": {
@@ -579,8 +703,20 @@
         "brick": "Primary_Chilled_Water_Pump_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Clear",
+            "No Alarm",
+            "Healthy"
+          ],
+          "1": [
+            "Alarm",
+            "Fault",
+            "Alert",
+            "Tripped",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -622,8 +758,20 @@
         "brick": "Secondary_Chilled_Water_Pump_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Clear",
+            "No Alarm",
+            "Healthy"
+          ],
+          "1": [
+            "Alarm",
+            "Fault",
+            "Alert",
+            "Tripped",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -666,8 +814,18 @@
         "brick": "Smoke_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "Clear",
+            "No Smoke",
+            "OK"
+          ],
+          "1": [
+            "Alarm",
+            "Smoke Detected",
+            "Smoke",
+            "Tripped"
+          ]
         }
       },
       "aliases": {
@@ -704,8 +862,19 @@
         "brick": "Boiler_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -872,8 +1041,19 @@
         "brick": "Boiler_Pump_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -1023,8 +1203,19 @@
         "brick": "Chilled_Water_Pump_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -1153,8 +1344,19 @@
         "brick": "Chiller_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -1210,8 +1412,18 @@
         "brick": "Chiller_Enable_Command",
         "point_function": "enable",
         "states": {
-          "0": "Disabled",
-          "1": "Enabled"
+          "0": [
+            "Disabled",
+            "Off",
+            "Locked Out",
+            "Inhibited"
+          ],
+          "1": [
+            "Enabled",
+            "On",
+            "Unlocked",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -1266,8 +1478,19 @@
         "brick": "Condenser_Water_Pump_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -1394,8 +1617,18 @@
         "brick": "Cooling_Enable_Command",
         "point_function": "enable",
         "states": {
-          "0": "Disabled",
-          "1": "Enabled"
+          "0": [
+            "Disabled",
+            "Off",
+            "Locked Out",
+            "Inhibited"
+          ],
+          "1": [
+            "Enabled",
+            "On",
+            "Unlocked",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -1432,8 +1665,19 @@
         "brick": "Cooling_Tower_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -1496,8 +1740,18 @@
         "brick": "Cooling_Tower_Enable_Command",
         "point_function": "enable",
         "states": {
-          "0": "Disabled",
-          "1": "Enabled"
+          "0": [
+            "Disabled",
+            "Off",
+            "Locked Out",
+            "Inhibited"
+          ],
+          "1": [
+            "Enabled",
+            "On",
+            "Unlocked",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -1711,8 +1965,18 @@
         "brick": "Economizer_Enable_Command",
         "point_function": "enable",
         "states": {
-          "0": "Disabled",
-          "1": "Enabled"
+          "0": [
+            "Disabled",
+            "Off",
+            "Locked Out",
+            "Inhibited"
+          ],
+          "1": [
+            "Enabled",
+            "On",
+            "Unlocked",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -1854,8 +2118,19 @@
         "brick": "Heat_Wheel_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -2028,8 +2303,18 @@
         "brick": "Heating_Enable_Command",
         "point_function": "enable",
         "states": {
-          "0": "Disabled",
-          "1": "Enabled"
+          "0": [
+            "Disabled",
+            "Off",
+            "Locked Out",
+            "Inhibited"
+          ],
+          "1": [
+            "Enabled",
+            "On",
+            "Unlocked",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -2072,8 +2357,19 @@
         "brick": "Hot_Water_Pump_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -2200,8 +2496,20 @@
         "brick": "Occupancy_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Unoccupied",
+            "Vacant",
+            "Empty",
+            "Standby"
+          ],
+          "1": [
+            "On",
+            "Occupied",
+            "Present",
+            "In Use",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -2237,8 +2545,19 @@
         "brick": "Primary_Chilled_Water_Pump_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -2361,8 +2680,19 @@
         "brick": "Secondary_Chilled_Water_Pump_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -2598,8 +2928,18 @@
         "brick": "Enable_Command",
         "point_function": "enable",
         "states": {
-          "0": "Disabled",
-          "1": "Enabled"
+          "0": [
+            "Disabled",
+            "Off",
+            "Locked Out",
+            "Inhibited"
+          ],
+          "1": [
+            "Enabled",
+            "On",
+            "Unlocked",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -2632,8 +2972,18 @@
         "brick": "Enable_Command",
         "point_function": "enable",
         "states": {
-          "0": "Disabled",
-          "1": "Enabled"
+          "0": [
+            "Disabled",
+            "Off",
+            "Locked Out",
+            "Inhibited"
+          ],
+          "1": [
+            "Enabled",
+            "On",
+            "Unlocked",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -2671,8 +3021,16 @@
         "brick": "Exhaust_Air_Damper_Closed_Status",
         "point_function": "sensor",
         "states": {
-          "0": "Not Closed",
-          "1": "Closed"
+          "0": [
+            "Not Closed",
+            "Open",
+            "Ajar"
+          ],
+          "1": [
+            "Closed",
+            "Shut",
+            "Full Closed"
+          ]
         }
       },
       "aliases": {
@@ -2767,8 +3125,16 @@
         "brick": "Exhaust_Air_Damper_Open_Status",
         "point_function": "sensor",
         "states": {
-          "0": "Closed",
-          "1": "Open"
+          "0": [
+            "Closed",
+            "Not Open",
+            "Shut"
+          ],
+          "1": [
+            "Open",
+            "Opened",
+            "Full Open"
+          ]
         }
       },
       "aliases": {
@@ -3021,8 +3387,16 @@
         "brick": "Mixed_Air_Damper_Closed_Status",
         "point_function": "sensor",
         "states": {
-          "0": "Not Closed",
-          "1": "Closed"
+          "0": [
+            "Not Closed",
+            "Open",
+            "Ajar"
+          ],
+          "1": [
+            "Closed",
+            "Shut",
+            "Full Closed"
+          ]
         }
       },
       "aliases": {
@@ -3117,8 +3491,16 @@
         "brick": "Mixed_Air_Damper_Open_Status",
         "point_function": "sensor",
         "states": {
-          "0": "Closed",
-          "1": "Open"
+          "0": [
+            "Closed",
+            "Not Open",
+            "Shut"
+          ],
+          "1": [
+            "Open",
+            "Opened",
+            "Full Open"
+          ]
         }
       },
       "aliases": {
@@ -3260,8 +3642,16 @@
         "brick": "Outside_Air_Damper_Closed_Status",
         "point_function": "sensor",
         "states": {
-          "0": "Not Closed",
-          "1": "Closed"
+          "0": [
+            "Not Closed",
+            "Open",
+            "Ajar"
+          ],
+          "1": [
+            "Closed",
+            "Shut",
+            "Full Closed"
+          ]
         }
       },
       "aliases": {
@@ -3358,8 +3748,16 @@
         "brick": "Outside_Air_Damper_Open_Status",
         "point_function": "sensor",
         "states": {
-          "0": "Closed",
-          "1": "Open"
+          "0": [
+            "Closed",
+            "Not Open",
+            "Shut"
+          ],
+          "1": [
+            "Open",
+            "Opened",
+            "Full Open"
+          ]
         }
       },
       "aliases": {
@@ -3504,8 +3902,16 @@
         "brick": "Relief_Air_Damper_Closed_Status",
         "point_function": "sensor",
         "states": {
-          "0": "Not Closed",
-          "1": "Closed"
+          "0": [
+            "Not Closed",
+            "Open",
+            "Ajar"
+          ],
+          "1": [
+            "Closed",
+            "Shut",
+            "Full Closed"
+          ]
         }
       },
       "aliases": {
@@ -3598,8 +4004,16 @@
         "brick": "Relief_Air_Damper_Open_Status",
         "point_function": "sensor",
         "states": {
-          "0": "Closed",
-          "1": "Open"
+          "0": [
+            "Closed",
+            "Not Open",
+            "Shut"
+          ],
+          "1": [
+            "Open",
+            "Opened",
+            "Full Open"
+          ]
         }
       },
       "aliases": {
@@ -3740,8 +4154,20 @@
         "brick": "Smoke_Damper_Open_Status",
         "point_function": "sensor",
         "states": {
-          "0": "Closed",
-          "1": "Open"
+          "0": [
+            "Closed",
+            "Normal",
+            "Clear",
+            "No Smoke",
+            "OK"
+          ],
+          "1": [
+            "Open",
+            "Smoke Detected",
+            "Alarm",
+            "Smoke",
+            "Tripped"
+          ]
         }
       },
       "aliases": {
@@ -3790,8 +4216,20 @@
         "brick": "Exhaust_Fan_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Clear",
+            "No Alarm",
+            "Healthy"
+          ],
+          "1": [
+            "Alarm",
+            "Fault",
+            "Alert",
+            "Tripped",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -3833,8 +4271,19 @@
         "brick": "Exhaust_Fan_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -3872,8 +4321,18 @@
         "brick": "Exhaust_Fan_Fault_Status",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Fault"
+          "0": [
+            "Normal",
+            "OK",
+            "No Fault",
+            "Healthy"
+          ],
+          "1": [
+            "Fault",
+            "Faulted",
+            "Error",
+            "Failed"
+          ]
         }
       },
       "aliases": {
@@ -4034,8 +4493,20 @@
         "brick": "Exhaust_Fan_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -4076,8 +4547,20 @@
         "brick": "Relief_Fan_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Clear",
+            "No Alarm",
+            "Healthy"
+          ],
+          "1": [
+            "Alarm",
+            "Fault",
+            "Alert",
+            "Tripped",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -4120,8 +4603,19 @@
         "brick": "Relief_Fan_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -4160,8 +4654,18 @@
         "brick": "Relief_Fan_Fault_Status",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Fault"
+          "0": [
+            "Normal",
+            "OK",
+            "No Fault",
+            "Healthy"
+          ],
+          "1": [
+            "Fault",
+            "Faulted",
+            "Error",
+            "Failed"
+          ]
         }
       },
       "aliases": {
@@ -4324,8 +4828,20 @@
         "brick": "Relief_Fan_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -4367,8 +4883,20 @@
         "brick": "Return_Fan_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Clear",
+            "No Alarm",
+            "Healthy"
+          ],
+          "1": [
+            "Alarm",
+            "Fault",
+            "Alert",
+            "Tripped",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -4410,8 +4938,19 @@
         "brick": "Return_Fan_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -4449,8 +4988,18 @@
         "brick": "Return_Fan_Fault_Status",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Fault"
+          "0": [
+            "Normal",
+            "OK",
+            "No Fault",
+            "Healthy"
+          ],
+          "1": [
+            "Fault",
+            "Faulted",
+            "Error",
+            "Failed"
+          ]
         }
       },
       "aliases": {
@@ -4611,8 +5160,20 @@
         "brick": "Return_Fan_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -4653,8 +5214,20 @@
         "brick": "Supply_Fan_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Alarm"
+          "0": [
+            "Normal",
+            "OK",
+            "Clear",
+            "No Alarm",
+            "Healthy"
+          ],
+          "1": [
+            "Alarm",
+            "Fault",
+            "Alert",
+            "Tripped",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -4704,8 +5277,19 @@
         "brick": "Supply_Fan_Command",
         "point_function": "command",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Stop",
+            "Disable",
+            "De-energize"
+          ],
+          "1": [
+            "On",
+            "Start",
+            "Enable",
+            "Energize",
+            "Run"
+          ]
         }
       },
       "aliases": {
@@ -4751,8 +5335,18 @@
         "brick": "Supply_Fan_Fault_Status",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Fault"
+          "0": [
+            "Normal",
+            "OK",
+            "No Fault",
+            "Healthy"
+          ],
+          "1": [
+            "Fault",
+            "Faulted",
+            "Error",
+            "Failed"
+          ]
         }
       },
       "aliases": {
@@ -4945,8 +5539,20 @@
         "brick": "Supply_Fan_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -5304,8 +5910,18 @@
         "brick": "Humidifier_Command",
         "point_function": "enable",
         "states": {
-          "0": "Disabled",
-          "1": "Enabled"
+          "0": [
+            "Disabled",
+            "Off",
+            "Locked Out",
+            "Inhibited"
+          ],
+          "1": [
+            "Enabled",
+            "On",
+            "Unlocked",
+            "Active"
+          ]
         },
         "unit": [
           "%RH"
@@ -5687,8 +6303,16 @@
         "brick": "High_Discharge_Air_Static_Pressure_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "High Pressure"
+          "0": [
+            "Normal",
+            "OK",
+            "Normal Pressure"
+          ],
+          "1": [
+            "High Pressure",
+            "Over Pressure",
+            "Pressure Alarm"
+          ]
         },
         "unit": [
           "in. W.C.",
@@ -5748,8 +6372,16 @@
         "brick": "Low_Discharge_Air_Static_Pressure_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Low Pressure"
+          "0": [
+            "Normal",
+            "OK",
+            "Normal Pressure"
+          ],
+          "1": [
+            "Low Pressure",
+            "Under Pressure",
+            "Pressure Alarm"
+          ]
         },
         "unit": [
           "in. W.C.",
@@ -5962,8 +6594,16 @@
         "brick": "High_Return_Air_Static_Pressure_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "High Pressure"
+          "0": [
+            "Normal",
+            "OK",
+            "Normal Pressure"
+          ],
+          "1": [
+            "High Pressure",
+            "Over Pressure",
+            "Pressure Alarm"
+          ]
         },
         "unit": [
           "in. W.C.",
@@ -6020,8 +6660,16 @@
         "brick": "Low_Return_Air_Static_Pressure_Alarm",
         "point_function": "alarm",
         "states": {
-          "0": "Normal",
-          "1": "Low Pressure"
+          "0": [
+            "Normal",
+            "OK",
+            "Normal Pressure"
+          ],
+          "1": [
+            "Low Pressure",
+            "Under Pressure",
+            "Pressure Alarm"
+          ]
         },
         "unit": [
           "in. W.C.",
@@ -6633,8 +7281,18 @@
           "°C"
         ],
         "states": {
-          "0": "Unoccupied",
-          "1": "Occupied"
+          "0": [
+            "Unoccupied",
+            "Vacant",
+            "Empty",
+            "Standby"
+          ],
+          "1": [
+            "Occupied",
+            "Present",
+            "In Use",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -6687,8 +7345,18 @@
           "°C"
         ],
         "states": {
-          "0": "Unoccupied",
-          "1": "Occupied"
+          "0": [
+            "Unoccupied",
+            "Vacant",
+            "Empty",
+            "Standby"
+          ],
+          "1": [
+            "Occupied",
+            "Present",
+            "In Use",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -6910,8 +7578,18 @@
           "°C"
         ],
         "states": {
-          "0": "Unoccupied",
-          "1": "Occupied"
+          "0": [
+            "Unoccupied",
+            "Vacant",
+            "Empty",
+            "Standby"
+          ],
+          "1": [
+            "Occupied",
+            "Present",
+            "In Use",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -6964,8 +7642,18 @@
           "°C"
         ],
         "states": {
-          "0": "Unoccupied",
-          "1": "Occupied"
+          "0": [
+            "Unoccupied",
+            "Vacant",
+            "Empty",
+            "Standby"
+          ],
+          "1": [
+            "Occupied",
+            "Present",
+            "In Use",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -7014,8 +7702,20 @@
         "brick": "Boiler_Pump_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -7066,8 +7766,20 @@
         "brick": "Boiler_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -7131,8 +7843,20 @@
         "brick": "Chilled_Water_Pump_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -7176,8 +7900,20 @@
         "brick": "Chiller_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -7247,8 +7983,20 @@
         "brick": "Condenser_Water_Pump_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -7291,8 +8039,20 @@
         "brick": "Cooling_Tower_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -7362,8 +8122,17 @@
         "brick": "Cooling_Stage_Status",
         "point_function": "sensor",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Inactive",
+            "Disabled"
+          ],
+          "1": [
+            "On",
+            "Active",
+            "Staged",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -7434,8 +8203,18 @@
         "brick": "Effective_Occupancy_Status",
         "point_function": "calculated",
         "states": {
-          "0": "Unoccupied",
-          "1": "Occupied"
+          "0": [
+            "Unoccupied",
+            "Vacant",
+            "Empty",
+            "Standby"
+          ],
+          "1": [
+            "Occupied",
+            "Present",
+            "In Use",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -7465,8 +8244,17 @@
         "brick": "Heating_Stage_Status",
         "point_function": "sensor",
         "states": {
-          "0": "Off",
-          "1": "On"
+          "0": [
+            "Off",
+            "Inactive",
+            "Disabled"
+          ],
+          "1": [
+            "On",
+            "Active",
+            "Staged",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -7529,8 +8317,20 @@
         "brick": "Filter_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Clean",
+            "OK",
+            "Good",
+            "Normal"
+          ],
+          "1": [
+            "Running",
+            "Dirty",
+            "Clogged",
+            "Replace",
+            "Alarm"
+          ]
         }
       },
       "aliases": {
@@ -7570,8 +8370,20 @@
         "brick": "Final_Filter_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Clean",
+            "OK",
+            "Good",
+            "Normal"
+          ],
+          "1": [
+            "Running",
+            "Dirty",
+            "Clogged",
+            "Replace",
+            "Alarm"
+          ]
         }
       },
       "aliases": {
@@ -7618,8 +8430,20 @@
         "brick": "Heat_Wheel_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -7680,8 +8504,20 @@
         "brick": "Hot_Water_Pump_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -7724,8 +8560,18 @@
         "brick": "Occupancy_Schedule",
         "point_function": "schedule",
         "states": {
-          "0": "Unoccupied",
-          "1": "Occupied"
+          "0": [
+            "Unoccupied",
+            "Vacant",
+            "Empty",
+            "Standby"
+          ],
+          "1": [
+            "Occupied",
+            "Present",
+            "In Use",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -7753,8 +8599,18 @@
         "brick": "Occupancy_Sensor",
         "point_function": "sensor",
         "states": {
-          "0": "Unoccupied",
-          "1": "Occupied"
+          "0": [
+            "Unoccupied",
+            "Vacant",
+            "Empty",
+            "Standby"
+          ],
+          "1": [
+            "Occupied",
+            "Present",
+            "In Use",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -7774,8 +8630,20 @@
         "brick": "Pre_Filter_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Clean",
+            "OK",
+            "Good",
+            "Normal"
+          ],
+          "1": [
+            "Running",
+            "Dirty",
+            "Clogged",
+            "Replace",
+            "Alarm"
+          ]
         }
       },
       "aliases": {
@@ -7820,8 +8688,20 @@
         "brick": "Primary_Chilled_Water_Pump_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -7918,8 +8798,20 @@
         "brick": "Secondary_Chilled_Water_Pump_Status",
         "point_function": "status",
         "states": {
-          "0": "Off",
-          "1": "Running"
+          "0": [
+            "Off",
+            "Stopped",
+            "Not Running",
+            "Inactive",
+            "Idle"
+          ],
+          "1": [
+            "Running",
+            "On",
+            "Active",
+            "Started",
+            "Energized"
+          ]
         }
       },
       "aliases": {
@@ -8098,8 +8990,18 @@
         "brick": "Entering_Water_Temperature_Sensor",
         "point_function": "enable",
         "states": {
-          "0": "Disabled",
-          "1": "Enabled"
+          "0": [
+            "Disabled",
+            "Off",
+            "Locked Out",
+            "Inhibited"
+          ],
+          "1": [
+            "Enabled",
+            "On",
+            "Unlocked",
+            "Active"
+          ]
         }
       },
       "aliases": {
@@ -9421,8 +10323,16 @@
         "brick": "Bypass_Valve_Closed_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Closed",
-          "1": "Closed"
+          "0": [
+            "Not Closed",
+            "Open",
+            "Ajar"
+          ],
+          "1": [
+            "Closed",
+            "Shut",
+            "Full Closed"
+          ]
         }
       },
       "aliases": {
@@ -9497,8 +10407,16 @@
         "brick": "Bypass_Valve_Open_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Open",
-          "1": "Open"
+          "0": [
+            "Not Open",
+            "Closed",
+            "Shut"
+          ],
+          "1": [
+            "Open",
+            "Opened",
+            "Full Open"
+          ]
         }
       },
       "aliases": {
@@ -9567,8 +10485,16 @@
         "brick": "Chilled_Water_Valve_Closed_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Closed",
-          "1": "Closed"
+          "0": [
+            "Not Closed",
+            "Open",
+            "Ajar"
+          ],
+          "1": [
+            "Closed",
+            "Shut",
+            "Full Closed"
+          ]
         }
       },
       "aliases": {
@@ -9597,8 +10523,16 @@
         "brick": "Chilled_Water_Valve_Open_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Open",
-          "1": "Open"
+          "0": [
+            "Not Open",
+            "Closed",
+            "Shut"
+          ],
+          "1": [
+            "Open",
+            "Opened",
+            "Full Open"
+          ]
         }
       },
       "aliases": {
@@ -9625,8 +10559,16 @@
         "brick": "Condenser_Water_Valve_Closed_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Closed",
-          "1": "Closed"
+          "0": [
+            "Not Closed",
+            "Open",
+            "Ajar"
+          ],
+          "1": [
+            "Closed",
+            "Shut",
+            "Full Closed"
+          ]
         }
       },
       "aliases": {
@@ -9655,8 +10597,16 @@
         "brick": "Condenser_Water_Valve_Open_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Open",
-          "1": "Open"
+          "0": [
+            "Not Open",
+            "Closed",
+            "Shut"
+          ],
+          "1": [
+            "Open",
+            "Opened",
+            "Full Open"
+          ]
         }
       },
       "aliases": {
@@ -9753,8 +10703,16 @@
         "brick": "Cooling_Valve_Closed_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Closed",
-          "1": "Closed"
+          "0": [
+            "Not Closed",
+            "Open",
+            "Ajar"
+          ],
+          "1": [
+            "Closed",
+            "Shut",
+            "Full Closed"
+          ]
         }
       },
       "aliases": {
@@ -9843,8 +10801,16 @@
         "brick": "Cooling_Valve_Open_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Open",
-          "1": "Open"
+          "0": [
+            "Not Open",
+            "Closed",
+            "Shut"
+          ],
+          "1": [
+            "Open",
+            "Opened",
+            "Full Open"
+          ]
         }
       },
       "aliases": {
@@ -9938,8 +10904,16 @@
         "brick": "Heating_Valve_Closed_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Closed",
-          "1": "Closed"
+          "0": [
+            "Not Closed",
+            "Open",
+            "Ajar"
+          ],
+          "1": [
+            "Closed",
+            "Shut",
+            "Full Closed"
+          ]
         }
       },
       "aliases": {
@@ -10020,8 +10994,16 @@
         "brick": "Heating_Valve_Open_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Open",
-          "1": "Open"
+          "0": [
+            "Not Open",
+            "Closed",
+            "Shut"
+          ],
+          "1": [
+            "Open",
+            "Opened",
+            "Full Open"
+          ]
         }
       },
       "aliases": {
@@ -10106,8 +11088,16 @@
         "brick": "Hot_Water_Valve_Closed_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Closed",
-          "1": "Closed"
+          "0": [
+            "Not Closed",
+            "Open",
+            "Ajar"
+          ],
+          "1": [
+            "Closed",
+            "Shut",
+            "Full Closed"
+          ]
         }
       },
       "aliases": {
@@ -10136,8 +11126,16 @@
         "brick": "Hot_Water_Valve_Open_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Open",
-          "1": "Open"
+          "0": [
+            "Not Open",
+            "Closed",
+            "Shut"
+          ],
+          "1": [
+            "Open",
+            "Opened",
+            "Full Open"
+          ]
         }
       },
       "aliases": {
@@ -10164,8 +11162,16 @@
         "brick": "Isolation_Valve_Closed_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Closed",
-          "1": "Closed"
+          "0": [
+            "Not Closed",
+            "Open",
+            "Ajar"
+          ],
+          "1": [
+            "Closed",
+            "Shut",
+            "Full Closed"
+          ]
         }
       },
       "aliases": {
@@ -10239,8 +11245,16 @@
         "brick": "Isolation_Valve_Open_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Open",
-          "1": "Open"
+          "0": [
+            "Not Open",
+            "Closed",
+            "Shut"
+          ],
+          "1": [
+            "Open",
+            "Opened",
+            "Full Open"
+          ]
         }
       },
       "aliases": {
@@ -10308,8 +11322,16 @@
         "brick": "Mixing_Valve_Closed_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Closed",
-          "1": "Closed"
+          "0": [
+            "Not Closed",
+            "Open",
+            "Ajar"
+          ],
+          "1": [
+            "Closed",
+            "Shut",
+            "Full Closed"
+          ]
         }
       },
       "aliases": {
@@ -10382,8 +11404,16 @@
         "brick": "Mixing_Valve_Open_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Open",
-          "1": "Open"
+          "0": [
+            "Not Open",
+            "Closed",
+            "Shut"
+          ],
+          "1": [
+            "Open",
+            "Opened",
+            "Full Open"
+          ]
         }
       },
       "aliases": {
@@ -10451,8 +11481,16 @@
         "brick": "Steam_Valve_Closed_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Closed",
-          "1": "Closed"
+          "0": [
+            "Not Closed",
+            "Open",
+            "Ajar"
+          ],
+          "1": [
+            "Closed",
+            "Shut",
+            "Full Closed"
+          ]
         }
       },
       "aliases": {
@@ -10481,8 +11519,16 @@
         "brick": "Steam_Valve_Open_Sensor",
         "point_function": "status",
         "states": {
-          "0": "Not Open",
-          "1": "Open"
+          "0": [
+            "Not Open",
+            "Closed",
+            "Shut"
+          ],
+          "1": [
+            "Open",
+            "Opened",
+            "Full Open"
+          ]
         }
       },
       "aliases": {

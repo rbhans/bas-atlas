@@ -7,8 +7,14 @@ concept:
   brick: Outside_Air_Damper_Open_Status
   point_function: sensor
   states:
-    "0": Closed
-    "1": Open
+    "0":
+      - Closed
+      - Not Open
+      - Shut
+    "1":
+      - Open
+      - Opened
+      - Full Open
 aliases:
   common:
     - o-o

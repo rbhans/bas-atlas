@@ -7,8 +7,14 @@ concept:
   brick: Hot_Water_Valve_Closed_Sensor
   point_function: status
   states:
-    "0": Not Closed
-    "1": Closed
+    "0":
+      - Not Closed
+      - Open
+      - Ajar
+    "1":
+      - Closed
+      - Shut
+      - Full Closed
 aliases:
   common:
     - h-cl

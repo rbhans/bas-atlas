@@ -7,8 +7,17 @@ concept:
   brick: Primary_Chilled_Water_Pump_Command
   point_function: command
   states:
-    "0": Off
-    "1": On
+    "0":
+      - Off
+      - Stop
+      - Disable
+      - De-energize
+    "1":
+      - On
+      - Start
+      - Enable
+      - Energize
+      - Run
 aliases:
   common:
     - p-c

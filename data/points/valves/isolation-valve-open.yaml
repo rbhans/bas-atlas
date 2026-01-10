@@ -7,8 +7,14 @@ concept:
   brick: Isolation_Valve_Open_Sensor
   point_function: status
   states:
-    "0": Not Open
-    "1": Open
+    "0":
+      - Not Open
+      - Closed
+      - Shut
+    "1":
+      - Open
+      - Opened
+      - Full Open
 aliases:
   common:
     - i-o

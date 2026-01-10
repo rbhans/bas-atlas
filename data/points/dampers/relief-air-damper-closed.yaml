@@ -7,8 +7,14 @@ concept:
   brick: Relief_Air_Damper_Closed_Status
   point_function: sensor
   states:
-    "0": Not Closed
-    "1": Closed
+    "0":
+      - Not Closed
+      - Open
+      - Ajar
+    "1":
+      - Closed
+      - Shut
+      - Full Closed
 aliases:
   common:
     - r-c

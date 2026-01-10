@@ -71,13 +71,13 @@
       "id": "pressures",
       "name": "Pressures",
       "type": "points",
-      "count": 12
+      "count": 10
     },
     {
       "id": "setpoints",
       "name": "Setpoints",
       "type": "points",
-      "count": 10
+      "count": 15
     },
     {
       "id": "status",
@@ -89,7 +89,7 @@
       "id": "temperatures",
       "name": "Temperatures",
       "type": "points",
-      "count": 30
+      "count": 27
     },
     {
       "id": "valves",

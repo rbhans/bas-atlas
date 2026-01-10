@@ -1,7 +1,7 @@
 concept:
   id: return-air-pressure-setpoint
   name: Return Air Pressure Setpoint
-  category: pressures
+  category: setpoints
   description: Return Air Pressure Setpoint point
   haystack: return air pressure sp
   brick: Return_Air_Static_Pressure_Setpoint

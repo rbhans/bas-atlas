@@ -1,7 +1,7 @@
 concept:
   id: mixed-air-temperature-setpoint
   name: Mixed Air Temperature Setpoint
-  category: temperatures
+  category: setpoints
   description: Mixed Air Temperature Setpoint point
   haystack: mixed air temp sp
   brick: Mixed_Air_Temperature_Setpoint

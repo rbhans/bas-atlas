@@ -1,7 +1,7 @@
 concept:
   id: discharge-air-temperature-setpoint
   name: Discharge Air Temperature Setpoint
-  category: temperatures
+  category: setpoints
   description: Discharge Air Temperature Setpoint point
   haystack: discharge air temp sp
   brick: Discharge_Air_Temperature_Setpoint

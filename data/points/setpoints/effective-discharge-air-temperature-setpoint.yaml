@@ -1,7 +1,7 @@
 concept:
   id: effective-discharge-air-temperature-setpoint
   name: Effective Discharge Air Temperature Setpoint
-  category: temperatures
+  category: setpoints
   description: Effective Discharge Air Temperature Setpoint point
   haystack: discharge air temp effective sp
   brick: Effective_Discharge_Air_Temperature_Setpoint

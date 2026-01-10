@@ -1,7 +1,7 @@
 concept:
   id: discharge-air-pressure-setpoint
   name: Discharge Air Pressure Setpoint
-  category: pressures
+  category: setpoints
   description: Discharge Air Pressure Setpoint point
   haystack: discharge air pressure sp
   brick: Discharge_Air_Static_Pressure_Setpoint

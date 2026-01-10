@@ -80,6 +80,13 @@ equipment:
         - centrifugal chiller
         - water-cooled chiller
         - chilled water machine
+    typical_points:
+      - chiller-command
+      - chiller-enable
+      - chiller-status
+      - chiller-alarm
+      - chiller-entering-temperature
+      - chiller-leaving-temperature
   - id: boiler
     name: Boiler
     abbreviation: BLR
@@ -152,6 +159,13 @@ equipment:
         - hot water boiler
         - condensing boiler
         - water tube boiler
+    typical_points:
+      - boiler-command
+      - boiler-output
+      - boiler-status
+      - boiler-alarm
+      - hot-water-supply-temperature
+      - hot-water-return-temperature
   - id: cooling-tower
     name: Cooling Tower
     abbreviation: CT
@@ -205,6 +219,16 @@ equipment:
         - wet cooling tower
         - evaporative cooler
         - evaporative-cooler
+    typical_points:
+      - cooling-tower-command
+      - cooling-tower-enable
+      - cooling-tower-output
+      - cooling-tower-status
+      - cooling-tower-alarm
+      - cooling-tower-basin-temperature
+      - condenser-water-supply-temperature
+      - condenser-water-return-temperature
+      - cooling-tower-isolation-valve
   - id: heat-exchanger
     name: Heat Exchanger
     abbreviation: HX
@@ -249,6 +273,9 @@ equipment:
         - plate ht exchanger
         - plate-ht-exchanger
         - plate heat exchanger
+    typical_points:
+      - entering-water-temperature
+      - leaving-water-temperature
   - id: pump
     name: Pump
     abbreviation: P
@@ -343,6 +370,16 @@ equipment:
         - circulation pump
         - end-suction pump
         - base-mounted pump
+    typical_points:
+      - chilled-water-pump-command
+      - chilled-water-pump-output
+      - chilled-water-pump-status
+      - chilled-water-pump-alarm
+      - hot-water-pump-command
+      - hot-water-pump-output
+      - hot-water-pump-status
+      - hot-water-pump-alarm
+      - differential-pressure
   - id: variable-frequency-drive
     name: Variable Frequency Drive
     abbreviation: VFD
@@ -399,6 +436,10 @@ equipment:
         - adjustable speed drive
         - variable frequency drive
         - variable-frequency-drive
+    typical_points:
+      - supply-fan-speed
+      - supply-fan-command
+      - supply-fan-status
   - id: expansion-tank
     name: Expansion Tank
     abbreviation: ET
@@ -539,3 +580,6 @@ equipment:
         - stm-to-hot-water-converter
         - steam-to-hot-water converter
         - steam-to-hot-water-converter
+    typical_points:
+      - hot-water-supply-temperature
+      - steam-heating-output

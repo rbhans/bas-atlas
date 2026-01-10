@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-10T16:08:37.464Z",
+  "lastUpdated": "2026-01-10T16:59:17.853Z",
   "totalPoints": 200,
   "totalEquipment": 42,
   "points": [
@@ -10033,7 +10033,28 @@
           "central air handler",
           "air handling equipment"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "supply-fan-speed",
+        "return-fan-command",
+        "return-fan-status",
+        "return-fan-speed",
+        "supply-air-temperature",
+        "return-air-temperature",
+        "mixed-air-temperature",
+        "outside-air-temperature",
+        "discharge-air-temperature",
+        "outside-air-damper-output",
+        "return-air-damper-output",
+        "mixed-air-damper-output",
+        "cooling-valve-output",
+        "heating-valve-output",
+        "filter-alarm",
+        "low-limit-alarm",
+        "smoke-alarm"
+      ]
     },
     {
       "id": "rooftop-unit",
@@ -10095,7 +10116,24 @@
           "rooftop package unit",
           "packaged rooftop unit"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "supply-fan-speed",
+        "supply-air-temperature",
+        "return-air-temperature",
+        "mixed-air-temperature",
+        "outside-air-temperature",
+        "discharge-air-temperature",
+        "outside-air-damper-output",
+        "cooling-valve-output",
+        "heating-valve-output",
+        "dx-cooling-stage",
+        "gas-fired-heat-output",
+        "filter-alarm",
+        "economizer-enable"
+      ]
     },
     {
       "id": "makeup-air-unit",
@@ -10157,7 +10195,18 @@
           "makeup-ar-handler",
           "makeup air handler"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "supply-fan-speed",
+        "supply-air-temperature",
+        "discharge-air-temperature",
+        "outside-air-temperature",
+        "heating-valve-output",
+        "gas-fired-heat-output",
+        "filter-alarm"
+      ]
     },
     {
       "id": "dedicated-outdoor-air-system",
@@ -10204,7 +10253,19 @@
           "dedicated outside air system",
           "dedicated-outdoor-air-system"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "supply-fan-speed",
+        "supply-air-temperature",
+        "outside-air-temperature",
+        "discharge-air-temperature",
+        "cooling-valve-output",
+        "heating-valve-output",
+        "heat-wheel-output",
+        "filter-alarm"
+      ]
     },
     {
       "id": "fan-coil-unit",
@@ -10271,7 +10332,17 @@
           "vertical fan coil",
           "horizontal fan coil"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "discharge-air-temperature",
+        "zone-temperature",
+        "cooling-valve-output",
+        "heating-valve-output",
+        "cooling-setpoint",
+        "heating-setpoint"
+      ]
     },
     {
       "id": "computer-room-air-conditioner",
@@ -10331,7 +10402,16 @@
           "precision air conditioner",
           "computer-room-air-conditioner"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "supply-air-temperature",
+        "return-air-temperature",
+        "discharge-air-temperature",
+        "cooling-valve-output",
+        "filter-alarm"
+      ]
     },
     {
       "id": "computer-room-air-handler",
@@ -10382,7 +10462,16 @@
           "data center air handler",
           "computer-room-air-handler"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "supply-air-temperature",
+        "return-air-temperature",
+        "discharge-air-temperature",
+        "cooling-valve-output",
+        "filter-alarm"
+      ]
     },
     {
       "id": "unit-ventilator",
@@ -10430,7 +10519,16 @@
           "classroom-unt-ventilator",
           "classroom unit ventilator"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "discharge-air-temperature",
+        "zone-temperature",
+        "outside-air-damper-output",
+        "heating-valve-output",
+        "cooling-valve-output"
+      ]
     },
     {
       "id": "packaged-terminal-air-conditioner",
@@ -10487,7 +10585,15 @@
           "packaged-terminal-ar-conditioner",
           "packaged-terminal-air-conditioner"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "discharge-air-temperature",
+        "zone-temperature",
+        "cooling-setpoint",
+        "heating-setpoint"
+      ]
     },
     {
       "id": "packaged-terminal-heat-pump",
@@ -10539,7 +10645,15 @@
           "packaged-terminal-heat-p",
           "packaged-terminal-heat-pump"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "discharge-air-temperature",
+        "zone-temperature",
+        "cooling-setpoint",
+        "heating-setpoint"
+      ]
     },
     {
       "id": "water-source-heat-pump",
@@ -10602,7 +10716,15 @@
           "water-source-heat-pump",
           "water-to-air heat pump"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "discharge-air-temperature",
+        "zone-temperature",
+        "entering-water-temperature",
+        "leaving-water-temperature"
+      ]
     },
     {
       "id": "air-source-heat-pump",
@@ -10666,7 +10788,16 @@
           "air-source-heat-pump",
           "air-to-air heat pump"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "discharge-air-temperature",
+        "zone-temperature",
+        "outside-air-temperature",
+        "cooling-setpoint",
+        "heating-setpoint"
+      ]
     },
     {
       "id": "energy-recovery-ventilator",
@@ -10729,7 +10860,17 @@
           "nrg-recovery-ventilator",
           "energy-recovery-ventilator"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "exhaust-fan-command",
+        "exhaust-fan-status",
+        "supply-air-temperature",
+        "exhaust-air-temperature",
+        "outside-air-temperature",
+        "heat-wheel-output"
+      ]
     },
     {
       "id": "heat-recovery-ventilator",
@@ -10779,7 +10920,16 @@
           "air-to-air heat exchanger",
           "heat exchanger ventilator"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "exhaust-fan-command",
+        "exhaust-fan-status",
+        "supply-air-temperature",
+        "exhaust-air-temperature",
+        "outside-air-temperature"
+      ]
     },
     {
       "id": "air-turnover-unit",
@@ -10835,7 +10985,16 @@
           "destratification-unt",
           "destratification unit"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-command",
+        "supply-fan-status",
+        "supply-fan-speed",
+        "discharge-air-temperature",
+        "zone-temperature",
+        "heating-valve-output",
+        "gas-fired-heat-output"
+      ]
     },
     {
       "id": "chiller",
@@ -10920,7 +11079,15 @@
           "water-cooled chiller",
           "chilled water machine"
         ]
-      }
+      },
+      "typical_points": [
+        "chiller-command",
+        "chiller-enable",
+        "chiller-status",
+        "chiller-alarm",
+        "chiller-entering-temperature",
+        "chiller-leaving-temperature"
+      ]
     },
     {
       "id": "boiler",
@@ -10996,7 +11163,15 @@
           "condensing boiler",
           "water tube boiler"
         ]
-      }
+      },
+      "typical_points": [
+        "boiler-command",
+        "boiler-output",
+        "boiler-status",
+        "boiler-alarm",
+        "hot-water-supply-temperature",
+        "hot-water-return-temperature"
+      ]
     },
     {
       "id": "cooling-tower",
@@ -11053,7 +11228,18 @@
           "evaporative cooler",
           "evaporative-cooler"
         ]
-      }
+      },
+      "typical_points": [
+        "cooling-tower-command",
+        "cooling-tower-enable",
+        "cooling-tower-output",
+        "cooling-tower-status",
+        "cooling-tower-alarm",
+        "cooling-tower-basin-temperature",
+        "condenser-water-supply-temperature",
+        "condenser-water-return-temperature",
+        "cooling-tower-isolation-valve"
+      ]
     },
     {
       "id": "heat-exchanger",
@@ -11101,7 +11287,11 @@
           "plate-ht-exchanger",
           "plate heat exchanger"
         ]
-      }
+      },
+      "typical_points": [
+        "entering-water-temperature",
+        "leaving-water-temperature"
+      ]
     },
     {
       "id": "pump",
@@ -11199,7 +11389,18 @@
           "end-suction pump",
           "base-mounted pump"
         ]
-      }
+      },
+      "typical_points": [
+        "chilled-water-pump-command",
+        "chilled-water-pump-output",
+        "chilled-water-pump-status",
+        "chilled-water-pump-alarm",
+        "hot-water-pump-command",
+        "hot-water-pump-output",
+        "hot-water-pump-status",
+        "hot-water-pump-alarm",
+        "differential-pressure"
+      ]
     },
     {
       "id": "variable-frequency-drive",
@@ -11259,7 +11460,12 @@
           "variable frequency drive",
           "variable-frequency-drive"
         ]
-      }
+      },
+      "typical_points": [
+        "supply-fan-speed",
+        "supply-fan-command",
+        "supply-fan-status"
+      ]
     },
     {
       "id": "expansion-tank",
@@ -11411,7 +11617,11 @@
           "steam-to-hot-water converter",
           "steam-to-hot-water-converter"
         ]
-      }
+      },
+      "typical_points": [
+        "hot-water-supply-temperature",
+        "steam-heating-output"
+      ]
     },
     {
       "id": "electric-meter",
@@ -11768,7 +11978,18 @@
           "variable volume box",
           "variable-air-volume-box"
         ]
-      }
+      },
+      "typical_points": [
+        "zone-temperature",
+        "discharge-air-temperature",
+        "damper-position",
+        "damper-output",
+        "airflow",
+        "airflow-setpoint",
+        "heating-valve-output",
+        "cooling-setpoint",
+        "heating-setpoint"
+      ]
     },
     {
       "id": "constant-air-volume-box",
@@ -11818,7 +12039,14 @@
           "const-air-volume-box",
           "constant-air-volume-box"
         ]
-      }
+      },
+      "typical_points": [
+        "zone-temperature",
+        "discharge-air-temperature",
+        "heating-valve-output",
+        "cooling-setpoint",
+        "heating-setpoint"
+      ]
     },
     {
       "id": "parallel-fan-powered-box",
@@ -11882,7 +12110,19 @@
           "parallel-fn-powered-box",
           "parallel-fan-powered-box"
         ]
-      }
+      },
+      "typical_points": [
+        "zone-temperature",
+        "discharge-air-temperature",
+        "damper-position",
+        "damper-output",
+        "supply-fan-command",
+        "supply-fan-status",
+        "airflow",
+        "heating-valve-output",
+        "cooling-setpoint",
+        "heating-setpoint"
+      ]
     },
     {
       "id": "series-fan-powered-box",
@@ -11936,7 +12176,19 @@
           "series-fn-powered-box",
           "series-fan-powered-box"
         ]
-      }
+      },
+      "typical_points": [
+        "zone-temperature",
+        "discharge-air-temperature",
+        "damper-position",
+        "damper-output",
+        "supply-fan-command",
+        "supply-fan-status",
+        "airflow",
+        "heating-valve-output",
+        "cooling-setpoint",
+        "heating-setpoint"
+      ]
     },
     {
       "id": "chilled-beam",
@@ -11993,7 +12245,12 @@
           "active chilled beam",
           "passive chilled beam"
         ]
-      }
+      },
+      "typical_points": [
+        "zone-temperature",
+        "cooling-valve-output",
+        "cooling-setpoint"
+      ]
     },
     {
       "id": "radiant-panel",
@@ -12044,7 +12301,14 @@
           "radiant heating panel",
           "radiant-ceiling-panel"
         ]
-      }
+      },
+      "typical_points": [
+        "zone-temperature",
+        "heating-valve-output",
+        "cooling-valve-output",
+        "cooling-setpoint",
+        "heating-setpoint"
+      ]
     },
     {
       "id": "baseboard-heater",
@@ -12096,7 +12360,12 @@
           "finned tube radiator",
           "finned-tube-radiator"
         ]
-      }
+      },
+      "typical_points": [
+        "zone-temperature",
+        "heating-valve-output",
+        "heating-setpoint"
+      ]
     },
     {
       "id": "unit-heater",
@@ -12158,7 +12427,15 @@
           "gas-fired unit heater",
           "hot water unit heater"
         ]
-      }
+      },
+      "typical_points": [
+        "zone-temperature",
+        "supply-fan-command",
+        "supply-fan-status",
+        "heating-valve-output",
+        "gas-fired-heat-output",
+        "heating-setpoint"
+      ]
     },
     {
       "id": "induction-unit",
@@ -12202,7 +12479,13 @@
           "high-press-induction",
           "high pressure induction"
         ]
-      }
+      },
+      "typical_points": [
+        "zone-temperature",
+        "discharge-air-temperature",
+        "cooling-valve-output",
+        "heating-valve-output"
+      ]
     },
     {
       "id": "blower-coil-unit",
@@ -12262,7 +12545,15 @@
           "vertical blower coil",
           "horizontal blower coil"
         ]
-      }
+      },
+      "typical_points": [
+        "zone-temperature",
+        "discharge-air-temperature",
+        "supply-fan-command",
+        "supply-fan-status",
+        "cooling-valve-output",
+        "heating-valve-output"
+      ]
     },
     {
       "id": "vrf-outdoor-unit",
@@ -12351,7 +12642,10 @@
           "outdoor condensing unit",
           "variable refrigerant flow outdoor unit"
         ]
-      }
+      },
+      "typical_points": [
+        "outside-air-temperature"
+      ]
     },
     {
       "id": "vrf-indoor-unit",
@@ -12434,7 +12728,15 @@
           "ceiling-concealed-duct",
           "variable refrigerant flow indoor unit"
         ]
-      }
+      },
+      "typical_points": [
+        "zone-temperature",
+        "discharge-air-temperature",
+        "supply-fan-command",
+        "supply-fan-status",
+        "cooling-setpoint",
+        "heating-setpoint"
+      ]
     },
     {
       "id": "vrf-branch-selector-box",

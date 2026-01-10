@@ -51,6 +51,26 @@ equipment:
         - central-ar-handler
         - central air handler
         - air handling equipment
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - supply-fan-speed
+      - return-fan-command
+      - return-fan-status
+      - return-fan-speed
+      - supply-air-temperature
+      - return-air-temperature
+      - mixed-air-temperature
+      - outside-air-temperature
+      - discharge-air-temperature
+      - outside-air-damper-output
+      - return-air-damper-output
+      - mixed-air-damper-output
+      - cooling-valve-output
+      - heating-valve-output
+      - filter-alarm
+      - low-limit-alarm
+      - smoke-alarm
   - id: rooftop-unit
     name: Rooftop Unit
     abbreviation: RTU
@@ -109,6 +129,22 @@ equipment:
         - rooftop air handler
         - rooftop package unit
         - packaged rooftop unit
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - supply-fan-speed
+      - supply-air-temperature
+      - return-air-temperature
+      - mixed-air-temperature
+      - outside-air-temperature
+      - discharge-air-temperature
+      - outside-air-damper-output
+      - cooling-valve-output
+      - heating-valve-output
+      - dx-cooling-stage
+      - gas-fired-heat-output
+      - filter-alarm
+      - economizer-enable
   - id: makeup-air-unit
     name: Makeup Air Unit
     abbreviation: MAU
@@ -167,6 +203,16 @@ equipment:
         - makeup ar handler
         - makeup-ar-handler
         - makeup air handler
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - supply-fan-speed
+      - supply-air-temperature
+      - discharge-air-temperature
+      - outside-air-temperature
+      - heating-valve-output
+      - gas-fired-heat-output
+      - filter-alarm
   - id: dedicated-outdoor-air-system
     name: Dedicated Outdoor Air System
     abbreviation: DOAS
@@ -210,6 +256,17 @@ equipment:
         - dedicated outside air unit
         - dedicated outside air system
         - dedicated-outdoor-air-system
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - supply-fan-speed
+      - supply-air-temperature
+      - outside-air-temperature
+      - discharge-air-temperature
+      - cooling-valve-output
+      - heating-valve-output
+      - heat-wheel-output
+      - filter-alarm
   - id: fan-coil-unit
     name: Fan Coil Unit
     abbreviation: FCU
@@ -273,6 +330,15 @@ equipment:
         - ceiling fan coil
         - vertical fan coil
         - horizontal fan coil
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - discharge-air-temperature
+      - zone-temperature
+      - cooling-valve-output
+      - heating-valve-output
+      - cooling-setpoint
+      - heating-setpoint
   - id: computer-room-air-conditioner
     name: Computer Room Air Conditioner
     abbreviation: CRAC
@@ -329,6 +395,14 @@ equipment:
         - computer-rm-a-conditioner
         - precision air conditioner
         - computer-room-air-conditioner
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - supply-air-temperature
+      - return-air-temperature
+      - discharge-air-temperature
+      - cooling-valve-output
+      - filter-alarm
   - id: computer-room-air-handler
     name: Computer Room Air Handler
     abbreviation: CRAH
@@ -376,6 +450,14 @@ equipment:
         - data-center-ar-handler
         - data center air handler
         - computer-room-air-handler
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - supply-air-temperature
+      - return-air-temperature
+      - discharge-air-temperature
+      - cooling-valve-output
+      - filter-alarm
   - id: unit-ventilator
     name: Unit Ventilator
     abbreviation: UV
@@ -420,6 +502,14 @@ equipment:
         - classroom unt ventilator
         - classroom-unt-ventilator
         - classroom unit ventilator
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - discharge-air-temperature
+      - zone-temperature
+      - outside-air-damper-output
+      - heating-valve-output
+      - cooling-valve-output
   - id: packaged-terminal-air-conditioner
     name: Packaged Terminal Air Conditioner
     abbreviation: PTAC
@@ -473,6 +563,13 @@ equipment:
         - packaged terminal ar conditioner
         - packaged-terminal-ar-conditioner
         - packaged-terminal-air-conditioner
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - discharge-air-temperature
+      - zone-temperature
+      - cooling-setpoint
+      - heating-setpoint
   - id: packaged-terminal-heat-pump
     name: Packaged Terminal Heat Pump
     abbreviation: PTHP
@@ -521,6 +618,13 @@ equipment:
         - packaged terminal heat p
         - packaged-terminal-heat-p
         - packaged-terminal-heat-pump
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - discharge-air-temperature
+      - zone-temperature
+      - cooling-setpoint
+      - heating-setpoint
   - id: water-source-heat-pump
     name: Water Source Heat Pump
     abbreviation: WSHP
@@ -580,6 +684,13 @@ equipment:
         - water loop heat pump
         - water-source-heat-pump
         - water-to-air heat pump
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - discharge-air-temperature
+      - zone-temperature
+      - entering-water-temperature
+      - leaving-water-temperature
   - id: air-source-heat-pump
     name: Air Source Heat Pump
     abbreviation: ASHP
@@ -640,6 +751,14 @@ equipment:
         - ductless-mini-split
         - air-source-heat-pump
         - air-to-air heat pump
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - discharge-air-temperature
+      - zone-temperature
+      - outside-air-temperature
+      - cooling-setpoint
+      - heating-setpoint
   - id: energy-recovery-ventilator
     name: Energy Recovery Ventilator
     abbreviation: ERV
@@ -699,6 +818,15 @@ equipment:
         - nrg recovery ventilator
         - nrg-recovery-ventilator
         - energy-recovery-ventilator
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - exhaust-fan-command
+      - exhaust-fan-status
+      - supply-air-temperature
+      - exhaust-air-temperature
+      - outside-air-temperature
+      - heat-wheel-output
   - id: heat-recovery-ventilator
     name: Heat Recovery Ventilator
     abbreviation: HRV
@@ -745,6 +873,14 @@ equipment:
         - heat-recovery-ventilator
         - air-to-air heat exchanger
         - heat exchanger ventilator
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - exhaust-fan-command
+      - exhaust-fan-status
+      - supply-air-temperature
+      - exhaust-air-temperature
+      - outside-air-temperature
   - id: air-turnover-unit
     name: Air Turnover Unit
     abbreviation: ATU
@@ -797,3 +933,11 @@ equipment:
         - destratification unt
         - destratification-unt
         - destratification unit
+    typical_points:
+      - supply-fan-command
+      - supply-fan-status
+      - supply-fan-speed
+      - discharge-air-temperature
+      - zone-temperature
+      - heating-valve-output
+      - gas-fired-heat-output

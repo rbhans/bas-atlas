@@ -84,6 +84,8 @@ equipment:
         - VRF heat recovery unit
         - outdoor condensing unit
         - variable refrigerant flow outdoor unit
+    typical_points:
+      - outside-air-temperature
   - id: vrf-indoor-unit
     name: VRF Indoor Unit
     abbreviation: IDU
@@ -163,6 +165,13 @@ equipment:
         - ceiling concealed duct
         - ceiling-concealed-duct
         - variable refrigerant flow indoor unit
+    typical_points:
+      - zone-temperature
+      - discharge-air-temperature
+      - supply-fan-command
+      - supply-fan-status
+      - cooling-setpoint
+      - heating-setpoint
   - id: vrf-branch-selector-box
     name: VRF Branch Selector Box
     abbreviation: BSB

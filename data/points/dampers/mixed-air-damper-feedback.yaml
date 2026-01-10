@@ -10,6 +10,14 @@ concept:
     min: 0
     max: 100
   object_type: analogInput
+  units:
+    symbol: "%"
+    bacnet_unit: 98
+    description: percent
+  point_function: sensor
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
 aliases:
   common:
     - m-f

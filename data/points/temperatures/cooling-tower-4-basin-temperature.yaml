@@ -4,6 +4,15 @@ concept:
   category: temperatures
   description: Cooling Tower 4 Basin Temperature point
   haystack: cooling tower 4 basin temperature
+  units:
+    symbol: °F
+    bacnet_unit: 64
+    description: degrees Fahrenheit
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 32
+    max: 120
 aliases:
   common:
     - cbt

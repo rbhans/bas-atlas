@@ -6,6 +6,16 @@ concept:
   haystack: coolingTower run cmd
   object_type: binaryOutput
   brick: Cooling_Tower_Command
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  point_function: command
+  states:
+    "0": Off
+    "1": On
+  typical_equipment:
+    - cooling-tower
 aliases:
   common:
     - c-c

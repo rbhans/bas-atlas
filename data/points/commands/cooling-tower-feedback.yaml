@@ -5,6 +5,17 @@ concept:
   description: Actual position/state feedback from cooling tower
   haystack: coolingTower speed sensor
   brick: Cooling_Tower_Speed_Position_Sensor
+  units:
+    symbol: "%"
+    bacnet_unit: 98
+    description: percent
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 0
+    max: 100
+  typical_equipment:
+    - cooling-tower
 aliases:
   common:
     - c-f

@@ -5,6 +5,18 @@ concept:
   description: Mixed Air Temperature Setpoint point
   haystack: mixed air temp sp
   brick: Mixed_Air_Temperature_Setpoint
+  units:
+    symbol: °F
+    bacnet_unit: 64
+    description: degrees Fahrenheit
+  object_type: analogValue
+  point_function: setpoint
+  typical_range:
+    min: 45
+    max: 65
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
 aliases:
   common:
     - m-s

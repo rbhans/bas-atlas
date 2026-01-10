@@ -5,6 +5,17 @@ concept:
   description: Return Fan Speed point
   haystack: return fan speed sensor
   brick: Return_Fan_Speed_Sensor
+  units:
+    symbol: "%"
+    bacnet_unit: 98
+    description: percent
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 0
+    max: 100
+  typical_equipment:
+    - air-handling-unit
 aliases:
   common:
     - r-s

@@ -5,6 +5,18 @@ concept:
   description: Supply Fan Speed point
   haystack: supply fan speed sensor
   brick: Supply_Fan_Speed_Sensor
+  units:
+    symbol: "%"
+    bacnet_unit: 98
+    description: percent
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 0
+    max: 100
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
 aliases:
   common:
     - f-s

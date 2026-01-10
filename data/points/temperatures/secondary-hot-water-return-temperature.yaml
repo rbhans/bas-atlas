@@ -5,6 +5,15 @@ concept:
   description: Secondary Hot Water Return Temperature point
   haystack: secondaryLoop hot water entering temp sensor
   brick: Hot_Water_Return_Temperature_Sensor
+  units:
+    symbol: °F
+    bacnet_unit: 64
+    description: degrees Fahrenheit
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 32
+    max: 120
 aliases:
   common:
     - s-t

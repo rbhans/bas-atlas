@@ -5,6 +5,19 @@ concept:
   description: Isolation Valve Output point
   haystack: isolation valve cmd
   brick: Isolation_Valve_Command
+  units:
+    symbol: "%"
+    bacnet_unit: 98
+    description: percent
+  object_type: analogOutput
+  point_function: command
+  typical_range:
+    min: 0
+    max: 100
+  typical_equipment:
+    - chiller
+    - boiler
+    - cooling-tower
 aliases:
   common:
     - i-o

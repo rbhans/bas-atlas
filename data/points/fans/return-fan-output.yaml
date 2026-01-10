@@ -5,6 +5,17 @@ concept:
   description: Return Fan Output point
   haystack: return fan speed cmd
   brick: Return_Fan_Speed_Command
+  units:
+    symbol: "%"
+    bacnet_unit: 98
+    description: percent
+  object_type: analogOutput
+  point_function: command
+  typical_range:
+    min: 0
+    max: 100
+  typical_equipment:
+    - air-handling-unit
 aliases:
   common:
     - r-o

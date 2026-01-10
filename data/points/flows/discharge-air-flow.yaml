@@ -5,6 +5,17 @@ concept:
   description: Discharge Air Flow point
   haystack: discharge air flow sensor
   brick: Discharge_Air_Flow_Sensor
+  units:
+    symbol: CFM
+    bacnet_unit: 84
+    description: cubic feet per minute
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 0
+    max: 5000
+  typical_equipment:
+    - variable-air-volume-box
 aliases:
   common:
     - d-f

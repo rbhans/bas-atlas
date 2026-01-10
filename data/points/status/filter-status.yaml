@@ -5,6 +5,18 @@ concept:
   description: Filter Status point
   haystack: filter sensor
   brick: Filter_Status
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryInput
+  point_function: status
+  states:
+    "0": Clean
+    "1": Dirty
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
 aliases:
   common:
     - f-s

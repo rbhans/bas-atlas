@@ -5,6 +5,18 @@ concept:
   description: Outdoor Air Flow point
   haystack: outside air flow sensor
   brick: Outside_Air_Flow_Sensor
+  units:
+    symbol: CFM
+    bacnet_unit: 84
+    description: cubic feet per minute
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 0
+    max: 20000
+  typical_equipment:
+    - air-handling-unit
+    - dedicated-outdoor-air-system
 aliases:
   common:
     - o-f

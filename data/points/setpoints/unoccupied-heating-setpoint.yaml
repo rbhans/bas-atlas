@@ -5,6 +5,19 @@ concept:
   description: Unoccupied Heating Setpoint point
   haystack: zone air temp unocc heating sp
   brick: Unoccupied_Heating_Temperature_Setpoint
+  units:
+    symbol: °F
+    bacnet_unit: 64
+    description: degrees Fahrenheit
+  object_type: analogValue
+  point_function: setpoint
+  typical_range:
+    min: 55
+    max: 65
+  typical_equipment:
+    - variable-air-volume-box
+    - fan-coil-unit
+    - rooftop-unit
 aliases:
   common:
     - u-s

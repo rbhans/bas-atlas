@@ -9,8 +9,17 @@ concept:
   typical_range:
     min: -20
     max: 120
-  object_type: analog-input
+  object_type: analogInput
   engineering_units: degrees-fahrenheit
+  units:
+    symbol: °F
+    bacnet_unit: 64
+    description: degrees Fahrenheit
+  point_function: sensor
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
+    - dedicated-outdoor-air-system
 aliases:
   common:
     - ot

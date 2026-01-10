@@ -6,6 +6,16 @@ concept:
   haystack: chiller run cmd
   object_type: binaryOutput
   brick: Chiller_Command
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  point_function: command
+  states:
+    "0": Off
+    "1": On
+  typical_equipment:
+    - chiller
 aliases:
   common:
     - c-c

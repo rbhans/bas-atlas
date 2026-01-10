@@ -5,6 +5,18 @@ concept:
   description: Chilled Water Differential Pressure point
   haystack: chilled water differential pressure sensor
   brick: Chilled_Water_Differential_Pressure_Sensor
+  units:
+    symbol: PSI
+    bacnet_unit: 56
+    description: pounds per square inch
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 0
+    max: 50
+  typical_equipment:
+    - pump
+    - chiller
 aliases:
   common:
     - c-d

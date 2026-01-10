@@ -4,8 +4,18 @@ concept:
   category: valves
   description: Cooling tower isolation valve position or command
   haystack: coolingTower isolation valve cmd
-  object_type: binaryOutput
+  object_type: analogOutput
   brick: Isolation_Valve_Command
+  units:
+    symbol: "%"
+    bacnet_unit: 98
+    description: percent
+  point_function: command
+  typical_range:
+    min: 0
+    max: 100
+  typical_equipment:
+    - cooling-tower
 aliases:
   common:
     - c-i

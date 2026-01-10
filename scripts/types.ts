@@ -10,6 +10,19 @@ export interface BabelAliases {
   misspellings?: string[];
 }
 
+// BACnet engineering units structure
+export interface BACnetUnits {
+  symbol: string;
+  bacnet_unit: number;
+  description: string;
+}
+
+// Point function types
+export type PointFunction = "sensor" | "setpoint" | "command" | "status" | "alarm" | "enable" | "mode" | "schedule" | "calculated";
+
+// BACnet object types
+export type ObjectType = "analogInput" | "analogOutput" | "analogValue" | "binaryInput" | "binaryOutput" | "binaryValue" | "multiStateInput" | "multiStateOutput" | "multiStateValue";
+
 // Point concept definition
 export interface PointConcept {
   id: string;
@@ -19,9 +32,13 @@ export interface PointConcept {
   description: string;
   haystack?: string;
   brick?: string;
-  unit?: string;
+  units?: BACnetUnits;
+  unit?: string; // Legacy field
   typical_range?: TypicalRange;
-  object_type?: string;
+  object_type?: ObjectType | string;
+  point_function?: PointFunction;
+  states?: Record<string, string>;
+  typical_equipment?: string[];
   engineering_units?: string;
 }
 
@@ -52,6 +69,7 @@ export interface EquipmentEntry {
   aliases: BabelAliases;
   subtypes?: EquipmentSubtype[];
   typical_points?: string[];
+  related_equipment?: string[];
 }
 
 // Category structure for navigation

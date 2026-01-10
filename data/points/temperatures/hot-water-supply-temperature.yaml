@@ -5,6 +5,18 @@ concept:
   description: Hot Water Supply Temperature point
   haystack: hot water leaving temp sensor
   brick: Hot_Water_Supply_Temperature_Sensor
+  units:
+    symbol: °F
+    bacnet_unit: 64
+    description: degrees Fahrenheit
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 120
+    max: 200
+  typical_equipment:
+    - boiler
+    - air-handling-unit
 aliases:
   common:
     - h-t

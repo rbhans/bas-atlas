@@ -4,6 +4,19 @@ concept:
   category: status
   description: Electric Heat Stage 7 point
   haystack: electric heat stage 7
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryOutput
+  point_function: command
+  states:
+    "0": Off
+    "1": On
+  typical_equipment:
+    - rooftop-unit
+    - air-handling-unit
+    - unit-heater
 aliases:
   common:
     - e-s

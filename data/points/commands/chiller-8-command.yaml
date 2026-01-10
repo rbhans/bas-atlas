@@ -4,6 +4,15 @@ concept:
   category: commands
   description: Chiller 8 Command point
   haystack: chiller 8 command
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryOutput
+  point_function: command
+  states:
+    "0": Off
+    "1": On
 aliases:
   common:
     - c-c

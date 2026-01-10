@@ -5,6 +5,17 @@ concept:
   description: Relief Air Damper Position point
   haystack: relief air damper sensor
   brick: Relief_Air_Damper_Position_Sensor
+  units:
+    symbol: "%"
+    bacnet_unit: 98
+    description: percent
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 0
+    max: 100
+  typical_equipment:
+    - air-handling-unit
 aliases:
   common:
     - r-p

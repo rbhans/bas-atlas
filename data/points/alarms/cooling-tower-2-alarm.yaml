@@ -4,6 +4,15 @@ concept:
   category: alarms
   description: Cooling Tower 2 Alarm point
   haystack: cooling tower 2 alarm
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryInput
+  point_function: alarm
+  states:
+    "0": Normal
+    "1": Alarm
 aliases:
   common:
     - c-a

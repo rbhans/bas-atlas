@@ -5,6 +5,20 @@ concept:
   description: Unit Enable Mode point
   haystack: enable cmd
   brick: Enable_Command
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: state enumeration
+  object_type: multiStateValue
+  point_function: mode
+  states:
+    "0": Off
+    "1": Auto
+    "2": On
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
+    - fan-coil-unit
 aliases:
   common:
     - u-m

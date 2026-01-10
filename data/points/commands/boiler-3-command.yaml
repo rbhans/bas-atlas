@@ -4,6 +4,15 @@ concept:
   category: commands
   description: Boiler 3 Command point
   haystack: boiler 3 command
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryOutput
+  point_function: command
+  states:
+    "0": Off
+    "1": On
 aliases:
   common:
     - b-c

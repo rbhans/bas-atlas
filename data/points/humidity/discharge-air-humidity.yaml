@@ -5,6 +5,17 @@ concept:
   description: Discharge Air Humidity point
   haystack: discharge air humidity sensor
   brick: Discharge_Air_Humidity_Sensor
+  units:
+    symbol: "%RH"
+    bacnet_unit: 29
+    description: percent relative humidity
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 30
+    max: 90
+  typical_equipment:
+    - air-handling-unit
 aliases:
   common:
     - d-h

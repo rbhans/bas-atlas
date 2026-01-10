@@ -5,6 +5,17 @@ concept:
   description: Return Air Pressure point
   haystack: return air pressure sensor
   brick: Return_Air_Static_Pressure_Sensor
+  units:
+    symbol: in. W.C.
+    bacnet_unit: 58
+    description: inches of water column
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: -1
+    max: 1
+  typical_equipment:
+    - air-handling-unit
 aliases:
   common:
     - r-p

@@ -7,10 +7,19 @@ concept:
   brick: Discharge_Air_Temperature_Sensor
   unit: degF
   typical_range:
-    min: 50
-    max: 110
-  object_type: analog-input
+    min: 45
+    max: 120
+  object_type: analogInput
   engineering_units: degrees-fahrenheit
+  units:
+    symbol: °F
+    bacnet_unit: 64
+    description: degrees Fahrenheit
+  point_function: sensor
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
+    - variable-air-volume-box
 aliases:
   common:
     - dt

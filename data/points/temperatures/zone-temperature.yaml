@@ -9,8 +9,18 @@ concept:
   typical_range:
     min: 55
     max: 85
-  object_type: analog-input
+  object_type: analogInput
   engineering_units: degrees-fahrenheit
+  units:
+    symbol: °F
+    bacnet_unit: 64
+    description: degrees Fahrenheit
+  point_function: sensor
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
+    - variable-air-volume-box
+    - fan-coil-unit
 aliases:
   common:
     - rt

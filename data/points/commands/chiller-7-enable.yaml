@@ -4,6 +4,15 @@ concept:
   category: commands
   description: Chiller 7 Enable point
   haystack: chiller 7 enable
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryValue
+  point_function: enable
+  states:
+    "0": Disabled
+    "1": Enabled
 aliases:
   common:
     - c-e

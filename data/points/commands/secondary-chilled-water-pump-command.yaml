@@ -5,6 +5,17 @@ concept:
   description: Secondary Chilled Water Pump Command point
   haystack: secondaryLoop chilled water pump run cmd
   brick: Secondary_Chilled_Water_Pump_Command
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryOutput
+  point_function: command
+  states:
+    "0": Off
+    "1": On
+  typical_equipment:
+    - pump
 aliases:
   common:
     - s-c

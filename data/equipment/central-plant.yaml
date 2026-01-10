@@ -80,6 +80,21 @@ equipment:
         - centrifugal chiller
         - water-cooled chiller
         - chilled water machine
+    typical_points:
+      - chiller-command
+      - chiller-enable
+      - chiller-status
+      - chiller-alarm
+      - chilled-water-supply-temperature
+      - chilled-water-return-temperature
+      - chiller-entering-temperature
+      - chiller-leaving-temperature
+      - condenser-water-supply-temperature
+      - condenser-water-return-temperature
+    related_equipment:
+      - cooling-tower
+      - pump
+      - air-handling-unit
   - id: boiler
     name: Boiler
     abbreviation: BLR
@@ -152,6 +167,20 @@ equipment:
         - hot water boiler
         - condensing boiler
         - water tube boiler
+    typical_points:
+      - boiler-command
+      - boiler-output
+      - boiler-feedback
+      - boiler-status
+      - boiler-alarm
+      - hot-water-supply-temperature
+      - hot-water-return-temperature
+      - boiler-pump-command
+      - boiler-pump-status
+    related_equipment:
+      - pump
+      - air-handling-unit
+      - heat-exchanger
   - id: cooling-tower
     name: Cooling Tower
     abbreviation: CT
@@ -205,6 +234,21 @@ equipment:
         - wet cooling tower
         - evaporative cooler
         - evaporative-cooler
+    typical_points:
+      - cooling-tower-command
+      - cooling-tower-enable
+      - cooling-tower-output
+      - cooling-tower-feedback
+      - cooling-tower-status
+      - cooling-tower-alarm
+      - cooling-tower-basin-temperature
+      - condenser-water-supply-temperature
+      - condenser-water-return-temperature
+      - cooling-tower-isolation-valve
+      - city-water-temperature
+    related_equipment:
+      - chiller
+      - pump
   - id: heat-exchanger
     name: Heat Exchanger
     abbreviation: HX
@@ -249,6 +293,14 @@ equipment:
         - plate ht exchanger
         - plate-ht-exchanger
         - plate heat exchanger
+    typical_points:
+      - hot-water-supply-temperature
+      - hot-water-return-temperature
+      - mixing-valve-output
+      - mixing-valve-feedback
+    related_equipment:
+      - boiler
+      - pump
   - id: pump
     name: Pump
     abbreviation: P
@@ -343,6 +395,29 @@ equipment:
         - circulation pump
         - end-suction pump
         - base-mounted pump
+    typical_points:
+      - chilled-water-pump-command
+      - chilled-water-pump-output
+      - chilled-water-pump-feedback
+      - chilled-water-pump-status
+      - chilled-water-pump-alarm
+      - hot-water-pump-command
+      - hot-water-pump-output
+      - hot-water-pump-feedback
+      - hot-water-pump-status
+      - hot-water-pump-alarm
+      - condenser-water-pump-command
+      - condenser-water-pump-output
+      - condenser-water-pump-feedback
+      - condenser-water-pump-status
+      - condenser-water-pump-alarm
+      - chilled-water-differential-pressure
+      - hot-water-differential-pressure
+    related_equipment:
+      - chiller
+      - boiler
+      - cooling-tower
+      - variable-frequency-drive
   - id: variable-frequency-drive
     name: Variable Frequency Drive
     abbreviation: VFD
@@ -399,6 +474,23 @@ equipment:
         - adjustable speed drive
         - variable frequency drive
         - variable-frequency-drive
+    typical_points:
+      - supply-fan-output
+      - supply-fan-feedback
+      - supply-fan-speed
+      - return-fan-output
+      - return-fan-feedback
+      - return-fan-speed
+      - chilled-water-pump-output
+      - chilled-water-pump-feedback
+      - hot-water-pump-output
+      - hot-water-pump-feedback
+      - condenser-water-pump-output
+      - condenser-water-pump-feedback
+    related_equipment:
+      - air-handling-unit
+      - pump
+      - fan-motor
   - id: expansion-tank
     name: Expansion Tank
     abbreviation: ET

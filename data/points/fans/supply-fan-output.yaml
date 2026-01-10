@@ -5,6 +5,18 @@ concept:
   description: Supply Fan Output point
   haystack: supply fan speed cmd
   brick: Supply_Fan_Speed_Command
+  units:
+    symbol: "%"
+    bacnet_unit: 98
+    description: percent
+  object_type: analogOutput
+  point_function: command
+  typical_range:
+    min: 0
+    max: 100
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
 aliases:
   common:
     - f-o

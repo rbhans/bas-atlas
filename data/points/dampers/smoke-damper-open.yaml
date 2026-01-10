@@ -5,6 +5,17 @@ concept:
   description: Smoke Damper Open point
   haystack: smoke damper open sensor
   brick: Smoke_Damper_Open_Status
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryInput
+  point_function: status
+  states:
+    "0": Closed
+    "1": Open
+  typical_equipment:
+    - air-handling-unit
 aliases:
   common:
     - s-d

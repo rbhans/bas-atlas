@@ -5,6 +5,18 @@ concept:
   description: Return Air CO2 point
   haystack: return air co2 sensor
   brick: Return_Air_CO2_Sensor
+  units:
+    symbol: ppm
+    bacnet_unit: 96
+    description: parts per million
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 400
+    max: 2000
+  typical_equipment:
+    - air-handling-unit
+    - dedicated-outdoor-air-system
 aliases:
   common:
     - r-c

@@ -5,6 +5,18 @@ concept:
   description: System Enable point
   haystack: enable cmd
   brick: Enable_Command
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryValue
+  point_function: enable
+  states:
+    "0": Disabled
+    "1": Enabled
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
 aliases:
   common:
     - s-e

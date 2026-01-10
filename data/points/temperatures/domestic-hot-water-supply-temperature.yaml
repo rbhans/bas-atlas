@@ -5,6 +5,18 @@ concept:
   description: Domestic Hot Water Supply Temperature point
   haystack: domestic hot water leaving temp sensor
   brick: Domestic_Hot_Water_Supply_Temperature_Sensor
+  units:
+    symbol: °F
+    bacnet_unit: 64
+    description: degrees Fahrenheit
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 110
+    max: 140
+  typical_equipment:
+    - boiler
+    - heat-exchanger
 aliases:
   common:
     - d-t

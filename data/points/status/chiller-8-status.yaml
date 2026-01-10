@@ -4,6 +4,15 @@ concept:
   category: status
   description: Chiller 8 Status point
   haystack: chiller 8 status
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryInput
+  point_function: status
+  states:
+    "0": Off
+    "1": Running
 aliases:
   common:
     - c-s

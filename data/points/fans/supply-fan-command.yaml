@@ -5,6 +5,19 @@ concept:
   description: Supply Fan Command point
   haystack: supply fan run cmd
   brick: Supply_Fan_Command
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryOutput
+  point_function: command
+  states:
+    "0": Off
+    "1": On
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
+    - makeup-air-unit
 aliases:
   common:
     - f-c

@@ -5,6 +5,17 @@ concept:
   description: Relief Fan Status point
   haystack: relief fan run sensor
   brick: Relief_Fan_Status
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryInput
+  point_function: status
+  states:
+    "0": Off
+    "1": Running
+  typical_equipment:
+    - air-handling-unit
 aliases:
   common:
     - r-s

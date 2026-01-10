@@ -5,6 +5,18 @@ concept:
   description: Supply Fan Fault point
   haystack: supply fan fault sensor
   brick: Supply_Fan_Fault_Status
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryInput
+  point_function: alarm
+  states:
+    "0": Normal
+    "1": Fault
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
 aliases:
   common:
     - f-f

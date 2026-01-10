@@ -7,9 +7,16 @@ concept:
   object_type: analogInput
   unit: degF
   typical_range:
-    min: 40
+    min: 38
     max: 55
   brick: Leaving_Water_Temperature_Sensor
+  units:
+    symbol: °F
+    bacnet_unit: 64
+    description: degrees Fahrenheit
+  point_function: sensor
+  typical_equipment:
+    - chiller
 aliases:
   common:
     - c-l

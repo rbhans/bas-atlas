@@ -5,6 +5,19 @@ concept:
   description: Mixed Air Temperature point
   haystack: mixed air temp sensor
   brick: Mixed_Air_Temperature_Sensor
+  units:
+    symbol: °F
+    bacnet_unit: 64
+    description: degrees Fahrenheit
+  object_type: analogInput
+  point_function: sensor
+  typical_range:
+    min: 35
+    max: 95
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
+    - makeup-air-unit
 aliases:
   common:
     - m-t

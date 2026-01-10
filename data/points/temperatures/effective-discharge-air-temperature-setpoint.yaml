@@ -5,6 +5,18 @@ concept:
   description: Effective Discharge Air Temperature Setpoint point
   haystack: discharge air temp effective sp
   brick: Effective_Discharge_Air_Temperature_Setpoint
+  units:
+    symbol: °F
+    bacnet_unit: 64
+    description: degrees Fahrenheit
+  object_type: analogValue
+  point_function: calculated
+  typical_range:
+    min: 50
+    max: 75
+  typical_equipment:
+    - air-handling-unit
+    - rooftop-unit
 aliases:
   common:
     - e-s

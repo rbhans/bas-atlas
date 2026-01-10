@@ -10,6 +10,13 @@ concept:
     min: 0
     max: 100
   brick: Cooling_Tower_Speed_Command
+  units:
+    symbol: "%"
+    bacnet_unit: 98
+    description: percent
+  point_function: command
+  typical_equipment:
+    - cooling-tower
 aliases:
   common:
     - c-o

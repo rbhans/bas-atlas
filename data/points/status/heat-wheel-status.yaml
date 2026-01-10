@@ -5,6 +5,18 @@ concept:
   description: Heat Wheel Status point
   haystack: heatWheel run sensor
   brick: Heat_Wheel_Status
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryInput
+  point_function: status
+  states:
+    "0": Off
+    "1": Running
+  typical_equipment:
+    - energy-recovery-ventilator
+    - heat-recovery-ventilator
 aliases:
   common:
     - e-s

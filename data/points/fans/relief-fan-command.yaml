@@ -5,6 +5,17 @@ concept:
   description: Relief Fan Command point
   haystack: relief fan run cmd
   brick: Relief_Fan_Command
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  object_type: binaryOutput
+  point_function: command
+  states:
+    "0": Off
+    "1": On
+  typical_equipment:
+    - air-handling-unit
 aliases:
   common:
     - r-c

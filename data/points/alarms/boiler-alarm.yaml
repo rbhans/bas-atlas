@@ -6,6 +6,16 @@ concept:
   haystack: boiler alarm sensor
   object_type: binaryInput
   brick: Boiler_Alarm
+  units:
+    symbol: ""
+    bacnet_unit: 95
+    description: boolean (on/off)
+  point_function: alarm
+  states:
+    "0": Normal
+    "1": Alarm
+  typical_equipment:
+    - boiler
 aliases:
   common:
     - b-a

@@ -5,6 +5,18 @@ concept:
   description: Primary Chilled Water Pump Output point
   haystack: primaryLoop chilled water pump speed cmd
   brick: Primary_Chilled_Water_Pump_Speed_Command
+  units:
+    symbol: "%"
+    bacnet_unit: 98
+    description: percent
+  object_type: analogOutput
+  point_function: command
+  typical_range:
+    min: 0
+    max: 100
+  typical_equipment:
+    - pump
+    - variable-frequency-drive
 aliases:
   common:
     - p-o

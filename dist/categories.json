@@ -41,13 +41,13 @@
       "id": "alarms",
       "name": "Alarms",
       "type": "points",
-      "count": 34
+      "count": 14
     },
     {
       "id": "commands",
       "name": "Commands",
       "type": "points",
-      "count": 88
+      "count": 40
     },
     {
       "id": "dampers",
@@ -89,19 +89,19 @@
       "id": "status",
       "name": "Status",
       "type": "points",
-      "count": 57
+      "count": 20
     },
     {
       "id": "temperatures",
       "name": "Temperatures",
       "type": "points",
-      "count": 54
+      "count": 30
     },
     {
       "id": "valves",
       "name": "Valves",
       "type": "points",
-      "count": 19
+      "count": 11
     }
   ]
 }

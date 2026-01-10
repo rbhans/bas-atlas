@@ -1,0 +1,22 @@
+concept:
+  id: bypass-valve-open
+  name: Bypass Valve Open
+  category: valves
+  description: Binary status indicating if bypass valve is open
+  haystack: bypass valve open sensor
+  brick: Bypass_Valve_Open_Sensor
+  point_function: status
+  states:
+    "0": Not Open
+    "1": Open
+aliases:
+  common:
+    - b-o
+    - byp open
+    - byp-open
+    - bypass valve open
+    - bypass-valve-open
+    - byp vlv opn
+    - byp-vlv-opn
+    - byp vlv op
+    - byp-vlv-op

@@ -1,0 +1,24 @@
+concept:
+  id: cooling-valve-closed
+  name: Cooling Valve Closed
+  category: valves
+  description: Binary status indicating if cooling valve is closed
+  haystack: cooling valve closed sensor
+  brick: Cooling_Valve_Closed_Sensor
+  point_function: status
+  states:
+    "0": Not Closed
+    "1": Closed
+aliases:
+  common:
+    - c-cl
+    - coo closed
+    - coo-closed
+    - cooling valve closed
+    - cooling-valve-closed
+    - coo vlv cls
+    - coo-vlv-cls
+    - coo vlv cl
+    - coo-vlv-cl
+    - coo vlv cld
+    - coo-vlv-cld

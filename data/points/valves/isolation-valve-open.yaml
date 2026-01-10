@@ -1,0 +1,22 @@
+concept:
+  id: isolation-valve-open
+  name: Isolation Valve Open
+  category: valves
+  description: Binary status indicating if isolation valve is open
+  haystack: isolation valve open sensor
+  brick: Isolation_Valve_Open_Sensor
+  point_function: status
+  states:
+    "0": Not Open
+    "1": Open
+aliases:
+  common:
+    - i-o
+    - iso open
+    - iso-open
+    - isolation valve open
+    - isolation-valve-open
+    - iso vlv opn
+    - iso-vlv-opn
+    - iso vlv op
+    - iso-vlv-op

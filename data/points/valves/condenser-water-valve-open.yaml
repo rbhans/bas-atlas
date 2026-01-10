@@ -1,0 +1,22 @@
+concept:
+  id: condenser-water-valve-open
+  name: Condenser Water Valve Open
+  category: valves
+  description: Binary status indicating if condenser water valve is open
+  haystack: condenser water valve open sensor
+  brick: Condenser_Water_Valve_Open_Sensor
+  point_function: status
+  states:
+    "0": Not Open
+    "1": Open
+aliases:
+  common:
+    - c-o
+    - con open
+    - con-open
+    - condenser water valve open
+    - condenser-water-valve-open
+    - con vlv opn
+    - con-vlv-opn
+    - con vlv op
+    - con-vlv-op

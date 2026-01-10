@@ -1,0 +1,24 @@
+concept:
+  id: heating-valve-closed
+  name: Heating Valve Closed
+  category: valves
+  description: Binary status indicating if heating valve is closed
+  haystack: heating valve closed sensor
+  brick: Heating_Valve_Closed_Sensor
+  point_function: status
+  states:
+    "0": Not Closed
+    "1": Closed
+aliases:
+  common:
+    - h-cl
+    - hea closed
+    - hea-closed
+    - heating valve closed
+    - heating-valve-closed
+    - hea vlv cls
+    - hea-vlv-cls
+    - hea vlv cl
+    - hea-vlv-cl
+    - hea vlv cld
+    - hea-vlv-cld

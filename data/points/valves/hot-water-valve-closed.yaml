@@ -1,0 +1,24 @@
+concept:
+  id: hot-water-valve-closed
+  name: Hot Water Valve Closed
+  category: valves
+  description: Binary status indicating if hot water valve is closed
+  haystack: hot water valve closed sensor
+  brick: Hot_Water_Valve_Closed_Sensor
+  point_function: status
+  states:
+    "0": Not Closed
+    "1": Closed
+aliases:
+  common:
+    - h-cl
+    - hot closed
+    - hot-closed
+    - hot water valve closed
+    - hot-water-valve-closed
+    - hot vlv cls
+    - hot-vlv-cls
+    - hot vlv cl
+    - hot-vlv-cl
+    - hot vlv cld
+    - hot-vlv-cld

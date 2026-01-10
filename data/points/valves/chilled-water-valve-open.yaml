@@ -1,0 +1,22 @@
+concept:
+  id: chilled-water-valve-open
+  name: Chilled Water Valve Open
+  category: valves
+  description: Binary status indicating if chilled water valve is open
+  haystack: chilled water valve open sensor
+  brick: Chilled_Water_Valve_Open_Sensor
+  point_function: status
+  states:
+    "0": Not Open
+    "1": Open
+aliases:
+  common:
+    - c-o
+    - chi open
+    - chi-open
+    - chilled water valve open
+    - chilled-water-valve-open
+    - chi vlv opn
+    - chi-vlv-opn
+    - chi vlv op
+    - chi-vlv-op

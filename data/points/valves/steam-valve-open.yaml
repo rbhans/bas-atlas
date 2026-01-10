@@ -1,0 +1,22 @@
+concept:
+  id: steam-valve-open
+  name: Steam Valve Open
+  category: valves
+  description: Binary status indicating if steam valve is open
+  haystack: steam valve open sensor
+  brick: Steam_Valve_Open_Sensor
+  point_function: status
+  states:
+    "0": Not Open
+    "1": Open
+aliases:
+  common:
+    - s-o
+    - ste open
+    - ste-open
+    - steam valve open
+    - steam-valve-open
+    - ste vlv opn
+    - ste-vlv-opn
+    - ste vlv op
+    - ste-vlv-op

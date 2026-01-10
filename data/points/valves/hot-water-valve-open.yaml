@@ -1,0 +1,22 @@
+concept:
+  id: hot-water-valve-open
+  name: Hot Water Valve Open
+  category: valves
+  description: Binary status indicating if hot water valve is open
+  haystack: hot water valve open sensor
+  brick: Hot_Water_Valve_Open_Sensor
+  point_function: status
+  states:
+    "0": Not Open
+    "1": Open
+aliases:
+  common:
+    - h-o
+    - hot open
+    - hot-open
+    - hot water valve open
+    - hot-water-valve-open
+    - hot vlv opn
+    - hot-vlv-opn
+    - hot vlv op
+    - hot-vlv-op

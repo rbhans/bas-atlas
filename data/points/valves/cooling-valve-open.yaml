@@ -1,0 +1,22 @@
+concept:
+  id: cooling-valve-open
+  name: Cooling Valve Open
+  category: valves
+  description: Binary status indicating if cooling valve is open
+  haystack: cooling valve open sensor
+  brick: Cooling_Valve_Open_Sensor
+  point_function: status
+  states:
+    "0": Not Open
+    "1": Open
+aliases:
+  common:
+    - c-o
+    - coo open
+    - coo-open
+    - cooling valve open
+    - cooling-valve-open
+    - coo vlv opn
+    - coo-vlv-opn
+    - coo vlv op
+    - coo-vlv-op

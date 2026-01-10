@@ -1,0 +1,24 @@
+concept:
+  id: condenser-water-valve-closed
+  name: Condenser Water Valve Closed
+  category: valves
+  description: Binary status indicating if condenser water valve is closed
+  haystack: condenser water valve closed sensor
+  brick: Condenser_Water_Valve_Closed_Sensor
+  point_function: status
+  states:
+    "0": Not Closed
+    "1": Closed
+aliases:
+  common:
+    - c-cl
+    - con closed
+    - con-closed
+    - condenser water valve closed
+    - condenser-water-valve-closed
+    - con vlv cls
+    - con-vlv-cls
+    - con vlv cl
+    - con-vlv-cl
+    - con vlv cld
+    - con-vlv-cld

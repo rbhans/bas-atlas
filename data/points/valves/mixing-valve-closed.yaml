@@ -1,0 +1,24 @@
+concept:
+  id: mixing-valve-closed
+  name: Mixing Valve Closed
+  category: valves
+  description: Binary status indicating if mixing valve is closed
+  haystack: mixing valve closed sensor
+  brick: Mixing_Valve_Closed_Sensor
+  point_function: status
+  states:
+    "0": Not Closed
+    "1": Closed
+aliases:
+  common:
+    - m-cl
+    - mix closed
+    - mix-closed
+    - mixing valve closed
+    - mixing-valve-closed
+    - mix vlv cls
+    - mix-vlv-cls
+    - mix vlv cl
+    - mix-vlv-cl
+    - mix vlv cld
+    - mix-vlv-cld

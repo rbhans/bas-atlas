@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-10T17:02:11.457Z",
-  "totalPoints": 200,
+  "lastUpdated": "2026-01-10T17:11:35.853Z",
+  "totalPoints": 218,
   "totalEquipment": 42,
   "points": [
     {
@@ -9413,6 +9413,36 @@
     },
     {
       "concept": {
+        "id": "bypass-valve-closed",
+        "name": "Bypass Valve Closed",
+        "category": "valves",
+        "description": "Binary status indicating if bypass valve is closed",
+        "haystack": "bypass valve closed sensor",
+        "brick": "Bypass_Valve_Closed_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Closed",
+          "1": "Closed"
+        }
+      },
+      "aliases": {
+        "common": [
+          "b-cl",
+          "byp closed",
+          "byp-closed",
+          "bypass valve closed",
+          "bypass-valve-closed",
+          "byp vlv cls",
+          "byp-vlv-cls",
+          "byp vlv cl",
+          "byp-vlv-cl",
+          "byp vlv cld",
+          "byp-vlv-cld"
+        ]
+      }
+    },
+    {
+      "concept": {
         "id": "bypass-valve-feedback",
         "name": "Bypass Valve Feedback",
         "category": "valves",
@@ -9459,6 +9489,34 @@
     },
     {
       "concept": {
+        "id": "bypass-valve-open",
+        "name": "Bypass Valve Open",
+        "category": "valves",
+        "description": "Binary status indicating if bypass valve is open",
+        "haystack": "bypass valve open sensor",
+        "brick": "Bypass_Valve_Open_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Open",
+          "1": "Open"
+        }
+      },
+      "aliases": {
+        "common": [
+          "b-o",
+          "byp open",
+          "byp-open",
+          "bypass valve open",
+          "bypass-valve-open",
+          "byp vlv opn",
+          "byp-vlv-opn",
+          "byp vlv op",
+          "byp-vlv-op"
+        ]
+      }
+    },
+    {
+      "concept": {
         "id": "bypass-valve-output",
         "name": "Bypass Valve Output",
         "category": "valves",
@@ -9498,6 +9556,122 @@
       "related": [
         "bypass-valve-feedback"
       ]
+    },
+    {
+      "concept": {
+        "id": "chilled-water-valve-closed",
+        "name": "Chilled Water Valve Closed",
+        "category": "valves",
+        "description": "Binary status indicating if chilled water valve is closed",
+        "haystack": "chilled water valve closed sensor",
+        "brick": "Chilled_Water_Valve_Closed_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Closed",
+          "1": "Closed"
+        }
+      },
+      "aliases": {
+        "common": [
+          "c-cl",
+          "chi closed",
+          "chi-closed",
+          "chilled water valve closed",
+          "chilled-water-valve-closed",
+          "chi vlv cls",
+          "chi-vlv-cls",
+          "chi vlv cl",
+          "chi-vlv-cl",
+          "chi vlv cld",
+          "chi-vlv-cld"
+        ]
+      }
+    },
+    {
+      "concept": {
+        "id": "chilled-water-valve-open",
+        "name": "Chilled Water Valve Open",
+        "category": "valves",
+        "description": "Binary status indicating if chilled water valve is open",
+        "haystack": "chilled water valve open sensor",
+        "brick": "Chilled_Water_Valve_Open_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Open",
+          "1": "Open"
+        }
+      },
+      "aliases": {
+        "common": [
+          "c-o",
+          "chi open",
+          "chi-open",
+          "chilled water valve open",
+          "chilled-water-valve-open",
+          "chi vlv opn",
+          "chi-vlv-opn",
+          "chi vlv op",
+          "chi-vlv-op"
+        ]
+      }
+    },
+    {
+      "concept": {
+        "id": "condenser-water-valve-closed",
+        "name": "Condenser Water Valve Closed",
+        "category": "valves",
+        "description": "Binary status indicating if condenser water valve is closed",
+        "haystack": "condenser water valve closed sensor",
+        "brick": "Condenser_Water_Valve_Closed_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Closed",
+          "1": "Closed"
+        }
+      },
+      "aliases": {
+        "common": [
+          "c-cl",
+          "con closed",
+          "con-closed",
+          "condenser water valve closed",
+          "condenser-water-valve-closed",
+          "con vlv cls",
+          "con-vlv-cls",
+          "con vlv cl",
+          "con-vlv-cl",
+          "con vlv cld",
+          "con-vlv-cld"
+        ]
+      }
+    },
+    {
+      "concept": {
+        "id": "condenser-water-valve-open",
+        "name": "Condenser Water Valve Open",
+        "category": "valves",
+        "description": "Binary status indicating if condenser water valve is open",
+        "haystack": "condenser water valve open sensor",
+        "brick": "Condenser_Water_Valve_Open_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Open",
+          "1": "Open"
+        }
+      },
+      "aliases": {
+        "common": [
+          "c-o",
+          "con open",
+          "con-open",
+          "condenser water valve open",
+          "condenser-water-valve-open",
+          "con vlv opn",
+          "con-vlv-opn",
+          "con vlv op",
+          "con-vlv-op"
+        ]
+      }
     },
     {
       "concept": {
@@ -9571,6 +9745,36 @@
     },
     {
       "concept": {
+        "id": "cooling-valve-closed",
+        "name": "Cooling Valve Closed",
+        "category": "valves",
+        "description": "Binary status indicating if cooling valve is closed",
+        "haystack": "cooling valve closed sensor",
+        "brick": "Cooling_Valve_Closed_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Closed",
+          "1": "Closed"
+        }
+      },
+      "aliases": {
+        "common": [
+          "c-cl",
+          "coo closed",
+          "coo-closed",
+          "cooling valve closed",
+          "cooling-valve-closed",
+          "coo vlv cls",
+          "coo-vlv-cls",
+          "coo vlv cl",
+          "coo-vlv-cl",
+          "coo vlv cld",
+          "coo-vlv-cld"
+        ]
+      }
+    },
+    {
+      "concept": {
         "id": "cooling-valve-feedback",
         "name": "Cooling Valve Feedback",
         "category": "valves",
@@ -9628,6 +9832,34 @@
       "related": [
         "cooling-valve-output"
       ]
+    },
+    {
+      "concept": {
+        "id": "cooling-valve-open",
+        "name": "Cooling Valve Open",
+        "category": "valves",
+        "description": "Binary status indicating if cooling valve is open",
+        "haystack": "cooling valve open sensor",
+        "brick": "Cooling_Valve_Open_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Open",
+          "1": "Open"
+        }
+      },
+      "aliases": {
+        "common": [
+          "c-o",
+          "coo open",
+          "coo-open",
+          "cooling valve open",
+          "cooling-valve-open",
+          "coo vlv opn",
+          "coo-vlv-opn",
+          "coo vlv op",
+          "coo-vlv-op"
+        ]
+      }
     },
     {
       "concept": {
@@ -9698,6 +9930,36 @@
     },
     {
       "concept": {
+        "id": "heating-valve-closed",
+        "name": "Heating Valve Closed",
+        "category": "valves",
+        "description": "Binary status indicating if heating valve is closed",
+        "haystack": "heating valve closed sensor",
+        "brick": "Heating_Valve_Closed_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Closed",
+          "1": "Closed"
+        }
+      },
+      "aliases": {
+        "common": [
+          "h-cl",
+          "hea closed",
+          "hea-closed",
+          "heating valve closed",
+          "heating-valve-closed",
+          "hea vlv cls",
+          "hea-vlv-cls",
+          "hea vlv cl",
+          "hea-vlv-cl",
+          "hea vlv cld",
+          "hea-vlv-cld"
+        ]
+      }
+    },
+    {
+      "concept": {
         "id": "heating-valve-feedback",
         "name": "Heating Valve Feedback",
         "category": "valves",
@@ -9747,6 +10009,34 @@
       "related": [
         "heating-valve-output"
       ]
+    },
+    {
+      "concept": {
+        "id": "heating-valve-open",
+        "name": "Heating Valve Open",
+        "category": "valves",
+        "description": "Binary status indicating if heating valve is open",
+        "haystack": "heating valve open sensor",
+        "brick": "Heating_Valve_Open_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Open",
+          "1": "Open"
+        }
+      },
+      "aliases": {
+        "common": [
+          "h-o",
+          "hea open",
+          "hea-open",
+          "heating valve open",
+          "heating-valve-open",
+          "hea vlv opn",
+          "hea-vlv-opn",
+          "hea vlv op",
+          "hea-vlv-op"
+        ]
+      }
     },
     {
       "concept": {
@@ -9808,6 +10098,94 @@
     },
     {
       "concept": {
+        "id": "hot-water-valve-closed",
+        "name": "Hot Water Valve Closed",
+        "category": "valves",
+        "description": "Binary status indicating if hot water valve is closed",
+        "haystack": "hot water valve closed sensor",
+        "brick": "Hot_Water_Valve_Closed_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Closed",
+          "1": "Closed"
+        }
+      },
+      "aliases": {
+        "common": [
+          "h-cl",
+          "hot closed",
+          "hot-closed",
+          "hot water valve closed",
+          "hot-water-valve-closed",
+          "hot vlv cls",
+          "hot-vlv-cls",
+          "hot vlv cl",
+          "hot-vlv-cl",
+          "hot vlv cld",
+          "hot-vlv-cld"
+        ]
+      }
+    },
+    {
+      "concept": {
+        "id": "hot-water-valve-open",
+        "name": "Hot Water Valve Open",
+        "category": "valves",
+        "description": "Binary status indicating if hot water valve is open",
+        "haystack": "hot water valve open sensor",
+        "brick": "Hot_Water_Valve_Open_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Open",
+          "1": "Open"
+        }
+      },
+      "aliases": {
+        "common": [
+          "h-o",
+          "hot open",
+          "hot-open",
+          "hot water valve open",
+          "hot-water-valve-open",
+          "hot vlv opn",
+          "hot-vlv-opn",
+          "hot vlv op",
+          "hot-vlv-op"
+        ]
+      }
+    },
+    {
+      "concept": {
+        "id": "isolation-valve-closed",
+        "name": "Isolation Valve Closed",
+        "category": "valves",
+        "description": "Binary status indicating if isolation valve is closed",
+        "haystack": "isolation valve closed sensor",
+        "brick": "Isolation_Valve_Closed_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Closed",
+          "1": "Closed"
+        }
+      },
+      "aliases": {
+        "common": [
+          "i-cl",
+          "iso closed",
+          "iso-closed",
+          "isolation valve closed",
+          "isolation-valve-closed",
+          "iso vlv cls",
+          "iso-vlv-cls",
+          "iso vlv cl",
+          "iso-vlv-cl",
+          "iso vlv cld",
+          "iso-vlv-cld"
+        ]
+      }
+    },
+    {
+      "concept": {
         "id": "isolation-valve-feedback",
         "name": "Isolation Valve Feedback",
         "category": "valves",
@@ -9853,6 +10231,34 @@
     },
     {
       "concept": {
+        "id": "isolation-valve-open",
+        "name": "Isolation Valve Open",
+        "category": "valves",
+        "description": "Binary status indicating if isolation valve is open",
+        "haystack": "isolation valve open sensor",
+        "brick": "Isolation_Valve_Open_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Open",
+          "1": "Open"
+        }
+      },
+      "aliases": {
+        "common": [
+          "i-o",
+          "iso open",
+          "iso-open",
+          "isolation valve open",
+          "isolation-valve-open",
+          "iso vlv opn",
+          "iso-vlv-opn",
+          "iso vlv op",
+          "iso-vlv-op"
+        ]
+      }
+    },
+    {
+      "concept": {
         "id": "isolation-valve-output",
         "name": "Isolation Valve Output",
         "category": "valves",
@@ -9891,6 +10297,36 @@
       "related": [
         "isolation-valve-feedback"
       ]
+    },
+    {
+      "concept": {
+        "id": "mixing-valve-closed",
+        "name": "Mixing Valve Closed",
+        "category": "valves",
+        "description": "Binary status indicating if mixing valve is closed",
+        "haystack": "mixing valve closed sensor",
+        "brick": "Mixing_Valve_Closed_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Closed",
+          "1": "Closed"
+        }
+      },
+      "aliases": {
+        "common": [
+          "m-cl",
+          "mix closed",
+          "mix-closed",
+          "mixing valve closed",
+          "mixing-valve-closed",
+          "mix vlv cls",
+          "mix-vlv-cls",
+          "mix vlv cl",
+          "mix-vlv-cl",
+          "mix vlv cld",
+          "mix-vlv-cld"
+        ]
+      }
     },
     {
       "concept": {
@@ -9938,6 +10374,34 @@
     },
     {
       "concept": {
+        "id": "mixing-valve-open",
+        "name": "Mixing Valve Open",
+        "category": "valves",
+        "description": "Binary status indicating if mixing valve is open",
+        "haystack": "mixing valve open sensor",
+        "brick": "Mixing_Valve_Open_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Open",
+          "1": "Open"
+        }
+      },
+      "aliases": {
+        "common": [
+          "m-o",
+          "mix open",
+          "mix-open",
+          "mixing valve open",
+          "mixing-valve-open",
+          "mix vlv opn",
+          "mix-vlv-opn",
+          "mix vlv op",
+          "mix-vlv-op"
+        ]
+      }
+    },
+    {
+      "concept": {
         "id": "mixing-valve-output",
         "name": "Mixing Valve Output",
         "category": "valves",
@@ -9976,6 +10440,64 @@
       "related": [
         "mixing-valve-feedback"
       ]
+    },
+    {
+      "concept": {
+        "id": "steam-valve-closed",
+        "name": "Steam Valve Closed",
+        "category": "valves",
+        "description": "Binary status indicating if steam valve is closed",
+        "haystack": "steam valve closed sensor",
+        "brick": "Steam_Valve_Closed_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Closed",
+          "1": "Closed"
+        }
+      },
+      "aliases": {
+        "common": [
+          "s-cl",
+          "ste closed",
+          "ste-closed",
+          "steam valve closed",
+          "steam-valve-closed",
+          "ste vlv cls",
+          "ste-vlv-cls",
+          "ste vlv cl",
+          "ste-vlv-cl",
+          "ste vlv cld",
+          "ste-vlv-cld"
+        ]
+      }
+    },
+    {
+      "concept": {
+        "id": "steam-valve-open",
+        "name": "Steam Valve Open",
+        "category": "valves",
+        "description": "Binary status indicating if steam valve is open",
+        "haystack": "steam valve open sensor",
+        "brick": "Steam_Valve_Open_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": "Not Open",
+          "1": "Open"
+        }
+      },
+      "aliases": {
+        "common": [
+          "s-o",
+          "ste open",
+          "ste-open",
+          "steam valve open",
+          "steam-valve-open",
+          "ste vlv opn",
+          "ste-vlv-opn",
+          "ste vlv op",
+          "ste-vlv-op"
+        ]
+      }
     }
   ],
   "equipment": [

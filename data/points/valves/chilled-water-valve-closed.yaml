@@ -1,0 +1,24 @@
+concept:
+  id: chilled-water-valve-closed
+  name: Chilled Water Valve Closed
+  category: valves
+  description: Binary status indicating if chilled water valve is closed
+  haystack: chilled water valve closed sensor
+  brick: Chilled_Water_Valve_Closed_Sensor
+  point_function: status
+  states:
+    "0": Not Closed
+    "1": Closed
+aliases:
+  common:
+    - c-cl
+    - chi closed
+    - chi-closed
+    - chilled water valve closed
+    - chilled-water-valve-closed
+    - chi vlv cls
+    - chi-vlv-cls
+    - chi vlv cl
+    - chi-vlv-cl
+    - chi vlv cld
+    - chi-vlv-cld

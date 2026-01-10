@@ -1,0 +1,24 @@
+concept:
+  id: steam-valve-closed
+  name: Steam Valve Closed
+  category: valves
+  description: Binary status indicating if steam valve is closed
+  haystack: steam valve closed sensor
+  brick: Steam_Valve_Closed_Sensor
+  point_function: status
+  states:
+    "0": Not Closed
+    "1": Closed
+aliases:
+  common:
+    - s-cl
+    - ste closed
+    - ste-closed
+    - steam valve closed
+    - steam-valve-closed
+    - ste vlv cls
+    - ste-vlv-cls
+    - ste vlv cl
+    - ste-vlv-cl
+    - ste vlv cld
+    - ste-vlv-cld

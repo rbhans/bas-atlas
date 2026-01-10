@@ -8427,6 +8427,33 @@
       ]
     },
     {
+      "id": "bypass-valve-closed",
+      "type": "point",
+      "name": "Bypass Valve Closed",
+      "tokens": [
+        "bypass valve closed",
+        "bypass-valve-closed",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "bypass",
+        "valve",
+        "is",
+        "closed",
+        "sensor",
+        "b-cl",
+        "byp closed",
+        "byp-closed",
+        "byp vlv cls",
+        "byp-vlv-cls",
+        "byp vlv cl",
+        "byp-vlv-cl",
+        "byp vlv cld",
+        "byp-vlv-cld"
+      ]
+    },
+    {
       "id": "bypass-valve-feedback",
       "type": "point",
       "name": "Bypass Valve Feedback",
@@ -8467,6 +8494,31 @@
       ]
     },
     {
+      "id": "bypass-valve-open",
+      "type": "point",
+      "name": "Bypass Valve Open",
+      "tokens": [
+        "bypass valve open",
+        "bypass-valve-open",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "bypass",
+        "valve",
+        "is",
+        "open",
+        "sensor",
+        "b-o",
+        "byp open",
+        "byp-open",
+        "byp vlv opn",
+        "byp-vlv-opn",
+        "byp vlv op",
+        "byp-vlv-op"
+      ]
+    },
+    {
       "id": "bypass-valve-output",
       "type": "point",
       "name": "Bypass Valve Output",
@@ -8498,6 +8550,114 @@
         "bypass valve out",
         "bypass-valve-out",
         "bypass vlv output"
+      ]
+    },
+    {
+      "id": "chilled-water-valve-closed",
+      "type": "point",
+      "name": "Chilled Water Valve Closed",
+      "tokens": [
+        "chilled water valve closed",
+        "chilled-water-valve-closed",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "chilled",
+        "water",
+        "valve",
+        "is",
+        "closed",
+        "sensor",
+        "c-cl",
+        "chi closed",
+        "chi-closed",
+        "chi vlv cls",
+        "chi-vlv-cls",
+        "chi vlv cl",
+        "chi-vlv-cl",
+        "chi vlv cld",
+        "chi-vlv-cld"
+      ]
+    },
+    {
+      "id": "chilled-water-valve-open",
+      "type": "point",
+      "name": "Chilled Water Valve Open",
+      "tokens": [
+        "chilled water valve open",
+        "chilled-water-valve-open",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "chilled",
+        "water",
+        "valve",
+        "is",
+        "open",
+        "sensor",
+        "c-o",
+        "chi open",
+        "chi-open",
+        "chi vlv opn",
+        "chi-vlv-opn",
+        "chi vlv op",
+        "chi-vlv-op"
+      ]
+    },
+    {
+      "id": "condenser-water-valve-closed",
+      "type": "point",
+      "name": "Condenser Water Valve Closed",
+      "tokens": [
+        "condenser water valve closed",
+        "condenser-water-valve-closed",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "condenser",
+        "water",
+        "valve",
+        "is",
+        "closed",
+        "sensor",
+        "c-cl",
+        "con closed",
+        "con-closed",
+        "con vlv cls",
+        "con-vlv-cls",
+        "con vlv cl",
+        "con-vlv-cl",
+        "con vlv cld",
+        "con-vlv-cld"
+      ]
+    },
+    {
+      "id": "condenser-water-valve-open",
+      "type": "point",
+      "name": "Condenser Water Valve Open",
+      "tokens": [
+        "condenser water valve open",
+        "condenser-water-valve-open",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "condenser",
+        "water",
+        "valve",
+        "is",
+        "open",
+        "sensor",
+        "c-o",
+        "con open",
+        "con-open",
+        "con vlv opn",
+        "con-vlv-opn",
+        "con vlv op",
+        "con-vlv-op"
       ]
     },
     {
@@ -8573,6 +8733,33 @@
       ]
     },
     {
+      "id": "cooling-valve-closed",
+      "type": "point",
+      "name": "Cooling Valve Closed",
+      "tokens": [
+        "cooling valve closed",
+        "cooling-valve-closed",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "cooling",
+        "valve",
+        "is",
+        "closed",
+        "sensor",
+        "c-cl",
+        "coo closed",
+        "coo-closed",
+        "coo vlv cls",
+        "coo-vlv-cls",
+        "coo vlv cl",
+        "coo-vlv-cl",
+        "coo vlv cld",
+        "coo-vlv-cld"
+      ]
+    },
+    {
       "id": "cooling-valve-feedback",
       "type": "point",
       "name": "Cooling Valve Feedback",
@@ -8625,6 +8812,31 @@
         "cooling-valve-fb",
         "clg valve feedback",
         "clg-valve-feedback"
+      ]
+    },
+    {
+      "id": "cooling-valve-open",
+      "type": "point",
+      "name": "Cooling Valve Open",
+      "tokens": [
+        "cooling valve open",
+        "cooling-valve-open",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "cooling",
+        "valve",
+        "is",
+        "open",
+        "sensor",
+        "c-o",
+        "coo open",
+        "coo-open",
+        "coo vlv opn",
+        "coo-vlv-opn",
+        "coo vlv op",
+        "coo-vlv-op"
       ]
     },
     {
@@ -8688,6 +8900,33 @@
       ]
     },
     {
+      "id": "heating-valve-closed",
+      "type": "point",
+      "name": "Heating Valve Closed",
+      "tokens": [
+        "heating valve closed",
+        "heating-valve-closed",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "heating",
+        "valve",
+        "is",
+        "closed",
+        "sensor",
+        "h-cl",
+        "hea closed",
+        "hea-closed",
+        "hea vlv cls",
+        "hea-vlv-cls",
+        "hea vlv cl",
+        "hea-vlv-cl",
+        "hea vlv cld",
+        "hea-vlv-cld"
+      ]
+    },
+    {
       "id": "heating-valve-feedback",
       "type": "point",
       "name": "Heating Valve Feedback",
@@ -8732,6 +8971,31 @@
         "heating-valve-fb",
         "htg valve feedback",
         "htg-valve-feedback"
+      ]
+    },
+    {
+      "id": "heating-valve-open",
+      "type": "point",
+      "name": "Heating Valve Open",
+      "tokens": [
+        "heating valve open",
+        "heating-valve-open",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "heating",
+        "valve",
+        "is",
+        "open",
+        "sensor",
+        "h-o",
+        "hea open",
+        "hea-open",
+        "hea vlv opn",
+        "hea-vlv-opn",
+        "hea vlv op",
+        "hea-vlv-op"
       ]
     },
     {
@@ -8786,6 +9050,87 @@
       ]
     },
     {
+      "id": "hot-water-valve-closed",
+      "type": "point",
+      "name": "Hot Water Valve Closed",
+      "tokens": [
+        "hot water valve closed",
+        "hot-water-valve-closed",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "hot",
+        "water",
+        "valve",
+        "is",
+        "closed",
+        "sensor",
+        "h-cl",
+        "hot closed",
+        "hot-closed",
+        "hot vlv cls",
+        "hot-vlv-cls",
+        "hot vlv cl",
+        "hot-vlv-cl",
+        "hot vlv cld",
+        "hot-vlv-cld"
+      ]
+    },
+    {
+      "id": "hot-water-valve-open",
+      "type": "point",
+      "name": "Hot Water Valve Open",
+      "tokens": [
+        "hot water valve open",
+        "hot-water-valve-open",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "hot",
+        "water",
+        "valve",
+        "is",
+        "open",
+        "sensor",
+        "h-o",
+        "hot open",
+        "hot-open",
+        "hot vlv opn",
+        "hot-vlv-opn",
+        "hot vlv op",
+        "hot-vlv-op"
+      ]
+    },
+    {
+      "id": "isolation-valve-closed",
+      "type": "point",
+      "name": "Isolation Valve Closed",
+      "tokens": [
+        "isolation valve closed",
+        "isolation-valve-closed",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "isolation",
+        "valve",
+        "is",
+        "closed",
+        "sensor",
+        "i-cl",
+        "iso closed",
+        "iso-closed",
+        "iso vlv cls",
+        "iso-vlv-cls",
+        "iso vlv cl",
+        "iso-vlv-cl",
+        "iso vlv cld",
+        "iso-vlv-cld"
+      ]
+    },
+    {
       "id": "isolation-valve-feedback",
       "type": "point",
       "name": "Isolation Valve Feedback",
@@ -8825,6 +9170,31 @@
       ]
     },
     {
+      "id": "isolation-valve-open",
+      "type": "point",
+      "name": "Isolation Valve Open",
+      "tokens": [
+        "isolation valve open",
+        "isolation-valve-open",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "isolation",
+        "valve",
+        "is",
+        "open",
+        "sensor",
+        "i-o",
+        "iso open",
+        "iso-open",
+        "iso vlv opn",
+        "iso-vlv-opn",
+        "iso vlv op",
+        "iso-vlv-op"
+      ]
+    },
+    {
       "id": "isolation-valve-output",
       "type": "point",
       "name": "Isolation Valve Output",
@@ -8855,6 +9225,33 @@
         "iso-valve-output",
         "isolation valve out",
         "isolation-valve-out"
+      ]
+    },
+    {
+      "id": "mixing-valve-closed",
+      "type": "point",
+      "name": "Mixing Valve Closed",
+      "tokens": [
+        "mixing valve closed",
+        "mixing-valve-closed",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "mixing",
+        "valve",
+        "is",
+        "closed",
+        "sensor",
+        "m-cl",
+        "mix closed",
+        "mix-closed",
+        "mix vlv cls",
+        "mix-vlv-cls",
+        "mix vlv cl",
+        "mix-vlv-cl",
+        "mix vlv cld",
+        "mix-vlv-cld"
       ]
     },
     {
@@ -8896,6 +9293,31 @@
       ]
     },
     {
+      "id": "mixing-valve-open",
+      "type": "point",
+      "name": "Mixing Valve Open",
+      "tokens": [
+        "mixing valve open",
+        "mixing-valve-open",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "mixing",
+        "valve",
+        "is",
+        "open",
+        "sensor",
+        "m-o",
+        "mix open",
+        "mix-open",
+        "mix vlv opn",
+        "mix-vlv-opn",
+        "mix vlv op",
+        "mix-vlv-op"
+      ]
+    },
+    {
       "id": "mixing-valve-output",
       "type": "point",
       "name": "Mixing Valve Output",
@@ -8926,6 +9348,58 @@
         "mix-valve-output",
         "mixing valve out",
         "mixing-valve-out"
+      ]
+    },
+    {
+      "id": "steam-valve-closed",
+      "type": "point",
+      "name": "Steam Valve Closed",
+      "tokens": [
+        "steam valve closed",
+        "steam-valve-closed",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "steam",
+        "valve",
+        "is",
+        "closed",
+        "sensor",
+        "s-cl",
+        "ste closed",
+        "ste-closed",
+        "ste vlv cls",
+        "ste-vlv-cls",
+        "ste vlv cl",
+        "ste-vlv-cl",
+        "ste vlv cld",
+        "ste-vlv-cld"
+      ]
+    },
+    {
+      "id": "steam-valve-open",
+      "type": "point",
+      "name": "Steam Valve Open",
+      "tokens": [
+        "steam valve open",
+        "steam-valve-open",
+        "binary",
+        "status",
+        "indicating",
+        "if",
+        "steam",
+        "valve",
+        "is",
+        "open",
+        "sensor",
+        "s-o",
+        "ste open",
+        "ste-open",
+        "ste vlv opn",
+        "ste-vlv-opn",
+        "ste vlv op",
+        "ste-vlv-op"
       ]
     },
     {

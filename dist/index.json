@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-03T03:17:02.322Z",
+  "lastUpdated": "2026-02-03T03:30:13.347Z",
   "totalPoints": 220,
   "totalEquipment": 42,
   "points": [
@@ -8823,7 +8823,7 @@
         "name": "Run Time",
         "category": "status",
         "description": "Accumulated equipment run time hours",
-        "haystack": "-",
+        "haystack": "run total sensor",
         "brick": "-",
         "point_function": "sensor",
         "unit": [

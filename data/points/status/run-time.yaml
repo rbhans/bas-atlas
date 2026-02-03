@@ -3,7 +3,7 @@ concept:
   name: Run Time
   category: status
   description: Accumulated equipment run time hours
-  haystack: "-"
+  haystack: run total sensor
   brick: "-"
   point_function: sensor
   unit:

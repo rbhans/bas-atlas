@@ -12,6 +12,7 @@ concept:
 aliases:
   common:
     - c-l
+    - lwt
     - clt
     - cst
     - clwt

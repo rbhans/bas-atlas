@@ -77,13 +77,13 @@
       "id": "setpoints",
       "name": "Setpoints",
       "type": "points",
-      "count": 15
+      "count": 16
     },
     {
       "id": "status",
       "name": "Status",
       "type": "points",
-      "count": 20
+      "count": 21
     },
     {
       "id": "temperatures",

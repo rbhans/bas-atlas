@@ -1,0 +1,23 @@
+concept:
+  id: run-time
+  name: Run Time
+  category: status
+  description: Accumulated equipment run time hours
+  haystack: "-"
+  brick: "-"
+  point_function: sensor
+  unit:
+    - hr
+    - h
+aliases:
+  common:
+    - runt
+    - run time
+    - runtime
+    - run hr
+    - run-hr
+    - run hrs
+    - run-hrs
+    - runhours
+    - run-hours
+    - run-time

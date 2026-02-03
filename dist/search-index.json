@@ -5164,6 +5164,7 @@
         "sensor",
         "dp",
         "sp",
+        "stp",
         "d-p",
         "d-s",
         "dap",
@@ -6240,6 +6241,30 @@
       ]
     },
     {
+      "id": "zone-temperature-setpoint",
+      "type": "point",
+      "name": "Zone Temperature Setpoint",
+      "tokens": [
+        "zone temperature setpoint",
+        "zone-temperature-setpoint",
+        "zone",
+        "temperature",
+        "setpoint",
+        "point",
+        "air",
+        "temp",
+        "sp",
+        "zn-sp",
+        "zn sp",
+        "zone sp",
+        "zone setpoint",
+        "zone temp sp",
+        "zt sp",
+        "zone-temp-setpoint",
+        "zone-temp-sp"
+      ]
+    },
+    {
       "id": "boiler-pump-status",
       "type": "point",
       "name": "Boiler Pump Status",
@@ -7057,6 +7082,29 @@
       ]
     },
     {
+      "id": "run-time",
+      "type": "point",
+      "name": "Run Time",
+      "tokens": [
+        "run time",
+        "run-time",
+        "accumulated",
+        "equipment",
+        "run",
+        "time",
+        "hours",
+        "-",
+        "runt",
+        "runtime",
+        "run hr",
+        "run-hr",
+        "run hrs",
+        "run-hrs",
+        "runhours",
+        "run-hours"
+      ]
+    },
+    {
       "id": "secondary-chilled-water-pump-status",
       "type": "point",
       "name": "Secondary Chilled Water Pump Status",
@@ -7224,6 +7272,7 @@
         "temp",
         "sensor",
         "c-e",
+        "ewt",
         "cet",
         "crt",
         "cewt",
@@ -7295,6 +7344,7 @@
         "temp",
         "sensor",
         "c-l",
+        "lwt",
         "clt",
         "cst",
         "clwt",

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-10T18:50:24.032Z",
-  "totalPoints": 218,
+  "lastUpdated": "2026-02-03T03:17:02.322Z",
+  "totalPoints": 220,
   "totalEquipment": 42,
   "points": [
     {
@@ -6449,6 +6449,7 @@
         "common": [
           "dp",
           "sp",
+          "stp",
           "d-p",
           "d-s",
           "dap",
@@ -7694,6 +7695,34 @@
     },
     {
       "concept": {
+        "id": "zone-temperature-setpoint",
+        "name": "Zone Temperature Setpoint",
+        "category": "setpoints",
+        "description": "Zone Temperature Setpoint point",
+        "haystack": "zone air temp sp",
+        "brick": "Zone_Air_Temperature_Setpoint",
+        "point_function": "setpoint",
+        "unit": [
+          "°F",
+          "°C"
+        ]
+      },
+      "aliases": {
+        "common": [
+          "zn-sp",
+          "zn sp",
+          "zone sp",
+          "zone setpoint",
+          "zone temp sp",
+          "zt sp",
+          "zone temperature setpoint",
+          "zone-temp-setpoint",
+          "zone-temp-sp"
+        ]
+      }
+    },
+    {
+      "concept": {
         "id": "boiler-pump-status",
         "name": "Boiler Pump Status",
         "category": "status",
@@ -8790,6 +8819,35 @@
     },
     {
       "concept": {
+        "id": "run-time",
+        "name": "Run Time",
+        "category": "status",
+        "description": "Accumulated equipment run time hours",
+        "haystack": "-",
+        "brick": "-",
+        "point_function": "sensor",
+        "unit": [
+          "hr",
+          "h"
+        ]
+      },
+      "aliases": {
+        "common": [
+          "runt",
+          "run time",
+          "runtime",
+          "run hr",
+          "run-hr",
+          "run hrs",
+          "run-hrs",
+          "runhours",
+          "run-hours",
+          "run-time"
+        ]
+      }
+    },
+    {
+      "concept": {
         "id": "secondary-chilled-water-pump-status",
         "name": "Secondary Chilled Water Pump Status",
         "category": "status",
@@ -9007,6 +9065,7 @@
       "aliases": {
         "common": [
           "c-e",
+          "ewt",
           "cet",
           "crt",
           "cewt",
@@ -9081,6 +9140,7 @@
       "aliases": {
         "common": [
           "c-l",
+          "lwt",
           "clt",
           "cst",
           "clwt",

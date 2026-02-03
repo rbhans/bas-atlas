@@ -13,6 +13,7 @@ aliases:
   common:
     - dp
     - sp
+    - stp
     - d-p
     - d-s
     - dap

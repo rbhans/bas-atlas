@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "trane-tracer-sc-plus",
+    "brand": "trane",
+    "type": "supervisory-controllers",
+    "name": "Tracer SC+",
+    "slug": "tracer-sc-plus",
+    "model_numbers": ["SC+"],
+    "protocols": ["BACnet", "N2"],
+    "status": "current",
+    "description": "Building automation system supervisory controller.",
+    "manufacturer_url": "https://www.trane.com",
+    "image_url": "",
+    "added_at": "2026-02-01"
+  }
+}

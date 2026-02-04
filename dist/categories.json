@@ -2,18 +2,441 @@
   "version": "1.0.0",
   "brands": [
     {
+      "id": "abb",
+      "name": "ABB",
+      "slug": "abb",
+      "count": 3,
+      "types": [
+        {
+          "id": "vfds-drives",
+          "name": "VFDs / Drives",
+          "slug": "vfds-drives",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "armstrong",
+      "name": "Armstrong",
+      "slug": "armstrong",
+      "count": 2,
+      "types": [
+        {
+          "id": "pumps",
+          "name": "Pumps",
+          "slug": "pumps",
+          "count": 2
+        }
+      ]
+    },
+    {
       "id": "automated-logic",
       "name": "Automated Logic",
       "slug": "automated-logic",
-      "count": 0,
-      "types": []
+      "count": 5,
+      "types": [
+        {
+          "id": "network-controllers",
+          "name": "Network Controllers",
+          "slug": "network-controllers",
+          "count": 1
+        },
+        {
+          "id": "software",
+          "name": "Software",
+          "slug": "software",
+          "count": 1
+        },
+        {
+          "id": "unitary-controllers",
+          "name": "Unitary Controllers",
+          "slug": "unitary-controllers",
+          "count": 1
+        },
+        {
+          "id": "vav-controllers",
+          "name": "VAV Controllers",
+          "slug": "vav-controllers",
+          "count": 1
+        },
+        {
+          "id": "zone-controllers",
+          "name": "Zone Controllers",
+          "slug": "zone-controllers",
+          "count": 1
+        }
+      ]
     },
     {
       "id": "belimo",
       "name": "Belimo",
       "slug": "belimo",
+      "count": 5,
+      "types": [
+        {
+          "id": "damper-actuators",
+          "name": "Damper Actuators",
+          "slug": "damper-actuators",
+          "count": 2
+        },
+        {
+          "id": "valve-actuators",
+          "name": "Valve Actuators",
+          "slug": "valve-actuators",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bell-gossett",
+      "name": "Bell & Gossett",
+      "slug": "bell-gossett",
+      "count": 2,
+      "types": [
+        {
+          "id": "pumps",
+          "name": "Pumps",
+          "slug": "pumps",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "carrier",
+      "name": "Carrier",
+      "slug": "carrier",
+      "count": 13,
+      "types": [
+        {
+          "id": "ahus",
+          "name": "Air Handling Units (AHUs)",
+          "slug": "ahus",
+          "count": 1
+        },
+        {
+          "id": "chillers",
+          "name": "Chillers",
+          "slug": "chillers",
+          "count": 3
+        },
+        {
+          "id": "erv-hrv",
+          "name": "ERVs / HRVs",
+          "slug": "erv-hrv",
+          "count": 1
+        },
+        {
+          "id": "fcus",
+          "name": "Fan Coil Units (FCUs)",
+          "slug": "fcus",
+          "count": 1
+        },
+        {
+          "id": "heat-pumps",
+          "name": "Heat Pumps",
+          "slug": "heat-pumps",
+          "count": 2
+        },
+        {
+          "id": "rtus",
+          "name": "Rooftop Units (RTUs)",
+          "slug": "rtus",
+          "count": 2
+        },
+        {
+          "id": "split-systems",
+          "name": "Split Systems",
+          "slug": "split-systems",
+          "count": 1
+        },
+        {
+          "id": "vav-boxes",
+          "name": "VAV Boxes",
+          "slug": "vav-boxes",
+          "count": 1
+        },
+        {
+          "id": "vrf-systems",
+          "name": "VRF Systems",
+          "slug": "vrf-systems",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "contemporary-controls",
+      "name": "Contemporary Controls",
+      "slug": "contemporary-controls",
+      "count": 2,
+      "types": [
+        {
+          "id": "gateways",
+          "name": "Gateways & Routers",
+          "slug": "gateways",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "daikin",
+      "name": "Daikin",
+      "slug": "daikin",
+      "count": 3,
+      "types": [
+        {
+          "id": "ahus",
+          "name": "Air Handling Units (AHUs)",
+          "slug": "ahus",
+          "count": 1
+        },
+        {
+          "id": "chillers",
+          "name": "Chillers",
+          "slug": "chillers",
+          "count": 1
+        },
+        {
+          "id": "vrf-systems",
+          "name": "VRF Systems",
+          "slug": "vrf-systems",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "danfoss",
+      "name": "Danfoss",
+      "slug": "danfoss",
+      "count": 3,
+      "types": [
+        {
+          "id": "vfds-drives",
+          "name": "VFDs / Drives",
+          "slug": "vfds-drives",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "delta-controls",
+      "name": "Delta Controls",
+      "slug": "delta-controls",
+      "count": 3,
+      "types": [
+        {
+          "id": "network-controllers",
+          "name": "Network Controllers",
+          "slug": "network-controllers",
+          "count": 1
+        },
+        {
+          "id": "supervisory-controllers",
+          "name": "Supervisory Controllers",
+          "slug": "supervisory-controllers",
+          "count": 1
+        },
+        {
+          "id": "unitary-controllers",
+          "name": "Unitary Controllers",
+          "slug": "unitary-controllers",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "distech-controls",
+      "name": "Distech Controls",
+      "slug": "distech-controls",
+      "count": 3,
+      "types": [
+        {
+          "id": "network-controllers",
+          "name": "Network Controllers",
+          "slug": "network-controllers",
+          "count": 1
+        },
+        {
+          "id": "supervisory-controllers",
+          "name": "Supervisory Controllers",
+          "slug": "supervisory-controllers",
+          "count": 1
+        },
+        {
+          "id": "thermostats",
+          "name": "Thermostats",
+          "slug": "thermostats",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "grundfos",
+      "name": "Grundfos",
+      "slug": "grundfos",
+      "count": 3,
+      "types": [
+        {
+          "id": "pumps",
+          "name": "Pumps",
+          "slug": "pumps",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "honeywell",
+      "name": "Honeywell",
+      "slug": "honeywell",
+      "count": 11,
+      "types": [
+        {
+          "id": "damper-actuators",
+          "name": "Damper Actuators",
+          "slug": "damper-actuators",
+          "count": 2
+        },
+        {
+          "id": "humidity-sensors",
+          "name": "Humidity Sensors",
+          "slug": "humidity-sensors",
+          "count": 1
+        },
+        {
+          "id": "pressure-sensors",
+          "name": "Pressure Sensors",
+          "slug": "pressure-sensors",
+          "count": 1
+        },
+        {
+          "id": "supervisory-controllers",
+          "name": "Supervisory Controllers",
+          "slug": "supervisory-controllers",
+          "count": 1
+        },
+        {
+          "id": "thermostats",
+          "name": "Thermostats",
+          "slug": "thermostats",
+          "count": 2
+        },
+        {
+          "id": "unitary-controllers",
+          "name": "Unitary Controllers",
+          "slug": "unitary-controllers",
+          "count": 2
+        },
+        {
+          "id": "valve-actuators",
+          "name": "Valve Actuators",
+          "slug": "valve-actuators",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "johnson-controls",
+      "name": "Johnson Controls",
+      "slug": "johnson-controls",
+      "count": 7,
+      "types": [
+        {
+          "id": "fcus",
+          "name": "Fan Coil Units (FCUs)",
+          "slug": "fcus",
+          "count": 1
+        },
+        {
+          "id": "network-controllers",
+          "name": "Network Controllers",
+          "slug": "network-controllers",
+          "count": 1
+        },
+        {
+          "id": "supervisory-controllers",
+          "name": "Supervisory Controllers",
+          "slug": "supervisory-controllers",
+          "count": 3
+        },
+        {
+          "id": "unitary-controllers",
+          "name": "Unitary Controllers",
+          "slug": "unitary-controllers",
+          "count": 1
+        },
+        {
+          "id": "vav-controllers",
+          "name": "VAV Controllers",
+          "slug": "vav-controllers",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "lennox",
+      "name": "Lennox",
+      "slug": "lennox",
+      "count": 2,
+      "types": [
+        {
+          "id": "rtus",
+          "name": "Rooftop Units (RTUs)",
+          "slug": "rtus",
+          "count": 1
+        },
+        {
+          "id": "split-systems",
+          "name": "Split Systems",
+          "slug": "split-systems",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "liebert",
+      "name": "Liebert",
+      "slug": "liebert",
+      "count": 2,
+      "types": [
+        {
+          "id": "crac-units",
+          "name": "CRAC Units",
+          "slug": "crac-units",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mcquay",
+      "name": "McQuay",
+      "slug": "mcquay",
       "count": 1,
       "types": [
+        {
+          "id": "chillers",
+          "name": "Chillers",
+          "slug": "chillers",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "neptronic",
+      "name": "Neptronic",
+      "slug": "neptronic",
+      "count": 4,
+      "types": [
+        {
+          "id": "damper-actuators",
+          "name": "Damper Actuators",
+          "slug": "damper-actuators",
+          "count": 1
+        },
+        {
+          "id": "humidifiers",
+          "name": "Humidifiers",
+          "slug": "humidifiers",
+          "count": 2
+        },
         {
           "id": "valve-actuators",
           "name": "Valve Actuators",
@@ -23,57 +446,171 @@
       ]
     },
     {
-      "id": "delta-controls",
-      "name": "Delta Controls",
-      "slug": "delta-controls",
-      "count": 0,
-      "types": []
-    },
-    {
-      "id": "distech-controls",
-      "name": "Distech Controls",
-      "slug": "distech-controls",
-      "count": 0,
-      "types": []
-    },
-    {
-      "id": "honeywell",
-      "name": "Honeywell",
-      "slug": "honeywell",
-      "count": 0,
-      "types": []
-    },
-    {
-      "id": "johnson-controls",
-      "name": "Johnson Controls",
-      "slug": "johnson-controls",
-      "count": 0,
-      "types": []
-    },
-    {
       "id": "schneider-electric",
       "name": "Schneider Electric",
       "slug": "schneider-electric",
-      "count": 0,
-      "types": []
+      "count": 4,
+      "types": [
+        {
+          "id": "software",
+          "name": "Software",
+          "slug": "software",
+          "count": 1
+        },
+        {
+          "id": "supervisory-controllers",
+          "name": "Supervisory Controllers",
+          "slug": "supervisory-controllers",
+          "count": 1
+        },
+        {
+          "id": "unitary-controllers",
+          "name": "Unitary Controllers",
+          "slug": "unitary-controllers",
+          "count": 1
+        },
+        {
+          "id": "zone-controllers",
+          "name": "Zone Controllers",
+          "slug": "zone-controllers",
+          "count": 1
+        }
+      ]
     },
     {
       "id": "siemens",
       "name": "Siemens",
       "slug": "siemens",
-      "count": 0,
-      "types": []
+      "count": 9,
+      "types": [
+        {
+          "id": "air-quality-sensors",
+          "name": "Air Quality Sensors",
+          "slug": "air-quality-sensors",
+          "count": 1
+        },
+        {
+          "id": "damper-actuators",
+          "name": "Damper Actuators",
+          "slug": "damper-actuators",
+          "count": 2
+        },
+        {
+          "id": "pressure-sensors",
+          "name": "Pressure Sensors",
+          "slug": "pressure-sensors",
+          "count": 1
+        },
+        {
+          "id": "software",
+          "name": "Software",
+          "slug": "software",
+          "count": 1
+        },
+        {
+          "id": "supervisory-controllers",
+          "name": "Supervisory Controllers",
+          "slug": "supervisory-controllers",
+          "count": 1
+        },
+        {
+          "id": "temperature-sensors",
+          "name": "Temperature Sensors",
+          "slug": "temperature-sensors",
+          "count": 1
+        },
+        {
+          "id": "thermostats",
+          "name": "Thermostats",
+          "slug": "thermostats",
+          "count": 1
+        },
+        {
+          "id": "valve-actuators",
+          "name": "Valve Actuators",
+          "slug": "valve-actuators",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "taco",
+      "name": "Taco Comfort Solutions",
+      "slug": "taco",
+      "count": 2,
+      "types": [
+        {
+          "id": "pumps",
+          "name": "Pumps",
+          "slug": "pumps",
+          "count": 2
+        }
+      ]
     },
     {
       "id": "trane",
       "name": "Trane",
       "slug": "trane",
-      "count": 1,
+      "count": 15,
       "types": [
+        {
+          "id": "ahus",
+          "name": "Air Handling Units (AHUs)",
+          "slug": "ahus",
+          "count": 1
+        },
+        {
+          "id": "chillers",
+          "name": "Chillers",
+          "slug": "chillers",
+          "count": 3
+        },
+        {
+          "id": "fcus",
+          "name": "Fan Coil Units (FCUs)",
+          "slug": "fcus",
+          "count": 1
+        },
+        {
+          "id": "heat-pumps",
+          "name": "Heat Pumps",
+          "slug": "heat-pumps",
+          "count": 2
+        },
+        {
+          "id": "rtus",
+          "name": "Rooftop Units (RTUs)",
+          "slug": "rtus",
+          "count": 2
+        },
+        {
+          "id": "split-systems",
+          "name": "Split Systems",
+          "slug": "split-systems",
+          "count": 1
+        },
         {
           "id": "supervisory-controllers",
           "name": "Supervisory Controllers",
           "slug": "supervisory-controllers",
+          "count": 2
+        },
+        {
+          "id": "unitary-controllers",
+          "name": "Unitary Controllers",
+          "slug": "unitary-controllers",
+          "count": 1
+        },
+        {
+          "id": "vav-boxes",
+          "name": "VAV Boxes",
+          "slug": "vav-boxes",
+          "count": 1
+        },
+        {
+          "id": "vav-controllers",
+          "name": "VAV Controllers",
+          "slug": "vav-controllers",
           "count": 1
         }
       ]
@@ -82,12 +619,100 @@
       "id": "veris",
       "name": "Veris",
       "slug": "veris",
-      "count": 1,
+      "count": 12,
       "types": [
+        {
+          "id": "co2-sensors",
+          "name": "CO2 Sensors",
+          "slug": "co2-sensors",
+          "count": 2
+        },
+        {
+          "id": "flow-sensors",
+          "name": "Flow Sensors",
+          "slug": "flow-sensors",
+          "count": 1
+        },
+        {
+          "id": "humidity-sensors",
+          "name": "Humidity Sensors",
+          "slug": "humidity-sensors",
+          "count": 2
+        },
+        {
+          "id": "meters",
+          "name": "Meters",
+          "slug": "meters",
+          "count": 2
+        },
+        {
+          "id": "occupancy-sensors",
+          "name": "Occupancy Sensors",
+          "slug": "occupancy-sensors",
+          "count": 1
+        },
+        {
+          "id": "pressure-sensors",
+          "name": "Pressure Sensors",
+          "slug": "pressure-sensors",
+          "count": 1
+        },
         {
           "id": "temperature-sensors",
           "name": "Temperature Sensors",
           "slug": "temperature-sensors",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "yaskawa",
+      "name": "Yaskawa",
+      "slug": "yaskawa",
+      "count": 2,
+      "types": [
+        {
+          "id": "vfds-drives",
+          "name": "VFDs / Drives",
+          "slug": "vfds-drives",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "york",
+      "name": "York",
+      "slug": "york",
+      "count": 7,
+      "types": [
+        {
+          "id": "ahus",
+          "name": "Air Handling Units (AHUs)",
+          "slug": "ahus",
+          "count": 1
+        },
+        {
+          "id": "chillers",
+          "name": "Chillers",
+          "slug": "chillers",
+          "count": 3
+        },
+        {
+          "id": "erv-hrv",
+          "name": "ERVs / HRVs",
+          "slug": "erv-hrv",
+          "count": 1
+        },
+        {
+          "id": "rtus",
+          "name": "Rooftop Units (RTUs)",
+          "slug": "rtus",
+          "count": 1
+        },
+        {
+          "id": "vav-boxes",
+          "name": "VAV Boxes",
+          "slug": "vav-boxes",
           "count": 1
         }
       ]
@@ -95,52 +720,118 @@
   ],
   "types": [
     {
+      "id": "ahus",
+      "name": "Air Handling Units (AHUs)",
+      "slug": "ahus",
+      "count": 4
+    },
+    {
       "id": "air-quality-sensors",
       "name": "Air Quality Sensors",
       "slug": "air-quality-sensors",
+      "count": 1
+    },
+    {
+      "id": "boilers",
+      "name": "Boilers",
+      "slug": "boilers",
       "count": 0
+    },
+    {
+      "id": "chillers",
+      "name": "Chillers",
+      "slug": "chillers",
+      "count": 11
     },
     {
       "id": "co2-sensors",
       "name": "CO2 Sensors",
       "slug": "co2-sensors",
+      "count": 2
+    },
+    {
+      "id": "cooling-towers",
+      "name": "Cooling Towers",
+      "slug": "cooling-towers",
       "count": 0
+    },
+    {
+      "id": "crac-units",
+      "name": "CRAC Units",
+      "slug": "crac-units",
+      "count": 2
     },
     {
       "id": "damper-actuators",
       "name": "Damper Actuators",
       "slug": "damper-actuators",
+      "count": 7
+    },
+    {
+      "id": "erv-hrv",
+      "name": "ERVs / HRVs",
+      "slug": "erv-hrv",
+      "count": 2
+    },
+    {
+      "id": "exhaust-fans",
+      "name": "Exhaust Fans",
+      "slug": "exhaust-fans",
       "count": 0
     },
     {
+      "id": "fcus",
+      "name": "Fan Coil Units (FCUs)",
+      "slug": "fcus",
+      "count": 3
+    },
+    {
+      "id": "flow-sensors",
+      "name": "Flow Sensors",
+      "slug": "flow-sensors",
+      "count": 1
+    },
+    {
       "id": "gateways",
-      "name": "Gateways",
+      "name": "Gateways & Routers",
       "slug": "gateways",
-      "count": 0
+      "count": 2
+    },
+    {
+      "id": "heat-pumps",
+      "name": "Heat Pumps",
+      "slug": "heat-pumps",
+      "count": 4
+    },
+    {
+      "id": "humidifiers",
+      "name": "Humidifiers",
+      "slug": "humidifiers",
+      "count": 2
     },
     {
       "id": "humidity-sensors",
       "name": "Humidity Sensors",
       "slug": "humidity-sensors",
-      "count": 0
+      "count": 3
     },
     {
       "id": "meters",
       "name": "Meters",
       "slug": "meters",
-      "count": 0
+      "count": 2
     },
     {
       "id": "network-controllers",
       "name": "Network Controllers",
       "slug": "network-controllers",
-      "count": 0
+      "count": 4
     },
     {
       "id": "occupancy-sensors",
       "name": "Occupancy Sensors",
       "slug": "occupancy-sensors",
-      "count": 0
+      "count": 1
     },
     {
       "id": "other",
@@ -152,61 +843,91 @@
       "id": "pressure-sensors",
       "name": "Pressure Sensors",
       "slug": "pressure-sensors",
-      "count": 0
+      "count": 3
+    },
+    {
+      "id": "pumps",
+      "name": "Pumps",
+      "slug": "pumps",
+      "count": 9
+    },
+    {
+      "id": "rtus",
+      "name": "Rooftop Units (RTUs)",
+      "slug": "rtus",
+      "count": 6
     },
     {
       "id": "software",
       "name": "Software",
       "slug": "software",
-      "count": 0
+      "count": 3
+    },
+    {
+      "id": "split-systems",
+      "name": "Split Systems",
+      "slug": "split-systems",
+      "count": 3
     },
     {
       "id": "supervisory-controllers",
       "name": "Supervisory Controllers",
       "slug": "supervisory-controllers",
-      "count": 1
+      "count": 10
     },
     {
       "id": "temperature-sensors",
       "name": "Temperature Sensors",
       "slug": "temperature-sensors",
-      "count": 1
+      "count": 4
     },
     {
       "id": "thermostats",
       "name": "Thermostats",
       "slug": "thermostats",
-      "count": 0
+      "count": 4
     },
     {
       "id": "unitary-controllers",
       "name": "Unitary Controllers",
       "slug": "unitary-controllers",
-      "count": 0
+      "count": 7
     },
     {
       "id": "valve-actuators",
       "name": "Valve Actuators",
       "slug": "valve-actuators",
-      "count": 1
+      "count": 7
+    },
+    {
+      "id": "vav-boxes",
+      "name": "VAV Boxes",
+      "slug": "vav-boxes",
+      "count": 3
     },
     {
       "id": "vav-controllers",
       "name": "VAV Controllers",
       "slug": "vav-controllers",
-      "count": 0
+      "count": 3
     },
     {
       "id": "vfds-drives",
       "name": "VFDs / Drives",
       "slug": "vfds-drives",
-      "count": 0
+      "count": 8
+    },
+    {
+      "id": "vrf-systems",
+      "name": "VRF Systems",
+      "slug": "vrf-systems",
+      "count": 2
     },
     {
       "id": "zone-controllers",
       "name": "Zone Controllers",
       "slug": "zone-controllers",
-      "count": 0
+      "count": 2
     }
   ]
 }

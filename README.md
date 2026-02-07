@@ -44,32 +44,35 @@ concept:
   id: zone-temperature
   name: Zone Temperature
   category: temperatures
-  description: Sensed temperature of air in occupied zone/space
+  description: Sensed temperature of air in occupied zone or space
   haystack: zone air temp sensor
   brick: Zone_Air_Temperature_Sensor
-  unit: degF
-  typical_range:
-    min: 55
-    max: 85
-  object_type: analogInput
+  unit:
+    - °F
+    - °C
+  point_function: sensor
 
 aliases:
   common:
     - zn-t
     - zone temp
-    - ZoneTemp
+    - zonetemp
     - zt
     - zat
     - room temperature
+    - space temperature
   misspellings:
     - temperture
     - tempreture
 
 notes:
-  - Often abbreviated as ZAT in industry
+  - Often abbreviated as ZAT (Zone Air Temp) or RAT (Room Air Temp)
 
 related:
   - discharge-air-temperature
+  - return-air-temperature
+  - occupied-cooling-setpoint
+  - occupied-heating-setpoint
 ```
 
 ### Equipment
@@ -80,7 +83,7 @@ equipment:
     name: Air Handling Unit
     abbreviation: AHU
     category: air-handling
-    description: Central air conditioning unit that conditions and circulates air
+    description: Central air conditioning unit that conditions and circulates air through ductwork
     haystack: ahu
     brick: Air_Handling_Unit
     aliases:
@@ -88,38 +91,53 @@ equipment:
         - AHU
         - air handler
         - central air handler
+        - air handling equipment
     typical_points:
+      - supply-fan-command
       - supply-fan-status
+      - supply-air-temperature
       - discharge-air-temperature
+      - outside-air-damper-output
+      - cooling-valve-output
+      - heating-valve-output
+      - filter-alarm
 ```
 
 ## Categories
 
-### Equipment
-- **Air Handling** - AHUs, RTUs, MAUs, DOAS, FCUs, CRACs, Unit Ventilators, Heat Pumps, ERVs
+### Equipment (9 categories, 55 definitions)
+- **Air Handling** - AHUs, RTUs, MAUs, DOAS, FCUs, CRACs, CRAHs, Unit Ventilators, PTACs, Heat Pumps, ERVs, HRVs, Air Turnover Units
 - **Terminal Units** - VAV Boxes, CAV Boxes, Fan Powered Boxes, Chilled Beams, Radiant Panels
 - **Central Plant** - Chillers, Boilers, Cooling Towers, Pumps, VFDs
 - **Metering** - Electric, Gas, Water, Steam, BTU Meters
 - **VRF** - Outdoor Units, Indoor Units, Branch Selector Boxes
+- **Power Distribution** - Generators, Automatic Transfer Switches, Switchgear
+- **Domestic Water** - Water Heaters, Recirculation Pumps
+- **Life Safety** - Fire Alarm Control Panels, Smoke Control Systems
+- **Standalone Fans** - Exhaust Fans, Transfer Fans
 
-### Points
+### Points (16 categories, 259 definitions)
 - **Temperatures** - Zone, Discharge, Return, Mixed, Outdoor, Supply/Return Water
+- **Commands** - Enable, Run, Speed, Mode, Feedback
 - **Fans** - Supply, Return, Exhaust, Relief (Status, Command, Speed, Alarm)
+- **Valves** - Heating, Cooling, Bypass, Isolation, Mixing (Position, Command, Open/Closed)
 - **Dampers** - Outside Air, Mixed Air, Exhaust, Relief (Position, Command, Open/Closed)
-- **Valves** - Heating, Cooling, Bypass, Isolation, Mixing
-- **Pressures** - Duct Static, Building, Space, Differential
-- **Flows** - Supply, Return, Exhaust, Outdoor Air
-- **Humidity** - Zone, Return, Discharge, Outdoor
 - **Setpoints** - Occupied/Unoccupied Heating/Cooling, Discharge Air, Pressure
 - **Status** - Occupancy, Filter, Equipment Run Status
-- **Commands** - Enable, Run, Speed
+- **Pressures** - Duct Static, Building, Space, Differential
 - **Alarms** - Equipment, Filter, Smoke, Low Limit
+- **Flows** - Supply, Return, Exhaust, Outdoor Air
+- **Humidity** - Zone, Return, Discharge, Outdoor
+- **Electrical** - Power, Voltage, Current, Frequency
+- **IAQ** - CO2, VOC, Particulates
+- **Lighting** - Occupancy, Daylight Sensors
+- **Maintenance** - Filter Status, Service Indicators
 
 ## Contributing
 
-We welcome contributions! Whether it's adding new entries, fixing errors, or expanding aliases.
+We welcome contributions! Whether it's adding new entries, fixing errors, or expanding aliases. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
-### How to Contribute
+### Quick Start
 
 1. Fork this repository
 2. Add or edit YAML files in `data/`
@@ -151,9 +169,9 @@ npm run build
 
 ## Stats
 
-- **337** point definitions
-- **43** equipment definitions
-- **16** categories
+- **259** point definitions across **16** categories
+- **55** equipment definitions across **9** categories
+- **25** total categories
 
 ## License
 

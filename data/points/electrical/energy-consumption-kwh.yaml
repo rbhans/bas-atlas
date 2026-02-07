@@ -1,0 +1,31 @@
+concept:
+  id: energy-consumption-kwh
+  name: Energy Consumption
+  category: electrical
+  description: Cumulative electrical energy consumption measured in kilowatt-hours. Used for energy tracking, utility billing verification, and energy benchmarking.
+  haystack: elec energy sensor
+  brick: Energy_Sensor
+  unit:
+    - kWh
+  point_function: sensor
+
+aliases:
+  common:
+    - kwh
+    - energy-kwh
+    - electric-energy
+    - total-energy
+    - cumulative-energy
+    - energy-usage
+    - energy-meter
+  misspellings:
+    - kwhr
+    - killowatt-hours
+
+notes:
+  - Cumulative counter that rolls over or resets based on meter configuration
+  - Used for utility bill verification and energy benchmarking (e.g., EUI calculations)
+  - Often tracked per equipment, floor, or building
+
+related:
+  - electrical-demand-kw

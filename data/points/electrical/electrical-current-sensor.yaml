@@ -1,0 +1,32 @@
+concept:
+  id: electrical-current-sensor
+  name: Electrical Current
+  category: electrical
+  description: AC current draw measured in amperes. Used for load monitoring, motor protection, and energy calculations.
+  haystack: elec current sensor
+  brick: Current_Sensor
+  unit:
+    - A
+  point_function: sensor
+
+aliases:
+  common:
+    - amps
+    - current
+    - amperage
+    - amp-draw
+    - current-draw
+    - motor-amps
+  misspellings:
+    - ampage
+    - curent
+
+notes:
+  - Often measured via current transformers (CTs) on each phase
+  - Rising current on a motor can indicate bearing failure or overload
+  - Used with voltage for calculating power (P = V × I × PF)
+
+related:
+  - voltage-sensor
+  - electrical-demand-kw
+  - power-factor

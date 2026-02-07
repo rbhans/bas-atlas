@@ -588,3 +588,25 @@ equipment:
       - supply-fan-status
       - cooling-valve-output
       - heating-valve-output
+
+  - id: ductless-mini-split
+    name: Ductless Mini-Split
+    abbreviation: DMS
+    category: terminal-units
+    description: Ductless split-system HVAC unit consisting of an indoor wall-mounted or ceiling unit connected to an outdoor condensing unit via refrigerant piping. Provides heating and/or cooling without ductwork.
+    haystack: mini split equip
+    brick: Mini_Split_Unit
+    subtypes:
+      - cooling-only-mini-split
+      - heat-pump-mini-split
+      - multi-zone-mini-split
+    aliases:
+      common:
+        - mini-split
+        - ductless
+        - ductless-split
+        - dms
+        - wall-mount-unit
+    typical_points:
+      - zone-temperature
+      - zone-temperature-setpoint

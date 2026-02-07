@@ -42,3 +42,7 @@ aliases:
     - supply fan spd
     - supply-fan-spd
     - supply-fan-speed
+
+related:
+  - duct-static-pressure
+  - duct-static-pressure-setpoint

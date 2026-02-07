@@ -1,0 +1,32 @@
+concept:
+  id: daylight-illuminance
+  name: Daylight Illuminance
+  category: lighting
+  description: Measured natural daylight intensity at a sensor location, in lux. Used for daylight harvesting to reduce electric lighting usage.
+  haystack: light illuminance sensor
+  brick: Illuminance_Sensor
+  unit:
+    - lux
+    - fc
+  point_function: sensor
+
+aliases:
+  common:
+    - daylight-sensor
+    - illuminance
+    - lux-sensor
+    - daylight-level
+    - natural-light-sensor
+    - photocell
+  misspellings:
+    - daylite-sensor
+    - illuminence
+
+notes:
+  - Typical office target is 300-500 lux (30-50 fc) at the task plane
+  - Sensor placement impacts accuracy — avoid direct sunlight on the sensor
+  - Used to modulate electric lighting in daylight harvesting sequences
+
+related:
+  - lighting-level
+  - lighting-dimming-output

@@ -1,0 +1,33 @@
+concept:
+  id: filter-differential-pressure
+  name: Filter Differential Pressure
+  category: pressures
+  description: Pressure drop measured across an air filter. Rising differential pressure indicates filter loading and the need for replacement.
+  haystack: filter pressure differential sensor
+  brick: Filter_Differential_Pressure_Sensor
+  unit:
+    - inWC
+    - Pa
+  point_function: sensor
+
+aliases:
+  common:
+    - filter-dp
+    - filter-pressure-drop
+    - filter-delta-p
+    - filter-diff-pressure
+    - filter-pd
+  misspellings:
+    - filter-diferential-pressure
+
+notes:
+  - Clean filter DP is typically 0.1-0.3 inWC for MERV 8, 0.3-0.6 inWC for MERV 13
+  - Filter change is typically triggered at 1.0-1.5 inWC depending on filter type
+  - More reliable than timer-based filter changes
+  - Should be measured with a differential pressure transducer across the filter bank
+
+related:
+  - filter-alarm
+  - filter-status
+  - prefilter-alarm
+  - final-filter-alarm

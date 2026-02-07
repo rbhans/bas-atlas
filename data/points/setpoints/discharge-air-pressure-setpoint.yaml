@@ -56,3 +56,6 @@ aliases:
     - discharge air pressure sp
     - discharge-air-pressure-sp
     - discharge-air-pressure-setpoint
+    - dap-setpoint
+    - duct-pressure-sp
+    - static-pressure-sp

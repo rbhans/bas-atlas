@@ -47,3 +47,9 @@ aliases:
     - return-air-co2
     - ret air quality
     - return air quality
+    - return-co2
+    - co2
+
+related:
+  - zone-co2
+  - co2-setpoint

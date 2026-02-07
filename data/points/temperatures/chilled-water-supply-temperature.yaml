@@ -16,7 +16,6 @@ aliases:
     - cwst
     - c-s-t
     - chwst
-    - CHWST
     - chws t
     - chws-t
     - chwsat
@@ -37,7 +36,6 @@ aliases:
     - chl-w-sup-temp
     - chw supply temp
     - chw_supply_temp
-    - CHW_Supply_Temp
     - chwstemperature
     - chws temperature
     - chws-temperature
@@ -51,6 +49,7 @@ aliases:
     - chl water supply temperature
     - chl-water-supply-temperature
     - chilled-water-supply-temperature
+    - chw-supply-temp
 notes:
   - Typical setpoint 42-44°F for comfort cooling
   - Higher setpoints (50-55°F) for energy optimization
@@ -60,3 +59,5 @@ related:
   - chilled-water-return-temperature
   - chiller-1-leaving-temperature
   - cooling-valve-output
+  - chilled-water-supply-temperature-setpoint
+  - chilled-water-flow

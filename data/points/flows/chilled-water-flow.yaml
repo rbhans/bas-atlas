@@ -1,0 +1,30 @@
+concept:
+  id: chilled-water-flow
+  name: Chilled Water Flow
+  category: flows
+  description: Volumetric flow rate of chilled water through a coil, pipe, or system, measured in gallons per minute (GPM) or liters per second. Used for load calculations and delta-T monitoring.
+  haystack: chilled water flow sensor
+  brick: Chilled_Water_Flow_Sensor
+  unit:
+    - GPM
+    - L/s
+  point_function: sensor
+
+aliases:
+  common:
+    - chw-flow
+    - chilled-water-gpm
+    - chw-gpm
+    - cw-flow
+  misspellings:
+    - chiled-water-flow
+
+notes:
+  - Used with supply/return temperature differential to calculate cooling load (BTU = GPM × 500 × ΔT)
+  - Flow meters may be electromagnetic, ultrasonic, or differential pressure type
+  - Low flow with high delta-T may indicate valve or pump issues
+
+related:
+  - chilled-water-supply-temperature
+  - chilled-water-return-temperature
+  - chilled-water-differential-pressure

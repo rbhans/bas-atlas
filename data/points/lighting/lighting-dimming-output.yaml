@@ -1,0 +1,29 @@
+concept:
+  id: lighting-dimming-output
+  name: Lighting Dimming Output
+  category: lighting
+  description: Commanded dimming level sent to lighting ballasts or LED drivers, expressed as a percentage (0-100%).
+  haystack: light level cmd
+  brick: Luminance_Command
+  unit:
+    - "%"
+  point_function: command
+
+aliases:
+  common:
+    - dimming-output
+    - dimming-command
+    - light-output
+    - dim-level
+    - lighting-cmd
+  misspellings:
+    - diming-output
+
+notes:
+  - Typically controlled via 0-10V analog, DALI, or DMX protocol
+  - May be overridden by occupancy sensor or daylight harvesting logic
+
+related:
+  - lighting-level
+  - daylight-illuminance
+  - lighting-occupancy-sensor

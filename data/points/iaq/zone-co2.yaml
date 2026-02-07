@@ -1,0 +1,35 @@
+concept:
+  id: zone-co2
+  name: Zone CO2 Concentration
+  category: iaq
+  description: Carbon dioxide concentration measured in a conditioned zone, in parts per million (ppm). Used for demand-controlled ventilation (DCV) per ASHRAE 62.1.
+  haystack: zone air co2 sensor
+  brick: CO2_Sensor
+  unit:
+    - ppm
+  point_function: sensor
+
+aliases:
+  common:
+    - zone-co2-ppm
+    - space-co2
+    - room-co2
+    - co2-level
+    - co2-sensor
+    - carbon-dioxide
+    - co2-ppm
+  misspellings:
+    - co2-sesnor
+    - zone-c02
+
+notes:
+  - Outdoor ambient CO2 is typically 400-420 ppm
+  - ASHRAE 62.1 DCV typically targets 800-1000 ppm above outdoor baseline
+  - Rising CO2 indicates insufficient ventilation for occupancy level
+  - Sensor placement is critical — avoid near doors, diffusers, or exhaust
+
+related:
+  - co2-setpoint
+  - outdoor-air-co2
+  - outdoor-air-flow
+  - return-air-co2

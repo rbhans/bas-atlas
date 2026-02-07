@@ -43,3 +43,6 @@ aliases:
     - flt-status
     - filt status
     - filter-status
+
+related:
+  - filter-differential-pressure

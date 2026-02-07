@@ -1,0 +1,32 @@
+concept:
+  id: condenser-water-supply-temperature-setpoint
+  name: Condenser Water Supply Temperature Setpoint
+  category: setpoints
+  description: Target condenser water temperature leaving the cooling tower and entering the chiller condenser. Controls cooling tower fan speed.
+  haystack: condenser water leaving temp sp
+  brick: Condenser_Water_Supply_Temperature_Setpoint
+  unit:
+    - °F
+    - °C
+  point_function: setpoint
+
+aliases:
+  common:
+    - cws-sp
+    - condenser-setpoint
+    - tower-setpoint
+    - cw-temp-sp
+    - cooling-tower-setpoint
+  misspellings:
+    - condensor-water-sp
+
+notes:
+  - Typical range is 70-85°F (21-29°C) depending on weather and chiller requirements
+  - Lower condenser water temperature improves chiller efficiency but increases tower fan energy
+  - Optimal setpoint balances chiller and tower energy (often calculated via chiller COP curves)
+  - Minimum is limited by chiller manufacturer low-condenser-water cutout (typically 55-65°F)
+
+related:
+  - condenser-water-supply-temperature
+  - condenser-water-return-temperature
+  - cooling-tower-command

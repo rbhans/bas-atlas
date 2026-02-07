@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-03T03:30:13.347Z",
-  "totalPoints": 220,
-  "totalEquipment": 42,
+  "lastUpdated": "2026-02-06T23:28:53.679Z",
+  "totalPoints": 259,
+  "totalEquipment": 55,
   "points": [
     {
       "concept": {
@@ -460,7 +460,10 @@
           "filter-alm",
           "filter-alarm"
         ]
-      }
+      },
+      "related": [
+        "filter-differential-pressure"
+      ]
     },
     {
       "concept": {
@@ -519,6 +522,51 @@
           "final-filter-alarm"
         ]
       }
+    },
+    {
+      "concept": {
+        "id": "fire-alarm-status",
+        "name": "Fire Alarm Status",
+        "category": "alarms",
+        "description": "Fire alarm system general alarm status. When active, BAS systems typically execute smoke control sequences including fan shutdown, damper closure, and elevator recall.",
+        "haystack": "fire alarm",
+        "brick": "Fire_Alarm_Status",
+        "point_function": "alarm",
+        "states": {
+          "0": [
+            "normal",
+            "no-alarm",
+            "clear"
+          ],
+          "1": [
+            "fire-alarm",
+            "alarm-active",
+            "fire-detected"
+          ]
+        }
+      },
+      "aliases": {
+        "common": [
+          "fire-alarm",
+          "fa-alarm",
+          "fire-status",
+          "fire-panel-alarm",
+          "general-alarm"
+        ],
+        "misspellings": [
+          "fier-alarm"
+        ]
+      },
+      "notes": [
+        "This is a monitoring point from the fire alarm panel — the BAS does NOT control fire alarm systems",
+        "Triggers smoke control sequences defined by the fire protection engineer",
+        "Typically a dry contact input from the fire alarm control panel (FACP)",
+        "All smoke dampers close and fans shut down (or enter smoke evacuation mode) on fire alarm"
+      ],
+      "related": [
+        "smoke-alarm",
+        "smoke-damper-open"
+      ]
     },
     {
       "concept": {
@@ -4208,6 +4256,292 @@
     },
     {
       "concept": {
+        "id": "apparent-power-kva",
+        "name": "Apparent Power",
+        "category": "electrical",
+        "description": "Total apparent power measured in kilovolt-amperes (kVA). Represents the combined real and reactive power.",
+        "haystack": "elec power apparent sensor",
+        "brick": "Apparent_Power_Sensor",
+        "unit": [
+          "kVA"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "kva",
+          "apparent-power",
+          "total-power-kva"
+        ],
+        "misspellings": [
+          "aparent-power"
+        ]
+      },
+      "notes": [
+        "Apparent power = sqrt(real power² + reactive power²)",
+        "Used for sizing transformers, generators, and UPS systems"
+      ],
+      "related": [
+        "electrical-demand-kw",
+        "reactive-power-kvar",
+        "power-factor"
+      ]
+    },
+    {
+      "concept": {
+        "id": "electrical-current-sensor",
+        "name": "Electrical Current",
+        "category": "electrical",
+        "description": "AC current draw measured in amperes. Used for load monitoring, motor protection, and energy calculations.",
+        "haystack": "elec current sensor",
+        "brick": "Current_Sensor",
+        "unit": [
+          "A"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "amps",
+          "current",
+          "amperage",
+          "amp-draw",
+          "current-draw",
+          "motor-amps"
+        ],
+        "misspellings": [
+          "ampage",
+          "curent"
+        ]
+      },
+      "notes": [
+        "Often measured via current transformers (CTs) on each phase",
+        "Rising current on a motor can indicate bearing failure or overload",
+        "Used with voltage for calculating power (P = V × I × PF)"
+      ],
+      "related": [
+        "voltage-sensor",
+        "electrical-demand-kw",
+        "power-factor"
+      ]
+    },
+    {
+      "concept": {
+        "id": "electrical-demand-kw",
+        "name": "Electrical Demand",
+        "category": "electrical",
+        "description": "Instantaneous electrical power draw measured in kilowatts. Used for demand monitoring, load shedding, and utility demand charge management.",
+        "haystack": "elec power sensor",
+        "brick": "Electric_Power_Sensor",
+        "unit": [
+          "kW"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "kw-demand",
+          "power-demand",
+          "electric-demand",
+          "kw",
+          "demand-kw",
+          "electrical-power",
+          "real-power"
+        ],
+        "misspellings": [
+          "kw-demnd",
+          "electrial-demand"
+        ]
+      },
+      "notes": [
+        "Measures real (active) power consumption",
+        "Used for utility demand charge calculations and load shedding programs",
+        "Typically read from a power meter or CT (current transformer) metering"
+      ],
+      "related": [
+        "energy-consumption-kwh",
+        "power-factor",
+        "electrical-current-rms"
+      ]
+    },
+    {
+      "concept": {
+        "id": "energy-consumption-kwh",
+        "name": "Energy Consumption",
+        "category": "electrical",
+        "description": "Cumulative electrical energy consumption measured in kilowatt-hours. Used for energy tracking, utility billing verification, and energy benchmarking.",
+        "haystack": "elec energy sensor",
+        "brick": "Energy_Sensor",
+        "unit": [
+          "kWh"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "kwh",
+          "energy-kwh",
+          "electric-energy",
+          "total-energy",
+          "cumulative-energy",
+          "energy-usage",
+          "energy-meter"
+        ],
+        "misspellings": [
+          "kwhr",
+          "killowatt-hours"
+        ]
+      },
+      "notes": [
+        "Cumulative counter that rolls over or resets based on meter configuration",
+        "Used for utility bill verification and energy benchmarking (e.g., EUI calculations)",
+        "Often tracked per equipment, floor, or building"
+      ],
+      "related": [
+        "electrical-demand-kw"
+      ]
+    },
+    {
+      "concept": {
+        "id": "frequency-sensor",
+        "name": "AC Frequency",
+        "category": "electrical",
+        "description": "AC power system frequency in Hertz. Monitors grid stability and generator synchronization.",
+        "haystack": "elec freq sensor",
+        "brick": "Frequency_Sensor",
+        "unit": [
+          "Hz"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "frequency",
+          "hz",
+          "line-frequency",
+          "grid-frequency"
+        ],
+        "misspellings": [
+          "frequncy"
+        ]
+      },
+      "notes": [
+        "Standard is 60 Hz (North America) or 50 Hz (Europe/Asia)",
+        "Deviations from nominal indicate grid stress or generator issues",
+        "Critical for generator synchronization and UPS systems"
+      ],
+      "related": [
+        "voltage-sensor",
+        "electrical-current-sensor"
+      ]
+    },
+    {
+      "concept": {
+        "id": "power-factor",
+        "name": "Power Factor",
+        "category": "electrical",
+        "description": "Ratio of real power to apparent power, ranging from 0.0 to 1.0. Indicates how effectively electrical power is being used.",
+        "haystack": "elec pf sensor",
+        "brick": "Power_Factor_Sensor",
+        "unit": [
+          "PF"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "pf",
+          "pwr-factor",
+          "power-factor-ratio"
+        ],
+        "misspellings": [
+          "powerfactor"
+        ]
+      },
+      "notes": [
+        "A power factor of 1.0 means all power is real (resistive loads)",
+        "Most utilities penalize power factor below 0.85-0.90",
+        "Can be improved with capacitor banks or VFDs"
+      ],
+      "related": [
+        "electrical-demand-kw",
+        "reactive-power-kvar",
+        "apparent-power-kva"
+      ]
+    },
+    {
+      "concept": {
+        "id": "reactive-power-kvar",
+        "name": "Reactive Power",
+        "category": "electrical",
+        "description": "Reactive power measured in kilovolt-amperes reactive (kVAR). Indicates inductive or capacitive load contribution.",
+        "haystack": "elec power reactive sensor",
+        "brick": "Reactive_Power_Sensor",
+        "unit": [
+          "kVAR"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "kvar",
+          "reactive-power",
+          "vars"
+        ],
+        "misspellings": [
+          "kvar-power",
+          "reative-power"
+        ]
+      },
+      "notes": [
+        "High reactive power reduces power factor and may incur utility penalties",
+        "Common sources include motors, transformers, and fluorescent lighting ballasts"
+      ],
+      "related": [
+        "apparent-power-kva",
+        "power-factor",
+        "electrical-demand-kw"
+      ]
+    },
+    {
+      "concept": {
+        "id": "voltage-sensor",
+        "name": "Voltage",
+        "category": "electrical",
+        "description": "AC voltage measurement, either line-to-neutral or line-to-line. Used for power quality monitoring and equipment protection.",
+        "haystack": "elec volt sensor",
+        "brick": "Voltage_Sensor",
+        "unit": [
+          "V"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "voltage",
+          "volts",
+          "vac",
+          "line-voltage",
+          "supply-voltage",
+          "rms-voltage"
+        ],
+        "misspellings": [
+          "votlage"
+        ]
+      },
+      "notes": [
+        "Typical values are 120V, 208V, 277V, 480V (in North America)",
+        "Voltage sags/swells can damage equipment and should trigger alarms",
+        "Often measured per phase (A, B, C) on three-phase systems"
+      ],
+      "related": [
+        "electrical-current-sensor",
+        "electrical-demand-kw",
+        "frequency-sensor"
+      ]
+    },
+    {
+      "concept": {
         "id": "exhaust-fan-alarm",
         "name": "Exhaust Fan Alarm",
         "category": "fans",
@@ -5527,7 +5861,11 @@
           "supply-fan-spd",
           "supply-fan-speed"
         ]
-      }
+      },
+      "related": [
+        "duct-static-pressure",
+        "duct-static-pressure-setpoint"
+      ]
     },
     {
       "concept": {
@@ -5615,6 +5953,78 @@
         "supply-fan-alarm",
         "supply-fan-fault",
         "supply-fan-speed"
+      ]
+    },
+    {
+      "concept": {
+        "id": "chilled-water-flow",
+        "name": "Chilled Water Flow",
+        "category": "flows",
+        "description": "Volumetric flow rate of chilled water through a coil, pipe, or system, measured in gallons per minute (GPM) or liters per second. Used for load calculations and delta-T monitoring.",
+        "haystack": "chilled water flow sensor",
+        "brick": "Chilled_Water_Flow_Sensor",
+        "unit": [
+          "GPM",
+          "L/s"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "chw-flow",
+          "chilled-water-gpm",
+          "chw-gpm",
+          "cw-flow"
+        ],
+        "misspellings": [
+          "chiled-water-flow"
+        ]
+      },
+      "notes": [
+        "Used with supply/return temperature differential to calculate cooling load (BTU = GPM × 500 × ΔT)",
+        "Flow meters may be electromagnetic, ultrasonic, or differential pressure type",
+        "Low flow with high delta-T may indicate valve or pump issues"
+      ],
+      "related": [
+        "chilled-water-supply-temperature",
+        "chilled-water-return-temperature",
+        "chilled-water-differential-pressure"
+      ]
+    },
+    {
+      "concept": {
+        "id": "condenser-water-flow",
+        "name": "Condenser Water Flow",
+        "category": "flows",
+        "description": "Volumetric flow rate of condenser water between chillers and cooling towers. Critical for maintaining proper chiller condenser performance.",
+        "haystack": "condenser water flow sensor",
+        "brick": "Condenser_Water_Flow_Sensor",
+        "unit": [
+          "GPM",
+          "L/s"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "cw-flow",
+          "condenser-flow",
+          "condenser-gpm",
+          "cw-gpm",
+          "tower-water-flow"
+        ],
+        "misspellings": [
+          "condensor-water-flow"
+        ]
+      },
+      "notes": [
+        "Chiller manufacturers specify minimum condenser water flow rates",
+        "Low condenser water flow causes high head pressure and potential chiller trip",
+        "Typically 3 GPM per ton of cooling"
+      ],
+      "related": [
+        "condenser-water-supply-temperature",
+        "condenser-water-return-temperature"
       ]
     },
     {
@@ -5715,6 +6125,41 @@
     },
     {
       "concept": {
+        "id": "hot-water-flow",
+        "name": "Hot Water Flow",
+        "category": "flows",
+        "description": "Volumetric flow rate of hot water through a coil, pipe, or system. Used for heating load calculations.",
+        "haystack": "hot water flow sensor",
+        "brick": "Hot_Water_Flow_Sensor",
+        "unit": [
+          "GPM",
+          "L/s"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "hw-flow",
+          "hot-water-gpm",
+          "hw-gpm",
+          "heating-water-flow"
+        ],
+        "misspellings": [
+          "hot-watter-flow"
+        ]
+      },
+      "notes": [
+        "Used with supply/return temperature differential to calculate heating load",
+        "Similar instrumentation to chilled water flow"
+      ],
+      "related": [
+        "hot-water-supply-temperature",
+        "hot-water-return-temperature",
+        "hot-water-differential-pressure"
+      ]
+    },
+    {
+      "concept": {
         "id": "outdoor-air-flow",
         "name": "Outdoor Air Flow",
         "category": "flows",
@@ -5754,7 +6199,12 @@
           "outdoor-air-flw",
           "outdoor-air-flow"
         ]
-      }
+      },
+      "related": [
+        "minimum-outdoor-airflow-setpoint",
+        "zone-co2",
+        "co2-setpoint"
+      ]
     },
     {
       "concept": {
@@ -5801,6 +6251,40 @@
           "return-air-flow"
         ]
       }
+    },
+    {
+      "concept": {
+        "id": "steam-flow",
+        "name": "Steam Flow",
+        "category": "flows",
+        "description": "Mass flow rate of steam, typically measured in pounds per hour (lbs/hr) or kilograms per hour. Used for steam system monitoring and energy accounting.",
+        "haystack": "steam flow sensor",
+        "brick": "Steam_Flow_Sensor",
+        "unit": [
+          "lbs/hr",
+          "kg/hr"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "steam-flow-rate",
+          "steam-mass-flow",
+          "steam-lbs"
+        ],
+        "misspellings": [
+          "steem-flow"
+        ]
+      },
+      "notes": [
+        "Often measured with vortex shedding, orifice plate, or differential pressure flow meters",
+        "Must compensate for steam pressure and temperature for accurate mass flow",
+        "Used for campus steam billing and boiler plant monitoring"
+      ],
+      "related": [
+        "steam-valve-closed",
+        "steam-valve-open"
+      ]
     },
     {
       "concept": {
@@ -6203,7 +6687,541 @@
           "zn-humidity",
           "zone-humidity"
         ]
-      }
+      },
+      "related": [
+        "humidity-setpoint"
+      ]
+    },
+    {
+      "concept": {
+        "id": "co2-setpoint",
+        "name": "CO2 Setpoint",
+        "category": "iaq",
+        "description": "Target CO2 concentration for demand-controlled ventilation. When zone CO2 exceeds this setpoint, outdoor air damper opens to increase ventilation.",
+        "haystack": "zone air co2 sp",
+        "brick": "CO2_Setpoint",
+        "unit": [
+          "ppm"
+        ],
+        "point_function": "setpoint"
+      },
+      "aliases": {
+        "common": [
+          "co2-sp",
+          "co2-limit",
+          "dcv-setpoint",
+          "co2-target"
+        ],
+        "misspellings": [
+          "co2-setpnt"
+        ]
+      },
+      "notes": [
+        "Typical values range from 800-1100 ppm depending on space type",
+        "ASHRAE 62.1 does not specify a fixed CO2 setpoint — it depends on outdoor CO2 and occupant density",
+        "Lower setpoints increase ventilation energy but improve IAQ"
+      ],
+      "related": [
+        "zone-co2",
+        "outdoor-air-co2",
+        "outdoor-air-flow"
+      ]
+    },
+    {
+      "concept": {
+        "id": "outdoor-air-co2",
+        "name": "Outdoor Air CO2 Concentration",
+        "category": "iaq",
+        "description": "Outdoor ambient CO2 level used as a baseline reference for demand-controlled ventilation calculations.",
+        "haystack": "outside air co2 sensor",
+        "brick": "Outside_Air_CO2_Sensor",
+        "unit": [
+          "ppm"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "outdoor-co2",
+          "outside-air-co2",
+          "ambient-co2",
+          "oa-co2",
+          "reference-co2"
+        ],
+        "misspellings": [
+          "outdor-air-co2"
+        ]
+      },
+      "notes": [
+        "Typically 400-420 ppm in most locations",
+        "Used as baseline for differential CO2 DCV calculations",
+        "A single outdoor sensor can serve multiple AHUs"
+      ],
+      "related": [
+        "zone-co2",
+        "co2-setpoint",
+        "return-air-co2"
+      ]
+    },
+    {
+      "concept": {
+        "id": "particulate-matter-pm10",
+        "name": "PM10 Particulate Matter",
+        "category": "iaq",
+        "description": "Particulate matter with diameter ≤10 microns, measured in micrograms per cubic meter. Includes dust, pollen, and mold spores.",
+        "haystack": "air pm10 sensor",
+        "brick": "PM10_Sensor",
+        "unit": [
+          "µg/m³"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "pm10",
+          "pm-10",
+          "coarse-particulate"
+        ],
+        "misspellings": [
+          "pm-ten"
+        ]
+      },
+      "notes": [
+        "Coarser than PM2.5, includes dust, pollen, and mold spores",
+        "Less commonly monitored than PM2.5 in commercial HVAC, but relevant for industrial and healthcare facilities"
+      ],
+      "related": [
+        "particulate-matter-pm25"
+      ]
+    },
+    {
+      "concept": {
+        "id": "particulate-matter-pm25",
+        "name": "PM2.5 Particulate Matter",
+        "category": "iaq",
+        "description": "Fine particulate matter with diameter ≤2.5 microns, measured in micrograms per cubic meter. Critical for indoor air quality assessment, especially post-COVID building standards.",
+        "haystack": "air pm25 sensor",
+        "brick": "PM2.5_Sensor",
+        "unit": [
+          "µg/m³"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "pm25",
+          "pm-2-5",
+          "fine-particulate",
+          "particulate-sensor",
+          "dust-sensor"
+        ],
+        "misspellings": [
+          "pm2.5-sensor",
+          "particulate-mater"
+        ]
+      },
+      "notes": [
+        "EPA Air Quality Index (AQI) categories for PM2.5 range from 0 (good) to 500+ (hazardous)",
+        "Increasingly required in commercial buildings for IAQ monitoring",
+        "Used to control filtration levels and outdoor air intake during poor outdoor air quality events"
+      ],
+      "related": [
+        "particulate-matter-pm10",
+        "outdoor-air-quality-index"
+      ]
+    },
+    {
+      "concept": {
+        "id": "volatile-organic-compounds",
+        "name": "Volatile Organic Compounds (VOC)",
+        "category": "iaq",
+        "description": "Total volatile organic compound concentration. VOCs include chemicals from paints, cleaning products, furnishings, and building materials that impact indoor air quality.",
+        "haystack": "air tvoc sensor",
+        "brick": "TVOC_Sensor",
+        "unit": [
+          "ppb",
+          "µg/m³"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "voc",
+          "tvoc",
+          "voc-sensor",
+          "total-voc",
+          "volatile-organics"
+        ],
+        "misspellings": [
+          "volitile-organic"
+        ]
+      },
+      "notes": [
+        "TVOC sensors measure a broad range of organic chemicals as a single reading",
+        "WELL Building Standard and RESET Air Standard both specify TVOC thresholds",
+        "Can trigger increased ventilation or filtration when levels are elevated"
+      ],
+      "related": [
+        "zone-co2",
+        "particulate-matter-pm25"
+      ]
+    },
+    {
+      "concept": {
+        "id": "zone-co2",
+        "name": "Zone CO2 Concentration",
+        "category": "iaq",
+        "description": "Carbon dioxide concentration measured in a conditioned zone, in parts per million (ppm). Used for demand-controlled ventilation (DCV) per ASHRAE 62.1.",
+        "haystack": "zone air co2 sensor",
+        "brick": "CO2_Sensor",
+        "unit": [
+          "ppm"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "zone-co2-ppm",
+          "space-co2",
+          "room-co2",
+          "co2-level",
+          "co2-sensor",
+          "carbon-dioxide",
+          "co2-ppm"
+        ],
+        "misspellings": [
+          "co2-sesnor",
+          "zone-c02"
+        ]
+      },
+      "notes": [
+        "Outdoor ambient CO2 is typically 400-420 ppm",
+        "ASHRAE 62.1 DCV typically targets 800-1000 ppm above outdoor baseline",
+        "Rising CO2 indicates insufficient ventilation for occupancy level",
+        "Sensor placement is critical — avoid near doors, diffusers, or exhaust"
+      ],
+      "related": [
+        "co2-setpoint",
+        "outdoor-air-co2",
+        "outdoor-air-flow",
+        "return-air-co2"
+      ]
+    },
+    {
+      "concept": {
+        "id": "daylight-illuminance",
+        "name": "Daylight Illuminance",
+        "category": "lighting",
+        "description": "Measured natural daylight intensity at a sensor location, in lux. Used for daylight harvesting to reduce electric lighting usage.",
+        "haystack": "light illuminance sensor",
+        "brick": "Illuminance_Sensor",
+        "unit": [
+          "lux",
+          "fc"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "daylight-sensor",
+          "illuminance",
+          "lux-sensor",
+          "daylight-level",
+          "natural-light-sensor",
+          "photocell"
+        ],
+        "misspellings": [
+          "daylite-sensor",
+          "illuminence"
+        ]
+      },
+      "notes": [
+        "Typical office target is 300-500 lux (30-50 fc) at the task plane",
+        "Sensor placement impacts accuracy — avoid direct sunlight on the sensor",
+        "Used to modulate electric lighting in daylight harvesting sequences"
+      ],
+      "related": [
+        "lighting-level",
+        "lighting-dimming-output"
+      ]
+    },
+    {
+      "concept": {
+        "id": "lighting-dimming-output",
+        "name": "Lighting Dimming Output",
+        "category": "lighting",
+        "description": "Commanded dimming level sent to lighting ballasts or LED drivers, expressed as a percentage (0-100%).",
+        "haystack": "light level cmd",
+        "brick": "Luminance_Command",
+        "unit": [
+          "%"
+        ],
+        "point_function": "command"
+      },
+      "aliases": {
+        "common": [
+          "dimming-output",
+          "dimming-command",
+          "light-output",
+          "dim-level",
+          "lighting-cmd"
+        ],
+        "misspellings": [
+          "diming-output"
+        ]
+      },
+      "notes": [
+        "Typically controlled via 0-10V analog, DALI, or DMX protocol",
+        "May be overridden by occupancy sensor or daylight harvesting logic"
+      ],
+      "related": [
+        "lighting-level",
+        "daylight-illuminance",
+        "lighting-occupancy-sensor"
+      ]
+    },
+    {
+      "concept": {
+        "id": "lighting-level",
+        "name": "Lighting Level",
+        "category": "lighting",
+        "description": "Measured or commanded light intensity level, typically as a percentage (0-100%) of full output. Used for dimming control and daylight harvesting.",
+        "haystack": "light level sensor",
+        "brick": "Luminance_Sensor",
+        "unit": [
+          "%"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "light-level",
+          "illumination-level",
+          "dimming-level",
+          "brightness",
+          "lux-level",
+          "lighting-output"
+        ],
+        "misspellings": [
+          "ligting-level"
+        ]
+      },
+      "notes": [
+        "0% = off, 100% = full brightness",
+        "Some systems report in lux (absolute illumination) rather than percentage",
+        "Daylight harvesting systems modulate lighting level based on natural light availability"
+      ],
+      "related": [
+        "lighting-dimming-output",
+        "daylight-illuminance",
+        "lighting-occupancy-sensor"
+      ]
+    },
+    {
+      "concept": {
+        "id": "lighting-occupancy-sensor",
+        "name": "Lighting Occupancy Sensor",
+        "category": "lighting",
+        "description": "Presence detection sensor for lighting control. Detects whether a space is occupied to enable or disable lighting.",
+        "haystack": "occ sensor",
+        "brick": "Occupancy_Sensor",
+        "point_function": "status",
+        "states": {
+          "0": [
+            "unoccupied",
+            "vacant",
+            "no-motion"
+          ],
+          "1": [
+            "occupied",
+            "motion-detected",
+            "presence"
+          ]
+        }
+      },
+      "aliases": {
+        "common": [
+          "occupancy-sensor",
+          "motion-sensor",
+          "pir-sensor",
+          "presence-sensor",
+          "vacancy-sensor"
+        ],
+        "misspellings": [
+          "occupency-sensor",
+          "ocupancy-sensor"
+        ]
+      },
+      "notes": [
+        "PIR (passive infrared), ultrasonic, and dual-technology types available",
+        "Vacancy sensors require manual ON, auto OFF — preferred by energy codes",
+        "Occupancy sensors auto ON, auto OFF",
+        "Timeout period is configurable (typically 15-30 minutes)"
+      ],
+      "related": [
+        "lighting-level",
+        "lighting-dimming-output",
+        "occupancy"
+      ]
+    },
+    {
+      "concept": {
+        "id": "communication-loss-alarm",
+        "name": "Communication Loss Alarm",
+        "category": "maintenance",
+        "description": "Alarm indicating loss of communication between a BAS controller and a supervised device or sensor. May indicate network failure, device failure, or wiring issue.",
+        "haystack": "comm alarm",
+        "brick": "Communication_Loss_Alarm",
+        "point_function": "alarm",
+        "states": {
+          "0": [
+            "normal",
+            "communicating",
+            "online"
+          ],
+          "1": [
+            "comm-loss",
+            "offline",
+            "no-response",
+            "communication-failure"
+          ]
+        }
+      },
+      "aliases": {
+        "common": [
+          "comm-loss",
+          "comm-alarm",
+          "comm-failure",
+          "network-alarm",
+          "offline-alarm",
+          "communication-fault"
+        ],
+        "misspellings": [
+          "comunication-loss"
+        ]
+      },
+      "notes": [
+        "One of the most common alarms in any BAS",
+        "May be caused by wiring issues, power loss at the device, or network switch failure",
+        "Should trigger investigation within hours to prevent uncontrolled equipment operation"
+      ],
+      "related": [
+        "sensor-fault-alarm"
+      ]
+    },
+    {
+      "concept": {
+        "id": "equipment-run-hours",
+        "name": "Equipment Run Hours",
+        "category": "maintenance",
+        "description": "Cumulative operating hours for a piece of equipment. Used for preventive maintenance scheduling based on runtime thresholds.",
+        "haystack": "run duration sensor",
+        "brick": "Run_Hours_Sensor",
+        "unit": [
+          "hours"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "run-hours",
+          "runtime-hours",
+          "operating-hours",
+          "total-run-hours",
+          "cumulative-hours",
+          "hrs-run"
+        ],
+        "misspellings": [
+          "runn-hours",
+          "run-hrs"
+        ]
+      },
+      "notes": [
+        "Typically tracked per motor, compressor, or fan",
+        "Common maintenance thresholds include belt replacement (2000-4000 hrs), bearing lubrication (8000 hrs), and filter changes (based on differential pressure OR run hours)",
+        "Differs from run-time (existing entry) which may track current session"
+      ],
+      "related": [
+        "equipment-start-count",
+        "run-time"
+      ]
+    },
+    {
+      "concept": {
+        "id": "equipment-start-count",
+        "name": "Equipment Start Count",
+        "category": "maintenance",
+        "description": "Cumulative number of equipment start cycles. Excessive cycling reduces equipment life, especially for compressors and large motors.",
+        "haystack": "run starts sensor",
+        "brick": "Start_Stop_Count_Sensor",
+        "unit": [
+          "count"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "start-count",
+          "cycle-count",
+          "starts",
+          "start-stop-count",
+          "num-starts"
+        ],
+        "misspellings": [
+          "start-cout"
+        ]
+      },
+      "notes": [
+        "Motor starters and compressors have rated cycle limits",
+        "Compressor minimum off-time (typically 5 minutes) prevents short cycling",
+        "High start count relative to run hours indicates a control tuning problem"
+      ],
+      "related": [
+        "equipment-run-hours"
+      ]
+    },
+    {
+      "concept": {
+        "id": "sensor-fault-alarm",
+        "name": "Sensor Fault Alarm",
+        "category": "maintenance",
+        "description": "Alarm indicating a sensor is reading outside its expected range or has failed. May indicate a broken sensor, wiring issue, or incorrect calibration.",
+        "haystack": "sensor alarm",
+        "brick": "Sensor_Fault_Status",
+        "point_function": "alarm",
+        "states": {
+          "0": [
+            "normal",
+            "sensor-ok"
+          ],
+          "1": [
+            "fault",
+            "out-of-range",
+            "failed",
+            "sensor-error"
+          ]
+        }
+      },
+      "aliases": {
+        "common": [
+          "sensor-fault",
+          "sensor-alarm",
+          "sensor-error",
+          "sensor-failure",
+          "out-of-range-alarm"
+        ],
+        "misspellings": [
+          "senser-fault"
+        ]
+      },
+      "notes": [
+        "Typically triggered when a sensor reads at the extreme of its range (e.g., thermocouple reads -40°F or +300°F continuously)",
+        "Open or short circuit on an analog input triggers this alarm",
+        "Control systems should have fallback logic when a sensor faults"
+      ],
+      "related": [
+        "communication-loss-alarm"
+      ]
     },
     {
       "concept": {
@@ -6241,9 +7259,13 @@
           "bldg-pressure",
           "building press",
           "building-press",
-          "building-pressure"
+          "building-pressure",
+          "building-static"
         ]
-      }
+      },
+      "related": [
+        "building-pressure-setpoint"
+      ]
     },
     {
       "concept": {
@@ -6289,7 +7311,9 @@
           "chl-water-differential-pressure",
           "chilled water differential press",
           "chilled-water-differential-press",
-          "chilled-water-differential-pressure"
+          "chilled-water-differential-pressure",
+          "chw-diff",
+          "chw-delta-p"
         ]
       }
     },
@@ -6453,9 +7477,7 @@
           "d-p",
           "d-s",
           "dap",
-          "DAP",
           "dsp",
-          "DSP",
           "s-s",
           "ssp",
           "da p",
@@ -6523,7 +7545,8 @@
           "discharge-air-press",
           "duct static pressure",
           "discharge-air-pressure",
-          "supply static pressure"
+          "supply static pressure",
+          "supply-duct-pressure"
         ]
       },
       "notes": [
@@ -6535,7 +7558,87 @@
       "related": [
         "discharge-air-pressure-setpoint",
         "supply-fan-speed",
+        "supply-fan-output",
+        "duct-static-pressure-setpoint"
+      ]
+    },
+    {
+      "concept": {
+        "id": "duct-static-pressure",
+        "name": "Duct Static Pressure",
+        "category": "pressures",
+        "description": "Static pressure measured in the supply air duct, typically 2/3 of the way down the longest duct run. Primary control input for supply fan speed in VAV systems.",
+        "haystack": "discharge duct static pressure sensor",
+        "brick": "Supply_Air_Static_Pressure_Sensor",
+        "unit": [
+          "inWC",
+          "Pa"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "duct-pressure",
+          "static-pressure",
+          "supply-duct-pressure",
+          "duct-sp",
+          "dsp",
+          "supply-static"
+        ],
+        "misspellings": [
+          "duct-stactic-pressure"
+        ]
+      },
+      "notes": [
+        "Typical setpoint for VAV systems is 1.0-2.0 inWC",
+        "ASHRAE Guideline 36 recommends static pressure reset based on VAV box damper positions",
+        "Sensor location at 2/3 point of the longest duct run is the industry standard",
+        "Low duct static with fan at full speed may indicate duct leakage or obstruction"
+      ],
+      "related": [
+        "discharge-air-pressure",
+        "discharge-air-pressure-setpoint",
+        "supply-fan-speed",
         "supply-fan-output"
+      ]
+    },
+    {
+      "concept": {
+        "id": "filter-differential-pressure",
+        "name": "Filter Differential Pressure",
+        "category": "pressures",
+        "description": "Pressure drop measured across an air filter. Rising differential pressure indicates filter loading and the need for replacement.",
+        "haystack": "filter pressure differential sensor",
+        "brick": "Filter_Differential_Pressure_Sensor",
+        "unit": [
+          "inWC",
+          "Pa"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "filter-dp",
+          "filter-pressure-drop",
+          "filter-delta-p",
+          "filter-diff-pressure",
+          "filter-pd"
+        ],
+        "misspellings": [
+          "filter-diferential-pressure"
+        ]
+      },
+      "notes": [
+        "Clean filter DP is typically 0.1-0.3 inWC for MERV 8, 0.3-0.6 inWC for MERV 13",
+        "Filter change is typically triggered at 1.0-1.5 inWC depending on filter type",
+        "More reliable than timer-based filter changes",
+        "Should be measured with a differential pressure transducer across the filter bank"
+      ],
+      "related": [
+        "filter-alarm",
+        "filter-status",
+        "prefilter-alarm",
+        "final-filter-alarm"
       ]
     },
     {
@@ -6581,7 +7684,9 @@
           "hot-water-differential-press",
           "ht water differential pressure",
           "ht-water-differential-pressure",
-          "hot-water-differential-pressure"
+          "hot-water-differential-pressure",
+          "hw-diff",
+          "hw-delta-p"
         ]
       }
     },
@@ -6849,6 +7954,153 @@
     },
     {
       "concept": {
+        "id": "building-pressure-setpoint",
+        "name": "Building Pressure Setpoint",
+        "category": "setpoints",
+        "description": "Target differential pressure between the building interior and outdoors. Positive pressure prevents unconditioned air infiltration.",
+        "haystack": "building air pressure sp",
+        "brick": "Building_Air_Static_Pressure_Setpoint",
+        "unit": [
+          "inWC",
+          "Pa"
+        ],
+        "point_function": "setpoint"
+      },
+      "aliases": {
+        "common": [
+          "building-sp",
+          "bldg-pressure-sp",
+          "building-static-sp",
+          "building-pressurization-sp"
+        ],
+        "misspellings": [
+          "building-presure-setpoint"
+        ]
+      },
+      "notes": [
+        "Typical setpoint is +0.03 to +0.10 inWC (positive relative to outdoors)",
+        "Controlled by modulating relief/exhaust air dampers or fans",
+        "Negative building pressure causes comfort complaints from cold drafts and door operation issues"
+      ],
+      "related": [
+        "building-pressure",
+        "space-pressure",
+        "relief-air-damper-position"
+      ]
+    },
+    {
+      "concept": {
+        "id": "chilled-water-differential-pressure-setpoint",
+        "name": "Chilled Water Differential Pressure Setpoint",
+        "category": "setpoints",
+        "description": "Target differential pressure across the chilled water loop, used to control chilled water pump speed. Ensures adequate flow to all coils.",
+        "haystack": "chilled water differential pressure sp",
+        "brick": "Chilled_Water_Differential_Pressure_Setpoint",
+        "unit": [
+          "PSI",
+          "ft H₂O",
+          "kPa"
+        ],
+        "point_function": "setpoint"
+      },
+      "aliases": {
+        "common": [
+          "chw-dp-sp",
+          "chw-diff-pressure-sp",
+          "chw-pump-sp",
+          "differential-pressure-sp"
+        ],
+        "misspellings": [
+          "chilled-water-diferential-pressure-sp"
+        ]
+      },
+      "notes": [
+        "Controls variable speed pump operation to maintain adequate pressure across the most remote coil",
+        "ASHRAE Guideline 36 recommends differential pressure reset based on valve positions",
+        "Sensor should be located at the most hydraulically remote coil, not at the pump discharge",
+        "Typical range is 5-25 PSI depending on system size"
+      ],
+      "related": [
+        "chilled-water-differential-pressure",
+        "chilled-water-flow"
+      ]
+    },
+    {
+      "concept": {
+        "id": "chilled-water-supply-temperature-setpoint",
+        "name": "Chilled Water Supply Temperature Setpoint",
+        "category": "setpoints",
+        "description": "Target supply temperature for chilled water leaving the chiller or chilled water plant. Fundamental to chiller control and energy optimization.",
+        "haystack": "chilled water leaving temp sp",
+        "brick": "Chilled_Water_Supply_Temperature_Setpoint",
+        "unit": [
+          "°F",
+          "°C"
+        ],
+        "point_function": "setpoint"
+      },
+      "aliases": {
+        "common": [
+          "chws-sp",
+          "chw-supply-temp-sp",
+          "chiller-setpoint",
+          "chw-temp-setpoint",
+          "chilled-water-setpoint"
+        ],
+        "misspellings": [
+          "chilled-water-suply-temp-sp"
+        ]
+      },
+      "notes": [
+        "Typical range is 40-48°F (4-9°C)",
+        "Higher setpoints improve chiller efficiency (approximately 1-2% per degree F)",
+        "ASHRAE Guideline 36 recommends CHW supply temperature reset based on valve positions or outdoor air temperature"
+      ],
+      "related": [
+        "chilled-water-supply-temperature",
+        "chilled-water-return-temperature"
+      ]
+    },
+    {
+      "concept": {
+        "id": "condenser-water-supply-temperature-setpoint",
+        "name": "Condenser Water Supply Temperature Setpoint",
+        "category": "setpoints",
+        "description": "Target condenser water temperature leaving the cooling tower and entering the chiller condenser. Controls cooling tower fan speed.",
+        "haystack": "condenser water leaving temp sp",
+        "brick": "Condenser_Water_Supply_Temperature_Setpoint",
+        "unit": [
+          "°F",
+          "°C"
+        ],
+        "point_function": "setpoint"
+      },
+      "aliases": {
+        "common": [
+          "cws-sp",
+          "condenser-setpoint",
+          "tower-setpoint",
+          "cw-temp-sp",
+          "cooling-tower-setpoint"
+        ],
+        "misspellings": [
+          "condensor-water-sp"
+        ]
+      },
+      "notes": [
+        "Typical range is 70-85°F (21-29°C) depending on weather and chiller requirements",
+        "Lower condenser water temperature improves chiller efficiency but increases tower fan energy",
+        "Optimal setpoint balances chiller and tower energy (often calculated via chiller COP curves)",
+        "Minimum is limited by chiller manufacturer low-condenser-water cutout (typically 55-65°F)"
+      ],
+      "related": [
+        "condenser-water-supply-temperature",
+        "condenser-water-return-temperature",
+        "cooling-tower-command"
+      ]
+    },
+    {
+      "concept": {
         "id": "cooling-outdoor-air-lockout-setpoint",
         "name": "Cooling Outdoor Air Lockout Setpoint",
         "category": "setpoints",
@@ -6959,7 +8211,10 @@
           "disch air press setpoint",
           "discharge air pressure sp",
           "discharge-air-pressure-sp",
-          "discharge-air-pressure-setpoint"
+          "discharge-air-pressure-setpoint",
+          "dap-setpoint",
+          "duct-pressure-sp",
+          "static-pressure-sp"
         ]
       }
     },
@@ -7001,9 +8256,48 @@
           "da-air-temperature-setpoint",
           "discharge air temperature sp",
           "discharge-air-temperature-sp",
-          "discharge-air-temperature-setpoint"
+          "discharge-air-temperature-setpoint",
+          "dat-setpoint",
+          "da-temp-sp"
         ]
       }
+    },
+    {
+      "concept": {
+        "id": "duct-static-pressure-setpoint",
+        "name": "Duct Static Pressure Setpoint",
+        "category": "setpoints",
+        "description": "Target static pressure in the supply duct. Primary setpoint for supply fan speed control in VAV systems.",
+        "haystack": "discharge duct static pressure sp",
+        "brick": "Supply_Air_Static_Pressure_Setpoint",
+        "unit": [
+          "inWC",
+          "Pa"
+        ],
+        "point_function": "setpoint"
+      },
+      "aliases": {
+        "common": [
+          "duct-sp-setpoint",
+          "static-pressure-sp",
+          "dsp-sp",
+          "supply-static-sp",
+          "duct-pressure-setpoint"
+        ],
+        "misspellings": [
+          "duct-stactic-pressure-sp"
+        ]
+      },
+      "notes": [
+        "Typical initial setpoint is 1.0-2.0 inWC for medium-pressure ductwork",
+        "ASHRAE Guideline 36 recommends static pressure reset — lower setpoint when VAV boxes are satisfied, raise when boxes are starved",
+        "Static pressure reset can save 20-40% of fan energy"
+      ],
+      "related": [
+        "duct-static-pressure",
+        "discharge-air-pressure-setpoint",
+        "supply-fan-speed"
+      ]
     },
     {
       "concept": {
@@ -7211,6 +8505,117 @@
     },
     {
       "concept": {
+        "id": "hot-water-supply-temperature-setpoint",
+        "name": "Hot Water Supply Temperature Setpoint",
+        "category": "setpoints",
+        "description": "Target supply temperature for hot water leaving the boiler or hot water plant. Controls boiler firing and hot water system operation.",
+        "haystack": "hot water leaving temp sp",
+        "brick": "Hot_Water_Supply_Temperature_Setpoint",
+        "unit": [
+          "°F",
+          "°C"
+        ],
+        "point_function": "setpoint"
+      },
+      "aliases": {
+        "common": [
+          "hws-sp",
+          "hw-supply-temp-sp",
+          "boiler-setpoint",
+          "hw-temp-setpoint",
+          "hot-water-setpoint"
+        ],
+        "misspellings": [
+          "hot-water-suply-temp-sp"
+        ]
+      },
+      "notes": [
+        "Typical range is 140-180°F (60-82°C)",
+        "Lower setpoints reduce boiler losses and improve condensing boiler efficiency",
+        "Often reset based on outdoor air temperature (outdoor air reset schedule)"
+      ],
+      "related": [
+        "hot-water-supply-temperature",
+        "hot-water-return-temperature"
+      ]
+    },
+    {
+      "concept": {
+        "id": "humidity-setpoint",
+        "name": "Zone Humidity Setpoint",
+        "category": "setpoints",
+        "description": "Target relative humidity for a conditioned zone. Controls humidification and dehumidification equipment.",
+        "haystack": "zone air humidity sp",
+        "brick": "Zone_Air_Humidity_Setpoint",
+        "unit": [
+          "%RH"
+        ],
+        "point_function": "setpoint"
+      },
+      "aliases": {
+        "common": [
+          "rh-setpoint",
+          "humidity-sp",
+          "relative-humidity-setpoint",
+          "zone-rh-sp",
+          "moisture-setpoint"
+        ],
+        "misspellings": [
+          "humidty-setpoint"
+        ]
+      },
+      "notes": [
+        "Typical comfort range is 30-60% RH",
+        "Healthcare facilities often require tighter control (40-60% RH)",
+        "Data centers typically target 40-60% RH per ASHRAE TC 9.9",
+        "Some systems use separate high-limit and low-limit humidity setpoints"
+      ],
+      "related": [
+        "zone-humidity",
+        "humidifier-enable",
+        "humidifier-output"
+      ]
+    },
+    {
+      "concept": {
+        "id": "minimum-outdoor-airflow-setpoint",
+        "name": "Minimum Outdoor Airflow Setpoint",
+        "category": "setpoints",
+        "description": "Minimum volume of outdoor air required for ventilation per ASHRAE 62.1. Ensures adequate ventilation regardless of economizer mode.",
+        "haystack": "outside air flow min sp",
+        "brick": "Min_Outside_Air_Flow_Setpoint",
+        "unit": [
+          "CFM",
+          "L/s"
+        ],
+        "point_function": "setpoint"
+      },
+      "aliases": {
+        "common": [
+          "min-oa-sp",
+          "minimum-oa-cfm",
+          "ventilation-setpoint",
+          "min-outdoor-air",
+          "min-oa-flow",
+          "min-ventilation"
+        ],
+        "misspellings": [
+          "minimun-outdoor-airflow"
+        ]
+      },
+      "notes": [
+        "Calculated per ASHRAE 62.1 based on occupancy, floor area, and space type",
+        "Must be maintained even when economizer is not active",
+        "In DCV mode, this setpoint may vary with occupancy count or CO2 levels"
+      ],
+      "related": [
+        "outdoor-air-flow",
+        "zone-co2",
+        "co2-setpoint"
+      ]
+    },
+    {
+      "concept": {
         "id": "mixed-air-temperature-setpoint",
         "name": "Mixed Air Temperature Setpoint",
         "category": "setpoints",
@@ -7328,7 +8733,8 @@
           "occupied-cooling-sp",
           "occ cooling setpoint",
           "occ-cooling-setpoint",
-          "occupied-cooling-setpoint"
+          "occupied-cooling-setpoint",
+          "occupied-clg-sp"
         ]
       }
     },
@@ -7392,7 +8798,8 @@
           "occupied-heating-sp",
           "occ heating setpoint",
           "occ-heating-setpoint",
-          "occupied-heating-setpoint"
+          "occupied-heating-setpoint",
+          "occupied-htg-sp"
         ]
       }
     },
@@ -7625,7 +9032,8 @@
           "unoccupied-cooling-sp",
           "unocc cooling setpoint",
           "unocc-cooling-setpoint",
-          "unoccupied-cooling-setpoint"
+          "unoccupied-cooling-setpoint",
+          "unoccupied-clg-sp"
         ]
       }
     },
@@ -7689,7 +9097,8 @@
           "unoccupied-heating-sp",
           "unocc heating setpoint",
           "unocc-heating-setpoint",
-          "unoccupied-heating-setpoint"
+          "unoccupied-heating-setpoint",
+          "unoccupied-htg-sp"
         ]
       }
     },
@@ -7717,7 +9126,10 @@
           "zt sp",
           "zone temperature setpoint",
           "zone-temp-setpoint",
-          "zone-temp-sp"
+          "zone-temp-sp",
+          "ZAT-SP",
+          "room-temp-sp",
+          "space-temp-sp"
         ]
       }
     },
@@ -8259,7 +9671,8 @@
           "effective occ",
           "effective-occ",
           "effectiveoccupancy",
-          "effective-occupancy"
+          "effective-occupancy",
+          "current-occupancy"
         ]
       }
     },
@@ -8387,7 +9800,10 @@
           "filt status",
           "filter-status"
         ]
-      }
+      },
+      "related": [
+        "filter-differential-pressure"
+      ]
     },
     {
       "concept": {
@@ -8813,9 +10229,15 @@
           "ret-ar-quality",
           "return-air-co2",
           "ret air quality",
-          "return air quality"
+          "return air quality",
+          "return-co2",
+          "co2"
         ]
-      }
+      },
+      "related": [
+        "zone-co2",
+        "co2-setpoint"
+      ]
     },
     {
       "concept": {
@@ -8844,7 +10266,11 @@
           "run-hours",
           "run-time"
         ]
-      }
+      },
+      "related": [
+        "equipment-run-hours",
+        "equipment-start-count"
+      ]
     },
     {
       "concept": {
@@ -8960,9 +10386,14 @@
           "chilled-water-return-temp",
           "chl water return temperature",
           "chl-water-return-temperature",
-          "chilled-water-return-temperature"
+          "chilled-water-return-temperature",
+          "chw-return-temp"
         ]
-      }
+      },
+      "related": [
+        "chilled-water-supply-temperature-setpoint",
+        "chilled-water-flow"
+      ]
     },
     {
       "concept": {
@@ -8985,7 +10416,6 @@
           "cwst",
           "c-s-t",
           "chwst",
-          "CHWST",
           "chws t",
           "chws-t",
           "chwsat",
@@ -9006,7 +10436,6 @@
           "chl-w-sup-temp",
           "chw supply temp",
           "chw_supply_temp",
-          "CHW_Supply_Temp",
           "chwstemperature",
           "chws temperature",
           "chws-temperature",
@@ -9019,7 +10448,8 @@
           "chilled-water-supply-temp",
           "chl water supply temperature",
           "chl-water-supply-temperature",
-          "chilled-water-supply-temperature"
+          "chilled-water-supply-temperature",
+          "chw-supply-temp"
         ]
       },
       "notes": [
@@ -9031,7 +10461,9 @@
       "related": [
         "chilled-water-return-temperature",
         "chiller-1-leaving-temperature",
-        "cooling-valve-output"
+        "cooling-valve-output",
+        "chilled-water-supply-temperature-setpoint",
+        "chilled-water-flow"
       ]
     },
     {
@@ -9277,9 +10709,14 @@
           "condenser-water-return-temp",
           "cnd water return temperature",
           "cnd-water-return-temperature",
-          "condenser-water-return-temperature"
+          "condenser-water-return-temperature",
+          "cw-return-temp"
         ]
-      }
+      },
+      "related": [
+        "condenser-water-supply-temperature-setpoint",
+        "condenser-water-flow"
+      ]
     },
     {
       "concept": {
@@ -9323,9 +10760,14 @@
           "condenser-water-supply-temp",
           "cnd water supply temperature",
           "cnd-water-supply-temperature",
-          "condenser-water-supply-temperature"
+          "condenser-water-supply-temperature",
+          "cw-supply-temp"
         ]
-      }
+      },
+      "related": [
+        "condenser-water-supply-temperature-setpoint",
+        "condenser-water-flow"
+      ]
     },
     {
       "concept": {
@@ -9422,6 +10864,45 @@
     },
     {
       "concept": {
+        "id": "dewpoint-temperature",
+        "name": "Dew Point Temperature",
+        "category": "temperatures",
+        "description": "Temperature at which air becomes saturated and condensation begins. Critical for dehumidification control, condensation prevention, and cooling coil analysis.",
+        "haystack": "air dewPoint temp sensor",
+        "brick": "Dewpoint_Temperature_Sensor",
+        "unit": [
+          "°F",
+          "°C"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "dewpoint",
+          "dew-point",
+          "dewpoint-temp",
+          "dp-temp",
+          "dew-point-temperature"
+        ],
+        "misspellings": [
+          "dewpiont",
+          "due-point"
+        ]
+      },
+      "notes": [
+        "More stable than relative humidity for dehumidification control (not affected by temperature changes)",
+        "Typical comfort range is 55-65°F (13-18°C) dew point",
+        "Critical in healthcare, museums, and data centers",
+        "Can be calculated from dry bulb temperature and relative humidity"
+      ],
+      "related": [
+        "zone-humidity",
+        "discharge-air-humidity",
+        "humidity-setpoint"
+      ]
+    },
+    {
+      "concept": {
         "id": "discharge-air-temperature",
         "name": "Discharge Air Temperature",
         "category": "temperatures",
@@ -9439,7 +10920,6 @@
           "dt",
           "d-t",
           "dat",
-          "DAT",
           "da t",
           "da-t",
           "d-a-t",
@@ -9457,12 +10937,10 @@
           "disch-ar-t",
           "datemperature",
           "dischargetemp",
-          "DischargeTemp",
           "da temperature",
           "da-temperature",
           "disch air temp",
           "discharge_temp",
-          "Discharge_Temp",
           "dischatemperature",
           "da air temperature",
           "da-air-temperature",
@@ -9470,7 +10948,9 @@
           "discharge-air-temp",
           "disch a temperature",
           "disch-a-temperature",
-          "discharge-air-temperature"
+          "discharge-air-temperature",
+          "discharge-temp",
+          "leaving-air-temp"
         ]
       },
       "notes": [
@@ -9661,9 +11141,14 @@
           "hw-return-temperature",
           "ht water return temperature",
           "ht-water-return-temperature",
-          "hot-water-return-temperature"
+          "hot-water-return-temperature",
+          "hw-return-temp"
         ]
-      }
+      },
+      "related": [
+        "hot-water-supply-temperature-setpoint",
+        "hot-water-flow"
+      ]
     },
     {
       "concept": {
@@ -9707,9 +11192,14 @@
           "hw-supply-temperature",
           "ht water supply temperature",
           "ht-water-supply-temperature",
-          "hot-water-supply-temperature"
+          "hot-water-supply-temperature",
+          "hw-supply-temp"
         ]
-      }
+      },
+      "related": [
+        "hot-water-supply-temperature-setpoint",
+        "hot-water-flow"
+      ]
     },
     {
       "concept": {
@@ -9751,7 +11241,8 @@
           "ma-a-temperature",
           "ma air temperature",
           "ma-air-temperature",
-          "mixed-air-temperature"
+          "mixed-air-temperature",
+          "mixed-temp"
         ]
       }
     },
@@ -9774,7 +11265,6 @@
           "ot",
           "o-t",
           "oat",
-          "OAT",
           "oa t",
           "oa-t",
           "outt",
@@ -9791,9 +11281,7 @@
           "oa a temp",
           "oa-a-temp",
           "outdoortemp",
-          "OutdoorTemp",
           "outsidetemp",
-          "OutsideTemp",
           "outside temp",
           "oatemperature",
           "oa temperature",
@@ -9806,7 +11294,10 @@
           "outside air temp",
           "oa air temperature",
           "oa-air-temperature",
-          "outdoor-air-temperature"
+          "outdoor-air-temperature",
+          "outside-temp",
+          "outside-air-temp",
+          "ambient-temp"
         ],
         "misspellings": [
           "outdor temp",
@@ -10048,7 +11539,8 @@
           "ret-a-temperature",
           "ret air temperature",
           "ret-air-temperature",
-          "return-air-temperature"
+          "return-air-temperature",
+          "return-temp"
         ]
       }
     },
@@ -10274,9 +11766,49 @@
           "sup-a-temperature",
           "sup air temperature",
           "sup-air-temperature",
-          "supply-air-temperature"
+          "supply-air-temperature",
+          "supply-temp"
         ]
       }
+    },
+    {
+      "concept": {
+        "id": "wet-bulb-temperature",
+        "name": "Wet Bulb Temperature",
+        "category": "temperatures",
+        "description": "Temperature measured by a thermometer with its bulb wrapped in wet cloth over which air is passed. Indicates the lowest temperature achievable by evaporative cooling and is critical for cooling tower performance evaluation.",
+        "haystack": "air wetBulb temp sensor",
+        "brick": "Wet_Bulb_Temperature_Sensor",
+        "unit": [
+          "°F",
+          "°C"
+        ],
+        "point_function": "sensor"
+      },
+      "aliases": {
+        "common": [
+          "wet-bulb",
+          "wb-temp",
+          "wet-bulb-temp",
+          "owb",
+          "outdoor-wet-bulb"
+        ],
+        "misspellings": [
+          "wet-blub"
+        ]
+      },
+      "notes": [
+        "Cooling tower approach = cold water temperature - wet bulb temperature",
+        "Used to evaluate cooling tower performance and sizing",
+        "Lower wet bulb temperatures allow towers to produce colder condenser water",
+        "Critical for free cooling / waterside economizer calculations"
+      ],
+      "related": [
+        "outdoor-air-temperature",
+        "outdoor-air-humidity",
+        "cooling-tower-basin-temperature",
+        "condenser-water-supply-temperature"
+      ]
     },
     {
       "concept": {
@@ -10300,14 +11832,12 @@
           "r t",
           "r-t",
           "rat",
-          "RAT",
           "rmt",
           "s-t",
           "spt",
           "z t",
           "z-t",
           "zat",
-          "ZAT",
           "znt",
           "rm t",
           "rm-t",
@@ -10327,17 +11857,13 @@
           "zn temp",
           "zn-temp",
           "roomtemp",
-          "RoomTemp",
           "spc temp",
           "spc-temp",
           "zonetemp",
-          "ZoneTemp",
           "room temp",
           "spacetemp",
-          "SpaceTemp",
           "zone temp",
           "zone_temp",
-          "Zone_Temp",
           "zone-temp",
           "space temp",
           "rmtemperature",
@@ -10351,7 +11877,9 @@
           "spc-temperature",
           "room temperature",
           "zone-temperature",
-          "space temperature"
+          "space temperature",
+          "room-temp",
+          "space-temp"
         ],
         "misspellings": [
           "ZoneTepm",
@@ -13252,6 +14780,177 @@
       ]
     },
     {
+      "id": "condensing-unit",
+      "name": "Condensing Unit",
+      "abbreviation": "CU",
+      "category": "central-plant",
+      "description": "Outdoor unit containing compressor(s) and condenser coil for DX (direct expansion) cooling systems. Paired with indoor evaporator coils in split system configurations.",
+      "haystack": "condenser equip",
+      "brick": "Condensing_Unit",
+      "aliases": {
+        "common": [
+          "cu",
+          "outdoor-unit",
+          "condenser-unit",
+          "dx-condenser",
+          "split-system-outdoor"
+        ]
+      },
+      "typical_points": [
+        "outdoor-air-temperature"
+      ]
+    },
+    {
+      "id": "dehumidifier",
+      "name": "Dehumidifier",
+      "abbreviation": "DEHUM",
+      "category": "central-plant",
+      "description": "Standalone equipment for removing moisture from air. Used in spaces with high humidity loads such as pools, locker rooms, and archival storage.",
+      "haystack": "dehumidifier equip",
+      "brick": "Dehumidifier",
+      "subtypes": [
+        "refrigerant-dehumidifier",
+        "desiccant-dehumidifier"
+      ],
+      "aliases": {
+        "common": [
+          "dehum",
+          "dehumidifier",
+          "desiccant-wheel"
+        ]
+      },
+      "typical_points": [
+        "zone-humidity",
+        "humidity-setpoint",
+        "equipment-run-hours"
+      ]
+    },
+    {
+      "id": "humidifier",
+      "name": "Humidifier",
+      "abbreviation": "HUM",
+      "category": "central-plant",
+      "description": "Standalone or duct-mounted equipment for adding moisture to air. Common types include steam injection, evaporative, and ultrasonic.",
+      "haystack": "humidifier equip",
+      "brick": "Humidifier",
+      "subtypes": [
+        "steam-humidifier",
+        "evaporative-humidifier",
+        "ultrasonic-humidifier"
+      ],
+      "aliases": {
+        "common": [
+          "hum",
+          "humidifier",
+          "steam-humidifier"
+        ]
+      },
+      "typical_points": [
+        "humidifier-enable",
+        "humidifier-output",
+        "humidifier-feedback",
+        "zone-humidity",
+        "humidity-setpoint"
+      ]
+    },
+    {
+      "id": "domestic-water-heater",
+      "name": "Domestic Water Heater",
+      "abbreviation": "WH",
+      "category": "domestic-water",
+      "description": "Equipment that heats domestic (potable) water for building use. May be electric, gas-fired, or use a heat exchanger fed by the building hot water loop.",
+      "haystack": "domestic hot water heater equip",
+      "brick": "Water_Heater",
+      "subtypes": [
+        "electric-water-heater",
+        "gas-water-heater",
+        "heat-exchanger-water-heater",
+        "heat-pump-water-heater"
+      ],
+      "aliases": {
+        "common": [
+          "water-heater",
+          "wh",
+          "dhw-heater",
+          "hot-water-heater",
+          "domestic-hw-heater"
+        ]
+      },
+      "typical_points": [
+        "domestic-hot-water-supply-temperature",
+        "domestic-hot-water-return-temperature"
+      ]
+    },
+    {
+      "id": "domestic-water-recirculation-pump",
+      "name": "Domestic Water Recirculation Pump",
+      "abbreviation": "DWRP",
+      "category": "domestic-water",
+      "description": "Pump that circulates domestic hot water through the building to maintain hot water availability at fixtures and prevent Legionella growth in stagnant piping.",
+      "haystack": "domestic hot water pump equip",
+      "brick": "Hot_Water_Pump",
+      "aliases": {
+        "common": [
+          "recirc-pump",
+          "dhw-pump",
+          "hot-water-recirc-pump",
+          "domestic-recirc-pump"
+        ]
+      },
+      "typical_points": [
+        "domestic-hot-water-supply-temperature",
+        "domestic-hot-water-return-temperature",
+        "equipment-run-hours"
+      ]
+    },
+    {
+      "id": "fire-alarm-control-panel",
+      "name": "Fire Alarm Control Panel",
+      "abbreviation": "FACP",
+      "category": "life-safety",
+      "description": "Central panel of the fire alarm system. The BAS monitors the FACP for general alarm, trouble, and supervisory conditions to execute smoke control and HVAC shutdown sequences.",
+      "haystack": "fire alarm panel equip",
+      "brick": "Fire_Alarm_Control_Panel",
+      "aliases": {
+        "common": [
+          "facp",
+          "fire-panel",
+          "fire-alarm-panel",
+          "fa-panel"
+        ]
+      },
+      "typical_points": [
+        "fire-alarm-status",
+        "smoke-alarm",
+        "communication-loss-alarm"
+      ]
+    },
+    {
+      "id": "smoke-detector",
+      "name": "Smoke Detector",
+      "abbreviation": "SD",
+      "category": "life-safety",
+      "description": "Device that detects smoke and reports to the fire alarm control panel. Duct-mounted smoke detectors are monitored by the BAS to shut down associated air handling units.",
+      "haystack": "smoke detector equip",
+      "brick": "Smoke_Detector",
+      "subtypes": [
+        "photoelectric-smoke-detector",
+        "ionization-smoke-detector",
+        "duct-smoke-detector"
+      ],
+      "aliases": {
+        "common": [
+          "sd",
+          "smoke-detector",
+          "duct-smoke-detector",
+          "area-smoke-detector"
+        ]
+      },
+      "typical_points": [
+        "smoke-alarm"
+      ]
+    },
+    {
       "id": "electric-meter",
       "name": "Electric Meter",
       "abbreviation": "EM",
@@ -13543,6 +15242,118 @@
           "British thermal unit meter"
         ]
       }
+    },
+    {
+      "id": "generator",
+      "name": "Emergency Generator",
+      "abbreviation": "GEN",
+      "category": "power-distribution",
+      "description": "Standby or emergency power generator, typically diesel or natural gas fueled. Provides backup power during utility outages. Monitored by BAS for runtime, fuel level, and transfer status.",
+      "haystack": "generator equip",
+      "brick": "Generator",
+      "aliases": {
+        "common": [
+          "genset",
+          "standby-generator",
+          "emergency-generator",
+          "backup-generator",
+          "diesel-generator"
+        ]
+      },
+      "typical_points": [
+        "electrical-demand-kw",
+        "voltage-sensor",
+        "frequency-sensor",
+        "equipment-run-hours",
+        "equipment-start-count"
+      ]
+    },
+    {
+      "id": "uninterruptible-power-supply",
+      "name": "Uninterruptible Power Supply",
+      "abbreviation": "UPS",
+      "category": "power-distribution",
+      "description": "Battery-backed power supply that provides immediate backup power during utility outages. Protects critical loads like BAS controllers, servers, and life safety systems.",
+      "haystack": "ups equip",
+      "brick": "UPS",
+      "aliases": {
+        "common": [
+          "ups",
+          "battery-backup",
+          "uninterruptible-power"
+        ]
+      },
+      "typical_points": [
+        "electrical-demand-kw",
+        "voltage-sensor",
+        "electrical-current-sensor"
+      ]
+    },
+    {
+      "id": "automatic-transfer-switch",
+      "name": "Automatic Transfer Switch",
+      "abbreviation": "ATS",
+      "category": "power-distribution",
+      "description": "Switch that automatically transfers electrical load between normal (utility) and emergency (generator) power sources during an outage.",
+      "haystack": "ats equip",
+      "brick": "Automatic_Transfer_Switch",
+      "aliases": {
+        "common": [
+          "ats",
+          "transfer-switch",
+          "auto-transfer"
+        ]
+      },
+      "typical_points": [
+        "voltage-sensor",
+        "electrical-current-sensor"
+      ]
+    },
+    {
+      "id": "exhaust-fan",
+      "name": "Exhaust Fan",
+      "abbreviation": "EF",
+      "category": "standalone-fans",
+      "description": "Standalone fan used to exhaust air from a building or space. Commonly found in restrooms, kitchens, parking garages, and mechanical rooms. Not part of an air handling unit.",
+      "haystack": "exhaust fan equip",
+      "brick": "Exhaust_Fan",
+      "aliases": {
+        "common": [
+          "ef",
+          "exhaust-fan",
+          "toilet-exhaust",
+          "kitchen-exhaust",
+          "garage-exhaust",
+          "general-exhaust"
+        ]
+      },
+      "typical_points": [
+        "exhaust-fan-command",
+        "exhaust-fan-status",
+        "exhaust-fan-speed",
+        "exhaust-fan-alarm",
+        "equipment-run-hours"
+      ]
+    },
+    {
+      "id": "transfer-fan",
+      "name": "Transfer Fan",
+      "abbreviation": "TF",
+      "category": "standalone-fans",
+      "description": "Fan used to transfer air from one space to another within a building, typically from a positively pressurized space to a negatively pressurized space.",
+      "haystack": "transfer fan equip",
+      "brick": "Transfer_Fan",
+      "aliases": {
+        "common": [
+          "tf",
+          "transfer-air-fan"
+        ]
+      },
+      "typical_points": [
+        "exhaust-fan-command",
+        "exhaust-fan-status",
+        "equipment-run-hours"
+      ]
     },
     {
       "id": "variable-air-volume-box",
@@ -14181,6 +15992,33 @@
         "supply-fan-status",
         "cooling-valve-output",
         "heating-valve-output"
+      ]
+    },
+    {
+      "id": "ductless-mini-split",
+      "name": "Ductless Mini-Split",
+      "abbreviation": "DMS",
+      "category": "terminal-units",
+      "description": "Ductless split-system HVAC unit consisting of an indoor wall-mounted or ceiling unit connected to an outdoor condensing unit via refrigerant piping. Provides heating and/or cooling without ductwork.",
+      "haystack": "mini split equip",
+      "brick": "Mini_Split_Unit",
+      "subtypes": [
+        "cooling-only-mini-split",
+        "heat-pump-mini-split",
+        "multi-zone-mini-split"
+      ],
+      "aliases": {
+        "common": [
+          "mini-split",
+          "ductless",
+          "ductless-split",
+          "dms",
+          "wall-mount-unit"
+        ]
+      },
+      "typical_points": [
+        "zone-temperature",
+        "zone-temperature-setpoint"
       ]
     },
     {

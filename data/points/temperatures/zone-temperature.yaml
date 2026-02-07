@@ -17,14 +17,12 @@ aliases:
     - r t
     - r-t
     - rat
-    - RAT
     - rmt
     - s-t
     - spt
     - z t
     - z-t
     - zat
-    - ZAT
     - znt
     - rm t
     - rm-t
@@ -44,17 +42,13 @@ aliases:
     - zn temp
     - zn-temp
     - roomtemp
-    - RoomTemp
     - spc temp
     - spc-temp
     - zonetemp
-    - ZoneTemp
     - room temp
     - spacetemp
-    - SpaceTemp
     - zone temp
     - zone_temp
-    - Zone_Temp
     - zone-temp
     - space temp
     - rmtemperature
@@ -69,6 +63,8 @@ aliases:
     - room temperature
     - zone-temperature
     - space temperature
+    - room-temp
+    - space-temp
   misspellings:
     - ZoneTepm
     - ZonTemp

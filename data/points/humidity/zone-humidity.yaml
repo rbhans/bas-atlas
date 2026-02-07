@@ -35,3 +35,6 @@ aliases:
     - zn humidity
     - zn-humidity
     - zone-humidity
+
+related:
+  - humidity-setpoint

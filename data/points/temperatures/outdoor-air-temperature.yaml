@@ -14,7 +14,6 @@ aliases:
     - ot
     - o-t
     - oat
-    - OAT
     - oa t
     - oa-t
     - outt
@@ -31,9 +30,7 @@ aliases:
     - oa a temp
     - oa-a-temp
     - outdoortemp
-    - OutdoorTemp
     - outsidetemp
-    - OutsideTemp
     - outside temp
     - oatemperature
     - oa temperature
@@ -47,6 +44,9 @@ aliases:
     - oa air temperature
     - oa-air-temperature
     - outdoor-air-temperature
+    - outside-temp
+    - outside-air-temp
+    - ambient-temp
   misspellings:
     - outdor temp
     - outsite temp

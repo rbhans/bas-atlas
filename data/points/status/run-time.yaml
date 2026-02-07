@@ -21,3 +21,7 @@ aliases:
     - runhours
     - run-hours
     - run-time
+
+related:
+  - equipment-run-hours
+  - equipment-start-count

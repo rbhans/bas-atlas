@@ -17,9 +17,7 @@ aliases:
     - d-p
     - d-s
     - dap
-    - DAP
     - dsp
-    - DSP
     - s-s
     - ssp
     - da p
@@ -88,6 +86,7 @@ aliases:
     - duct static pressure
     - discharge-air-pressure
     - supply static pressure
+    - supply-duct-pressure
 notes:
   - Typically measured 2/3 down the longest duct run
   - Used as feedback for supply fan VFD speed control
@@ -97,3 +96,4 @@ related:
   - discharge-air-pressure-setpoint
   - supply-fan-speed
   - supply-fan-output
+  - duct-static-pressure-setpoint

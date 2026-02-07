@@ -14,7 +14,6 @@ aliases:
     - dt
     - d-t
     - dat
-    - DAT
     - da t
     - da-t
     - d-a-t
@@ -32,12 +31,10 @@ aliases:
     - disch-ar-t
     - datemperature
     - dischargetemp
-    - DischargeTemp
     - da temperature
     - da-temperature
     - disch air temp
     - discharge_temp
-    - Discharge_Temp
     - dischatemperature
     - da air temperature
     - da-air-temperature
@@ -46,6 +43,8 @@ aliases:
     - disch a temperature
     - disch-a-temperature
     - discharge-air-temperature
+    - discharge-temp
+    - leaving-air-temp
 notes:
   - Cooling mode typically 50-65°F
   - Heating mode typically 70-110°F

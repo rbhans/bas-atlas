@@ -39,3 +39,8 @@ aliases:
     - chl water return temperature
     - chl-water-return-temperature
     - chilled-water-return-temperature
+    - chw-return-temp
+
+related:
+  - chilled-water-supply-temperature-setpoint
+  - chilled-water-flow

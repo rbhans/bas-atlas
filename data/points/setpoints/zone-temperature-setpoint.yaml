@@ -20,3 +20,6 @@ aliases:
     - zone temperature setpoint
     - zone-temp-setpoint
     - zone-temp-sp
+    - ZAT-SP
+    - room-temp-sp
+    - space-temp-sp

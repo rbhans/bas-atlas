@@ -35,3 +35,8 @@ aliases:
     - outdoor air flw
     - outdoor-air-flw
     - outdoor-air-flow
+
+related:
+  - minimum-outdoor-airflow-setpoint
+  - zone-co2
+  - co2-setpoint

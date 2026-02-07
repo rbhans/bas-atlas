@@ -53,3 +53,4 @@ aliases:
     - occ cooling setpoint
     - occ-cooling-setpoint
     - occupied-cooling-setpoint
+    - occupied-clg-sp

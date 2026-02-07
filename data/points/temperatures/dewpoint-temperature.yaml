@@ -1,0 +1,33 @@
+concept:
+  id: dewpoint-temperature
+  name: Dew Point Temperature
+  category: temperatures
+  description: Temperature at which air becomes saturated and condensation begins. Critical for dehumidification control, condensation prevention, and cooling coil analysis.
+  haystack: air dewPoint temp sensor
+  brick: Dewpoint_Temperature_Sensor
+  unit:
+    - °F
+    - °C
+  point_function: sensor
+
+aliases:
+  common:
+    - dewpoint
+    - dew-point
+    - dewpoint-temp
+    - dp-temp
+    - dew-point-temperature
+  misspellings:
+    - dewpiont
+    - due-point
+
+notes:
+  - More stable than relative humidity for dehumidification control (not affected by temperature changes)
+  - Typical comfort range is 55-65°F (13-18°C) dew point
+  - Critical in healthcare, museums, and data centers
+  - Can be calculated from dry bulb temperature and relative humidity
+
+related:
+  - zone-humidity
+  - discharge-air-humidity
+  - humidity-setpoint

@@ -1,0 +1,29 @@
+concept:
+  id: co2-setpoint
+  name: CO2 Setpoint
+  category: iaq
+  description: Target CO2 concentration for demand-controlled ventilation. When zone CO2 exceeds this setpoint, outdoor air damper opens to increase ventilation.
+  haystack: zone air co2 sp
+  brick: CO2_Setpoint
+  unit:
+    - ppm
+  point_function: setpoint
+
+aliases:
+  common:
+    - co2-sp
+    - co2-limit
+    - dcv-setpoint
+    - co2-target
+  misspellings:
+    - co2-setpnt
+
+notes:
+  - Typical values range from 800-1100 ppm depending on space type
+  - ASHRAE 62.1 does not specify a fixed CO2 setpoint — it depends on outdoor CO2 and occupant density
+  - Lower setpoints increase ventilation energy but improve IAQ
+
+related:
+  - zone-co2
+  - outdoor-air-co2
+  - outdoor-air-flow

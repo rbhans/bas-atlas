@@ -1,0 +1,37 @@
+concept:
+  id: fire-alarm-status
+  name: Fire Alarm Status
+  category: alarms
+  description: Fire alarm system general alarm status. When active, BAS systems typically execute smoke control sequences including fan shutdown, damper closure, and elevator recall.
+  haystack: fire alarm
+  brick: Fire_Alarm_Status
+  point_function: alarm
+  states:
+    "0":
+      - normal
+      - no-alarm
+      - clear
+    "1":
+      - fire-alarm
+      - alarm-active
+      - fire-detected
+
+aliases:
+  common:
+    - fire-alarm
+    - fa-alarm
+    - fire-status
+    - fire-panel-alarm
+    - general-alarm
+  misspellings:
+    - fier-alarm
+
+notes:
+  - This is a monitoring point from the fire alarm panel — the BAS does NOT control fire alarm systems
+  - Triggers smoke control sequences defined by the fire protection engineer
+  - Typically a dry contact input from the fire alarm control panel (FACP)
+  - All smoke dampers close and fans shut down (or enter smoke evacuation mode) on fire alarm
+
+related:
+  - smoke-alarm
+  - smoke-damper-open

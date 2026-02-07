@@ -1,0 +1,35 @@
+concept:
+  id: sensor-fault-alarm
+  name: Sensor Fault Alarm
+  category: maintenance
+  description: Alarm indicating a sensor is reading outside its expected range or has failed. May indicate a broken sensor, wiring issue, or incorrect calibration.
+  haystack: sensor alarm
+  brick: Sensor_Fault_Status
+  point_function: alarm
+  states:
+    "0":
+      - normal
+      - sensor-ok
+    "1":
+      - fault
+      - out-of-range
+      - failed
+      - sensor-error
+
+aliases:
+  common:
+    - sensor-fault
+    - sensor-alarm
+    - sensor-error
+    - sensor-failure
+    - out-of-range-alarm
+  misspellings:
+    - senser-fault
+
+notes:
+  - Typically triggered when a sensor reads at the extreme of its range (e.g., thermocouple reads -40°F or +300°F continuously)
+  - Open or short circuit on an analog input triggers this alarm
+  - Control systems should have fallback logic when a sensor faults
+
+related:
+  - communication-loss-alarm

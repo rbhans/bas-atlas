@@ -38,3 +38,8 @@ aliases:
     - cnd water supply temperature
     - cnd-water-supply-temperature
     - condenser-water-supply-temperature
+    - cw-supply-temp
+
+related:
+  - condenser-water-supply-temperature-setpoint
+  - condenser-water-flow

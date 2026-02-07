@@ -583,3 +583,63 @@ equipment:
     typical_points:
       - hot-water-supply-temperature
       - steam-heating-output
+
+  - id: condensing-unit
+    name: Condensing Unit
+    abbreviation: CU
+    category: central-plant
+    description: Outdoor unit containing compressor(s) and condenser coil for DX (direct expansion) cooling systems. Paired with indoor evaporator coils in split system configurations.
+    haystack: condenser equip
+    brick: Condensing_Unit
+    aliases:
+      common:
+        - cu
+        - outdoor-unit
+        - condenser-unit
+        - dx-condenser
+        - split-system-outdoor
+    typical_points:
+      - outdoor-air-temperature
+
+  - id: dehumidifier
+    name: Dehumidifier
+    abbreviation: DEHUM
+    category: central-plant
+    description: Standalone equipment for removing moisture from air. Used in spaces with high humidity loads such as pools, locker rooms, and archival storage.
+    haystack: dehumidifier equip
+    brick: Dehumidifier
+    subtypes:
+      - refrigerant-dehumidifier
+      - desiccant-dehumidifier
+    aliases:
+      common:
+        - dehum
+        - dehumidifier
+        - desiccant-wheel
+    typical_points:
+      - zone-humidity
+      - humidity-setpoint
+      - equipment-run-hours
+
+  - id: humidifier
+    name: Humidifier
+    abbreviation: HUM
+    category: central-plant
+    description: Standalone or duct-mounted equipment for adding moisture to air. Common types include steam injection, evaporative, and ultrasonic.
+    haystack: humidifier equip
+    brick: Humidifier
+    subtypes:
+      - steam-humidifier
+      - evaporative-humidifier
+      - ultrasonic-humidifier
+    aliases:
+      common:
+        - hum
+        - humidifier
+        - steam-humidifier
+    typical_points:
+      - humidifier-enable
+      - humidifier-output
+      - humidifier-feedback
+      - zone-humidity
+      - humidity-setpoint

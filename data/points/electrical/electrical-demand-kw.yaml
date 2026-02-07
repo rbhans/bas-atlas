@@ -1,0 +1,33 @@
+concept:
+  id: electrical-demand-kw
+  name: Electrical Demand
+  category: electrical
+  description: Instantaneous electrical power draw measured in kilowatts. Used for demand monitoring, load shedding, and utility demand charge management.
+  haystack: elec power sensor
+  brick: Electric_Power_Sensor
+  unit:
+    - kW
+  point_function: sensor
+
+aliases:
+  common:
+    - kw-demand
+    - power-demand
+    - electric-demand
+    - kw
+    - demand-kw
+    - electrical-power
+    - real-power
+  misspellings:
+    - kw-demnd
+    - electrial-demand
+
+notes:
+  - Measures real (active) power consumption
+  - Used for utility demand charge calculations and load shedding programs
+  - Typically read from a power meter or CT (current transformer) metering
+
+related:
+  - energy-consumption-kwh
+  - power-factor
+  - electrical-current-rms

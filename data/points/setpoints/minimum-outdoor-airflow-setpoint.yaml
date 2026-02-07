@@ -1,0 +1,32 @@
+concept:
+  id: minimum-outdoor-airflow-setpoint
+  name: Minimum Outdoor Airflow Setpoint
+  category: setpoints
+  description: Minimum volume of outdoor air required for ventilation per ASHRAE 62.1. Ensures adequate ventilation regardless of economizer mode.
+  haystack: outside air flow min sp
+  brick: Min_Outside_Air_Flow_Setpoint
+  unit:
+    - CFM
+    - L/s
+  point_function: setpoint
+
+aliases:
+  common:
+    - min-oa-sp
+    - minimum-oa-cfm
+    - ventilation-setpoint
+    - min-outdoor-air
+    - min-oa-flow
+    - min-ventilation
+  misspellings:
+    - minimun-outdoor-airflow
+
+notes:
+  - Calculated per ASHRAE 62.1 based on occupancy, floor area, and space type
+  - Must be maintained even when economizer is not active
+  - In DCV mode, this setpoint may vary with occupancy count or CO2 levels
+
+related:
+  - outdoor-air-flow
+  - zone-co2
+  - co2-setpoint

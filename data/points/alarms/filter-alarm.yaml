@@ -41,3 +41,6 @@ aliases:
     - filter alm
     - filter-alm
     - filter-alarm
+
+related:
+  - filter-differential-pressure

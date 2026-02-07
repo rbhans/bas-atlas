@@ -38,3 +38,8 @@ aliases:
     - ht water return temperature
     - ht-water-return-temperature
     - hot-water-return-temperature
+    - hw-return-temp
+
+related:
+  - hot-water-supply-temperature-setpoint
+  - hot-water-flow

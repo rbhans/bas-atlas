@@ -1,0 +1,30 @@
+concept:
+  id: condenser-water-flow
+  name: Condenser Water Flow
+  category: flows
+  description: Volumetric flow rate of condenser water between chillers and cooling towers. Critical for maintaining proper chiller condenser performance.
+  haystack: condenser water flow sensor
+  brick: Condenser_Water_Flow_Sensor
+  unit:
+    - GPM
+    - L/s
+  point_function: sensor
+
+aliases:
+  common:
+    - cw-flow
+    - condenser-flow
+    - condenser-gpm
+    - cw-gpm
+    - tower-water-flow
+  misspellings:
+    - condensor-water-flow
+
+notes:
+  - Chiller manufacturers specify minimum condenser water flow rates
+  - Low condenser water flow causes high head pressure and potential chiller trip
+  - Typically 3 GPM per ton of cooling
+
+related:
+  - condenser-water-supply-temperature
+  - condenser-water-return-temperature

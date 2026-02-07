@@ -1,0 +1,37 @@
+concept:
+  id: communication-loss-alarm
+  name: Communication Loss Alarm
+  category: maintenance
+  description: Alarm indicating loss of communication between a BAS controller and a supervised device or sensor. May indicate network failure, device failure, or wiring issue.
+  haystack: comm alarm
+  brick: Communication_Loss_Alarm
+  point_function: alarm
+  states:
+    "0":
+      - normal
+      - communicating
+      - online
+    "1":
+      - comm-loss
+      - offline
+      - no-response
+      - communication-failure
+
+aliases:
+  common:
+    - comm-loss
+    - comm-alarm
+    - comm-failure
+    - network-alarm
+    - offline-alarm
+    - communication-fault
+  misspellings:
+    - comunication-loss
+
+notes:
+  - One of the most common alarms in any BAS
+  - May be caused by wiring issues, power loss at the device, or network switch failure
+  - Should trigger investigation within hours to prevent uncontrolled equipment operation
+
+related:
+  - sensor-fault-alarm

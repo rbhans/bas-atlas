@@ -6,12 +6,6 @@
 
 BAS Babel provides a standardized reference for point naming across different BAS platforms, vendors, and conventions. Translate between Haystack tags, Brick schema, and vendor-specific naming with a shared resource that grows with contributions from the industry.
 
-## Design + Program Tracking
-
-- Upgrade design doc: [`DESIGN.md`](DESIGN.md)
-- BAS Atlas companion repo: [bas-atlas](https://github.com/rbhans/bas-atlas)
-- BASidekick API wrapper host: [basidekick-site](https://github.com/rbhans/basidekick-site)
-
 ## Usage
 
 ### Web Interface
@@ -31,12 +25,6 @@ curl https://raw.githubusercontent.com/rbhans/bas-babel/main/dist/categories.jso
 
 # Search index
 curl https://raw.githubusercontent.com/rbhans/bas-babel/main/dist/search-index.json
-
-# Equipment templates
-curl https://raw.githubusercontent.com/rbhans/bas-babel/main/dist/templates.json
-
-# Relationship graph
-curl https://raw.githubusercontent.com/rbhans/bas-babel/main/dist/graph.json
 ```
 
 ```javascript
@@ -177,21 +165,6 @@ npm install
 
 # Build JSON from YAML
 npm run build
-
-# Rebuild from scratch (clean + deterministic output)
-npm run build:clean
-
-# Validate dist against JSON schemas
-npm run validate
-
-# Run regression tests
-npm run test
-
-# Full local check
-npm run check
-
-# CLI example
-bas-babel validate --equipment ahu --file ./examples/points.txt
 ```
 
 ## Stats

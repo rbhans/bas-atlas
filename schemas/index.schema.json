@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://basidekick.com/schemas/atlas-index.schema.json",
+  "type": "object",
+  "required": ["version", "lastUpdated", "totalBrands", "totalTypes", "totalModels", "brands", "types", "models"],
+  "properties": {
+    "version": { "type": "string" },
+    "lastUpdated": { "type": "string", "format": "date-time" },
+    "totalBrands": { "type": "integer", "minimum": 0 },
+    "totalTypes": { "type": "integer", "minimum": 0 },
+    "totalModels": { "type": "integer", "minimum": 0 },
+    "brands": { "type": "array", "items": { "type": "object" } },
+    "types": { "type": "array", "items": { "type": "object" } },
+    "models": { "type": "array", "items": { "type": "object" } }
+  },
+  "additionalProperties": true
+}

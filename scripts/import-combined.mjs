@@ -135,10 +135,9 @@ for (const model of models) {
   });
 }
 
-// Update data with fresh timestamp
 const outputData = {
   ...data,
-  lastUpdated: new Date().toISOString(),
+  lastUpdated: data.lastUpdated || "1970-01-01T00:00:00.000Z",
 };
 
 const categories = {

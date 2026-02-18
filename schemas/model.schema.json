@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://basidekick.com/schemas/atlas-model.schema.json",
+  "type": "object",
+  "required": ["id", "brand", "type", "name", "slug"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "brand": { "type": "string", "minLength": 1 },
+    "type": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "minLength": 1 },
+    "model_numbers": { "type": "array", "items": { "type": "string" } },
+    "protocols": { "type": "array", "items": { "type": "string" } },
+    "status": { "type": "string" },
+    "description": { "type": "string" },
+    "manufacturer_url": { "type": "string" },
+    "image_url": { "type": "string" },
+    "added_at": { "type": "string" },
+    "aliases": {
+      "type": "object",
+      "properties": {
+        "common": { "type": "array", "items": { "type": "string" } },
+        "misspellings": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

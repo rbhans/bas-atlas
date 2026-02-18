@@ -1,33 +1,54 @@
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
+import { execSync } from "node:child_process";
 
-const DATA_DIR = path.join(process.cwd(), "data");
-const DIST_DIR = path.join(process.cwd(), "dist");
-const VALIDATE_ONLY = process.argv.includes("--validate");
+const CWD = process.cwd();
+const DATA_DIR = path.join(CWD, "data");
+const CANONICAL_INDEX_PATH = path.join(DATA_DIR, "canonical", "index.json");
+const DIST_DIR = path.join(CWD, "dist");
+const PACKAGE_JSON_PATH = path.join(CWD, "package.json");
 
-function readJsonFiles(dir) {
-  const results = [];
-  if (!fs.existsSync(dir)) return results;
+const CLEAN = process.argv.includes("--clean");
 
-  const items = fs.readdirSync(dir, { withFileTypes: true });
-  for (const item of items) {
-    const fullPath = path.join(dir, item.name);
-    if (item.isDirectory()) {
-      results.push(...readJsonFiles(fullPath));
-    } else if (item.name.endsWith(".json")) {
-      try {
-        const content = fs.readFileSync(fullPath, "utf-8");
-        const parsed = JSON.parse(content);
-        if (parsed) {
-          results.push({ file: fullPath, data: parsed });
-        }
-      } catch (err) {
-        console.error(`Error parsing ${fullPath}:`, err);
-      }
-    }
+function readPackageVersion() {
+  try {
+    const pkg = JSON.parse(fs.readFileSync(PACKAGE_JSON_PATH, "utf8"));
+    return pkg.version || "0.1.0";
+  } catch {
+    return "0.1.0";
+  }
+}
+
+function deterministicTimestamp(preferred) {
+  const envEpoch = process.env.SOURCE_DATE_EPOCH;
+  if (envEpoch && /^\d+$/.test(envEpoch)) {
+    return new Date(Number(envEpoch) * 1000).toISOString();
   }
 
-  return results;
+  if (preferred && !Number.isNaN(Date.parse(preferred))) {
+    return new Date(preferred).toISOString();
+  }
+
+  try {
+    const gitEpoch = execSync("git log -1 --format=%ct", {
+      cwd: CWD,
+      stdio: ["ignore", "pipe", "ignore"],
+    })
+      .toString("utf8")
+      .trim();
+
+    if (/^\d+$/.test(gitEpoch)) {
+      return new Date(Number(gitEpoch) * 1000).toISOString();
+    }
+  } catch {
+    // use deterministic fallback
+  }
+
+  return "1970-01-01T00:00:00.000Z";
+}
+
+function unique(values) {
+  return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
 }
 
 function tokenize(value) {
@@ -36,103 +57,164 @@ function tokenize(value) {
     .toString()
     .toLowerCase()
     .split(/\s+/)
-    .map((t) => t.trim())
+    .map((token) => token.trim())
     .filter(Boolean);
 }
 
-function unique(values) {
-  return Array.from(new Set(values));
+function readJsonFiles(dir) {
+  if (!fs.existsSync(dir)) return [];
+
+  const entries = fs
+    .readdirSync(dir, { withFileTypes: true })
+    .sort((a, b) => a.name.localeCompare(b.name));
+
+  const files = [];
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+
+    if (entry.isDirectory()) {
+      if (entry.name === "canonical") continue;
+      files.push(...readJsonFiles(fullPath));
+      continue;
+    }
+
+    if (entry.name.endsWith(".json")) {
+      files.push(fullPath);
+    }
+  }
+
+  return files.sort((a, b) => a.localeCompare(b));
 }
 
-function build() {
-  console.log("Building BAS Atlas data...\n");
+function loadCanonicalData() {
+  if (!fs.existsSync(CANONICAL_INDEX_PATH)) {
+    return null;
+  }
+  return JSON.parse(fs.readFileSync(CANONICAL_INDEX_PATH, "utf8"));
+}
 
+function loadGranularData() {
   const files = readJsonFiles(DATA_DIR);
 
   const brands = [];
   const types = [];
   const models = [];
 
-  for (const { file, data } of files) {
+  for (const file of files) {
+    const data = JSON.parse(fs.readFileSync(file, "utf8"));
     if (data.brand) {
       brands.push(data.brand);
-    } else if (data.type) {
+      continue;
+    }
+    if (data.type) {
       types.push(data.type);
-    } else if (data.model) {
+      continue;
+    }
+    if (data.model) {
       models.push(data.model);
-    } else {
-      console.warn(`Skipping ${file}: missing brand/type/model root key`);
+      continue;
     }
   }
 
+  return {
+    version: readPackageVersion(),
+    lastUpdated: deterministicTimestamp(),
+    totalBrands: brands.length,
+    totalTypes: types.length,
+    totalModels: models.length,
+    brands,
+    types,
+    models,
+  };
+}
+
+function normalizeData(inputData) {
+  const brands = [...(inputData.brands || [])].sort((a, b) => a.id.localeCompare(b.id));
+  const types = [...(inputData.types || [])].sort((a, b) => a.id.localeCompare(b.id));
+  const models = [...(inputData.models || [])].sort((a, b) => a.id.localeCompare(b.id));
+
+  return {
+    version: inputData.version || readPackageVersion(),
+    lastUpdated: deterministicTimestamp(inputData.lastUpdated),
+    totalBrands: brands.length,
+    totalTypes: types.length,
+    totalModels: models.length,
+    brands,
+    types,
+    models,
+  };
+}
+
+function validateCoreData(data) {
   const brandIds = new Set();
-  for (const brand of brands) {
+  for (const brand of data.brands) {
     if (!brand.id) throw new Error("Brand missing id");
     if (brandIds.has(brand.id)) throw new Error(`Duplicate brand id: ${brand.id}`);
     brandIds.add(brand.id);
   }
 
   const typeIds = new Set();
-  for (const type of types) {
+  for (const type of data.types) {
     if (!type.id) throw new Error("Type missing id");
     if (typeIds.has(type.id)) throw new Error(`Duplicate type id: ${type.id}`);
     typeIds.add(type.id);
   }
 
   const modelIds = new Set();
-  for (const model of models) {
+  for (const model of data.models) {
     if (!model.id) throw new Error("Model missing id");
     if (modelIds.has(model.id)) throw new Error(`Duplicate model id: ${model.id}`);
     modelIds.add(model.id);
 
     if (!brandIds.has(model.brand)) {
-      console.warn(`Model ${model.id} references missing brand: ${model.brand}`);
+      throw new Error(`Model ${model.id} references missing brand: ${model.brand}`);
     }
     if (!typeIds.has(model.type)) {
-      console.warn(`Model ${model.id} references missing type: ${model.type}`);
+      throw new Error(`Model ${model.id} references missing type: ${model.type}`);
     }
   }
+}
 
-  const brandsById = Object.fromEntries(brands.map((b) => [b.id, b]));
-  const typesById = Object.fromEntries(types.map((t) => [t.id, t]));
+function buildCategories(data) {
+  const brandsById = Object.fromEntries(data.brands.map((brand) => [brand.id, brand]));
+  const typesById = Object.fromEntries(data.types.map((type) => [type.id, type]));
 
   const brandCounts = new Map();
   const typeCounts = new Map();
 
-  for (const model of models) {
+  for (const model of data.models) {
     brandCounts.set(model.brand, (brandCounts.get(model.brand) || 0) + 1);
     typeCounts.set(model.type, (typeCounts.get(model.type) || 0) + 1);
   }
 
-  const brandCategories = brands
+  const brands = data.brands
     .map((brand) => {
-      const modelCount = brandCounts.get(brand.id) || 0;
-      const brandModels = models.filter((m) => m.brand === brand.id);
+      const brandModels = data.models.filter((model) => model.brand === brand.id);
       const typeMap = new Map();
       for (const model of brandModels) {
         typeMap.set(model.type, (typeMap.get(model.type) || 0) + 1);
       }
-      const typesForBrand = Array.from(typeMap.entries()).map(([typeId, count]) => {
-        const type = typesById[typeId];
-        return {
+
+      const types = [...typeMap.entries()]
+        .map(([typeId, count]) => ({
           id: typeId,
-          name: type?.name || typeId,
-          slug: type?.slug || typeId,
+          name: typesById[typeId]?.name || typeId,
+          slug: typesById[typeId]?.slug || typeId,
           count,
-        };
-      });
-      typesForBrand.sort((a, b) => a.name.localeCompare(b.name));
+        }))
+        .sort((a, b) => a.name.localeCompare(b.name));
+
       return {
         id: brand.id,
         name: brand.name,
         slug: brand.slug || brand.id,
-        count: modelCount,
-        types: typesForBrand,
+        count: brandCounts.get(brand.id) || 0,
+        types,
       };
     })
     .sort((a, b) => a.name.localeCompare(b.name));
 
-  const typeCategories = types
+  const types = data.types
     .map((type) => ({
       id: type.id,
       name: type.name,
@@ -141,99 +223,110 @@ function build() {
     }))
     .sort((a, b) => a.name.localeCompare(b.name));
 
-  const searchEntries = [];
+  return {
+    version: data.version,
+    brands,
+    types,
+  };
+}
 
-  for (const brand of brands) {
-    const tokens = unique([
-      ...tokenize(brand.name),
-      ...tokenize(brand.id),
-      ...tokenize(brand.slug),
-    ]);
-    searchEntries.push({
+function buildSearchIndex(data) {
+  const brandsById = Object.fromEntries(data.brands.map((brand) => [brand.id, brand]));
+  const typesById = Object.fromEntries(data.types.map((type) => [type.id, type]));
+
+  const entries = [];
+
+  for (const brand of data.brands) {
+    entries.push({
       id: brand.id,
       type: "brand",
       name: brand.name,
-      tokens,
+      tokens: unique([...tokenize(brand.id), ...tokenize(brand.name), ...tokenize(brand.slug)]),
     });
   }
 
-  for (const type of types) {
-    const tokens = unique([
-      ...tokenize(type.name),
-      ...tokenize(type.id),
-      ...tokenize(type.slug),
-    ]);
-    searchEntries.push({
+  for (const type of data.types) {
+    entries.push({
       id: type.id,
       type: "type",
       name: type.name,
-      tokens,
+      tokens: unique([...tokenize(type.id), ...tokenize(type.name), ...tokenize(type.slug)]),
     });
   }
 
-  for (const model of models) {
+  for (const model of data.models) {
     const brand = brandsById[model.brand];
     const type = typesById[model.type];
 
-    const tokens = unique([
-      ...tokenize(model.name),
-      ...tokenize(model.id),
-      ...tokenize(model.slug),
-      ...(model.model_numbers || []).flatMap(tokenize),
-      ...(model.protocols || []).flatMap(tokenize),
-      ...(model.aliases?.common || []).flatMap(tokenize),
-      ...(model.aliases?.misspellings || []).flatMap(tokenize),
-      ...tokenize(brand?.name),
-      ...tokenize(type?.name),
-    ]);
-
-    searchEntries.push({
+    entries.push({
       id: model.id,
       type: "model",
       name: model.name,
       brand: model.brand,
       model_numbers: model.model_numbers || [],
-      tokens,
+      tokens: unique([
+        ...tokenize(model.id),
+        ...tokenize(model.name),
+        ...tokenize(model.slug),
+        ...(model.model_numbers || []).flatMap((value) => tokenize(value)),
+        ...(model.protocols || []).flatMap((value) => tokenize(value)),
+        ...(model.aliases?.common || []).flatMap((value) => tokenize(value)),
+        ...(model.aliases?.misspellings || []).flatMap((value) => tokenize(value)),
+        ...tokenize(brand?.name),
+        ...tokenize(type?.name),
+      ]),
     });
   }
 
-  if (!fs.existsSync(DIST_DIR) && !VALIDATE_ONLY) {
+  return {
+    version: data.version,
+    entries: entries.sort((a, b) => a.id.localeCompare(b.id)),
+  };
+}
+
+function writeJson(filePath, value) {
+  fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+}
+
+function cleanDist() {
+  if (fs.existsSync(DIST_DIR)) {
+    fs.rmSync(DIST_DIR, { recursive: true, force: true });
+  }
+  fs.mkdirSync(DIST_DIR, { recursive: true });
+}
+
+function ensureDist() {
+  if (!fs.existsSync(DIST_DIR)) {
     fs.mkdirSync(DIST_DIR, { recursive: true });
   }
+}
 
-  const data = {
-    version: "1.0.0",
-    lastUpdated: new Date().toISOString(),
-    totalBrands: brands.length,
-    totalTypes: types.length,
-    totalModels: models.length,
-    brands,
-    types,
-    models,
-  };
-
-  const categories = {
-    version: "1.0.0",
-    brands: brandCategories,
-    types: typeCategories,
-  };
-
-  const searchIndex = {
-    version: "1.0.0",
-    entries: searchEntries,
-  };
-
-  if (!VALIDATE_ONLY) {
-    fs.writeFileSync(path.join(DIST_DIR, "index.json"), JSON.stringify(data, null, 2));
-    fs.writeFileSync(path.join(DIST_DIR, "categories.json"), JSON.stringify(categories, null, 2));
-    fs.writeFileSync(path.join(DIST_DIR, "search-index.json"), JSON.stringify(searchIndex, null, 2));
-    console.log("Generated dist/index.json");
-    console.log("Generated dist/categories.json");
-    console.log("Generated dist/search-index.json");
+function build() {
+  if (CLEAN) {
+    cleanDist();
+  } else {
+    ensureDist();
   }
 
-  console.log(`\nFound ${brands.length} brands, ${types.length} types, ${models.length} models`);
-  console.log("Build complete!\n");
+  const canonicalData = loadCanonicalData();
+  const sourceData = canonicalData || loadGranularData();
+  const data = normalizeData(sourceData);
+
+  validateCoreData(data);
+
+  const categories = buildCategories(data);
+  const searchIndex = buildSearchIndex(data);
+
+  writeJson(path.join(DIST_DIR, "index.json"), data);
+  writeJson(path.join(DIST_DIR, "categories.json"), categories);
+  writeJson(path.join(DIST_DIR, "search-index.json"), searchIndex);
+
+  console.log("Build complete:");
+  console.log(`  source: ${canonicalData ? "data/canonical/index.json" : "data/*"}`);
+  console.log(`  lastUpdated: ${data.lastUpdated}`);
+  console.log(`  brands: ${data.totalBrands}`);
+  console.log(`  types: ${data.totalTypes}`);
+  console.log(`  models: ${data.totalModels}`);
 }
 
 build();

@@ -5,7 +5,14 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "validate": "node scripts/build.mjs --validate"
+    "build:clean": "node scripts/build.mjs --clean",
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/test.mjs",
+    "check": "npm run build:clean && npm run validate && npm run test"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
 }

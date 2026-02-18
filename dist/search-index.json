@@ -2,152 +2,6 @@
   "version": "1.0.0",
   "entries": [
     {
-      "id": "automated-logic",
-      "type": "brand",
-      "name": "Automated Logic",
-      "tokens": [
-        "automated",
-        "logic",
-        "automated-logic"
-      ]
-    },
-    {
-      "id": "belimo",
-      "type": "brand",
-      "name": "Belimo",
-      "tokens": [
-        "belimo"
-      ]
-    },
-    {
-      "id": "carrier",
-      "type": "brand",
-      "name": "Carrier",
-      "tokens": [
-        "carrier"
-      ]
-    },
-    {
-      "id": "daikin",
-      "type": "brand",
-      "name": "Daikin",
-      "tokens": [
-        "daikin"
-      ]
-    },
-    {
-      "id": "delta-controls",
-      "type": "brand",
-      "name": "Delta Controls",
-      "tokens": [
-        "delta",
-        "controls",
-        "delta-controls"
-      ]
-    },
-    {
-      "id": "distech-controls",
-      "type": "brand",
-      "name": "Distech Controls",
-      "tokens": [
-        "distech",
-        "controls",
-        "distech-controls"
-      ]
-    },
-    {
-      "id": "honeywell",
-      "type": "brand",
-      "name": "Honeywell",
-      "tokens": [
-        "honeywell"
-      ]
-    },
-    {
-      "id": "johnson-controls",
-      "type": "brand",
-      "name": "Johnson Controls",
-      "tokens": [
-        "johnson",
-        "controls",
-        "johnson-controls"
-      ]
-    },
-    {
-      "id": "lennox",
-      "type": "brand",
-      "name": "Lennox",
-      "tokens": [
-        "lennox"
-      ]
-    },
-    {
-      "id": "liebert",
-      "type": "brand",
-      "name": "Liebert",
-      "tokens": [
-        "liebert"
-      ]
-    },
-    {
-      "id": "mcquay",
-      "type": "brand",
-      "name": "McQuay",
-      "tokens": [
-        "mcquay"
-      ]
-    },
-    {
-      "id": "neptronic",
-      "type": "brand",
-      "name": "Neptronic",
-      "tokens": [
-        "neptronic"
-      ]
-    },
-    {
-      "id": "schneider-electric",
-      "type": "brand",
-      "name": "Schneider Electric",
-      "tokens": [
-        "schneider",
-        "electric",
-        "schneider-electric"
-      ]
-    },
-    {
-      "id": "siemens",
-      "type": "brand",
-      "name": "Siemens",
-      "tokens": [
-        "siemens"
-      ]
-    },
-    {
-      "id": "trane",
-      "type": "brand",
-      "name": "Trane",
-      "tokens": [
-        "trane"
-      ]
-    },
-    {
-      "id": "veris",
-      "type": "brand",
-      "name": "Veris",
-      "tokens": [
-        "veris"
-      ]
-    },
-    {
-      "id": "york",
-      "type": "brand",
-      "name": "York",
-      "tokens": [
-        "york"
-      ]
-    },
-    {
       "id": "abb",
       "type": "brand",
       "name": "ABB",
@@ -156,19 +10,89 @@
       ]
     },
     {
-      "id": "danfoss",
-      "type": "brand",
-      "name": "Danfoss",
+      "id": "abb-ach580",
+      "type": "model",
+      "name": "ACH580",
+      "brand": "abb",
+      "model_numbers": [
+        "ACH580"
+      ],
       "tokens": [
-        "danfoss"
+        "/",
+        "abb",
+        "abb-ach580",
+        "ach580",
+        "bacnet",
+        "drives",
+        "lon",
+        "modbus",
+        "vfds"
       ]
     },
     {
-      "id": "grundfos",
-      "type": "brand",
-      "name": "Grundfos",
+      "id": "abb-acs580",
+      "type": "model",
+      "name": "ACS580",
+      "brand": "abb",
+      "model_numbers": [
+        "ACS580"
+      ],
       "tokens": [
-        "grundfos"
+        "/",
+        "abb",
+        "abb-acs580",
+        "acs580",
+        "bacnet",
+        "drives",
+        "modbus",
+        "profibus",
+        "vfds"
+      ]
+    },
+    {
+      "id": "abb-acs880",
+      "type": "model",
+      "name": "ACS880 Industrial Drive",
+      "brand": "abb",
+      "model_numbers": [
+        "ACS880"
+      ],
+      "tokens": [
+        "/",
+        "abb",
+        "abb-acs880",
+        "acs880",
+        "bacnet",
+        "drive",
+        "drives",
+        "industrial",
+        "modbus",
+        "profibus",
+        "profinet",
+        "vfds"
+      ]
+    },
+    {
+      "id": "ahus",
+      "type": "type",
+      "name": "Air Handling Units (AHUs)",
+      "tokens": [
+        "(ahus)",
+        "ahus",
+        "air",
+        "handling",
+        "units"
+      ]
+    },
+    {
+      "id": "air-quality-sensors",
+      "type": "type",
+      "name": "Air Quality Sensors",
+      "tokens": [
+        "air",
+        "air-quality-sensors",
+        "quality",
+        "sensors"
       ]
     },
     {
@@ -180,899 +104,21 @@
       ]
     },
     {
-      "id": "bell-gossett",
-      "type": "brand",
-      "name": "Bell & Gossett",
+      "id": "armstrong-4300",
+      "type": "model",
+      "name": "4300 Vertical Inline",
+      "brand": "armstrong",
+      "model_numbers": [
+        "4300"
+      ],
       "tokens": [
-        "bell",
-        "&",
-        "gossett",
-        "bell-gossett"
-      ]
-    },
-    {
-      "id": "taco",
-      "type": "brand",
-      "name": "Taco Comfort Solutions",
-      "tokens": [
-        "taco",
-        "comfort",
-        "solutions"
-      ]
-    },
-    {
-      "id": "yaskawa",
-      "type": "brand",
-      "name": "Yaskawa",
-      "tokens": [
-        "yaskawa"
-      ]
-    },
-    {
-      "id": "contemporary-controls",
-      "type": "brand",
-      "name": "Contemporary Controls",
-      "tokens": [
-        "contemporary",
-        "controls",
-        "contemporary-controls"
-      ]
-    },
-    {
-      "id": "ahus",
-      "type": "type",
-      "name": "Air Handling Units (AHUs)",
-      "tokens": [
-        "air",
-        "handling",
-        "units",
-        "(ahus)",
-        "ahus"
-      ]
-    },
-    {
-      "id": "rtus",
-      "type": "type",
-      "name": "Rooftop Units (RTUs)",
-      "tokens": [
-        "rooftop",
-        "units",
-        "(rtus)",
-        "rtus"
-      ]
-    },
-    {
-      "id": "fcus",
-      "type": "type",
-      "name": "Fan Coil Units (FCUs)",
-      "tokens": [
-        "fan",
-        "coil",
-        "units",
-        "(fcus)",
-        "fcus"
-      ]
-    },
-    {
-      "id": "vav-boxes",
-      "type": "type",
-      "name": "VAV Boxes",
-      "tokens": [
-        "vav",
-        "boxes",
-        "vav-boxes"
-      ]
-    },
-    {
-      "id": "chillers",
-      "type": "type",
-      "name": "Chillers",
-      "tokens": [
-        "chillers"
-      ]
-    },
-    {
-      "id": "boilers",
-      "type": "type",
-      "name": "Boilers",
-      "tokens": [
-        "boilers"
-      ]
-    },
-    {
-      "id": "pumps",
-      "type": "type",
-      "name": "Pumps",
-      "tokens": [
-        "pumps"
-      ]
-    },
-    {
-      "id": "cooling-towers",
-      "type": "type",
-      "name": "Cooling Towers",
-      "tokens": [
-        "cooling",
-        "towers",
-        "cooling-towers"
-      ]
-    },
-    {
-      "id": "heat-pumps",
-      "type": "type",
-      "name": "Heat Pumps",
-      "tokens": [
-        "heat",
+        "4300",
+        "4300-vertical-inline",
+        "armstrong",
+        "armstrong-4300",
+        "inline",
         "pumps",
-        "heat-pumps"
-      ]
-    },
-    {
-      "id": "air-quality-sensors",
-      "type": "type",
-      "name": "Air Quality Sensors",
-      "tokens": [
-        "air",
-        "quality",
-        "sensors",
-        "air-quality-sensors"
-      ]
-    },
-    {
-      "id": "co2-sensors",
-      "type": "type",
-      "name": "CO2 Sensors",
-      "tokens": [
-        "co2",
-        "sensors",
-        "co2-sensors"
-      ]
-    },
-    {
-      "id": "damper-actuators",
-      "type": "type",
-      "name": "Damper Actuators",
-      "tokens": [
-        "damper",
-        "actuators",
-        "damper-actuators"
-      ]
-    },
-    {
-      "id": "gateways",
-      "type": "type",
-      "name": "Gateways & Routers",
-      "tokens": [
-        "gateways",
-        "&",
-        "routers"
-      ]
-    },
-    {
-      "id": "humidity-sensors",
-      "type": "type",
-      "name": "Humidity Sensors",
-      "tokens": [
-        "humidity",
-        "sensors",
-        "humidity-sensors"
-      ]
-    },
-    {
-      "id": "meters",
-      "type": "type",
-      "name": "Meters",
-      "tokens": [
-        "meters"
-      ]
-    },
-    {
-      "id": "network-controllers",
-      "type": "type",
-      "name": "Network Controllers",
-      "tokens": [
-        "network",
-        "controllers",
-        "network-controllers"
-      ]
-    },
-    {
-      "id": "occupancy-sensors",
-      "type": "type",
-      "name": "Occupancy Sensors",
-      "tokens": [
-        "occupancy",
-        "sensors",
-        "occupancy-sensors"
-      ]
-    },
-    {
-      "id": "pressure-sensors",
-      "type": "type",
-      "name": "Pressure Sensors",
-      "tokens": [
-        "pressure",
-        "sensors",
-        "pressure-sensors"
-      ]
-    },
-    {
-      "id": "software",
-      "type": "type",
-      "name": "Software",
-      "tokens": [
-        "software"
-      ]
-    },
-    {
-      "id": "supervisory-controllers",
-      "type": "type",
-      "name": "Supervisory Controllers",
-      "tokens": [
-        "supervisory",
-        "controllers",
-        "supervisory-controllers"
-      ]
-    },
-    {
-      "id": "temperature-sensors",
-      "type": "type",
-      "name": "Temperature Sensors",
-      "tokens": [
-        "temperature",
-        "sensors",
-        "temperature-sensors"
-      ]
-    },
-    {
-      "id": "thermostats",
-      "type": "type",
-      "name": "Thermostats",
-      "tokens": [
-        "thermostats"
-      ]
-    },
-    {
-      "id": "unitary-controllers",
-      "type": "type",
-      "name": "Unitary Controllers",
-      "tokens": [
-        "unitary",
-        "controllers",
-        "unitary-controllers"
-      ]
-    },
-    {
-      "id": "valve-actuators",
-      "type": "type",
-      "name": "Valve Actuators",
-      "tokens": [
-        "valve",
-        "actuators",
-        "valve-actuators"
-      ]
-    },
-    {
-      "id": "vav-controllers",
-      "type": "type",
-      "name": "VAV Controllers",
-      "tokens": [
-        "vav",
-        "controllers",
-        "vav-controllers"
-      ]
-    },
-    {
-      "id": "vfds-drives",
-      "type": "type",
-      "name": "VFDs / Drives",
-      "tokens": [
-        "vfds",
-        "/",
-        "drives",
-        "vfds-drives"
-      ]
-    },
-    {
-      "id": "zone-controllers",
-      "type": "type",
-      "name": "Zone Controllers",
-      "tokens": [
-        "zone",
-        "controllers",
-        "zone-controllers"
-      ]
-    },
-    {
-      "id": "crac-units",
-      "type": "type",
-      "name": "CRAC Units",
-      "tokens": [
-        "crac",
-        "units",
-        "crac-units"
-      ]
-    },
-    {
-      "id": "exhaust-fans",
-      "type": "type",
-      "name": "Exhaust Fans",
-      "tokens": [
-        "exhaust",
-        "fans",
-        "exhaust-fans"
-      ]
-    },
-    {
-      "id": "erv-hrv",
-      "type": "type",
-      "name": "ERVs / HRVs",
-      "tokens": [
-        "ervs",
-        "/",
-        "hrvs",
-        "erv-hrv"
-      ]
-    },
-    {
-      "id": "split-systems",
-      "type": "type",
-      "name": "Split Systems",
-      "tokens": [
-        "split",
-        "systems",
-        "split-systems"
-      ]
-    },
-    {
-      "id": "vrf-systems",
-      "type": "type",
-      "name": "VRF Systems",
-      "tokens": [
-        "vrf",
-        "systems",
-        "vrf-systems"
-      ]
-    },
-    {
-      "id": "humidifiers",
-      "type": "type",
-      "name": "Humidifiers",
-      "tokens": [
-        "humidifiers"
-      ]
-    },
-    {
-      "id": "flow-sensors",
-      "type": "type",
-      "name": "Flow Sensors",
-      "tokens": [
-        "flow",
-        "sensors",
-        "flow-sensors"
-      ]
-    },
-    {
-      "id": "other",
-      "type": "type",
-      "name": "Other",
-      "tokens": [
-        "other"
-      ]
-    },
-    {
-      "id": "trane-intellipak",
-      "type": "model",
-      "name": "IntelliPak",
-      "brand": "trane",
-      "model_numbers": [
-        "?"
-      ],
-      "tokens": [
-        "intellipak",
-        "trane-intellipak",
-        "?",
-        "bacnet",
-        "n2",
-        "modbus",
-        "trane",
-        "rooftop",
-        "units",
-        "(rtus)"
-      ]
-    },
-    {
-      "id": "trane-voyager",
-      "type": "model",
-      "name": "Voyager",
-      "brand": "trane",
-      "model_numbers": [
-        "TCD",
-        "TDD",
-        "THD"
-      ],
-      "tokens": [
-        "voyager",
-        "trane-voyager",
-        "tcd",
-        "tdd",
-        "thd",
-        "bacnet",
-        "modbus",
-        "trane",
-        "rooftop",
-        "units",
-        "(rtus)"
-      ]
-    },
-    {
-      "id": "carrier-48gc",
-      "type": "model",
-      "name": "48GC WeatherMaster",
-      "brand": "carrier",
-      "model_numbers": [
-        "48GC"
-      ],
-      "tokens": [
-        "48gc",
-        "weathermaster",
-        "carrier-48gc",
-        "48gc-weathermaster",
-        "bacnet",
-        "modbus",
-        "carrier",
-        "rooftop",
-        "units",
-        "(rtus)"
-      ]
-    },
-    {
-      "id": "carrier-50xl",
-      "type": "model",
-      "name": "50XL",
-      "brand": "carrier",
-      "model_numbers": [
-        "50XL"
-      ],
-      "tokens": [
-        "50xl",
-        "carrier-50xl",
-        "bacnet",
-        "n2",
-        "carrier",
-        "rooftop",
-        "units",
-        "(rtus)"
-      ]
-    },
-    {
-      "id": "lennox-energence",
-      "type": "model",
-      "name": "Energence",
-      "brand": "lennox",
-      "model_numbers": [
-        "LGH",
-        "LCH"
-      ],
-      "tokens": [
-        "energence",
-        "lennox-energence",
-        "lgh",
-        "lch",
-        "bacnet",
-        "modbus",
-        "lennox",
-        "rooftop",
-        "units",
-        "(rtus)"
-      ]
-    },
-    {
-      "id": "york-predator",
-      "type": "model",
-      "name": "PREDATOR",
-      "brand": "york",
-      "model_numbers": [
-        "ZH",
-        "ZR"
-      ],
-      "tokens": [
-        "predator",
-        "york-predator",
-        "zh",
-        "zr",
-        "bacnet",
-        "modbus",
-        "york",
-        "rooftop",
-        "units",
-        "(rtus)"
-      ]
-    },
-    {
-      "id": "trane-m-series-ahu",
-      "type": "model",
-      "name": "M-Series Climate Changer",
-      "brand": "trane",
-      "model_numbers": [
-        "CLCA",
-        "CLCP"
-      ],
-      "tokens": [
-        "m-series",
-        "climate",
-        "changer",
-        "trane-m-series-ahu",
-        "m-series-climate-changer",
-        "clca",
-        "clcp",
-        "bacnet",
-        "n2",
-        "trane",
-        "air",
-        "handling",
-        "units",
-        "(ahus)"
-      ]
-    },
-    {
-      "id": "carrier-39m",
-      "type": "model",
-      "name": "39M Aero",
-      "brand": "carrier",
-      "model_numbers": [
-        "39M"
-      ],
-      "tokens": [
-        "39m",
-        "aero",
-        "carrier-39m",
-        "39m-aero",
-        "bacnet",
-        "modbus",
-        "carrier",
-        "air",
-        "handling",
-        "units",
-        "(ahus)"
-      ]
-    },
-    {
-      "id": "york-yma",
-      "type": "model",
-      "name": "YMA Solution",
-      "brand": "york",
-      "model_numbers": [
-        "YMA"
-      ],
-      "tokens": [
-        "yma",
-        "solution",
-        "york-yma",
-        "yma-solution",
-        "bacnet",
-        "modbus",
-        "york",
-        "air",
-        "handling",
-        "units",
-        "(ahus)"
-      ]
-    },
-    {
-      "id": "daikin-maverick",
-      "type": "model",
-      "name": "Maverick II",
-      "brand": "daikin",
-      "model_numbers": [
-        "MAV"
-      ],
-      "tokens": [
-        "maverick",
-        "ii",
-        "daikin-maverick",
-        "maverick-ii",
-        "mav",
-        "bacnet",
-        "modbus",
-        "daikin",
-        "air",
-        "handling",
-        "units",
-        "(ahus)"
-      ]
-    },
-    {
-      "id": "trane-horizontal-fcu",
-      "type": "model",
-      "name": "Horizontal Fan Coil",
-      "brand": "trane",
-      "model_numbers": [
-        "?"
-      ],
-      "tokens": [
-        "horizontal",
-        "fan",
-        "coil",
-        "trane-horizontal-fcu",
-        "horizontal-fan-coil",
-        "?",
-        "bacnet",
-        "trane",
-        "units",
-        "(fcus)"
-      ]
-    },
-    {
-      "id": "carrier-42c",
-      "type": "model",
-      "name": "42C Fan Coil",
-      "brand": "carrier",
-      "model_numbers": [
-        "42C"
-      ],
-      "tokens": [
-        "42c",
-        "fan",
-        "coil",
-        "carrier-42c",
-        "42c-fan-coil",
-        "bacnet",
-        "carrier",
-        "units",
-        "(fcus)"
-      ]
-    },
-    {
-      "id": "johnson-controls-fc",
-      "type": "model",
-      "name": "Fan Coil Unit",
-      "brand": "johnson-controls",
-      "model_numbers": [
-        "FC"
-      ],
-      "tokens": [
-        "fan",
-        "coil",
-        "unit",
-        "johnson-controls-fc",
-        "jci-fan-coil",
-        "fc",
-        "bacnet",
-        "n2",
-        "johnson",
-        "controls",
-        "units",
-        "(fcus)"
-      ]
-    },
-    {
-      "id": "trane-vav-box",
-      "type": "model",
-      "name": "Single Duct VAV",
-      "brand": "trane",
-      "model_numbers": [
-        "?"
-      ],
-      "tokens": [
-        "single",
-        "duct",
-        "vav",
-        "trane-vav-box",
-        "single-duct-vav",
-        "?",
-        "bacnet",
-        "trane",
-        "boxes"
-      ]
-    },
-    {
-      "id": "carrier-vav-39sv",
-      "type": "model",
-      "name": "39SV VAV Terminal",
-      "brand": "carrier",
-      "model_numbers": [
-        "39SV"
-      ],
-      "tokens": [
-        "39sv",
-        "vav",
-        "terminal",
-        "carrier-vav-39sv",
-        "39sv-vav-terminal",
-        "bacnet",
-        "modbus",
-        "carrier",
-        "boxes"
-      ]
-    },
-    {
-      "id": "york-vav",
-      "type": "model",
-      "name": "VAV Terminal",
-      "brand": "york",
-      "model_numbers": [
-        "VAV"
-      ],
-      "tokens": [
-        "vav",
-        "terminal",
-        "york-vav",
-        "york-vav-terminal",
-        "bacnet",
-        "york",
-        "boxes"
-      ]
-    },
-    {
-      "id": "trane-cgam",
-      "type": "model",
-      "name": "CGAM Air-Cooled Chiller",
-      "brand": "trane",
-      "model_numbers": [
-        "CGAM"
-      ],
-      "tokens": [
-        "cgam",
-        "air-cooled",
-        "chiller",
-        "trane-cgam",
-        "cgam-air-cooled",
-        "bacnet",
-        "n2",
-        "modbus",
-        "trane",
-        "chillers"
-      ]
-    },
-    {
-      "id": "trane-cvhe",
-      "type": "model",
-      "name": "CenTraVac CVHE",
-      "brand": "trane",
-      "model_numbers": [
-        "CVHE"
-      ],
-      "tokens": [
-        "centravac",
-        "cvhe",
-        "trane-cvhe",
-        "centravac-cvhe",
-        "bacnet",
-        "n2",
-        "trane",
-        "chillers"
-      ]
-    },
-    {
-      "id": "carrier-30xa",
-      "type": "model",
-      "name": "30XA AquaSnap",
-      "brand": "carrier",
-      "model_numbers": [
-        "30XA"
-      ],
-      "tokens": [
-        "30xa",
-        "aquasnap",
-        "carrier-30xa",
-        "30xa-aquasnap",
-        "bacnet",
-        "n2",
-        "modbus",
-        "carrier",
-        "chillers"
-      ]
-    },
-    {
-      "id": "carrier-19xr",
-      "type": "model",
-      "name": "19XR Centrifugal",
-      "brand": "carrier",
-      "model_numbers": [
-        "19XR"
-      ],
-      "tokens": [
-        "19xr",
-        "centrifugal",
-        "carrier-19xr",
-        "19xr-centrifugal",
-        "bacnet",
-        "n2",
-        "carrier",
-        "chillers"
-      ]
-    },
-    {
-      "id": "york-yciv",
-      "type": "model",
-      "name": "YCIV VSD Chiller",
-      "brand": "york",
-      "model_numbers": [
-        "YCIV"
-      ],
-      "tokens": [
-        "yciv",
-        "vsd",
-        "chiller",
-        "york-yciv",
-        "yciv-vsd",
-        "bacnet",
-        "modbus",
-        "york",
-        "chillers"
-      ]
-    },
-    {
-      "id": "york-yk",
-      "type": "model",
-      "name": "YK Centrifugal",
-      "brand": "york",
-      "model_numbers": [
-        "YK"
-      ],
-      "tokens": [
-        "yk",
-        "centrifugal",
-        "york-yk",
-        "yk-centrifugal",
-        "bacnet",
-        "n2",
-        "york",
-        "chillers"
-      ]
-    },
-    {
-      "id": "daikin-magnitude",
-      "type": "model",
-      "name": "Magnitude",
-      "brand": "daikin",
-      "model_numbers": [
-        "AGZ"
-      ],
-      "tokens": [
-        "magnitude",
-        "daikin-magnitude",
-        "agz",
-        "bacnet",
-        "modbus",
-        "daikin",
-        "chillers"
-      ]
-    },
-    {
-      "id": "grundfos-magna3",
-      "type": "model",
-      "name": "MAGNA3",
-      "brand": "grundfos",
-      "model_numbers": [
-        "MAGNA3"
-      ],
-      "tokens": [
-        "magna3",
-        "grundfos-magna3",
-        "bacnet",
-        "modbus",
-        "lon",
-        "grundfos",
-        "pumps"
-      ]
-    },
-    {
-      "id": "grundfos-tpe3",
-      "type": "model",
-      "name": "TPE3",
-      "brand": "grundfos",
-      "model_numbers": [
-        "TPE3"
-      ],
-      "tokens": [
-        "tpe3",
-        "grundfos-tpe3",
-        "bacnet",
-        "modbus",
-        "grundfos",
-        "pumps"
+        "vertical"
       ]
     },
     {
@@ -1086,457 +132,130 @@
         "4380"
       ],
       "tokens": [
-        "design",
-        "envelope",
-        "armstrong-design-envelope",
-        "design-envelope",
         "4300",
         "4302",
         "4380",
-        "bacnet",
-        "modbus",
         "armstrong",
+        "armstrong-design-envelope",
+        "bacnet",
+        "design",
+        "design-envelope",
+        "envelope",
+        "modbus",
         "pumps"
       ]
     },
     {
-      "id": "bell-gossett-ecocirc",
-      "type": "model",
-      "name": "ecocirc",
-      "brand": "bell-gossett",
-      "model_numbers": [
-        "ecocirc"
-      ],
+      "id": "automated-logic",
+      "type": "brand",
+      "name": "Automated Logic",
       "tokens": [
-        "ecocirc",
-        "bell-gossett-ecocirc",
-        "modbus",
-        "bell",
-        "&",
-        "gossett",
-        "pumps"
+        "automated",
+        "automated-logic",
+        "logic"
       ]
     },
     {
-      "id": "taco-vi",
+      "id": "automated-logic-lge",
       "type": "model",
-      "name": "VI Series",
-      "brand": "taco",
+      "name": "LGE Network Controller",
+      "brand": "automated-logic",
       "model_numbers": [
-        "VI"
+        "LGE"
       ],
       "tokens": [
-        "vi",
-        "series",
-        "taco-vi",
-        "vi-series",
+        "automated",
+        "automated-logic-lge",
         "bacnet",
-        "modbus",
-        "taco",
-        "comfort",
-        "solutions",
-        "pumps"
-      ]
-    },
-    {
-      "id": "abb-acs580",
-      "type": "model",
-      "name": "ACS580",
-      "brand": "abb",
-      "model_numbers": [
-        "ACS580"
-      ],
-      "tokens": [
-        "acs580",
-        "abb-acs580",
-        "bacnet",
-        "modbus",
-        "profibus",
-        "abb",
-        "vfds",
-        "/",
-        "drives"
-      ]
-    },
-    {
-      "id": "abb-ach580",
-      "type": "model",
-      "name": "ACH580",
-      "brand": "abb",
-      "model_numbers": [
-        "ACH580"
-      ],
-      "tokens": [
-        "ach580",
-        "abb-ach580",
-        "bacnet",
-        "modbus",
-        "lon",
-        "abb",
-        "vfds",
-        "/",
-        "drives"
-      ]
-    },
-    {
-      "id": "danfoss-vlt-hvac",
-      "type": "model",
-      "name": "VLT HVAC Drive FC 102",
-      "brand": "danfoss",
-      "model_numbers": [
-        "FC102"
-      ],
-      "tokens": [
-        "vlt",
-        "hvac",
-        "drive",
-        "fc",
-        "102",
-        "danfoss-vlt-hvac",
-        "vlt-hvac-fc102",
-        "fc102",
-        "bacnet",
-        "modbus",
-        "lon",
-        "danfoss",
-        "vfds",
-        "/",
-        "drives"
-      ]
-    },
-    {
-      "id": "yaskawa-z1000",
-      "type": "model",
-      "name": "Z1000 Bypass Drive",
-      "brand": "yaskawa",
-      "model_numbers": [
-        "Z1000"
-      ],
-      "tokens": [
-        "z1000",
-        "bypass",
-        "drive",
-        "yaskawa-z1000",
-        "z1000-bypass",
-        "bacnet",
-        "modbus",
-        "lon",
-        "yaskawa",
-        "vfds",
-        "/",
-        "drives"
-      ]
-    },
-    {
-      "id": "trane-tracer-sc-plus",
-      "type": "model",
-      "name": "Tracer SC+",
-      "brand": "trane",
-      "model_numbers": [
-        "SC+"
-      ],
-      "tokens": [
-        "tracer",
-        "sc+",
-        "trane-tracer-sc-plus",
-        "tracer-sc-plus",
-        "bacnet",
-        "n2",
-        "modbus",
-        "trane",
-        "supervisory",
-        "controllers"
-      ]
-    },
-    {
-      "id": "trane-tracer-es",
-      "type": "model",
-      "name": "Tracer ES",
-      "brand": "trane",
-      "model_numbers": [
-        "ES"
-      ],
-      "tokens": [
-        "tracer",
-        "es",
-        "trane-tracer-es",
-        "tracer-es",
-        "bacnet",
-        "n2",
-        "trane",
-        "supervisory",
-        "controllers"
-      ]
-    },
-    {
-      "id": "johnson-controls-fx-supervisor",
-      "type": "model",
-      "name": "FX Supervisor",
-      "brand": "johnson-controls",
-      "model_numbers": [
-        "FX-SUP"
-      ],
-      "tokens": [
-        "fx",
-        "supervisor",
-        "johnson-controls-fx-supervisor",
-        "fx-supervisor",
-        "fx-sup",
-        "bacnet",
-        "n2",
-        "modbus",
-        "johnson",
-        "controls",
-        "supervisory",
-        "controllers"
-      ]
-    },
-    {
-      "id": "johnson-controls-nae",
-      "type": "model",
-      "name": "NAE Network Controller",
-      "brand": "johnson-controls",
-      "model_numbers": [
-        "NAE35",
-        "NAE45",
-        "NAE55"
-      ],
-      "tokens": [
-        "nae",
-        "network",
         "controller",
-        "johnson-controls-nae",
-        "nae35",
-        "nae45",
-        "nae55",
-        "bacnet",
-        "n2",
-        "modbus",
-        "lon",
-        "johnson",
-        "controls",
-        "controllers"
+        "controllers",
+        "lge",
+        "lge-network",
+        "logic",
+        "network"
       ]
     },
     {
-      "id": "johnson-controls-fec",
+      "id": "automated-logic-optiflex",
       "type": "model",
-      "name": "FEC Field Controller",
-      "brand": "johnson-controls",
+      "name": "OptiFlex VAV",
+      "brand": "automated-logic",
       "model_numbers": [
-        "FEC2611",
-        "FEC2621"
+        "OF-VAV"
       ],
       "tokens": [
-        "fec",
-        "field",
+        "automated",
+        "automated-logic-optiflex",
+        "bacnet",
+        "controllers",
+        "logic",
+        "of-vav",
+        "optiflex",
+        "optiflex-vav",
+        "vav"
+      ]
+    },
+    {
+      "id": "automated-logic-s6104",
+      "type": "model",
+      "name": "S6104 Controller",
+      "brand": "automated-logic",
+      "model_numbers": [
+        "S6104"
+      ],
+      "tokens": [
+        "automated",
+        "automated-logic-s6104",
+        "bacnet",
         "controller",
-        "johnson-controls-fec",
-        "fec2611",
-        "fec2621",
+        "controllers",
+        "logic",
+        "s6104",
+        "unitary"
+      ]
+    },
+    {
+      "id": "automated-logic-webctrl",
+      "type": "model",
+      "name": "WebCTRL",
+      "brand": "automated-logic",
+      "model_numbers": [
+        "WebCTRL"
+      ],
+      "tokens": [
+        "automated",
+        "automated-logic-webctrl",
         "bacnet",
-        "n2",
-        "johnson",
-        "controls",
-        "unitary",
-        "controllers"
+        "logic",
+        "software",
+        "webctrl"
       ]
     },
     {
-      "id": "siemens-desigo-px",
+      "id": "automated-logic-zn551",
       "type": "model",
-      "name": "Desigo PX",
-      "brand": "siemens",
+      "name": "ZN551 Zone Controller",
+      "brand": "automated-logic",
       "model_numbers": [
-        "PXC"
+        "ZN551"
       ],
       "tokens": [
-        "desigo",
-        "px",
-        "siemens-desigo-px",
-        "desigo-px",
-        "pxc",
+        "automated",
+        "automated-logic-zn551",
         "bacnet",
-        "modbus",
-        "lon",
-        "siemens",
-        "supervisory",
-        "controllers"
+        "controller",
+        "controllers",
+        "logic",
+        "zn551",
+        "zone"
       ]
     },
     {
-      "id": "siemens-desigo-cc",
-      "type": "model",
-      "name": "Desigo CC",
-      "brand": "siemens",
-      "model_numbers": [
-        "DCC"
-      ],
+      "id": "belimo",
+      "type": "brand",
+      "name": "Belimo",
       "tokens": [
-        "desigo",
-        "cc",
-        "siemens-desigo-cc",
-        "desigo-cc",
-        "dcc",
-        "bacnet",
-        "siemens",
-        "software"
-      ]
-    },
-    {
-      "id": "siemens-openair-gca",
-      "type": "model",
-      "name": "OpenAir GCA",
-      "brand": "siemens",
-      "model_numbers": [
-        "GCA121",
-        "GCA131",
-        "GCA161"
-      ],
-      "tokens": [
-        "openair",
-        "gca",
-        "siemens-openair-gca",
-        "openair-gca",
-        "gca121",
-        "gca131",
-        "gca161",
-        "siemens",
-        "damper",
-        "actuators"
-      ]
-    },
-    {
-      "id": "siemens-openair-gma",
-      "type": "model",
-      "name": "OpenAir GMA",
-      "brand": "siemens",
-      "model_numbers": [
-        "GMA121",
-        "GMA131",
-        "GMA161"
-      ],
-      "tokens": [
-        "openair",
-        "gma",
-        "siemens-openair-gma",
-        "openair-gma",
-        "gma121",
-        "gma131",
-        "gma161",
-        "siemens",
-        "damper",
-        "actuators"
-      ]
-    },
-    {
-      "id": "honeywell-wb8000",
-      "type": "model",
-      "name": "WEBs-8000",
-      "brand": "honeywell",
-      "model_numbers": [
-        "WEB-8000"
-      ],
-      "tokens": [
-        "webs-8000",
-        "honeywell-wb8000",
-        "web-8000",
-        "bacnet",
-        "modbus",
-        "lon",
-        "honeywell",
-        "supervisory",
-        "controllers"
-      ]
-    },
-    {
-      "id": "honeywell-spyder",
-      "type": "model",
-      "name": "Spyder",
-      "brand": "honeywell",
-      "model_numbers": [
-        "PUB6438S",
-        "PVB6436A"
-      ],
-      "tokens": [
-        "spyder",
-        "honeywell-spyder",
-        "pub6438s",
-        "pvb6436a",
-        "bacnet",
-        "modbus",
-        "lon",
-        "honeywell",
-        "unitary",
-        "controllers"
-      ]
-    },
-    {
-      "id": "honeywell-t7350",
-      "type": "model",
-      "name": "T7350 Commercial",
-      "brand": "honeywell",
-      "model_numbers": [
-        "T7350"
-      ],
-      "tokens": [
-        "t7350",
-        "commercial",
-        "honeywell-t7350",
-        "t7350-commercial",
-        "modbus",
-        "honeywell",
-        "thermostats"
-      ]
-    },
-    {
-      "id": "honeywell-ms8120",
-      "type": "model",
-      "name": "MS8120 Direct Coupled",
-      "brand": "honeywell",
-      "model_numbers": [
-        "MS8120"
-      ],
-      "tokens": [
-        "ms8120",
-        "direct",
-        "coupled",
-        "honeywell-ms8120",
-        "honeywell",
-        "damper",
-        "actuators"
-      ]
-    },
-    {
-      "id": "belimo-lrb24-3-t",
-      "type": "model",
-      "name": "LRB24-3-T",
-      "brand": "belimo",
-      "model_numbers": [
-        "LRB24-3-T"
-      ],
-      "tokens": [
-        "lrb24-3-t",
-        "belimo-lrb24-3-t",
-        "belimo",
-        "valve",
-        "actuators"
-      ]
-    },
-    {
-      "id": "belimo-lmb24-3-t",
-      "type": "model",
-      "name": "LMB24-3-T",
-      "brand": "belimo",
-      "model_numbers": [
-        "LMB24-3-T"
-      ],
-      "tokens": [
-        "lmb24-3-t",
-        "belimo-lmb24-3-t",
-        "belimo",
-        "damper",
-        "actuators"
+        "belimo"
       ]
     },
     {
@@ -1548,11 +267,11 @@
         "AFB24-SR"
       ],
       "tokens": [
+        "actuators",
         "afb24-sr",
-        "belimo-afb24-sr",
         "belimo",
-        "damper",
-        "actuators"
+        "belimo-afb24-sr",
+        "damper"
       ]
     },
     {
@@ -1564,12 +283,12 @@
         "B215+LRB24-3"
       ],
       "tokens": [
-        "b215+lrb24-3",
-        "belimo-b215-lrb24-3",
+        "actuators",
         "b215-lrb24-3",
+        "b215+lrb24-3",
         "belimo",
-        "valve",
-        "actuators"
+        "belimo-b215-lrb24-3",
+        "valve"
       ]
     },
     {
@@ -1583,234 +302,1579 @@
         "EV150"
       ],
       "tokens": [
-        "energy",
-        "valve",
+        "actuators",
+        "bacnet",
+        "belimo",
         "belimo-energy-valve",
+        "energy",
         "energy-valve",
         "ev050",
         "ev100",
         "ev150",
-        "bacnet",
         "modbus",
+        "valve"
+      ]
+    },
+    {
+      "id": "belimo-lmb24-3-t",
+      "type": "model",
+      "name": "LMB24-3-T",
+      "brand": "belimo",
+      "model_numbers": [
+        "LMB24-3-T"
+      ],
+      "tokens": [
+        "actuators",
         "belimo",
-        "actuators"
+        "belimo-lmb24-3-t",
+        "damper",
+        "lmb24-3-t"
       ]
     },
     {
-      "id": "veris-tw2x",
+      "id": "belimo-lrb24-3-t",
       "type": "model",
-      "name": "TW2X",
-      "brand": "veris",
+      "name": "LRB24-3-T",
+      "brand": "belimo",
       "model_numbers": [
-        "TW2X"
+        "LRB24-3-T"
       ],
       "tokens": [
-        "tw2x",
-        "veris-tw2x",
-        "veris",
-        "temperature",
-        "sensors"
+        "actuators",
+        "belimo",
+        "belimo-lrb24-3-t",
+        "lrb24-3-t",
+        "valve"
       ]
     },
     {
-      "id": "veris-td2x",
-      "type": "model",
-      "name": "TD2X Duct",
-      "brand": "veris",
-      "model_numbers": [
-        "TD2X"
-      ],
+      "id": "bell-gossett",
+      "type": "brand",
+      "name": "Bell & Gossett",
       "tokens": [
-        "td2x",
-        "duct",
-        "veris-td2x",
-        "td2x-duct",
-        "veris",
-        "temperature",
-        "sensors"
+        "&",
+        "bell",
+        "bell-gossett",
+        "gossett"
       ]
     },
     {
-      "id": "veris-to2x",
+      "id": "bell-gossett-ecocirc",
       "type": "model",
-      "name": "TO2X Outdoor",
-      "brand": "veris",
+      "name": "ecocirc",
+      "brand": "bell-gossett",
       "model_numbers": [
-        "TO2X"
+        "ecocirc"
       ],
       "tokens": [
-        "to2x",
-        "outdoor",
-        "veris-to2x",
-        "to2x-outdoor",
-        "veris",
-        "temperature",
-        "sensors"
-      ]
-    },
-    {
-      "id": "veris-cwlsxx",
-      "type": "model",
-      "name": "CWLSXX Wall CO2",
-      "brand": "veris",
-      "model_numbers": [
-        "CWLSXX"
-      ],
-      "tokens": [
-        "cwlsxx",
-        "wall",
-        "co2",
-        "veris-cwlsxx",
-        "veris",
-        "sensors"
-      ]
-    },
-    {
-      "id": "veris-cdlsxx",
-      "type": "model",
-      "name": "CDLSXX Duct CO2",
-      "brand": "veris",
-      "model_numbers": [
-        "CDLSXX"
-      ],
-      "tokens": [
-        "cdlsxx",
-        "duct",
-        "co2",
-        "veris-cdlsxx",
-        "veris",
-        "sensors"
-      ]
-    },
-    {
-      "id": "veris-pxdxx",
-      "type": "model",
-      "name": "PX3 Pressure",
-      "brand": "veris",
-      "model_numbers": [
-        "PX3"
-      ],
-      "tokens": [
-        "px3",
-        "pressure",
-        "veris-pxdxx",
-        "px3-pressure",
-        "veris",
-        "sensors"
-      ]
-    },
-    {
-      "id": "veris-e30",
-      "type": "model",
-      "name": "E30 Power Meter",
-      "brand": "veris",
-      "model_numbers": [
-        "E30"
-      ],
-      "tokens": [
-        "e30",
-        "power",
-        "meter",
-        "veris-e30",
-        "e30-power-meter",
-        "bacnet",
+        "&",
+        "bell",
+        "bell-gossett-ecocirc",
+        "ecocirc",
+        "gossett",
         "modbus",
-        "veris",
-        "meters"
+        "pumps"
       ]
     },
     {
-      "id": "veris-h80xx",
+      "id": "bell-gossett-series-e90",
       "type": "model",
-      "name": "H80XX Current Transducer",
-      "brand": "veris",
+      "name": "Series e-90 Close-Coupled",
+      "brand": "bell-gossett",
       "model_numbers": [
-        "H80XX"
+        "e-90"
       ],
       "tokens": [
-        "h80xx",
-        "current",
-        "transducer",
-        "veris-h80xx",
-        "h80xx-ct",
-        "veris",
-        "meters"
+        "&",
+        "bell",
+        "bell-gossett-series-e90",
+        "close-coupled",
+        "e-90",
+        "gossett",
+        "pumps",
+        "series",
+        "series-e90"
       ]
     },
     {
-      "id": "automated-logic-optiflex",
+      "id": "boilers",
+      "type": "type",
+      "name": "Boilers",
+      "tokens": [
+        "boilers"
+      ]
+    },
+    {
+      "id": "carrier",
+      "type": "brand",
+      "name": "Carrier",
+      "tokens": [
+        "carrier"
+      ]
+    },
+    {
+      "id": "carrier-19xr",
       "type": "model",
-      "name": "OptiFlex VAV",
-      "brand": "automated-logic",
+      "name": "19XR Centrifugal",
+      "brand": "carrier",
       "model_numbers": [
-        "OF-VAV"
+        "19XR"
       ],
       "tokens": [
-        "optiflex",
+        "19xr",
+        "19xr-centrifugal",
+        "bacnet",
+        "carrier",
+        "carrier-19xr",
+        "centrifugal",
+        "chillers",
+        "n2"
+      ]
+    },
+    {
+      "id": "carrier-30gtn",
+      "type": "model",
+      "name": "30GTN Water-Cooled",
+      "brand": "carrier",
+      "model_numbers": [
+        "30GTN"
+      ],
+      "tokens": [
+        "30gtn",
+        "30gtn-water-cooled",
+        "bacnet",
+        "carrier",
+        "carrier-30gtn",
+        "heat",
+        "pumps",
+        "water-cooled"
+      ]
+    },
+    {
+      "id": "carrier-30rb",
+      "type": "model",
+      "name": "30RB AquaSnap",
+      "brand": "carrier",
+      "model_numbers": [
+        "30RB"
+      ],
+      "tokens": [
+        "30rb",
+        "30rb-aquasnap",
+        "aquasnap",
+        "bacnet",
+        "carrier",
+        "carrier-30rb",
+        "chillers",
+        "modbus"
+      ]
+    },
+    {
+      "id": "carrier-30xa",
+      "type": "model",
+      "name": "30XA AquaSnap",
+      "brand": "carrier",
+      "model_numbers": [
+        "30XA"
+      ],
+      "tokens": [
+        "30xa",
+        "30xa-aquasnap",
+        "aquasnap",
+        "bacnet",
+        "carrier",
+        "carrier-30xa",
+        "chillers",
+        "modbus",
+        "n2"
+      ]
+    },
+    {
+      "id": "carrier-39m",
+      "type": "model",
+      "name": "39M Aero",
+      "brand": "carrier",
+      "model_numbers": [
+        "39M"
+      ],
+      "tokens": [
+        "(ahus)",
+        "39m",
+        "39m-aero",
+        "aero",
+        "air",
+        "bacnet",
+        "carrier",
+        "carrier-39m",
+        "handling",
+        "modbus",
+        "units"
+      ]
+    },
+    {
+      "id": "carrier-42c",
+      "type": "model",
+      "name": "42C Fan Coil",
+      "brand": "carrier",
+      "model_numbers": [
+        "42C"
+      ],
+      "tokens": [
+        "(fcus)",
+        "42c",
+        "42c-fan-coil",
+        "bacnet",
+        "carrier",
+        "carrier-42c",
+        "coil",
+        "fan",
+        "units"
+      ]
+    },
+    {
+      "id": "carrier-48gc",
+      "type": "model",
+      "name": "48GC WeatherMaster",
+      "brand": "carrier",
+      "model_numbers": [
+        "48GC"
+      ],
+      "tokens": [
+        "(rtus)",
+        "48gc",
+        "48gc-weathermaster",
+        "bacnet",
+        "carrier",
+        "carrier-48gc",
+        "modbus",
+        "rooftop",
+        "units",
+        "weathermaster"
+      ]
+    },
+    {
+      "id": "carrier-50hc",
+      "type": "model",
+      "name": "50HC Ducted Split",
+      "brand": "carrier",
+      "model_numbers": [
+        "50HC"
+      ],
+      "tokens": [
+        "50hc",
+        "50hc-ducted-split",
+        "carrier",
+        "carrier-50hc",
+        "ducted",
+        "split",
+        "systems"
+      ]
+    },
+    {
+      "id": "carrier-50xl",
+      "type": "model",
+      "name": "50XL",
+      "brand": "carrier",
+      "model_numbers": [
+        "50XL"
+      ],
+      "tokens": [
+        "(rtus)",
+        "50xl",
+        "bacnet",
+        "carrier",
+        "carrier-50xl",
+        "n2",
+        "rooftop",
+        "units"
+      ]
+    },
+    {
+      "id": "carrier-50xt",
+      "type": "model",
+      "name": "50XT Rooftop Heat Pump",
+      "brand": "carrier",
+      "model_numbers": [
+        "50XT"
+      ],
+      "tokens": [
+        "50xt",
+        "50xt-heat-pump",
+        "bacnet",
+        "carrier",
+        "carrier-50xt",
+        "heat",
+        "modbus",
+        "pump",
+        "pumps",
+        "rooftop"
+      ]
+    },
+    {
+      "id": "carrier-hrvxxlhb",
+      "type": "model",
+      "name": "HRV Light Commercial",
+      "brand": "carrier",
+      "model_numbers": [
+        "HRVXXLHB"
+      ],
+      "tokens": [
+        "/",
+        "carrier",
+        "carrier-hrvxxlhb",
+        "commercial",
+        "ervs",
+        "hrv",
+        "hrv-light-commercial",
+        "hrvs",
+        "hrvxxlhb",
+        "light"
+      ]
+    },
+    {
+      "id": "carrier-vav-39sv",
+      "type": "model",
+      "name": "39SV VAV Terminal",
+      "brand": "carrier",
+      "model_numbers": [
+        "39SV"
+      ],
+      "tokens": [
+        "39sv",
+        "39sv-vav-terminal",
+        "bacnet",
+        "boxes",
+        "carrier",
+        "carrier-vav-39sv",
+        "modbus",
+        "terminal",
+        "vav"
+      ]
+    },
+    {
+      "id": "carrier-vrf",
+      "type": "model",
+      "name": "XCT7 VRF",
+      "brand": "carrier",
+      "model_numbers": [
+        "XCT7"
+      ],
+      "tokens": [
+        "bacnet",
+        "carrier",
+        "carrier-vrf",
+        "systems",
+        "vrf",
+        "xct7",
+        "xct7-vrf"
+      ]
+    },
+    {
+      "id": "chillers",
+      "type": "type",
+      "name": "Chillers",
+      "tokens": [
+        "chillers"
+      ]
+    },
+    {
+      "id": "co2-sensors",
+      "type": "type",
+      "name": "CO2 Sensors",
+      "tokens": [
+        "co2",
+        "co2-sensors",
+        "sensors"
+      ]
+    },
+    {
+      "id": "contemporary-controls",
+      "type": "brand",
+      "name": "Contemporary Controls",
+      "tokens": [
+        "contemporary",
+        "contemporary-controls",
+        "controls"
+      ]
+    },
+    {
+      "id": "contemporary-controls-babii",
+      "type": "model",
+      "name": "BASgateway",
+      "brand": "contemporary-controls",
+      "model_numbers": [
+        "BASGATEWAY"
+      ],
+      "tokens": [
+        "&",
+        "bacnet",
+        "basgateway",
+        "contemporary",
+        "contemporary-controls-babii",
+        "controls",
+        "gateways",
+        "modbus",
+        "routers"
+      ]
+    },
+    {
+      "id": "contemporary-controls-basrouter",
+      "type": "model",
+      "name": "BASrouter",
+      "brand": "contemporary-controls",
+      "model_numbers": [
+        "BASrouter"
+      ],
+      "tokens": [
+        "&",
+        "bacnet",
+        "basrouter",
+        "contemporary",
+        "contemporary-controls-basrouter",
+        "controls",
+        "gateways",
+        "routers"
+      ]
+    },
+    {
+      "id": "cooling-towers",
+      "type": "type",
+      "name": "Cooling Towers",
+      "tokens": [
+        "cooling",
+        "cooling-towers",
+        "towers"
+      ]
+    },
+    {
+      "id": "crac-units",
+      "type": "type",
+      "name": "CRAC Units",
+      "tokens": [
+        "crac",
+        "crac-units",
+        "units"
+      ]
+    },
+    {
+      "id": "daikin",
+      "type": "brand",
+      "name": "Daikin",
+      "tokens": [
+        "daikin"
+      ]
+    },
+    {
+      "id": "daikin-magnitude",
+      "type": "model",
+      "name": "Magnitude",
+      "brand": "daikin",
+      "model_numbers": [
+        "AGZ"
+      ],
+      "tokens": [
+        "agz",
+        "bacnet",
+        "chillers",
+        "daikin",
+        "daikin-magnitude",
+        "magnitude",
+        "modbus"
+      ]
+    },
+    {
+      "id": "daikin-maverick",
+      "type": "model",
+      "name": "Maverick II",
+      "brand": "daikin",
+      "model_numbers": [
+        "MAV"
+      ],
+      "tokens": [
+        "(ahus)",
+        "air",
+        "bacnet",
+        "daikin",
+        "daikin-maverick",
+        "handling",
+        "ii",
+        "mav",
+        "maverick",
+        "maverick-ii",
+        "modbus",
+        "units"
+      ]
+    },
+    {
+      "id": "daikin-vrviv",
+      "type": "model",
+      "name": "VRV IV",
+      "brand": "daikin",
+      "model_numbers": [
+        "VRV IV"
+      ],
+      "tokens": [
+        "bacnet",
+        "daikin",
+        "daikin-vrviv",
+        "iv",
+        "modbus",
+        "systems",
+        "vrf",
+        "vrv",
+        "vrv-iv"
+      ]
+    },
+    {
+      "id": "damper-actuators",
+      "type": "type",
+      "name": "Damper Actuators",
+      "tokens": [
+        "actuators",
+        "damper",
+        "damper-actuators"
+      ]
+    },
+    {
+      "id": "danfoss",
+      "type": "brand",
+      "name": "Danfoss",
+      "tokens": [
+        "danfoss"
+      ]
+    },
+    {
+      "id": "danfoss-vlt-fc-311",
+      "type": "model",
+      "name": "VLT AutomationDrive FC 311",
+      "brand": "danfoss",
+      "model_numbers": [
+        "FC311"
+      ],
+      "tokens": [
+        "/",
+        "311",
+        "automationdrive",
+        "bacnet",
+        "danfoss",
+        "danfoss-vlt-fc-311",
+        "drives",
+        "fc",
+        "fc311",
+        "modbus",
+        "profibus",
+        "vfds",
+        "vlt",
+        "vlt-fc-311"
+      ]
+    },
+    {
+      "id": "danfoss-vlt-hvac",
+      "type": "model",
+      "name": "VLT HVAC Drive FC 102",
+      "brand": "danfoss",
+      "model_numbers": [
+        "FC102"
+      ],
+      "tokens": [
+        "/",
+        "102",
+        "bacnet",
+        "danfoss",
+        "danfoss-vlt-hvac",
+        "drive",
+        "drives",
+        "fc",
+        "fc102",
+        "hvac",
+        "lon",
+        "modbus",
+        "vfds",
+        "vlt",
+        "vlt-hvac-fc102"
+      ]
+    },
+    {
+      "id": "danfoss-vlt-soft-starter",
+      "type": "model",
+      "name": "VLT Soft Starter MCD 600",
+      "brand": "danfoss",
+      "model_numbers": [
+        "MCD600"
+      ],
+      "tokens": [
+        "/",
+        "600",
+        "danfoss",
+        "danfoss-vlt-soft-starter",
+        "drives",
+        "mcd",
+        "mcd600",
+        "modbus",
+        "soft",
+        "starter",
+        "vfds",
+        "vlt",
+        "vlt-mcd-600"
+      ]
+    },
+    {
+      "id": "delta-controls",
+      "type": "brand",
+      "name": "Delta Controls",
+      "tokens": [
+        "controls",
+        "delta",
+        "delta-controls"
+      ]
+    },
+    {
+      "id": "delta-controls-dac-1146",
+      "type": "model",
+      "name": "DAC-1146 Application Controller",
+      "brand": "delta-controls",
+      "model_numbers": [
+        "DAC-1146"
+      ],
+      "tokens": [
+        "application",
+        "bacnet",
+        "controller",
+        "controllers",
+        "controls",
+        "dac-1146",
+        "delta",
+        "delta-controls-dac-1146",
+        "unitary"
+      ]
+    },
+    {
+      "id": "delta-controls-entelibus",
+      "type": "model",
+      "name": "enteliBUS",
+      "brand": "delta-controls",
+      "model_numbers": [
+        "eBUS"
+      ],
+      "tokens": [
+        "bacnet",
+        "controllers",
+        "controls",
+        "delta",
+        "delta-controls-entelibus",
+        "ebus",
+        "entelibus",
+        "network"
+      ]
+    },
+    {
+      "id": "delta-controls-o3-hub",
+      "type": "model",
+      "name": "O3 Hub",
+      "brand": "delta-controls",
+      "model_numbers": [
+        "O3"
+      ],
+      "tokens": [
+        "bacnet",
+        "controllers",
+        "controls",
+        "delta",
+        "delta-controls-o3-hub",
+        "hub",
+        "modbus",
+        "o3",
+        "o3-hub",
+        "supervisory"
+      ]
+    },
+    {
+      "id": "distech-controls",
+      "type": "brand",
+      "name": "Distech Controls",
+      "tokens": [
+        "controls",
+        "distech",
+        "distech-controls"
+      ]
+    },
+    {
+      "id": "distech-ec-bos-8",
+      "type": "model",
+      "name": "EC-BOS-8",
+      "brand": "distech-controls",
+      "model_numbers": [
+        "EC-BOS-8"
+      ],
+      "tokens": [
+        "bacnet",
+        "controllers",
+        "controls",
+        "distech",
+        "distech-ec-bos-8",
+        "ec-bos-8",
+        "lon",
+        "modbus",
+        "network"
+      ]
+    },
+    {
+      "id": "distech-ec-smart-vue",
+      "type": "model",
+      "name": "EC-Smart-Vue",
+      "brand": "distech-controls",
+      "model_numbers": [
+        "EC-Smart-Vue"
+      ],
+      "tokens": [
+        "bacnet",
+        "controls",
+        "distech",
+        "distech-ec-smart-vue",
+        "ec-smart-vue",
+        "thermostats"
+      ]
+    },
+    {
+      "id": "distech-eclypse-connected",
+      "type": "model",
+      "name": "ECLYPSE Connected Controller",
+      "brand": "distech-controls",
+      "model_numbers": [
+        "ECY-PTU"
+      ],
+      "tokens": [
+        "bacnet",
+        "connected",
+        "controller",
+        "controllers",
+        "controls",
+        "distech",
+        "distech-eclypse-connected",
+        "eclypse",
+        "eclypse-connected",
+        "ecy-ptu",
+        "modbus",
+        "supervisory"
+      ]
+    },
+    {
+      "id": "erv-hrv",
+      "type": "type",
+      "name": "ERVs / HRVs",
+      "tokens": [
+        "/",
+        "erv-hrv",
+        "ervs",
+        "hrvs"
+      ]
+    },
+    {
+      "id": "exhaust-fans",
+      "type": "type",
+      "name": "Exhaust Fans",
+      "tokens": [
+        "exhaust",
+        "exhaust-fans",
+        "fans"
+      ]
+    },
+    {
+      "id": "fcus",
+      "type": "type",
+      "name": "Fan Coil Units (FCUs)",
+      "tokens": [
+        "(fcus)",
+        "coil",
+        "fan",
+        "fcus",
+        "units"
+      ]
+    },
+    {
+      "id": "flow-sensors",
+      "type": "type",
+      "name": "Flow Sensors",
+      "tokens": [
+        "flow",
+        "flow-sensors",
+        "sensors"
+      ]
+    },
+    {
+      "id": "gateways",
+      "type": "type",
+      "name": "Gateways & Routers",
+      "tokens": [
+        "&",
+        "gateways",
+        "routers"
+      ]
+    },
+    {
+      "id": "grundfos",
+      "type": "brand",
+      "name": "Grundfos",
+      "tokens": [
+        "grundfos"
+      ]
+    },
+    {
+      "id": "grundfos-magna3",
+      "type": "model",
+      "name": "MAGNA3",
+      "brand": "grundfos",
+      "model_numbers": [
+        "MAGNA3"
+      ],
+      "tokens": [
+        "bacnet",
+        "grundfos",
+        "grundfos-magna3",
+        "lon",
+        "magna3",
+        "modbus",
+        "pumps"
+      ]
+    },
+    {
+      "id": "grundfos-nb",
+      "type": "model",
+      "name": "NB End-Suction",
+      "brand": "grundfos",
+      "model_numbers": [
+        "NB"
+      ],
+      "tokens": [
+        "end-suction",
+        "grundfos",
+        "grundfos-nb",
+        "nb",
+        "nb-end-suction",
+        "pumps"
+      ]
+    },
+    {
+      "id": "grundfos-tpe3",
+      "type": "model",
+      "name": "TPE3",
+      "brand": "grundfos",
+      "model_numbers": [
+        "TPE3"
+      ],
+      "tokens": [
+        "bacnet",
+        "grundfos",
+        "grundfos-tpe3",
+        "modbus",
+        "pumps",
+        "tpe3"
+      ]
+    },
+    {
+      "id": "heat-pumps",
+      "type": "type",
+      "name": "Heat Pumps",
+      "tokens": [
+        "heat",
+        "heat-pumps",
+        "pumps"
+      ]
+    },
+    {
+      "id": "honeywell",
+      "type": "brand",
+      "name": "Honeywell",
+      "tokens": [
+        "honeywell"
+      ]
+    },
+    {
+      "id": "honeywell-c7660",
+      "type": "model",
+      "name": "C7660 Humidity Sensor",
+      "brand": "honeywell",
+      "model_numbers": [
+        "C7660"
+      ],
+      "tokens": [
+        "c7660",
+        "honeywell",
+        "honeywell-c7660",
+        "humidity",
+        "sensor",
+        "sensors"
+      ]
+    },
+    {
+      "id": "honeywell-dp7000",
+      "type": "model",
+      "name": "DP7000 Differential Pressure",
+      "brand": "honeywell",
+      "model_numbers": [
+        "DP7000"
+      ],
+      "tokens": [
+        "differential",
+        "dp7000",
+        "honeywell",
+        "honeywell-dp7000",
+        "pressure",
+        "sensors"
+      ]
+    },
+    {
+      "id": "honeywell-excel-10",
+      "type": "model",
+      "name": "Excel 10 Controller",
+      "brand": "honeywell",
+      "model_numbers": [
+        "W7751"
+      ],
+      "tokens": [
+        "10",
+        "controller",
+        "controllers",
+        "excel",
+        "excel-10",
+        "honeywell",
+        "honeywell-excel-10",
+        "lon",
+        "unitary",
+        "w7751"
+      ]
+    },
+    {
+      "id": "honeywell-ml6161",
+      "type": "model",
+      "name": "ML6161 Direct Coupled",
+      "brand": "honeywell",
+      "model_numbers": [
+        "ML6161"
+      ],
+      "tokens": [
+        "actuators",
+        "coupled",
+        "damper",
+        "direct",
+        "honeywell",
+        "honeywell-ml6161",
+        "ml6161"
+      ]
+    },
+    {
+      "id": "honeywell-ml7984",
+      "type": "model",
+      "name": "ML7984 Valve Actuator",
+      "brand": "honeywell",
+      "model_numbers": [
+        "ML7984"
+      ],
+      "tokens": [
+        "actuator",
+        "actuators",
+        "honeywell",
+        "honeywell-ml7984",
+        "ml7984",
+        "valve"
+      ]
+    },
+    {
+      "id": "honeywell-ms8120",
+      "type": "model",
+      "name": "MS8120 Direct Coupled",
+      "brand": "honeywell",
+      "model_numbers": [
+        "MS8120"
+      ],
+      "tokens": [
+        "actuators",
+        "coupled",
+        "damper",
+        "direct",
+        "honeywell",
+        "honeywell-ms8120",
+        "ms8120"
+      ]
+    },
+    {
+      "id": "honeywell-spyder",
+      "type": "model",
+      "name": "Spyder",
+      "brand": "honeywell",
+      "model_numbers": [
+        "PUB6438S",
+        "PVB6436A"
+      ],
+      "tokens": [
+        "bacnet",
+        "controllers",
+        "honeywell",
+        "honeywell-spyder",
+        "lon",
+        "modbus",
+        "pub6438s",
+        "pvb6436a",
+        "spyder",
+        "unitary"
+      ]
+    },
+    {
+      "id": "honeywell-t7350",
+      "type": "model",
+      "name": "T7350 Commercial",
+      "brand": "honeywell",
+      "model_numbers": [
+        "T7350"
+      ],
+      "tokens": [
+        "commercial",
+        "honeywell",
+        "honeywell-t7350",
+        "modbus",
+        "t7350",
+        "t7350-commercial",
+        "thermostats"
+      ]
+    },
+    {
+      "id": "honeywell-t775",
+      "type": "model",
+      "name": "T775 Temperature Controller",
+      "brand": "honeywell",
+      "model_numbers": [
+        "T775"
+      ],
+      "tokens": [
+        "controller",
+        "honeywell",
+        "honeywell-t775",
+        "t775",
+        "temperature",
+        "thermostats"
+      ]
+    },
+    {
+      "id": "honeywell-v5011",
+      "type": "model",
+      "name": "V5011 Two-Way Valve",
+      "brand": "honeywell",
+      "model_numbers": [
+        "V5011"
+      ],
+      "tokens": [
+        "actuators",
+        "honeywell",
+        "honeywell-v5011",
+        "two-way",
+        "v5011",
+        "v5011-two-way",
+        "valve"
+      ]
+    },
+    {
+      "id": "honeywell-wb8000",
+      "type": "model",
+      "name": "WEBs-8000",
+      "brand": "honeywell",
+      "model_numbers": [
+        "WEB-8000"
+      ],
+      "tokens": [
+        "bacnet",
+        "controllers",
+        "honeywell",
+        "honeywell-wb8000",
+        "lon",
+        "modbus",
+        "supervisory",
+        "web-8000",
+        "webs-8000"
+      ]
+    },
+    {
+      "id": "humidifiers",
+      "type": "type",
+      "name": "Humidifiers",
+      "tokens": [
+        "humidifiers"
+      ]
+    },
+    {
+      "id": "humidity-sensors",
+      "type": "type",
+      "name": "Humidity Sensors",
+      "tokens": [
+        "humidity",
+        "humidity-sensors",
+        "sensors"
+      ]
+    },
+    {
+      "id": "johnson-controls",
+      "type": "brand",
+      "name": "Johnson Controls",
+      "tokens": [
+        "controls",
+        "johnson",
+        "johnson-controls"
+      ]
+    },
+    {
+      "id": "johnson-controls-bcpro",
+      "type": "model",
+      "name": "Metasys BCPro",
+      "brand": "johnson-controls",
+      "model_numbers": [
+        "BCPro"
+      ],
+      "tokens": [
+        "bacnet",
+        "bcpro",
+        "controllers",
+        "controls",
+        "johnson",
+        "johnson-controls-bcpro",
+        "metasys",
+        "metasys-bcpro",
+        "n2",
+        "supervisory"
+      ]
+    },
+    {
+      "id": "johnson-controls-cgs",
+      "type": "model",
+      "name": "CGS Server",
+      "brand": "johnson-controls",
+      "model_numbers": [
+        "CGS"
+      ],
+      "tokens": [
+        "bacnet",
+        "cgs",
+        "cgs-server",
+        "controllers",
+        "controls",
+        "johnson",
+        "johnson-controls-cgs",
+        "n2",
+        "server",
+        "supervisory"
+      ]
+    },
+    {
+      "id": "johnson-controls-fc",
+      "type": "model",
+      "name": "Fan Coil Unit",
+      "brand": "johnson-controls",
+      "model_numbers": [
+        "FC"
+      ],
+      "tokens": [
+        "(fcus)",
+        "bacnet",
+        "coil",
+        "controls",
+        "fan",
+        "fc",
+        "jci-fan-coil",
+        "johnson",
+        "johnson-controls-fc",
+        "n2",
+        "unit",
+        "units"
+      ]
+    },
+    {
+      "id": "johnson-controls-fec",
+      "type": "model",
+      "name": "FEC Field Controller",
+      "brand": "johnson-controls",
+      "model_numbers": [
+        "FEC2611",
+        "FEC2621"
+      ],
+      "tokens": [
+        "bacnet",
+        "controller",
+        "controllers",
+        "controls",
+        "fec",
+        "fec2611",
+        "fec2621",
+        "field",
+        "johnson",
+        "johnson-controls-fec",
+        "n2",
+        "unitary"
+      ]
+    },
+    {
+      "id": "johnson-controls-fx-supervisor",
+      "type": "model",
+      "name": "FX Supervisor",
+      "brand": "johnson-controls",
+      "model_numbers": [
+        "FX-SUP"
+      ],
+      "tokens": [
+        "bacnet",
+        "controllers",
+        "controls",
+        "fx",
+        "fx-sup",
+        "fx-supervisor",
+        "johnson",
+        "johnson-controls-fx-supervisor",
+        "modbus",
+        "n2",
+        "supervisor",
+        "supervisory"
+      ]
+    },
+    {
+      "id": "johnson-controls-nae",
+      "type": "model",
+      "name": "NAE Network Controller",
+      "brand": "johnson-controls",
+      "model_numbers": [
+        "NAE35",
+        "NAE45",
+        "NAE55"
+      ],
+      "tokens": [
+        "bacnet",
+        "controller",
+        "controllers",
+        "controls",
+        "johnson",
+        "johnson-controls-nae",
+        "lon",
+        "modbus",
+        "n2",
+        "nae",
+        "nae35",
+        "nae45",
+        "nae55",
+        "network"
+      ]
+    },
+    {
+      "id": "johnson-controls-vma",
+      "type": "model",
+      "name": "VMA VAV Controller",
+      "brand": "johnson-controls",
+      "model_numbers": [
+        "VMA1630",
+        "VMA1632"
+      ],
+      "tokens": [
+        "bacnet",
+        "controller",
+        "controllers",
+        "controls",
+        "johnson",
+        "johnson-controls-vma",
+        "n2",
         "vav",
-        "automated-logic-optiflex",
-        "optiflex-vav",
-        "of-vav",
-        "bacnet",
-        "automated",
-        "logic",
-        "controllers"
+        "vma",
+        "vma-vav",
+        "vma1630",
+        "vma1632"
       ]
     },
     {
-      "id": "automated-logic-webctrl",
+      "id": "johnson-controls-york-yewn",
       "type": "model",
-      "name": "WebCTRL",
-      "brand": "automated-logic",
+      "name": "YORK ERV",
+      "brand": "york",
       "model_numbers": [
-        "WebCTRL"
+        "YEWN"
       ],
       "tokens": [
-        "webctrl",
-        "automated-logic-webctrl",
+        "/",
         "bacnet",
-        "automated",
-        "logic",
-        "software"
+        "erv",
+        "ervs",
+        "hrvs",
+        "johnson-controls-york-yewn",
+        "yewn",
+        "york",
+        "york-erv"
       ]
     },
     {
-      "id": "automated-logic-lge",
+      "id": "lennox",
+      "type": "brand",
+      "name": "Lennox",
+      "tokens": [
+        "lennox"
+      ]
+    },
+    {
+      "id": "lennox-energence",
       "type": "model",
-      "name": "LGE Network Controller",
-      "brand": "automated-logic",
+      "name": "Energence",
+      "brand": "lennox",
       "model_numbers": [
-        "LGE"
+        "LGH",
+        "LCH"
       ],
       "tokens": [
-        "lge",
+        "(rtus)",
+        "bacnet",
+        "energence",
+        "lch",
+        "lennox",
+        "lennox-energence",
+        "lgh",
+        "modbus",
+        "rooftop",
+        "units"
+      ]
+    },
+    {
+      "id": "lennox-xc21",
+      "type": "model",
+      "name": "XC21 Air Conditioner",
+      "brand": "lennox",
+      "model_numbers": [
+        "XC21"
+      ],
+      "tokens": [
+        "air",
+        "conditioner",
+        "lennox",
+        "lennox-xc21",
+        "split",
+        "systems",
+        "xc21"
+      ]
+    },
+    {
+      "id": "liebert",
+      "type": "brand",
+      "name": "Liebert",
+      "tokens": [
+        "liebert"
+      ]
+    },
+    {
+      "id": "liebert-cw",
+      "type": "model",
+      "name": "CW Chilled Water",
+      "brand": "liebert",
+      "model_numbers": [
+        "CW"
+      ],
+      "tokens": [
+        "bacnet",
+        "chilled",
+        "crac",
+        "cw",
+        "cw-chilled-water",
+        "liebert",
+        "liebert-cw",
+        "modbus",
+        "units",
+        "water"
+      ]
+    },
+    {
+      "id": "liebert-dse",
+      "type": "model",
+      "name": "DSE Precision Cooling",
+      "brand": "liebert",
+      "model_numbers": [
+        "DSE"
+      ],
+      "tokens": [
+        "bacnet",
+        "cooling",
+        "crac",
+        "dse",
+        "dse-precision",
+        "liebert",
+        "liebert-dse",
+        "modbus",
+        "precision",
+        "units"
+      ]
+    },
+    {
+      "id": "mcquay",
+      "type": "brand",
+      "name": "McQuay",
+      "tokens": [
+        "mcquay"
+      ]
+    },
+    {
+      "id": "mcquay-wmc",
+      "type": "model",
+      "name": "WMC Centrifugal",
+      "brand": "mcquay",
+      "model_numbers": [
+        "WMC"
+      ],
+      "tokens": [
+        "bacnet",
+        "centrifugal",
+        "chillers",
+        "mcquay",
+        "mcquay-wmc",
+        "modbus",
+        "wmc",
+        "wmc-centrifugal"
+      ]
+    },
+    {
+      "id": "meters",
+      "type": "type",
+      "name": "Meters",
+      "tokens": [
+        "meters"
+      ]
+    },
+    {
+      "id": "neptronic",
+      "type": "brand",
+      "name": "Neptronic",
+      "tokens": [
+        "neptronic"
+      ]
+    },
+    {
+      "id": "neptronic-seb",
+      "type": "model",
+      "name": "SEB Steam Humidifier",
+      "brand": "neptronic",
+      "model_numbers": [
+        "SEB"
+      ],
+      "tokens": [
+        "bacnet",
+        "humidifier",
+        "humidifiers",
+        "modbus",
+        "neptronic",
+        "neptronic-seb",
+        "seb",
+        "seb-steam",
+        "steam"
+      ]
+    },
+    {
+      "id": "neptronic-skr",
+      "type": "model",
+      "name": "SKR Resistive Steam",
+      "brand": "neptronic",
+      "model_numbers": [
+        "SKR"
+      ],
+      "tokens": [
+        "bacnet",
+        "humidifiers",
+        "modbus",
+        "neptronic",
+        "neptronic-skr",
+        "resistive",
+        "skr",
+        "skr-resistive",
+        "steam"
+      ]
+    },
+    {
+      "id": "neptronic-tec",
+      "type": "model",
+      "name": "TEC Damper Actuator",
+      "brand": "neptronic",
+      "model_numbers": [
+        "TEC"
+      ],
+      "tokens": [
+        "actuator",
+        "actuators",
+        "damper",
+        "neptronic",
+        "neptronic-tec",
+        "tec",
+        "tec-damper"
+      ]
+    },
+    {
+      "id": "neptronic-tmv",
+      "type": "model",
+      "name": "TMV Valve Actuator",
+      "brand": "neptronic",
+      "model_numbers": [
+        "TMV"
+      ],
+      "tokens": [
+        "actuator",
+        "actuators",
+        "neptronic",
+        "neptronic-tmv",
+        "tmv",
+        "tmv-valve",
+        "valve"
+      ]
+    },
+    {
+      "id": "network-controllers",
+      "type": "type",
+      "name": "Network Controllers",
+      "tokens": [
+        "controllers",
         "network",
-        "controller",
-        "automated-logic-lge",
-        "lge-network",
-        "bacnet",
-        "automated",
-        "logic",
-        "controllers"
+        "network-controllers"
       ]
     },
     {
-      "id": "automated-logic-zn551",
-      "type": "model",
-      "name": "ZN551 Zone Controller",
-      "brand": "automated-logic",
-      "model_numbers": [
-        "ZN551"
-      ],
+      "id": "occupancy-sensors",
+      "type": "type",
+      "name": "Occupancy Sensors",
       "tokens": [
-        "zn551",
-        "zone",
-        "controller",
-        "automated-logic-zn551",
-        "bacnet",
-        "automated",
-        "logic",
-        "controllers"
+        "occupancy",
+        "occupancy-sensors",
+        "sensors"
+      ]
+    },
+    {
+      "id": "other",
+      "type": "type",
+      "name": "Other",
+      "tokens": [
+        "other"
+      ]
+    },
+    {
+      "id": "pressure-sensors",
+      "type": "type",
+      "name": "Pressure Sensors",
+      "tokens": [
+        "pressure",
+        "pressure-sensors",
+        "sensors"
+      ]
+    },
+    {
+      "id": "pumps",
+      "type": "type",
+      "name": "Pumps",
+      "tokens": [
+        "pumps"
+      ]
+    },
+    {
+      "id": "rtus",
+      "type": "type",
+      "name": "Rooftop Units (RTUs)",
+      "tokens": [
+        "(rtus)",
+        "rooftop",
+        "rtus",
+        "units"
       ]
     },
     {
@@ -1824,36 +1888,15 @@
       "tokens": [
         "as-p",
         "automation",
-        "server",
-        "schneider-as-p",
         "bacnet",
-        "modbus",
+        "controllers",
+        "electric",
         "lon",
-        "schneider",
-        "electric",
-        "supervisory",
-        "controllers"
-      ]
-    },
-    {
-      "id": "schneider-mpx",
-      "type": "model",
-      "name": "MPX Field Controller",
-      "brand": "schneider-electric",
-      "model_numbers": [
-        "MPX"
-      ],
-      "tokens": [
-        "mpx",
-        "field",
-        "controller",
-        "schneider-mpx",
-        "bacnet",
         "modbus",
         "schneider",
-        "electric",
-        "unitary",
-        "controllers"
+        "schneider-as-p",
+        "server",
+        "supervisory"
       ]
     },
     {
@@ -1865,862 +1908,119 @@
         "EBO"
       ],
       "tokens": [
-        "ecostruxure",
-        "building",
-        "operation",
-        "schneider-ecostruxure",
-        "ecostruxure-building",
-        "ebo",
         "bacnet",
-        "modbus",
-        "lon",
-        "schneider",
+        "building",
+        "ebo",
+        "ecostruxure",
+        "ecostruxure-building",
         "electric",
+        "lon",
+        "modbus",
+        "operation",
+        "schneider",
+        "schneider-ecostruxure",
         "software"
       ]
     },
     {
-      "id": "delta-controls-entelibus",
-      "type": "model",
-      "name": "enteliBUS",
-      "brand": "delta-controls",
-      "model_numbers": [
-        "eBUS"
-      ],
+      "id": "schneider-electric",
+      "type": "brand",
+      "name": "Schneider Electric",
       "tokens": [
-        "entelibus",
-        "delta-controls-entelibus",
-        "ebus",
-        "bacnet",
-        "delta",
-        "controls",
-        "network",
-        "controllers"
+        "electric",
+        "schneider",
+        "schneider-electric"
       ]
     },
     {
-      "id": "delta-controls-o3-hub",
+      "id": "schneider-mpx",
       "type": "model",
-      "name": "O3 Hub",
-      "brand": "delta-controls",
+      "name": "MPX Field Controller",
+      "brand": "schneider-electric",
       "model_numbers": [
-        "O3"
+        "MPX"
       ],
       "tokens": [
-        "o3",
-        "hub",
-        "delta-controls-o3-hub",
-        "o3-hub",
         "bacnet",
-        "modbus",
-        "delta",
-        "controls",
-        "supervisory",
-        "controllers"
-      ]
-    },
-    {
-      "id": "distech-eclypse-connected",
-      "type": "model",
-      "name": "ECLYPSE Connected Controller",
-      "brand": "distech-controls",
-      "model_numbers": [
-        "ECY-PTU"
-      ],
-      "tokens": [
-        "eclypse",
-        "connected",
         "controller",
-        "distech-eclypse-connected",
-        "eclypse-connected",
-        "ecy-ptu",
-        "bacnet",
+        "controllers",
+        "electric",
+        "field",
         "modbus",
-        "distech",
-        "controls",
-        "supervisory",
-        "controllers"
+        "mpx",
+        "schneider",
+        "schneider-mpx",
+        "unitary"
       ]
     },
     {
-      "id": "distech-ec-smart-vue",
+      "id": "schneider-tc-series",
       "type": "model",
-      "name": "EC-Smart-Vue",
-      "brand": "distech-controls",
+      "name": "TC Series Zone Controller",
+      "brand": "schneider-electric",
       "model_numbers": [
-        "EC-Smart-Vue"
+        "TC"
       ],
       "tokens": [
-        "ec-smart-vue",
-        "distech-ec-smart-vue",
         "bacnet",
-        "distech",
-        "controls",
-        "thermostats"
-      ]
-    },
-    {
-      "id": "contemporary-controls-basrouter",
-      "type": "model",
-      "name": "BASrouter",
-      "brand": "contemporary-controls",
-      "model_numbers": [
-        "BASrouter"
-      ],
-      "tokens": [
-        "basrouter",
-        "contemporary-controls-basrouter",
-        "bacnet",
-        "contemporary",
-        "controls",
-        "gateways",
-        "&",
-        "routers"
-      ]
-    },
-    {
-      "id": "contemporary-controls-babii",
-      "type": "model",
-      "name": "BASgateway",
-      "brand": "contemporary-controls",
-      "model_numbers": [
-        "BASGATEWAY"
-      ],
-      "tokens": [
-        "basgateway",
-        "contemporary-controls-babii",
-        "bacnet",
-        "modbus",
-        "contemporary",
-        "controls",
-        "gateways",
-        "&",
-        "routers"
-      ]
-    },
-    {
-      "id": "liebert-dse",
-      "type": "model",
-      "name": "DSE Precision Cooling",
-      "brand": "liebert",
-      "model_numbers": [
-        "DSE"
-      ],
-      "tokens": [
-        "dse",
-        "precision",
-        "cooling",
-        "liebert-dse",
-        "dse-precision",
-        "bacnet",
-        "modbus",
-        "liebert",
-        "crac",
-        "units"
-      ]
-    },
-    {
-      "id": "liebert-cw",
-      "type": "model",
-      "name": "CW Chilled Water",
-      "brand": "liebert",
-      "model_numbers": [
-        "CW"
-      ],
-      "tokens": [
-        "cw",
-        "chilled",
-        "water",
-        "liebert-cw",
-        "cw-chilled-water",
-        "bacnet",
-        "modbus",
-        "liebert",
-        "crac",
-        "units"
-      ]
-    },
-    {
-      "id": "daikin-vrviv",
-      "type": "model",
-      "name": "VRV IV",
-      "brand": "daikin",
-      "model_numbers": [
-        "VRV IV"
-      ],
-      "tokens": [
-        "vrv",
-        "iv",
-        "daikin-vrviv",
-        "vrv-iv",
-        "bacnet",
-        "modbus",
-        "daikin",
-        "vrf",
-        "systems"
-      ]
-    },
-    {
-      "id": "carrier-vrf",
-      "type": "model",
-      "name": "XCT7 VRF",
-      "brand": "carrier",
-      "model_numbers": [
-        "XCT7"
-      ],
-      "tokens": [
-        "xct7",
-        "vrf",
-        "carrier-vrf",
-        "xct7-vrf",
-        "bacnet",
-        "carrier",
-        "systems"
-      ]
-    },
-    {
-      "id": "neptronic-seb",
-      "type": "model",
-      "name": "SEB Steam Humidifier",
-      "brand": "neptronic",
-      "model_numbers": [
-        "SEB"
-      ],
-      "tokens": [
-        "seb",
-        "steam",
-        "humidifier",
-        "neptronic-seb",
-        "seb-steam",
-        "bacnet",
-        "modbus",
-        "neptronic",
-        "humidifiers"
-      ]
-    },
-    {
-      "id": "neptronic-skr",
-      "type": "model",
-      "name": "SKR Resistive Steam",
-      "brand": "neptronic",
-      "model_numbers": [
-        "SKR"
-      ],
-      "tokens": [
-        "skr",
-        "resistive",
-        "steam",
-        "neptronic-skr",
-        "skr-resistive",
-        "bacnet",
-        "modbus",
-        "neptronic",
-        "humidifiers"
-      ]
-    },
-    {
-      "id": "trane-uc600",
-      "type": "model",
-      "name": "UC600",
-      "brand": "trane",
-      "model_numbers": [
-        "UC600"
-      ],
-      "tokens": [
-        "uc600",
-        "trane-uc600",
-        "bacnet",
-        "n2",
-        "trane",
-        "unitary",
-        "controllers"
-      ]
-    },
-    {
-      "id": "trane-vav-svx",
-      "type": "model",
-      "name": "SVX VAV Controller",
-      "brand": "trane",
-      "model_numbers": [
-        "SVX"
-      ],
-      "tokens": [
-        "svx",
-        "vav",
         "controller",
-        "trane-vav-svx",
-        "svx-vav",
-        "bacnet",
-        "n2",
-        "trane",
-        "controllers"
-      ]
-    },
-    {
-      "id": "johnson-controls-vma",
-      "type": "model",
-      "name": "VMA VAV Controller",
-      "brand": "johnson-controls",
-      "model_numbers": [
-        "VMA1630",
-        "VMA1632"
-      ],
-      "tokens": [
-        "vma",
-        "vav",
-        "controller",
-        "johnson-controls-vma",
-        "vma-vav",
-        "vma1630",
-        "vma1632",
-        "bacnet",
-        "n2",
-        "johnson",
-        "controls",
-        "controllers"
-      ]
-    },
-    {
-      "id": "siemens-tec3000",
-      "type": "model",
-      "name": "TEC3000 Thermostat",
-      "brand": "siemens",
-      "model_numbers": [
-        "TEC3000"
-      ],
-      "tokens": [
-        "tec3000",
-        "thermostat",
-        "siemens-tec3000",
-        "bacnet",
-        "siemens",
-        "thermostats"
-      ]
-    },
-    {
-      "id": "siemens-qam2171",
-      "type": "model",
-      "name": "QAM2171 Duct Sensor",
-      "brand": "siemens",
-      "model_numbers": [
-        "QAM2171"
-      ],
-      "tokens": [
-        "qam2171",
-        "duct",
-        "sensor",
-        "siemens-qam2171",
-        "siemens",
-        "temperature",
-        "sensors"
-      ]
-    },
-    {
-      "id": "siemens-qpa2062",
-      "type": "model",
-      "name": "QPA2062 Room Sensor",
-      "brand": "siemens",
-      "model_numbers": [
-        "QPA2062"
-      ],
-      "tokens": [
-        "qpa2062",
-        "room",
-        "sensor",
-        "siemens-qpa2062",
-        "bacnet",
-        "modbus",
-        "siemens",
-        "air",
-        "quality",
-        "sensors"
-      ]
-    },
-    {
-      "id": "honeywell-c7660",
-      "type": "model",
-      "name": "C7660 Humidity Sensor",
-      "brand": "honeywell",
-      "model_numbers": [
-        "C7660"
-      ],
-      "tokens": [
-        "c7660",
-        "humidity",
-        "sensor",
-        "honeywell-c7660",
-        "honeywell",
-        "sensors"
-      ]
-    },
-    {
-      "id": "honeywell-dp7000",
-      "type": "model",
-      "name": "DP7000 Differential Pressure",
-      "brand": "honeywell",
-      "model_numbers": [
-        "DP7000"
-      ],
-      "tokens": [
-        "dp7000",
-        "differential",
-        "pressure",
-        "honeywell-dp7000",
-        "honeywell",
-        "sensors"
-      ]
-    },
-    {
-      "id": "honeywell-ml6161",
-      "type": "model",
-      "name": "ML6161 Direct Coupled",
-      "brand": "honeywell",
-      "model_numbers": [
-        "ML6161"
-      ],
-      "tokens": [
-        "ml6161",
-        "direct",
-        "coupled",
-        "honeywell-ml6161",
-        "honeywell",
-        "damper",
-        "actuators"
-      ]
-    },
-    {
-      "id": "veris-hwx",
-      "type": "model",
-      "name": "HWX Wall Humidity",
-      "brand": "veris",
-      "model_numbers": [
-        "HWX"
-      ],
-      "tokens": [
-        "hwx",
-        "wall",
-        "humidity",
-        "veris-hwx",
-        "hwx-wall",
-        "veris",
-        "sensors"
-      ]
-    },
-    {
-      "id": "veris-hdx",
-      "type": "model",
-      "name": "HDX Duct Humidity",
-      "brand": "veris",
-      "model_numbers": [
-        "HDX"
-      ],
-      "tokens": [
-        "hdx",
-        "duct",
-        "humidity",
-        "veris-hdx",
-        "hdx-duct",
-        "veris",
-        "sensors"
-      ]
-    },
-    {
-      "id": "veris-u012-0003",
-      "type": "model",
-      "name": "U012-0003 Occupancy",
-      "brand": "veris",
-      "model_numbers": [
-        "U012-0003"
-      ],
-      "tokens": [
-        "u012-0003",
-        "occupancy",
-        "veris-u012-0003",
-        "u012-occupancy",
-        "veris",
-        "sensors"
-      ]
-    },
-    {
-      "id": "trane-symptom-1",
-      "type": "model",
-      "name": "Stealth RTAC",
-      "brand": "trane",
-      "model_numbers": [
-        "RTAC"
-      ],
-      "tokens": [
-        "stealth",
-        "rtac",
-        "trane-symptom-1",
-        "stealth-rtac",
-        "bacnet",
-        "n2",
-        "trane",
-        "chillers"
-      ]
-    },
-    {
-      "id": "carrier-30rb",
-      "type": "model",
-      "name": "30RB AquaSnap",
-      "brand": "carrier",
-      "model_numbers": [
-        "30RB"
-      ],
-      "tokens": [
-        "30rb",
-        "aquasnap",
-        "carrier-30rb",
-        "30rb-aquasnap",
-        "bacnet",
-        "modbus",
-        "carrier",
-        "chillers"
-      ]
-    },
-    {
-      "id": "york-ylaa",
-      "type": "model",
-      "name": "YLAA Air-Cooled Scroll",
-      "brand": "york",
-      "model_numbers": [
-        "YLAA"
-      ],
-      "tokens": [
-        "ylaa",
-        "air-cooled",
-        "scroll",
-        "york-ylaa",
-        "ylaa-scroll",
-        "bacnet",
-        "modbus",
-        "york",
-        "chillers"
-      ]
-    },
-    {
-      "id": "mcquay-wmc",
-      "type": "model",
-      "name": "WMC Centrifugal",
-      "brand": "mcquay",
-      "model_numbers": [
-        "WMC"
-      ],
-      "tokens": [
-        "wmc",
-        "centrifugal",
-        "mcquay-wmc",
-        "wmc-centrifugal",
-        "bacnet",
-        "modbus",
-        "mcquay",
-        "chillers"
-      ]
-    },
-    {
-      "id": "carrier-50xt",
-      "type": "model",
-      "name": "50XT Rooftop Heat Pump",
-      "brand": "carrier",
-      "model_numbers": [
-        "50XT"
-      ],
-      "tokens": [
-        "50xt",
-        "rooftop",
-        "heat",
-        "pump",
-        "carrier-50xt",
-        "50xt-heat-pump",
-        "bacnet",
-        "modbus",
-        "carrier",
-        "pumps"
-      ]
-    },
-    {
-      "id": "trane-axiom",
-      "type": "model",
-      "name": "Axiom Water-Source",
-      "brand": "trane",
-      "model_numbers": [
-        "?"
-      ],
-      "tokens": [
-        "axiom",
-        "water-source",
-        "trane-axiom",
-        "axiom-water-source",
-        "?",
-        "bacnet",
-        "trane",
-        "heat",
-        "pumps"
-      ]
-    },
-    {
-      "id": "carrier-30gtn",
-      "type": "model",
-      "name": "30GTN Water-Cooled",
-      "brand": "carrier",
-      "model_numbers": [
-        "30GTN"
-      ],
-      "tokens": [
-        "30gtn",
-        "water-cooled",
-        "carrier-30gtn",
-        "30gtn-water-cooled",
-        "bacnet",
-        "carrier",
-        "heat",
-        "pumps"
-      ]
-    },
-    {
-      "id": "johnson-controls-york-yewn",
-      "type": "model",
-      "name": "YORK ERV",
-      "brand": "york",
-      "model_numbers": [
-        "YEWN"
-      ],
-      "tokens": [
-        "york",
-        "erv",
-        "johnson-controls-york-yewn",
-        "york-erv",
-        "yewn",
-        "bacnet",
-        "ervs",
-        "/",
-        "hrvs"
-      ]
-    },
-    {
-      "id": "carrier-hrvxxlhb",
-      "type": "model",
-      "name": "HRV Light Commercial",
-      "brand": "carrier",
-      "model_numbers": [
-        "HRVXXLHB"
-      ],
-      "tokens": [
-        "hrv",
-        "light",
-        "commercial",
-        "carrier-hrvxxlhb",
-        "hrv-light-commercial",
-        "hrvxxlhb",
-        "carrier",
-        "ervs",
-        "/",
-        "hrvs"
-      ]
-    },
-    {
-      "id": "danfoss-vlt-fc-311",
-      "type": "model",
-      "name": "VLT AutomationDrive FC 311",
-      "brand": "danfoss",
-      "model_numbers": [
-        "FC311"
-      ],
-      "tokens": [
-        "vlt",
-        "automationdrive",
-        "fc",
-        "311",
-        "danfoss-vlt-fc-311",
-        "vlt-fc-311",
-        "fc311",
-        "bacnet",
-        "modbus",
-        "profibus",
-        "danfoss",
-        "vfds",
-        "/",
-        "drives"
-      ]
-    },
-    {
-      "id": "danfoss-vlt-soft-starter",
-      "type": "model",
-      "name": "VLT Soft Starter MCD 600",
-      "brand": "danfoss",
-      "model_numbers": [
-        "MCD600"
-      ],
-      "tokens": [
-        "vlt",
-        "soft",
-        "starter",
-        "mcd",
-        "600",
-        "danfoss-vlt-soft-starter",
-        "vlt-mcd-600",
-        "mcd600",
-        "modbus",
-        "danfoss",
-        "vfds",
-        "/",
-        "drives"
-      ]
-    },
-    {
-      "id": "yaskawa-ga500",
-      "type": "model",
-      "name": "GA500 Industrial Drive",
-      "brand": "yaskawa",
-      "model_numbers": [
-        "GA500"
-      ],
-      "tokens": [
-        "ga500",
-        "industrial",
-        "drive",
-        "yaskawa-ga500",
-        "bacnet",
-        "modbus",
-        "profibus",
-        "yaskawa",
-        "vfds",
-        "/",
-        "drives"
-      ]
-    },
-    {
-      "id": "abb-acs880",
-      "type": "model",
-      "name": "ACS880 Industrial Drive",
-      "brand": "abb",
-      "model_numbers": [
-        "ACS880"
-      ],
-      "tokens": [
-        "acs880",
-        "industrial",
-        "drive",
-        "abb-acs880",
-        "bacnet",
-        "modbus",
-        "profibus",
-        "profinet",
-        "abb",
-        "vfds",
-        "/",
-        "drives"
-      ]
-    },
-    {
-      "id": "grundfos-nb",
-      "type": "model",
-      "name": "NB End-Suction",
-      "brand": "grundfos",
-      "model_numbers": [
-        "NB"
-      ],
-      "tokens": [
-        "nb",
-        "end-suction",
-        "grundfos-nb",
-        "nb-end-suction",
-        "grundfos",
-        "pumps"
-      ]
-    },
-    {
-      "id": "bell-gossett-series-e90",
-      "type": "model",
-      "name": "Series e-90 Close-Coupled",
-      "brand": "bell-gossett",
-      "model_numbers": [
-        "e-90"
-      ],
-      "tokens": [
+        "controllers",
+        "electric",
+        "schneider",
+        "schneider-tc-series",
         "series",
-        "e-90",
-        "close-coupled",
-        "bell-gossett-series-e90",
-        "series-e90",
-        "bell",
-        "&",
-        "gossett",
-        "pumps"
+        "tc",
+        "tc-series",
+        "zone"
       ]
     },
     {
-      "id": "taco-fi",
-      "type": "model",
-      "name": "FI Series Inline",
-      "brand": "taco",
-      "model_numbers": [
-        "FI"
-      ],
+      "id": "siemens",
+      "type": "brand",
+      "name": "Siemens",
       "tokens": [
-        "fi",
-        "series",
-        "inline",
-        "taco-fi",
-        "fi-series",
-        "taco",
-        "comfort",
-        "solutions",
-        "pumps"
+        "siemens"
       ]
     },
     {
-      "id": "armstrong-4300",
+      "id": "siemens-desigo-cc",
       "type": "model",
-      "name": "4300 Vertical Inline",
-      "brand": "armstrong",
-      "model_numbers": [
-        "4300"
-      ],
-      "tokens": [
-        "4300",
-        "vertical",
-        "inline",
-        "armstrong-4300",
-        "4300-vertical-inline",
-        "armstrong",
-        "pumps"
-      ]
-    },
-    {
-      "id": "veris-fx",
-      "type": "model",
-      "name": "FX Insertion Flow",
-      "brand": "veris",
-      "model_numbers": [
-        "FX"
-      ],
-      "tokens": [
-        "fx",
-        "insertion",
-        "flow",
-        "veris-fx",
-        "fx-insertion-flow",
-        "veris",
-        "sensors"
-      ]
-    },
-    {
-      "id": "siemens-qbe2103",
-      "type": "model",
-      "name": "QBE2103 Liquid Pressure",
+      "name": "Desigo CC",
       "brand": "siemens",
       "model_numbers": [
-        "QBE2103"
+        "DCC"
       ],
       "tokens": [
-        "qbe2103",
-        "liquid",
-        "pressure",
-        "siemens-qbe2103",
+        "bacnet",
+        "cc",
+        "dcc",
+        "desigo",
+        "desigo-cc",
         "siemens",
-        "sensors"
+        "siemens-desigo-cc",
+        "software"
+      ]
+    },
+    {
+      "id": "siemens-desigo-px",
+      "type": "model",
+      "name": "Desigo PX",
+      "brand": "siemens",
+      "model_numbers": [
+        "PXC"
+      ],
+      "tokens": [
+        "bacnet",
+        "controllers",
+        "desigo",
+        "desigo-px",
+        "lon",
+        "modbus",
+        "px",
+        "pxc",
+        "siemens",
+        "siemens-desigo-px",
+        "supervisory"
       ]
     },
     {
@@ -2733,86 +2033,509 @@
         "GLB131"
       ],
       "tokens": [
+        "actuator",
+        "actuators",
         "glb",
-        "valve",
-        "actuator",
-        "siemens-glb",
         "glb-valve",
-        "glb161",
         "glb131",
+        "glb161",
         "siemens",
-        "actuators"
+        "siemens-glb",
+        "valve"
       ]
     },
     {
-      "id": "honeywell-v5011",
+      "id": "siemens-openair-gca",
       "type": "model",
-      "name": "V5011 Two-Way Valve",
-      "brand": "honeywell",
+      "name": "OpenAir GCA",
+      "brand": "siemens",
       "model_numbers": [
-        "V5011"
+        "GCA121",
+        "GCA131",
+        "GCA161"
       ],
       "tokens": [
-        "v5011",
-        "two-way",
-        "valve",
-        "honeywell-v5011",
-        "v5011-two-way",
-        "honeywell",
-        "actuators"
+        "actuators",
+        "damper",
+        "gca",
+        "gca121",
+        "gca131",
+        "gca161",
+        "openair",
+        "openair-gca",
+        "siemens",
+        "siemens-openair-gca"
       ]
     },
     {
-      "id": "honeywell-ml7984",
+      "id": "siemens-openair-gma",
       "type": "model",
-      "name": "ML7984 Valve Actuator",
-      "brand": "honeywell",
+      "name": "OpenAir GMA",
+      "brand": "siemens",
       "model_numbers": [
-        "ML7984"
+        "GMA121",
+        "GMA131",
+        "GMA161"
       ],
       "tokens": [
-        "ml7984",
-        "valve",
-        "actuator",
-        "honeywell-ml7984",
-        "honeywell",
-        "actuators"
+        "actuators",
+        "damper",
+        "gma",
+        "gma121",
+        "gma131",
+        "gma161",
+        "openair",
+        "openair-gma",
+        "siemens",
+        "siemens-openair-gma"
       ]
     },
     {
-      "id": "carrier-50hc",
+      "id": "siemens-qam2171",
       "type": "model",
-      "name": "50HC Ducted Split",
-      "brand": "carrier",
+      "name": "QAM2171 Duct Sensor",
+      "brand": "siemens",
       "model_numbers": [
-        "50HC"
+        "QAM2171"
       ],
       "tokens": [
-        "50hc",
-        "ducted",
-        "split",
-        "carrier-50hc",
-        "50hc-ducted-split",
-        "carrier",
-        "systems"
+        "duct",
+        "qam2171",
+        "sensor",
+        "sensors",
+        "siemens",
+        "siemens-qam2171",
+        "temperature"
       ]
     },
     {
-      "id": "lennox-xc21",
+      "id": "siemens-qbe2103",
       "type": "model",
-      "name": "XC21 Air Conditioner",
-      "brand": "lennox",
+      "name": "QBE2103 Liquid Pressure",
+      "brand": "siemens",
       "model_numbers": [
-        "XC21"
+        "QBE2103"
       ],
       "tokens": [
-        "xc21",
+        "liquid",
+        "pressure",
+        "qbe2103",
+        "sensors",
+        "siemens",
+        "siemens-qbe2103"
+      ]
+    },
+    {
+      "id": "siemens-qpa2062",
+      "type": "model",
+      "name": "QPA2062 Room Sensor",
+      "brand": "siemens",
+      "model_numbers": [
+        "QPA2062"
+      ],
+      "tokens": [
         "air",
-        "conditioner",
-        "lennox-xc21",
-        "lennox",
+        "bacnet",
+        "modbus",
+        "qpa2062",
+        "quality",
+        "room",
+        "sensor",
+        "sensors",
+        "siemens",
+        "siemens-qpa2062"
+      ]
+    },
+    {
+      "id": "siemens-tec3000",
+      "type": "model",
+      "name": "TEC3000 Thermostat",
+      "brand": "siemens",
+      "model_numbers": [
+        "TEC3000"
+      ],
+      "tokens": [
+        "bacnet",
+        "siemens",
+        "siemens-tec3000",
+        "tec3000",
+        "thermostat",
+        "thermostats"
+      ]
+    },
+    {
+      "id": "software",
+      "type": "type",
+      "name": "Software",
+      "tokens": [
+        "software"
+      ]
+    },
+    {
+      "id": "split-systems",
+      "type": "type",
+      "name": "Split Systems",
+      "tokens": [
         "split",
+        "split-systems",
         "systems"
+      ]
+    },
+    {
+      "id": "supervisory-controllers",
+      "type": "type",
+      "name": "Supervisory Controllers",
+      "tokens": [
+        "controllers",
+        "supervisory",
+        "supervisory-controllers"
+      ]
+    },
+    {
+      "id": "taco",
+      "type": "brand",
+      "name": "Taco Comfort Solutions",
+      "tokens": [
+        "comfort",
+        "solutions",
+        "taco"
+      ]
+    },
+    {
+      "id": "taco-fi",
+      "type": "model",
+      "name": "FI Series Inline",
+      "brand": "taco",
+      "model_numbers": [
+        "FI"
+      ],
+      "tokens": [
+        "comfort",
+        "fi",
+        "fi-series",
+        "inline",
+        "pumps",
+        "series",
+        "solutions",
+        "taco",
+        "taco-fi"
+      ]
+    },
+    {
+      "id": "taco-vi",
+      "type": "model",
+      "name": "VI Series",
+      "brand": "taco",
+      "model_numbers": [
+        "VI"
+      ],
+      "tokens": [
+        "bacnet",
+        "comfort",
+        "modbus",
+        "pumps",
+        "series",
+        "solutions",
+        "taco",
+        "taco-vi",
+        "vi",
+        "vi-series"
+      ]
+    },
+    {
+      "id": "temperature-sensors",
+      "type": "type",
+      "name": "Temperature Sensors",
+      "tokens": [
+        "sensors",
+        "temperature",
+        "temperature-sensors"
+      ]
+    },
+    {
+      "id": "thermostats",
+      "type": "type",
+      "name": "Thermostats",
+      "tokens": [
+        "thermostats"
+      ]
+    },
+    {
+      "id": "trane",
+      "type": "brand",
+      "name": "Trane",
+      "tokens": [
+        "trane"
+      ]
+    },
+    {
+      "id": "trane-axiom",
+      "type": "model",
+      "name": "Axiom Water-Source",
+      "brand": "trane",
+      "model_numbers": [
+        "?"
+      ],
+      "tokens": [
+        "?",
+        "axiom",
+        "axiom-water-source",
+        "bacnet",
+        "heat",
+        "pumps",
+        "trane",
+        "trane-axiom",
+        "water-source"
+      ]
+    },
+    {
+      "id": "trane-cgam",
+      "type": "model",
+      "name": "CGAM Air-Cooled Chiller",
+      "brand": "trane",
+      "model_numbers": [
+        "CGAM"
+      ],
+      "tokens": [
+        "air-cooled",
+        "bacnet",
+        "cgam",
+        "cgam-air-cooled",
+        "chiller",
+        "chillers",
+        "modbus",
+        "n2",
+        "trane",
+        "trane-cgam"
+      ]
+    },
+    {
+      "id": "trane-cvhe",
+      "type": "model",
+      "name": "CenTraVac CVHE",
+      "brand": "trane",
+      "model_numbers": [
+        "CVHE"
+      ],
+      "tokens": [
+        "bacnet",
+        "centravac",
+        "centravac-cvhe",
+        "chillers",
+        "cvhe",
+        "n2",
+        "trane",
+        "trane-cvhe"
+      ]
+    },
+    {
+      "id": "trane-horizontal-fcu",
+      "type": "model",
+      "name": "Horizontal Fan Coil",
+      "brand": "trane",
+      "model_numbers": [
+        "?"
+      ],
+      "tokens": [
+        "?",
+        "(fcus)",
+        "bacnet",
+        "coil",
+        "fan",
+        "horizontal",
+        "horizontal-fan-coil",
+        "trane",
+        "trane-horizontal-fcu",
+        "units"
+      ]
+    },
+    {
+      "id": "trane-intellipak",
+      "type": "model",
+      "name": "IntelliPak",
+      "brand": "trane",
+      "model_numbers": [
+        "?"
+      ],
+      "tokens": [
+        "?",
+        "(rtus)",
+        "bacnet",
+        "intellipak",
+        "modbus",
+        "n2",
+        "rooftop",
+        "trane",
+        "trane-intellipak",
+        "units"
+      ]
+    },
+    {
+      "id": "trane-m-series-ahu",
+      "type": "model",
+      "name": "M-Series Climate Changer",
+      "brand": "trane",
+      "model_numbers": [
+        "CLCA",
+        "CLCP"
+      ],
+      "tokens": [
+        "(ahus)",
+        "air",
+        "bacnet",
+        "changer",
+        "clca",
+        "clcp",
+        "climate",
+        "handling",
+        "m-series",
+        "m-series-climate-changer",
+        "n2",
+        "trane",
+        "trane-m-series-ahu",
+        "units"
+      ]
+    },
+    {
+      "id": "trane-symptom-1",
+      "type": "model",
+      "name": "Stealth RTAC",
+      "brand": "trane",
+      "model_numbers": [
+        "RTAC"
+      ],
+      "tokens": [
+        "bacnet",
+        "chillers",
+        "n2",
+        "rtac",
+        "stealth",
+        "stealth-rtac",
+        "trane",
+        "trane-symptom-1"
+      ]
+    },
+    {
+      "id": "trane-tracer-es",
+      "type": "model",
+      "name": "Tracer ES",
+      "brand": "trane",
+      "model_numbers": [
+        "ES"
+      ],
+      "tokens": [
+        "bacnet",
+        "controllers",
+        "es",
+        "n2",
+        "supervisory",
+        "tracer",
+        "tracer-es",
+        "trane",
+        "trane-tracer-es"
+      ]
+    },
+    {
+      "id": "trane-tracer-sc-plus",
+      "type": "model",
+      "name": "Tracer SC+",
+      "brand": "trane",
+      "model_numbers": [
+        "SC+"
+      ],
+      "tokens": [
+        "bacnet",
+        "controllers",
+        "modbus",
+        "n2",
+        "sc+",
+        "supervisory",
+        "tracer",
+        "tracer-sc-plus",
+        "trane",
+        "trane-tracer-sc-plus"
+      ]
+    },
+    {
+      "id": "trane-uc600",
+      "type": "model",
+      "name": "UC600",
+      "brand": "trane",
+      "model_numbers": [
+        "UC600"
+      ],
+      "tokens": [
+        "bacnet",
+        "controllers",
+        "n2",
+        "trane",
+        "trane-uc600",
+        "uc600",
+        "unitary"
+      ]
+    },
+    {
+      "id": "trane-vav-box",
+      "type": "model",
+      "name": "Single Duct VAV",
+      "brand": "trane",
+      "model_numbers": [
+        "?"
+      ],
+      "tokens": [
+        "?",
+        "bacnet",
+        "boxes",
+        "duct",
+        "single",
+        "single-duct-vav",
+        "trane",
+        "trane-vav-box",
+        "vav"
+      ]
+    },
+    {
+      "id": "trane-vav-svx",
+      "type": "model",
+      "name": "SVX VAV Controller",
+      "brand": "trane",
+      "model_numbers": [
+        "SVX"
+      ],
+      "tokens": [
+        "bacnet",
+        "controller",
+        "controllers",
+        "n2",
+        "svx",
+        "svx-vav",
+        "trane",
+        "trane-vav-svx",
+        "vav"
+      ]
+    },
+    {
+      "id": "trane-voyager",
+      "type": "model",
+      "name": "Voyager",
+      "brand": "trane",
+      "model_numbers": [
+        "TCD",
+        "TDD",
+        "THD"
+      ],
+      "tokens": [
+        "(rtus)",
+        "bacnet",
+        "modbus",
+        "rooftop",
+        "tcd",
+        "tdd",
+        "thd",
+        "trane",
+        "trane-voyager",
+        "units",
+        "voyager"
       ]
     },
     {
@@ -2824,210 +2547,14 @@
         "XR15"
       ],
       "tokens": [
-        "xr15",
         "heat",
         "pump",
-        "trane-xr15",
-        "xr15-heat-pump",
-        "trane",
         "split",
-        "systems"
-      ]
-    },
-    {
-      "id": "johnson-controls-bcpro",
-      "type": "model",
-      "name": "Metasys BCPro",
-      "brand": "johnson-controls",
-      "model_numbers": [
-        "BCPro"
-      ],
-      "tokens": [
-        "metasys",
-        "bcpro",
-        "johnson-controls-bcpro",
-        "metasys-bcpro",
-        "bacnet",
-        "n2",
-        "johnson",
-        "controls",
-        "supervisory",
-        "controllers"
-      ]
-    },
-    {
-      "id": "johnson-controls-cgs",
-      "type": "model",
-      "name": "CGS Server",
-      "brand": "johnson-controls",
-      "model_numbers": [
-        "CGS"
-      ],
-      "tokens": [
-        "cgs",
-        "server",
-        "johnson-controls-cgs",
-        "cgs-server",
-        "bacnet",
-        "n2",
-        "johnson",
-        "controls",
-        "supervisory",
-        "controllers"
-      ]
-    },
-    {
-      "id": "automated-logic-s6104",
-      "type": "model",
-      "name": "S6104 Controller",
-      "brand": "automated-logic",
-      "model_numbers": [
-        "S6104"
-      ],
-      "tokens": [
-        "s6104",
-        "controller",
-        "automated-logic-s6104",
-        "bacnet",
-        "automated",
-        "logic",
-        "unitary",
-        "controllers"
-      ]
-    },
-    {
-      "id": "distech-ec-bos-8",
-      "type": "model",
-      "name": "EC-BOS-8",
-      "brand": "distech-controls",
-      "model_numbers": [
-        "EC-BOS-8"
-      ],
-      "tokens": [
-        "ec-bos-8",
-        "distech-ec-bos-8",
-        "bacnet",
-        "modbus",
-        "lon",
-        "distech",
-        "controls",
-        "network",
-        "controllers"
-      ]
-    },
-    {
-      "id": "delta-controls-dac-1146",
-      "type": "model",
-      "name": "DAC-1146 Application Controller",
-      "brand": "delta-controls",
-      "model_numbers": [
-        "DAC-1146"
-      ],
-      "tokens": [
-        "dac-1146",
-        "application",
-        "controller",
-        "delta-controls-dac-1146",
-        "bacnet",
-        "delta",
-        "controls",
-        "unitary",
-        "controllers"
-      ]
-    },
-    {
-      "id": "schneider-tc-series",
-      "type": "model",
-      "name": "TC Series Zone Controller",
-      "brand": "schneider-electric",
-      "model_numbers": [
-        "TC"
-      ],
-      "tokens": [
-        "tc",
-        "series",
-        "zone",
-        "controller",
-        "schneider-tc-series",
-        "tc-series",
-        "bacnet",
-        "schneider",
-        "electric",
-        "controllers"
-      ]
-    },
-    {
-      "id": "honeywell-excel-10",
-      "type": "model",
-      "name": "Excel 10 Controller",
-      "brand": "honeywell",
-      "model_numbers": [
-        "W7751"
-      ],
-      "tokens": [
-        "excel",
-        "10",
-        "controller",
-        "honeywell-excel-10",
-        "excel-10",
-        "w7751",
-        "lon",
-        "honeywell",
-        "unitary",
-        "controllers"
-      ]
-    },
-    {
-      "id": "honeywell-t775",
-      "type": "model",
-      "name": "T775 Temperature Controller",
-      "brand": "honeywell",
-      "model_numbers": [
-        "T775"
-      ],
-      "tokens": [
-        "t775",
-        "temperature",
-        "controller",
-        "honeywell-t775",
-        "honeywell",
-        "thermostats"
-      ]
-    },
-    {
-      "id": "neptronic-tec",
-      "type": "model",
-      "name": "TEC Damper Actuator",
-      "brand": "neptronic",
-      "model_numbers": [
-        "TEC"
-      ],
-      "tokens": [
-        "tec",
-        "damper",
-        "actuator",
-        "neptronic-tec",
-        "tec-damper",
-        "neptronic",
-        "actuators"
-      ]
-    },
-    {
-      "id": "neptronic-tmv",
-      "type": "model",
-      "name": "TMV Valve Actuator",
-      "brand": "neptronic",
-      "model_numbers": [
-        "TMV"
-      ],
-      "tokens": [
-        "tmv",
-        "valve",
-        "actuator",
-        "neptronic-tmv",
-        "tmv-valve",
-        "neptronic",
-        "actuators"
+        "systems",
+        "trane",
+        "trane-xr15",
+        "xr15",
+        "xr15-heat-pump"
       ]
     },
     {
@@ -3039,13 +2566,486 @@
         "XV20i"
       ],
       "tokens": [
-        "xv20i",
-        "variable",
-        "speed",
-        "trane-xv20i",
-        "trane",
         "heat",
-        "pumps"
+        "pumps",
+        "speed",
+        "trane",
+        "trane-xv20i",
+        "variable",
+        "xv20i"
+      ]
+    },
+    {
+      "id": "unitary-controllers",
+      "type": "type",
+      "name": "Unitary Controllers",
+      "tokens": [
+        "controllers",
+        "unitary",
+        "unitary-controllers"
+      ]
+    },
+    {
+      "id": "valve-actuators",
+      "type": "type",
+      "name": "Valve Actuators",
+      "tokens": [
+        "actuators",
+        "valve",
+        "valve-actuators"
+      ]
+    },
+    {
+      "id": "vav-boxes",
+      "type": "type",
+      "name": "VAV Boxes",
+      "tokens": [
+        "boxes",
+        "vav",
+        "vav-boxes"
+      ]
+    },
+    {
+      "id": "vav-controllers",
+      "type": "type",
+      "name": "VAV Controllers",
+      "tokens": [
+        "controllers",
+        "vav",
+        "vav-controllers"
+      ]
+    },
+    {
+      "id": "veris",
+      "type": "brand",
+      "name": "Veris",
+      "tokens": [
+        "veris"
+      ]
+    },
+    {
+      "id": "veris-cdlsxx",
+      "type": "model",
+      "name": "CDLSXX Duct CO2",
+      "brand": "veris",
+      "model_numbers": [
+        "CDLSXX"
+      ],
+      "tokens": [
+        "cdlsxx",
+        "co2",
+        "duct",
+        "sensors",
+        "veris",
+        "veris-cdlsxx"
+      ]
+    },
+    {
+      "id": "veris-cwlsxx",
+      "type": "model",
+      "name": "CWLSXX Wall CO2",
+      "brand": "veris",
+      "model_numbers": [
+        "CWLSXX"
+      ],
+      "tokens": [
+        "co2",
+        "cwlsxx",
+        "sensors",
+        "veris",
+        "veris-cwlsxx",
+        "wall"
+      ]
+    },
+    {
+      "id": "veris-e30",
+      "type": "model",
+      "name": "E30 Power Meter",
+      "brand": "veris",
+      "model_numbers": [
+        "E30"
+      ],
+      "tokens": [
+        "bacnet",
+        "e30",
+        "e30-power-meter",
+        "meter",
+        "meters",
+        "modbus",
+        "power",
+        "veris",
+        "veris-e30"
+      ]
+    },
+    {
+      "id": "veris-fx",
+      "type": "model",
+      "name": "FX Insertion Flow",
+      "brand": "veris",
+      "model_numbers": [
+        "FX"
+      ],
+      "tokens": [
+        "flow",
+        "fx",
+        "fx-insertion-flow",
+        "insertion",
+        "sensors",
+        "veris",
+        "veris-fx"
+      ]
+    },
+    {
+      "id": "veris-h80xx",
+      "type": "model",
+      "name": "H80XX Current Transducer",
+      "brand": "veris",
+      "model_numbers": [
+        "H80XX"
+      ],
+      "tokens": [
+        "current",
+        "h80xx",
+        "h80xx-ct",
+        "meters",
+        "transducer",
+        "veris",
+        "veris-h80xx"
+      ]
+    },
+    {
+      "id": "veris-hdx",
+      "type": "model",
+      "name": "HDX Duct Humidity",
+      "brand": "veris",
+      "model_numbers": [
+        "HDX"
+      ],
+      "tokens": [
+        "duct",
+        "hdx",
+        "hdx-duct",
+        "humidity",
+        "sensors",
+        "veris",
+        "veris-hdx"
+      ]
+    },
+    {
+      "id": "veris-hwx",
+      "type": "model",
+      "name": "HWX Wall Humidity",
+      "brand": "veris",
+      "model_numbers": [
+        "HWX"
+      ],
+      "tokens": [
+        "humidity",
+        "hwx",
+        "hwx-wall",
+        "sensors",
+        "veris",
+        "veris-hwx",
+        "wall"
+      ]
+    },
+    {
+      "id": "veris-pxdxx",
+      "type": "model",
+      "name": "PX3 Pressure",
+      "brand": "veris",
+      "model_numbers": [
+        "PX3"
+      ],
+      "tokens": [
+        "pressure",
+        "px3",
+        "px3-pressure",
+        "sensors",
+        "veris",
+        "veris-pxdxx"
+      ]
+    },
+    {
+      "id": "veris-td2x",
+      "type": "model",
+      "name": "TD2X Duct",
+      "brand": "veris",
+      "model_numbers": [
+        "TD2X"
+      ],
+      "tokens": [
+        "duct",
+        "sensors",
+        "td2x",
+        "td2x-duct",
+        "temperature",
+        "veris",
+        "veris-td2x"
+      ]
+    },
+    {
+      "id": "veris-to2x",
+      "type": "model",
+      "name": "TO2X Outdoor",
+      "brand": "veris",
+      "model_numbers": [
+        "TO2X"
+      ],
+      "tokens": [
+        "outdoor",
+        "sensors",
+        "temperature",
+        "to2x",
+        "to2x-outdoor",
+        "veris",
+        "veris-to2x"
+      ]
+    },
+    {
+      "id": "veris-tw2x",
+      "type": "model",
+      "name": "TW2X",
+      "brand": "veris",
+      "model_numbers": [
+        "TW2X"
+      ],
+      "tokens": [
+        "sensors",
+        "temperature",
+        "tw2x",
+        "veris",
+        "veris-tw2x"
+      ]
+    },
+    {
+      "id": "veris-u012-0003",
+      "type": "model",
+      "name": "U012-0003 Occupancy",
+      "brand": "veris",
+      "model_numbers": [
+        "U012-0003"
+      ],
+      "tokens": [
+        "occupancy",
+        "sensors",
+        "u012-0003",
+        "u012-occupancy",
+        "veris",
+        "veris-u012-0003"
+      ]
+    },
+    {
+      "id": "vfds-drives",
+      "type": "type",
+      "name": "VFDs / Drives",
+      "tokens": [
+        "/",
+        "drives",
+        "vfds",
+        "vfds-drives"
+      ]
+    },
+    {
+      "id": "vrf-systems",
+      "type": "type",
+      "name": "VRF Systems",
+      "tokens": [
+        "systems",
+        "vrf",
+        "vrf-systems"
+      ]
+    },
+    {
+      "id": "yaskawa",
+      "type": "brand",
+      "name": "Yaskawa",
+      "tokens": [
+        "yaskawa"
+      ]
+    },
+    {
+      "id": "yaskawa-ga500",
+      "type": "model",
+      "name": "GA500 Industrial Drive",
+      "brand": "yaskawa",
+      "model_numbers": [
+        "GA500"
+      ],
+      "tokens": [
+        "/",
+        "bacnet",
+        "drive",
+        "drives",
+        "ga500",
+        "industrial",
+        "modbus",
+        "profibus",
+        "vfds",
+        "yaskawa",
+        "yaskawa-ga500"
+      ]
+    },
+    {
+      "id": "yaskawa-z1000",
+      "type": "model",
+      "name": "Z1000 Bypass Drive",
+      "brand": "yaskawa",
+      "model_numbers": [
+        "Z1000"
+      ],
+      "tokens": [
+        "/",
+        "bacnet",
+        "bypass",
+        "drive",
+        "drives",
+        "lon",
+        "modbus",
+        "vfds",
+        "yaskawa",
+        "yaskawa-z1000",
+        "z1000",
+        "z1000-bypass"
+      ]
+    },
+    {
+      "id": "york",
+      "type": "brand",
+      "name": "York",
+      "tokens": [
+        "york"
+      ]
+    },
+    {
+      "id": "york-predator",
+      "type": "model",
+      "name": "PREDATOR",
+      "brand": "york",
+      "model_numbers": [
+        "ZH",
+        "ZR"
+      ],
+      "tokens": [
+        "(rtus)",
+        "bacnet",
+        "modbus",
+        "predator",
+        "rooftop",
+        "units",
+        "york",
+        "york-predator",
+        "zh",
+        "zr"
+      ]
+    },
+    {
+      "id": "york-vav",
+      "type": "model",
+      "name": "VAV Terminal",
+      "brand": "york",
+      "model_numbers": [
+        "VAV"
+      ],
+      "tokens": [
+        "bacnet",
+        "boxes",
+        "terminal",
+        "vav",
+        "york",
+        "york-vav",
+        "york-vav-terminal"
+      ]
+    },
+    {
+      "id": "york-yciv",
+      "type": "model",
+      "name": "YCIV VSD Chiller",
+      "brand": "york",
+      "model_numbers": [
+        "YCIV"
+      ],
+      "tokens": [
+        "bacnet",
+        "chiller",
+        "chillers",
+        "modbus",
+        "vsd",
+        "yciv",
+        "yciv-vsd",
+        "york",
+        "york-yciv"
+      ]
+    },
+    {
+      "id": "york-yk",
+      "type": "model",
+      "name": "YK Centrifugal",
+      "brand": "york",
+      "model_numbers": [
+        "YK"
+      ],
+      "tokens": [
+        "bacnet",
+        "centrifugal",
+        "chillers",
+        "n2",
+        "yk",
+        "yk-centrifugal",
+        "york",
+        "york-yk"
+      ]
+    },
+    {
+      "id": "york-ylaa",
+      "type": "model",
+      "name": "YLAA Air-Cooled Scroll",
+      "brand": "york",
+      "model_numbers": [
+        "YLAA"
+      ],
+      "tokens": [
+        "air-cooled",
+        "bacnet",
+        "chillers",
+        "modbus",
+        "scroll",
+        "ylaa",
+        "ylaa-scroll",
+        "york",
+        "york-ylaa"
+      ]
+    },
+    {
+      "id": "york-yma",
+      "type": "model",
+      "name": "YMA Solution",
+      "brand": "york",
+      "model_numbers": [
+        "YMA"
+      ],
+      "tokens": [
+        "(ahus)",
+        "air",
+        "bacnet",
+        "handling",
+        "modbus",
+        "solution",
+        "units",
+        "yma",
+        "yma-solution",
+        "york",
+        "york-yma"
+      ]
+    },
+    {
+      "id": "zone-controllers",
+      "type": "type",
+      "name": "Zone Controllers",
+      "tokens": [
+        "controllers",
+        "zone",
+        "zone-controllers"
       ]
     }
   ]

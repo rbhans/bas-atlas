@@ -1,8 +1,0 @@
-supply fan command
-supply fan status
-supply air temperature
-return air temperature
-outside air damper output
-cooling valve output
-heating valve output
-zone temp

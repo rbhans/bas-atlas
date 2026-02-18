@@ -4,7 +4,7 @@ import { execSync } from "node:child_process";
 import { parse as parseYaml } from "yaml";
 
 export type PointConceptType = "sensor" | "command" | "setpoint" | "alarm" | "status" | "calc";
-export type AliasVariantType = "alias" | "misspelling";
+export type AliasVariantType = "abbrev" | "expanded" | "misspelling" | "format" | "vendor";
 
 export interface AliasVariant {
   value: string;
@@ -183,6 +183,26 @@ interface TemplateYamlFile {
   templates: EquipmentTemplate[];
 }
 
+const VENDOR_WORDS = [
+  "trane",
+  "carrier",
+  "honeywell",
+  "johnson",
+  "jci",
+  "siemens",
+  "schneider",
+  "delta",
+  "belimo",
+  "distech",
+  "veris",
+  "automated logic",
+  "alerton",
+  "metasys",
+  "niagara",
+  "bacnet",
+  "modbus",
+];
+
 const POINT_CATEGORY_DEFAULT_TYPE: Record<string, PointConceptType> = {
   alarms: "alarm",
   setpoints: "setpoint",
@@ -294,13 +314,41 @@ function normalizedCompareValue(value: string): string {
   return value.toLowerCase().replace(/[^a-z0-9]/g, "");
 }
 
-function classifyVariant(value: string, misspellings: Set<string>): AliasVariantType {
+function classifyVariant(
+  value: string,
+  canonicalName: string,
+  canonicalId: string,
+  misspellings: Set<string>,
+): AliasVariantType {
   const lower = value.toLowerCase();
 
   if (misspellings.has(lower)) {
     return "misspelling";
   }
-  return "alias";
+
+  if (VENDOR_WORDS.some((vendorWord) => lower.includes(vendorWord))) {
+    return "vendor";
+  }
+
+  const compact = normalizedCompareValue(lower);
+  const canonicalCompactName = normalizedCompareValue(canonicalName);
+  const canonicalCompactId = normalizedCompareValue(canonicalId);
+
+  if (compact === canonicalCompactName || compact === canonicalCompactId) {
+    if (lower !== canonicalName.toLowerCase() && lower !== canonicalId.toLowerCase()) {
+      return "format";
+    }
+  }
+
+  if (!lower.includes(" ") && lower.length <= 6) {
+    return "abbrev";
+  }
+
+  if (lower.split(" ").length >= 2) {
+    return "expanded";
+  }
+
+  return "format";
 }
 
 export function buildAliasVariants(
@@ -320,7 +368,7 @@ export function buildAliasVariants(
   return candidateValues
     .map((value) => ({
       value,
-      type: classifyVariant(value, misspellings),
+      type: classifyVariant(value, canonicalName, canonicalId, misspellings),
     }))
     .sort((a, b) => {
       const valueCompare = a.value.localeCompare(b.value);
@@ -644,7 +692,10 @@ export function buildSearchIndex(data: BabelData): SearchIndexData {
 
     for (const variant of input.variants ?? []) {
       const weightByType: Record<AliasVariantType, number> = {
-        alias: 6,
+        abbrev: 7,
+        expanded: 6,
+        vendor: 5,
+        format: 5,
         misspelling: 3,
       };
       pushWeightedToken(weightedMap, variant.value, weightByType[variant.type], `alias-variant-${variant.type}`);

@@ -15,7 +15,7 @@ Legacy keys are preserved. Additions:
 - `concept.statesNormalized?: { "0": string, "1": string }`
 - `concept.tags.haystack: string[]`
 - `concept.tags.brick?: string`
-- `aliases.variants: { value, type }[]` where `type` is `alias` or `misspelling`
+- `aliases.variants: { value, type }[]`
 
 ## Equipment Concept (Additive)
 Legacy keys are preserved. Additions:

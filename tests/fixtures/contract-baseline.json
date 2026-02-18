@@ -1,0 +1,18 @@
+{
+  "indexTopKeys": [
+    "version",
+    "lastUpdated",
+    "totalBrands",
+    "totalTypes",
+    "totalModels",
+    "brands",
+    "types",
+    "models"
+  ],
+  "brandKeys": ["id", "name", "slug"],
+  "typeKeys": ["id", "name", "slug"],
+  "modelKeys": ["id", "brand", "type", "name", "slug"],
+  "categoriesTopKeys": ["version", "brands", "types"],
+  "searchTopKeys": ["version", "entries"],
+  "searchEntryKeys": ["id", "type", "name", "tokens"]
+}

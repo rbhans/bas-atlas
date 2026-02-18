@@ -9,9 +9,10 @@ Thank you for your interest in contributing to BAS Babel! This project aims to b
 If you encounter point names or equipment types not in our database:
 
 1. Fork this repository
-2. Create a new YAML file in the appropriate directory:
+2. Create a new source file in the appropriate directory:
    - Points: `data/points/{category}/{id}.yaml`
    - Equipment: `data/equipment/{category}.yaml`
+   - Templates: `data/templates/*.yaml`
 3. Follow the schema below
 4. Submit a Pull Request
 
@@ -30,7 +31,15 @@ Found a naming convention we're missing? Add it to an existing entry:
 
 Spotted a mistake? Open an issue or submit a PR with the fix.
 
-### 4. Improve Descriptions
+### 4. Add or Improve Templates
+
+Templates connect equipment types to required/recommended point sets.
+
+- Add template definitions in `data/templates/*.yaml`.
+- Use existing point IDs from `dist/index.json`.
+- Keep assumptions in `notes`.
+
+### 5. Improve Descriptions
 
 Help make entries more descriptive and useful for newcomers.
 
@@ -117,7 +126,11 @@ equipment:
 
 1. **Title**: Use format `add: {entry name}` or `fix: {description}`
 2. **Description**: Explain what you're adding/changing
-3. **Testing**: Run `npm run build` locally to validate
+3. **Testing**: Run local checks:
+   - `npm run build:clean`
+   - `npm run validate`
+   - `npm run test`
+   - `npm run check` (all-in-one)
 4. **Review**: A maintainer will review within a few days
 
 ## Questions?

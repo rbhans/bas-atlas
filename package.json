@@ -3,17 +3,10 @@
   "version": "1.0.0",
   "description": "BAS Point Naming Standards - A comprehensive resource for Building Automation System point naming conventions and aliases",
   "main": "dist/index.json",
-  "bin": {
-    "bas-babel": "bin/bas-babel.js"
-  },
   "type": "module",
   "scripts": {
     "build": "tsx scripts/build.ts",
-    "build:clean": "tsx scripts/build.ts --clean",
-    "validate": "tsx scripts/validate.ts",
-    "test": "tsx scripts/test.ts",
-    "check": "npm run build:clean && npm run validate && npm run test",
-    "cli": "tsx scripts/cli.ts",
+    "validate": "tsx scripts/build.ts --validate",
     "migrate": "tsx scripts/migrate-csv.ts"
   },
   "repository": {
@@ -32,8 +25,6 @@
   "author": "BASidekick",
   "license": "MIT",
   "devDependencies": {
-    "ajv": "^8.17.1",
-    "ajv-formats": "^3.0.1",
     "@types/node": "^22.10.0",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",

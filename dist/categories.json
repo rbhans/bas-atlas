@@ -15,13 +15,13 @@
     },
     {
       "id": "domestic-water",
-      "name": "domestic-water",
+      "name": "Domestic Water",
       "type": "equipment",
       "count": 2
     },
     {
       "id": "life-safety",
-      "name": "life-safety",
+      "name": "Life Safety",
       "type": "equipment",
       "count": 2
     },
@@ -33,13 +33,13 @@
     },
     {
       "id": "power-distribution",
-      "name": "power-distribution",
+      "name": "Power Distribution",
       "type": "equipment",
       "count": 3
     },
     {
       "id": "standalone-fans",
-      "name": "standalone-fans",
+      "name": "Standalone Fans",
       "type": "equipment",
       "count": 2
     },
@@ -75,7 +75,7 @@
     },
     {
       "id": "electrical",
-      "name": "electrical",
+      "name": "Electrical",
       "type": "points",
       "count": 8
     },
@@ -99,19 +99,19 @@
     },
     {
       "id": "iaq",
-      "name": "iaq",
+      "name": "IAQ",
       "type": "points",
       "count": 6
     },
     {
       "id": "lighting",
-      "name": "lighting",
+      "name": "Lighting",
       "type": "points",
       "count": 4
     },
     {
       "id": "maintenance",
-      "name": "maintenance",
+      "name": "Maintenance",
       "type": "points",
       "count": 4
     },

@@ -101,7 +101,7 @@
               "value": { "type": "string" },
               "type": {
                 "type": "string",
-                "enum": ["abbrev", "expanded", "misspelling", "format", "vendor"]
+                "enum": ["alias", "misspelling"]
               }
             },
             "additionalProperties": false

@@ -25,7 +25,7 @@ Add under `point.concept`:
 - `tags: { haystack: string[], brick?: string }`
 
 Add under `point.aliases`:
-- `variants: { value: string, type: "abbrev" | "expanded" | "misspelling" | "format" | "vendor" }[]`
+- `variants: { value: string, type: "alias" | "misspelling" }[]`
 
 ### Equipment
 Add under `equipment`:

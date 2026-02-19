@@ -22,6 +22,7 @@ export interface PointConcept {
   description: string;
   haystack?: string;
   brick?: string;
+  kind?: "Number" | "Bool";
   unit?: string[]; // Possible units (e.g., ["°F", "°C"])
   point_function?: PointFunction;
   states?: Record<string, string>; // For binary/multistate (e.g., {0: "Off", 1: "On"})

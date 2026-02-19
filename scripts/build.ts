@@ -15,6 +15,59 @@ import type {
 
 const DATA_DIR = path.join(process.cwd(), "data");
 const DIST_DIR = path.join(process.cwd(), "dist");
+const ALLOWED_POINT_KINDS = new Set(["Number", "Bool"]);
+
+function hasUnits(unit: unknown): boolean {
+  if (Array.isArray(unit)) return unit.length > 0;
+  return typeof unit === "string" && unit.trim().length > 0;
+}
+
+function hasBinaryStates(states: unknown): boolean {
+  if (!states || typeof states !== "object") return false;
+  const stateMap = states as Record<string, unknown>;
+  return Object.prototype.hasOwnProperty.call(stateMap, "0")
+    && Object.prototype.hasOwnProperty.call(stateMap, "1");
+}
+
+function inferPointKind(point: PointEntry["concept"]): "Number" | "Bool" {
+  if (hasUnits(point.unit)) return "Number";
+  if (hasBinaryStates(point.states)) return "Bool";
+
+  const fn = point.point_function;
+  if (fn === "alarm" || fn === "status" || fn === "enable" || fn === "schedule") {
+    return "Bool";
+  }
+
+  return "Bool";
+}
+
+function validatePointKinds(points: PointEntry[]) {
+  const missing: string[] = [];
+  const invalid: string[] = [];
+
+  for (const point of points) {
+    const id = point.concept.id || "<unknown>";
+    const kind = point.concept.kind;
+    if (!kind) {
+      missing.push(id);
+      continue;
+    }
+
+    if (!ALLOWED_POINT_KINDS.has(kind)) {
+      invalid.push(`${id}:${kind}`);
+    }
+  }
+
+  if (missing.length || invalid.length) {
+    const details = [
+      missing.length ? `missing kind (${missing.length}): ${missing.slice(0, 10).join(", ")}` : "",
+      invalid.length ? `invalid kind (${invalid.length}): ${invalid.slice(0, 10).join(", ")}` : "",
+    ]
+      .filter(Boolean)
+      .join(" | ");
+    throw new Error(`Point kind validation failed: ${details}`);
+  }
+}
 
 // Read all YAML files from a directory recursively
 function readYamlFiles<T>(dir: string): T[] {
@@ -167,12 +220,16 @@ function buildCategoryTree(points: PointEntry[], equipment: EquipmentEntry[]): B
 
 async function build() {
   console.log("Building BAS Babel data...\n");
+  const shouldValidate = process.argv.includes("--validate");
 
   // Read points
   console.log("Reading points...");
   const pointFiles = readYamlFiles<PointYamlFile>(path.join(DATA_DIR, "points"));
   const points: PointEntry[] = pointFiles.map((f) => ({
-    concept: f.concept,
+    concept: {
+      ...f.concept,
+      kind: inferPointKind(f.concept),
+    },
     aliases: f.aliases,
     notes: f.notes,
     related: f.related,
@@ -247,6 +304,12 @@ async function build() {
 
   fs.writeFileSync(path.join(DIST_DIR, "search-index.json"), JSON.stringify(searchIndex, null, 2));
   console.log("Generated dist/search-index.json");
+
+  if (shouldValidate) {
+    console.log("\nRunning validation...");
+    validatePointKinds(points);
+    console.log("Validation successful!");
+  }
 
   console.log("\nBuild complete!");
   console.log(`  Total entries: ${points.length + equipment.length}`);

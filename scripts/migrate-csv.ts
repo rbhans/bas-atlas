@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { stringify as stringifyYaml } from "yaml";
-import type { PointYamlFile, EquipmentYamlFile, EquipmentEntry, EquipmentSubtype } from "./types.js";
+import type { EquipmentYamlFile } from "./types.js";
 
 const CSV_PATH = path.join(process.cwd(), "haystack naming - Sheet1.csv");
 const DATA_DIR = path.join(process.cwd(), "data");
@@ -114,8 +114,8 @@ async function migrate() {
   const dataLines = lines.slice(1);
 
   // Group by category
-  const pointEntries: Map<string, PointYamlFile[]> = new Map();
-  const equipmentEntries: Map<string, EquipmentEntry[]> = new Map();
+  const pointEntries: Map<string, any[]> = new Map();
+  const equipmentEntries: Map<string, any[]> = new Map();
 
   for (const line of dataLines) {
     const fields = parseCSVLine(line);
@@ -134,7 +134,7 @@ async function migrate() {
 
     if (mapping.type === "equipment") {
       // Equipment entry
-      const entry: EquipmentEntry = {
+      const entry = {
         id: toSlug(haystackName),
         name: haystackName,
         full_name: aliases[0] || haystackName,
@@ -142,7 +142,7 @@ async function migrate() {
         description: `${aliases[0] || haystackName}`,
         aliases: {
           common: aliases.slice(0, 5),
-          abbreviated: aliases.slice(5).filter((a) => a.length <= 5),
+          abbreviated: aliases.slice(5).filter((a: string) => a.length <= 5),
         },
       };
 
@@ -154,7 +154,7 @@ async function migrate() {
       // Point entry
       const subcategory = getPointSubcategory(haystackName);
 
-      const entry: PointYamlFile = {
+      const entry = {
         concept: {
           id: toSlug(haystackName),
           name: haystackName,
@@ -163,8 +163,8 @@ async function migrate() {
           haystack: haystackName.toLowerCase().replace(/-/g, " "),
         },
         aliases: {
-          common: aliases.filter((a) => a.length > 3),
-          abbreviated: aliases.filter((a) => a.length <= 3),
+          common: aliases.filter((a: string) => a.length > 3),
+          abbreviated: aliases.filter((a: string) => a.length <= 3),
         },
       };
 

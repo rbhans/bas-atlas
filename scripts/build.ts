@@ -11,11 +11,103 @@ import type {
   SearchIndexEntry,
   PointYamlFile,
   EquipmentYamlFile,
+  PointConceptYaml,
+  EquipmentEntryYaml,
+  PointHaystackData,
+  EquipmentHaystackData,
+  HaystackTag,
+  HaystackTagKind,
+  TagDictEntry,
+  UnitMapEntry,
 } from "./types.js";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 const DIST_DIR = path.join(process.cwd(), "dist");
 const ALLOWED_POINT_KINDS = new Set(["Number", "Bool"]);
+
+// --- Tag dictionary & unit mapping ---
+
+interface TagDict {
+  [tagName: string]: TagDictEntry;
+}
+
+interface UnitMap {
+  [symbol: string]: UnitMapEntry;
+}
+
+function loadTagDict(): TagDict {
+  const filePath = path.join(DATA_DIR, "haystack-tags.yaml");
+  const raw = parseYaml(fs.readFileSync(filePath, "utf-8")) as {
+    tags: Record<string, TagDictEntry>;
+  };
+  return raw.tags;
+}
+
+function loadUnitMap(): UnitMap {
+  const filePath = path.join(DATA_DIR, "haystack-units.yaml");
+  const raw = parseYaml(fs.readFileSync(filePath, "utf-8")) as {
+    units: Record<string, UnitMapEntry>;
+  };
+  return raw.units;
+}
+
+// --- Haystack string parsing ---
+
+function parseHaystackString(
+  raw: string,
+  entityType: "point" | "equip",
+  tagDict: TagDict,
+  unitMap: UnitMap,
+  units?: string[],
+  kind?: "Number" | "Bool",
+): PointHaystackData | EquipmentHaystackData {
+  // Split on whitespace; normalize hyphens to spaces for equipment like "elec-meter"
+  const normalized = raw.trim().replace(/-/g, " ");
+  const tokens = normalized.split(/\s+/).filter(Boolean);
+
+  // Resolve each token against the dictionary
+  const tags: HaystackTag[] = tokens.map((token) => ({
+    name: token,
+    kind: (tagDict[token]?.kind ?? "Marker") as HaystackTagKind,
+  }));
+
+  // Add entity type marker if not already present
+  const tagNames = new Set(tags.map((t) => t.name));
+  if (entityType === "point" && !tagNames.has("point")) {
+    tags.push({ name: "point", kind: "Marker" });
+  }
+  if (entityType === "equip" && !tagNames.has("equip")) {
+    tags.push({ name: "equip", kind: "Marker" });
+  }
+
+  const markers = tags.filter((t) => t.kind === "Marker").map((t) => t.name);
+  const tagString = tags.map((t) => t.name).join(" ");
+
+  if (entityType === "point") {
+    const result: PointHaystackData = { tags, tagString, markers };
+
+    // Resolve first mappable unit from the list
+    if (units && units.length > 0) {
+      for (const u of units) {
+        const mapped = unitMap[u];
+        if (mapped) {
+          result.unit = mapped.haystack;
+          break;
+        }
+      }
+    }
+
+    if (kind) {
+      result.kind = kind;
+    }
+
+    return result;
+  }
+
+  return { tags, tagString, markers } as EquipmentHaystackData;
+}
+
+// --- Kind inference ---
 
 function hasUnits(unit: unknown): boolean {
   if (Array.isArray(unit)) return unit.length > 0;
@@ -29,7 +121,7 @@ function hasBinaryStates(states: unknown): boolean {
     && Object.prototype.hasOwnProperty.call(stateMap, "1");
 }
 
-function inferPointKind(point: PointEntry["concept"]): "Number" | "Bool" {
+function inferPointKind(point: PointConceptYaml): "Number" | "Bool" {
   if (hasUnits(point.unit)) return "Number";
   if (hasBinaryStates(point.states)) return "Bool";
 
@@ -40,6 +132,8 @@ function inferPointKind(point: PointEntry["concept"]): "Number" | "Bool" {
 
   return "Bool";
 }
+
+// --- Validation ---
 
 function validatePointKinds(points: PointEntry[]) {
   const missing: string[] = [];
@@ -69,7 +163,77 @@ function validatePointKinds(points: PointEntry[]) {
   }
 }
 
-// Read all YAML files from a directory recursively
+function validateHaystackTags(
+  points: PointEntry[],
+  equipment: EquipmentEntry[],
+  tagDict: TagDict,
+) {
+  const errors: string[] = [];
+  const warnings: string[] = [];
+
+  for (const point of points) {
+    const hs = point.concept.haystack;
+    if (!hs) {
+      warnings.push(`Point ${point.concept.id}: missing haystack data`);
+      continue;
+    }
+
+    for (const tag of hs.tags) {
+      if (!tagDict[tag.name]) {
+        errors.push(`Point ${point.concept.id}: unknown tag "${tag.name}"`);
+      }
+    }
+
+    // Cross-check point_function with haystack function tags
+    const fn = point.concept.point_function;
+    const tagNames = new Set(hs.markers);
+    if (fn === "sensor" && !tagNames.has("sensor")) {
+      warnings.push(`Point ${point.concept.id}: point_function is "sensor" but haystack lacks "sensor" tag`);
+    }
+    if (fn === "command" && !tagNames.has("cmd")) {
+      warnings.push(`Point ${point.concept.id}: point_function is "command" but haystack lacks "cmd" tag`);
+    }
+    if (fn === "setpoint" && !tagNames.has("sp")) {
+      warnings.push(`Point ${point.concept.id}: point_function is "setpoint" but haystack lacks "sp" tag`);
+    }
+
+    // Warn on Number points with units but no resolved haystack unit
+    if (hs.kind === "Number" && point.concept.unit && point.concept.unit.length > 0 && !hs.unit) {
+      warnings.push(`Point ${point.concept.id}: has units [${point.concept.unit.join(", ")}] but none map to a Haystack unit`);
+    }
+  }
+
+  for (const equip of equipment) {
+    const hs = equip.haystack;
+    if (!hs) {
+      warnings.push(`Equipment ${equip.id}: missing haystack data`);
+      continue;
+    }
+
+    for (const tag of hs.tags) {
+      if (!tagDict[tag.name]) {
+        errors.push(`Equipment ${equip.id}: unknown tag "${tag.name}"`);
+      }
+    }
+  }
+
+  if (warnings.length) {
+    console.warn(`\nHaystack warnings (${warnings.length}):`);
+    warnings.forEach((w) => console.warn(`  WARN: ${w}`));
+  }
+
+  if (errors.length) {
+    console.error(`\nHaystack errors (${errors.length}):`);
+    errors.slice(0, 20).forEach((e) => console.error(`  ERROR: ${e}`));
+    if (errors.length > 20) {
+      console.error(`  ... and ${errors.length - 20} more`);
+    }
+    throw new Error(`Haystack validation failed with ${errors.length} errors`);
+  }
+}
+
+// --- File reading ---
+
 function readYamlFiles<T>(dir: string): T[] {
   const results: T[] = [];
 
@@ -100,12 +264,12 @@ function readYamlFiles<T>(dir: string): T[] {
   return results;
 }
 
-// Extract all aliases as search tokens
+// --- Search token extraction ---
+
 function extractTokens(entry: PointEntry | EquipmentEntry): string[] {
   const tokens: string[] = [];
 
   if ("concept" in entry) {
-    // Point entry
     const point = entry as PointEntry;
     tokens.push(point.concept.name.toLowerCase());
     tokens.push(point.concept.id.toLowerCase());
@@ -113,40 +277,40 @@ function extractTokens(entry: PointEntry | EquipmentEntry): string[] {
       tokens.push(...point.concept.description.toLowerCase().split(/\s+/));
     }
     if (point.concept.haystack) {
-      tokens.push(...point.concept.haystack.toLowerCase().split(/\s+/));
+      tokens.push(...point.concept.haystack.markers.map((m) => m.toLowerCase()));
     }
   } else {
-    // Equipment entry
     const equip = entry as EquipmentEntry;
     tokens.push(equip.name.toLowerCase());
     tokens.push(equip.id.toLowerCase());
     if (equip.full_name) {
       tokens.push(equip.full_name.toLowerCase());
     }
-    if ((equip as any).abbreviation) {
-      tokens.push((equip as any).abbreviation.toLowerCase());
+    if (equip.abbreviation) {
+      tokens.push(equip.abbreviation.toLowerCase());
     }
     if (equip.description) {
       tokens.push(...equip.description.toLowerCase().split(/\s+/));
     }
+    if (equip.haystack) {
+      tokens.push(...equip.haystack.markers.map((m) => m.toLowerCase()));
+    }
   }
 
-  // Add all aliases
   const aliases = "concept" in entry ? (entry as PointEntry).aliases : (entry as EquipmentEntry).aliases;
   if (aliases) {
     tokens.push(...(aliases.common || []).map((a) => a.toLowerCase()));
     tokens.push(...(aliases.misspellings || []).map((a) => a.toLowerCase()));
   }
 
-  // Deduplicate and filter empty
   return [...new Set(tokens.filter((t) => t.length > 0))];
 }
 
-// Build category tree from points
+// --- Category tree ---
+
 function buildCategoryTree(points: PointEntry[], equipment: EquipmentEntry[]): BabelCategory[] {
   const categories: BabelCategory[] = [];
 
-  // Group points by category
   const pointCategories = new Map<string, PointEntry[]>();
   for (const point of points) {
     const cat = point.concept.category;
@@ -156,7 +320,6 @@ function buildCategoryTree(points: PointEntry[], equipment: EquipmentEntry[]): B
     pointCategories.get(cat)!.push(point);
   }
 
-  // Create point categories
   const pointCategoryNames: Record<string, string> = {
     fans: "Fans",
     dampers: "Dampers",
@@ -180,7 +343,6 @@ function buildCategoryTree(points: PointEntry[], equipment: EquipmentEntry[]): B
     });
   }
 
-  // Group equipment by category
   const equipCategories = new Map<string, EquipmentEntry[]>();
   for (const equip of equipment) {
     const cat = equip.category;
@@ -208,9 +370,7 @@ function buildCategoryTree(points: PointEntry[], equipment: EquipmentEntry[]): B
     });
   }
 
-  // Sort categories
   return categories.sort((a, b) => {
-    // Equipment first, then points
     if (a.type !== b.type) {
       return a.type === "equipment" ? -1 : 1;
     }
@@ -218,22 +378,47 @@ function buildCategoryTree(points: PointEntry[], equipment: EquipmentEntry[]): B
   });
 }
 
+// --- Main build ---
+
 async function build() {
   console.log("Building BAS Babel data...\n");
   const shouldValidate = process.argv.includes("--validate");
 
+  // Load Haystack dictionaries
+  console.log("Loading Haystack tag dictionary...");
+  const tagDict = loadTagDict();
+  console.log(`  Loaded ${Object.keys(tagDict).length} tags`);
+
+  console.log("Loading Haystack unit mapping...");
+  const unitMap = loadUnitMap();
+  console.log(`  Loaded ${Object.keys(unitMap).length} unit mappings`);
+
   // Read points
   console.log("Reading points...");
   const pointFiles = readYamlFiles<PointYamlFile>(path.join(DATA_DIR, "points"));
-  const points: PointEntry[] = pointFiles.map((f) => ({
-    concept: {
-      ...f.concept,
-      kind: inferPointKind(f.concept),
-    },
-    aliases: f.aliases,
-    notes: f.notes,
-    related: f.related,
-  }));
+  const points: PointEntry[] = pointFiles.map((f) => {
+    const kind = inferPointKind(f.concept);
+    return {
+      concept: {
+        id: f.concept.id,
+        name: f.concept.name,
+        category: f.concept.category,
+        ...(f.concept.subcategory && { subcategory: f.concept.subcategory }),
+        description: f.concept.description,
+        haystack: f.concept.haystack
+          ? parseHaystackString(f.concept.haystack, "point", tagDict, unitMap, f.concept.unit, kind) as PointHaystackData
+          : undefined,
+        ...(f.concept.brick && { brick: f.concept.brick }),
+        kind,
+        ...(f.concept.unit && { unit: f.concept.unit }),
+        ...(f.concept.point_function && { point_function: f.concept.point_function }),
+        ...(f.concept.states && { states: f.concept.states }),
+      },
+      aliases: f.aliases,
+      notes: f.notes,
+      related: f.related,
+    };
+  });
   console.log(`  Found ${points.length} points`);
 
   // Read equipment
@@ -241,10 +426,18 @@ async function build() {
   const equipFiles = readYamlFiles<EquipmentYamlFile>(path.join(DATA_DIR, "equipment"));
   const equipment: EquipmentEntry[] = [];
   for (const file of equipFiles) {
-    if (Array.isArray(file.equipment)) {
-      equipment.push(...file.equipment);
-    } else if (file.equipment) {
-      equipment.push(file.equipment);
+    const entries: EquipmentEntryYaml[] = Array.isArray(file.equipment)
+      ? file.equipment
+      : file.equipment
+        ? [file.equipment]
+        : [];
+    for (const entry of entries) {
+      equipment.push({
+        ...entry,
+        haystack: entry.haystack
+          ? parseHaystackString(entry.haystack, "equip", tagDict, unitMap) as EquipmentHaystackData
+          : undefined,
+      });
     }
   }
   console.log(`  Found ${equipment.length} equipment entries`);
@@ -255,8 +448,9 @@ async function build() {
   }
 
   // Generate main data file
+  // v2.0.0: haystack field changed from flat string to structured object
   const data: BabelData = {
-    version: "1.0.0",
+    version: "2.0.0",
     lastUpdated: new Date().toISOString(),
     totalPoints: points.length,
     totalEquipment: equipment.length,
@@ -269,7 +463,7 @@ async function build() {
 
   // Generate categories file
   const categories: CategoriesData = {
-    version: "1.0.0",
+    version: "2.0.0",
     categories: buildCategoryTree(points, equipment),
   };
 
@@ -298,7 +492,7 @@ async function build() {
   }
 
   const searchIndex: SearchIndexData = {
-    version: "1.0.0",
+    version: "2.0.0",
     entries: searchEntries,
   };
 
@@ -308,6 +502,7 @@ async function build() {
   if (shouldValidate) {
     console.log("\nRunning validation...");
     validatePointKinds(points);
+    validateHaystackTags(points, equipment, tagDict);
     console.log("Validation successful!");
   }
 

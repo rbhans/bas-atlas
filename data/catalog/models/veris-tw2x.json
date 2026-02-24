@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "veris-tw2x",
+    "brand": "veris",
+    "type": "temperature-sensors",
+    "name": "TW2X",
+    "slug": "tw2x",
+    "model_numbers": ["TW2X"],
+    "protocols": [],
+    "status": "current",
+    "description": "Wall temperature sensor series.",
+    "manufacturer_url": "https://www.veris.com",
+    "image_url": "",
+    "added_at": "2026-02-01"
+  }
+}

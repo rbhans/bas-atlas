@@ -2,12 +2,12 @@ import * as fs from "fs";
 import * as path from "path";
 import { parse as parseYaml } from "yaml";
 import type {
-  BabelData,
+  AtlasData,
   CategoriesData,
   SearchIndexData,
   PointEntry,
   EquipmentEntry,
-  BabelCategory,
+  AtlasCategory,
   SearchIndexEntry,
   PointYamlFile,
   EquipmentYamlFile,
@@ -22,7 +22,7 @@ import type {
 } from "./types.js";
 
 const DATA_DIR = path.join(process.cwd(), "data");
-const DIST_DIR = path.join(process.cwd(), "dist");
+const DIST_DIR = path.join(process.cwd(), "dist", "atlas");
 const ALLOWED_POINT_KINDS = new Set(["Number", "Bool"]);
 
 // --- Tag dictionary & unit mapping ---
@@ -308,8 +308,8 @@ function extractTokens(entry: PointEntry | EquipmentEntry): string[] {
 
 // --- Category tree ---
 
-function buildCategoryTree(points: PointEntry[], equipment: EquipmentEntry[]): BabelCategory[] {
-  const categories: BabelCategory[] = [];
+function buildCategoryTree(points: PointEntry[], equipment: EquipmentEntry[]): AtlasCategory[] {
+  const categories: AtlasCategory[] = [];
 
   const pointCategories = new Map<string, PointEntry[]>();
   for (const point of points) {
@@ -381,7 +381,7 @@ function buildCategoryTree(points: PointEntry[], equipment: EquipmentEntry[]): B
 // --- Main build ---
 
 async function build() {
-  console.log("Building BAS Babel data...\n");
+  console.log("Building BAS Atlas point/equipment data...\n");
   const shouldValidate = process.argv.includes("--validate");
 
   // Load Haystack dictionaries
@@ -449,7 +449,7 @@ async function build() {
 
   // Generate main data file
   // v2.0.0: haystack field changed from flat string to structured object
-  const data: BabelData = {
+  const data: AtlasData = {
     version: "2.0.0",
     lastUpdated: new Date().toISOString(),
     totalPoints: points.length,
@@ -459,7 +459,7 @@ async function build() {
   };
 
   fs.writeFileSync(path.join(DIST_DIR, "index.json"), JSON.stringify(data, null, 2));
-  console.log("\nGenerated dist/index.json");
+  console.log("\nGenerated dist/atlas/index.json");
 
   // Generate categories file
   const categories: CategoriesData = {
@@ -468,7 +468,7 @@ async function build() {
   };
 
   fs.writeFileSync(path.join(DIST_DIR, "categories.json"), JSON.stringify(categories, null, 2));
-  console.log("Generated dist/categories.json");
+  console.log("Generated dist/atlas/categories.json");
 
   // Generate search index
   const searchEntries: SearchIndexEntry[] = [];
@@ -497,7 +497,7 @@ async function build() {
   };
 
   fs.writeFileSync(path.join(DIST_DIR, "search-index.json"), JSON.stringify(searchIndex, null, 2));
-  console.log("Generated dist/search-index.json");
+  console.log("Generated dist/atlas/search-index.json");
 
   if (shouldValidate) {
     console.log("\nRunning validation...");

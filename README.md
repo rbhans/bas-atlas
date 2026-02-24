@@ -1,161 +1,74 @@
-# BAS Babel
+# BAS Atlas
 
-**An open source, community-driven database of BAS point naming standards and equipment definitions.**
+**An open, community-driven BAS reference that combines point naming standards and equipment catalog data.**
 
 ## Overview
 
-BAS Babel provides a standardized reference for point naming across different BAS platforms, vendors, and conventions. Translate between Haystack tags, Brick schema, and vendor-specific naming with a shared resource that grows with contributions from the industry.
+This repository unifies:
 
-## Usage
+- **Atlas core data**: BAS point naming standards and equipment definitions with Haystack/Brick metadata
+- **Catalog data**: equipment brands, types, and models used for Atlas browsing/search
 
-### Web Interface
+The website presents this as a single Atlas experience with points and equipment tabs.
 
-Browse the standards at [basidekick.com/babel](https://basidekick.com/babel)
+## Web Interface
 
-### API Access
+Browse BAS Atlas at [basidekick.com/atlas](https://basidekick.com/atlas)
 
-Fetch the data directly (free, no auth required):
+## API Access
+
+Fetch the published JSON directly (free, no auth required):
 
 ```bash
-# Full dataset
-curl https://raw.githubusercontent.com/rbhans/bas-babel/main/dist/index.json
+# Atlas core (points + equipment definitions)
+curl https://raw.githubusercontent.com/rbhans/bas-atlas/main/dist/atlas/index.json
+curl https://raw.githubusercontent.com/rbhans/bas-atlas/main/dist/atlas/categories.json
+curl https://raw.githubusercontent.com/rbhans/bas-atlas/main/dist/atlas/search-index.json
 
-# Categories only
-curl https://raw.githubusercontent.com/rbhans/bas-babel/main/dist/categories.json
-
-# Search index
-curl https://raw.githubusercontent.com/rbhans/bas-babel/main/dist/search-index.json
+# Catalog (brands + types + models)
+curl https://raw.githubusercontent.com/rbhans/bas-atlas/main/dist/catalog/index.json
+curl https://raw.githubusercontent.com/rbhans/bas-atlas/main/dist/catalog/categories.json
+curl https://raw.githubusercontent.com/rbhans/bas-atlas/main/dist/catalog/search-index.json
 ```
 
 ```javascript
-fetch("https://raw.githubusercontent.com/rbhans/bas-babel/main/dist/index.json")
-  .then(res => res.json())
-  .then(data => console.log(data));
+const [atlas, catalog] = await Promise.all([
+  fetch("https://raw.githubusercontent.com/rbhans/bas-atlas/main/dist/atlas/index.json").then((res) => res.json()),
+  fetch("https://raw.githubusercontent.com/rbhans/bas-atlas/main/dist/catalog/index.json").then((res) => res.json()),
+]);
+
+console.log(atlas.totalPoints, catalog.totalModels);
 ```
 
-## Data Structure
+## Data Layout
 
-### Points
-
-Each point entry includes:
-
-```yaml
-concept:
-  id: zone-temperature
-  name: Zone Temperature
-  category: temperatures
-  description: Sensed temperature of air in occupied zone or space
-  haystack: zone air temp sensor
-  brick: Zone_Air_Temperature_Sensor
-  unit:
-    - °F
-    - °C
-  point_function: sensor
-
-aliases:
-  common:
-    - zn-t
-    - zone temp
-    - zonetemp
-    - zt
-    - zat
-    - room temperature
-    - space temperature
-  misspellings:
-    - temperture
-    - tempreture
-
-notes:
-  - Often abbreviated as ZAT (Zone Air Temp) or RAT (Room Air Temp)
-
-related:
-  - discharge-air-temperature
-  - return-air-temperature
-  - occupied-cooling-setpoint
-  - occupied-heating-setpoint
-```
-
-### Equipment
-
-```yaml
-equipment:
-  - id: air-handling-unit
-    name: Air Handling Unit
-    abbreviation: AHU
-    category: air-handling
-    description: Central air conditioning unit that conditions and circulates air through ductwork
-    haystack: ahu
-    brick: Air_Handling_Unit
-    aliases:
-      common:
-        - AHU
-        - air handler
-        - central air handler
-        - air handling equipment
-    typical_points:
-      - supply-fan-command
-      - supply-fan-status
-      - supply-air-temperature
-      - discharge-air-temperature
-      - outside-air-damper-output
-      - cooling-valve-output
-      - heating-valve-output
-      - filter-alarm
-```
-
-## Categories
-
-### Equipment (9 categories, 55 definitions)
-- **Air Handling** - AHUs, RTUs, MAUs, DOAS, FCUs, CRACs, CRAHs, Unit Ventilators, PTACs, Heat Pumps, ERVs, HRVs, Air Turnover Units
-- **Terminal Units** - VAV Boxes, CAV Boxes, Fan Powered Boxes, Chilled Beams, Radiant Panels
-- **Central Plant** - Chillers, Boilers, Cooling Towers, Pumps, VFDs
-- **Metering** - Electric, Gas, Water, Steam, BTU Meters
-- **VRF** - Outdoor Units, Indoor Units, Branch Selector Boxes
-- **Power Distribution** - Generators, Automatic Transfer Switches, Switchgear
-- **Domestic Water** - Water Heaters, Recirculation Pumps
-- **Life Safety** - Fire Alarm Control Panels, Smoke Control Systems
-- **Standalone Fans** - Exhaust Fans, Transfer Fans
-
-### Points (16 categories, 259 definitions)
-- **Temperatures** - Zone, Discharge, Return, Mixed, Outdoor, Supply/Return Water
-- **Commands** - Enable, Run, Speed, Mode, Feedback
-- **Fans** - Supply, Return, Exhaust, Relief (Status, Command, Speed, Alarm)
-- **Valves** - Heating, Cooling, Bypass, Isolation, Mixing (Position, Command, Open/Closed)
-- **Dampers** - Outside Air, Mixed Air, Exhaust, Relief (Position, Command, Open/Closed)
-- **Setpoints** - Occupied/Unoccupied Heating/Cooling, Discharge Air, Pressure
-- **Status** - Occupancy, Filter, Equipment Run Status
-- **Pressures** - Duct Static, Building, Space, Differential
-- **Alarms** - Equipment, Filter, Smoke, Low Limit
-- **Flows** - Supply, Return, Exhaust, Outdoor Air
-- **Humidity** - Zone, Return, Discharge, Outdoor
-- **Electrical** - Power, Voltage, Current, Frequency
-- **IAQ** - CO2, VOC, Particulates
-- **Lighting** - Occupancy, Daylight Sensors
-- **Maintenance** - Filter Status, Service Indicators
-
-## Contributing
-
-We welcome contributions! Whether it's adding new entries, fixing errors, or expanding aliases. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
-
-### Quick Start
-
-1. Fork this repository
-2. Add or edit YAML files in `data/`
-3. Run `npm run build` to validate
-4. Submit a Pull Request
-
-### File Locations
+### Atlas Core Source Data
 
 - Points: `data/points/{category}/{point-id}.yaml`
-- Equipment: `data/equipment/{category}.yaml`
+- Equipment definitions: `data/equipment/{category}.yaml`
+- Haystack dictionaries: `data/haystack-tags.yaml`, `data/haystack-units.yaml`
 
-### Guidelines
+### Catalog Source Data
 
-- Use lowercase kebab-case for IDs
-- Include common aliases you've encountered in the field
-- Add Haystack tags and Brick schema classes where known
-- Use `-` for Haystack/Brick fields if unknown (indicates contribution needed)
-- Link related entries when applicable
+- Brands: `data/catalog/brands/*.json`
+- Types: `data/catalog/types/*.json`
+- Models: `data/catalog/models/*.json`
+
+## Build Outputs
+
+The build is namespaced to avoid filename collisions:
+
+```text
+dist/
+  atlas/
+    index.json
+    categories.json
+    search-index.json
+  catalog/
+    index.json
+    categories.json
+    search-index.json
+```
 
 ## Development
 
@@ -163,22 +76,33 @@ We welcome contributions! Whether it's adding new entries, fixing errors, or exp
 # Install dependencies
 npm install
 
-# Build JSON from YAML
+# Build both datasets
 npm run build
+
+# Build only Atlas core dataset
+npm run build:atlas
+
+# Build only catalog dataset
+npm run build:catalog
+
+# Validate both datasets
+npm run validate
+
+# Run test suite
+npm run test
 ```
 
-## Stats
+## Contributing
 
-- **259** point definitions across **16** categories
-- **55** equipment definitions across **9** categories
-- **25** total categories
+We welcome contributions to point naming, equipment definitions, and catalog records.
+
+1. Fork the repository
+2. Add or edit files in `data/`
+3. Run `npm run build` (and `npm run test` when changing Atlas core data/build logic)
+4. Submit a pull request
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution details.
 
 ## License
 
 MIT License - see [LICENSE](LICENSE)
-
-## Credits
-
-Maintained by [BASidekick](https://basidekick.com)
-
-Built by the BAS community.

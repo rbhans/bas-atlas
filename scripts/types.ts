@@ -1,11 +1,11 @@
-// BAS Babel Type Definitions
+// BAS Atlas Type Definitions
 
 export interface TypicalRange {
   min: number;
   max: number;
 }
 
-export interface BabelAliases {
+export interface AtlasAliases {
   common: string[];
   misspellings?: string[];
 }
@@ -96,7 +96,7 @@ export interface PointConcept {
 
 export interface PointEntry {
   concept: PointConcept;
-  aliases: BabelAliases;
+  aliases: AtlasAliases;
   notes?: string[];
   related?: string[];
 }
@@ -119,7 +119,7 @@ export interface EquipmentEntryYaml {
   description: string;
   haystack?: string;
   brick?: string;
-  aliases: BabelAliases;
+  aliases: AtlasAliases;
   subtypes?: EquipmentSubtype[];
   typical_points?: string[];
 }
@@ -134,18 +134,18 @@ export interface EquipmentEntry {
   description: string;
   haystack?: EquipmentHaystackData;
   brick?: string;
-  aliases: BabelAliases;
+  aliases: AtlasAliases;
   subtypes?: EquipmentSubtype[];
   typical_points?: string[];
 }
 
 // Category structure for navigation
-export interface BabelCategory {
+export interface AtlasCategory {
   id: string;
   name: string;
   type: "points" | "equipment";
   count: number;
-  subcategories?: BabelCategory[];
+  subcategories?: AtlasCategory[];
 }
 
 // Search index entry
@@ -157,7 +157,7 @@ export interface SearchIndexEntry {
 }
 
 // Full data structure
-export interface BabelData {
+export interface AtlasData {
   version: string;
   lastUpdated: string;
   totalPoints: number;
@@ -169,7 +169,7 @@ export interface BabelData {
 // Categories structure
 export interface CategoriesData {
   version: string;
-  categories: BabelCategory[];
+  categories: AtlasCategory[];
 }
 
 // Search index structure
@@ -181,7 +181,7 @@ export interface SearchIndexData {
 // YAML file structures (what we read from disk)
 export interface PointYamlFile {
   concept: PointConceptYaml;
-  aliases: BabelAliases;
+  aliases: AtlasAliases;
   notes?: string[];
   related?: string[];
 }

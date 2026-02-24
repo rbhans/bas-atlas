@@ -1,4 +1,4 @@
-# Maps BAS Babel unit symbols to Haystack 4 unit identifiers.
+# Maps BAS Atlas unit symbols to Haystack 4 unit identifiers.
 # Used by the build to include Haystack-normalized units in output.
 
 version: "1.0"

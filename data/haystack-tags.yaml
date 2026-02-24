@@ -1,4 +1,4 @@
-# Haystack 4 Tag Dictionary for BAS Babel
+# Haystack 4 Tag Dictionary for BAS Atlas
 # Maps every tag token used in this database to its Haystack kind and semantic category.
 # Used by the build to parse, validate, and enrich haystack strings.
 #

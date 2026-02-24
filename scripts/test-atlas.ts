@@ -1,8 +1,8 @@
 import * as fs from "fs";
 import * as path from "path";
-import type { BabelData, PointEntry, EquipmentEntry } from "./types.js";
+import type { AtlasData, PointEntry, EquipmentEntry } from "./types.js";
 
-const DIST_DIR = path.join(process.cwd(), "dist");
+const DIST_DIR = path.join(process.cwd(), "dist", "atlas");
 
 let passed = 0;
 let failed = 0;
@@ -17,9 +17,9 @@ function assert(condition: boolean, message: string) {
   }
 }
 
-function loadData(): BabelData {
+function loadData(): AtlasData {
   const raw = fs.readFileSync(path.join(DIST_DIR, "index.json"), "utf-8");
-  return JSON.parse(raw) as BabelData;
+  return JSON.parse(raw) as AtlasData;
 }
 
 // --- Tests ---

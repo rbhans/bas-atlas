@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "belimo-lrb24-3-t",
+    "brand": "belimo",
+    "type": "valve-actuators",
+    "name": "LRB24-3-T",
+    "slug": "lrb24-3-t",
+    "model_numbers": ["LRB24-3-T"],
+    "protocols": [],
+    "status": "current",
+    "description": "Non-spring return rotary actuator.",
+    "manufacturer_url": "https://www.belimo.com",
+    "image_url": "",
+    "added_at": "2026-02-01"
+  }
+}

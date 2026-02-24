@@ -1,6 +1,6 @@
-# Contributing to BAS Babel
+# Contributing to BAS Atlas
 
-Thank you for your interest in contributing to BAS Babel! This project aims to be a comprehensive resource for BAS point naming standards, and community contributions are essential to making it complete.
+Thank you for your interest in contributing to BAS Atlas! This project aims to be a comprehensive resource for BAS point naming standards, and community contributions are essential to making it complete.
 
 ## Ways to Contribute
 

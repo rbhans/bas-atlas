@@ -1,18 +1,22 @@
 {
-  "name": "bas-babel",
+  "name": "bas-atlas",
   "version": "1.0.0",
-  "description": "BAS Point Naming Standards - A comprehensive resource for Building Automation System point naming conventions and aliases",
-  "main": "dist/index.json",
+  "description": "BAS Atlas - unified BAS point naming standards and equipment catalog data",
+  "main": "dist/atlas/index.json",
   "type": "module",
   "scripts": {
-    "build": "tsx scripts/build.ts",
-    "validate": "tsx scripts/build.ts --validate",
-    "test": "tsx scripts/build.ts && tsx scripts/test-haystack.ts",
+    "build": "tsx scripts/build-all.ts",
+    "build:atlas": "tsx scripts/build.ts",
+    "build:catalog": "tsx scripts/build-catalog.ts",
+    "validate": "tsx scripts/build-all.ts --validate",
+    "test:atlas": "tsx scripts/test-atlas.ts",
+    "test:catalog": "tsx scripts/test-catalog.ts",
+    "test": "tsx scripts/build-all.ts && npm run test:atlas && npm run test:catalog",
     "migrate": "tsx scripts/migrate-csv.ts"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/basidekick/bas-babel.git"
+    "url": "https://github.com/basidekick/bas-atlas.git"
   },
   "keywords": [
     "bas",

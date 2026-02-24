@@ -41,5 +41,7 @@ aliases:
     - cw-return-temp
 
 related:
-  - condenser-water-supply-temperature-setpoint
   - condenser-water-flow
+  - condenser-water-supply-temperature
+  - condenser-water-supply-temperature-setpoint
+  - cooling-tower-basin-temperature

@@ -56,7 +56,12 @@ notes:
   - Often shared across multiple AHUs via BACnet
   - May be provided by weather service in some systems
 related:
-  - economizer-enable
   - cooling-outdoor-air-lockout-setpoint
+  - dewpoint-temperature
+  - economizer-enable
+  - exhaust-air-temperature
   - heating-outdoor-air-lockout-setpoint
+  - mixed-air-temperature
   - outdoor-air-humidity
+  - outside-air-damper-output
+  - wet-bulb-temperature

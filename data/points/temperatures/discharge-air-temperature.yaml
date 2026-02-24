@@ -51,8 +51,14 @@ notes:
   - Sometimes called Supply Air Temperature (SAT) downstream of unit
   - Critical for discharge air temperature control loops
 related:
-  - supply-air-temperature
-  - mixed-air-temperature
-  - discharge-air-temperature-setpoint
   - cooling-valve-output
+  - discharge-air-temperature-setpoint
+  - dx-cooling-stage
+  - effective-discharge-air-temperature-setpoint
+  - electric-heat-stage
   - heating-valve-output
+  - low-limit-alarm
+  - mixed-air-temperature
+  - return-air-temperature
+  - supply-air-temperature
+  - zone-temperature

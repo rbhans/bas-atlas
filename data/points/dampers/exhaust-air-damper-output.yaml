@@ -41,4 +41,9 @@ aliases:
     - exhaust-air-damper-out
     - exhaust-air-damper-output
 related:
+  - building-pressure
+  - exhaust-air-damper-closed
   - exhaust-air-damper-feedback
+  - exhaust-air-damper-open
+  - exhaust-air-damper-position
+  - exhaust-air-flow

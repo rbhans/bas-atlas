@@ -57,4 +57,10 @@ aliases:
     - cooling-valve-out
     - cooling-valve-output
 related:
+  - chilled-water-supply-temperature
+  - cooling-enable
+  - cooling-valve-closed
   - cooling-valve-feedback
+  - cooling-valve-open
+  - discharge-air-temperature
+  - zone-temperature

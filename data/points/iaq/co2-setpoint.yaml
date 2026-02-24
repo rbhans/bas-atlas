@@ -24,6 +24,8 @@ notes:
   - Lower setpoints increase ventilation energy but improve IAQ
 
 related:
-  - zone-co2
+  - minimum-outdoor-airflow-setpoint
   - outdoor-air-co2
   - outdoor-air-flow
+  - return-air-co2
+  - zone-co2

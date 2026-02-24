@@ -41,3 +41,8 @@ aliases:
     - primary chilled water pump cmd
     - primary-chilled-water-pump-cmd
     - primary-chilled-water-pump-command
+related:
+  - primary-chilled-water-pump-alarm
+  - primary-chilled-water-pump-feedback
+  - primary-chilled-water-pump-output
+  - primary-chilled-water-pump-status

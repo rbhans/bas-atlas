@@ -73,3 +73,9 @@ aliases:
     - cooling-tower-alm
     - cooling tower fault
     - cooling-tower-alarm
+related:
+  - cooling-tower-command
+  - cooling-tower-enable
+  - cooling-tower-feedback
+  - cooling-tower-output
+  - cooling-tower-status

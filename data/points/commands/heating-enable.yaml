@@ -44,3 +44,8 @@ aliases:
     - htg-enable
     - heat enable
     - heating-enable
+related:
+  - cooling-enable
+  - electric-heat-stage
+  - heating-valve-output
+  - occupied-heating-setpoint

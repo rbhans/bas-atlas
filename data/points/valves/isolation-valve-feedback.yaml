@@ -35,4 +35,6 @@ aliases:
     - isolation-valve-fb
     - isolation-valve-feedback
 related:
+  - isolation-valve-closed
+  - isolation-valve-open
   - isolation-valve-output

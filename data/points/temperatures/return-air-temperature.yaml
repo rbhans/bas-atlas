@@ -41,3 +41,9 @@ aliases:
     - ret-air-temperature
     - return-air-temperature
     - return-temp
+related:
+  - discharge-air-temperature
+  - mixed-air-temperature
+  - return-air-flow
+  - supply-air-temperature
+  - zone-temperature

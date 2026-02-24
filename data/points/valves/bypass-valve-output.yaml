@@ -32,4 +32,6 @@ aliases:
     - bypass vlv output
     - bypass-valve-output
 related:
+  - bypass-valve-closed
   - bypass-valve-feedback
+  - bypass-valve-open

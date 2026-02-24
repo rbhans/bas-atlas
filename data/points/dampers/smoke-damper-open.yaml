@@ -52,3 +52,6 @@ aliases:
     - smoke dpr output
     - smoke-damper-open
     - smoke damper output
+related:
+  - fire-alarm-status
+  - smoke-alarm

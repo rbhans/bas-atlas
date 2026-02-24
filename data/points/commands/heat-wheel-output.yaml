@@ -48,4 +48,6 @@ aliases:
     - nrg-recovery-whl-out
     - energy recovery wheel output
 related:
+  - heat-wheel-command
   - heat-wheel-feedback
+  - heat-wheel-status

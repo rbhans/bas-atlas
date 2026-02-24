@@ -27,6 +27,10 @@ notes:
   - Used with voltage for calculating power (P = V × I × PF)
 
 related:
-  - voltage-sensor
+  - apparent-power-kva
   - electrical-demand-kw
+  - energy-consumption-kwh
+  - frequency-sensor
   - power-factor
+  - reactive-power-kvar
+  - voltage-sensor

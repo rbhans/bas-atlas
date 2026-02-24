@@ -41,4 +41,8 @@ aliases:
     - relief-air-damper-out
     - relief-air-damper-output
 related:
+  - building-pressure
+  - relief-air-damper-closed
   - relief-air-damper-feedback
+  - relief-air-damper-open
+  - relief-air-damper-position

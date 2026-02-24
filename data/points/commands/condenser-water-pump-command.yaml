@@ -42,3 +42,8 @@ aliases:
     - condenser water pump cmd
     - condenser-water-pump-cmd
     - condenser-water-pump-command
+related:
+  - condenser-water-pump-alarm
+  - condenser-water-pump-feedback
+  - condenser-water-pump-output
+  - condenser-water-pump-status

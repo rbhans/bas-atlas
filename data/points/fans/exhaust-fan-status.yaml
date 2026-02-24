@@ -44,3 +44,10 @@ aliases:
     - exhaust fan sts
     - exhaust-fan-sts
     - exhaust-fan-status
+related:
+  - exhaust-fan-alarm
+  - exhaust-fan-command
+  - exhaust-fan-fault
+  - exhaust-fan-feedback
+  - exhaust-fan-output
+  - exhaust-fan-speed

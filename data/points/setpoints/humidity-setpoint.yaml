@@ -26,6 +26,9 @@ notes:
   - Some systems use separate high-limit and low-limit humidity setpoints
 
 related:
-  - zone-humidity
+  - dewpoint-temperature
   - humidifier-enable
+  - humidifier-feedback
   - humidifier-output
+  - return-air-humidity
+  - zone-humidity

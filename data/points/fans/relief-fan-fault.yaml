@@ -37,3 +37,10 @@ aliases:
     - rel fan fault
     - rel-fan-fault
     - relief-fan-fault
+related:
+  - relief-fan-alarm
+  - relief-fan-command
+  - relief-fan-feedback
+  - relief-fan-output
+  - relief-fan-speed
+  - relief-fan-status

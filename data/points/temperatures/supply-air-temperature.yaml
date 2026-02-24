@@ -41,3 +41,7 @@ aliases:
     - sup-air-temperature
     - supply-air-temperature
     - supply-temp
+related:
+  - discharge-air-temperature
+  - mixed-air-temperature
+  - return-air-temperature

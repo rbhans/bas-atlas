@@ -48,3 +48,7 @@ aliases:
     - pre filt status
     - prefilter-status
     - pre filter status
+related:
+  - filter-differential-pressure
+  - filter-status
+  - prefilter-alarm

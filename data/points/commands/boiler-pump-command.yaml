@@ -50,3 +50,8 @@ aliases:
     - blr pump command
     - blr-pump-command
     - boiler-pump-command
+related:
+  - boiler-pump-alarm
+  - boiler-pump-feedback
+  - boiler-pump-output
+  - boiler-pump-status

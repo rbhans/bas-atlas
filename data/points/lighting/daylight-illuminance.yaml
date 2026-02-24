@@ -28,5 +28,6 @@ notes:
   - Used to modulate electric lighting in daylight harvesting sequences
 
 related:
-  - lighting-level
   - lighting-dimming-output
+  - lighting-level
+  - lighting-occupancy-sensor

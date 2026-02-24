@@ -40,3 +40,10 @@ aliases:
     - ret fan command
     - ret-fan-command
     - return-fan-command
+related:
+  - return-fan-alarm
+  - return-fan-fault
+  - return-fan-feedback
+  - return-fan-output
+  - return-fan-speed
+  - return-fan-status

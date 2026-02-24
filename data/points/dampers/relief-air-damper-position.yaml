@@ -40,3 +40,9 @@ aliases:
     - rel air damper position
     - rel-air-damper-position
     - relief-air-damper-position
+related:
+  - building-pressure-setpoint
+  - relief-air-damper-closed
+  - relief-air-damper-feedback
+  - relief-air-damper-open
+  - relief-air-damper-output

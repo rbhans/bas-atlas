@@ -93,7 +93,10 @@ notes:
   - Setpoint typically 1.0-2.0 in.wc for VAV systems
   - Higher setpoint needed for longer duct runs
 related:
+  - discharge-air-high-pressure-alarm
+  - discharge-air-low-pressure-alarm
   - discharge-air-pressure-setpoint
-  - supply-fan-speed
-  - supply-fan-output
+  - duct-static-pressure
   - duct-static-pressure-setpoint
+  - supply-fan-output
+  - supply-fan-speed

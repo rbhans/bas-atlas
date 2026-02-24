@@ -30,5 +30,6 @@ notes:
 related:
   - discharge-air-pressure
   - discharge-air-pressure-setpoint
-  - supply-fan-speed
+  - duct-static-pressure-setpoint
   - supply-fan-output
+  - supply-fan-speed

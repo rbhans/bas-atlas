@@ -32,4 +32,9 @@ aliases:
     - rel-fan-feedback
     - relief-fan-feedback
 related:
+  - relief-fan-alarm
+  - relief-fan-command
+  - relief-fan-fault
   - relief-fan-output
+  - relief-fan-speed
+  - relief-fan-status

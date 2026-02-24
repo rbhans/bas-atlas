@@ -28,6 +28,10 @@ notes:
   - Typically read from a power meter or CT (current transformer) metering
 
 related:
+  - apparent-power-kva
+  - electrical-current-sensor
   - energy-consumption-kwh
+  - frequency-sensor
   - power-factor
-  - electrical-current-rms
+  - reactive-power-kvar
+  - voltage-sensor

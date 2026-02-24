@@ -46,3 +46,10 @@ aliases:
     - relief fan alm
     - relief-fan-alm
     - relief-fan-alarm
+related:
+  - relief-fan-command
+  - relief-fan-fault
+  - relief-fan-feedback
+  - relief-fan-output
+  - relief-fan-speed
+  - relief-fan-status

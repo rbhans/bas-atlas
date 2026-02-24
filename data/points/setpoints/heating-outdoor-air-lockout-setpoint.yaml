@@ -48,3 +48,5 @@ aliases:
     - htg outdoor air lockout setpoint
     - htg-outdoor-air-lockout-setpoint
     - heating-outdoor-air-lockout-setpoint
+related:
+  - outdoor-air-temperature

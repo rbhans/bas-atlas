@@ -41,4 +41,7 @@ aliases:
     - boiler-pump-out
     - boiler-pump-output
 related:
+  - boiler-pump-alarm
+  - boiler-pump-command
   - boiler-pump-feedback
+  - boiler-pump-status

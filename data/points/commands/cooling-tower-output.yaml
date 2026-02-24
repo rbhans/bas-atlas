@@ -67,4 +67,9 @@ aliases:
     - cooling tower speed
     - cooling-tower-output
 related:
+  - cooling-tower-alarm
+  - cooling-tower-command
+  - cooling-tower-enable
   - cooling-tower-feedback
+  - cooling-tower-isolation-valve
+  - cooling-tower-status

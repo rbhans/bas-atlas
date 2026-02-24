@@ -27,6 +27,7 @@ notes:
   - In DCV mode, this setpoint may vary with occupancy count or CO2 levels
 
 related:
-  - outdoor-air-flow
-  - zone-co2
   - co2-setpoint
+  - outdoor-air-flow
+  - outside-air-damper-output
+  - zone-co2

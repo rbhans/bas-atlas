@@ -53,3 +53,10 @@ aliases:
     - supply fan alm
     - supply-fan-alm
     - supply-fan-alarm
+related:
+  - supply-fan-command
+  - supply-fan-fault
+  - supply-fan-feedback
+  - supply-fan-output
+  - supply-fan-speed
+  - supply-fan-status

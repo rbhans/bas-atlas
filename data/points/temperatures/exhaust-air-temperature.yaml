@@ -1,8 +1,8 @@
 concept:
-  id: exhaust-air-temperaure
-  name: Exhaust Air Temperaure
+  id: exhaust-air-temperature
+  name: Exhaust Air Temperature
   category: temperatures
-  description: Exhaust Air Temperaure point
+  description: Exhaust Air Temperature point
   haystack: exhaust air temp sensor
   brick: Exhaust_Air_Temperature_Sensor
   point_function: sensor
@@ -40,3 +40,6 @@ aliases:
     - exh air temperaure
     - exh-air-temperaure
     - exhaust-air-temperaure
+    - exhaust-air-temperature
+related:
+  - outdoor-air-temperature

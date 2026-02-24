@@ -41,3 +41,6 @@ aliases:
     - hot-water-differential-pressure
     - hw-diff
     - hw-delta-p
+related:
+  - chilled-water-differential-pressure
+  - hot-water-flow

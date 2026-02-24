@@ -37,6 +37,8 @@ aliases:
     - outdoor-air-flow
 
 related:
-  - minimum-outdoor-airflow-setpoint
-  - zone-co2
   - co2-setpoint
+  - exhaust-air-flow
+  - minimum-outdoor-airflow-setpoint
+  - outside-air-damper-output
+  - zone-co2

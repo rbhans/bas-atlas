@@ -44,3 +44,8 @@ aliases:
     - outdoor-air-hum
     - outdoor air humid
     - outdoor-air-humidity
+related:
+  - outdoor-air-temperature
+  - return-air-humidity
+  - wet-bulb-temperature
+  - zone-humidity

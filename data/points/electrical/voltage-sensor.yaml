@@ -26,6 +26,10 @@ notes:
   - Often measured per phase (A, B, C) on three-phase systems
 
 related:
+  - apparent-power-kva
   - electrical-current-sensor
   - electrical-demand-kw
+  - energy-consumption-kwh
   - frequency-sensor
+  - power-factor
+  - reactive-power-kvar

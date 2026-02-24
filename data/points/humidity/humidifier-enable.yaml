@@ -37,3 +37,8 @@ aliases:
     - humidifier en
     - humidifier-en
     - humidifier-enable
+related:
+  - humidifier-feedback
+  - humidifier-output
+  - humidity-setpoint
+  - zone-humidity

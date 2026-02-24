@@ -50,4 +50,6 @@ aliases:
     - clg-valve-feedback
     - cooling-valve-feedback
 related:
+  - cooling-valve-closed
+  - cooling-valve-open
   - cooling-valve-output

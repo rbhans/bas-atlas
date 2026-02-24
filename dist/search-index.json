@@ -9142,15 +9142,15 @@
       ]
     },
     {
-      "id": "exhaust-air-temperaure",
+      "id": "exhaust-air-temperature",
       "type": "point",
-      "name": "Exhaust Air Temperaure",
+      "name": "Exhaust Air Temperature",
       "tokens": [
-        "exhaust air temperaure",
-        "exhaust-air-temperaure",
+        "exhaust air temperature",
+        "exhaust-air-temperature",
         "exhaust",
         "air",
-        "temperaure",
+        "temperature",
         "point",
         "temp",
         "sensor",
@@ -9181,7 +9181,8 @@
         "exh a temperature",
         "exh-a-temperature",
         "exh air temperaure",
-        "exh-air-temperaure"
+        "exh-air-temperaure",
+        "exhaust-air-temperaure"
       ]
     },
     {

@@ -76,7 +76,17 @@ notes:
   - Wireless sensors often use vendor-specific names like EnOcean_Temp_1
   - When multiple sensors in zone, often suffixed ZoneTemp_1, ZoneTemp_Avg
 related:
+  - cooling-outdoor-air-lockout-setpoint
+  - cooling-valve-output
   - discharge-air-temperature
-  - return-air-temperature
+  - dx-cooling-stage
+  - effective-cooling-setpoint
+  - effective-heating-setpoint
+  - electric-heat-stage
+  - heating-valve-output
   - occupied-cooling-setpoint
   - occupied-heating-setpoint
+  - return-air-temperature
+  - unoccupied-cooling-setpoint
+  - unoccupied-heating-setpoint
+  - zone-temperature-setpoint

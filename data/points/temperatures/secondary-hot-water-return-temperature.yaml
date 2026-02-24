@@ -36,3 +36,5 @@ aliases:
     - sec hot water return temperature
     - sec-hot-water-return-temperature
     - secondary-hot-water-return-temperature
+related:
+  - secondary-hot-water-supply-temperature

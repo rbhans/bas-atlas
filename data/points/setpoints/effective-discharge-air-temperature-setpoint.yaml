@@ -46,3 +46,6 @@ aliases:
     - effective discharge air temperature sp
     - effective-discharge-air-temperature-sp
     - effective-discharge-air-temperature-setpoint
+related:
+  - discharge-air-temperature
+  - discharge-air-temperature-setpoint

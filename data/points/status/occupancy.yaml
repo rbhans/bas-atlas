@@ -21,3 +21,8 @@ aliases:
   common:
     - occupied
     - occ
+related:
+  - effective-occupancy
+  - lighting-occupancy-sensor
+  - occupancy-schedule
+  - occupied-command

@@ -37,3 +37,10 @@ aliases:
     - ma-air-temperature
     - mixed-air-temperature
     - mixed-temp
+related:
+  - discharge-air-temperature
+  - low-limit-alarm
+  - mixed-air-temperature-setpoint
+  - outdoor-air-temperature
+  - return-air-temperature
+  - supply-air-temperature

@@ -45,3 +45,10 @@ aliases:
     - exhaust fan alm
     - exhaust-fan-alm
     - exhaust-fan-alarm
+related:
+  - exhaust-fan-command
+  - exhaust-fan-fault
+  - exhaust-fan-feedback
+  - exhaust-fan-output
+  - exhaust-fan-speed
+  - exhaust-fan-status

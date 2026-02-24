@@ -46,3 +46,8 @@ aliases:
     - condenser water pump sts
     - condenser-water-pump-sts
     - condenser-water-pump-status
+related:
+  - condenser-water-pump-alarm
+  - condenser-water-pump-command
+  - condenser-water-pump-feedback
+  - condenser-water-pump-output

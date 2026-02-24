@@ -48,3 +48,10 @@ aliases:
     - sup fan command
     - sup-fan-command
     - supply-fan-command
+related:
+  - supply-fan-alarm
+  - supply-fan-fault
+  - supply-fan-feedback
+  - supply-fan-output
+  - supply-fan-speed
+  - supply-fan-status

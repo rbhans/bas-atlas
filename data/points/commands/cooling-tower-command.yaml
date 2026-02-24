@@ -65,3 +65,11 @@ aliases:
     - cool-tw-start/stop
     - cooling-tower-command
     - cooling tower start/stop
+related:
+  - condenser-water-supply-temperature-setpoint
+  - cooling-tower-alarm
+  - cooling-tower-enable
+  - cooling-tower-feedback
+  - cooling-tower-isolation-valve
+  - cooling-tower-output
+  - cooling-tower-status

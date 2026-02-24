@@ -37,4 +37,10 @@ aliases:
     - zone-humidity
 
 related:
+  - dewpoint-temperature
+  - humidifier-enable
+  - humidifier-feedback
+  - humidifier-output
   - humidity-setpoint
+  - outdoor-air-humidity
+  - return-air-humidity

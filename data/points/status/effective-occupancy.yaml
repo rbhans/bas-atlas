@@ -32,3 +32,7 @@ aliases:
     - effectiveoccupancy
     - effective-occupancy
     - current-occupancy
+related:
+  - occupancy
+  - occupancy-schedule
+  - occupied-command

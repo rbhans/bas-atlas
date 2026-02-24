@@ -42,4 +42,6 @@ aliases:
     - htg-valve-feedback
     - heating-valve-feedback
 related:
+  - heating-valve-closed
+  - heating-valve-open
   - heating-valve-output

@@ -24,5 +24,10 @@ notes:
   - Critical for generator synchronization and UPS systems
 
 related:
-  - voltage-sensor
+  - apparent-power-kva
   - electrical-current-sensor
+  - electrical-demand-kw
+  - energy-consumption-kwh
+  - power-factor
+  - reactive-power-kvar
+  - voltage-sensor

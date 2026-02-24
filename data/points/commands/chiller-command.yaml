@@ -58,3 +58,7 @@ aliases:
     - chl-start/stop
     - chiller-command
     - chiller start/stop
+related:
+  - chiller-alarm
+  - chiller-enable
+  - chiller-status

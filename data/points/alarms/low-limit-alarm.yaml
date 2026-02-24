@@ -51,3 +51,6 @@ aliases:
     - lowtemperaturealm
     - low temperature alm
     - low-temperature-alm
+related:
+  - discharge-air-temperature
+  - mixed-air-temperature

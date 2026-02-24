@@ -37,3 +37,5 @@ aliases:
     - sec chilled water return temperature
     - sec-chilled-water-return-temperature
     - secondary-chilled-water-return-temperature
+related:
+  - secondary-chilled-water-supply-temperature

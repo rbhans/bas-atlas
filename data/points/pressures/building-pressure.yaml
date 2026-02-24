@@ -36,3 +36,5 @@ aliases:
 
 related:
   - building-pressure-setpoint
+  - exhaust-air-damper-output
+  - relief-air-damper-output

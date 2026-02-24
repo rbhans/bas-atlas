@@ -50,3 +50,7 @@ aliases:
     - final-filter-sts
     - fin filter status
     - final-filter-status
+related:
+  - filter-differential-pressure
+  - filter-status
+  - final-filter-alarm

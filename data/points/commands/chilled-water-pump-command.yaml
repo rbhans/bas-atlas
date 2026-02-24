@@ -43,3 +43,8 @@ aliases:
     - chl water pump command
     - chl-water-pump-command
     - chilled-water-pump-command
+related:
+  - chilled-water-pump-alarm
+  - chilled-water-pump-feedback
+  - chilled-water-pump-output
+  - chilled-water-pump-status

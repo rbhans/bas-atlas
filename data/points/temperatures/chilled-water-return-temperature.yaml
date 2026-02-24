@@ -42,5 +42,8 @@ aliases:
     - chw-return-temp
 
 related:
-  - chilled-water-supply-temperature-setpoint
   - chilled-water-flow
+  - chilled-water-supply-temperature
+  - chilled-water-supply-temperature-setpoint
+  - chiller-entering-temperature
+  - chiller-leaving-temperature

@@ -43,4 +43,7 @@ aliases:
     - outdoor air damper feedback
     - outside-air-damper-feedback
 related:
+  - outside-air-damper-closed
+  - outside-air-damper-open
   - outside-air-damper-output
+  - outside-air-damper-position

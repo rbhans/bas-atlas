@@ -53,3 +53,6 @@ aliases:
     - ret air pressure setpoint
     - ret-air-pressure-setpoint
     - return-air-pressure-setpoint
+related:
+  - building-pressure-setpoint
+  - return-air-pressure

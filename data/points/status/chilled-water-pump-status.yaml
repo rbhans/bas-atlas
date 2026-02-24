@@ -47,3 +47,8 @@ aliases:
     - chilled water pump sts
     - chilled-water-pump-sts
     - chilled-water-pump-status
+related:
+  - chilled-water-pump-alarm
+  - chilled-water-pump-command
+  - chilled-water-pump-feedback
+  - chilled-water-pump-output

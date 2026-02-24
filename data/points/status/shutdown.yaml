@@ -9,3 +9,5 @@ concept:
 aliases:
   common:
     - shutdwn
+related:
+  - system-enable

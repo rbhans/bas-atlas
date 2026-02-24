@@ -43,3 +43,8 @@ aliases:
     - oa-air-damper-open
     - outdoor air damper open
     - outside-air-damper-open
+related:
+  - outside-air-damper-closed
+  - outside-air-damper-feedback
+  - outside-air-damper-output
+  - outside-air-damper-position

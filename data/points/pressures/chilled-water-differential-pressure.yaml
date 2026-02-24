@@ -42,3 +42,7 @@ aliases:
     - chilled-water-differential-pressure
     - chw-diff
     - chw-delta-p
+related:
+  - chilled-water-differential-pressure-setpoint
+  - chilled-water-flow
+  - hot-water-differential-pressure

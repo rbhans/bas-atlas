@@ -56,3 +56,7 @@ aliases:
     - chiller on/off
     - chiller-enable
     - chiller enabled
+related:
+  - chiller-alarm
+  - chiller-command
+  - chiller-status

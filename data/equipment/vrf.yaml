@@ -85,7 +85,7 @@ equipment:
         - outdoor condensing unit
         - variable refrigerant flow outdoor unit
     typical_points:
-      - outside-air-temperature
+      - outdoor-air-temperature
   - id: vrf-indoor-unit
     name: VRF Indoor Unit
     abbreviation: IDU
@@ -170,8 +170,8 @@ equipment:
       - discharge-air-temperature
       - supply-fan-command
       - supply-fan-status
-      - cooling-setpoint
-      - heating-setpoint
+      - occupied-cooling-setpoint
+      - occupied-heating-setpoint
   - id: vrf-branch-selector-box
     name: VRF Branch Selector Box
     abbreviation: BSB

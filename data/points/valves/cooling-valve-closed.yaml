@@ -28,3 +28,7 @@ aliases:
     - coo-vlv-cl
     - coo vlv cld
     - coo-vlv-cld
+related:
+  - cooling-valve-feedback
+  - cooling-valve-open
+  - cooling-valve-output

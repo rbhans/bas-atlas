@@ -38,3 +38,6 @@ aliases:
     - smokedetect
     - smoke detect
     - smoke-detect
+related:
+  - fire-alarm-status
+  - smoke-damper-open

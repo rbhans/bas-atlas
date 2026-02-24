@@ -42,3 +42,8 @@ aliases:
     - ma air damper closed
     - ma-air-damper-closed
     - mixed-air-damper-closed
+related:
+  - mixed-air-damper-feedback
+  - mixed-air-damper-open
+  - mixed-air-damper-output
+  - mixed-air-damper-position

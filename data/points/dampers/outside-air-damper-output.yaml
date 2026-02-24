@@ -42,4 +42,11 @@ aliases:
     - outdoor air damper output
     - outside-air-damper-output
 related:
+  - economizer-enable
+  - minimum-outdoor-airflow-setpoint
+  - outdoor-air-flow
+  - outdoor-air-temperature
+  - outside-air-damper-closed
   - outside-air-damper-feedback
+  - outside-air-damper-open
+  - outside-air-damper-position

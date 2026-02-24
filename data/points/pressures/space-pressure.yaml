@@ -72,3 +72,5 @@ aliases:
     - room pressure
     - zone pressure
     - space-pressure
+related:
+  - building-pressure-setpoint

@@ -42,3 +42,5 @@ aliases:
     - discharge air flw
     - discharge-air-flw
     - discharge-air-flow
+related:
+  - supply-air-flow

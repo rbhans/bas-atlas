@@ -26,3 +26,7 @@ aliases:
     - coo-vlv-opn
     - coo vlv op
     - coo-vlv-op
+related:
+  - cooling-valve-closed
+  - cooling-valve-feedback
+  - cooling-valve-output

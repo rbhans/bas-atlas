@@ -33,4 +33,7 @@ aliases:
     - condenser-water-pump-out
     - condenser-water-pump-output
 related:
+  - condenser-water-pump-alarm
+  - condenser-water-pump-command
   - condenser-water-pump-feedback
+  - condenser-water-pump-status

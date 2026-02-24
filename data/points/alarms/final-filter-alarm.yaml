@@ -48,3 +48,7 @@ aliases:
     - final filter alm
     - final-filter-alm
     - final-filter-alarm
+related:
+  - filter-differential-pressure
+  - final-filter-status
+  - prefilter-alarm

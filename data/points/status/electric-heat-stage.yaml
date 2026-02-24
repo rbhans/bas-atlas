@@ -63,3 +63,7 @@ aliases:
     - electric-heat-stg
     - electric-heat-stage
     - electric heating stage
+related:
+  - discharge-air-temperature
+  - heating-enable
+  - zone-temperature

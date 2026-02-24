@@ -55,6 +55,15 @@ equipment:
         - electricitymeter
         - electricity meter
         - electricity-meter
+    typical_points:
+      - energy-consumption-kwh
+      - electrical-demand-kw
+      - power-factor
+      - voltage-sensor
+      - electrical-current-sensor
+      - apparent-power-kva
+      - reactive-power-kvar
+      - frequency-sensor
   - id: natural-gas-meter
     name: Natural Gas Meter
     abbreviation: GM
@@ -211,6 +220,8 @@ equipment:
         - stm mass flw meter
         - stm-mass-flw-meter
         - steam mass flow meter
+    typical_points:
+      - steam-flow
   - id: btu-meter
     name: BTU Meter
     abbreviation: BTU

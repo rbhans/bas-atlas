@@ -64,3 +64,7 @@ aliases:
     - nrg recovery whl sts
     - nrg-recovery-whl-sts
     - energy recovery wheel status
+related:
+  - heat-wheel-command
+  - heat-wheel-feedback
+  - heat-wheel-output

@@ -45,3 +45,10 @@ aliases:
     - return fan alm
     - return-fan-alm
     - return-fan-alarm
+related:
+  - return-fan-command
+  - return-fan-fault
+  - return-fan-feedback
+  - return-fan-output
+  - return-fan-speed
+  - return-fan-status

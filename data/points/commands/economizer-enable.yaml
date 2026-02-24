@@ -34,3 +34,6 @@ aliases:
     - economizer en
     - economizer-en
     - economizer-enable
+related:
+  - outdoor-air-temperature
+  - outside-air-damper-output

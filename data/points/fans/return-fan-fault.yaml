@@ -37,3 +37,10 @@ aliases:
     - ret fan fault
     - ret-fan-fault
     - return-fan-fault
+related:
+  - return-fan-alarm
+  - return-fan-command
+  - return-fan-feedback
+  - return-fan-output
+  - return-fan-speed
+  - return-fan-status

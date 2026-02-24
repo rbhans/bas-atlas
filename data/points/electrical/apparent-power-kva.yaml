@@ -22,6 +22,10 @@ notes:
   - Used for sizing transformers, generators, and UPS systems
 
 related:
+  - electrical-current-sensor
   - electrical-demand-kw
-  - reactive-power-kvar
+  - energy-consumption-kwh
+  - frequency-sensor
   - power-factor
+  - reactive-power-kvar
+  - voltage-sensor

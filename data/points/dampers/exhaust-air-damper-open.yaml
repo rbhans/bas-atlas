@@ -42,3 +42,8 @@ aliases:
     - exh air damper open
     - exh-air-damper-open
     - exhaust-air-damper-open
+related:
+  - exhaust-air-damper-closed
+  - exhaust-air-damper-feedback
+  - exhaust-air-damper-output
+  - exhaust-air-damper-position

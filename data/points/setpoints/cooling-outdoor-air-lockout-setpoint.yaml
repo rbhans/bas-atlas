@@ -44,3 +44,6 @@ aliases:
     - clg outdoor air lockout setpoint
     - clg-outdoor-air-lockout-setpoint
     - cooling-outdoor-air-lockout-setpoint
+related:
+  - outdoor-air-temperature
+  - zone-temperature

@@ -34,6 +34,7 @@ notes:
   - Timeout period is configurable (typically 15-30 minutes)
 
 related:
-  - lighting-level
+  - daylight-illuminance
   - lighting-dimming-output
+  - lighting-level
   - occupancy

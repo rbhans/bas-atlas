@@ -32,4 +32,7 @@ aliases:
     - secondary-chilled-water-pump-out
     - secondary-chilled-water-pump-output
 related:
+  - secondary-chilled-water-pump-alarm
+  - secondary-chilled-water-pump-command
   - secondary-chilled-water-pump-feedback
+  - secondary-chilled-water-pump-status

@@ -36,3 +36,6 @@ aliases:
     - pri hot water supply temperature
     - pri-hot-water-supply-temperature
     - primary-hot-water-supply-temperature
+related:
+  - hot-water-supply-temperature
+  - primary-hot-water-return-temperature

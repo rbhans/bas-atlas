@@ -29,3 +29,7 @@ aliases:
     - occupancyschedule
     - occupancy schedule
     - occupancy-schedule
+related:
+  - effective-occupancy
+  - occupancy
+  - occupied-command

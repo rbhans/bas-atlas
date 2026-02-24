@@ -47,3 +47,8 @@ aliases:
     - chilled water pump alm
     - chilled-water-pump-alm
     - chilled-water-pump-alarm
+related:
+  - chilled-water-pump-command
+  - chilled-water-pump-feedback
+  - chilled-water-pump-output
+  - chilled-water-pump-status

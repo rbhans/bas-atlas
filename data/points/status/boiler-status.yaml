@@ -67,3 +67,8 @@ aliases:
     - boiler-status
     - boiler running
     - boiler run status
+related:
+  - boiler-alarm
+  - boiler-command
+  - boiler-feedback
+  - boiler-output

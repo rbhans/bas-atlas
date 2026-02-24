@@ -31,4 +31,9 @@ aliases:
     - return-fan-out
     - return-fan-output
 related:
+  - return-fan-alarm
+  - return-fan-command
+  - return-fan-fault
   - return-fan-feedback
+  - return-fan-speed
+  - return-fan-status

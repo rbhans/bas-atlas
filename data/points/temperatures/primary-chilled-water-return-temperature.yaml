@@ -37,3 +37,5 @@ aliases:
     - pri chilled water return temperature
     - pri-chilled-water-return-temperature
     - primary-chilled-water-return-temperature
+related:
+  - primary-chilled-water-supply-temperature

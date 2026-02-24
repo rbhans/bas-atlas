@@ -38,3 +38,6 @@ aliases:
     - return air flw
     - return-air-flw
     - return-air-flow
+related:
+  - return-air-temperature
+  - supply-air-flow

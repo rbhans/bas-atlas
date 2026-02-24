@@ -54,3 +54,8 @@ aliases:
     - boiler pump sts
     - boiler-pump-sts
     - boiler-pump-status
+related:
+  - boiler-pump-alarm
+  - boiler-pump-command
+  - boiler-pump-feedback
+  - boiler-pump-output

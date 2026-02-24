@@ -40,3 +40,8 @@ aliases:
     - ma air damper position
     - ma-air-damper-position
     - mixed-air-damper-position
+related:
+  - mixed-air-damper-closed
+  - mixed-air-damper-feedback
+  - mixed-air-damper-open
+  - mixed-air-damper-output

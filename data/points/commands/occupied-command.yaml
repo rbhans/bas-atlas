@@ -39,3 +39,9 @@ aliases:
     - occupancy cmd
     - occupancy-cmd
     - occupied-command
+related:
+  - effective-occupancy
+  - occupancy
+  - occupancy-schedule
+  - system-enable
+  - unit-enable-mode

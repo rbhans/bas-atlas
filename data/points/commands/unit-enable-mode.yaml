@@ -39,3 +39,6 @@ aliases:
     - unt-enbl-mode
     - unit enable mode
     - unit-enable-mode
+related:
+  - occupied-command
+  - system-enable

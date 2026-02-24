@@ -60,3 +60,8 @@ aliases:
     - blr-start/stop
     - boiler-command
     - boiler start/stop
+related:
+  - boiler-alarm
+  - boiler-feedback
+  - boiler-output
+  - boiler-status

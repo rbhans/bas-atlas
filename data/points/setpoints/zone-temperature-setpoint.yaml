@@ -23,3 +23,5 @@ aliases:
     - ZAT-SP
     - room-temp-sp
     - space-temp-sp
+related:
+  - zone-temperature

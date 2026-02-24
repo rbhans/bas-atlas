@@ -44,4 +44,7 @@ aliases:
     - boiler modulation
     - boiler firing rate
 related:
+  - boiler-alarm
+  - boiler-command
   - boiler-feedback
+  - boiler-status

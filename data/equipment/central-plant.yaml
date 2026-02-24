@@ -87,6 +87,9 @@ equipment:
       - chiller-alarm
       - chiller-entering-temperature
       - chiller-leaving-temperature
+      - chilled-water-supply-temperature
+      - chilled-water-return-temperature
+      - chilled-water-flow
   - id: boiler
     name: Boiler
     abbreviation: BLR
@@ -166,6 +169,9 @@ equipment:
       - boiler-alarm
       - hot-water-supply-temperature
       - hot-water-return-temperature
+      - hot-water-flow
+      - boiler-pump-command
+      - boiler-pump-status
   - id: cooling-tower
     name: Cooling Tower
     abbreviation: CT
@@ -229,6 +235,10 @@ equipment:
       - condenser-water-supply-temperature
       - condenser-water-return-temperature
       - cooling-tower-isolation-valve
+      - condenser-water-flow
+      - condenser-water-pump-command
+      - condenser-water-pump-status
+      - wet-bulb-temperature
   - id: heat-exchanger
     name: Heat Exchanger
     abbreviation: HX
@@ -274,8 +284,8 @@ equipment:
         - plate-ht-exchanger
         - plate heat exchanger
     typical_points:
-      - entering-water-temperature
-      - leaving-water-temperature
+      - chilled-water-supply-temperature
+      - chilled-water-return-temperature
   - id: pump
     name: Pump
     abbreviation: P
@@ -379,7 +389,8 @@ equipment:
       - hot-water-pump-output
       - hot-water-pump-status
       - hot-water-pump-alarm
-      - differential-pressure
+      - chilled-water-differential-pressure
+      - hot-water-differential-pressure
   - id: variable-frequency-drive
     name: Variable Frequency Drive
     abbreviation: VFD

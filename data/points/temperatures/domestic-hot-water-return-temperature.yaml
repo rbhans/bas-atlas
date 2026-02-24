@@ -34,3 +34,5 @@ aliases:
     - domestic hot water return temp
     - domestic-hot-water-return-temp
     - domestic-hot-water-return-temperature
+related:
+  - domestic-hot-water-supply-temperature

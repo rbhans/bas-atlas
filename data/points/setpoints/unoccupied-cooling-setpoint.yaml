@@ -54,3 +54,8 @@ aliases:
     - unocc-cooling-setpoint
     - unoccupied-cooling-setpoint
     - unoccupied-clg-sp
+related:
+  - occupied-cooling-setpoint
+  - standby-cooling-setpoint
+  - unoccupied-heating-setpoint
+  - zone-temperature

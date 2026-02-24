@@ -41,4 +41,7 @@ aliases:
     - mixed-air-damper-out
     - mixed-air-damper-output
 related:
+  - mixed-air-damper-closed
   - mixed-air-damper-feedback
+  - mixed-air-damper-open
+  - mixed-air-damper-position

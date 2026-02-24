@@ -23,6 +23,10 @@ notes:
   - Can be improved with capacitor banks or VFDs
 
 related:
-  - electrical-demand-kw
-  - reactive-power-kvar
   - apparent-power-kva
+  - electrical-current-sensor
+  - electrical-demand-kw
+  - energy-consumption-kwh
+  - frequency-sensor
+  - reactive-power-kvar
+  - voltage-sensor

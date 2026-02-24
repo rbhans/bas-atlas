@@ -39,3 +39,8 @@ aliases:
     - effective heating sp
     - effective-heating-sp
     - effective-heating-setpoint
+related:
+  - effective-cooling-setpoint
+  - occupied-heating-setpoint
+  - standby-heating-setpoint
+  - zone-temperature

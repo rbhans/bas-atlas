@@ -46,3 +46,8 @@ aliases:
     - ht water pump alarm
     - ht-water-pump-alarm
     - hot-water-pump-alarm
+related:
+  - hot-water-pump-command
+  - hot-water-pump-feedback
+  - hot-water-pump-output
+  - hot-water-pump-status

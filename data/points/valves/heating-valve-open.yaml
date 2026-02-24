@@ -26,3 +26,7 @@ aliases:
     - hea-vlv-opn
     - hea vlv op
     - hea-vlv-op
+related:
+  - heating-valve-closed
+  - heating-valve-feedback
+  - heating-valve-output

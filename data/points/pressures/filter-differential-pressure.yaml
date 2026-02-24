@@ -29,5 +29,7 @@ notes:
 related:
   - filter-alarm
   - filter-status
-  - prefilter-alarm
   - final-filter-alarm
+  - final-filter-status
+  - prefilter-alarm
+  - prefilter-status

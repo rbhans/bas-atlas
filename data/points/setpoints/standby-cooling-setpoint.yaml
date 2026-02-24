@@ -46,3 +46,7 @@ aliases:
     - stby cooling setpoint
     - stby-cooling-setpoint
     - standby-cooling-setpoint
+related:
+  - effective-cooling-setpoint
+  - occupied-cooling-setpoint
+  - unoccupied-cooling-setpoint

@@ -46,3 +46,7 @@ aliases:
     - stby heating setpoint
     - stby-heating-setpoint
     - standby-heating-setpoint
+related:
+  - effective-heating-setpoint
+  - occupied-heating-setpoint
+  - unoccupied-heating-setpoint

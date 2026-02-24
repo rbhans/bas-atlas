@@ -27,7 +27,8 @@ notes:
   - Critical for free cooling / waterside economizer calculations
 
 related:
-  - outdoor-air-temperature
-  - outdoor-air-humidity
-  - cooling-tower-basin-temperature
   - condenser-water-supply-temperature
+  - cooling-tower-basin-temperature
+  - dewpoint-temperature
+  - outdoor-air-humidity
+  - outdoor-air-temperature

@@ -73,3 +73,7 @@ aliases:
     - chiller-status
     - chiller running
     - chiller run status
+related:
+  - chiller-alarm
+  - chiller-command
+  - chiller-enable

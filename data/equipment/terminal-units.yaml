@@ -62,13 +62,10 @@ equipment:
     typical_points:
       - zone-temperature
       - discharge-air-temperature
-      - damper-position
-      - damper-output
-      - airflow
-      - airflow-setpoint
+      - supply-air-flow
       - heating-valve-output
-      - cooling-setpoint
-      - heating-setpoint
+      - occupied-cooling-setpoint
+      - occupied-heating-setpoint
   - id: constant-air-volume-box
     name: Constant Air Volume Box
     abbreviation: CAV
@@ -119,8 +116,8 @@ equipment:
       - zone-temperature
       - discharge-air-temperature
       - heating-valve-output
-      - cooling-setpoint
-      - heating-setpoint
+      - occupied-cooling-setpoint
+      - occupied-heating-setpoint
   - id: parallel-fan-powered-box
     name: Parallel Fan Powered Box
     abbreviation: PFPB
@@ -184,14 +181,12 @@ equipment:
     typical_points:
       - zone-temperature
       - discharge-air-temperature
-      - damper-position
-      - damper-output
       - supply-fan-command
       - supply-fan-status
-      - airflow
+      - supply-air-flow
       - heating-valve-output
-      - cooling-setpoint
-      - heating-setpoint
+      - occupied-cooling-setpoint
+      - occupied-heating-setpoint
   - id: series-fan-powered-box
     name: Series Fan Powered Box
     abbreviation: SFPB
@@ -245,14 +240,12 @@ equipment:
     typical_points:
       - zone-temperature
       - discharge-air-temperature
-      - damper-position
-      - damper-output
       - supply-fan-command
       - supply-fan-status
-      - airflow
+      - supply-air-flow
       - heating-valve-output
-      - cooling-setpoint
-      - heating-setpoint
+      - occupied-cooling-setpoint
+      - occupied-heating-setpoint
   - id: chilled-beam
     name: Chilled Beam
     abbreviation: CB
@@ -309,7 +302,7 @@ equipment:
     typical_points:
       - zone-temperature
       - cooling-valve-output
-      - cooling-setpoint
+      - occupied-cooling-setpoint
   - id: radiant-panel
     name: Radiant Panel
     abbreviation: RP
@@ -361,8 +354,8 @@ equipment:
       - zone-temperature
       - heating-valve-output
       - cooling-valve-output
-      - cooling-setpoint
-      - heating-setpoint
+      - occupied-cooling-setpoint
+      - occupied-heating-setpoint
   - id: baseboard-heater
     name: Baseboard Heater
     abbreviation: BB
@@ -414,7 +407,7 @@ equipment:
     typical_points:
       - zone-temperature
       - heating-valve-output
-      - heating-setpoint
+      - occupied-heating-setpoint
   - id: unit-heater
     name: Unit Heater
     abbreviation: UH
@@ -479,7 +472,7 @@ equipment:
       - supply-fan-status
       - heating-valve-output
       - gas-fired-heat-output
-      - heating-setpoint
+      - occupied-heating-setpoint
   - id: induction-unit
     name: Induction Unit
     abbreviation: IU

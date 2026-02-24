@@ -41,4 +41,7 @@ aliases:
     - blr-pump-feedback
     - boiler-pump-feedback
 related:
+  - boiler-pump-alarm
+  - boiler-pump-command
   - boiler-pump-output
+  - boiler-pump-status

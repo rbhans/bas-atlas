@@ -61,16 +61,19 @@ equipment:
       - supply-air-temperature
       - return-air-temperature
       - mixed-air-temperature
-      - outside-air-temperature
+      - outdoor-air-temperature
       - discharge-air-temperature
       - outside-air-damper-output
-      - return-air-damper-output
       - mixed-air-damper-output
       - cooling-valve-output
       - heating-valve-output
       - filter-alarm
       - low-limit-alarm
       - smoke-alarm
+      - discharge-air-temperature-setpoint
+      - duct-static-pressure
+      - duct-static-pressure-setpoint
+      - filter-differential-pressure
   - id: rooftop-unit
     name: Rooftop Unit
     abbreviation: RTU
@@ -136,7 +139,7 @@ equipment:
       - supply-air-temperature
       - return-air-temperature
       - mixed-air-temperature
-      - outside-air-temperature
+      - outdoor-air-temperature
       - discharge-air-temperature
       - outside-air-damper-output
       - cooling-valve-output
@@ -145,6 +148,8 @@ equipment:
       - gas-fired-heat-output
       - filter-alarm
       - economizer-enable
+      - filter-differential-pressure
+      - duct-static-pressure
   - id: makeup-air-unit
     name: Makeup Air Unit
     abbreviation: MAU
@@ -209,7 +214,7 @@ equipment:
       - supply-fan-speed
       - supply-air-temperature
       - discharge-air-temperature
-      - outside-air-temperature
+      - outdoor-air-temperature
       - heating-valve-output
       - gas-fired-heat-output
       - filter-alarm
@@ -261,7 +266,7 @@ equipment:
       - supply-fan-status
       - supply-fan-speed
       - supply-air-temperature
-      - outside-air-temperature
+      - outdoor-air-temperature
       - discharge-air-temperature
       - cooling-valve-output
       - heating-valve-output
@@ -337,8 +342,8 @@ equipment:
       - zone-temperature
       - cooling-valve-output
       - heating-valve-output
-      - cooling-setpoint
-      - heating-setpoint
+      - occupied-cooling-setpoint
+      - occupied-heating-setpoint
   - id: computer-room-air-conditioner
     name: Computer Room Air Conditioner
     abbreviation: CRAC
@@ -568,8 +573,8 @@ equipment:
       - supply-fan-status
       - discharge-air-temperature
       - zone-temperature
-      - cooling-setpoint
-      - heating-setpoint
+      - occupied-cooling-setpoint
+      - occupied-heating-setpoint
   - id: packaged-terminal-heat-pump
     name: Packaged Terminal Heat Pump
     abbreviation: PTHP
@@ -623,8 +628,8 @@ equipment:
       - supply-fan-status
       - discharge-air-temperature
       - zone-temperature
-      - cooling-setpoint
-      - heating-setpoint
+      - occupied-cooling-setpoint
+      - occupied-heating-setpoint
   - id: water-source-heat-pump
     name: Water Source Heat Pump
     abbreviation: WSHP
@@ -689,8 +694,6 @@ equipment:
       - supply-fan-status
       - discharge-air-temperature
       - zone-temperature
-      - entering-water-temperature
-      - leaving-water-temperature
   - id: air-source-heat-pump
     name: Air Source Heat Pump
     abbreviation: ASHP
@@ -756,9 +759,9 @@ equipment:
       - supply-fan-status
       - discharge-air-temperature
       - zone-temperature
-      - outside-air-temperature
-      - cooling-setpoint
-      - heating-setpoint
+      - outdoor-air-temperature
+      - occupied-cooling-setpoint
+      - occupied-heating-setpoint
   - id: energy-recovery-ventilator
     name: Energy Recovery Ventilator
     abbreviation: ERV
@@ -825,7 +828,7 @@ equipment:
       - exhaust-fan-status
       - supply-air-temperature
       - exhaust-air-temperature
-      - outside-air-temperature
+      - outdoor-air-temperature
       - heat-wheel-output
   - id: heat-recovery-ventilator
     name: Heat Recovery Ventilator
@@ -880,7 +883,7 @@ equipment:
       - exhaust-fan-status
       - supply-air-temperature
       - exhaust-air-temperature
-      - outside-air-temperature
+      - outdoor-air-temperature
   - id: air-turnover-unit
     name: Air Turnover Unit
     abbreviation: ATU

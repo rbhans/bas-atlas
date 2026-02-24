@@ -45,4 +45,7 @@ aliases:
     - filter-status
 
 related:
+  - filter-alarm
   - filter-differential-pressure
+  - final-filter-status
+  - prefilter-status

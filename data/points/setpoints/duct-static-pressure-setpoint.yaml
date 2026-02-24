@@ -26,6 +26,7 @@ notes:
   - Static pressure reset can save 20-40% of fan energy
 
 related:
-  - duct-static-pressure
+  - discharge-air-pressure
   - discharge-air-pressure-setpoint
+  - duct-static-pressure
   - supply-fan-speed

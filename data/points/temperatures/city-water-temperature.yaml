@@ -29,3 +29,5 @@ aliases:
     - city wtr temperature
     - city-wtr-temperature
     - city-water-temperature
+related:
+  - domestic-hot-water-supply-temperature

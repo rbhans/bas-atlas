@@ -28,4 +28,10 @@ notes:
   - Often tracked per equipment, floor, or building
 
 related:
+  - apparent-power-kva
+  - electrical-current-sensor
   - electrical-demand-kw
+  - frequency-sensor
+  - power-factor
+  - reactive-power-kvar
+  - voltage-sensor

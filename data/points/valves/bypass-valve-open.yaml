@@ -26,3 +26,7 @@ aliases:
     - byp-vlv-opn
     - byp vlv op
     - byp-vlv-op
+related:
+  - bypass-valve-closed
+  - bypass-valve-feedback
+  - bypass-valve-output

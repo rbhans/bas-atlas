@@ -45,3 +45,7 @@ aliases:
     - ret air humidity
     - ret-air-humidity
     - return-air-humidity
+related:
+  - humidity-setpoint
+  - outdoor-air-humidity
+  - zone-humidity

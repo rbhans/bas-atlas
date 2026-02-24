@@ -30,6 +30,8 @@ notes:
 
 related:
   - co2-setpoint
+  - minimum-outdoor-airflow-setpoint
   - outdoor-air-co2
   - outdoor-air-flow
   - return-air-co2
+  - volatile-organic-compounds

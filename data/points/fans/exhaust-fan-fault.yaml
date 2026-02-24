@@ -37,3 +37,10 @@ aliases:
     - exh fan fault
     - exh-fan-fault
     - exhaust-fan-fault
+related:
+  - exhaust-fan-alarm
+  - exhaust-fan-command
+  - exhaust-fan-feedback
+  - exhaust-fan-output
+  - exhaust-fan-speed
+  - exhaust-fan-status

@@ -40,3 +40,10 @@ aliases:
     - exhaust fan cmd
     - exhaust-fan-cmd
     - exhaust-fan-command
+related:
+  - exhaust-fan-alarm
+  - exhaust-fan-fault
+  - exhaust-fan-feedback
+  - exhaust-fan-output
+  - exhaust-fan-speed
+  - exhaust-fan-status

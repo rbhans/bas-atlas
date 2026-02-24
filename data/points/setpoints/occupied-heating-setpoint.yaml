@@ -54,3 +54,10 @@ aliases:
     - occ-heating-setpoint
     - occupied-heating-setpoint
     - occupied-htg-sp
+related:
+  - effective-heating-setpoint
+  - heating-enable
+  - occupied-cooling-setpoint
+  - standby-heating-setpoint
+  - unoccupied-heating-setpoint
+  - zone-temperature

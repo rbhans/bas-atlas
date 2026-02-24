@@ -57,3 +57,7 @@ aliases:
     - nrg recovery whl cmd
     - nrg-recovery-whl-cmd
     - energy recovery wheel command
+related:
+  - heat-wheel-feedback
+  - heat-wheel-output
+  - heat-wheel-status

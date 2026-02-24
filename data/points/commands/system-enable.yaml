@@ -34,3 +34,7 @@ aliases:
     - system enbl
     - system-enbl
     - system-enable
+related:
+  - occupied-command
+  - shutdown
+  - unit-enable-mode

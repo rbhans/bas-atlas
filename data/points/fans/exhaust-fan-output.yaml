@@ -31,4 +31,9 @@ aliases:
     - exhaust-fan-out
     - exhaust-fan-output
 related:
+  - exhaust-fan-alarm
+  - exhaust-fan-command
+  - exhaust-fan-fault
   - exhaust-fan-feedback
+  - exhaust-fan-speed
+  - exhaust-fan-status

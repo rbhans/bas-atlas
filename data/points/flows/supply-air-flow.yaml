@@ -38,3 +38,6 @@ aliases:
     - supply air flw
     - supply-air-flw
     - supply-air-flow
+related:
+  - discharge-air-flow
+  - return-air-flow

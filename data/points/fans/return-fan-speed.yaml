@@ -34,3 +34,10 @@ aliases:
     - return fan spd
     - return-fan-spd
     - return-fan-speed
+related:
+  - return-fan-alarm
+  - return-fan-command
+  - return-fan-fault
+  - return-fan-feedback
+  - return-fan-output
+  - return-fan-status

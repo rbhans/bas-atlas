@@ -32,4 +32,7 @@ aliases:
     - pri-chilled-water-pump-feedback
     - primary-chilled-water-pump-feedback
 related:
+  - primary-chilled-water-pump-alarm
+  - primary-chilled-water-pump-command
   - primary-chilled-water-pump-output
+  - primary-chilled-water-pump-status

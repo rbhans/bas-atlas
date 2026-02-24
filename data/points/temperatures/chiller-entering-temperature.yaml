@@ -78,3 +78,7 @@ aliases:
     - chl-entering-temperature
     - chiller entering water temp
     - chiller-entering-temperature
+related:
+  - chilled-water-return-temperature
+  - chilled-water-supply-temperature
+  - chiller-leaving-temperature

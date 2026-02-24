@@ -69,3 +69,7 @@ aliases:
     - chiller fault
     - chiller-alarm
     - chiller warning
+related:
+  - chiller-command
+  - chiller-enable
+  - chiller-status

@@ -34,3 +34,11 @@ aliases:
     - exhaust fan spd
     - exhaust-fan-spd
     - exhaust-fan-speed
+related:
+  - exhaust-air-flow
+  - exhaust-fan-alarm
+  - exhaust-fan-command
+  - exhaust-fan-fault
+  - exhaust-fan-feedback
+  - exhaust-fan-output
+  - exhaust-fan-status

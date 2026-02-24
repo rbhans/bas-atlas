@@ -50,4 +50,5 @@ aliases:
     - stm-heating-output
     - steam-heating-output
 related:
+  - steam-flow
   - steam-heating-feedback

@@ -32,4 +32,9 @@ aliases:
     - ret-fan-feedback
     - return-fan-feedback
 related:
+  - return-fan-alarm
+  - return-fan-command
+  - return-fan-fault
   - return-fan-output
+  - return-fan-speed
+  - return-fan-status

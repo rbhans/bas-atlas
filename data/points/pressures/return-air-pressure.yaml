@@ -42,3 +42,7 @@ aliases:
     - return air press
     - return-air-press
     - return-air-pressure
+related:
+  - return-air-high-pressure-alarm
+  - return-air-low-pressure-alarm
+  - return-air-pressure-setpoint

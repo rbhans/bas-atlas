@@ -51,3 +51,5 @@ aliases:
     - ma air temperature setpoint
     - ma-air-temperature-setpoint
     - mixed-air-temperature-setpoint
+related:
+  - mixed-air-temperature

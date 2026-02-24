@@ -35,3 +35,10 @@ aliases:
     - relief fan spd
     - relief-fan-spd
     - relief-fan-speed
+related:
+  - relief-fan-alarm
+  - relief-fan-command
+  - relief-fan-fault
+  - relief-fan-feedback
+  - relief-fan-output
+  - relief-fan-status

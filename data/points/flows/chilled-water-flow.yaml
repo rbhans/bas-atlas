@@ -25,6 +25,7 @@ notes:
   - Low flow with high delta-T may indicate valve or pump issues
 
 related:
-  - chilled-water-supply-temperature
-  - chilled-water-return-temperature
   - chilled-water-differential-pressure
+  - chilled-water-differential-pressure-setpoint
+  - chilled-water-return-temperature
+  - chilled-water-supply-temperature

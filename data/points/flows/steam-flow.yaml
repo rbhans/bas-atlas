@@ -24,5 +24,6 @@ notes:
   - Used for campus steam billing and boiler plant monitoring
 
 related:
+  - steam-heating-output
   - steam-valve-closed
   - steam-valve-open

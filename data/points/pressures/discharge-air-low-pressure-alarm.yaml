@@ -58,3 +58,6 @@ aliases:
     - discharge air low pressure alm
     - discharge-air-low-pressure-alm
     - discharge-air-low-pressure-alarm
+related:
+  - discharge-air-high-pressure-alarm
+  - discharge-air-pressure

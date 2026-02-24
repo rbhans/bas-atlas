@@ -41,5 +41,6 @@ aliases:
     - hw-return-temp
 
 related:
-  - hot-water-supply-temperature-setpoint
   - hot-water-flow
+  - hot-water-supply-temperature
+  - hot-water-supply-temperature-setpoint

@@ -38,3 +38,8 @@ aliases:
     - cooling-en
     - cool enable
     - cooling-enable
+related:
+  - cooling-valve-output
+  - dx-cooling-stage
+  - heating-enable
+  - occupied-cooling-setpoint

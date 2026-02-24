@@ -63,3 +63,8 @@ aliases:
     - cooling tower isolation vlv
     - cooling-tower-isolation-vlv
     - cooling-tower-isolation-valve
+related:
+  - condenser-water-valve-closed
+  - condenser-water-valve-open
+  - cooling-tower-command
+  - cooling-tower-output

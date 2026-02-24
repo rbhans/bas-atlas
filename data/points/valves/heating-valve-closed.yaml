@@ -28,3 +28,7 @@ aliases:
     - hea-vlv-cl
     - hea vlv cld
     - hea-vlv-cld
+related:
+  - heating-valve-feedback
+  - heating-valve-open
+  - heating-valve-output

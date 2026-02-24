@@ -45,3 +45,8 @@ aliases:
     - primary chilled water pump sts
     - primary-chilled-water-pump-sts
     - primary-chilled-water-pump-status
+related:
+  - primary-chilled-water-pump-alarm
+  - primary-chilled-water-pump-command
+  - primary-chilled-water-pump-feedback
+  - primary-chilled-water-pump-output

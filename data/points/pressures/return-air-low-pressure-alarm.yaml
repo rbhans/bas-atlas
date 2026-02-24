@@ -55,3 +55,6 @@ aliases:
     - return air low pressure alm
     - return-air-low-pressure-alm
     - return-air-low-pressure-alarm
+related:
+  - return-air-high-pressure-alarm
+  - return-air-pressure

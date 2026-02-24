@@ -34,4 +34,6 @@ aliases:
     - mix-valve-feedback
     - mixing-valve-feedback
 related:
+  - mixing-valve-closed
+  - mixing-valve-open
   - mixing-valve-output

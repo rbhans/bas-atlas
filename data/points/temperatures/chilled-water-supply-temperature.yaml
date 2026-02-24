@@ -56,8 +56,11 @@ notes:
   - Must stay above 40°F to prevent coil freezing
   - Delta T from return typically 10-14°F
 related:
-  - chilled-water-return-temperature
-  - chiller-1-leaving-temperature
-  - cooling-valve-output
-  - chilled-water-supply-temperature-setpoint
   - chilled-water-flow
+  - chilled-water-return-temperature
+  - chilled-water-supply-temperature-setpoint
+  - chiller-entering-temperature
+  - chiller-leaving-temperature
+  - cooling-valve-output
+  - primary-chilled-water-supply-temperature
+  - secondary-chilled-water-supply-temperature

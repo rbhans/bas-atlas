@@ -36,3 +36,6 @@ aliases:
     - discharge-air-temperature-setpoint
     - dat-setpoint
     - da-temp-sp
+related:
+  - discharge-air-temperature
+  - effective-discharge-air-temperature-setpoint

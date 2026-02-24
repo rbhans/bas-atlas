@@ -40,4 +40,7 @@ aliases:
     - humidifier-feedback
     - humidifier valve feedback
 related:
+  - humidifier-enable
   - humidifier-output
+  - humidity-setpoint
+  - zone-humidity

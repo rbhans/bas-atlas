@@ -51,5 +51,6 @@ aliases:
     - co2
 
 related:
-  - zone-co2
   - co2-setpoint
+  - outdoor-air-co2
+  - zone-co2

@@ -48,4 +48,9 @@ aliases:
     - heating-valve-out
     - heating-valve-output
 related:
+  - discharge-air-temperature
+  - heating-enable
+  - heating-valve-closed
   - heating-valve-feedback
+  - heating-valve-open
+  - zone-temperature

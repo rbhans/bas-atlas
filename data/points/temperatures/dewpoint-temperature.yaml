@@ -28,6 +28,8 @@ notes:
   - Can be calculated from dry bulb temperature and relative humidity
 
 related:
-  - zone-humidity
   - discharge-air-humidity
   - humidity-setpoint
+  - outdoor-air-temperature
+  - wet-bulb-temperature
+  - zone-humidity

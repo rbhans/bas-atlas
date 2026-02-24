@@ -39,4 +39,11 @@ aliases:
     - supply-fan-out
     - supply-fan-output
 related:
+  - discharge-air-pressure
+  - duct-static-pressure
+  - supply-fan-alarm
+  - supply-fan-command
+  - supply-fan-fault
   - supply-fan-feedback
+  - supply-fan-speed
+  - supply-fan-status

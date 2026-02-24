@@ -32,4 +32,9 @@ aliases:
     - exh-fan-feedback
     - exhaust-fan-feedback
 related:
+  - exhaust-fan-alarm
+  - exhaust-fan-command
+  - exhaust-fan-fault
   - exhaust-fan-output
+  - exhaust-fan-speed
+  - exhaust-fan-status

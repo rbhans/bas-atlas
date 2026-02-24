@@ -49,4 +49,7 @@ aliases:
     - humidifier-output
     - humidifier valve out
 related:
+  - humidifier-enable
   - humidifier-feedback
+  - humidity-setpoint
+  - zone-humidity

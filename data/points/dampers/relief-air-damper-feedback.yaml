@@ -41,4 +41,7 @@ aliases:
     - rel-air-damper-feedback
     - relief-air-damper-feedback
 related:
+  - relief-air-damper-closed
+  - relief-air-damper-open
   - relief-air-damper-output
+  - relief-air-damper-position

@@ -59,3 +59,7 @@ aliases:
     - dap-setpoint
     - duct-pressure-sp
     - static-pressure-sp
+related:
+  - discharge-air-pressure
+  - duct-static-pressure
+  - duct-static-pressure-setpoint

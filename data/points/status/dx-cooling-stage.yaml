@@ -71,3 +71,7 @@ aliases:
     - compressor-stge
     - compressor stage
     - dx-cooling-stage
+related:
+  - cooling-enable
+  - discharge-air-temperature
+  - zone-temperature

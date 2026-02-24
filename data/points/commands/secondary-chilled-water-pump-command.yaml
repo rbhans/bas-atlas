@@ -41,3 +41,8 @@ aliases:
     - secondary chilled water pump cmd
     - secondary-chilled-water-pump-cmd
     - secondary-chilled-water-pump-command
+related:
+  - secondary-chilled-water-pump-alarm
+  - secondary-chilled-water-pump-feedback
+  - secondary-chilled-water-pump-output
+  - secondary-chilled-water-pump-status

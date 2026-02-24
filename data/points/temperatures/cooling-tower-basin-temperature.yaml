@@ -85,3 +85,7 @@ aliases:
     - clg tower basin temperature
     - clg-tower-basin-temperature
     - cooling-tower-basin-temperature
+related:
+  - condenser-water-return-temperature
+  - condenser-water-supply-temperature
+  - wet-bulb-temperature

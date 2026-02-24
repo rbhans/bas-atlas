@@ -26,5 +26,6 @@ notes:
   - Can trigger increased ventilation or filtration when levels are elevated
 
 related:
-  - zone-co2
+  - particulate-matter-pm10
   - particulate-matter-pm25
+  - zone-co2

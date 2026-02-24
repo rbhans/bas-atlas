@@ -38,3 +38,7 @@ aliases:
     - exhaust air flw
     - exhaust-air-flw
     - exhaust-air-flow
+related:
+  - exhaust-air-damper-output
+  - exhaust-fan-speed
+  - outdoor-air-flow

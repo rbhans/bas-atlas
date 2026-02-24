@@ -33,4 +33,7 @@ aliases:
     - ht-water-pump-output
     - hot-water-pump-output
 related:
+  - hot-water-pump-alarm
+  - hot-water-pump-command
   - hot-water-pump-feedback
+  - hot-water-pump-status

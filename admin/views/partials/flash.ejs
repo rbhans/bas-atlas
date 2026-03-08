@@ -1,0 +1,11 @@
+<% if (typeof flash !== 'undefined' && flash) { %>
+  <% if (flash.type === 'success') { %>
+    <article style="background: var(--pico-ins-color); padding: 0.75rem 1rem; margin-bottom: 1rem;">
+      <%= flash.msg %>
+    </article>
+  <% } else if (flash.type === 'error') { %>
+    <article style="background: var(--pico-del-color); padding: 0.75rem 1rem; margin-bottom: 1rem;">
+      <%= flash.msg %>
+    </article>
+  <% } %>
+<% } %>

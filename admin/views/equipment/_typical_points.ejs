@@ -1,0 +1,21 @@
+<ul>
+  <% for (const tp of typicalPoints) { %>
+  <li>
+    <a href="/points/<%= tp.id %>"><%= tp.name %></a>
+    <small class="muted">(<%= tp.category %> / <%= tp.point_function || 'n/a' %>)</small>
+    <button class="outline contrast" style="display:inline; padding:0.1rem 0.3rem; font-size:0.8rem; margin:0;"
+            hx-delete="/equipment/<%= equip.id %>/typical-points"
+            hx-vals='{"point_id":"<%= tp.id %>"}'
+            hx-target="#typical-points"
+            hx-confirm="Remove '<%= tp.name %>' from typical points?">&times;</button>
+  </li>
+  <% } %>
+  <% if (typicalPoints.length === 0) { %><li><small class="muted">No typical points</small></li><% } %>
+</ul>
+
+<input type="search" placeholder="Search points to add..."
+       hx-get="/api/points-search"
+       hx-target="#tp-search-results"
+       hx-trigger="keyup changed delay:300ms"
+       hx-vals='{"exclude":"<%= typicalPoints.map(p => p.id).join(',') %>","context_type":"typical","context_id":"<%= equip.id %>"}'>
+<div id="tp-search-results"></div>

@@ -1,0 +1,38 @@
+<%- include('../partials/header') %>
+<h1><%= brand.name %></h1>
+<p><small class="muted">ID: <%= brand.id %></small></p>
+
+<form method="POST" action="/brands/<%= brand.id %>?_method=PUT">
+  <div class="grid">
+    <label>Name <input type="text" name="name" value="<%= brand.name %>" required></label>
+    <label>Slug <input type="text" name="slug" value="<%= brand.slug || '' %>"></label>
+  </div>
+  <div class="grid">
+    <label>Website <input type="url" name="website" value="<%= brand.website || '' %>"></label>
+  </div>
+  <label>Description <textarea name="description"><%= brand.description || '' %></textarea></label>
+  <button type="submit">Save Changes</button>
+</form>
+
+<% if (models.length > 0) { %>
+<hr>
+<h3>Models by this brand</h3>
+<table>
+  <thead><tr><th>Name</th><th>Status</th></tr></thead>
+  <tbody>
+    <% for (const m of models) { %>
+    <tr>
+      <td><a href="/models/<%= m.id %>"><%= m.name %></a></td>
+      <td><%= m.status || '' %></td>
+    </tr>
+    <% } %>
+  </tbody>
+</table>
+<% } %>
+
+<div class="danger-zone">
+  <button class="outline contrast"
+    hx-delete="/brands/<%= brand.id %>"
+    hx-confirm="Delete this brand?">Delete Brand</button>
+</div>
+<%- include('../partials/footer') %>

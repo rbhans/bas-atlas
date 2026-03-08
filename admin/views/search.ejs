@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+<h1>Search</h1>
+
+<input type="search" name="q" placeholder="Search all entities..." value="<%= q %>"
+       hx-get="/search" hx-target="#search-results"
+       hx-trigger="keyup changed delay:300ms" hx-push-url="true"
+       autofocus>
+
+<div id="search-results">
+  <%- include('search/_results') %>
+</div>
+<%- include('partials/footer') %>

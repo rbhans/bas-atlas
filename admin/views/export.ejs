@@ -1,0 +1,39 @@
+<%- include('partials/header') %>
+<h1>Export</h1>
+
+<% if (log) { %>
+  <article style="background: var(--pico-ins-color); padding: 0.75rem 1rem; margin-bottom: 1rem;">
+    <strong>Export completed</strong>
+  </article>
+  <details open>
+    <summary>Export Log (<%= log.length %> entries)</summary>
+    <pre><code><% for (const entry of log) { %><%= entry %>
+<% } %></code></pre>
+  </details>
+  <hr>
+<% } %>
+
+<h3>Summary</h3>
+<table>
+  <thead><tr><th>Entity</th><th>Count</th><th>Output Path</th></tr></thead>
+  <tbody>
+    <tr><td>Points</td><td><%= counts.points %></td><td><code>data/points/{category}/{id}.yaml</code></td></tr>
+    <tr><td>Equipment</td><td><%= counts.equipment %></td><td><code>data/equipment/{category}.yaml</code></td></tr>
+    <tr><td>Brands</td><td><%= counts.brands %></td><td><code>data/catalog/brands/{slug}.json</code></td></tr>
+    <tr><td>Types</td><td><%= counts.types %></td><td><code>data/catalog/types/{slug}.json</code></td></tr>
+    <tr><td>Models</td><td><%= counts.models %></td><td><code>data/catalog/models/{slug}.json</code></td></tr>
+  </tbody>
+</table>
+
+<article>
+  <strong>Warning:</strong> This will overwrite all source files in <code>data/</code>. Make sure your working tree is clean (commit or stash changes first).
+</article>
+
+<form method="POST" action="/export">
+  <label>
+    <input type="checkbox" name="rebuild">
+    Also run full build after export (<code>npm run build</code>)
+  </label>
+  <button type="submit" class="contrast">Export Now</button>
+</form>
+<%- include('partials/footer') %>

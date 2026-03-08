@@ -1,0 +1,35 @@
+<%- include('../partials/header') %>
+<h1><%= type.name %></h1>
+<p><small class="muted">ID: <%= type.id %></small></p>
+
+<form method="POST" action="/types/<%= type.id %>?_method=PUT">
+  <div class="grid">
+    <label>Name <input type="text" name="name" value="<%= type.name %>" required></label>
+    <label>Slug <input type="text" name="slug" value="<%= type.slug || '' %>"></label>
+  </div>
+  <label>Description <textarea name="description"><%= type.description || '' %></textarea></label>
+  <button type="submit">Save Changes</button>
+</form>
+
+<% if (models.length > 0) { %>
+<hr>
+<h3>Models of this type</h3>
+<table>
+  <thead><tr><th>Name</th><th>Status</th></tr></thead>
+  <tbody>
+    <% for (const m of models) { %>
+    <tr>
+      <td><a href="/models/<%= m.id %>"><%= m.name %></a></td>
+      <td><%= m.status || '' %></td>
+    </tr>
+    <% } %>
+  </tbody>
+</table>
+<% } %>
+
+<div class="danger-zone">
+  <button class="outline contrast"
+    hx-delete="/types/<%= type.id %>"
+    hx-confirm="Delete this type?">Delete Type</button>
+</div>
+<%- include('../partials/footer') %>

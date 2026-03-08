@@ -1,0 +1,38 @@
+<% const common = aliases.filter(a => a.alias_group === 'common'); %>
+<% const misspellings = aliases.filter(a => a.alias_group === 'misspellings'); %>
+
+<h4>Common (<%= common.length %>)</h4>
+<div>
+  <% for (const a of common) { %>
+    <span class="chip">
+      <%= a.alias %>
+      <button hx-delete="/equipment/<%= equip.id %>/aliases"
+              hx-vals='{"alias":"<%= a.alias %>","group":"common"}'
+              hx-target="#equip-aliases"
+              hx-confirm="Remove alias '<%= a.alias %>'?">&times;</button>
+    </span>
+  <% } %>
+</div>
+<form class="inline-form" hx-post="/equipment/<%= equip.id %>/aliases" hx-target="#equip-aliases">
+  <input type="hidden" name="group" value="common">
+  <input type="text" name="alias" placeholder="New alias..." required>
+  <button type="submit">Add</button>
+</form>
+
+<h4>Misspellings (<%= misspellings.length %>)</h4>
+<div>
+  <% for (const a of misspellings) { %>
+    <span class="chip">
+      <%= a.alias %>
+      <button hx-delete="/equipment/<%= equip.id %>/aliases"
+              hx-vals='{"alias":"<%= a.alias %>","group":"misspellings"}'
+              hx-target="#equip-aliases"
+              hx-confirm="Remove alias '<%= a.alias %>'?">&times;</button>
+    </span>
+  <% } %>
+</div>
+<form class="inline-form" hx-post="/equipment/<%= equip.id %>/aliases" hx-target="#equip-aliases">
+  <input type="hidden" name="group" value="misspellings">
+  <input type="text" name="alias" placeholder="New misspelling..." required>
+  <button type="submit">Add</button>
+</form>

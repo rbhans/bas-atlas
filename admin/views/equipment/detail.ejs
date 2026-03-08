@@ -1,0 +1,91 @@
+<%- include('../partials/header') %>
+<h1><%= equip.name %></h1>
+<p><small class="muted">ID: <%= equip.id %></small></p>
+
+<form method="POST" action="/equipment/<%= equip.id %>?_method=PUT">
+  <div class="grid">
+    <label>Name
+      <input type="text" name="name" value="<%= equip.name %>" required>
+    </label>
+    <label>Full Name
+      <input type="text" name="full_name" value="<%= equip.full_name || '' %>">
+    </label>
+  </div>
+  <div class="grid">
+    <label>Abbreviation
+      <input type="text" name="abbreviation" value="<%= equip.abbreviation || '' %>">
+    </label>
+    <label>Category
+      <input type="text" name="category" value="<%= equip.category %>" list="cat-list" required>
+      <datalist id="cat-list">
+        <% for (const c of categories) { %><option value="<%= c %>"><% } %>
+      </datalist>
+    </label>
+  </div>
+  <label>Description
+    <textarea name="description"><%= equip.description || '' %></textarea>
+  </label>
+  <div class="grid">
+    <label>Brick Class
+      <input type="text" name="brick" value="<%= equip.brick || '' %>">
+    </label>
+    <label>Haystack Tags <small class="muted">(space-separated, "equip" added automatically)</small>
+      <input type="text" name="haystack" value="<%= (equip.haystack_tag_string || '').split(' ').filter(t => t !== 'equip').join(' ') %>">
+    </label>
+  </div>
+  <label>Parent Equipment
+    <select name="parent_id">
+      <option value="">None</option>
+      <% for (const eq of allEquip) { %>
+        <option value="<%= eq.id %>" <%= equip.parent_id === eq.id ? 'selected' : '' %>><%= eq.name %></option>
+      <% } %>
+    </select>
+  </label>
+  <button type="submit">Save Changes</button>
+</form>
+
+<hr>
+
+<!-- Aliases -->
+<h3>Aliases</h3>
+<div id="equip-aliases">
+  <%- include('_aliases') %>
+</div>
+
+<hr>
+
+<!-- Subtypes -->
+<h3>Subtypes</h3>
+<div id="equip-subtypes">
+  <%- include('_subtypes') %>
+</div>
+
+<hr>
+
+<!-- Typical Points -->
+<h3>Typical Points</h3>
+<div id="typical-points">
+  <%- include('_typical_points') %>
+</div>
+
+<hr>
+
+<!-- Haystack Tags (read-only) -->
+<% if (tags.length > 0) { %>
+<h3>Haystack Tags</h3>
+<div>
+  <% for (const t of tags) { %>
+    <span class="chip"><%= t.tag_name %> <small class="muted">(<%= t.tag_kind %>)</small></span>
+  <% } %>
+</div>
+<hr>
+<% } %>
+
+<div class="danger-zone">
+  <button class="outline contrast"
+    hx-delete="/equipment/<%= equip.id %>"
+    hx-confirm="Delete this equipment and all its data? This cannot be undone.">
+    Delete Equipment
+  </button>
+</div>
+<%- include('../partials/footer') %>

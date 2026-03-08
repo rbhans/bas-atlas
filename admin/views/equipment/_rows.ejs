@@ -1,0 +1,11 @@
+<% for (const e of equipment) { %>
+<tr>
+  <td><a href="/equipment/<%= e.id %>"><%= e.name %></a></td>
+  <td><%= e.abbreviation || '' %></td>
+  <td><%= e.category %></td>
+  <td><%= e.tp_count %></td>
+</tr>
+<% } %>
+<% if (equipment.length === 0) { %>
+<tr><td colspan="4">No equipment found</td></tr>
+<% } %>

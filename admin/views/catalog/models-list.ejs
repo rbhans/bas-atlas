@@ -1,0 +1,38 @@
+<%- include('../partials/header') %>
+<div style="display:flex; justify-content:space-between; align-items:center;">
+  <h1>Models</h1>
+  <a href="/models/new" role="button">+ New Model</a>
+</div>
+
+<form class="filter-bar">
+  <select name="brand" onchange="this.form.submit()">
+    <option value="">All Brands</option>
+    <% for (const b of brands) { %>
+      <option value="<%= b.id %>" <%= filters.brand === b.id ? 'selected' : '' %>><%= b.name %></option>
+    <% } %>
+  </select>
+  <select name="type" onchange="this.form.submit()">
+    <option value="">All Types</option>
+    <% for (const t of types) { %>
+      <option value="<%= t.id %>" <%= filters.type === t.id ? 'selected' : '' %>><%= t.name %></option>
+    <% } %>
+  </select>
+</form>
+
+<table>
+  <thead>
+    <tr><th>Name</th><th>Brand</th><th>Type</th><th>Status</th></tr>
+  </thead>
+  <tbody>
+    <% for (const m of models) { %>
+    <tr>
+      <td><a href="/models/<%= m.id %>"><%= m.name %></a></td>
+      <td><a href="/brands/<%= m.brand_id %>"><%= m.brand_name %></a></td>
+      <td><a href="/types/<%= m.type_id %>"><%= m.type_name %></a></td>
+      <td><%= m.status || '' %></td>
+    </tr>
+    <% } %>
+    <% if (models.length === 0) { %><tr><td colspan="4">No models</td></tr><% } %>
+  </tbody>
+</table>
+<%- include('../partials/footer') %>

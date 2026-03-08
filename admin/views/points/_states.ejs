@@ -1,0 +1,24 @@
+<table>
+  <thead><tr><th>Key</th><th>Value</th><th></th></tr></thead>
+  <tbody>
+    <% for (const s of states) { %>
+    <tr>
+      <td><%= s.state_key %></td>
+      <td><%= s.state_value %></td>
+      <td>
+        <button class="outline contrast" style="padding:0.2rem 0.5rem; margin:0;"
+                hx-delete="/points/<%= point.id %>/states"
+                hx-vals='{"state_key":"<%= s.state_key %>"}'
+                hx-target="#point-states"
+                hx-confirm="Remove state '<%= s.state_key %>'?">&times;</button>
+      </td>
+    </tr>
+    <% } %>
+    <% if (states.length === 0) { %><tr><td colspan="3"><small class="muted">No states</small></td></tr><% } %>
+  </tbody>
+</table>
+<form class="inline-form" hx-post="/points/<%= point.id %>/states" hx-target="#point-states">
+  <input type="text" name="state_key" placeholder="Key (e.g., 0)" required style="width:80px;">
+  <input type="text" name="state_value" placeholder="Value (e.g., Off,Stop)" required>
+  <button type="submit">Add</button>
+</form>

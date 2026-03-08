@@ -1,0 +1,23 @@
+<%- include('../partials/header') %>
+<div style="display:flex; justify-content:space-between; align-items:center;">
+  <h1>Brands</h1>
+  <a href="/brands/new" role="button">+ New Brand</a>
+</div>
+
+<table>
+  <thead>
+    <tr><th>Name</th><th>Slug</th><th>Website</th><th>Models</th></tr>
+  </thead>
+  <tbody>
+    <% for (const b of brands) { %>
+    <tr>
+      <td><a href="/brands/<%= b.id %>"><%= b.name %></a></td>
+      <td><%= b.slug || '' %></td>
+      <td><% if (b.website) { %><a href="<%= b.website %>" target="_blank"><%= b.website %></a><% } %></td>
+      <td><%= b.model_count %></td>
+    </tr>
+    <% } %>
+    <% if (brands.length === 0) { %><tr><td colspan="4">No brands</td></tr><% } %>
+  </tbody>
+</table>
+<%- include('../partials/footer') %>

@@ -1,0 +1,23 @@
+<% if (q && results.length === 0) { %>
+<p><small class="muted">No results found for "<%= q %>"</small></p>
+<% } %>
+
+<%
+const typeMap = { point: 'Points', equipment: 'Equipment', brand: 'Brands', type: 'Types', model: 'Models' };
+const urlMap = { point: '/points/', equipment: '/equipment/', brand: '/brands/', type: '/types/', model: '/models/' };
+const grouped = {};
+for (const r of results) {
+  const t = r.entry_type;
+  if (!grouped[t]) grouped[t] = [];
+  grouped[t].push(r);
+}
+%>
+
+<% for (const [type, items] of Object.entries(grouped)) { %>
+<h4><%= typeMap[type] || type %> (<%= items.length %>)</h4>
+<ul>
+  <% for (const item of items) { %>
+    <li><a href="<%= urlMap[type] || '/' %><%= item.entry_id %>"><%= item.name %></a></li>
+  <% } %>
+</ul>
+<% } %>

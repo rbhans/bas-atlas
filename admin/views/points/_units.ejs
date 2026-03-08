@@ -1,0 +1,16 @@
+<div>
+  <% for (const u of units) { %>
+    <span class="chip">
+      <%= u.unit %>
+      <button hx-delete="/points/<%= point.id %>/units"
+              hx-vals='{"unit":"<%= u.unit %>"}'
+              hx-target="#point-units"
+              hx-confirm="Remove unit '<%= u.unit %>'?">&times;</button>
+    </span>
+  <% } %>
+  <% if (units.length === 0) { %><small class="muted">No units</small><% } %>
+</div>
+<form class="inline-form" hx-post="/points/<%= point.id %>/units" hx-target="#point-units">
+  <input type="text" name="unit" placeholder="New unit (e.g., °F)..." required>
+  <button type="submit">Add</button>
+</form>

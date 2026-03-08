@@ -351,3 +351,76 @@ dist/atlas/*.json, dist/catalog/*.json
 - All existing tests
 - The SQLite build pipeline
 - CI/CD workflow
+
+---
+
+## Shared Helpers
+
+### `admin/helpers/haystack.ts`
+Extract `parseHaystackString` and `inferPointKind` from `build-sqlite.ts` into a shared module. Loads `data/haystack-tags.yaml` and `data/haystack-units.yaml` once at startup. Used when saving/updating points or equipment with a new haystack tag string — re-parses into individual tags and repopulates `point_haystack_tags` / `equipment_haystack_tags`.
+
+### `admin/helpers/search-index.ts`
+- `updateSearchEntry(entityId, entityType, name, tokens[])` — DELETE then INSERT into FTS5
+- `deleteSearchEntry(entityId, entityType)` — DELETE from FTS5
+
+Called after every CRUD operation to keep the search index in sync. Token generation logic extracted from `build-sqlite.ts`.
+
+### `admin/helpers/slugify.ts`
+```ts
+export function slugify(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
+```
+Used for auto-generating IDs from names in create forms.
+
+---
+
+## Export Logic (DB → YAML/JSON)
+
+### Points Export
+For each point in DB:
+1. Query point + all child tables (aliases, units, notes, states, related)
+2. Strip auto-added "point" marker from `haystack_tag_string`
+3. Write to `data/points/{category}/{id}.yaml` matching `PointYamlFile` shape
+4. Delete orphan YAML files for points no longer in DB
+
+### Equipment Export
+1. Group equipment by category
+2. For each group, query child data (aliases, subtypes, subtype aliases, typical_points)
+3. Strip auto-added "equip" marker from `haystack_tag_string`
+4. Write subtypes as plain strings when they have no extra metadata
+5. Write each category to `data/equipment/{category}.yaml`
+6. Delete orphan category files
+
+### Catalog Export
+- Brands → `data/catalog/brands/{slug}.json` as `{"brand": {...}}`
+- Types → `data/catalog/types/{slug}.json` as `{"type": {...}}`
+- Models → `data/catalog/models/{slug}.json` as `{"model": {...}}`, mapping `brand_id` → `brand`, `type_id` → `type`
+- Delete orphan JSON files
+
+### Post-Export
+- Update `meta.lastUpdated`
+- Optionally run `npm run build` to regenerate all `dist/` outputs
+
+---
+
+## New Dependencies
+
+| Package | Type | Purpose |
+|---------|------|---------|
+| `express` | runtime | HTTP server |
+| `ejs` | runtime | Template engine |
+| `method-override` | runtime | PUT/DELETE from HTML forms via `_method` |
+| `@types/express` | dev | Type definitions |
+| `@types/method-override` | dev | Type definitions |
+
+htmx and Pico CSS loaded from CDN — no npm packages needed.
+
+---
+
+## Design Decisions
+
+- **Query-param flash messages** instead of sessions — `?flash_type=success&flash_msg=Saved`. No session store, no cookies. Internal tool, single user.
+- **Application-level cascade deletes** instead of DB-level `ON DELETE CASCADE` — avoids schema migration, and lets us clean up FTS5 index in the same transaction.
+- **htmx fragment responses** — every child-data route (aliases, units, notes, etc.) returns an HTML fragment that htmx swaps into the page. No JSON API needed.
+- **Only one `<script>` in the entire app** — the auto-slug generator on create forms. Everything else is htmx attributes.

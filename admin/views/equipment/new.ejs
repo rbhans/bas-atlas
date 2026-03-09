@@ -1,0 +1,68 @@
+<%- include('../partials/header') %>
+<h1>New Equipment</h1>
+
+<% if (errors.length > 0) { %>
+  <article style="background: var(--pico-del-color); padding: 0.75rem 1rem;">
+    <ul style="margin:0;"><% for (const e of errors) { %><li><%= e %></li><% } %></ul>
+  </article>
+<% } %>
+
+<form method="POST" action="/equipment">
+  <div class="grid">
+    <label>ID
+      <input type="text" name="id" value="<%= values.id || '' %>" required pattern="[a-z0-9-]+">
+    </label>
+    <label>Name
+      <input type="text" name="name" value="<%= values.name || '' %>" required>
+    </label>
+  </div>
+  <div class="grid">
+    <label>Full Name
+      <input type="text" name="full_name" value="<%= values.full_name || '' %>">
+    </label>
+    <label>Abbreviation
+      <input type="text" name="abbreviation" value="<%= values.abbreviation || '' %>">
+    </label>
+  </div>
+  <div class="grid">
+    <label>Category
+      <input type="text" name="category" value="<%= values.category || '' %>" list="cat-list" required>
+      <datalist id="cat-list">
+        <% for (const c of categories) { %><option value="<%= c %>"><% } %>
+      </datalist>
+    </label>
+    <label>Parent Equipment
+      <select name="parent_id">
+        <option value="">None</option>
+        <% for (const eq of allEquip) { %>
+          <option value="<%= eq.id %>" <%= values.parent_id === eq.id ? 'selected' : '' %>><%= eq.name %></option>
+        <% } %>
+      </select>
+    </label>
+  </div>
+  <label>Description
+    <textarea name="description"><%= values.description || '' %></textarea>
+  </label>
+  <div class="grid">
+    <label>Brick Class
+      <input type="text" name="brick" value="<%= values.brick || '' %>">
+    </label>
+    <label>Haystack Tags <small class="muted">(space-separated, "equip" added automatically)</small>
+      <input type="text" name="haystack" value="<%= values.haystack || '' %>">
+    </label>
+  </div>
+  <button type="submit">Create Equipment</button>
+</form>
+
+<script>
+document.querySelector('[name=name]').addEventListener('input', function(e) {
+  const idField = document.querySelector('[name=id]');
+  if (!idField.dataset.manual) {
+    idField.value = e.target.value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  }
+});
+document.querySelector('[name=id]').addEventListener('input', function() {
+  this.dataset.manual = 'true';
+});
+</script>
+<%- include('../partials/footer') %>

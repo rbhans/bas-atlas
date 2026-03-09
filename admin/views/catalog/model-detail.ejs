@@ -1,0 +1,61 @@
+<%- include('../partials/header') %>
+<h1><%= model.name %></h1>
+<p><small class="muted">ID: <%= model.id %></small></p>
+
+<form method="POST" action="/models/<%= model.id %>?_method=PUT">
+  <div class="grid">
+    <label>Name <input type="text" name="name" value="<%= model.name %>" required></label>
+    <label>Slug <input type="text" name="slug" value="<%= model.slug || '' %>"></label>
+  </div>
+  <div class="grid">
+    <label>Brand
+      <select name="brand_id" required>
+        <% for (const b of brands) { %>
+          <option value="<%= b.id %>" <%= model.brand_id === b.id ? 'selected' : '' %>><%= b.name %></option>
+        <% } %>
+      </select>
+    </label>
+    <label>Type
+      <select name="type_id" required>
+        <% for (const t of types) { %>
+          <option value="<%= t.id %>" <%= model.type_id === t.id ? 'selected' : '' %>><%= t.name %></option>
+        <% } %>
+      </select>
+    </label>
+    <label>Status
+      <select name="status">
+        <option value="current" <%= model.status === 'current' ? 'selected' : '' %>>current</option>
+        <option value="discontinued" <%= model.status === 'discontinued' ? 'selected' : '' %>>discontinued</option>
+        <option value="legacy" <%= model.status === 'legacy' ? 'selected' : '' %>>legacy</option>
+      </select>
+    </label>
+  </div>
+  <label>Description <textarea name="description"><%= model.description || '' %></textarea></label>
+  <div class="grid">
+    <label>Manufacturer URL <input type="url" name="manufacturer_url" value="<%= model.manufacturer_url || '' %>"></label>
+    <label>Image URL <input type="url" name="image_url" value="<%= model.image_url || '' %>"></label>
+    <label>Added At <input type="date" name="added_at" value="<%= model.added_at || '' %>"></label>
+  </div>
+  <button type="submit">Save Changes</button>
+</form>
+
+<hr>
+
+<h3>Model Numbers</h3>
+<div id="model-numbers">
+  <%- include('_model_numbers') %>
+</div>
+
+<hr>
+
+<h3>Protocols</h3>
+<div id="model-protocols">
+  <%- include('_protocols') %>
+</div>
+
+<div class="danger-zone">
+  <button class="outline contrast"
+    hx-delete="/models/<%= model.id %>"
+    hx-confirm="Delete this model and all its data?">Delete Model</button>
+</div>
+<%- include('../partials/footer') %>

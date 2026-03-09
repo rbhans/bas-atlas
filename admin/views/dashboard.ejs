@@ -1,0 +1,41 @@
+<%- include('partials/header') %>
+<h1>Dashboard</h1>
+
+<div class="stats-grid">
+  <article>
+    <h2><%= counts.points %></h2>
+    <p>Points</p>
+  </article>
+  <article>
+    <h2><%= counts.equipment %></h2>
+    <p>Equipment</p>
+  </article>
+  <article>
+    <h2><%= counts.brands %></h2>
+    <p>Brands</p>
+  </article>
+  <article>
+    <h2><%= counts.types %></h2>
+    <p>Types</p>
+  </article>
+  <article>
+    <h2><%= counts.models %></h2>
+    <p>Models</p>
+  </article>
+  <article>
+    <h2><%= counts.pointCategories + counts.equipCategories %></h2>
+    <p>Categories</p>
+  </article>
+</div>
+
+<h3>Quick Actions</h3>
+<div class="grid">
+  <a href="/points/new" role="button">New Point</a>
+  <a href="/equipment/new" role="button">New Equipment</a>
+  <a href="/models/new" role="button" class="secondary">New Model</a>
+  <a href="/search" role="button" class="secondary">Search</a>
+  <a href="/export" role="button" class="contrast">Export</a>
+</div>
+
+<p><small class="muted">Last updated: <%= lastUpdated %></small></p>
+<%- include('partials/footer') %>

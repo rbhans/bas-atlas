@@ -1,0 +1,121 @@
+<%- include('../partials/header') %>
+<h1><%= point.name %></h1>
+<p><small class="muted">ID: <%= point.id %></small></p>
+
+<form method="POST" action="/points/<%= point.id %>?_method=PUT">
+  <div class="grid">
+    <label>Name
+      <input type="text" name="name" value="<%= point.name %>" required>
+    </label>
+    <label>Category
+      <input type="text" name="category" value="<%= point.category %>" list="cat-list" required>
+      <datalist id="cat-list">
+        <% for (const c of categories) { %><option value="<%= c %>"><% } %>
+      </datalist>
+    </label>
+  </div>
+  <div class="grid">
+    <label>Subcategory
+      <input type="text" name="subcategory" value="<%= point.subcategory || '' %>">
+    </label>
+    <label>Kind
+      <select name="kind">
+        <option value="Bool" <%= point.kind === 'Bool' ? 'selected' : '' %>>Bool</option>
+        <option value="Number" <%= point.kind === 'Number' ? 'selected' : '' %>>Number</option>
+      </select>
+    </label>
+    <label>Point Function
+      <select name="point_function">
+        <option value="">--</option>
+        <% for (const fn of functions) { %>
+          <option value="<%= fn %>" <%= point.point_function === fn ? 'selected' : '' %>><%= fn %></option>
+        <% } %>
+      </select>
+    </label>
+  </div>
+  <label>Description
+    <textarea name="description" required><%= point.description || '' %></textarea>
+  </label>
+  <div class="grid">
+    <label>Brick Class
+      <input type="text" name="brick" value="<%= point.brick || '' %>">
+    </label>
+    <label>Haystack Tags <small class="muted">(space-separated, "point" added automatically)</small>
+      <input type="text" name="haystack" value="<%= (point.haystack_tag_string || '').split(' ').filter(t => t !== 'point').join(' ') %>">
+    </label>
+  </div>
+  <button type="submit">Save Changes</button>
+</form>
+
+<hr>
+
+<!-- Aliases -->
+<h3>Aliases</h3>
+<div id="point-aliases">
+  <%- include('_aliases') %>
+</div>
+
+<hr>
+
+<!-- Units -->
+<h3>Units</h3>
+<div id="point-units">
+  <%- include('_units') %>
+</div>
+
+<hr>
+
+<!-- States -->
+<h3>States</h3>
+<div id="point-states">
+  <%- include('_states') %>
+</div>
+
+<hr>
+
+<!-- Notes -->
+<h3>Notes</h3>
+<div id="point-notes">
+  <%- include('_notes') %>
+</div>
+
+<hr>
+
+<!-- Related Points -->
+<h3>Related Points</h3>
+<div id="point-related">
+  <%- include('_related') %>
+</div>
+
+<hr>
+
+<!-- Haystack Tags (read-only) -->
+<% if (tags.length > 0) { %>
+<h3>Haystack Tags</h3>
+<div>
+  <% for (const t of tags) { %>
+    <span class="chip"><%= t.tag_name %> <small class="muted">(<%= t.tag_kind %>)</small></span>
+  <% } %>
+</div>
+<hr>
+<% } %>
+
+<!-- Used by Equipment -->
+<% if (usedByEquip.length > 0) { %>
+<h3>Used by Equipment</h3>
+<ul>
+  <% for (const e of usedByEquip) { %>
+    <li><a href="/equipment/<%= e.id %>"><%= e.name %></a></li>
+  <% } %>
+</ul>
+<hr>
+<% } %>
+
+<div class="danger-zone">
+  <button class="outline contrast"
+    hx-delete="/points/<%= point.id %>"
+    hx-confirm="Delete this point and all its data? This cannot be undone.">
+    Delete Point
+  </button>
+</div>
+<%- include('../partials/footer') %>

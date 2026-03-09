@@ -1,0 +1,21 @@
+<ul>
+  <% for (const r of related) { %>
+    <li>
+      <a href="/points/<%= r.id %>"><%= r.name %></a>
+      <button class="outline contrast" style="display:inline; padding:0.1rem 0.3rem; font-size:0.8rem; margin:0;"
+              hx-delete="/points/<%= point.id %>/related"
+              hx-vals='{"related_id":"<%= r.id %>"}'
+              hx-target="#point-related"
+              hx-confirm="Remove related point '<%= r.name %>'?">&times;</button>
+    </li>
+  <% } %>
+  <% if (related.length === 0) { %><li><small class="muted">No related points</small></li><% } %>
+</ul>
+<div>
+  <input type="search" placeholder="Search points to add..."
+         hx-get="/api/points-search"
+         hx-target="#related-search-results"
+         hx-trigger="keyup changed delay:300ms"
+         hx-vals='{"exclude":"<%= related.map(r => r.id).join(',') %>","context_type":"related","context_id":"<%= point.id %>"}'>
+  <div id="related-search-results"></div>
+</div>

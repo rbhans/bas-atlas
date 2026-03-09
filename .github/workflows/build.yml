@@ -45,6 +45,7 @@ jobs:
           test -f dist/catalog/index.json
           test -f dist/catalog/categories.json
           test -f dist/catalog/search-index.json
+          test -f dist/bas-atlas.db
 
           # Validate JSON syntax
           node -e "JSON.parse(require('fs').readFileSync('dist/atlas/index.json'))"

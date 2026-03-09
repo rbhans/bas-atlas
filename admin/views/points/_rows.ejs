@@ -1,0 +1,13 @@
+<% for (const p of points) { %>
+<tr>
+  <td><a href="/points/<%= p.id %>"><%= p.name %></a></td>
+  <td><%= p.category %></td>
+  <td><%= p.kind || '' %></td>
+  <td><%= p.point_function || '' %></td>
+  <td><%= p.alias_count %></td>
+  <td><%= p.equip_count %></td>
+</tr>
+<% } %>
+<% if (points.length === 0) { %>
+<tr><td colspan="6">No points found</td></tr>
+<% } %>

@@ -1,0 +1,32 @@
+<%- include('../partials/header') %>
+<h1>New Brand</h1>
+
+<% if (errors.length > 0) { %>
+  <article style="background: var(--pico-del-color); padding: 0.75rem 1rem;">
+    <ul style="margin:0;"><% for (const e of errors) { %><li><%= e %></li><% } %></ul>
+  </article>
+<% } %>
+
+<form method="POST" action="/brands">
+  <div class="grid">
+    <label>ID <input type="text" name="id" value="<%= values.id || '' %>" required pattern="[a-z0-9-]+"></label>
+    <label>Name <input type="text" name="name" value="<%= values.name || '' %>" required></label>
+  </div>
+  <div class="grid">
+    <label>Slug <input type="text" name="slug" value="<%= values.slug || '' %>"></label>
+    <label>Website <input type="url" name="website" value="<%= values.website || '' %>"></label>
+  </div>
+  <label>Description <textarea name="description"><%= values.description || '' %></textarea></label>
+  <button type="submit">Create Brand</button>
+</form>
+
+<script>
+document.querySelector('[name=name]').addEventListener('input', function(e) {
+  const idField = document.querySelector('[name=id]');
+  if (!idField.dataset.manual) {
+    idField.value = e.target.value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  }
+});
+document.querySelector('[name=id]').addEventListener('input', function() { this.dataset.manual = 'true'; });
+</script>
+<%- include('../partials/footer') %>

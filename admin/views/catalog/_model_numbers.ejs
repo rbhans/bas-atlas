@@ -1,0 +1,16 @@
+<div>
+  <% for (const mn of modelNumbers) { %>
+    <span class="chip">
+      <%= mn.model_number %>
+      <button hx-delete="/models/<%= model.id %>/model-numbers"
+              hx-vals='<%- JSON.stringify({model_number: mn.model_number}) %>'
+              hx-target="#model-numbers"
+              hx-confirm="Remove '<%= mn.model_number %>'?">&times;</button>
+    </span>
+  <% } %>
+  <% if (modelNumbers.length === 0) { %><small class="muted">No model numbers</small><% } %>
+</div>
+<form class="inline-form" hx-post="/models/<%= model.id %>/model-numbers" hx-target="#model-numbers">
+  <input type="text" name="model_number" placeholder="Add model number..." required>
+  <button type="submit">Add</button>
+</form>

@@ -1,0 +1,17 @@
+<ul>
+  <% for (const n of notes) { %>
+    <li>
+      <%= n.note %>
+      <button class="chip outline contrast" style="display:inline; padding:0.1rem 0.3rem; font-size:0.8rem;"
+              hx-delete="/points/<%= point.id %>/notes"
+              hx-vals='<%- JSON.stringify({note: n.note}) %>'
+              hx-target="#point-notes"
+              hx-confirm="Remove this note?">&times;</button>
+    </li>
+  <% } %>
+  <% if (notes.length === 0) { %><li><small class="muted">No notes</small></li><% } %>
+</ul>
+<form class="inline-form" hx-post="/points/<%= point.id %>/notes" hx-target="#point-notes">
+  <input type="text" name="note" placeholder="New note..." required style="flex:1">
+  <button type="submit">Add</button>
+</form>

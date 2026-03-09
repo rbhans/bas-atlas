@@ -1,0 +1,45 @@
+<%- include('../partials/header') %>
+<div style="display:flex; justify-content:space-between; align-items:center;">
+  <h1>Points</h1>
+  <a href="/points/new" role="button">+ New Point</a>
+</div>
+
+<form class="filter-bar" hx-get="/points" hx-target="#points-tbody" hx-push-url="true">
+  <select name="category" hx-get="/points" hx-target="#points-tbody" hx-include="closest form" hx-trigger="change" hx-push-url="true">
+    <option value="">All Categories</option>
+    <% for (const cat of categories) { %>
+      <option value="<%= cat %>" <%= filters.category === cat ? 'selected' : '' %>><%= cat %></option>
+    <% } %>
+  </select>
+  <select name="kind" hx-get="/points" hx-target="#points-tbody" hx-include="closest form" hx-trigger="change" hx-push-url="true">
+    <option value="">All Kinds</option>
+    <option value="Number" <%= filters.kind === 'Number' ? 'selected' : '' %>>Number</option>
+    <option value="Bool" <%= filters.kind === 'Bool' ? 'selected' : '' %>>Bool</option>
+  </select>
+  <select name="point_function" hx-get="/points" hx-target="#points-tbody" hx-include="closest form" hx-trigger="change" hx-push-url="true">
+    <option value="">All Functions</option>
+    <% for (const fn of functions) { %>
+      <option value="<%= fn %>" <%= filters.point_function === fn ? 'selected' : '' %>><%= fn %></option>
+    <% } %>
+  </select>
+  <input type="search" name="q" placeholder="Search points..." value="<%= filters.q || '' %>"
+    hx-get="/points" hx-target="#points-tbody" hx-include="closest form"
+    hx-trigger="keyup changed delay:300ms" hx-push-url="true">
+</form>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Category</th>
+      <th>Kind</th>
+      <th>Function</th>
+      <th>Aliases</th>
+      <th>Equipment</th>
+    </tr>
+  </thead>
+  <tbody id="points-tbody">
+    <%- include('_rows') %>
+  </tbody>
+</table>
+<%- include('../partials/footer') %>

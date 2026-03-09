@@ -8,11 +8,14 @@
     "build": "tsx scripts/build-all.ts",
     "build:atlas": "tsx scripts/build.ts",
     "build:catalog": "tsx scripts/build-catalog.ts",
+    "build:sqlite": "tsx scripts/build-sqlite.ts",
     "validate": "tsx scripts/build-all.ts --validate",
     "test:atlas": "tsx scripts/test-atlas.ts",
     "test:catalog": "tsx scripts/test-catalog.ts",
-    "test": "tsx scripts/build-all.ts && npm run test:atlas && npm run test:catalog",
-    "migrate": "tsx scripts/migrate-csv.ts"
+    "test:sqlite": "tsx scripts/test-sqlite.ts",
+    "test": "tsx scripts/build-all.ts && npm run test:atlas && npm run test:catalog && npm run test:sqlite",
+    "migrate": "tsx scripts/migrate-csv.ts",
+    "admin": "tsx admin/server.ts"
   },
   "repository": {
     "type": "git",
@@ -30,9 +33,18 @@
   "author": "BASidekick",
   "license": "MIT",
   "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/method-override": "^3.0.0",
     "@types/node": "^22.10.0",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",
     "yaml": "^2.6.0"
+  },
+  "dependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "better-sqlite3": "^12.6.2",
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "method-override": "^3.0.0"
   }
 }

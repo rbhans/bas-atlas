@@ -1,0 +1,61 @@
+<%- include('../partials/header') %>
+<h1>New Model</h1>
+
+<% if (errors.length > 0) { %>
+  <article style="background: var(--pico-del-color); padding: 0.75rem 1rem;">
+    <ul style="margin:0;"><% for (const e of errors) { %><li><%= e %></li><% } %></ul>
+  </article>
+<% } %>
+
+<form method="POST" action="/models">
+  <div class="grid">
+    <label>ID <input type="text" name="id" value="<%= values.id || '' %>" required pattern="[a-z0-9-]+"></label>
+    <label>Name <input type="text" name="name" value="<%= values.name || '' %>" required></label>
+  </div>
+  <div class="grid">
+    <label>Brand
+      <select name="brand_id" required>
+        <option value="">Select...</option>
+        <% for (const b of brands) { %>
+          <option value="<%= b.id %>" <%= values.brand_id === b.id ? 'selected' : '' %>><%= b.name %></option>
+        <% } %>
+      </select>
+    </label>
+    <label>Type
+      <select name="type_id" required>
+        <option value="">Select...</option>
+        <% for (const t of types) { %>
+          <option value="<%= t.id %>" <%= values.type_id === t.id ? 'selected' : '' %>><%= t.name %></option>
+        <% } %>
+      </select>
+    </label>
+  </div>
+  <div class="grid">
+    <label>Slug <input type="text" name="slug" value="<%= values.slug || '' %>"></label>
+    <label>Status
+      <select name="status">
+        <option value="current" <%= values.status === 'current' ? 'selected' : '' %>>current</option>
+        <option value="discontinued" <%= values.status === 'discontinued' ? 'selected' : '' %>>discontinued</option>
+        <option value="legacy" <%= values.status === 'legacy' ? 'selected' : '' %>>legacy</option>
+      </select>
+    </label>
+  </div>
+  <label>Description <textarea name="description"><%= values.description || '' %></textarea></label>
+  <div class="grid">
+    <label>Manufacturer URL <input type="url" name="manufacturer_url" value="<%= values.manufacturer_url || '' %>"></label>
+    <label>Image URL <input type="url" name="image_url" value="<%= values.image_url || '' %>"></label>
+    <label>Added At <input type="date" name="added_at" value="<%= values.added_at || '' %>"></label>
+  </div>
+  <button type="submit">Create Model</button>
+</form>
+
+<script>
+document.querySelector('[name=name]').addEventListener('input', function(e) {
+  const idField = document.querySelector('[name=id]');
+  if (!idField.dataset.manual) {
+    idField.value = e.target.value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  }
+});
+document.querySelector('[name=id]').addEventListener('input', function() { this.dataset.manual = 'true'; });
+</script>
+<%- include('../partials/footer') %>

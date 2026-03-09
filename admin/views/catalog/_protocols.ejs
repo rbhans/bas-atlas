@@ -1,0 +1,16 @@
+<div>
+  <% for (const p of protocols) { %>
+    <span class="chip">
+      <%= p.protocol %>
+      <button hx-delete="/models/<%= model.id %>/protocols"
+              hx-vals='<%- JSON.stringify({protocol: p.protocol}) %>'
+              hx-target="#model-protocols"
+              hx-confirm="Remove '<%= p.protocol %>'?">&times;</button>
+    </span>
+  <% } %>
+  <% if (protocols.length === 0) { %><small class="muted">No protocols</small><% } %>
+</div>
+<form class="inline-form" hx-post="/models/<%= model.id %>/protocols" hx-target="#model-protocols">
+  <input type="text" name="protocol" placeholder="Add protocol..." required>
+  <button type="submit">Add</button>
+</form>

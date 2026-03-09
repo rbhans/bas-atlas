@@ -21,3 +21,6 @@ runScript("build:atlas");
 
 console.log("\nRunning catalog build...\n");
 runScript("build:catalog");
+
+console.log("\nRunning SQLite build...\n");
+runScript("build:sqlite");

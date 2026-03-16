@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "schneider-electric-se8350",
+    "brand": "schneider-electric",
+    "type": "thermostats",
+    "name": "SE8350",
+    "slug": "se8350",
+    "model_numbers": ["SE8350U0B11"],
+    "protocols": ["BACnet MS/TP"],
+    "status": "current",
+    "description": "Low-voltage room controller with LCD display for fan coil and heat pump zone control.",
+    "manufacturer_url": "https://www.se.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

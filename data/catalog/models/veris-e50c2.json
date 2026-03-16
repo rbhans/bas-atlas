@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "veris-e50c2",
+    "brand": "veris",
+    "type": "meters",
+    "name": "E50C2",
+    "slug": "e50c2",
+    "model_numbers": ["E50C2"],
+    "protocols": ["BACnet MS/TP", "Modbus"],
+    "status": "current",
+    "description": "DIN-rail power meter with revenue-grade accuracy for energy monitoring and submetering applications.",
+    "manufacturer_url": "https://www.veris.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "siemens-mxg461",
+    "brand": "siemens",
+    "type": "valve-actuators",
+    "name": "MXG461",
+    "slug": "mxg461",
+    "model_numbers": ["MXG461"],
+    "protocols": [],
+    "status": "current",
+    "description": "Magnetic modulating control valve with integrated actuator for chilled and hot water hydronic systems.",
+    "manufacturer_url": "https://www.siemens.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "automated-logic-me812u",
+    "brand": "automated-logic",
+    "type": "network-controllers",
+    "name": "ME812u",
+    "slug": "me812u",
+    "model_numbers": ["ME812u"],
+    "protocols": ["BACnet/IP", "BACnet MS/TP"],
+    "status": "current",
+    "description": "Multi-equipment network controller capable of managing multiple downstream BACnet devices.",
+    "manufacturer_url": "https://www.automatedlogic.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

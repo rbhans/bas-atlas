@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "distech-controls-ecb-ptu",
+    "brand": "distech-controls",
+    "type": "unitary-controllers",
+    "name": "ECB-PTU",
+    "slug": "ecb-ptu",
+    "model_numbers": ["ECB-PTU"],
+    "protocols": ["BACnet MS/TP"],
+    "status": "current",
+    "description": "Programmable BACnet terminal unit controller for VAV, fan coil, and heat pump applications.",
+    "manufacturer_url": "https://www.distech-controls.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

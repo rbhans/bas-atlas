@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "delta-controls-o3-din-s",
+    "brand": "delta-controls",
+    "type": "network-controllers",
+    "name": "O3-DIN-S",
+    "slug": "o3-din-s",
+    "model_numbers": ["O3-DIN-S"],
+    "protocols": ["BACnet/IP", "BACnet MS/TP"],
+    "status": "current",
+    "description": "DIN-rail mounted BACnet network controller for managing downstream MS/TP devices.",
+    "manufacturer_url": "https://www.deltacontrols.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

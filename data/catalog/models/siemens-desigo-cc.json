@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "siemens-desigo-cc",
+    "brand": "siemens",
+    "type": "software",
+    "name": "Desigo CC",
+    "slug": "desigo-cc",
+    "model_numbers": ["Desigo CC"],
+    "protocols": ["BACnet/IP", "BACnet MS/TP", "Modbus", "KNX"],
+    "status": "current",
+    "description": "Integrated building management platform for HVAC, fire safety, security, and lighting system control.",
+    "manufacturer_url": "https://www.siemens.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

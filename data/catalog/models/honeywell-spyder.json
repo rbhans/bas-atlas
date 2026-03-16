@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "honeywell-spyder",
+    "brand": "honeywell",
+    "type": "unitary-controllers",
+    "name": "Spyder",
+    "slug": "spyder",
+    "model_numbers": ["PUB6438S", "PVB6436A"],
+    "protocols": ["BACnet MS/TP", "LON"],
+    "status": "current",
+    "description": "Programmable unitary controller for rooftop units, air handlers, and central plant equipment.",
+    "manufacturer_url": "https://www.honeywell.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

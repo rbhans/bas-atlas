@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "automated-logic-webctrl",
+    "brand": "automated-logic",
+    "type": "software",
+    "name": "WebCTRL",
+    "slug": "webctrl",
+    "model_numbers": ["WebCTRL"],
+    "protocols": ["BACnet/IP", "BACnet MS/TP"],
+    "status": "current",
+    "description": "Web-based building automation system software platform for HVAC control and energy management.",
+    "manufacturer_url": "https://www.automatedlogic.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

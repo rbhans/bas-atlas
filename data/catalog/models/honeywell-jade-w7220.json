@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "honeywell-jade-w7220",
+    "brand": "honeywell",
+    "type": "vav-controllers",
+    "name": "JADE W7220",
+    "slug": "jade-w7220",
+    "model_numbers": ["W7220A1000", "W7220B1024"],
+    "protocols": ["LON", "BACnet MS/TP"],
+    "status": "current",
+    "description": "Economizer controller module for rooftop unit airside economizer and ventilation control.",
+    "manufacturer_url": "https://www.honeywell.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

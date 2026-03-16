@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "siemens-pxc4",
+    "brand": "siemens",
+    "type": "supervisory-controllers",
+    "name": "PXC4",
+    "slug": "pxc4",
+    "model_numbers": ["PXC4.E16"],
+    "protocols": ["BACnet/IP", "BACnet MS/TP", "Modbus"],
+    "status": "current",
+    "description": "Compact automation station for mid-size buildings with built-in web server and BACnet routing.",
+    "manufacturer_url": "https://www.siemens.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "distech-controls-ec-bos-8",
+    "brand": "distech-controls",
+    "type": "supervisory-controllers",
+    "name": "EC-BOS-8",
+    "slug": "ec-bos-8",
+    "model_numbers": ["EC-BOS-8"],
+    "protocols": ["BACnet/IP", "BACnet MS/TP", "Modbus"],
+    "status": "current",
+    "description": "Niagara-based supervisory controller for integration and management of BACnet and Modbus field devices.",
+    "manufacturer_url": "https://www.distech-controls.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

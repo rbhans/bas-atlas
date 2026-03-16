@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "delta-controls-ebmgr",
+    "brand": "delta-controls",
+    "type": "supervisory-controllers",
+    "name": "eBMGR",
+    "slug": "ebmgr",
+    "model_numbers": ["eBMGR"],
+    "protocols": ["BACnet/IP", "BACnet MS/TP"],
+    "status": "current",
+    "description": "Enterprise building manager providing centralized supervision and scheduling across multiple BACnet sites.",
+    "manufacturer_url": "https://www.deltacontrols.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

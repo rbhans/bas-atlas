@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "johnson-controls-fec",
+    "brand": "johnson-controls",
+    "type": "unitary-controllers",
+    "name": "FEC",
+    "slug": "fec",
+    "model_numbers": ["FEC2611", "FEC2621"],
+    "protocols": ["BACnet MS/TP"],
+    "status": "current",
+    "description": "Field equipment controller for AHU, rooftop, and central plant equipment sequences.",
+    "manufacturer_url": "https://www.johnsoncontrols.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "schneider-electric-ecostruxure",
+    "brand": "schneider-electric",
+    "type": "software",
+    "name": "EcoStruxure Building Operation",
+    "slug": "ecostruxure",
+    "model_numbers": ["EcoStruxure"],
+    "protocols": ["BACnet/IP", "BACnet MS/TP", "LON", "Modbus"],
+    "status": "current",
+    "description": "Enterprise building management software platform for HVAC, lighting, and energy system integration.",
+    "manufacturer_url": "https://www.se.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "belimo-22adp-54t",
+    "brand": "belimo",
+    "type": "pressure-sensors",
+    "name": "22ADP-54T",
+    "slug": "22adp-54t",
+    "model_numbers": ["22ADP-54T"],
+    "protocols": [],
+    "status": "current",
+    "description": "Differential air duct pressure sensor with selectable ranges and 4-20mA or 0-10VDC output.",
+    "manufacturer_url": "https://www.belimo.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

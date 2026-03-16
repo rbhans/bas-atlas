@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "veris-px",
+    "brand": "veris",
+    "type": "pressure-sensors",
+    "name": "PX",
+    "slug": "px",
+    "model_numbers": ["PX"],
+    "protocols": [],
+    "status": "current",
+    "description": "Differential pressure transducer with field-selectable ranges for duct and building static pressure monitoring.",
+    "manufacturer_url": "https://www.veris.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

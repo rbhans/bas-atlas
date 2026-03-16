@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "automated-logic-zn551",
+    "brand": "automated-logic",
+    "type": "zone-controllers",
+    "name": "ZN551",
+    "slug": "zn551",
+    "model_numbers": ["ZN551"],
+    "protocols": ["BACnet MS/TP"],
+    "status": "current",
+    "description": "Zone controller for single-zone VAV and fan coil unit applications.",
+    "manufacturer_url": "https://www.automatedlogic.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

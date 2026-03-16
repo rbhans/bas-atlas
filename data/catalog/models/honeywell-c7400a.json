@@ -1,0 +1,16 @@
+{
+  "model": {
+    "id": "honeywell-c7400a",
+    "brand": "honeywell",
+    "type": "air-quality-sensors",
+    "name": "C7400A",
+    "slug": "c7400a",
+    "model_numbers": ["C7400A1004"],
+    "protocols": [],
+    "status": "current",
+    "description": "Enthalpy return air sensor for indoor air quality monitoring with 4-20mA output.",
+    "manufacturer_url": "https://www.honeywell.com",
+    "image_url": "",
+    "added_at": "2026-03-16"
+  }
+}

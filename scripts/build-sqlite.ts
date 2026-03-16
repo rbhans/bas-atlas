@@ -337,6 +337,13 @@ CREATE TABLE model_protocols (
   protocol TEXT NOT NULL
 );
 
+-- Model ↔ Equipment (which equipment a model is used with)
+CREATE TABLE model_equipment (
+  model_id TEXT NOT NULL REFERENCES models(id),
+  equipment_id TEXT NOT NULL REFERENCES equipment(id),
+  PRIMARY KEY (model_id, equipment_id)
+);
+
 -- FTS5 search index
 CREATE VIRTUAL TABLE search_index USING fts5(
   entry_id,
@@ -361,6 +368,8 @@ CREATE INDEX idx_equipment_typical_points_point ON equipment_typical_points(poin
 CREATE INDEX idx_equipment_typical_points_equip ON equipment_typical_points(equipment_id);
 CREATE INDEX idx_models_brand ON models(brand_id);
 CREATE INDEX idx_models_type ON models(type_id);
+CREATE INDEX idx_model_equipment_model ON model_equipment(model_id);
+CREATE INDEX idx_model_equipment_equip ON model_equipment(equipment_id);
 CREATE INDEX idx_point_aliases_alias ON point_aliases(alias);
 CREATE INDEX idx_equipment_aliases_alias ON equipment_aliases(alias);
 `;
@@ -776,6 +785,133 @@ function build() {
         }
       }
     }
+
+    // Model ↔ Equipment mapping (based on catalog type → equipment)
+    const typeToEquipment: Record<string, string[]> = {
+      "vav-controllers": [
+        "variable-air-volume-box",
+        "constant-air-volume-box",
+        "parallel-fan-powered-box",
+        "series-fan-powered-box",
+      ],
+      "unitary-controllers": [
+        "air-handling-unit",
+        "rooftop-unit",
+        "makeup-air-unit",
+        "dedicated-outdoor-air-system",
+        "fan-coil-unit",
+        "unit-ventilator",
+        "computer-room-air-conditioner",
+        "computer-room-air-handler",
+      ],
+      "zone-controllers": [
+        "variable-air-volume-box",
+        "fan-coil-unit",
+        "chilled-beam",
+        "radiant-panel",
+        "baseboard-heater",
+      ],
+      "thermostats": [
+        "fan-coil-unit",
+        "unit-ventilator",
+        "rooftop-unit",
+        "packaged-terminal-air-conditioner",
+        "packaged-terminal-heat-pump",
+        "water-source-heat-pump",
+        "ductless-mini-split",
+      ],
+      "temperature-sensors": [
+        "air-handling-unit",
+        "rooftop-unit",
+        "chiller",
+        "boiler",
+        "cooling-tower",
+        "fan-coil-unit",
+        "unit-ventilator",
+        "variable-air-volume-box",
+      ],
+      "valve-actuators": [
+        "air-handling-unit",
+        "fan-coil-unit",
+        "chiller",
+        "boiler",
+        "unit-ventilator",
+        "chilled-beam",
+        "heat-exchanger",
+      ],
+      "damper-actuators": [
+        "air-handling-unit",
+        "rooftop-unit",
+        "variable-air-volume-box",
+        "dedicated-outdoor-air-system",
+        "makeup-air-unit",
+        "energy-recovery-ventilator",
+        "parallel-fan-powered-box",
+        "series-fan-powered-box",
+        "constant-air-volume-box",
+      ],
+      "pressure-sensors": [
+        "air-handling-unit",
+        "rooftop-unit",
+        "variable-air-volume-box",
+        "chiller",
+        "boiler",
+      ],
+      "humidity-sensors": [
+        "air-handling-unit",
+        "rooftop-unit",
+        "dedicated-outdoor-air-system",
+        "energy-recovery-ventilator",
+      ],
+      "co2-sensors": [
+        "air-handling-unit",
+        "variable-air-volume-box",
+        "rooftop-unit",
+        "dedicated-outdoor-air-system",
+      ],
+      "air-quality-sensors": [
+        "air-handling-unit",
+        "rooftop-unit",
+        "dedicated-outdoor-air-system",
+      ],
+      "meters": [
+        "electric-meter",
+        "btu-meter",
+        "natural-gas-meter",
+        "water-meter",
+        "steam-meter",
+      ],
+      "vfds-drives": [
+        "variable-frequency-drive",
+        "pump",
+        "exhaust-fan",
+        "cooling-tower",
+      ],
+      "occupancy-sensors": [
+        "variable-air-volume-box",
+        "rooftop-unit",
+        "fan-coil-unit",
+      ],
+    };
+
+    const equipIds = new Set(equipment.map((e) => e.id));
+    const insertModelEquip = db.prepare(
+      `INSERT OR IGNORE INTO model_equipment (model_id, equipment_id) VALUES (?, ?)`,
+    );
+    let modelEquipCount = 0;
+
+    for (const m of models) {
+      const equipList = typeToEquipment[m.type] || [];
+      for (const eqId of equipList) {
+        if (equipIds.has(eqId)) {
+          insertModelEquip.run(m.id, eqId);
+          modelEquipCount++;
+        }
+      }
+    }
+    console.log(
+      `  Linked ${modelEquipCount} model↔equipment relationships`,
+    );
 
     // FTS search index
     const insertSearch = db.prepare(`

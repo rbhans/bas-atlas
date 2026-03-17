@@ -19,7 +19,8 @@ const overnight = args.includes("--overnight");
 const verifyOnly = args.includes("--verify-only");
 const targetArg = args.find((a) => a.startsWith("--target="));
 const target = targetArg?.split("=")[1] as string | undefined;
-const maxIterations = overnight ? Infinity : 1;
+const iterArg = args.find((a) => a.startsWith("--iterations="));
+const maxIterations = iterArg ? parseInt(iterArg.split("=")[1], 10) : overnight ? Infinity : 1;
 
 // --- Logging ---
 

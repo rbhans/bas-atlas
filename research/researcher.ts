@@ -1,4 +1,4 @@
-import { execSync } from "child_process";
+import { spawnSync } from "child_process";
 import { chromium, type Browser, type Page } from "playwright";
 import fs from "fs";
 import path from "path";
@@ -101,7 +101,7 @@ async function scrapePage(url: string, timeoutMs = 15000): Promise<string> {
         document.querySelector("#content") ||
         document.querySelector(".content") ||
         document.body;
-      return main?.innerText?.slice(0, 15000) || "";
+      return main?.innerText?.slice(0, 5000) || "";
     });
     return content;
   } catch (e) {
@@ -113,7 +113,7 @@ async function scrapePage(url: string, timeoutMs = 15000): Promise<string> {
 
 async function scrapeMultiple(
   urls: string[],
-  maxPages = 10
+  maxPages = 3
 ): Promise<{ url: string; content: string }[]> {
   const results: { url: string; content: string }[] = [];
   for (const url of urls.slice(0, maxPages)) {
@@ -144,7 +144,7 @@ function getCurrentData(
           .all() as Record<string, unknown>[];
         return {
           summary: `${brands.length} brands, ${models.length} models`,
-          details: JSON.stringify({ brands, models }, null, 2).slice(0, 8000),
+          details: JSON.stringify({ brands, models }, null, 2).slice(0, 4000),
         };
       }
       case "models": {
@@ -167,9 +167,12 @@ function getCurrentData(
              JOIN models m ON m.id = mp.model_id WHERE m.brand_id = ?`
           )
           .all(brandId) as Record<string, unknown>[];
+        const equipment = db
+          .prepare("SELECT id, name, category FROM equipment ORDER BY category, name")
+          .all() as Record<string, unknown>[];
         return {
           summary: `Brand: ${brand?.name}, ${models.length} models`,
-          details: JSON.stringify({ brand, models, types, protocols }, null, 2).slice(0, 8000),
+          details: JSON.stringify({ brand, models, types, protocols, equipment }, null, 2).slice(0, 6000),
         };
       }
       case "equipment": {
@@ -181,7 +184,7 @@ function getCurrentData(
           .all() as Record<string, unknown>[];
         return {
           summary: `${equipment.length} equipment types, ${subtypes.length} subtypes`,
-          details: JSON.stringify({ equipment, subtypes }, null, 2).slice(0, 8000),
+          details: JSON.stringify({ equipment, subtypes }, null, 2).slice(0, 4000),
         };
       }
       case "points": {
@@ -253,24 +256,24 @@ function loadPrompt(category: string): string {
 // --- Claude CLI ---
 
 async function callClaude(prompt: string): Promise<string> {
-  // Write prompt to temp file to avoid shell escaping issues
-  const tmpFile = path.join(process.cwd(), "research", ".prompt-tmp.txt");
-  fs.writeFileSync(tmpFile, prompt);
-  try {
-    const model = process.env.RESEARCH_MODEL || "sonnet";
-    const result = execSync(`cat "${tmpFile}" | claude -p --model ${model} --output-format text`, {
-      encoding: "utf-8",
-      timeout: 120000, // 2 min
-      maxBuffer: 10 * 1024 * 1024,
-    });
-    return result;
-  } catch (e) {
-    throw new Error(
-      `Claude CLI failed: ${e instanceof Error ? e.message : String(e)}`
-    );
-  } finally {
-    if (fs.existsSync(tmpFile)) fs.unlinkSync(tmpFile);
+  const model = process.env.RESEARCH_MODEL || "sonnet";
+  console.log(`[researcher] Prompt size: ${(prompt.length / 1024).toFixed(1)}KB, model: ${model}`);
+
+  // Use spawnSync with direct stdin to avoid shell pipe buffering issues
+  const result = spawnSync("claude", ["-p", "--model", model, "--output-format", "text", "--tools", ""], {
+    input: prompt,
+    encoding: "utf-8",
+    timeout: 300000, // 5 min
+    maxBuffer: 10 * 1024 * 1024,
+  });
+
+  if (result.error) {
+    throw new Error(`Claude CLI failed: ${result.error.message}`);
   }
+  if (result.status !== 0) {
+    throw new Error(`Claude CLI exited with code ${result.status}: ${result.stderr?.slice(0, 500)}`);
+  }
+  return result.stdout;
 }
 
 function parseClaudeResponse(response: string): {
@@ -302,6 +305,7 @@ function parseClaudeResponse(response: string): {
       }
     }
     console.error("[researcher] Failed to parse Claude response as JSON");
+    console.error("[researcher] Response preview:", response.slice(0, 1000));
     return { apply: [], review: [] };
   }
 }

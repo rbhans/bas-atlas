@@ -47,7 +47,7 @@ model_equipment (model_id, equipment_id)
    - Include all model numbers/part numbers you can verify
    - List all supported protocols
    - Set correct `status` — if a product page exists and shows current availability, it's `current`; if it appears only in legacy/archive sections, it's `legacy`
-   - Link to equipment types the model serves via `model_equipment`
+   - **IMPORTANT: Every new model MUST include `model_equipment` INSERT statements** linking it to the equipment types it controls or serves. For example, a VAV controller should link to `variable-air-volume-box`, an AHU controller to `air-handling-unit`, etc. Use equipment IDs from the current data.
    - `manufacturer_url` should be a direct link to the product page
 5. **Model numbers matter.** BAS technicians search by exact model numbers. Include all common variations and ordering codes.
 6. **Protocols matter.** A controller supporting BACnet IP and BACnet MSTP should have both listed separately.

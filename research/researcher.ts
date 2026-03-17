@@ -1,4 +1,4 @@
-import Anthropic from "@anthropic-ai/sdk";
+import { execSync } from "child_process";
 import { chromium, type Browser, type Page } from "playwright";
 import fs from "fs";
 import path from "path";
@@ -250,17 +250,26 @@ function loadPrompt(category: string): string {
   return "You are a BAS (Building Automation Systems) data expert. Output valid SQL.";
 }
 
-// --- Claude API ---
+// --- Claude CLI ---
 
 async function callClaude(prompt: string): Promise<string> {
-  const client = new Anthropic();
-  const message = await client.messages.create({
-    model: "claude-sonnet-4-20250514",
-    max_tokens: 8192,
-    messages: [{ role: "user", content: prompt }],
-  });
-  const textBlock = message.content.find((b) => b.type === "text");
-  return textBlock?.text || "";
+  // Write prompt to temp file to avoid shell escaping issues
+  const tmpFile = path.join(process.cwd(), "research", ".prompt-tmp.txt");
+  fs.writeFileSync(tmpFile, prompt);
+  try {
+    const result = execSync(`cat "${tmpFile}" | claude -p --output-format text`, {
+      encoding: "utf-8",
+      timeout: 120000, // 2 min
+      maxBuffer: 10 * 1024 * 1024,
+    });
+    return result;
+  } catch (e) {
+    throw new Error(
+      `Claude CLI failed: ${e instanceof Error ? e.message : String(e)}`
+    );
+  } finally {
+    if (fs.existsSync(tmpFile)) fs.unlinkSync(tmpFile);
+  }
 }
 
 function parseClaudeResponse(response: string): {

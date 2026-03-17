@@ -15,7 +15,11 @@
     "test:sqlite": "tsx scripts/test-sqlite.ts",
     "test": "tsx scripts/build-all.ts && npm run test:atlas && npm run test:catalog && npm run test:sqlite",
     "migrate": "tsx scripts/migrate-csv.ts",
-    "admin": "tsx admin/server.ts"
+    "admin": "tsx admin/server.ts",
+    "research": "tsx research/runner.ts",
+    "research:overnight": "tsx research/runner.ts --overnight",
+    "research:verify": "tsx research/runner.ts --verify-only",
+    "research:score": "tsx -e \"import { score, printScore } from './research/scorer.ts'; printScore(score());\""
   },
   "repository": {
     "type": "git",
@@ -41,10 +45,12 @@
     "yaml": "^2.6.0"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.79.0",
     "@types/better-sqlite3": "^7.6.13",
     "better-sqlite3": "^12.6.2",
     "ejs": "^5.0.1",
     "express": "^5.2.1",
-    "method-override": "^3.0.0"
+    "method-override": "^3.0.0",
+    "playwright": "^1.58.2"
   }
 }

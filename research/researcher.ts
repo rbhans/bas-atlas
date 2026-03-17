@@ -257,7 +257,8 @@ async function callClaude(prompt: string): Promise<string> {
   const tmpFile = path.join(process.cwd(), "research", ".prompt-tmp.txt");
   fs.writeFileSync(tmpFile, prompt);
   try {
-    const result = execSync(`cat "${tmpFile}" | claude -p --output-format text`, {
+    const model = process.env.RESEARCH_MODEL || "sonnet";
+    const result = execSync(`cat "${tmpFile}" | claude -p --model ${model} --output-format text`, {
       encoding: "utf-8",
       timeout: 120000, // 2 min
       maxBuffer: 10 * 1024 * 1024,

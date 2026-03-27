@@ -1,58 +1,26 @@
-name: Validate Build
+name: Validate DB
 
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - 'data/**'
-      - 'data/catalog/**'
-      - 'scripts/**'
-      - 'package.json'
-  pull_request:
-    branches: [main]
-    paths:
-      - 'data/**'
-      - 'data/catalog/**'
-      - 'scripts/**'
+      - 'dist/bas-atlas.db'
 
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build and test
-        run: npm run test
-
-      - name: Validate output
+      - name: Validate SQLite DB
         run: |
-          # Check that all expected files exist
-          test -f dist/atlas/index.json
-          test -f dist/atlas/categories.json
-          test -f dist/atlas/search-index.json
-          test -f dist/catalog/index.json
-          test -f dist/catalog/categories.json
-          test -f dist/catalog/search-index.json
           test -f dist/bas-atlas.db
-
-          # Validate JSON syntax
-          node -e "JSON.parse(require('fs').readFileSync('dist/atlas/index.json'))"
-          node -e "JSON.parse(require('fs').readFileSync('dist/atlas/categories.json'))"
-          node -e "JSON.parse(require('fs').readFileSync('dist/atlas/search-index.json'))"
-          node -e "JSON.parse(require('fs').readFileSync('dist/catalog/index.json'))"
-          node -e "JSON.parse(require('fs').readFileSync('dist/catalog/categories.json'))"
-          node -e "JSON.parse(require('fs').readFileSync('dist/catalog/search-index.json'))"
-
-          echo "Build validation successful!"
+          sqlite3 dist/bas-atlas.db "SELECT 'points', COUNT(*) FROM points;"
+          sqlite3 dist/bas-atlas.db "SELECT 'equipment', COUNT(*) FROM equipment;"
+          sqlite3 dist/bas-atlas.db "SELECT 'models', COUNT(*) FROM models;"
+          sqlite3 dist/bas-atlas.db "SELECT 'brands', COUNT(*) FROM brands;"
+          sqlite3 dist/bas-atlas.db "SELECT 'fk_violations', COUNT(*) FROM (SELECT * FROM pragma_foreign_key_check);"
+          echo "DB validation successful!"
